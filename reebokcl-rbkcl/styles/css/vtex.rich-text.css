@@ -1,0 +1,149 @@
+:global(.vtex-rich-text-0-x-paragraph--guia-tallas)::before {
+  content: url("https://reebokcl.vteximg.com.br/arquivos/icons8-regla-24.png");
+  font-size: 14px;
+}
+:global(.vtex-rich-text-0-x-paragraph--guia-tallas) {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--subtitle-text-promocion) {
+  color: #fff;
+}
+
+@media (max-width: 40rem) {
+  :global(.vtex-rich-text-0-x-wrapper--rich-text-shelf-productos-destacados)
+    :global(.vtex-rich-text-0-x-heading-level-2) {
+    font-size: 18.5px !important;
+  }
+}
+
+/* banner principal */
+.paragraph--titulo-rebook-tunes,
+.paragraph--titulo-2x1 {
+  color: #ffffff;
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  margin: 0px;
+}
+.paragraph--body-rebook-tunes {
+  color: #121212;
+  font-family: "NeuePlak-Regular";
+}
+.paragraph--titulo-rebook-tunes:hover,
+.paragraph--titulo-2x1:hover {
+  cursor: default;
+}
+.paragraph--body-rebook-tunes:hover {
+  cursor: default;
+}
+
+@media screen and (min-width: 640px) {
+  .paragraph--titulo-rebook-tunes {
+    font-size: calc(0.1em + 1.7vw);
+    line-height: 1 !important;
+  }
+
+  .paragraph--body-rebook-tunes {
+    font-size: calc(0.1em + 1.1vw);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 639.99px) {
+  .paragraph--titulo-rebook-tunes {
+    font-size: calc(0.3em + 2vw);
+    line-height: normal;
+  }
+  .paragraph--body-rebook-tunes {
+    margin-bottom: 0px;
+  }
+}
+
+/* fn. banner principal */
+
+/*Tiendas oficiales*/
+.tableTh--landing_sitios_oficiales {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.tableTd--landing_sitios_oficiales {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.link--landing_inst_content_text {
+  color: #121212;
+  text-decoration: none;
+  font-weight: 700;
+  word-break: break-all;
+}
+.container--landing_inst_content_sublist_nuestras-tiendas-landing {
+  text-indent: 8%;
+}
+.wrapper--landing_inst_content_sublist_nuestras-tiendas-landing {
+  width: 100%;
+}
+.headingLevel3--landing_inst_content_text {
+  font-weight: 100;
+}
+.headingLevel2--home-classics-titulo-tile {
+  text-align: left !important;
+}
+@media screen and (max-width: 40em) {
+  .wrapper--landing_sitios_oficiales {
+    overflow: scroll;
+  }
+}
+.link--pie-rebook-findetemporada {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container--pie-rebook-findetemporada {
+  margin-top: -3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--body-rebook-tunes-tiny {
+  color: #ffffff;
+  font-family: "NeuePlak-WideRegular";
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+/*Sticky banner*/
+.link--desktop-header-descuento,
+.paragraph--desktop-header-descuento-282 {
+  justify-content: center;
+  font-family: NeuePlak-Regular;
+  color: #fff !important;
+  font-weight: 800;
+  font-size: 0.8rem !important;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/**/
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-promocion) {
+  color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--text-promocion)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4--subtitle-text-promocion) {
+  margin-top: 16px;
+  color: #FFFFFF;
+}
+:global(.vtex-rich-text-0-x-paragraph--not_found_txt) {
+  margin: 0rem 0rem .5rem !important;
+}

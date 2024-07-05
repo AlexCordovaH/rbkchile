@@ -1,0 +1,55 @@
+{
+    "custom-banner#sientete-unica": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/DIA-DELAMUJER.jpg",
+            "phoneBgImageUrl": "/arquivos/MDIADELAMUJER.jpg",
+            "headlines": [{
+                    "type": "headline",
+                    "text": "ERES ÚNICA",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cWhite",
+                        "tablet": "banner-headline-bottom mr2 cWhite",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Demuestra tu estilo y tu energía",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "con el outfit perfecto para ti",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [{
+                    "label": "COMPRAR",
+                    "link": "/MUJER",
+                    "sx": {
+                        "desktop": "mt2 fs80 mr1",
+                        "tablet": "mt5 fs70",
+                        "phone": "mt5 mr17 fs70"
+                    }
+                }],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t38 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t50 tac"
+            }
+        }
+    }
+}

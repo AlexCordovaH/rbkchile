@@ -1,0 +1,892 @@
+{
+  //?---- Landing terminos legales promociones(tclp)
+  "store.custom#terminos-legales-promociones": {
+    "blocks": ["flex-layout.row#landing-tclp-wrapper"]
+  },
+  //*---- Layout ----*//
+  "flex-layout.row#landing-tclp-wrapper": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "landing_institucional_wrapper"
+    },
+    "children": [
+      "flex-layout.col#landing-tclp-menu",
+      "flex-layout.col#landing-tclp-content"
+    ]
+  },
+  "flex-layout.col#landing-tclp-menu": {
+    "props": {
+      "blockClass": "landing_inst_wrapper_menu",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["vtex.menu@2.x:menu#desktop-tlp-servicio-al-cliente"]
+  },
+  "flex-layout.col#landing-tclp-content": {
+    "props": {
+      "blockClass": "landing_inst_content"
+    },
+    "children": [
+      "rich-text#tclp-02-title",
+      //? 1. Generales:
+      "rich-text#tclp-01-p2-02",
+      //? 2. Organizador de la promoción:
+      "rich-text#tclp-01-p3-2",
+      //? 3. Participantes:
+      "rich-text#tclp-01-p5",
+      //? 4. Vigencia
+      "rich-text#tclp-01-vigencia-01",
+      //? 5. TIENDAS QUE APLICAN:
+      "rich-text#tclp-01-00",
+      //? 6.	MECÁNICA
+      "rich-text#tclp-01-p7",
+      // Entrega
+      "rich-text#tclp-01-p71",
+      //? 8. EXCLUSIONES:
+      "rich-text#tclp-01-p8",
+      //? 9. OTROS:
+      "rich-text#tclp-01-p9",
+      //? 9. LEGISLACIÓN APLICABLE.
+      "rich-text#tclp-01-p10",
+      // "rich-text#tclp-01-p11"
+
+      "rich-text#tclp-01-p17",
+      "rich-text#TyC-mothers-day",
+      "rich-text#tc-utp-sale-04-24-act",
+      "rich-text#tc-utp-sale-04-24",
+      "rich-text#tc-miembros-cl-50-off",
+      "rich-text#tc-utp-sale",
+      "rich-text#tclp-00-entrenamiento",
+      "rich-text#tclp-00-dia-del-nino",
+      "rich-text#tclp-01-p16",
+      "rich-text#tclp-00-EOSS15",
+      "rich-text#tclp-01-p15",
+      "rich-text#tclp-01-p14",
+      "rich-text#tclp-01-p13",
+      "rich-text#tclp-01-p12",
+      "rich-text#members-madrugonazo",
+      "rich-text#tclp-00-utp",
+      "rich-text#textrension-utp",
+      "rich-text#textrension-flash-sale",
+      "rich-text#2x1",
+      "rich-text#performance",
+      "rich-text#sale-classics",
+      "rich-text#fiestaspatrias",
+      "rich-text#fiestaspatrias-sale",
+      "rich-text#fiestaspatrias-sale-18",
+      "rich-text#fiestaspatrias-sale-19",
+      "rich-text#cyber",
+      "rich-text#extension-cyber",
+      "rich-text#wintersale",
+      "rich-text#UPT-suma-descuentos",
+      "rich-text#halloween",
+      "rich-text#free-shipping",
+      "rich-text#Zapatillazo",
+      "rich-text#UPT-40-Off",
+      "rich-text#free-shipping-miembros",
+      "rich-text#nano-weekend",
+      "rich-text#early-access",
+      "rich-text#black-friday",
+      "rich-text#black-friday-extgendido",
+      "rich-text#only-members",
+      "rich-text#holidays-upt",
+      "rich-text#holidays",
+      "rich-text#holidays-cupon",
+      "rich-text#sale-2dapieza",
+      "rich-text#END-OF-SEASON-SALE",
+      "rich-text#tc-only-members",
+      "rich-text#tc-Programas-de-fidelidad",
+      "rich-text#tc-AOV EOSS",
+      "rich-text#tc-valentines",
+      "rich-text#tc-ALIANZA-WOM",
+      "rich-text#tc-t&cmiembros",
+      "rich-text#tc-Lolla",
+      "rich-text#Descuento-solo-para-Miembros--00",
+      "rich-text#TyC-Campaña-Claro-24-04",
+      "rich-text#TyC-Campana-Santander-24-april",
+      "rich-text#mothers-day-05-24-i",
+      "rich-text#mothers-day-05-24-ii",
+      "rich-text#members-hero-17"
+    ]
+  },
+  "rich-text#tclp-02-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# TÉRMINOS Y CONDICIONES \n ### VENTA NOCTURNA",
+      "blockClass": "landing_inst_content_text"
+    }
+  },
+  //? 1. Generales:
+  "rich-text#tclp-01-p2-02": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### GENERALES.\n \n Los presentes son los Términos y Condiciones que establecen los lineamientos bajo los cuales se desarrollará y realizará la actividad promocional denominada “VENTA NOCTURNA” (en adelante los “Términos y Condiciones”). La presente actividad tiene carácter promocional, ofreciendo un descuento de hasta 40% en catálogo seleccionado en www.reebok.cl/ofertas.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_list_roman"
+      ]
+    }
+  },
+  //? 2. ORGANIZADOR DE LA PROMOCIÓN:
+  "rich-text#tclp-01-p3-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 1. ORGANIZADOR DE LA PROMOCIÓN. \n\nFashion Fitness Chile SpA, rut: 77.542.549-0, domiciliada en los Abedules 3085, piso 6, comuna de Vitacura, Santiago, Chile (en adelante también el “Organizador”), subsidiaria de Fashion Fitness Group, Inc., licenciataria de la marca Reebok. ",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal"
+      ]
+    }
+  },
+  //? 3. PARTICIPANTES
+  "rich-text#tclp-01-p5": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 2. PARTICIPANTES.\n\n  Podrán participar de la Promoción todas aquellas personas naturales que compren en las Tiendas Reebok (definido más adelante); que cumplan con todos y cada uno de los requisitos establecidos en los términos y condiciones de estas bases (en adelante los “Participantes”) \n\n b. La participación en esta Promoción implica el conocimiento y aceptación total de los Términos y Condiciones de la misma. \n\n c. Cada Participante acepta obligarse por las reglas y disposiciones de las presentes bases, las cuales tendrán carácter definitivo en todos los asuntos relacionados a esta promoción",
+      "blockClass": "landing_inst_content_text"
+    }
+  },
+  //? 4. VIGENCIA
+  "rich-text#tclp-01-vigencia-01": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 3. VIGENCIA.\n\n  Desde las 09:00 pm horas del 24 de mayo de 2024 y hasta las 09:00 am horas del 25 de mayo de 2024 o hasta agotar existencias del inventario en el Catálogo, definido más adelante (en adelante el “Plazo de Vigencia”). \n\n b. El Plazo de Vigencia es improrrogable, no aceptándose participaciones con posterioridad o anterioridad al plazo mencionado.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal"
+      ]
+    }
+  },
+  //? 5. TIENDAS QUE APLICAN:
+  "rich-text#tclp-01-00": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 4. Oferta válida exclusivamente para la tienda en línea Reebok: www.reebok.cl/ofertas (el “Catálogo”).",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal"
+      ]
+    }
+  },
+  //? 6.	MECÁNICA
+  "rich-text#tclp-01-p7": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 5. MECÁNICA.\n\n a. La Promoción consiste en un descuento de hasta 40% en el catálogo seleccionado en www.reebok.cl/ofertas. \n \n Los productos participantes de la Promoción contarán con el precio original y al lado verán el precio en rojo con el descuento correspondiente aplicado de hasta 40% \n\n c. Todos los precios en los productos incluyen el ITBMS. \n\n d. Quedan excluidos de la Promoción, todos los productos que NO cuenten con el recuadro azul que indique el porcentaje de descuento, y los que tengan la etiqueta de “NUEVO”.\n\n e. El descuento extra se verá reflejado en el carrito de compra.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  //? 7.	ENTREGA:
+  "rich-text#tclp-01-p71": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 6. ENTREGA.\n\n Por el alto volumen de pedidos recibidos las entregas pueden tardar hasta 2 semanas más de lo habitual. ",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  //? 8. EXCLUSIONES:
+  "rich-text#tclp-01-p8": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 7. EXCLUSIONES.\n\n a.Quedan excluidos de esta promoción artículos correspondientes a: (i) las campañas, y accesorios; (ii) línea de zapatillas Nano; y (iii) cualquier artículo no considerado dentro del Catálogo. \n\n  b. Se deja expresa constancia que los descuentos entregados durante esta Promoción no aplican a pedidos realizados con anterioridad al Plazo de Vigencia y no son acumulables con otras ofertas y/o descuentos.    ",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  //? 9. OTROS:
+  "rich-text#tclp-01-p9": {
+    "props": {
+      "text": "### 8. OTROS.\n\n a. Los productos recibidos en esta promoción no estarán sujetos a cambios ni a sustitución del producto por dinero, a excepción de: (i) derecho a retracto; y/o (ii) cambios y/o devoluciones por daños de fábrica, para el cual tendrá hasta 10 días calendario.   \n\nb. Solo aplicará a un máximo de 10 productos por compra.  \n\nc. No se aceptarán cambios y/o devoluciones en las tiendas físicas del Organizador.  \n\n d. No aplica con otras promociones y/o descuentos. Descuento acumulable con el catálogo de Outlet y Full Price.  \n\n e. Todo aquello que no ha sido expresamente señalado en los presentes Términos y Condiciones, incluyendo tiempos de entrega, políticas de cambio o devolución de productos, entre otros, se regirá plenamente por los términos y condiciones generales, los que pueden ser consultados en https://www.reebok.cl/legales-promociones      \n\nf. El Organizador, sus filiales, subsidiarias, no serán responsables por daños o perjuicios que pudieren sufrir los Participantes, con motivo y/u ocasión de la participación en la presente promoción, y/o el traslado a cumplir con los requisitos de estos términos y condiciones, declinando todo tipo de responsabilidad contractual y/o extracontractual frente a los Participantes y/o acompañantes y/o sus sucesores, lo que es aceptado incondicionalmente por cada Participante. \n\ng. Asimismo, el Organizador, su controladora, sus filiales, subsidiarias, no se responsabilizan por los daños, hurtos y/o robos de los que pudieran ser objeto el Participante y/o terceros.      \n\n h. Por el solo hecho de participar, todos los Participantes aceptan conocer y aceptar los presentes términos y condiciones. Los términos y condiciones serán publicados todos los días de vigencia de la promoción en el sitio en que se participa de la Promoción y en las Tiendas Reebok. \n i. El Organizador podrá modificar estos términos y condiciones, siempre y cuando no se altere la esencia de la Promoción, debiendo notificar, en forma previa, dicha/s modificación/es a los Participantes por los mismos medios de comunicación utilizados oportunamente para su difusión, sin que ello genere derecho alguno o reclamo por parte de los Participantes. \n \n j. En caso de fuerza mayor y/o caso fortuito que genere alguna imposibilidad para llevar a cabo la Promoción o para continuar con la misma, el Organizador podrá suspenderla definitiva o transitoriamente, como así también introducir las modificaciones pertinentes, comunicando dicha circunstancia a los Participantes por los mismos medios de comunicación utilizados oportunamente para el lanzamiento de la Promoción, sin que ello genere derecho alguno o reclamo por parte de los Participantes.     ",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  //? 10. LEGISLACIÓN APLICABLE
+  "rich-text#tclp-01-p10": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### 9. LEGISLACIÓN APLICABLE.\n\nEstos Términos y Condiciones se regirán por las leyes de Chile.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p11": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Listado de productos adheridos a la oferta: [DESCARGA AQUÍ LA INFORMACIÓN](/arquivos/Terminos_2x1_CL_ex.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p17": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### TÉRMINOS LEGALES PROMOCIONES ANTERIORES.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p12": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Adelantamos Ofertas\" : [ver información](/arquivos/Terminos_PreCyber_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p13": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Cyber REEBOK\" : [ver información](/arquivos/Terminos_Cyber_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p14": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Día del Padre\" : [ver información](/arquivos/Terminos_DíaDeLPadre_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p15": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"2x1\" : [ver información](/arquivos/Terminos_2x1_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-01-p16": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"EOSS\" : [ver información](/arquivos/Terminos_EOSS_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-00-EOSS15": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"EOSS + 15% adicional\" : [ver información](/arquivos/Terminos_EOSS_CL_15.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-00-dia-del-nino": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Día de la niñez\" : [ver información](/arquivos/Terminos_DIADELNINO_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-00-entrenamiento": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Entrenamiento Funcional\" : [ver información](/arquivos/Terminos_EntrenamientoFuncional_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tclp-00-utp": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Promo Reebok Training Days\" : [ver información](/arquivos/Terminos_EntrenamientoFuncional_CL-agosto.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#textrension-utp": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Extensión UPT\" : [ver información](/arquivos/Terminos_UPT%20AGOSTO_CL_extensión.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#textrension-flash-sale": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"FLASH SALE\" : [ver información](/arquivos/Terminos_FlashSale_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#2x1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"2 X 1\" : [ver información](/arquivos/Terminos_2x1-app_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#performance": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"performance\" : [ver información](/arquivos/Terminos_Performance_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#sale-classics": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Sale Classics\" : [ver información](/arquivos/Terminos_Classics_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#fiestaspatrias": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Fiestas Patrias\" : [ver información](/arquivos/Terminos_FiestasPatrias_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#fiestaspatrias-sale": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Sale Fiestas Patrias\" : [ver información](/arquivos/Terminos_FiestasPatrias_CL-50-off.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#fiestaspatrias-sale-18": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Sale Fiestas Patrias (18%)\" : [ver información](/arquivos/Terminos_FiestasPatrias_CL_18.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#fiestaspatrias-sale-19": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Super Sale performance\" : [ver información](/arquivos/Terminos_SuperSalePerformanceCL-40.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#cyber": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"CYBER\" : [ver información](/arquivos/Terminos_CyberDaysOct_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#extension-cyber": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Extensión super descuentos\" : [ver información](/arquivos/Terminos_extensionsuperofertas_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#wintersale": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Winter Sale\" : [ver información](/arquivos/Terminos_wintersale_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#UPT-suma-descuentos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"suma-descuentos\" : [ver información](/arquivos/Terminos_UPT-OCT_CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#halloween": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"halloween\" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-HalloweenCL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#free-shipping": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Free Shipping para Miembros \" : [ver información](/arquivos/FREE-SHIPPING-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#Zapatillazo": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Zapatillazo \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-Zapatillazo-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#free-shipping-miembros": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Free Shipping para Miembros \" : [ver información](/arquivos/T-C-FREE-SHIPPING-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#UPT-40-Off": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"UPT 40 Off \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-UPT-40-Off-OUTLET-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#nano-weekend": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"NANO WEEKEND \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-NANO-WEEKEND-CL?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#early-access": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"EARLY ACCESS \" : [ver información](/arquivos/TÉRMINOSLEGALESPROMOCIONESEARLYACCESS.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#black-friday": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"BLACK FRIDAY \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-BLACK-FRIDAY-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#black-friday-extgendido": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Sale Extendido \" : [ver información](/arquivos/TÉRMINOS-LEGALES-PROMOCIONES-SALE-EXTENDIDO-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#only-members": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Only Members \" : [ver información](/arquivos/T&C-MIEMBROS-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#holidays-upt": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" HOLIDAYS UPT \" : [ver información](/arquivos/TÉRMINOSLEGALESPROMOCIONESHOLIDAYSCL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#holidays": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" HOLIDAYS \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-HOLIDAYS-FLAT-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#holidays-AOV": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" HOLIDAYS AOV \" : [ver información](/arquivos/TÉRMINOSLEGALESPROMOCIONESHOLIDAYSCLAOV.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#holidays-cupon": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" CUPÓN HOLIDAYS \" : [ver información](/arquivos/TÉRMINOSLEGALESPROMOCIONESCUPÓNHOLIDAYSCL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#sale-2dapieza": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" PRECIO ESPECIAL EN 2DA PIEZA \" : [ver información](/arquivos/TÉRMINOSLEGALESPROMOCIONESEOSS2x1CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#END-OF-SEASON-SALE": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" END OF SEASON SALE \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-EOSS-FLAT-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tc-only-members": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" Descuento solo para Miembros\" : [ver información](/arquivos/T&C-MIEMBROS-CL-11-01.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+
+  "rich-text#tc-Programas-de-fidelidad": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" Programas de fidelidad\" : [ver información](/arquivos/TC-Programa-Fidelidad-RBK-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+
+  "rich-text#tc-AOV EOSS": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" AOV EOSS\" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-EOSS-AOV-10K-CLP-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tc-valentines": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" VALENTINES\" : [ver información](/arquivosTERMINOSLEGALESPROMOCIONESVALENTINES-2.0.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tc-ALIANZA-WOM": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" ALIANZA WOM \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-ALIANZA-WOM-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+
+  "rich-text#tc-t&cmiembros": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" Descuento solo para Miembros \" : [ver información](/arquivos/T&CMIEMBROS.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+
+  "rich-text#tc-Lolla": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" Vive la música con Reebok y Lollapalooza” \" : [ver información](/arquivos/BaseslegalesLolla.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+
+  "rich-text#tc-utp-sale": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"UTP SALE” \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-UPT-SALE-CL-03-24.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tc-miembros-cl-50-off": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Descuento solo para Miembros” \" : [ver información](/arquivos/T&C-MIEMBROS-CL-50-OFF.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tc-utp-sale-04-24": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"UPT SALE” \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-UPT-CL-04-24.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#tc-utp-sale-04-24-act": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"UPT SALE ABRIL” \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-UPT-ABRIL-24-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#Descuento-solo-para-Miembros--00": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Descuento solo para Miembros” \" : [ver información](/arquivos/T&CMIEMBROSABRIL-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#TyC-Campaña-Claro-24-04": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"Reebok Claro” \" : [ver información](/arquivos/TyC-Campaña-Claro-24-04.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#TyC-mothers-day": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"PROMO DÍA DE LAS MADRES \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-Promo-Dia-de-la-Madre-Abril-CL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#TyC-Campana-Santander-24-april": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \"REEBOK/SANTANDER \" : [ver información](/arquivos/TyC-Campana-Santander-24-april.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#mothers-day-05-24-i": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" PROMO DÍA DE LA MADRE I \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-Flash-Sale-Dia-de-la-Madre-CL-I.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#mothers-day-05-24-ii": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" PROMO DÍA DE LA MADRE II \" : [ver información](/arquivos/TERMINOS-LEGALES-PROMOCIONES-Flash-Sale-Dia-de-la-Madre-CL-II.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#members-hero-17": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" Descuento solo para Miembros \" : [ver información](/arquivos/T&CMIEMBROSCL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  },
+  "rich-text#members-madrugonazo": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "- Términos y condiciones \" VENTA NOCTURNA \" : [ver información](/arquivos/TERMINOSLEGALESPROMOCIONESMADRUGONAZOCL.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline"
+      ]
+    }
+  }
+}

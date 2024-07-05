@@ -1,0 +1,762 @@
+{
+    /*Store custom: OUTLET */
+    "store.custom#outlet": {
+        "blocks": [
+            //"rich-text#home-subpromotion-red",\
+            /* "flex-layout.row#banner-ofertas-02", */
+            "search-result-layout.customQuery#outlet"
+        ]
+    },
+    /*Store custom: OUTLET - MUJER */
+    "store.custom#outlet-mujer": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer"
+        ]
+    },
+    "store.custom#outlet-mujer-zapatillas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-zapatillas"
+        ]
+    },
+    "store.custom#outlet-mujer-sandalias": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-sandalias"
+        ]
+    },
+    "store.custom#outlet-mujer-conjuntodeportivo": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-conjuntodeportivo"
+        ]
+    },
+    "store.custom#outlet-mujer-chaquetas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-chaquetas"
+        ]
+    },
+    "store.custom#outlet-mujer-faldasyvestidos": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-faldasyvestidos"
+        ]
+    },
+    "store.custom#outlet-mujer-pantalonesycalzas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-pantalonesycalzas"
+        ]
+    },
+    "store.custom#outlet-mujer-polerones": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-polerones"
+        ]
+    },
+    "store.custom#outlet-mujer-poleras": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-poleras"
+        ]
+    },
+    "store.custom#outlet-mujer-shorts": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-shorts"
+        ]
+    },
+    "store.custom#outlet-mujer-petosdeportivos": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-mujer-petosdeportivos"
+        ]
+    },
+    /*Store custom: OUTLET - HOMBRE */
+    "store.custom#outlet-hombre": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre"
+        ]
+    },
+    "store.custom#outlet-hombre-zapatillas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-zapatillas"
+        ]
+    },
+    "store.custom#outlet-hombre-conjuntodeportivo": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-conjuntodeportivo"
+        ]
+    },
+    "store.custom#outlet-hombre-chaquetas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-chaquetas"
+        ]
+    },
+    "store.custom#outlet-hombre-pantalonesycalzas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-pantalonesycalzas"
+        ]
+    },
+    "store.custom#outlet-hombre-polerones": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-polerones"
+        ]
+    },
+    "store.custom#outlet-hombre-poleras": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-poleras"
+        ]
+    },
+    "store.custom#outlet-hombre-shorts": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-hombre-shorts"
+        ]
+    },
+    /*Store custom: OUTLET - NIÑOS */
+    "store.custom#outlet-ninos": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-ninos"
+        ]
+    },
+    "store.custom#outlet-ninos-zapatillas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-ninos-zapatillas"
+        ]
+    },
+    /*Store custom: OUTLET - UNISEX */
+    "store.custom#outlet-unisex": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex"
+        ]
+    },
+    "store.custom#outlet-unisex-zapatillas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-zapatillas"
+        ]
+    },
+    "store.custom#outlet-unisex-sandalias": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-sandalias"
+        ]
+    },
+    "store.custom#outlet-unisex-bolsosymochilas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-bolsosymochilas"
+        ]
+    },
+    "store.custom#outlet-unisex-chaquetas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-chaquetas"
+        ]
+    },
+    "store.custom#outlet-unisex-gorras": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-gorras"
+        ]
+    },
+    "store.custom#outlet-unisex-matdeyoga": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-matdeyoga"
+        ]
+    },
+    "store.custom#outlet-unisex-calcetines": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-calcetines"
+        ]
+    },
+    "store.custom#outlet-unisex-pantalonesycalzas": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-pantalonesycalzas"
+        ]
+    },
+    "store.custom#outlet-unisex-polerones": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-polerones"
+        ]
+    },
+    "store.custom#outlet-unisex-poleras": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-poleras"
+        ]
+    },
+    "store.custom#outlet-unisex-shorts": {
+        "blocks": [
+            "search-result-layout.customQuery#outlet-unisex-shorts"
+        ]
+    },
+    /*Search result layout: outlet */
+    "search-result-layout.customQuery#outlet": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "328",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: outlet - MUJER */
+    "search-result-layout.customQuery#outlet-mujer": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "206",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-zapatillas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "204",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-sandalias": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "205",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-conjuntodeportivo": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "302",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-chaquetas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "303",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-faldasyvestidos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "301",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-pantalonesycalzas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "300",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-polerones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "211",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-poleras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "209",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-shorts": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "210",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-mujer-petosdeportivos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "304",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: outlet - HOMBRE */
+    "search-result-layout.customQuery#outlet-hombre": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "212",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-zapatillas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "217",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-conjuntodeportivo": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "305",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-chaquetas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "306",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-pantalonesycalzas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "307",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-polerones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "215",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-poleras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "214",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-hombre-shorts": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "216",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: OUTLET - NIÑOS */
+    "search-result-layout.customQuery#outlet-ninos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "218",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-ninos-zapatillas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "219",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: outlet - UNISEX */
+    "search-result-layout.customQuery#outlet-unisex": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "308",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-zapatillas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "309",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-sandalias": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "310",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-bolsosymochilas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "311",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-chaquetas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "312",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-gorras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "313",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-matdeyoga": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "314",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-calcetines": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "315",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-pantalonesycalzas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "316",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-polerones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "317",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-poleras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "318",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#outlet-unisex-shorts": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "319",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

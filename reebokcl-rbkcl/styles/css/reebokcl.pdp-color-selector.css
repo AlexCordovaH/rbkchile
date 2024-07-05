@@ -1,0 +1,15 @@
+@media (max-width: 40rem) {
+    .__selector_color_container {
+      display: flex;
+      justify-content: start;
+      padding: 0 0.5rem;
+    }
+    .__selector_color {
+      justify-content: start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--pdp-simular-product-variants)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      justify-content: flex-start;
+    }
+  }
+  

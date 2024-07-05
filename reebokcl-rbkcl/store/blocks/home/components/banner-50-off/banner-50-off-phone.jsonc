@@ -1,0 +1,39 @@
+{
+  "flex-layout.col#mobile-banner-50-off-UPT": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-50-off-UPT",
+      "flex-layout.row#image-mobile-banner-50-off-UPT"
+    ]
+  },
+  "flex-layout.row#image-mobile-banner-50-off-UPT": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-50-off-UPT"]
+  },
+  "image#image-banner-50-off-UPT": {
+    "props": {
+      "alt": "End Of Season",
+      "title": "End Of Season",
+      "src": "/arquivos/HERO-Banner-Mobile-UPT-CL.jpg",
+      "link": {
+        "url": "/ofertas"
+      },
+      "blockClass": ["image-carousel3", "image-main-carousel"]
+    }
+  },
+  "flex-layout.col#mobile-info-banner-50-off-UPT": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "mobile-info-banner-50-off-UPT"
+    },
+    "children": [
+      "flex-layout.col#titulo-banner-50-off-UPT",
+      //   "flex-layout.row#body-banner-50-off-UPT",
+      "flex-layout.row#button-banner-end-season"
+    ]
+  }
+}

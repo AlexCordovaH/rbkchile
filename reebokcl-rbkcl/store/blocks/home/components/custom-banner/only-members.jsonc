@@ -1,0 +1,139 @@
+{
+    "custom-banner#only-members": {
+        "props": {
+            "desktopBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Desktop.jpg",
+            "phoneBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Mobile.jpg",
+            "headlines": [{
+                    "type": "headline",
+                    "text": "30% EXTRA SOLO",
+                    "sx": {
+                        "desktop": "banner-headline-bottom cWhite",
+                        "tablet": "banner-headline-bottom cWhite",
+                        "phone": "banner-headline-bottom cWhite tac"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "PARA MIEMBROS",
+                    "sx": {
+                        "desktop": "banner-headline-bottom cWhite",
+                        "tablet": "banner-headline-bottom cWhite",
+                        "phone": "banner-headline-bottom cWhite tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Recibe 30% EXTRA OFF en tu compra al registrarte",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite tac  dNone"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "a nuestro newsletter. Por tiempo limitado",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite tac  dNone"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [{
+                        "label": "REGÍSTRATE",
+                        "link": "/newsletter",
+                        "color": "white",
+                        "sx": {
+                            "desktop": "mt2 font-family-NR",
+                            "tablet": "mt5  font-family-NR",
+                            "phone": "mt5  button-vertical-mobile"
+                        }
+                    },
+                    {
+                        "label": "COMPRAR",
+                        "link": "/todo-reebok",
+                        "color": "white",
+                        "sx": {
+                            "desktop": "mt2 font-family-NR",
+                            "tablet": "mt5  font-family-NR",
+                            "phone": "mt5 "
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t30 r2 tar",
+                "tablet": "relative t5 r2 tar",
+                "phone": "relative t70 l3 tac"
+            }
+        }
+    },
+
+    "flex-layout.row#only-members-mobile": {
+        "children": [
+            "custom-banner#only-members-mobile"
+        ],
+        "props": {
+            "blockClass": "banner-mobile-miembros"
+        }
+    },
+
+    "custom-banner#only-members-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Desktop.jpg",
+            "phoneBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Mobile.jpg",
+            "headlines": [{
+                    "type": "headline",
+                    "text": "30% EXTRA SOLO",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cWhite",
+                        "tablet": "banner-headline-bottom mr2 cWhite tar",
+                        "phone": "banner-headline-bottom tac mb0 cWhite"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "PARA MIEMBROS",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cWhite",
+                        "tablet": "banner-headline-bottom mr2 cWhite tar",
+                        "phone": "banner-headline-bottom tac mb0 cWhite"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [{
+                        "label": "REGÍSTRATE",
+                        "link": "/newsletter",
+                        "sx": {
+                            "desktop": "mt2 fs80",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt6 fs70 ml8"
+                        }
+                    },
+                    {
+                        "label": "COMPRAR",
+                        "link": "/todo-reebok",
+                        "sx": {
+                            "desktop": "mt2 fs80",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt6 fs70 "
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "center"
+            },
+            "sx": {
+                "desktop": "relative t44 r8 tar",
+                "tablet": "relative t5 r2 tar",
+                "phone": "relative t70 tac"
+            }
+        }
+    }
+}

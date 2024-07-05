@@ -1,0 +1,422 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      // "flex-layout.row#footer-desktop-menu"
+      // "back-to-top-button",
+      "flex-layout.row#container-footer-row-newsletter",
+      "flex-layout.row#desktop-footer-row-one",
+      "flex-layout.row#desktop-footer-row-two"
+    ]
+  },
+  "flex-layout.row#desktop-footer-row-one": {
+    "children": [
+      "flex-layout.col#col-footer-desktop-1",
+      "flex-layout.col#col-footer-desktop-2",
+      "flex-layout.col#col-footer-desktop-3",
+      "flex-layout.col#col-footer-desktop-4"
+      //"flex-layout.col#col-footer-desktop-5"
+    ],
+    "props": {
+      "blockClass": "desktop-footer-one"
+    }
+  },
+  "flex-layout.col#col-footer-desktop-1": {
+    "children": [
+      "rich-text#message-newsletter-footer",
+     // "modal-trigger#newsletter",
+      "flex-layout.row#social-media"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "width": "25%",
+      "marginLeft": 8,
+      "marginRight": 8,
+      "blockClass": "newsletter-footer"
+    }
+  },
+  "flex-layout.col#col-footer-desktop-2": {
+    "children": [
+      "vtex.menu@2.x:menu#desktop-productos"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "width": "17%",
+      "marginLeft": 8,
+      "marginRight": 8
+    }
+  },
+  "flex-layout.col#col-footer-desktop-3": {
+    "children": [
+      "vtex.menu@2.x:menu#desktop-servicio-al-cliente"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "width": "17%",
+      "marginLeft": 8,
+      "marginRight": 8
+    }
+  },
+  "flex-layout.col#col-footer-desktop-4": {
+    "children": [
+      "flex-layout.col#menu-item-footer-acerca-de-buscador-de-tiendas"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "width": "17%",
+      "marginLeft": 8,
+      "marginRight": 8
+    }
+  },
+  "flex-layout.col#col-footer-desktop-5": {
+    "children": [
+      "flex-layout.col#col-5-footer-desktop"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "verticalAlign": "top",
+      "width": "17%",
+      "marginLeft": 8,
+      "marginRight": 8
+    }
+  },
+  "flex-layout.row#desktop-footer-row-two": {
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "blockClass": "desktop-footer-two"
+    },
+    "children": [
+      "flex-layout.col#desktop-footer-copyright",
+      "flex-layout.col#desktop-footer-links-row-two"
+    ]
+  },
+  "flex-layout.col#desktop-footer-copyright": {
+    "props": {
+      "marginLeft": 8,
+      "marginRight": 8
+    },
+    "children": [
+      "footer-year-copyright"
+    ]
+  },
+  "footer-year-copyright":{
+    "props": {
+      "beforeTextYear": "Reebok™ es una marca registrada de Reebok International Limited.©",
+      "afterTextYear": "Reebok International Limited. Todos los derechos reservados."
+    }
+  },
+  "flex-layout.col#desktop-footer-links-row-two": {
+    "props": {
+      "horizontalAlign": "right",
+      "marginLeft": 8,
+      "marginRight": 8
+    },
+    "children": [
+      "rich-text#links-footer-desktop-row-two"
+    ]
+  },
+  "rich-text#links-footer-desktop-row-two": {
+    "props": {
+      "text": "[Politicas de Privacidad](/politicas-de-privacidad) [Términos y Condiciones](/terminos-condiciones)",
+      "blockClass": "links-footer-desktop-row-two"
+    }
+  },
+  // NewsLetter Footer
+  "rich-text#message-newsletter-footer": {
+    "props": {
+      "text": "SIGUENOS EN NUESTRAS REDES SOCIALES.",
+      "blockClass": "newsletter-title-footer"
+    }
+  },
+  "modal-trigger#newsletter": {
+    "children": [
+      "rich-text#newsletter-action-button",
+      "modal-layout#newsletter-layout-footer"
+    ]
+  },
+  "modal-header#newsletter": {
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "newsletter-header"
+    }
+  },
+  "rich-text#newsletter-action-button": {
+    "props": {
+      "text": "[Suscribirme]()",
+      "blockClass": "action-button-newsletter-footer"
+    }
+  },
+  "modal-layout#newsletter-layout-footer": {
+    "props": {
+      "blockClass": "modal-layout-newsletter-footer"
+    },
+    "children": [
+      "modal-header#newsletter",
+      "flex-layout.row#logo-newsletter-content"
+    ]
+  },
+
+  "flex-layout.row#logo-newsletter-content":{
+    "children":[
+      "image#logo-newsletter-content",
+      "flex-layout.col#logo-newsletter-content2"
+    ],
+    "props":{
+      "blockClass": "row-content-newsletter"
+    }
+  },
+
+  "flex-layout.col#logo-newsletter-content1":{
+    "children":["image#logo-newsletter-content"
+    ],
+    "props":{
+            "width": "47%",
+            "blockClass": "col-image-newsletter"
+    }
+  },
+  
+  "image#logo-newsletter-content":{
+    "props":{
+      "blockClass": "img-newsletter-content",
+      "src": "/arquivos/BENEFICIOS-CRM-MODAL.jpg"
+    }
+  },
+
+  "flex-layout.col#logo-newsletter-content2":{
+    "children":[     
+    "flex-layout.row#logo-newsletter",
+    "flex-layout.row#newsletter-text-footer",
+    "flex-layout.row#footer-newsletter-mobile"],
+    "props":{
+      "width": "55%"
+    }
+  },
+
+  "flex-layout.row#newsletter-text-footer": {
+    "props": {
+      "blockClass": "texts-modal-newsletter-footer"
+    },
+    "children": [
+      "rich-text#newsletter-modal-title-footer",
+      "rich-text#newsletter-modal-paragraph-footer"
+    ]
+  },
+  "rich-text#newsletter-modal-title-footer": {
+    "props": {
+      "text": "#### SUSCRÍBETE Y ENTÉRATE DE TODAS NUESTRAS NOVEDADES",
+      "blockClass": "footer-newsletter-title-modal"
+    }
+  },
+  "rich-text#newsletter-modal-paragraph-footer": {
+    "props": {
+      "text": "Únete a nuestro newsletter y recibe 20% de descuento en tu próxima compra",
+      "blockClass": "footer-newsletter-paragraph-modal"
+    }
+  },
+  "flex-layout.row#footer-newsletter-mobile": {
+    "props": {
+      "blockClass": "footer-newsletter-mobile",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#footer-newsletter-mobile-app"
+    ]
+  },
+  "flex-layout.col#footer-newsletter-mobile-app": {
+    "props": {
+      "blockClass": "footer-newsletter",
+      "fullWidth": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "formulario#newsletter"
+    ]
+  },
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  "flex-layout.row#desktop-footer-row-1": {
+    "children": [
+      "vtex.menu@2.x:menu#desktop-productos",
+      "vtex.menu@2.x:menu#desktop-servicio-al-cliente",
+      "flex-layout.col#menu-item-footer-acerca-de-buscador-de-tiendas",
+      "flex-layout.col#col-5-footer-desktop"
+    ],
+    "props": {
+      "blockClass": "desktop-footer-row-1",
+      "marginTop": 6
+    }
+  },
+  "rich-text#links-footer-2": {
+    "props": {
+      "text": "[Politicas de Privacidad](/politicas-de-privacidad) [Términos y Condiciones](/terminos-condiciones)",
+      "blockClass": "links-footer-desktop-2"
+    }
+  },
+  // -------------------------------------------------------------------------------------------------------
+  // -------------------------------------------------------------------------------------------------------
+  "flex-layout.row#footer-desktop-menu": {
+    "children": [
+      "flex-layout.col#col-1-footer-desktop",
+      "flex-layout.col#col-2-footer-desktop",
+      "flex-layout.col#col-3-footer-desktoop",
+      //"flex-layout.col#col-4-footer-desktop",
+      "flex-layout.col#col-5-footer-desktop"
+    ]
+  },
+  "flex-layout.col#col-1-footer-desktop": {
+    "children": [
+      "rich-text#newsletter-title-footer-desktop",
+      "flex-layout.row#social-media"
+    ]
+  },
+  "rich-text#newsletter-title-footer-desktop": {
+    "props": {
+      "text": "Siguenos en nuestras redes sociales.",
+      "textAlignment": "LEFT"
+    }
+  },
+  "flex-layout.row#social-media": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign":"center",
+      "preserveLayoutOnMobile":true,
+      "blockClass": [
+        "footer_social_media"
+      ]
+    },
+    "children": [
+      "image#footer-social-media-fb",
+      "image#footer-social-media-ig",
+      "image#footer-social-media-yt"
+    ]
+  },
+  "image#footer-social-media-fb": {
+    "props": {
+      "src": "assets/footer/facebook.svg",
+      "alt":"Facebook | Reebok Chile",
+      "title":"Facebook Reebok Chile",
+      "maxHeight":18,
+      "maxWidth":10,
+      "blockClass":"footer_img_social_media",
+      "link":{
+        "newTab":true,
+        "url":"https://www.facebook.com/ReebokChile"
+      }
+    }
+  },
+  "image#footer-social-media-ig": {
+    "props": {
+      "src": "assets/footer/instagram.svg",
+      "alt":"Instagram | Reebok Chile",
+      "title":"Instagram Reebok Chile",
+      "maxHeight":18,
+      "maxWidth":18,
+      "blockClass":"footer_img_social_media",
+      "link":{
+        "newTab":true,
+        "url":"https://www.instagram.com/reebokchile/"
+      }
+    }
+  },
+  "image#footer-social-media-yt": {
+    "props": {
+      "src": "assets/footer/youtube.svg",
+      "alt":"Youtube | Reebok Chile",
+      "title":"Youtube Reebok Chile",
+      "maxHeight":13,
+      "maxWidth":21,
+      "blockClass":"footer_img_social_media",
+      "link":{
+        "newTab":true,
+        "url":"https://www.youtube.com/channel/UC0gcFrwAQ8CtzP_NSFIZtiw"
+      }
+    }
+  },
+  "flex-layout.col#col-2-footer-desktop": {
+    "children": [
+      "rich-text#producto-footer-desktop"
+    ]
+  },
+  "rich-text#producto-footer-desktop": {
+    "props": {
+      "text": "**Productos** [Calzado](#) [Ropa](#) [Accesorios](#) [Novedades](#) [Outlet](#)",
+      "blockClass": [
+        "productos_links_footer_desktop",
+        "productos_links_footer_mobile"
+      ]
+    }
+  },
+  "flex-layout.col#col-3-footer-desktoop": {
+    "children": [
+      "rich-text#servicio-footer-desktop"
+    ]
+  },
+  "rich-text#servicio-footer-desktop": {
+    "props": {
+      "text": "**Servicio al cliente** [Mesa de ayuda](#) [Preguntas Frecuentess](#?_blank) [Términos y Condiciones](/terminos-condiciones) [Pago](#) [Envío](#) [Devoluciones](#) [Seguimiento de pedido](#)",
+      "blockClass": [
+        "servicio_links_footer_desktop",
+        "servicio_links_footer_mobile"
+      ]
+    }
+  },
+  "flex-layout.col#col-4-footer-desktop": {
+    "children": [
+      "rich-text#acerca-de-footer-desktop"
+     // "rich-text#nuestros-sitios-footer-desktop"
+    ]
+  },
+  "rich-text#acerca-de-footer-desktop": {
+    "props": {
+      "text": "**Acerca de Reebok** [Sobre Nooosotros](/nosotros) [Tiendas](/nuestras-tiendas)",
+      "blockClass": [
+        "acerca_de_links_footer_desktop",
+        "acerca_de_links_footer_mobile"
+      ]
+    }
+  },
+  // "rich-text#nuestros-sitios-footer-desktop": {
+  //   "props": {
+  //     "text": "**Nuestros Sitios** [Reebok Chile](https://www.reebok.cl/?target=_blank) [Reebok Colombia](https://www.reebok.co/?target=_blank)",
+  //     "blockClass": [
+  //       "nuestros_links_footer_desktop",
+  //       "nuestros_links_footer_mobile"
+  //     ]
+  //   }
+  // },
+  "flex-layout.col#col-5-footer-desktop": {
+    "props": {
+      "blockClass": [
+        "nuestros_links_footer_desktop",
+        "nuestros_links_footer_mobile"
+      ]
+    },
+    "children": [
+      "rich-text#reebok-app-footer-desktop-title",
+      "rich-text#reebok-app-footer-desktop"
+    ]
+  },
+  "rich-text#reebok-app-footer-desktop-title": {
+    "props": {
+      "text": "**Reebok App**",
+      "blockClass": [
+        "nuestros_links_footer_desktop",
+        "nuestros_links_footer_mobile"
+      ]
+    }
+  },
+  "rich-text#reebok-app-footer-desktop": {
+    "props": {
+      "text": "[![Google Play](/arquivos/google_play_footer.png)](#) [![App Store](/arquivos/app_store_footer.png)](#)",
+      "blockClass": [
+        "nuestros_links_footer_desktop",
+        "nuestros_links_footer_mobile"
+      ]
+    }
+  }
+}

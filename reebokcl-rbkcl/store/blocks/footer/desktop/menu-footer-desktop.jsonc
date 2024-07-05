@@ -1,0 +1,323 @@
+{
+  /*Ayuda MENU */
+  "vtex.menu@2.x:menu#desktop-ayuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#desktop-title-row-one",
+      "menu-item#component-cambios-devoluciones",
+      "menu-item#component-terminos-y-condiciones",
+      "menu-item#component-politica-de-privacidad"
+    ]
+  },
+  /*Menu Ite title-row-one of ayuda MENU*/
+  "menu-item#desktop-title-row-one": {
+    "props": {
+      "id": "ayuda-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://reebokcl-support.freshdesk.com/support/home",
+        "noFollow": false,
+        "tagTitle": "AYUDA",
+        "text": "AYUDA"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  /*Metodos de pago MENU*/
+  /*-------------------------------------------------------------------------------------------*/
+  "vtex.menu@2.x:menu#metodos-de-pago": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#title-row-metodos-de-pago",
+      "flex-layout.row#footer-mercado-pago"
+    ]
+  },
+  /*Menu item title-row-metodos-de-pago */
+  "menu-item#title-row-metodos-de-pago": {
+    "props": {
+      "id": "menu-item-metodos-de-pago",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "FORMAS DE PAGO",
+        "text": "FORMAS DE PAGO"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  /*contactanos MENU*/
+  /*-------------------------------------------------------------------------------------------*/
+  "vtex.menu@2.x:menu#desktop-contactanos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#title-row-two",
+      "menu-item#component-email",
+      "menu-item#component-telefono",
+      "flex-layout.row#footer-redes-sociales"
+    ]
+  },
+  /*Menu item title-row-two of contactanos menu */
+  "menu-item#title-row-two": {
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CONTÁCTANOS",
+        "text": "CONTÁCTANOS"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  // Productos
+
+  "vtex.menu@2.x:menu#desktop-productos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-list-footer-desktop"
+    },
+    "children": [
+      "menu-item#desktop-title-row-productos",
+      // "menu-item#component-cambios-devoluciones"
+      "menu-item#component-calzado",
+      "menu-item#component-ropa",
+      "menu-item#component-accesorios",
+      "menu-item#component-novedades"
+      // "rich-text#tclp-cyber23"
+      // "menu-item#component-outlet"
+    ]
+  },
+  // Servicio al Cliente
+  "vtex.menu@2.x:menu#desktop-servicio-al-cliente":{
+    "props":{
+      "orientation":"vertical"
+    },
+    "children":[
+      "menu-item#desktop-title-row-servicio-al-cliente",
+      "menu-item#component-contacto-reebok",
+      "menu-item#component-preguntas-frecuentes",
+      "menu-item#component-terminos-condiciones",
+      //"menu-item#component-pago",
+      //"menu-item#component-envio",
+      //"menu-item#component-devoluciones",
+      "menu-item#component-seguimiento-de-pedido",
+      //"menu-item#stock-BF-2023",
+      // "menu-item#desktop-cyber",
+     /*  "rich-text#tclp-cyber23", */
+      "menu-item#desktop-title-alguna-duda",
+      "menu-item#component-reebok-telefono-new",
+      "menu-item#component-reebok-formulario",
+      "menu-item#component-correo"    
+    ]
+  },
+  // Menu Acerca de Reebok & Nuestros Sitios
+  "flex-layout.col#menu-item-footer-acerca-de-buscador-de-tiendas":{
+    "props":{
+      "rowGap": 7,
+      "blockClass": "acerca-de-nuestros-sitios-flex-col-footer-desktop"
+    },
+    "children":[
+      "vtex.menu@2.x:menu#desktop-acerca-de-reebok",
+      "vtex.menu@2.x:menu#desktop-nuestros-sitios"
+    ]
+  },
+  // Acerca de Reebok
+  "vtex.menu@2.x:menu#desktop-acerca-de-reebok":{
+    "props":{
+      "orientation":"vertical"
+    },
+    "children":[
+      "menu-item#desktop-title-row-acerca-de-reebok",
+      "menu-item#component-sobre-nosotros",
+      "menu-item#component-buscador-de-tiendas",
+      "menu-item#component-trabaja-con-nosotros"
+    ]
+  },
+  // Nuestros Sitios
+  "vtex.menu@2.x:menu#desktop-nuestros-sitios":{
+    "props":{
+      "orientation":"vertical"
+    },
+    "children":[
+     // "menu-item#desktop-title-row-nuestros-sitios",
+     // "menu-item#component-reebok-chile",
+     // "menu-item#component-reebok-colombia"
+    ]
+  },
+  /*Menu Item title-row-one MENU*/
+  "menu-item#desktop-title-row-productos": {
+    "props": {
+      "id": "productos-menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/todo-reebok",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "menu-item#desktop-title-row-servicio-al-cliente":{
+    "props": {
+      "id": "servicio-al-cliente-menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Servicio al Cliente",
+        "text": "Servicio al Cliente"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": ["title-menu-footer", "cursor-default"]
+    }
+  },
+
+  "menu-item#desktop-cyber":{
+    "props": {
+      "id": "cyber-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Cyber",
+        "text": "Cyber",
+        "href": "/cyber"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": ["menu-item-footer-desktop","cursor-default","item-cyber"]
+    }
+  },
+
+  "menu-item#desktop-title-alguna-duda":{
+    "props": {
+      "id": "servicio-al-cliente-menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Tienes alguna duda?",
+        "text": "¿Tienes alguna duda?"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": ["title-menu-footer","cursor-default"]
+    }
+  },
+
+      
+  "menu-item#component-reebok-telefono-new": {
+    "props": {
+      "id": "menu-item-productos-buscador-de-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "noFollow": false,
+        "tagTitle": "Teléfono",
+        "text": "+56 22 6178801"
+      },
+      "blockClass": ["menu-item-footer-desktop","cursor-default"]
+    }
+  },
+
+    
+  "menu-item#component-reebok-formulario": {
+    "props": {
+      "id": "menu-item-productos-buscador-de-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "noFollow": false,
+        "tagTitle": "Teléfono",
+        "text": "Formulario de Contacto",
+        "href": " https://reebokcl-support.freshdesk.com/support/tickets/new"
+      },
+      "blockClass": ["menu-item-footer-desktop","cursor-default"]
+    }
+  },
+
+  "menu-item#component-correo": {
+    "props": {
+      "id": "menu-item-productos-buscador-de-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Correo",
+        "text": "contacto.cl@fashionfitnessgroup.com"
+      },
+      "blockClass": ["menu-item-footer-desktop","cursor-default"]
+    }
+  },
+
+
+  "menu-item#desktop-title-row-acerca-de-reebok":{
+    "props": {
+      "id": "acerca-de-reebok-menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de Reebok",
+        "text": "Acerca de Reebok"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": ["title-menu-footer", "cursor-default"]
+    }
+  }
+  // "menu-item#desktop-title-row-nuestros-sitios":{
+  //   "props": {
+  //     "id": "nuestros-sitios-menu-item-title",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "Nuestros Sitios",
+  //       "text": "Nuestros Sitios"
+  //     },
+  //     /*This class is to modify the size of the menu title*/
+  //     "blockClass": "title-menu-footer"
+  //   }
+  // }
+
+  
+}

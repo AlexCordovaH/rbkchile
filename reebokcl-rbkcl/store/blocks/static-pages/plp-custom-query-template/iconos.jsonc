@@ -1,0 +1,59 @@
+{
+  "store.custom#iconos-plp": {
+    "blocks": [
+      "responsive-layout.desktop#iconos-plp",
+      "responsive-layout.mobile#iconos-plp",
+      "search-result-layout.customQuery#iconos-plp"
+    ]
+  },
+  "search-result-layout.customQuery#iconos-plp": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "630",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "responsive-layout.desktop#iconos-plp": {
+    "title": "Banner PLP DESK",
+    "children": ["flex-layout.row#iconos-plp-desk"]
+  },
+  "responsive-layout.mobile#iconos-plp": {
+    "title": "Banner PLP MOB",
+    "children": ["flex-layout.row#iconos-plp-mobile"]
+  },
+  "flex-layout.row#iconos-plp-desk": {
+    "title": "IMG PLP DESK",
+    "children": ["image#iconos-plp-desk"],
+    "props": {
+      "blockClass": ["ctn-banner-holiday"]
+    }
+  },
+  "image#iconos-plp-desk": {
+    "props": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  "flex-layout.row#iconos-plp-mobile": {
+    "title": "IMG PLP MOB",
+    "children": ["image#iconos-plp-mobile"],
+    "props": {
+      "blockClass": ["ctn-banner-holiday"]
+    }
+  },
+  "image#iconos-plp-mobile": {
+    "props": {
+      "src": "",
+      "alt": ""
+    }
+  }
+}

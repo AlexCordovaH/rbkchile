@@ -1,0 +1,59 @@
+{
+    
+    "custom-banner#promocion-classic": {
+      "title": "main-banner",
+      "props": {
+        "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-CLASSICS-1sep.jpg",
+        "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-CLASSICS-1sep.jpg",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "CLÁSICOS EN OFERTA",
+            "sx": {
+              "desktop": "fs450 tal mb1  ml2 mt1",
+              "tablet": "fs350 tal m0 mb1  mr2",
+              "phone": "fs250 tal m0 mb1  mr4"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "Recibe hasta 50% de descuento en catálogo seleccionado de Classics.",
+            "sx": {
+              "desktop": "fs150 m0 tal ml2",
+              "tablet": "fs150 m0 tal mr2",
+              "phone": "fs100 m0 tal mr4"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "Vístete con los más icónicos.",
+            "sx": {
+              "desktop": "fs150 m0 tal ml2",
+              "tablet": "fs150 m0 tal mr2",
+              "phone": "fs100 m0 tal mr4"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            {
+              "label": "COMPRAR",
+              "link": "/SALECLASSICS",
+              "sx": {
+                "desktop": "mt2 ml2",
+                "tablet": "mt5 ml1",
+                "phone": "mt5"
+              }
+            }
+          ],
+          "layout": "horizontal"
+        },
+        "sx": {
+          "desktop": "cWite mt9",
+          "tablet": "relative cWite t7 l3 mt9 ",
+          "phone": "relative cWite t45 l3 mt9"
+        }
+      }
+    }
+  
+  }

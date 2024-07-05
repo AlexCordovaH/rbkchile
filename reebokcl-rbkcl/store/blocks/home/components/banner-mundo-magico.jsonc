@@ -1,0 +1,142 @@
+{
+  "custom-banner#mundo-magico": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/HeroBannerHxRDesktop.jpg",
+      "phoneBgImageUrl": "/arquivos/HeroBannerHxRMobile.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "ENTRA YA",
+          "sx": {
+            "desktop": "banner-headline mr2 cWhite",
+            "tablet": "banner-headline mr2 cWhite",
+            "phone": "banner-headline cWhite"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "AL MUNDO MÁGICO",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite",
+            "phone": "banner-headline-bottom cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Transpórtate al mundo de Harry Potter y déjate encantar con esta colección.",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Disponible ya en tiendas físicas. ¡Muy pronto en la web!",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          // {
+          //   "label": "VER TIENDAS",
+          //   "link": "/nuestras-tiendas",
+          //   "color": "white",
+          //   "sx": {
+          //     "desktop": "mt2 fs80",
+          //     "tablet": "mt5 fs70",
+          //     "phone": "mt5 fs70"
+          //   }
+          // }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t30 r2 tar",
+        "tablet": "relative t5 r2 tar",
+        "phone": "relative t60 tac"
+      }
+    }
+  },
+
+  "custom-banner#mundo-magico-mobile": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/HeroBannerHxRDesktop.jpg",
+      "phoneBgImageUrl": "/arquivos/HeroBannerHxRMobile.jpg",
+      "headlines": [
+        // {
+        //   "type": "headline",
+        //   "text": "ENTRA AL MUNDO MÁGICO",
+        //   "sx": {
+        //     "desktop": "banner-headline-bottom mr2 cWhite",
+        //     "tablet": "banner-headline-bottom mr2 cWhite",
+        //     "phone": "banner-headline-bottom cWhite"
+        //   }
+        // },
+        {
+          "type": "copy",
+          "text": "Transpórtate al mundo de Harry Potter",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "y déjate encantar con esta colección mágica.",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Disponible ya en tiendas físicas.",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "¡Muy pronto en la web!",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          // {
+          //   "label": "VER TIENDAS",
+          //   "link": "/nuestras-tiendas",
+          //   "color": "white",
+          //   "sx": {
+          //     "desktop": "mt2 fs80",
+          //     "tablet": "mt5 fs70",
+          //     "phone": "mt5 fs70"
+          //   }
+          // }
+        ],
+        "layout": "horizontal",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t25 r2 tar",
+        "tablet": "relative t5 r2 tar",
+        "phone": "relative t60 tac"
+      }
+    }
+  }
+}

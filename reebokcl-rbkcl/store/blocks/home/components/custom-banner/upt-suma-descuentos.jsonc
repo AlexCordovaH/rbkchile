@@ -1,0 +1,47 @@
+{
+    "custom-banner#UPT-suma-descuentos": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO-Banner-Desktop-UPT-CL-suma-descuentos.jpg",
+          "phoneBgImageUrl": "/arquivos/HERO-Banner-Mobile-UPT-CL-suma-descuentos.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "¡SUMA DESCUENTOS! ",
+              "sx": {
+                "desktop": " banner-headline-bottom ml2 cWhite",
+                "tablet": "banner-headline-bottom ml2 cWhite mW42",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Hasta 40% off y obtén 15% adicional por compras de 2 artículos o 30% por compra de 3.",
+              "sx": {
+                "desktop": "banner-copy ml2 cWhite mW25",
+                "tablet": "banner-copy ml2 cWhite mW42",
+                "phone": "banner-copy mt3 cWhite dNone"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR AHORA",
+                "link": "/ofertas",
+                "color": "white",
+                "sx": {
+                  "desktop": "ml2 mt2",
+                  "tablet": "ml3 mt3",
+                  "phone": "ml24 mt5"
+                }
+              }
+            ]
+          },
+          "sx": {
+            "desktop": "relative t40 l52",
+            "tablet": "relative t30 l50",
+            "phone": "relative t73 tac "
+          }
+        }
+      }
+}

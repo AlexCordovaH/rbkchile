@@ -1,0 +1,164 @@
+{
+    //?----Landing Términos y condiciones(TC)----?//
+    "store.custom#landing-tiendas-oficiales": {
+      "blocks": ["flex-layout.row#landing-to-wrapper"]
+    },
+  
+    //*---- Layout ----*//
+  
+    "flex-layout.row#landing-to-wrapper": {
+      "title": "General wrapper | Términos y condiciones",
+      "props": {
+        "fullWidth": true,
+        "blockClass": "landing_institucional_wrapper"
+      },
+      "children": [
+        "flex-layout.col#landing-to-menu",
+        "flex-layout.col#landing-to-content"
+      ]
+    },
+    "flex-layout.col#landing-to-menu": {
+      "title": "Column Menu | Términos y condiciones",
+      "props": {
+        "blockClass": "landing_inst_wrapper_menu",
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true
+      },
+      "children": ["vtex.menu@2.x:menu#desktop-to-servicio-al-cliente"]
+    },
+  
+    "flex-layout.col#landing-to-content": {
+      "title": "Column Questions | Términos y condiciones",
+      "props": {
+        "blockClass": "landing_inst_content"
+      },
+      "children": [
+        "rich-text#to-title",
+        "rich-text#nuestras-tiendas-texto1",
+        "rich-text#nuestras-tiendas-texto-chile",
+        "rich-text#nuestras-tiendas-texto-colombia",
+        "rich-text#nuestras-tiendas-texto-peru",
+        "rich-text#nuestras-tiendas-texto-costa-rica",
+        "rich-text#nuestras-tiendas-texto-ecuador",
+        "rich-text#nuestras-tiendas-texto-panama",
+        "rich-text#nuestras-tiendas-contacto"
+      ]
+    },
+  
+    "rich-text#to-title": {
+      "title": "Puntos de venta oficiales Reebok en Latinoamérica",
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "# Puntos de venta oficiales Reebok en Latinoamérica",
+        "blockClass": "landing_inst_content_text"
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto1": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "### Es nuestro interés poder proteger a nuestros consumidores, por lo que queremos dar conocimiento de los únicos distribuidores oficiales y tiendas propias en cada uno de los países donde opera The Falic Group (Fashion Fitness Group):",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto-chile": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": " ### Chile: \n\n - Fashion Fitness Group:   \n\n  -  Sitio web oficial: www.reebok.cl   \n\n  -  Tiendas Reebok en Santiago (Plaza Vespucio, Costanera Center, Parque Arauco, Arauco Maipú), Viña del Mar (Marina Arauco), Concepción (Plaza El Trébol) \n\n - Cencosud - Paris \n\n - Comercial Eccsa - Ripley \n\n - Falabella Retail - Falabella \n\n - BigFoot Chile SPA - Dafiti \n\n - Yaneken Bold - Belsport \n\n - Yaneken Belsport - Belsport \n\n - Yaneken K-One - Belsport",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto-colombia": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": " ### Colombia: \n\n - Fashion Fitness Group:   \n\n  -  Sitio web oficial: www.reebok.co   \n\n  -  Tiendas Reebok en Bogotá (Multiplaza La Felicidad), Cali (Unicentro, Chipichape, Outlet Único), Medellín (El  Tesoro)) \n\n - Master Series:   \n\n  -  Tiendas Reebok en Bucaramanga (Caracoli), Tunja (Viva) \n\n -Agaval S A \n\n -Almacenes Flamingo Sa \n\n -Bodytech Sa \n\n -Mario Silva Gonzalez \n\n -Bigfoot\n\n -Ranking Sport Sas \n\n -Sports Global Brands Sas \n\n -Broken Chains Sas \n\n -Deportivos Carvajal S.A.S \n\n -Enebe Representaciones S.A.S \n\n -Azzurry Sas \n\n -Baguer Sas \n\n -Figuras Informales Sas \n\n -Grupo R Sas \n\n -D Porte Sas \n\n -Deport In Sas \n\n -Fabega Sas \n\n -Fabega Reorder\n\n -Falabella De Colombia Sa \n\n -Hogar Y Moda S.A.S \n\n -Free Stock\n\n -Grupo Paolo Sport Sas \n\n -Hype Company Sas \n\n -Jorge William Delgado Valencia \n\n -Unideportes Sas \n\n -Sc Trading Sas \n\n -Seventeen St Comercializadora Sas \n\n -Vasport Sa \n\n -Éxito  ",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto-peru": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": " ### Perú: \n\n - Fashion Fitness Group:   \n\n  -  Sitio web oficial: www.reebok.pe   \n\n  -  Tiendas Reebok en Lima (Jockey Plaza, Mega Plaza), Trujillo (Mall Plaza, Real Plaza), Chicayo (Real Plaza) \n\n \n\n - Saga Falabella S.A. \n\n - Tiendas Por Departamento Ripley S.A. \n\n - Tiendas Peruanas S.A. \n\n - Gretel International S.A.C\n\n - Triathlon S.A.C.\n\n - Superdeporte Plus Perú S.A.C.\n\n - Future Visions Galaxy S.A.C.\n\n - Corifashion S.A.C\n\n - Superdeporte Plus Perú S.A.C.\n\n - Triathlon S.A.C.\n\n - Inversiones Dinámicas M & W S.A.\n\n - Empresas Comerciales S.A.\n\n - Inversiones Rubin's S.A.C.\n\n -Intersport S.A.C.\n\n -Sport Life Peru S.A.C.\n\n -Athletic Depor S.A.C.\n\n -Fritz Sport S.A.C.\n\n -Estilos S.R.L.\n\n -Articulos Deportivos Sport Xxi S.A.C\n\n -Bakhira E.I.R.L.\n\n -Comercial Esplana E.I.R.L.\n\n -Casa Mitsuwa S.A.\n\n -D Marca Sport S.A.C\n\n -Tiendas Luxor E.I.R.L.\n\n -Grupo Sucno S.A.C.\n\n -Flora Quispe Bautista\n\n -Universe Sport E.I.R.L.\n\n -Stadium Sport E.I.R.L\n\n -Gafco S.A.C.\n\n -Tiendas Deportivas S.A.C.\n\n -Collanqui Limachi Noemi Rocio\n\n -Soplin Sport S.A.C.\n\n -Grupo Do Brasil S.A.C\n\n -Grupo Today E.I.R.L.\n\n -D-Paf S.A.C.\n\n -G.L.D. S.R.L.\n\n -Ola Y Montaña S.A.C.\n\n -Echeandia Trading Corporation E.I.R.L\n\n -New Apparel E.I.R.L.\n\n -Fisher International Company S.R.L\n\n -Patuelli Perú S.A.C\n\n -Soccer Sport S.A.C.\n\n -Kassa Deport E.I.R.L\n\n -Distribuciones Quispe S.A.C.\n\n -Mega Max S.A.C.\n\n -Outlet Store Ayacucho S.A.C.\n\n -Escuelas Deportivas S.A.C.\n\n -Next Up E.I.R.L.",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto-costa-rica": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": " ### Costa Rica: \n\n - Altmon Brands -Grupo A  \n\n   -    Principales tiendas: Mix, Cachos, PLS, Xtremos",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto-ecuador": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": " ### Ecuador \n\n - Mundo Deportivo -MEDPORT   \n\n   -    Principales tiendas: Marathon, Kao",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-texto-panama": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": " ### Panama \n\n - Fashion Fitness Group   \n\n   -    Tienda Reebok Multiplaza -sin sitio web oficial. \n\n   -    Tiendas multimarca: BBB, Felix B. Maduro, Stevens, AuroSport, Lust, Sportline \n\n - IMEXCA \n\n - Active Shoes",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal"
+        ]
+      }
+    },
+  
+    "rich-text#nuestras-tiendas-contacto": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "### Para consultas de Servicio al Cliente, contactar el chat en esta página o a: \n\n |   | Colombia                        | Chile              | Perú                                                                                                    |\n|-----|--------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------|\n| Línea Telefónica | +57 (601) 4898338  | +56 22 6178801  | +51 (1) 6429994 |\n| Correo electrónico | contacto.co@fashionfitnessgroup.com  | contacto.cl@fashionfitnessgroup.com  | contacto.pe@fashionfitnessgroup.com |",
+        "blockClass": [
+          "landing_inst_content_text",
+          "landing_inst_content_list_normal",
+          "landing_inst_content_sublist_normal",
+          "landing_inst_content_sublist_overflow",
+          "landing_sitios_oficiales"
+        ]
+      }
+    }
+  }
+  

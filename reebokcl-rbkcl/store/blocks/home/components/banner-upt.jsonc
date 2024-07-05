@@ -1,0 +1,131 @@
+{
+
+    "custom-banner#upt": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/Hero-Banner-40-utp-Desktop-04-24.jpg",
+            "phoneBgImageUrl": "/arquivos/Hero-Banner-40-utp-Mobile-04-24.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "COMPRA Y AHORRA",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite mt5 mb1 ml1",
+                "tablet": "banner-headline-bottom ml3 cWhite tal mt7",
+                "phone": "banner-headline-bottom CWhite tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Disfruta de hasta 40% de descuento y",
+              "sx": {
+                "desktop": "banner-copy  cWhite ml1",
+                "tablet": "banner-copy ml3 cWhite tal",
+                "phone": "banner-copy cWhite tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": " recibe 20% OFF adicional al comprar dos artículos o más.",
+              "sx": {
+                "desktop": "banner-copy  cWhite ml1",
+                "tablet": "banner-copy ml3 cWhite tal",
+                "phone": "banner-copy cWhite tac"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR AHORA",
+                  "link": "/ofertas",
+                  "color":"white",
+                  "sx": {
+                      "desktop": "mt2 fs80 ml1",
+                      "tablet": "mt3 fs70 ml3",
+                      "phone": "mt5 fs70"
+                    }
+                }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-start"
+          },
+          "sx": {
+            "desktop": "relative t20 l3 tal",
+            "tablet": "relative t5 l3 tal",
+            "phone": "relative t65 tac"
+          }
+        }
+    },
+  
+    "custom-banner#upt-mobile": {
+      "title": "main-banner",
+      "props": {
+        "desktopBgImageUrl": "/arquivos/Hero-Banner-40-utp-Desktop-04-24.jpg",
+        "phoneBgImageUrl": "/arquivos/Hero-Banner-40-utp-Mobile-04-24.jpg",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "COMPRA Y AHORRA",
+            "sx": {
+              "desktop": "banner-headline-bottom mr2 cWhite",
+              "tablet": "banner-headline-bottom mr2 cWhite tal",
+              "phone": "banner-headline-bottom tac mb1 cWhite"
+            }
+          },
+
+          {
+            "type": "copy",
+            "text": "Disfruta de hasta 40% de descuento y",
+            "sx": {
+              "desktop": "banner-copy  cWhite",
+              "tablet": "banner-copy mr2 cWhite tal",
+              "phone": "banner-copy cWhite tac"
+            }
+          },
+
+          {
+            "type": "copy",
+            "text": " recibe 20% OFF adicional al comprar",
+            "sx": {
+              "desktop": "banner-copy  cWhite",
+              "tablet": "banner-copy mr2 cWhite tal",
+              "phone": "banner-copy cWhite tac"
+            }
+          },
+
+          {
+            "type": "copy",
+            "text": "dos artículos o más.",
+            "sx": {
+              "desktop": "banner-copy  cWhite",
+              "tablet": "banner-copy mr2 cWhite tal",
+              "phone": "banner-copy cWhite tac"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            
+            {
+              "label": "COMPRAR YA",
+              "link": "/ofertas",
+              "color":"white",
+              "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70 ml2",
+                  "phone": "mt6 fs60 ml6"
+                }
+            }
+          ],
+          "layout": "horizontal",
+          "alignment": "center"
+        },
+        "sx": {
+          "desktop": "relative t44 r8 tal",
+          "tablet": "relative t5 l2 tal",
+          "phone": "relative t63 tac"
+        }
+      }
+    }
+}

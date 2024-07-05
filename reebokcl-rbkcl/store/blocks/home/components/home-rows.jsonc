@@ -1,0 +1,237 @@
+{
+  /*--------------------------------------------Shelf productos destacados ---------------------------------------*/
+  "flex-layout.row#component-shelf-productos-destacados-title": {
+    "children": [
+      "flex-layout.col#component-shelf-productos-destacados-title"
+    ],
+    "props": {
+      "blockClass": [
+        "dekstop-component-shelf-productos-destacados-title",
+        "home-principal-row"
+      ]
+    }
+  },
+  "flex-layout.col#component-shelf-productos-destacados-title": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "100%",
+      "blockClass": "component-shelf-productos-destacados-title"
+    },
+    "children": [
+      "rich-text#component-shelf-productos-destacados"
+    ]
+  },
+  "rich-text#component-shelf-productos-destacados": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "## LO NUEVO",
+      "blockClass": "rich-text-shelf-productos-destacados",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#home-newsletter": {
+    "children": [
+      "flex-layout.col#home-newsletter-titulo",
+      "flex-layout.col#home-newsletter-registro"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": [
+        "home-newsletter",
+        "home-principal-row"
+      ]
+    }
+  },
+  "flex-layout.col#home-newsletter-titulo": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#home-newsletter-titulo"
+    ]
+  },
+  "flex-layout.col#home-newsletter-registro": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": [
+        "home-newsletter-registro"
+      ]
+    },
+    "children": [
+      "modal-trigger#newsletter"
+    ]
+  },
+  "rich-text#home-newsletter-titulo": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "ÚNETE A NUESTRO NEWSLETTER Y RECIBE 15% DE DESCUENTO EN TU PRÓXIMA COMPRA.",
+      "blockClass": "home-newsletter-titulo",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#component-shelf-productos-recomendados": {
+    "children": [
+      "list-context.product-list#component-shelf-productos-destacados"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": [
+        "component-shelf-productos-destacados",
+        "home-principal-row"
+      ]
+    }
+  },
+  "flex-layout.row#component-shelf-productos-mas-vendidos": {
+    "children": [
+      "list-context.product-list#component-shelf-productos-mas-vendidos"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": [
+        "component-shelf-productos-destacados",
+        "home-principal-row"
+      ]
+    }
+  },
+  "flex-layout.row#component-coleccion-destacada-title": {
+    "children": [
+      "flex-layout.col#component-coleccion-destacada-title"
+    ],
+    "props": {
+      "blockClass": "dekstop-component-shelf-productos-destacados-title"
+    }
+  },
+  "flex-layout.col#component-coleccion-destacada-title": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#component-coleccion-destacada"
+    ]
+  },
+  "rich-text#component-coleccion-destacada": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Colección Destacada",
+      "blockClass": "rich-text-coleccion-destacada",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#home-classic-performance": {
+    "props": {
+      "blockClass": [
+        "home-classic-performance",
+        "home-principal-row"
+      ]
+    },
+    "children": [
+      "flex-layout.col#home-desktop-classics",
+      "flex-layout.col#home-desktop-space-claper",
+      "flex-layout.col#home-desktop-performance"
+    ]
+  },
+  "flex-layout.col#home-desktop-space-claper": {
+    "props": {
+      "blockClass": "home-desktop-space-claper",
+      "width": "6%"
+    },
+    "children": []
+  },
+  "flex-layout.row#destacados-title": {
+    "children": [
+      "flex-layout.col#destacados-title"
+    ],
+    "props": {
+      "blockClass": [
+        "destacados-title",
+        "home-principal-row"
+      ]
+    }
+  },
+  "flex-layout.col#destacados-title": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": [
+        "destacados-title"
+      ]
+    },
+    "children": [
+      "rich-text#destacados-title"
+    ]
+  },
+  "rich-text#destacados-title": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "## DESTACADOS",
+      "blockClass": "rich-text-shelf-productos-destacados",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#home-destacados": {
+    "props": {
+      "blockClass": [
+        "home-destacados",
+        "home-principal-row"
+      ]
+    },
+    "children": [
+      "flex-layout.col#home-destacados-extra-classic-new",
+      "flex-layout.col#home-destacados-colspace",
+      "flex-layout.col#home-destacados-colspace",
+      "flex-layout.col#home-destacados-col3-new",
+      "flex-layout.col#home-destacados-col2-new",
+      "flex-layout.col#home-destacados-colspace",
+      "flex-layout.col#home-destacados-nano-flex",
+      "flex-layout.col#home-destacados-colspace"
+      
+    ]
+  },
+  "flex-layout.row#home-rebook-cardib": {
+    "props": {
+      "blockClass": [
+        "home-rebook-cardib",
+        "home-principal-row"
+      ]
+    },
+    "children": [
+      "image#reebook-cardib-home",
+      "flex-layout.col#reebok-cardib"
+    ]
+  },
+  "flex-layout.row#mas-vendido-title": {
+    "children": [
+      "flex-layout.col#mas-vendido-title"
+    ],
+    "props": {
+      "blockClass": [
+        "mas-vendido-title",
+        "home-principal-row"
+      ]
+    }
+  },
+  "flex-layout.col#mas-vendido-title": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "100%",
+      "blockClass": [
+        "mas-vendido-title"
+      ]
+    },
+    "children": [
+      "rich-text#mas-vendido-title"
+    ]
+  },
+  "rich-text#mas-vendido-title": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "## RECOMENDADOS",
+      "blockClass": ["rich-text-shelf-productos-destacados"/* , "rich-text-shelf-productos-destacados-cyber" */],
+      "font": "t-heading-3"
+    }
+  }
+}

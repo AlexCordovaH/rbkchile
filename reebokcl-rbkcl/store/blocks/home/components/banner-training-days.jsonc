@@ -1,0 +1,199 @@
+{
+    "flex-layout.col#banner-training-days": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktop-training-days",
+            "flex-layout.col#info-banner-training-days"
+        ]
+    },
+    "flex-layout.row#image-desktop-training-days": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-training-days"
+        ]
+    },
+    "flex-layout.col#info-banner-training-days": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-contenedor-info-training-days"
+            ]
+        },
+        "children": [
+            "flex-layout.col#titulo-banner-vamos-por-mas",
+            "flex-layout.row#body-banner-training-days",
+            "flex-layout.row#button-banner-training-days"
+        ]
+    },
+    "flex-layout.col#titulo-banner-vamos-por-mas": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-banner-vamos-por-mas"
+        ]
+    },
+    "flex-layout.row#body-banner-training-days": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-training-days"
+        ]
+    },
+
+    "flex-layout.row#body-banner-training-days-mobile": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-training-days"
+        ]
+    },
+    
+    "flex-layout.row#button-banner-training-days": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#button-training-days",
+            "flex-layout.col#button-training-days-2"
+        ]
+    },
+    "flex-layout.col#button-training-days": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2",
+                "buttons-desktopHome-2-sale",
+                "buttons-desktopHome-2-training-days"
+            ]
+        },
+        "children": [
+            "link#button-vamos-por-mas-2"
+        ]
+    },
+    "link#button-vamos-por-mas-2": {
+        "props": {
+            "href": "/entrenamiento-funcional?page=1 ",
+            "label": "Comprar Entrenamiento Funcional ",
+            "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale",
+        "buttons-desktopHome-2-training-days" ]
+        }
+    },
+
+    /*---BUTTON-TWO-----*/
+
+    "flex-layout.col#button-training-days-2": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2",
+                "buttons-desktopHome-2-sale",
+                "buttons-desktopHome-2-sale-two",
+                "buttons-desktopHome-2-training-days"
+            ]
+        },
+        "children": [
+            "link#button-vamos-por-mas"
+        ]
+    },
+    "link#button-vamos-por-mas": {
+        "props": {
+            "href": "/running?page=1",
+            "label": "Comprar Running",
+            "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale",
+        "buttons-desktopHome-2-training",
+        "buttons-desktopHome-2-training-days" ]
+        }
+    },
+
+
+    "rich-text#titulo-banner-vamos-por-mas": {
+        "props": {
+            "blockClass": [
+                "titulo-rebook-tunes",
+                "titulo-training-days"
+            ],
+            "text": "## VAMOS POR MÁS",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-banner-training-days": {
+        "props": {
+            "blockClass": [
+                "body-rebook-training-days"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Muévete y vive la vida junto a nosotros"
+        }
+    },
+    "image#image-banner-training-days": {
+        "props": {
+            "alt": "Running and Training",
+            "title": "Running and Training",
+            "src": "/arquivos/HERO-BANNER-DESKTOP-VAMOS-POR-MAS-1.2.jpg",
+            "link": {
+                "url": "/entrenamiento-funcional?page=1"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-training-days-mobile": {
+        "props": {
+            "alt": "Running and Training",
+            "title": "Running and Training",
+            "src": "/arquivos/HERO-BANNER-MOBILE-VAMOS-POR-MAS-1.2.jpg",
+            "link": {
+                "url": "/entrenamiento-funcional?page=1"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+
+
+/*Banner Mobile Training Days*/
+  "flex-layout.col#mobile-banner-training-days": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-training-days",
+      "flex-layout.row#image-mobile-training-days"
+    ]
+  },
+  "flex-layout.row#image-mobile-training-days": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": [
+      "image#image-banner-training-days-mobile"
+    ]
+  },
+  "flex-layout.col#mobile-info-banner-training-days": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "info-banner-training-days"
+      ]
+    },
+    "children": [
+      "flex-layout.col#titulo-banner-vamos-por-mas",
+      "flex-layout.row#body-banner-training-days-mobile",
+      "flex-layout.row#button-banner-training-days"
+    ]
+  }
+  /*Fn Banner Training Days*/
+}

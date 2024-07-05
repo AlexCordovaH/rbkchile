@@ -1,0 +1,321 @@
+{
+  //?----Landing Términos y condiciones(TC)----?//
+  "store.custom#landing-terminos-condiciones": {
+    "blocks": [
+      "flex-layout.row#landing-tc-wrapper"
+    ]
+  },
+
+  //*---- Layout ----*//
+
+  "flex-layout.row#landing-tc-wrapper": {
+      "title":"General wrapper | Términos y condiciones",
+      "props": {
+        "fullWidth":true,
+        "blockClass": "landing_institucional_wrapper"
+      },
+      "children": [ 
+        "flex-layout.col#landing-tc-menu",
+        "flex-layout.col#landing-tc-content"
+      ]
+  },
+  "flex-layout.col#landing-tc-menu": {
+    "title":"Column Menu | Términos y condiciones",
+    "props": {
+      "blockClass": "landing_inst_wrapper_menu",
+      "preventVerticalStretch":true,
+      "preserveLayoutOnMobile":true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-tc-servicio-al-cliente"
+    ]
+  },
+
+  "flex-layout.col#landing-tc-content": {
+    "title":"Column Questions | Términos y condiciones",
+      "props": {
+          "blockClass": "landing_inst_content"
+      },
+      "children": [
+        "rich-text#tc-title",
+        //? I. GENERALES
+        "rich-text#tc-p1",
+        //? II. PARTICULARES
+        "rich-text#tc-p2",
+        "rich-text#tc-p3",
+        "rich-text#tc-p4",
+        "rich-text#tc-p5",
+        "rich-text#tc-p6",
+        "rich-text#tc-p7",
+        "rich-text#tc-p8",
+        "rich-text#tc-p9",
+        "rich-text#tc-p10",
+        "rich-text#tc-p11",
+        "rich-text#tc-p12",
+        "rich-text#tc-p13",
+        "rich-text#tc-p14",
+        "rich-text#tc-p15",
+        "rich-text#tc-p16",
+        "rich-text#tc-p17",
+        "rich-text#tc-p18",
+        "rich-text#tc-p19",
+        "rich-text#tc-p20",
+        "rich-text#tc-p21",
+        "rich-text#tc-p22",
+        "rich-text#tc-p23",
+        "rich-text#tc-p24",
+        "rich-text#tc-p25",
+        "rich-text#tc-p26",
+        "rich-text#tc-p27",
+        "rich-text#tc-p28",
+        "rich-text#tc-p29"
+      ]
+  },
+  "rich-text#tc-title": {
+    "title":"Primary Title | Términos y condiciones",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# Términos y condiciones",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  //? I. GENERALES
+  "rich-text#tc-p1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **1. GENERALES**\n\n Este documento, en conjunto con los documentos en él mencionados, establece los términos y condiciones de uso (en adelante, los “Términos y Condiciones”) del sitio web www.reebok.cl (en adelante, el “Sitio Web”).\n\n Las transacciones que se realicen a través de este Sitio Web, en adelante denominado también “reebok.cl”, se sujetan a los presentes Términos y Condiciones, así como a la legislación chilena. Es requisito para comprar en www.reebok.cl la aceptación de los Términos y Condiciones descritos a continuación.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  //? II.	PARTICULARES
+  "rich-text#tc-p2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **2. OPERADOR DEL SITIO WEB**\n\n FASHION FITNESS CHILE SPA, (en adelante “FFG”), licenciatario de la marca Reebok (en adelante también “Reebok”) sociedad legalmente constituida bajo las leyes de la República de Chile, RUT N° 77.542.549-0, domiciliada en Los Abedules 3085, Piso 6, Vitacura, Santiago, Chile, o entre los usuarios del sitio reebok.cl y otras sociedades filiales o relacionadas que hagan uso de Reebok.cl. En el evento que alguna de estas empresas realizare actos o contratos a través de reebok.cl, deberán informar a los clientes en tiempo y forma sus respectivos términos y condiciones, los cuales deberán ser aceptados por los clientes para ser aplicables.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **3. DECLARACIONES** \n\n FFG no declara ni garantiza que la información y/o servicios incluidos en el Sitio Web sean precisos, completos o actuales, ni que el Sitio Web, el software o el servidor que permite que el Sitio Web esté disponible estén libres de virus o de cualquier otro componente perjudicial. Además, FFG no proporcionará ninguna infraestructura de tecnología informática o conectividad específica. Por lo tanto, FFG no puede declarar o garantizar que el Sitio Web no sufra interrupciones o esté libre de errores. FFG no ofrece garantías ni declaraciones relativas al uso del contenido en el Sitio Web en cuanto a exactitud, precisión, idoneidad, utilidad, oportunidad, fiabilidad, etc.",
+      "blockClass": [ 
+        "landing_inst_content_text","landing_inst_content_list_normal", 
+        "landing_inst_content_table_desktop"
+      ]
+    }
+  },
+  //? H.	Derecho a retracto
+  "rich-text#tc-p4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **4. USUARIOS** \n\n Serán considerados usuarios del Sitio Web aquellos que deseen realizar compras en el Sitio Web, ya sea que estén registrados o que realicen las mismas como visitantes (en adelante “Usuario”).",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p5": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**a. Registrados**.\nLos usuarios registrados serán aquellos que completen el formulario en el Sitio Web con la siguiente información: Nombre, Apellido, Correo Electrónico, Fecha de Nacimiento y Género. Estos datos serán tratados de acuerdo con la [Política de Privacidad](/politicas-de-privacidad). Los usuarios registrados podrán acceder al Sitio Web y ver el estado de su orden además de modificar los datos de su cuenta como por ejemplo Dirección y Métodos de Pago.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p6": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**b. Visitantes.**.\n Los usuarios del Sitio Web podrán realizar compras sin necesidad de registrarse, seleccionando “hacer compra como visitante”. Estos usuarios recibirán la confirmación de su compra en el correo, sin embargo, no podrán ver el estado de su orden ni modificar los datos de su cuenta como por ejemplo Dirección o Métodos de Pago.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p7": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **5. Contacto de FFG** \n\n Si tiene alguna pregunta o comentario sobre el Sitio Web o estos Términos y Condiciones o en el caso de que desee formular una queja en relación con el Sitio Web (o su Contenido) puede utilizar los siguientes contactos:\n\n **Teléfono**: +56 22 6178801 \n\n  **Correo electrónico** : contacto.cl@fashionfitnessgroup.com",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p8": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **6. Precios** \n\n Los precios que aparecen en el Sitio Web incluyen el ITBMS correspondiente. Los precios se expresan en dólares americanos. \n\n FFG se reserva el derecho de hacer cambios en los precios y el producto con anterioridad a un pedido realizado. Sin perjuicio de lo anterior, estas modificaciones nunca afectarán un pedido ya en proceso.\n\n FFG se reserva el derecho a modificar ofertas especiales o promociones en cualquier momento.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p9": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **7. COMPRA DE PRODUCTOS** \n\n  a.  Los  Usuarios  únicamente  podrán  comprar  productos:  (a)  que  estén  disponibles  para  su venta  y  cuyos  detalles  aparezcan  en  el  Sitio  Web;  y  (b)  productos  cuya  entrega  pueda realizarse dentro del territorio chileno a través de un operador logístico.\n b. Los detalles de los productos disponibles para su compra, incluyendo su correspondiente precio,  se  encuentran  especificados  en  el  Sitio  Web.  FFG  adoptará  todas  las  medidas necesarias  para  garantizar  que  todos  los  detalles,  las  descripciones  y  los  precios  de  los productos que aparecen en el Sitio Web sean correctos.\nc. Los productos disponibles en el Sitio Web se ofrecen con las características de materiales, modelo, tallas y colores visibles al momento de realizar la compra. En caso de quedar pocas unidades o de haberse agotado un determinado producto esto se reflejará en el Sitio Web.\nd. Para efectuar una compra, el Usuario deberá ingresar al Sitio Web y seleccionar el o los productos que desee comprar, debiendo llenar el formulario correspondiente, en el cual se le requerirán algunos datos personales (según se señala en la Política de Privacidad), entre ellos un  correo  electrónico  para  contactar  al  consumidor  durante  el  proceso  de  compra.  Usted garantiza que la información que proporcione a FFG en la solicitud o pedido es veraz, exacta y completa.\n e.  Los  productos  seleccionados  por  el  Usuario  serán  incluidos  en  el  carro  de  compra.  Al finalizar la selección de productos, el consumidor deberá presionar el botón “Ver Carrito” para tener acceso a la página de resumen del pedido en la que podrá identificar precio, descripción y cantidad de los productos seleccionados o bien corregir o modificar su pedido.f. Al final de la página de resumen del pedido, el Usuario deberá presionar el botón “Continuar” para que pueda realizar el pago del o de los productos seleccionados y FFG pueda procesar la  compraventa  de  su  pedido,  lo  cual  podrá  realizar  mediante  los  sistemas  de  pago  que  se describen en el apartado 9. Métodos de Pago.\ng. Una vez terminado este procedimiento, FFG notificará al consumidor a través de un correo electrónico,  la  confirmación  del  pedido  de  los  productos  acompañado  de  una  copia  de  las presentes Condiciones de Entrega.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p10": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **8. PROCESO DE CONFIRMACIÓN Y APROBACIÓN DEL PEDIDO** \n\nFFG realizará un proceso de confirmaciones y aprobaciones del pedido, el cual le será notificado al Usuario mediante una serie de correos electrónicos de la siguiente manera: \n **a.** Confirmación  de  Orden, a. Confirmación de Orden, lo cual no constituye una aceptación automática del pedido por FFG, sino hasta el momento en que FFG reciba la confirmación referente al pago. \n **b.** Confirmación  de  Pago,  una vez que se haya aprobado el pago del importe total de su pedido, y se adjuntará la respectiva factura.\n **c.**  Pago  Pendiente,  para los pagos por Multicaja, el Usuario recibirá un correo indicando que FFG está pendiente a recibir el pago para procesar la orden.\n **d.** Pedido no procesado, en caso de no lograr acreditarse el pago, señalando que el pedido no será procesado debido a que no logró acreditarse el pago, informándose dentro de dicho correo los medios de contacto en caso de existir algún problema o duda con el procesamiento del pago.  \n **e.** Pedido en Camino , cuando FFG realicé el despacho del pedido al operador logístico para realizar la entrega el cual incluirá un link para realizar seguimiento al pedido.\n **f.** Pedido  Entregado,  confirmando la entrega del pedido en la dirección indicada cuando se realizó la compra.   \n **g.** Cancelación de Orden, en el evento de circunstancias imprevistas, como por ejemplo falta de inventario, las órdenes serán canceladas y se procesará el reembolso correspondiente.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p11": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **9. MÉTODOS DE PAGO** \n\n Los Usuarios solo podrán realizar pagos en línea, a través del Sitio Web, haciendo uso directo de la pasarela de pagos PayU, o de cualquier otra pasarela de pagos que FFG defina para el efecto, a la que se podrá acceder mediante el vínculo correspondiente. La entidad bancaria de cada Usuario podrá realizar seguimientos de la transferencia para asegurar el proceso, y en todo caso, el manejo y medidas de seguridad de la información personal de los Usuarios será de responsabilidad de la pasarela de pagos, de acuerdo con lo establecido en la ley.\n\n Es obligación de los Usuarios otorgar información verídica sobre las tarjetas utilizadas en el Sitio Web y garantizar que quien las utiliza es el legítimo titular. FFG no será responsable por los daños y/o perjuicios que terceras personas puedan ocasionar al realizar transacciones a través del Sitio Web sin la autorización del titular. El Usuario acepta, reconoce y entiende que el Sitio Web no tiene mecanismos idóneos para evitar la falsificación, el fraude o la suplantación de identidad.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p12": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Los métodos de pago serán los siguientes:\n\n 1.Tarjeta bancaria, ya sea de crédito o débito, Visa, MasterCard, AMEX, MACH, Superdigital, Tenpo, dale, Prepago. El cobro en su tarjeta bancaria se realizará cuando haya sido autorizado por la compañía procesadora la compra de los productos y previo a la entrega de los mismos. El pago mediante tarjeta de crédito y/o débito es totalmente seguro. La totalidad de la transacción se realiza de forma cifrada a través de un servidor de validación bancaria utilizándose el protocolo de encriptación SSL (Secure Socket Layer), así el número de su tarjeta de crédito y la fecha de caducidad quedan instantáneamente encriptados en su ordenador antes de ser enviados al protocolo SSL.\n\n 2.Pagos en efectivo a través de Multicaja, contando con la posibilidad de seleccionar dicho medio de pago para efectuar el pago en efectivo dentro de los tres (3) días hábiles siguientes a la selección de productos directamente en una sucursal de Multicaja. Dentro de las veinticuatro (24) horas luego de efectuado el pago recibirás un correo confirmando el pago y la orden.\n\n 3.Pagos por Transferencia bancaria, a través de Multicaja, seleccionando esa opción de pago. ",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p13": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "4.Se deja expresa constancia que:\n\n a. No se podrán realizar compras por un monto superior a los $450,000 CLP (cuatrocientos cincuenta mil pesos chilenos) a través del Sitio Web.\n b. El consumidor declara que en el proceso de compra usará mecanismos de pago personales, eximiendo de responsabilidad a FFG por el potencial uso de herramientas de pago de terceros",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p14": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " ![Medios de pago!](https://reebokcl.vteximg.com.br/arquivos/Medios-de-pago.png 'Pagos')",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p15": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **10. FACTURACIÓN ELECTRÓNICA** \n\n Al realizar compras el Sitio Web el Usuario, de manera libre y voluntaria, acepta recibir y pagar, en las fechas de vencimiento respectivas, las facturas electrónicas o de cualquier tipo originadas por la compra de Productos, a FFG, subsidiaria de Fashion Fitness Group, Inc. licenciatario autorizado de Reebok en Chile.\n\n El Usuario acepta el envío de factura por medio electrónico en caso de que FFG así lo decida o esté obligada a hacerlo. El Usuario reconoce y acepta que es su responsabilidad contar con el servicio activo del e-mail que indicó a la hora de realizar la compra para este efecto.\n\nEl Usuario no podrá solicitar un cambio de factura una vez emitido dicho documento",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p16": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **11. ENTREGA** \n\n  **a.** FFG realizará la entrega en la dirección provista por usted dentro del territorio chileno. FFG sólo puede realizar la entrega en un domicilio residencial o de oficina en que haya ocupantes que puedan recibir la mercadería. Todas las entregas irán acompañadas de un acuse de recibo.\n **b.** Los periodos de entrega son indicativos y, por consiguiente, no se consideran fechas límite estrictas. El mero hecho de haber excedido un periodo de entrega no le dará ningún derecho de compensación. \n **c.** FFG realizará la entrega en la dirección indicada por usted dentro del territorio chileno a través de un operador logístico, el cual será informado en el correo de Pedido Enviado, acompañado de las instrucciones para hacer seguimiento al estado de despacho del pedido.\n **d.** Las entregas se realizarán en días hábiles de lunes a viernes, excepto los días festivos. Al momento de realizarse la entrega del pedido, nuestro operador logístico podrá solicitar la cédula de la persona que recibe, su firma y/o una foto donde conste la entrega del pedido para nuestros respaldos.\n **e.Zonas de Entrega** :\n &nbsp;&nbsp; &nbsp;&nbsp; i. Zona Metropolitana: Santiago y Valparaiso.\n &nbsp;&nbsp; &nbsp;&nbsp; ii.Zona de Coquimbo, Atacama, La Araucanía, Libertador General Bernardo O´Higgins, Maule, Bio Bío, Los Ríos, Tarapaca, Antofagasta, Arica, Parinacota, Los Lagos, Aysen Del General Carlos Ibanez Del Campo, Magallanes y de la Antartica chilena.\n **f. Los gastos de envío** se cobrarán de acuerdo con lo siguiente:\n &nbsp;&nbsp; &nbsp;&nbsp;i. Zona Metropolitana de Santiago y Valparaíso, el costo de envío es CLP 7.990\n &nbsp;&nbsp; &nbsp;&nbsp; ii. Zona Coquimbo, Atacama, La Araucanía, Libertador general Bernardo O´Higgins, Maule, Bio Bío, Los Ríos, Los Lagos, el costo de envío es CLP 7.990.\n &nbsp;&nbsp; &nbsp;&nbsp; iii. Zona Tarapacá, Antofagasta, Arica, Parinacota, Aysen del General Carlos Ibáñez del Campo, Magallanes y de La Antártica Chilena, el costo de envío es CLP 7.990.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p17": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**g. El despacho Express:** i. Adicionalmente Reebok cuenta con una opción de Despacho Express por un valor de CLP 9.990.\n &nbsp;&nbsp; ii. El Despacho Express se encuentra habilitado exclusivamente para la región metropolitana en la siguientes comunas: Puente Alto, San Bernardo, Cerrillos, Cerro Navia, Conchali, El Bosque, Estacion Central, Huechuraba, Independencia, La Cisterna, La Florida, La Granja, La Reina, Las Condes, Lo Barnechea, Lo Espejo, Lo Prado, Macul, Maipu, Ñuñoa, Pedro Aguirre Cerda, Peñalolen, Providencia, Pudahuel, Quilicura, Quinta Normal, Recoleta, Renca, San Joaquín, San Miguel, San Ramon, Santiago Centro, Vitacura, Santiago.\n &nbsp;&nbsp; iii. El Despacho Express aplica para pedidos con pago confirmado antes de las 16.00 hrs y se realizara la entrega en un plazo de 24 horas.\n &nbsp;&nbsp; iv. Los pedidos con Despacho Express realizados los viernes después de las 16.00 hrs serán preparados el día lunes siguiente y se entregarán en un plazo de 24 horas.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p18": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**h.** El centro de distribución estará cerrado en las siguientes fechas ya sea por feriado o inventario: Mayo 21 / Junio 9 al 15 / Junio 21/ Junio 29 / Agosto 15 / Septiembre 18 al 21 / Octubre 12 y 31 / Noviembre 1 / Diciembre 25. \n **i.** Los plazos máximos de entrega señalados precedentemente podrían sufrir variaciones con motivo de la ocurrencia de un caso fortuito o fuerza mayor que afecte a FFG lo cual se informará oportunamente a los Usuarios afectados, incluyendo en el concepto de eventos fuera del control de FFG, los feriados y los cierres en el Centro de Distribución por cualquier motivo e impedimentos propios que el operador logístico pudiera presentar. \n **j.** Para los pedidos realizados en alguno de estos días, o el día anterior a un festivo, el tiempo de entrega se ampliará en 2 a 4 días hábiles adicionales.\n **k.** Restricciones de envío: \n &nbsp;&nbsp; i. No realizamos entregas en casillas de correos.\n &nbsp;&nbsp; ii. No realizamos entregas en áreas restringidas como zonas francas, puertos, aeropuertos, etc.\n **l.** En caso un cliente solicite un cambio de dirección de entrega, este se podrá hacer efectivo únicamente mientras el pedido se encuentre en proceso en nuestro almacén y debe realizarlo a través de los canales de Servicio al Cliente. Una vez que el pedido haya sido despachado y facturado no se podrá solicitar el cambio.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p19": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **12. DERECHO A RETRACTO** \nUsted podrá dejar sin efecto la compra realizada en nuestro Sitio Web dentro del plazo de 10 días corridos contados desde su recepción, sin invocar causa y siempre que el producto no se haya usado ni deteriorado o dañado por un hecho imputable a usted, ya sea contactándose con nuestro servicio de atención al cliente a través de en nuestro teléfono +56 22 6178801 (número local) o a través de nuestro correo electrónico contacto.cl@fashionfitnessgroup.com en donde le podrán aclarar dudas del procedimiento a seguir para la devolución del producto y reembolso total o parcial del importe pagado que se señala a continuación:\n a. Selecciona el tipo de devolución:\n &nbsp;&nbsp;&nbsp;&nbsp; i. Devolución Total: Esta opción se selecciona para devolver el 100% de tu pedido.\n &nbsp;&nbsp;&nbsp;&nbsp; ii. Devolución Parcial: En esta opción puedes elegir que artículos deseas devolver.\n  b. Selecciona método para devolver el pedido.\n i. &nbsp;&nbsp;&nbsp;&nbsp; Centro de Pick Up: se entregará en el centro del operador logístico.\n c. Confirma que los datos de la devolución sean correctos y selecciona la razón de tu devolución.\n d. Finaliza el proceso. En un periodo aproximado de 4 días hábiles, recibirás por correo electrónico la guía de devolución para que puedas coordinar el pick up con nuestro Socio Logístico. Una vez recibido el producto te llegará otro correo con la información del crédito en una tarjeta de regalo la cual tendrás un (1) año para utilizar.\n e. Los requisitos para ejercer este derecho son:\n &nbsp;&nbsp;&nbsp;&nbsp;  i. El producto debe permanecer nuevo, sin uso y sin que haya sufrido ningún deterioro o daño.\n &nbsp;&nbsp;&nbsp;&nbsp;  ii. Debe entregarse dentro de su empaque original, ya sea caja o envoltorio, con sus etiquetas originales sin haber sido desprendidas.\n &nbsp;&nbsp;&nbsp;&nbsp; iii. La caja debe encontrarse en buen estado.\n f. Este derecho no aplica respecto de trajes de baño y mascarillas. ",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p20": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **13. CAMBIOS Y DEVOLUCIONES** \n a. Cambios se realizarán a través del Servicio de Atención al Cliente. \n b. Usted podrá solicitar el cambio de un producto por talla o el reembolso de la compra realizada en nuestro Sitio Web dentro del plazo de 30 días calendario contados desde su recepción siempre que el producto no se haya usado ni deteriorado por un hecho imputable a usted. Este proceso lo puede realizar ya sea contactándose con nuestro servicio de atención al cliente a través de en nuestro teléfono +56 22 6178801 (número local) o a través de nuestro correo electrónico contacto.cl@fashionfitnessgroup.com en donde le podrán aclarar dudas del procedimiento a seguir para los cambios del producto o el reembolso total o parcial del importe pagado.\n c. Este derecho no aplica respecto a trajes de baño, ropa interior, calzas, ni petos deportivos.\n d. Si usted tiene algún inconveniente con la celebración del contrato o su cumplimiento, puede contactarse con nosotros a la siguiente dirección de correo electrónico: contacto.cl@fashionfitnessgroup.com indicando el motivo del inconveniente o contactarse directamente con nuestro Servicio de Atención al Cliente al siguiente número +56 22 6178801. \n e. Recuerda que para devolver un artículo(s):\n &nbsp;&nbsp;&nbsp;&nbsp; i. Tienes un plazo de 30 días a partir de la fecha de recepción del producto.\n &nbsp;&nbsp;&nbsp;&nbsp;  ii Para artículos con problemas de calidad cuentas con un periodo de hasta 6 meses a partir de la fecha de recepción del producto. (Ver Garantía Legal) \n  f. El Usuario asumirá los costos de envío para la devolución del artículo. Los costos de envío no son reembolsables. ",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p21": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **14. CAMBIOS O DEVOLUCIONES EN TIENDA** \n Para cambios de productos comprados en el Sitio Web o devoluciones, los Usuarios también podrán realizarlos en la tienda ubicada en Multiplaza.\n a. Requisitos para cambios:\n &nbsp;&nbsp;&nbsp;&nbsp; i. Los cambios solamente aplican por compras a través del Sitio Web;\n &nbsp;&nbsp;&nbsp;&nbsp; ii. Para cambios en tienda por número, talla o modelo el plazo es de 30 días a partir de la fecha de recepción del producto;\n &nbsp;&nbsp;&nbsp;&nbsp; iii. El producto que quieres cambiar debe estar sin uso, con sus etiquetas y cajas originales;\n\n &nbsp;&nbsp;&nbsp;&nbsp; iv. La devolución del monto se hace a través de un Giftcard, que tendrá una validez deun (1) año calendario para redimirlo; en caso de que se necesite de la devolución dedinero se hace el trámite para la cancelación de la compra a través del mismo medio de pago que se realizó originalmente en la compra;\n\n &nbsp;&nbsp;&nbsp;&nbsp; v. Solo aplica para las tiendas Reebok; no franquicias u otras tiendas que distribuyen productos Reebok;\n &nbsp;&nbsp; &nbsp;&nbsp; vi. El cambio no aplica a trajes de baño, ropa interior, calzas, ni petos deportivos; y \n\n &nbsp;&nbsp;&nbsp;&nbsp; vii. Para cambios por problemas de calidad el plazo es de 30 días a partir de la fecha de recepción del producto.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p22": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **15. MANTENIMIENTO DE LOS PRODUCTOS** \n FFG desea llamar su atención sobre las instrucciones de lavado y mantenimiento impresas en las etiquetas de los productos. FFG no será responsable de ningún daño que sea consecuencia del manejo o utilización incorrecta de los productos, incluida la utilización contraria a las instrucciones.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p23": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **16. MANTENIMIENTO DE LOS PRODUCTOS** \n a. En caso de ejercer la garantía del producto, usted podrá, dentro de los seis meses siguientes a la fecha en que se haya recibido el producto, contactar a FFG a través del servicio al consumidor, al teléfono: +56 22 6178801 o a través de nuestro correo electrónico contacto.cl@fashionfitnessgroup.com para coordinar el envío de una guía de devolución para efectos de que pueda entregar el producto, con el propósito de ejercer alguno de los siguientes derechos: \n &nbsp;&nbsp;&nbsp;&nbsp; i. Reposición del producto; \n&nbsp;&nbsp;&nbsp;&nbsp; ii. Devolución de la cantidad pagada. \n b. La garantía legal sólo es procedente por fallas o defectos de fabricación comprobada por FFG en el o los productos, el consumidor podrá optar por: \n &nbsp;&nbsp;&nbsp;&nbsp; i. Llevarse el mismo artículo nuevo si existe stock, \n &nbsp;&nbsp;&nbsp;&nbsp; ii. Cambiarlo por otro producto del mismo valor. \n &nbsp;&nbsp;&nbsp;&nbsp;  iii. Optar por la devolución de su dinero. \n c. Para hacer efectiva la garantía legal, el consumidor, deberá presentar la factura de compra, indicando sus datos personales para poder contactarlo. Esta factura, junto con su producto, será enviado a nuestro departamento técnico, el que tendrá 8 días hábiles para revisar el artículo y determinar si la falla está cubierta por la garantía legal en estos Términos y Condiciones. \n d. En caso de que el departamento técnico de FFG concluya que procede hacerse efectiva la garantía legal, personal de Reebok se pondrá en contacto con el consumidor en el plazo antes señalado. \n e. Si el cliente opta por (1) llevarse el mismo artículo nuevo siempre que el centro de distribución cuente con stock del mismo o, (2) cambiar el producto defectuoso por otro producto existente en el centro de distribución, deberá informarlo al personal de FFG, para coordinar las acciones a seguir.  \n f. El tiempo que la devolución se encuentra en tránsito puede variar, aunque una vez  recibida la procesaremos lo más rápido posible.   \n g. Si el consumidor opta por la devolución de su dinero, una vez que nuestro almacén haya confirmado tu devolución, desde nuestro Centro de Servicio a Clientes daremos inicio a tu proceso de reembolso el cual puede tomar de diez (10) hasta veinte (20) días hábiles dependiendo de su método de pago original.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p24": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **17. PROPIEDAD INTELECTUAL** \n a. FFG tiene todos los todos los derechos sobre el contenido, diseño y código fuente del Sitio Web y, en especial, con carácter enunciativo, pero no limitativo, sobre las fotografías, imágenes, textos, logos, diseños, marcas, nombres comerciales y datos que se incluyen en el mismo.\n b. Estos derechos están protegidos por la legislación vigente chilena e internacional relativaa la propiedad intelectual e industrial.\n c. Asimismo, y sin prejuicio de lo anterior, el contenido de este Sitio Web también tiene la consideración de programa informático; y, por lo tanto, le resulta también de aplicación toda la normativa chilena e internacional vigente en la materia.\n d. Queda expresamente prohibida la reproducción total o parcial de este Sitio Web, ni siquiera mediante un hiperenlace, ni de cualquiera de sus contenidos, sin el previo permiso expreso y por escrito de FFG.\n e. Asimismo, queda totalmente prohibida la copia, reproducción, adaptación, modificación, distribución, comercialización, comunicación pública y/o cualquier otra acción que comporte una infracción de la legislación vigente chilena y/o internacional en materia de propiedad intelectual y/o industrial, así como el uso de los contenidos del Sitio Web si no es con la previa autorización expresa y por escrito de FFG.\n f. FFG informa que el solo hecho de acceder y consultar el Sitio Web no concede licencia, autorización o derecho implícito alguno sobre los derechos de propiedad intelectual y/o industrial o sobre cualquier otro derecho o propiedad relacionado, directa o indirectamente, con los contenidos incluidos en el Sitio Web.\n g. Igualmente, las marcas comerciales, nombres, enseñas y lemas comerciales, logotipos y marcas de servicio (llamadas colectivamente, las &quot;Marcas&quot;) y demás derechos de propiedad intelectual que aparecen en el Sitio Web, están registrados por FFG o por los propietarios de las respectivas marcas y son propiedad de cada uno de ellos respectivamente. Nada de lo contenido en este sitio web debe ser interpretado como el otorgamiento de cualquier licencia o derecho a usar cualquier marca sin el permiso previo y por escrito de FFG o de la posible marca de terceros que se quiere utilizar. Está prohibido el uso, la reproducción, copia, modificación, distribución, divulgación, venta, exhibición pública por cualquier medio, comunicación total o parcial de la propiedad intelectual contenida en el sitio web, sin la previa y escrita autorización por parte de FFG o de los propietarios de las respectivas marcas. En caso de uso no autorizado de los derechos de propiedad intelectual por parte del usuario, el usuario indemnizará y será responsable por todos los daños y perjuicios y cancelará todos los derechos a los que haya lugar, a FFG o a los propietarios de las marcas, al igual que será sujeto de las acciones civiles, penales y demás acciones legales a las que  hubiere lugar. \n h. Además, todos los gráficos, marcas comerciales, nombres, enseñas y lemas comerciales, logotipos, fotografías, publicidad, diseños, voces, videos, textos, grabaciones, planos, creaciones, informes y demás información contenida en el Sitio Web son de FFG o de terceros que autorizaron a FFG su explotación y su uso.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p25": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **18. RESPONSABILIDAD DEL USUARIO** \n a. Los usuarios son íntegramente responsables de su conducta, al acceder a la información del Sitio Web, mientras naveguen en el mismo, así como después de haber accedido a éste.\n b. Como consecuencia de lo anterior, los usuarios son los únicos responsables ante FFG y ante terceros de:\n &nbsp;&nbsp;&nbsp;&nbsp; i. las consecuencias que se puedan derivar de una utilización, con fines o efectos ilícitos o contrarios a las presentes condiciones de uso de cualquier contenido del Sitio Web, elaborado o no por FFG, publicado o no bajo su nombre de forma oficial;\n &nbsp;&nbsp;&nbsp;&nbsp; ii. así como de las consecuencias que se puedan derivar de la utilización contraria al contenido de los Términos y Condiciones y lesiva de los intereses o derechos de terceros, o que de cualquier forma pueda dañar, inutilizar o deteriorar el Sitio Web, la reputación de FFG y/o de los productos y servicios que ésta ofrece en el Sitio Web o sus servicios, o impedir el normal disfrute por otros Usuarios.\n c. FFG se reserva el derecho a actualizar los contenidos cuando lo estime conveniente, así como a eliminarlos, limitarlos o impedir el acceso a ellos, de manera temporal o definitiva, así como denegar el acceso al Sitio Web a los Usuarios que hagan un mal uso de los contenidos y/o incumplan con cualesquiera de las condiciones que aparecen en el presente documento.\n d. FFG informa que no garantiza:\n &nbsp;&nbsp;&nbsp;&nbsp; i. que el acceso al Sitio Web y/o a las páginas de enlace sea ininterrumpido o libre de error;\n &nbsp;&nbsp;&nbsp;&nbsp; ii. que el contenido o software al que los Usuarios accedan a través de internet o del Sitio Web de las páginas de enlace no contengan error alguno, virus informático u otros elementos en los contenidos que puedan producir alteraciones en su sistema o en los documentos electrónicos y archivos almacenados en su sistema informático o cause otro tipo de daño; \n &nbsp;&nbsp;&nbsp;&nbsp; iii. el aprovechamiento que de la información o contenido de este Sitio Web o páginas de enlace que los Usuarios pudieran realizar para sus propósitos personales. \n e. La información contenida en este Sitio Web debe ser considerada por los Usuarios como divulgativa y orientadora, tanto con relación a su finalidad como a sus efectos, motivo por el cual FFG no garantiza la exactitud de la información contenida en este Sitio Web y por consiguiente no asume responsabilidad alguna sobre los posibles perjuicios o incomodidades para los Usuarios que pudiesen derivarse de alguna inexactitud presente en el Sitio Web.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p26": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **19. CAMBIOS EN LOS TÉRMINOS** \n FFG se reserva el derecho, según su propio criterio, de cambiar, modificar, añadir o eliminar en cualquier momento parte de esos Términos y Condiciones. Compruebe estos términos periódicamente para informarse de dichos cambios. Si continúa utilizando el Sitio después de haberse publicado los cambios de estos Términos y Condiciones, eso significará que acepta dichos cambios.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p27": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **20. LIMITACIÓN DE RESPONSABILIDAD** \n El uso que haga el Usuario del Sitio Web es por su propia cuenta y riesgo. Ni FFG ni ninguno de sus empleados, responsables, contratistas, aliados, directores o agentes, ni ninguna otra parte involucrada en la creación, la producción o la distribución del Sitio Web serán responsables de  ningún daño directo, indirecto, especial, consecuencial, ni de otros daños que resulten del uso del Contenido en el Sitio Web, o de la imposibilidad de utilizarlo, incluidos los daños causados por virus, incorrecciones, información incompleta del Sitio Web, o el rendimiento de los productos, o cualquier otro daño derivado de o en relación con estos Términos y Condiciones, incluso aunque se haya advertido a FFG de la posibilidad de dichos daños. \nFFG no asume responsabilidad alguna derivada, a título enunciativo, pero no limitativo: \n &nbsp;&nbsp;&nbsp;&nbsp; a. De la utilización que los USUARIOS puedan hacer de los materiales de este Sitio Web o páginas de enlace, ya sean prohibidos o permitidos, en infracción de los derechos de propiedad intelectual y/o industrial de contenidos del Sitio Web o de terceros. \n &nbsp;&nbsp;&nbsp;&nbsp; b. De los eventuales daños y perjuicios a los Suscriptores o Usuarios causados por un funcionamiento normal o anormal de las herramientas de búsqueda, de la organización o la localización de los contenidos y/o acceso al Sitio Web y, en general, de los errores o problemas que se generen en el desarrollo o instrumentación de los elementos técnicos que el Sitio Web o un programa facilite al Usuario. \n &nbsp;&nbsp;&nbsp;&nbsp; c. De los contenidos de aquellas páginas a las que los Suscriptores o Usuarios puedan acceder desde enlaces incluidos en el Sitio Web, ya sean autorizados o no. \n &nbsp;&nbsp;&nbsp;&nbsp; d. De los actos u omisiones de terceros, con independencia de que estos terceros pudiesen estar unidos a FFG mediante vía contractual. \n &nbsp;&nbsp;&nbsp;&nbsp; e. Del acceso de menores de edad a los contenidos incluidos en el Sitio Web, siendo responsabilidad de sus progenitores o tutores ejercer un control adecuado sobre la actividad de los hijos o menores a su cargo o bien instalar alguna de las herramientas de control del uso de Internet con el objeto de evitar (i) el acceso a materiales o contenidos no aptos para menores, así como (ii) el envío de datos personales sin la previa autorización de sus progenitores o tutores.\n &nbsp;&nbsp;&nbsp;&nbsp; f. De las comunicaciones o diálogos en el transcurso de los debates, foros, chats y comunidades virtuales que se organicen a través de o entorno al Sitio Web y/o páginas de enlace, ni responderá, por tanto, de los eventuales daños y perjuicios que sufran los suscriptores o Usuarios particulares y/o colectivos a consecuencia de dichas comunicaciones y/o diálogos. FFG no será responsable en ningún caso cuando se produzcan: \n &nbsp;&nbsp;&nbsp;&nbsp; a. Errores o retrasos en el acceso al Sitio Web por parte del Suscriptor a la hora de introducir sus datos en el formulario de pedido, la lentitud o imposibilidad de recepción por parte de los destinatarios de la confirmación del pedido o cualquier anomalía que pueda surgir cuando estas incidencias sean debidas a problemas en la red Internet, causas de caso fortuito o fuerza mayor y cualquier otra contingencia imprevisible ajena a la buena fe de FFG. \n &nbsp;&nbsp;&nbsp;&nbsp; b. Fallos o incidencias que pudieran producirse en las comunicaciones, borrado o transmisiones incompletas, de manera que no se garantiza que los servicios del Sitio Web estén constantemente operativos. \n &nbsp;&nbsp;&nbsp;&nbsp; c. De los errores o daños producidos al Sitio Web por un uso del servicio ineficiente y de mala fe por parte del Suscriptor. \n &nbsp;&nbsp;&nbsp;&nbsp; d. De la no operatividad o problemas en la dirección de correo electrónico facilitada por el Suscriptor y/o Usuario para el envío de la confirmación del pedido. En todo caso, FFG se compromete a solucionar los problemas que puedan surgir y a ofrecer todo el apoyo necesario al SUSCRIPTOR y/o USUARIO para llegar a una solución rápida y satisfactoria  de la incidencia. Asimismo, FFG tiene derecho a realizar durante intervalos temporales definidos, campañas promocionales para promover el registro de nuevos miembros en su servicio. FFG se reserva el derecho de modificar las condiciones de aplicación de las promociones, prorrogarlas comunicándolo debidamente, o proceder a la exclusión de cualquiera de los participantes de la promoción en el supuesto de detectar cualquier anomalía, abuso o comportamiento poco ético en la participación de los mismos.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p28": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **21. SITIO OFICIAL** \n FFG es **únicamente** responsable por las compras realizadas en el Sitio Web Oficial de Reebok en Chile Reebok.cl. Para las compras realizadas en otros sitios distintos a este, deberán utilizar los canales habilitados en dichos sitios.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  },
+  "rich-text#tc-p29": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **22. Ley aplicable y jurisdicción** \n Estos Términos y Condiciones se regirán por la legislación de Chile cualquier conflicto o disputa será sometida a la jurisdicción ordinaria chilena.\n\n\n **Ultima actualización**: 24 de febrero de 2023.",
+      "blockClass": ["landing_inst_content_text","landing_inst_content_list_normal"]
+    }
+  }
+ }

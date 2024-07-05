@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#home-promotion-bar": {
+    "children": ["promotion-bar"],
+    "props": {
+      "blockClass": "row-promotion-bar"
+    }
+  },
+  "promotion-bar": {
+    "props": {
+        "pedidoMinimo": 55000
+    }
+  }
+}

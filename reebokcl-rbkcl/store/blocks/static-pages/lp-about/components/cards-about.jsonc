@@ -1,0 +1,80 @@
+{
+    "flex-layout.row#about-last-section": {
+        "props": {
+            "colSizing": "auto",
+            // "marginBottom": 5,
+            "blockClass": "about-last-section"
+        },
+        "children": [
+            "flex-layout.col#first-col-last-about",
+            "flex-layout.col#second-col-last-about",
+            "flex-layout.col#third-col-last-about"
+        ]
+    },
+    "flex-layout.col#first-col-last-about": {
+        "props": {
+            "blockClass": "col-last-section"
+        },
+        "children": [
+            "image#last-section-first-col"
+           // "rich-text#last-section-first-col"
+        ]
+    },
+    "image#last-section-first-col": {
+        "props": {
+            "src": "/arquivos/DoorwayG1_DesktopFFG-816x1020.jpg",
+            "alt": "Concentrarnos en los Movement Makers | Reebok Chile",
+            "blockClass": "col-last-section-image"
+        }
+    },
+    "rich-text#last-section-first-col": {
+        "props": {
+            "text": "#### Concentrarnos en los Movement Makers",
+            "blockClass": "col-last-section-text"
+        }
+    },
+    "flex-layout.col#second-col-last-about": {
+        "props": {
+            "blockClass": "col-last-section"
+        },
+        "children": [
+            "image#last-section-second-col"
+            //"rich-text#last-section-second-col"
+        ]
+    },
+    "image#last-section-second-col": {
+        "props": {
+            "src": "/arquivos/DoorwayG2_DesktopFFG-816x1020.jpg",
+            "alt": "Sacar provecho a Nuestras Fortalezas | Reebok Chile",
+            "blockClass": "col-last-section-image"
+        }
+    },
+    "rich-text#last-section-second-col": {
+        "props": {
+            "text": "#### Sacar provecho a Nuestras Fortalezas",
+            "blockClass": "col-last-section-text"
+        }
+    },
+    "flex-layout.col#third-col-last-about": {
+        "props": {
+            "blockClass": "col-last-section"
+        },
+        "children": [
+            "image#last-section-third-col"
+            //"rich-text#last-section-third-col"
+        ]
+    },
+    "image#last-section-third-col": {
+        "props": {
+            "src": "/arquivos/DoorwayG3_DesktopFFG-816x1020.jpg",
+            "alt": "Triunfar como una marcaDigital y DTC | Reebok Chile",
+            "blockClass": "col-last-section-image"
+        }
+    },
+    "rich-text#last-section-third-col": {
+        "props": {
+            "text": "#### Triunfar como una marcaDigital y DTC",
+            "blockClass": "col-last-section-text"
+        }
+    }
+}

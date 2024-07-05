@@ -1,0 +1,296 @@
+{
+    "store.custom#landing-newsletter-retail": {
+      "blocks": ["flex-layout.row#newsletter-landing-retail"]
+    },
+    "flex-layout.row#newsletter-landing-retail": {
+      "children": ["flex-layout.col#landing-newsletter-retail"],
+      "props": {
+        "blockClass": "newsletter-landing"
+      }
+    },
+    "flex-layout.col#landing-newsletter-retail": {
+      "children": [
+        "flex-layout.row#logo-newsletter", // compartido desde /newsletter
+        "flex-layout.row#newsletter-text-footer", // compartido desde /newsletter
+        "formulario#landing-newsletter-retail"
+      ],
+      "props": {
+        "blockClass": "newsletter-landing"
+      }
+    },
+    "formulario#landing-newsletter-retail": {
+      "props": {
+        "dataEntity": "FR",
+        "successMessage": "<div><h1>¡Bienvenido a la <br>comunidad Reebok!</h1><p>Nos alegra que formes parte de nuestra historia. <br>Descubre todo lo que tenemos para ti: desde el <br>outfit perfecto para tu entrenamiento hasta el <br>estilo ideal para salir de paseo.<br><br>Para celebrar que ya eres parte de la comunidad,<br> <strong>te hemos enviado un regalo especial.<br></strong><br><strong>¡CHEQUEA TU EMAIL Y COMIENZA LA AVENTURA!</strong></p><br><br><a href='/todo-reebok'>VER TODO REEBOK</a></div>",
+        "blockClass": ["newsletter-landing-custom"]
+      },
+      "children": [
+        "flex-layout.row#landing-newsletter-retail-origin",
+        "flex-layout.row#newsletter-retail-nombre",
+        "flex-layout.row#newsletter-retail-apellido",
+        "flex-layout.row#newsletter-retail-email",
+        "flex-layout.row#newsletter-retail-bDay",
+        "flex-layout.row#newsletter-retail-phone",
+        "flex-layout.row#newsletter-retail-genero",
+        "flex-layout.row#newsletter-retail-tiendas",
+        "flex-layout.row#newsletter-retail-tyc",
+        "flex-layout.row#newsletter-retail-politicas",
+        "flex-layout.row#newsletter-retail-submit"
+      ]
+    },
+    // -Element-
+    "flex-layout.row#landing-newsletter-retail-origin": {
+      "children": ["input#landing-newsletter-retail-origin"],
+      "props": {
+        "blockClass": ["input-newsletter-origin"]
+      }
+    },
+    "input#landing-newsletter-retail-origin": {
+      "props": {
+        "nameInput": "origin",
+        "id": "origin",
+        "classDynamic": "NewsLetter",
+        "value": "landing",
+        "label": "origin*",
+        "blockClass": "boton-input-formulario",
+        "required": true,
+        "type": "text"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-nombre": {
+      "children": ["input#newsletter-retail-nombre"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#newsletter-retail-nombre": {
+      "props": {
+        "nameInput": "name",
+        "placeholder": "Ingresa tu nombre",
+        "required": true,
+        "id": "nombre",
+        "classDynamic": "NewsLetter",
+        "type": "text",
+        "classname": "nombre",
+        "minlength": 4,
+        "label": "Nombre*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-apellido": {
+      "children": ["input#newsletter-retail-apellido"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#newsletter-retail-apellido": {
+      "props": {
+        "nameInput": "lastname",
+        "placeholder": "Ingresa tu apellido",
+        "required": true,
+        "id": "lastname",
+        "classDynamic": "NewsLetter",
+        "type": "text",
+        "classname": "nombre",
+        "minlength": 1,
+        "label": "Apellido*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-email": {
+      "children": ["input#newsletter-retail-email"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#newsletter-retail-email": {
+      "props": {
+        "nameInput": "email",
+        "uniqueKey": true,
+        "placeholder": "ejemplo@gmail.com",
+        "id": "email",
+        "classDynamic": "NewsLetter",
+        "type": "email",
+        "required": true,
+        "errorText": "No es un correo valido",
+        "typeValidation": "email",
+        "uniqueErrorMessage": "El correo $email ya se encuentra registrado",
+        "label": "Correo electrónico*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-bDay": {
+      "children": ["input#newsletter-retail-bDay"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#newsletter-retail-bDay": {
+      "props": {
+        "nameInput": "birthday",
+        "placeholder": "dd/mm/aaaa",
+        "required": true,
+        "id": "birthday",
+        "classDynamic": "NewsLetter",
+        "type": "date",
+        "classname": "nombre",
+        "minlength": 1,
+        "label": "Cumpleaños*",
+        "blockClass": "boton-input-formulario-daty"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-phone": {
+      "children": ["input#newsletter-retail-phone"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#newsletter-retail-phone": {
+      "props": {
+        "nameInput": "phone",
+        "placeholder": "Teléfono",
+        "required": true,
+        "id": "phone",
+        "classDynamic": "NewsLetter",
+        "type": "text",
+        "classname": "nombre",
+        "minlength": 4,
+        "label": "Teléfono*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-genero": {
+      "children": ["select#newsletter-retail-genero"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "select#newsletter-retail-genero": {
+      "props": {
+        "name": "gender",
+        "required": true,
+        "id": "gender",
+        // "classDynamic": "NewsLetter",
+        "classname": "nombre",
+        "label": "Género",
+        "selectMessage": "Seleccione una opción",
+        "valueObj": [
+          { "value": "m", "text": "MASCULINO" },
+          { "value": "f", "text": "FEMENINO" }
+        ],
+        "blockClass": "boton-input-formulario"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-tiendas": {
+      "children": ["select#newsletter-retail-tiendas"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "select#newsletter-retail-tiendas": {
+      "props": {
+        "name": "store",
+        "required": true,
+        "id": "store",
+        // "classDynamic": "NewsLetter",
+        "classname": "nombre",
+        "label": "¿En qué tienda compraste?",
+        "selectMessage": "Seleccione una opción",
+        "valueObj": [
+          { "value": "1. REEBOK MALL COSTANERA CENTER", "text": "1. REEBOK MALL COSTANERA CENTER" },
+          { "value": "2. REEBOK MALL PARQUE ARAUCO", "text": "2. REEBOK MALL PARQUE ARAUCO" },
+          { "value": "3. REEBOK MALL PLAZA VESPUCIO", "text": "3. REEBOK MALL PLAZA VESPUCIO" },
+          { "value": "4. REEBOK MALL ARAUCO MAIPÚ", "text": "4. REEBOK MALL ARAUCO MAIPÚ" },
+          { "value": "5. REEBOK MALL PLAZA TRÉBOL", "text": "5. REEBOK MALL PLAZA TRÉBOL"},
+          { "value": "6. REEBOK MALL MARINA ARAUCO", "text": "6. REEBOK MALL MARINA ARAUCO"},
+          { "value": "7. REEBOK EASTON OUTLET MALL", "text": "7. REEBOK EASTON OUTLET MALL"},
+          { "value": "8. REEBOK ARAUCO PREMIUM OUTLET BUENAVENTURA", "text": "8. REEBOK ARAUCO PREMIUM OUTLET BUENAVENTURA"},
+          { "value": "9. REEBOK EASTON TEMUCO OUTLET MALL", "text": "9. REEBOK EASTON TEMUCO OUTLET MALL"},
+          { "value": "10. REEBOK PATIO OUTLET MAIPÚ", "text": "10. REEBOK PATIO OUTLET MAIPÚ"},
+          { "value": "11. REEBOK PLAZA BIO BIO", "text": "11. REEBOK PLAZA BIO BIO"},
+          { "value": "12. REEBOK MALL BARRIO INDEPENDENCIA", "text": "12. REEBOK MALL BARRIO INDEPENDENCIA"},
+          { "value": "13. LOLAPALOOSA", "text": "13. LOLAPALOOSA"}
+        ],
+        "blockClass": "boton-input-formulario"
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-tyc": {
+      "children": ["input#newsletter-retail-tyc", "link#newsletter-retail-tyc"],
+      "props": {
+        "blockClass": ["input-inputCondicionesNewsLetter","input-newsletter-retail-tyc"],
+        "marginTop": 4
+      }
+    },
+    "input#newsletter-retail-tyc": {
+      "props": {
+        "nameInput": "Accepttyc",
+        "id": "Accepttyc",
+        "type": "checkbox",
+        "classDynamic": "Condiciones",
+        "required": true,
+        "label": " Acepto los"
+      }
+    },
+    "link#newsletter-retail-tyc": {
+      "props": {
+        "href": "/programa-fidelidad",
+        "target": "_blank",
+        "label": " Términos y Condiciones.",
+        "blockClass": ["terminos-Condiciones"]
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-politicas": {
+      "children": [
+        "input#newsletter-retail-politicas",
+        "link#newsletter-retail-politicas"
+      ],
+      "props": {
+        "blockClass": ["input-inputCondicionesNewsLetter","input-newsletter-retail-tyc"],
+        "marginTop": 4
+      }
+    },
+    "input#newsletter-retail-politicas": {
+      "props": {
+        "nameInput": "PrivacyPolicy",
+        "id": "PrivacyPolicy",
+        "type": "checkbox",
+        "classDynamic": "Condiciones",
+        "required": true,
+        "label": " Acepto las"
+      }
+    },
+    "link#newsletter-retail-politicas": {
+      "props": {
+        "href": "/politicas-de-privacidad",
+        "target": "_blank",
+        "label": " Políticas de Privacidad.",
+        "blockClass": ["link-politicas-de-privacidad"]
+      }
+    },
+    // -Element-
+    "flex-layout.row#newsletter-retail-submit": {
+      "children": ["input#newsletter-retail-submit"],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#newsletter-retail-submit": {
+      "props": {
+        "id": "suscribirme",
+        "type": "submit",
+        "value": "Suscribirme",
+        "classDynamic": "NewsLetter",
+        "blockClass": "boton-enviar-formulario"
+      }
+    }
+  }
+  

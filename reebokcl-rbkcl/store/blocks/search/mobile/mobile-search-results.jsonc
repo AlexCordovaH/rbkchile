@@ -1,0 +1,144 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      // "promotion-bar-2",
+      "trigger-url#plp-mujer",
+      "trigger-url#plp-mujer-calzado-subcategoria",
+      "trigger-url#plp-mujer-ropa-subcategoria",
+      "trigger-url#plp-mujer-accesorios-subcategoria",
+      "trigger-url#plp-hombre",
+      "trigger-url#plp-hombre-calzado-subcategoria",
+      "trigger-url#plp-hombre-ropa-subcategoria",
+      "trigger-url#plp-hombre-accesorios-subcategoria",
+      "trigger-url#plp-ninos",
+      "trigger-url#plp-unisex",
+      "trigger-url#plp-deporte",
+      "trigger-url#plp-classics",
+      "trigger-url#plp-lux",
+      "trigger-url#plp-backtoschool",
+      "trigger-url#plp-nano3",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#order-and-filter-mobile",
+      "flex-layout.row#searchtitle--Mob",
+      "flex-layout.row#seo-h2--Mob",
+      // "flex-layout.row#searchinfomobile",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "pagination-number#desktop",
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#productCountMobile",
+      // "trigger-url#plp-hombre-calzado",
+      // "trigger-url#plp-mujer-calzado",
+      // "trigger-url#plp-ninos-calzado",
+      // "trigger-url#plp-hombre-ropa",
+      // "trigger-url#plp-mujer-ropa",
+      // "trigger-url#plp-hombre-piepagina",
+      // "trigger-url#plp-mujer-piepagina",
+      // "trigger-url#plp-ninos-piepagina",
+      // "trigger-url#plp-deporte-piepagina",
+      // "trigger-url#plp-classics-piepagina",
+      // "trigger-url#plp-outlet-piepagina",
+      // "trigger-url#plp-calzado-classics-piepagina",
+      // "trigger-url#plp-sale-piepagina",
+      // "trigger-url#plp-deporte-calzado",
+      // "trigger-url#plp-novedades-piepagina",
+      // "trigger-url#plp-classics-ropa",
+      // "trigger-url#plp-deporte-ropa",
+        "flex-layout.row#seo-h3--Mob"
+   
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "breadcrumb.search": {
+    "props": {
+      "blockClass": "search-breadcrumb",
+      "showOnMobile": true
+    }
+  },
+  // "flex-layout.row#searchtitlemobile-filter": {
+  //   "children": [
+  //     "flex-layout.col#searchtitle-mobile",
+  //     "flex-layout.col#filter-mobile"
+  //   ],
+  //   "props": { "blockClass": "container-mobile-title-and-filter" }
+  // },
+  // "flex-layout.col#searchtitle-mobile": {
+  //   "children": ["flex-layout.row#searchtitle-mb"],
+  //   "props": {
+  //     "blockClass": "searchTitlemobile-mobile"
+  //     // "width": "80%"
+  //   }
+  // },
+  "flex-layout.row#contentmobile": {
+    "children": ["search-content"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "contentmobile"
+    }
+  },
+  "flex-layout.row#order-and-filter-mobile": {
+    "children": ["order-by.v2","filter-navigator.v3#mobile"],
+    "props": {
+      "blockClass": "container-order-and-filter-mobile"
+    }
+  },
+  "flex-layout.row#productCountMobile": {
+    "children": [
+      // "total-products.v2",
+      "search-products-count-per-page"
+    ],
+    "props": {
+      "blockClass": "productCountMobileRow"
+    }
+  }
+
+  // "flex-layout.row#searchtitle-mb": {
+  //   "children": ["search-title.v2", "total-products.v2"],
+  //   "props": {
+  //     "horizontalAlign": "center",
+  //     "blockClass": "search-title"
+  //   }
+  // },
+
+  // "flex-layout.row#searchinfomobile": {
+  //   "children": [
+  //     "filter-navigator.v3",
+  //     "flex-layout.col#orderByMobile"
+  //   ],
+  //   "props": {
+  //     "preserveLayoutOnMobile": true,
+  //     "colSizing": "auto",
+  //     "colJustify": "between",
+  //     "blockClass": "searchinfomobile"
+  //   }
+  // },
+
+  // "flex-layout.col#orderByMobile": {
+  //   "children": ["order-by.v2"],
+  //   "props": {
+  //     "blockClass": "orderByMobileCol"
+  //   }
+  // }
+
+  // "flex-layout.col#filterMobile": {
+  //   "children": ["filter-navigator.v3"],
+  //   "props": {
+  //     "blockClass": "filterMobileCol"
+  //   }
+  // },
+  
+  // "flex-layout.col#switcherMobile": {
+  //   "children": ["search-layout-switcher"],
+  //   "props": {
+  //     "blockClass": "switcherMobileCol"
+  //   }
+  // }
+}

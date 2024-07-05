@@ -1,0 +1,146 @@
+{   
+"flex-layout.row#searchtitle--Desk": {
+  "children": ["flex-layout.col#searchtitle--Desk"],
+  "props": {
+    "horizontalAlign": "center",
+    "blockClass": "search-title"
+  }
+},
+
+"flex-layout.col#searchtitle--Desk": {
+  "children": ["rich-text#seo-h1--Desk", "total-products.v2"],
+  "props": {
+    "horizontalAlign": "center",
+    "blockClass": "search-title"
+  }
+},
+
+"flex-layout.row#searchtitle--Mob": {
+  "children": ["flex-layout.col#searchtitle--Mob"],
+  "props": {
+    "horizontalAlign": "center",
+    "blockClass": "search-title"
+  }
+},
+
+"flex-layout.col#searchtitle--Mob": {
+  "children": ["rich-text#seo-h1--Mob", "total-products.v2"],
+  "props": {
+    "horizontalAlign": "center",
+    "blockClass": "search-title"
+  }
+},
+
+
+  "rich-text#seo-h1--Desk": {
+    "title": "[Desktop] H1",
+    "props": {
+      "text": "# Reebok",
+      "blockClass": "h1-texto-seo"
+    }
+  },
+
+  "rich-text#seo-h1--Mob": {
+    "title": "[Mobile] H1",
+    "props": {
+      "text": "# Reebok",
+      "blockClass": "h1-texto-seo"
+    }
+  },
+  "flex-layout.row#seo-h2--Desk": {
+    "title": "[Desktop] Descripcion corta",
+    "children": ["flex-layout.col#h2--Desk"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-title"
+    }
+  },
+  
+  "flex-layout.col#h2--Desk": {
+    "children": ["rich-text#seo-h2--Desk"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-title"
+    }
+  },
+  "rich-text#seo-h2--Desk": {
+    "props": {
+      "text": "",
+      "blockClass": "h2-texto-seo"
+    }
+  },
+
+  "flex-layout.row#seo-h2--Mob": {
+    "title": "[Mobile] Descripcion corta",
+    "children": ["flex-layout.col#h2--Mob"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-title"
+    }
+  },
+  
+  "flex-layout.col#h2--Mob": {
+    "children": ["rich-text#seo-h2--Mob"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-title"
+    }
+  },
+  "rich-text#seo-h2--Mob": {
+    "props": {
+      "text": "",
+      "blockClass": "h2-texto-seo"
+    }
+  },
+
+
+  "flex-layout.row#seo-h3--Desk": {
+    "title": "[Desktop] Descripcion Larga",
+    "children": ["flex-layout.col#h3--Desk"],
+    "props": {
+      "text": "",
+      "blockClass": ["h3-texto-seo"
+      ,"filter-content"]
+    }
+  },
+
+  "flex-layout.col#h3--Desk": {
+    "children": ["rich-text#seo-h3--03--Desk"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-title"
+    }
+  },
+
+  "rich-text#seo-h3--03--Desk": {
+    "props": {
+      "text": "",
+      "blockClass": "h3-texto-seo"
+    }
+  },
+
+
+  "flex-layout.row#seo-h3--Mob": {
+    "title": "[Mobile] Descripcion Larga",
+    "children": ["flex-layout.col#h3--Mob"],
+    "props": {
+      "text": "",
+      "blockClass": "h3-texto-seo"
+    }
+  },
+
+  "flex-layout.col#h3--Mob": {
+    "children": ["rich-text#seo-h3--03--Mob"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "search-title"
+    }
+  },
+
+  "rich-text#seo-h3--03--Mob": {
+    "props": {
+      "text": "",
+      "blockClass": "h3-texto-seo"
+    }
+  }
+}

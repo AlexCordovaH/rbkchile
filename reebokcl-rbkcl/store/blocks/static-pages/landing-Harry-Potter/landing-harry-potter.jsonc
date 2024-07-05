@@ -1,0 +1,8 @@
+{
+    "store.custom#landing-harry-potter": {
+        "blocks": [
+            "responsive-layout.desktop#landing-harry-potter",
+            "responsive-layout.mobile#landing-harry-potter"
+        ]
+    }
+}

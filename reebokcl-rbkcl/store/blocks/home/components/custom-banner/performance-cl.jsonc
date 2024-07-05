@@ -1,0 +1,57 @@
+{
+    "custom-banner#performance-cl": {
+        "title": "main-banner",
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-PERFORMANCE-SEP.jpg",
+          "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-PERFORMANCE-SEP.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "¡ENTRENA CON DESCUENTOS!",
+              "sx": {
+                "desktop": "fs450 tar mb1 mr2 mt1",
+                "tablet": "fs350 m0 mb1 tar mr2",
+                "phone": "fs250 m0 mb1 tar mr4"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Disfruta de hasta 50% OFF en artículos seleccionados de Performance.",
+              "sx": {
+                "desktop": "fs150 m0 tar mr2",
+                "tablet": "fs150 m0 tar mr2",
+                "phone": "fs100 m0 tar mr4"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "¡Rinde al máximo en tu entrenamiento!",
+              "sx": {
+                "desktop": "fs150 m0 tar mr2 ",
+                "tablet": "fs150 m0 tar mr2",
+                "phone": "fs100 m0 tar mr4"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR YA",
+                "link": "/performance-days?map=productclusternames&page=1",
+                "sx": {
+                  "desktop": "mt2 ",
+                  "tablet": "mt5",
+                  "phone": "mt5"
+                }
+              }
+            ],
+            "layout": "horizontal"
+          },
+          "sx": {
+            "desktop": "cWite",
+            "tablet": "relative cWite t3 ",
+            "phone": "relative cWite t3 "
+          }
+        }
+      }
+}

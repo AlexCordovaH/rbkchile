@@ -1,0 +1,52 @@
+{
+    "store.custom#dia-de-las-madres": {
+      "blocks": [
+        //"flex-layout.row#container-text1-plp",
+        "search-result-layout.customQuery#dia-de-las-madres"
+      ]
+    },
+  
+    /*------------------------------------*/
+    "search-result-layout.customQuery#dia-de-las-madres": {
+      "props": {
+        "querySchema": {
+          "orderByField": "",
+          "hideUnavailableItems": false,
+          "maxItemsPerPage": 20,
+          "queryField": "360",
+          "mapField": "productClusterIds"
+        },
+        "blockClass": "wrapper-custom-search"
+      },
+      "blocks": [
+        "search-result-layout.desktop#category",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "flex-layout.row#container-text1-plp": {
+        "children": ["rich-text#bannner-plp-text-1", "rich-text#bannner-plp-text-2"],
+        "props": {
+          "blockClass": ["text-promocion-plp"]
+        }
+      },
+    
+      "rich-text#bannner-plp-text-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "¡MAMÁ!<br> CELEBRAMOS LO QUE LAS MUEVE ",
+          "blockClass": "text-promocion-plp"
+        }
+      },
+    
+      "rich-text#bannner-plp-text-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "#### Disfruta de hasta 30% de descuento en catálogo seleccionado ",
+          "blockClass": ["subtitle-text-promocion-plp","body-rebook-tunes"]
+        }
+      }
+  }
+  

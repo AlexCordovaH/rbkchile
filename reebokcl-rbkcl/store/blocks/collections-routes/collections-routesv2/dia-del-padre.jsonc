@@ -1,0 +1,25 @@
+{
+    "store.custom#dia-del-padre": {
+        "blocks": [
+            "search-result-layout.customQuery#dia-del-padre"
+        ]
+    },
+
+    "search-result-layout.customQuery#dia-del-padre": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "391",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category-cyber",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

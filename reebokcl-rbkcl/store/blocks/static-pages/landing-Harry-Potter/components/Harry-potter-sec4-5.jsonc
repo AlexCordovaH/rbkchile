@@ -1,0 +1,246 @@
+{
+    "flex-layout.row#landing-harry-potter-sec4": {
+        "children": [
+            "flex-layout.col#harry-potter-sec4-1",
+            "flex-layout.col#harry-potter-sec4-2",
+            "flex-layout.col#harry-potter-sec4-3",
+            "flex-layout.col#harry-potter-sec4-4"
+        ],
+        "props": {
+            "blockClass": "row-landing-harry-potter-sec4"
+        }
+    },
+    "flex-layout.col#harry-potter-sec4-1": {
+        "children": [
+            "link#harry-potter-sec4-1"
+        ]
+    },
+
+    "link#harry-potter-sec4-1": {
+        "children":[
+            "image#harry-potter-sec4-1",
+            "rich-text#harry-potter-sec4-1"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/harrypotter"
+        }
+ 
+   },
+    "flex-layout.col#harry-potter-sec4-2": {
+        "children": [
+            "link#harry-potter-sec4-2"
+        ]
+    },
+
+    "link#harry-potter-sec4-2": {
+        "children":[
+            "image#harry-potter-sec4-2",
+            "rich-text#harry-potter-sec4-2"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/harrypotter"
+        }
+ 
+   },
+
+    "flex-layout.col#harry-potter-sec4-3": {
+        "children": [
+            "link#harry-potter-sec4-3"
+        ]
+    },
+
+    "link#harry-potter-sec4-3": {
+        "children":[
+            "image#harry-potter-sec4-3",
+            "rich-text#harry-potter-sec4-3"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/harrypotter"
+        }
+ 
+   },
+
+    "flex-layout.col#harry-potter-sec4-4": {
+        "children": [
+            "link#harry-potter-sec4-4"
+        ]
+    },
+
+    "link#harry-potter-sec4-4": {
+        "children":[
+            "image#harry-potter-sec4-4",
+            "rich-text#harry-potter-sec4-4"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/harrypotter"
+        }
+ 
+   },
+
+    "image#harry-potter-sec4-1": {
+        "props": {
+            "src": "/arquivos/DOORWAY-GRID-DESKT-1-01.jpg",
+            "blockClass": "harry-potter-sec4-img-category"
+        }
+    },
+    "rich-text#harry-potter-sec4-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "¿Gryffindor, Hufflepuff, Ravenclaw o Slytherin? Lleva el escudo de tu casa favorita en cada paso con tus Club C.",
+            "blockClass": "potter-sec4-txt-category"
+        }
+    },
+    "image#harry-potter-sec4-2": {
+        "props": {
+            "src": "/arquivos/DOORWAY-GRID-DESKT-2-01.jpg",
+            "blockClass": "harry-potter-sec4-img-category"
+        }
+    },
+    "rich-text#harry-potter-sec4-2": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Necesitas estos imprescindibles para magos, brujas y muggles.",
+            "blockClass": "potter-sec4-txt-category"
+        }
+    },
+    "image#harry-potter-sec4-3": {
+        "props": {
+            "src": "/arquivos/DOORWAY-GRID-DESKT-3-01.jpg",
+            "blockClass": "harry-potter-sec4-img-category"
+        }
+    },
+    "rich-text#harry-potter-sec4-3": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Esta colección rinde homenaje a las 4 casas, los hechizos y tus personajes favoritos de Harry Potter.",
+            "blockClass": "potter-sec4-txt-category"
+        }
+    },
+    "image#harry-potter-sec4-4": {
+        "props": {
+            "src": "/arquivos/DOORWAY-GRID-DESKT-4-01.jpg",
+            "blockClass": "harry-potter-sec4-img-category"
+        }
+    },
+    "rich-text#harry-potter-sec4-4": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Cruza el andén 9 3/4 y entra ya al mundo de magia y hechicería.",
+            "blockClass": "potter-sec4-txt-category"
+        }
+    },
+    "flex-layout.row#landing-harry-potter-sec5": {
+        "children": [
+            "image#landing-harry-potter-sec5"
+        ]
+    },
+    "image#landing-harry-potter-sec5": {
+        "props": {
+            "src": "/arquivos/HERO-BANNER-2-TRANSPORTATE-AL-MUNDO-01.jpg",
+            "blockClass": "img-landing-harry-potter-sec5"
+        }
+    },
+    "flex-layout.row#landing-harry-potter-sec6": {
+        "children": [
+            "rich-text#txt-landing-harry-potter-sec6",
+            "link#link1-landing-harry-potter-sec6",
+            "link#link2-landing-harry-potter-sec6"
+        ],
+        "props": {
+            "blockClass": "landing-harry-potter-sec6"
+        }
+    },
+    "rich-text#txt-landing-harry-potter-sec6": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# TRANSPÓRTATE AL MUNDO DE HARRY POTTER ",
+            "blockClass": "harry-potter-sec4-txt-category"
+        }
+    },
+    "link#link1-landing-harry-potter-sec6": {
+        "props": {
+            "href": "/harrypotter",
+            "target": "_blank",
+            "label": "DESCUBRE MÁS",
+            "blockClass": [
+                "link1-landing-harry-potter-sec6"
+            ]
+        }
+    },
+    "link#link2-landing-harry-potter-sec6": {
+        "props": {
+            "href": "/colaboraciones",
+            "target": "_blank",
+            "label": "MÁS COLABORACIONES",
+            "blockClass": [
+                "link2-landing-harry-potter-sec6"
+            ]
+        }
+ 
+   },
+
+
+   /*---------------------------------------harry-potter-mobile---------------*/
+   "slider-layout#slider-harry-potter-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+        "flex-layout.row#harry-potter-sec4-1-mobile",
+        "flex-layout.row#harry-potter-sec4-2-mobile",
+        "flex-layout.row#harry-potter-sec4-3-mobile",
+        "flex-layout.row#harry-potter-sec4-4-mobile"
+
+    ]
+  },
+
+  "flex-layout.row#harry-potter-sec4-1-mobile":{
+    "children":[
+        "link#harry-potter-sec4-1"
+    ]
+  },
+  "flex-layout.row#harry-potter-sec4-2-mobile":{
+    "children":[
+        "link#harry-potter-sec4-2"
+    ]
+  },
+  "flex-layout.row#harry-potter-sec4-3-mobile":{
+    "children":[
+        "link#harry-potter-sec4-3"
+    ]
+  },
+  "flex-layout.row#harry-potter-sec4-4-mobile":{
+    "children":[
+        "link#harry-potter-sec4-4"
+    ]
+  },
+
+ "flex-layout.row#landing-harry-potter-sec5-mobile": {
+    "children": [
+        "image#landing-harry-potter-sec5-mobile"
+    ]
+},
+"image#landing-harry-potter-sec5-mobile": {
+    "props": {
+        "src": "/arquivos/HERO-BANNER-2-MOBILE-TRANSPORTATE-AL-MUNDO-01-PO.jpg",
+        "blockClass": "img-landing-harry-potter-sec5"
+    }
+}
+
+}

@@ -1,0 +1,27 @@
+{
+    "store.custom#ofertas-black-friday": {
+      "blocks": [
+        //"flex-layout.row#banner-ofertas-02",
+        "search-result-layout.customQuery#bf"
+      ]
+    },
+  
+    "search-result-layout.customQuery#bf": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByPriceDESC",
+          "hideUnavailableItems": false,
+          "maxItemsPerPage": 20,
+          "queryField": "520",
+          "mapField": "productClusterIds"
+        },
+        "blockClass": "wrapper-custom-search"
+      },
+      "blocks": [
+        "search-result-layout.desktop#category",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    }
+  }
+  

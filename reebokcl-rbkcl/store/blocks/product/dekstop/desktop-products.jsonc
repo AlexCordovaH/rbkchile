@@ -1,0 +1,387 @@
+{
+  "responsive-layout.desktop#desktop-products": {
+    "children": [
+      "flex-layout.row#desktop-two-column",
+      "__fold__",
+      "flex-layout.row#desktop-product-shelf2",
+      "flex-layout.row#desktop-reviews"
+    ]
+  },
+  "flex-layout.row#desktop-two-column": {
+    "children": [
+      "flex-layout.col#desktop-col-one",
+      "flex-layout.col#desktop-col-two"
+    ],
+    "props": {
+      "blockClass": "desktop-row-product-pdp",
+      "colGap": 8,
+      "marginBottom": 6
+    }
+  },
+  //----------------------desktop-image----------------------
+  "flex-layout.col#desktop-col-one": {
+    "props": {
+      "blockClass": "desktop-col-one",
+      "width": "67%"
+    },
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#product-image-second-row",
+      "flex-layout.col#product-image-third-row",
+      "trigger-layout-bar#pdp-simular-product-variants",
+      "flex-layout.col#pdp-similar-product-variants",
+      "flex-layout.row#pdp-product-descripcion"
+    ]
+  },
+  "flex-layout.col#pdp-similar-product-variants": {
+    "children": ["flex-layout.row#pdp-simular-product-variants"],
+    "props": {
+      "blockClass": "similars-color-pdp",
+      "width": "100%"
+    }
+  },
+
+  "trigger-layout-bar#pdp-simular-product-variants": {
+    "props": {
+      "customPixelEventId": "trigger-similar-colors",
+      "blockClass": "trigger-similar-colors"
+    },
+
+    "children": ["flex-layout.row#pdp-simular-product-variants"]
+  },
+
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "100%",
+      "rowGap": 0,
+      "blockClass": "desktop-row-one"
+    },
+    "children": [
+      "flex-layout.row#component-breadcrumb",
+      "vtex.product-highlights@2.x:product-highlights#cyber-2024",
+      //"vtex.product-highlights@2.x:product-highlights#flag-new",
+      //"vtex.product-highlights@2.x:product-highlights#ultimastallas",
+      "product-specific-image"
+    ]
+  },
+  "flex-layout.col#product-image-second-row": {
+    "props": {
+      "width": "100%",
+      "rowGap": 0,
+      "blockClass": "desktop-row-two"
+    },
+    "children": ["productPart"]
+  },
+  "flex-layout.col#product-image-third-row": {
+    "props": {
+      "width": "100%",
+      "rowGap": 0
+    },
+    "children": ["productThirdPart"]
+  },
+
+  "flex-layout.col#desktop-col-two": {
+    "children": [
+      "flex-layout.row#desktop-atributo",
+      "flex-layout.row#desktop-row-rango-edad",
+      "flex-layout.row#desktop-name",
+      "flex-layout.row#desktop-row-price",
+      "flex-layout.row#desktop-row-color",
+      "pdp-trigger-sizeguide",
+      // "condition-layout.product#pdp-unisex-sizes",
+      "flex-layout.row#desktop-selector",
+      "product-availability",
+      // "product-size-label",
+      "flex-layout.col#desktop-product-quantity",
+      "flex-layout.row#desktop-botton",
+      "minicart-bar",
+      "not-discount"
+    ],
+    "props": {
+      "blockClass": "desktop-col-two",
+      "preventVerticalStretch": true
+    }
+  },
+  "condition-layout.product#pdp-unisex-sizes": {
+    "props": {
+      "blockClass": "",
+      "conditions": [
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "31"
+          }
+        }
+      ],
+      "Then": "pdp-sizes"
+    }
+  },
+  "not-discount":{
+    "props": {
+      "blockClass": "not-discount"
+    }
+  },
+
+  //--------------------desktop-name------------------------------
+  "flex-layout.row#desktop-atributo": {
+    "children": ["show-atribute"],
+    "props": { "blockClass": "desktop-atributo" }
+  },
+  "flex-layout.row#desktop-name": {
+    "children": ["flex-layout.col#desktop-col-name"],
+    "props": { "colSizing": "auto", "blockClass": "desktop-name" }
+  },
+  "flex-layout.col#desktop-col-name": {
+    "children": ["vtex.store-components:product-name"],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#desktop-row-price": {
+    "children": ["flex-layout.col#desktop-col-price"]
+  },
+  "flex-layout.col#desktop-col-price": {
+    "children": [
+      "product-price#desktop-price",
+      "reebokcl.price-color-switch:price-color-pdp"
+    ],
+    "props": {
+      // "marginLeft": 10,
+      "horizontalAlign": "left",
+      "width": "50%"
+    }
+  },
+  /*color pdp*/
+  "flex-layout.row#desktop-row-color": {
+    "children": ["product-color-pdp"],
+    "props": {
+      "blockClass": [
+        "container-colorProduct-pdp",
+        "container-colorProduct-color-name"
+      ]
+    }
+  },
+  /*---------*/
+  /*rango edad pdp*/
+  "flex-layout.row#desktop-row-rango-edad": {
+    "children": ["rango-edad-pdp"],
+    "props": {
+      "blockClass": [
+        "container-colorProduct-pdp",
+        "container-colorProduct-rango-edad"
+      ]
+    }
+  },
+  /*---------*/
+
+  /* Rating */
+  "flex-layout.col#desktop-col-product-rating-summary": {
+    "children": ["product-rating-summary"],
+    "props": {
+      // "marginLeft": 10,
+      "horizontalAlign": "right",
+      "verticalAlign": "bottom",
+      "width": "50%"
+    }
+  },
+  "vtex.store-components:product-name": {
+    "props": {
+      "showSku": false,
+      "showBrandName": false
+    }
+  },
+  "product-price#desktop-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+
+  "product-availability": {
+    "props": {
+      "threshold": "5",
+      "lowStockMessage": "Últimas {quantity} unidades en inventario",
+      "highStockMessage": ""
+    }
+  },
+
+  //-------------------desktop-identifier--------------------------------
+  "flex-layout.row#desktop-identifier": {
+    "children": ["flex-layout.col#desktop-identifier-1"],
+    "props": { "blockClass": "desktop-row-identifier" }
+  },
+  "flex-layout.col#desktop-identifier-1": {
+    "children": ["product-identifier.product"],
+    "props": {
+      "width": "auto"
+    }
+  },
+
+  //-----------------------------desktop-start------------------------------------
+  "flex-layout.row#desktop-rating": {
+    "children": ["product-rating-summary"],
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 4
+    }
+  },
+
+  "flex-layout.row#desktop-selector": {
+    "props": {
+      // "preventVerticalStretch":true,
+      "blockClass": "desktop-selector"
+    },
+    "children": [
+      /*"condition-layout.product#Zapatillas-Unisex",*/"sku-selector#desktop-selector" /*, "pdp-trigger-sizeguide"*/]
+  },
+  "pdp-trigger-sizeguide": {
+    "children": ["modal-trigger#trigger-tallas"]
+  },
+  "modal-trigger#trigger-tallas": {
+    "props": {
+      "blockClass": "trigger-tallas"
+    },
+    "children": ["rich-text#guia-tallas", "modal-layout#trigger-tallas"]
+  },
+
+  "modal-header#tallas": {
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "tallas"
+    }
+  },
+
+  "modal-layout#trigger-tallas": {
+    "props": {
+      "blockClass": "trigger-tallas"
+    },
+    "children": ["modal-header#tallas", "product-popup-sizeguide"]
+  },
+
+  "rich-text#guia-tallas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Guía de tallas",
+      "blockClass": "guia-tallas"
+    }
+  },
+
+  "condition-layout.product#Zapatillas-Unisex": {
+    "props": {
+        "blockClass": "conditional-carousel",
+        "conditions": [
+        {
+            "subject": "categoryTree",
+            "arguments": {
+            "id": "31"
+            }
+        }
+        ],
+        "Then": "flex-layout.row#row-text-zapatillasUnisex"
+    }
+},
+
+"flex-layout.row#row-text-zapatillasUnisex":{
+  "children":["rich-text#zapatillas-unisex"]
+},
+
+"rich-text#zapatillas-unisex":{
+  "props":{
+    "blockClass": "pdp-zapatillas-unisex",
+    "text": "H-Hombre / M-Mujer"
+  }
+},
+
+"flex-layout.row#row-text-zapatillasUnisex-blanco":{
+  "children":["rich-text#zapatillas-unisex-blanco"]
+},
+
+"rich-text#zapatillas-unisex-blanco":{
+  "props":{
+    "text": "Este componente no es"
+  }
+},
+
+  "sku-selector#desktop-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "maxItems": 50
+    }
+  },
+
+  "flex-layout.row#desktop-botton": {
+    "children": [
+      "flex-layout.col#desktop-botton",
+      "flex-layout.col#desktop-pdp-whislist"
+    ],
+    "props": {
+      "blockClass": "desktop-botton",
+      "marginTop": 6,
+      "marginBottom": 8,
+      "colGap": 3
+      // "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#desktop-product-quantity": {
+    "children": ["product-quantity"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#desktop-botton": {
+    "children": ["add-to-cart-button"],
+    "props": {
+      "width": "85%",
+      "blockClass": "desktop-add-to-cart-button"
+    }
+  },
+
+  "flex-layout.col#desktop-pdp-whislist": {
+    "children": ["add-to-list-btn"],
+    "props": {
+      "width": "15%",
+      "blockClass": "desktop-pdp-whislist"
+    }
+  },
+  // ------------------- reviews -----------------
+  "flex-layout.row#desktop-reviews": {
+    "children": ["flex-layout.col#desktop-reviews"],
+    "props": {
+      "marginBottom": 7,
+      "marginTop": 7,
+      "blockClass": "desktop-reviews"
+    }
+  },
+
+  "flex-layout.col#desktop-reviews": {
+    "props": { "blockClass": "desktop-reviews" },
+    "children": ["product-reviews"]
+  },
+
+  // SHELF
+
+  "flex-layout.row#desktop-product-shelf2": {
+    "children": ["shelf.relatedProducts#dekstop2"],
+    "props": {
+      "blockClass": "dekstop-shelf"
+    }
+  },
+
+  "shelf.relatedProducts#dekstop2": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "props": {
+      "showPaginationDots": "never",
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Recomendados",
+        "itemsPerPage": 6,
+        "minItemsPerPage": 6,
+        "maxItems": 6
+      },
+      "blockClass": "wishlist_shelf"
+    }
+  }
+}

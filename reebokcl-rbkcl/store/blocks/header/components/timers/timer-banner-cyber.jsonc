@@ -1,0 +1,56 @@
+
+{
+    "custom-banner-timer#pre-cyber": {
+        "title": "header-contador",
+        "props": {
+        "desktopBgImageUrl": "",
+        "phoneBgImageUrl": "",
+        "targetDate": "Mon May 27 2024 00:00:00 GMT-0400",
+        "linkUrl": "/cyber",
+        "textBefore": "¡Falta poco para los descuentos!",
+        "textAfter": "",
+        "sx": {
+            "desktop": {
+            "clock": "display: flex; background-color: #000; margin-left: 1.2rem; margin-right: 1.2rem; font-family: \"NeuePlak-Regular\";",
+            "wrapper": "display: flex; width: fit-content; align-items: center; height: 100%",
+            "display": {
+                "wrapper": "display: flex; justify-content: center; align-items: center; flex-direction: column; height: fit-content;",
+                "number": "color: #ffffff; margin: 0; font-weight: bold; font-size: 1.2rem;",
+                "text": "color: white; margin: 0; font-weight: bold; font-size: 1.2rem;"
+            },
+            "dots": {
+                "wrapper": "display: flex; padding: 1rem; justify-content: center; align-items: center;",
+                "dots": "color: white; margin: 0; font-weight: bold;"
+            }
+            },
+            "tablet": {
+            "clock": "display: flex; margin: 0 auto; align-self: center; width: fit-content; background-color: #000; padding: 1rem; font-family: \"NeuePlak-Regular\";",
+            "wrapper": "display: flex; width: fit-content; align-items: center; height: 100%",
+            "display": {
+                "wrapper": "display: flex; justify-content: center; align-items: center; flex-direction: column; height: fit-content;",
+                "number": "color: #ffffff; margin: 0; font-weight: bold; font-size: 12px;",
+                "text": "color: white; margin: 0; font-weight: bold; font-size: 12px;"
+            },
+            "dots": {
+                "wrapper": "display: flex; padding: 1rem; justify-content: center; align-items: center;",
+                "dots": "color: white; margin: 0; font-weight: bold; font-size: 12px;"
+            }
+            },
+            "phone": {
+            "clock": "display: flex; margin: 0 auto; align-self: center; width: fit-content; background-color: #000; padding: 1rem; font-family: \"NeuePlak-Regular\";",
+            "wrapper": "display: flex; width: fit-content; align-items: center; height: 100%",
+            "display": {
+                "wrapper": "display: flex; justify-content: center; align-items: center; flex-direction: column; height: fit-content;",
+                "number": "color: #ffffff; margin: 0; font-weight: bold; font-size: 12px;",
+                "text": "color: white; margin: 0; font-weight: bold; font-size: 12px;"
+            },
+            "dots": {
+                "wrapper": "display: flex; padding: .5rem; justify-content: center; align-items: center;",
+                "dots": "color: white; margin: 0; font-weight: bold; font-size: 12px;"
+            }
+            }
+            }
+        }
+    }
+}
+  

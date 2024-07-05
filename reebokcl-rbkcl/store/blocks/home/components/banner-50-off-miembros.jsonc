@@ -1,0 +1,167 @@
+{
+
+    
+    "custom-banner#banner-50-off-miembros": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/DESK-50-MIEMBROS-CL.jpg",
+            "phoneBgImageUrl": "/arquivos/MOBILE-50-MIEMBROS-CL.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "50% OFF SOLO ",
+              "sx": {
+                "desktop": "banner-headline-bottom cblack mt5 mr2",
+                "tablet": "banner-headline-bottom mr2 cblack tar  mt7",
+                "phone": "banner-headline-bottom Cblack tac"
+              }
+            },
+            {
+              "type": "headline",
+              "text": "PARA MIEMBROS",
+              "sx": {
+                "desktop": "banner-headline-bottom cblack mb2 mr2",
+                "tablet": "banner-headline-bottom mr2 cblack tar",
+                "phone": "banner-headline-bottom Cblack tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Aprovecha tus beneficios y recibe 50% de descuento en tus favoritos. ",
+              "sx": {
+                "desktop": "banner-copy mr2 cblack",
+                "tablet": "banner-copy mr2 cblack tar",
+                "phone": "banner-copy cblack tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "¡Exclusivo para miembros de la comunidad!",
+              "sx": {
+                "desktop": "banner-copy mr2 cblack",
+                "tablet": "banner-copy mr2 cblack tar",
+                "phone": "banner-copy cblack tac"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR AHORA",
+                  "link": "/todo-reebok",
+                  "color":"black",
+                  "sx": {
+                      "desktop": "mt2 fs80",
+                      "tablet": "mt3 fs70",
+                      "phone": "mt5 fs70"
+                    }
+                },
+                {
+                  "label": "REGÍSTRATE",
+                  "link": "/newsletter",
+                  "color":"black",
+                  "sx": {
+                      "desktop": "mt2 fs80",
+                      "tablet": "mt3 fs70",
+                      "phone": "mt5 fs70"
+                    }
+                }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t20 r2 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t65 tac"
+          }
+        }
+    },
+  
+    "custom-banner#banner-50-off-miembros-mobile": {
+      "title": "main-banner",
+      "props": {
+        "desktopBgImageUrl": "/arquivos/DESK-50-MIEMBROS-CL.jpg",
+        "phoneBgImageUrl": "/arquivos/MOBILE-50-MIEMBROS-CL.jpg",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "50% OFF SOLO ",
+            "sx": {
+              "desktop": "banner-headline-bottom mr2 cblack",
+              "tablet": "banner-headline-bottom mr2 cblack tar",
+              "phone": "banner-headline-bottom tac mb1 cblack"
+            }
+          },
+          {
+            "type": "headline",
+            "text": "PARA MIEMBROS",
+            "sx": {
+              "desktop": "banner-headline-bottom cblack mb2 mr2",
+              "tablet": "banner-headline-bottom mr2 cblack tar",
+              "phone": "banner-headline-bottom Cblack tac"
+            }
+          },
+
+          {
+            "type": "copy",
+            "text": "Aprovecha tus beneficios y recibe 50% ",
+            "sx": {
+              "desktop": "banner-copy  cblack",
+              "tablet": "banner-copy mr2 cblack tar",
+              "phone": "banner-copy cblack tac"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "de descuento en tus favoritos. ",
+            "sx": {
+              "desktop": "banner-copy  cblack",
+              "tablet": "banner-copy mr2 cblack tar",
+              "phone": "banner-copy cblack tac"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "¡Exclusivo para miembros de la comunidad!",
+            "sx": {
+              "desktop": "banner-copy mr2 cblack",
+              "tablet": "banner-copy mr2 cblack tar",
+              "phone": "banner-copy cblack tac"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            {
+              "label": "COMPRAR AHORA",
+              "link": "/todo-reebok",
+              "color":"black",
+              "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt3 fs70",
+                  "phone": "mt5 fs65 "
+                }
+            },
+            {
+              "label": "REGÍSTRATE",
+              "link": "/newsletter",
+              "color":"black",
+              "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt3 fs70",
+                  "phone": "mt5 fs65 "
+                }
+            }
+          ],
+          "layout": "horizontal",
+          "alignment": "center"
+        },
+        "sx": {
+          "desktop": "relative t44 r8 tar",
+          "tablet": "relative t5 r2 tar",
+          "phone": "relative t60 tac"
+        }
+      }
+    }
+}

@@ -1,0 +1,204 @@
+{
+  // MAIN MENU
+  // We are only putting the top menu in here
+  // The inside of each category will have its
+  // own file
+  "vtex.menu@2.x:menu#main-menu-v2-a": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      //"menu-item#v2-dia-madre",
+      //"menu-item#ofertas-Link",
+      // "menu-item#cyber-ofertas-desk",
+      "menu-item#v2-mujer",
+      "menu-item#v2-hombre",
+      "menu-item#v2-niños",
+      // "menu-item#v2-unisex",
+      "menu-item#v2-deportes",
+      // "menu-item#v2-colaboraciones",
+      // "menu-item#v2-colecciones",
+      "menu-item#v2-outlet"
+    ]
+  },
+  "menu-item#cyber-icon": {
+    "props": {
+      "blockClass": ["header-item", "cyber-icon"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cyber",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#cyber-ofertas-desk": {
+    "props": {
+      "blockClass": ["header-item", "red-item", "header-item-col"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cyber-reebok",
+        "noFollow": false,
+        "tagTitle": "CYBER",
+        "text": "CYBER"
+      }
+    }
+  },
+  "menu-item#ofertas-Link": {
+    "props": {
+      "blockClass": ["header-item", "red-item", "header-item-col"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    }
+  },
+  "menu-item#v2-dia-madre": {
+    "props": {
+      "blockClass": ["header-item", "red-item"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/diadelasmadres",
+        "noFollow": false,
+        "tagTitle": "DÍA DE LA MADRE",
+        "text": "DÍA DE LA MADRE"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#v2-mujer"] // Defining a submenu
+  },
+  "menu-item#v2-mujer": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer?order=OrderByPriceDESC",
+        "noFollow": false,
+        "tagTitle": "MUJER",
+        "text": "MUJER"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-mujer"] // Defining a submenu
+  },
+  "menu-item#v2-hombre": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre?order=OrderByPriceDESC",
+        "noFollow": false,
+        "tagTitle": "HOMBRE",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-hombre"] // Defining a submenu
+  },
+  "menu-item#v2-niños": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ninos?order=OrderByPriceDESC",
+        "noFollow": false,
+        "tagTitle": "NIÑOS",
+        "text": "NIÑOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-ninos"] // Defining a submenu
+  },
+  "menu-item#v2-unisex": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unisex?order=OrderByPriceDESC",
+        "noFollow": false,
+        "tagTitle": "UNISEX",
+        "text": "UNISEX"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-unisex"] // Defining a submenu
+  },
+  "menu-item#v2-deportes": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "DEPORTE",
+        "text": "DEPORTE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-deporte"] // Defining a submenu
+  },
+
+  "menu-item#v2-colecciones": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/coleccion",
+        "noFollow": false,
+        "tagTitle": "COLECCIONES",
+        "text": "COLECCIONES"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-colecciones"] // Defining a submenu
+  },
+
+  "menu-item#v2-colaboraciones": {
+    "props": {
+      "blockClass": "header-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colaboraciones",
+        "noFollow": false,
+        "tagTitle": "COLABORACIONES",
+        "text": "COLABORACIONES"
+      }
+    },
+    "blocks": [] // Defining a submenu
+  },
+
+  "menu-item#v2-outlet": {
+    "props": {
+      "blockClass": ["header-item", "header-item-sale"],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": false,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#v2-outlet"] // Defining a submenu
+  }
+}

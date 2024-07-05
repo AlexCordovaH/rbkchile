@@ -1,0 +1,74 @@
+{
+    "custom-banner#banner-sale-zapatillazo": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-zapatillazo.png",
+          "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-zapatillazo.png",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "¡OFERTAS EN ",
+              "sx": {
+                "desktop": "banner-headline mb1 cWhite",
+                "tablet": "banner-headline mb2 cWhite",
+                "phone": "banner-headline mb2 cWhite"
+              }
+            },
+            {
+              "type": "headline",
+              "text": " ZAPATILLAS!",
+              "sx": {
+                "desktop": "banner-headline mb1 cWhite",
+                "tablet": "banner-headline mb2 cWhite",
+                "phone": "banner-headline mb2 cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Por la compra de un par de zapatillas, lleva el segundo",
+              "sx": {
+                "desktop": "banner-copy cWhite",
+                "tablet": "banner-copy cWhite",
+                "phone": "banner-copy cWhite mW90"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "par de menor precio con 99% de descuento.",
+              "sx": {
+                "desktop": "banner-copy cWhite",
+                "tablet": "banner-copy cWhite",
+                "phone": "banner-copy cWhite mW90"
+              }
+            },
+            {
+              "type": "copy",
+              "text": " Aplica a catálogo seleccionado",
+              "sx": {
+                "desktop": "banner-copy cWhite",
+                "tablet": "banner-copy cWhite",
+                "phone": "banner-copy cWhite mW90"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR YA",
+                "link": "/ofertas",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt1",
+                  "tablet": "mt2",
+                  "phone": "mt5"
+                }
+              }
+            ]
+          },
+          "sx": {
+            "desktop": "relative l5 t30",
+            "tablet": "relative l5 t15",
+            "phone": "relative l7 t49"
+          }
+        }
+      }
+}

@@ -1,0 +1,10 @@
+{
+    "store.custom#lp-about": {
+        "blocks": [
+            "responsive-layout.desktop#lp-about",
+            
+            "responsive-layout.tablet#lp-about",
+            "responsive-layout.phone#lp-about"
+        ]
+    }
+}

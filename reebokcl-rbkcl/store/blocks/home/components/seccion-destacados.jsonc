@@ -1,0 +1,58 @@
+{
+    /* Sección Título */
+    "flex-layout.row#home-desktop-titulo-menu": {
+        "props": {
+            "blockClass": "home-desktop-titulo"
+        },
+        "children": ["rich-text#home-titulo-section-destacados"]
+    },
+
+    "rich-text#home-titulo-section-destacados": {
+        "props": {
+            "text": "# DESTACADOS AHORA",
+            "font": "t-heading-3",
+            "blockClass": ["home-titulo"]
+        }
+    },
+
+    "flex-layout.row#component-destacados-ahora": {
+        "props": {
+            "blockClass": "content-botones-menu",
+            "fullWidth": true
+        },
+        "children": [
+            "link#buttons-desktopHome-calzado",
+            "link#buttons-desktopHome-ropa",
+            "link#buttons-desktopHome-accesorios",
+            "link#buttons-desktopHome-ninos"
+        ]
+    },
+    "link#buttons-desktopHome-calzado": {
+        "props": {
+            "href": "/calzado?order=OrderByPriceDESC",
+            "label": "Zapatillas",
+            "blockClass": "buttons-desktopHome-menu"
+        }
+    },
+    "link#buttons-desktopHome-ropa": {
+        "props": {
+            "href": "/ropa?order=OrderByReleaseDateDESC",
+            "label": "Ropa",
+            "blockClass": "buttons-desktopHome-menu"
+        }
+    },
+    "link#buttons-desktopHome-accesorios": {
+        "props": {
+            "href": "/accesorios?order=OrderByReleaseDateDESC",
+            "label": "Accesorios",
+            "blockClass": "buttons-desktopHome-menu"
+        }
+    },
+    "link#buttons-desktopHome-ninos": {
+        "props": {
+            "href": "/novedades?order=OrderByReleaseDateDESC",
+            "label": "Novedades",
+            "blockClass": "buttons-desktopHome-menu"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "store.custom#landing-nano": {
+      "blocks": [
+        "responsive-layout.desktop#nano",
+        "responsive-layout.phone#nano",
+        "responsive-layout.tablet#nano"
+      ]
+    }
+}
+  

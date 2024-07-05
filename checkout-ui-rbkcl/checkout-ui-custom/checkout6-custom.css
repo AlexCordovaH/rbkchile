@@ -1,0 +1,2783 @@
+@font-face {
+  font-family: 'NeuePlak-Bold';
+  font-weight: normal !important;
+  src: url(https://reebokpe.vteximg.com.br/arquivos/NeuePlak-WideBold.ttf.css) format('truetype');
+}
+
+@font-face {
+  font-family: 'NeuePlak-SemiBold';
+  font-weight: normal !important;
+  src: url(https://reebokpe.vteximg.com.br/arquivos/NeuePlak-Regular.ttf.css) format('truetype');
+}
+
+@font-face {
+  font-family: 'NeuePlak-Regular';
+  font-weight: normal !important;
+  src: url(https://reebokpe.vteximg.com.br/arquivos/NeuePlak-SemiBold.ttf.css) format('truetype');
+}
+
+
+:root {
+  --reebokBold: 'NeuePlak-Bold';
+  --reebokSemiBold: 'NeuePlak-SemiBold';
+  --reebokRegular: 'NeuePlak-Regular';
+
+}
+
+body {
+  background-color: #fff !important;
+  font-family: var(--reebokRegular)!important;
+
+}
+
+/* Header */
+
+.header {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  max-width: 100vw !important;
+  margin: 0 !important;
+  width: 100vw !important;
+  height: 64px !important;
+  border-bottom: 1px solid #D1D1D1 !important;
+}
+
+
+/* Footer */
+
+.footer {
+  max-width: 100vw !important;
+  width: 100vw !important;
+  background: #244486 !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 56px !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  justify-content: space-around !important;
+}
+
+p.PaymentCardCVV {
+  position: relative;
+  width: fit-content;
+}
+
+.PaymentCardCVVHelp {
+  position: absolute;
+  display: block;
+  left: 20%;
+}
+
+.copyright {
+  width: 40% !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.2px !important;
+  color: #fff !important;
+}
+
+.redes_sociales {
+  width: 40% !important;
+  display: flex !important;
+  justify-content: end !important;
+  gap: 16px !important;
+  color: #fff !important;
+  align-items: center !important;
+}
+
+.youtube_footer_link {
+  filter: invert(1) !important;
+}
+
+
+/* partes del checkout */
+
+.checkout-container.row-fluid.cart-active.empty {
+  width: 100% !important;
+}
+
+.checkout-container.row-fluid.cart-active {
+  width: fit-content !important;
+  margin: auto !important;
+}
+
+.div_client_form {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  gap: 2.62rem !important;
+  margin-left: 2.12rem !important;
+  margin-bottom: 2.25rem !important;
+}
+
+.div_client_form .buttom-boleta::before,
+.div_client_form .buttom-factura::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: -2px !important;
+  left: -1.82rem !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  background: #fff !important;
+  border: 2px solid #121212 !important;
+  border-radius: 50% !important;
+}
+
+.div_client_form .buttom-boleta.disabled::before,
+.div_client_form .buttom-factura.lock::before {
+  border: 2px solid #244486 !important;
+}
+
+.div_client_form .buttom-boleta.disabled::after,
+.div_client_form .buttom-factura.lock::after {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0.19rem !important;
+  left: -1.52rem !important;
+  width: 0.92rem !important;
+  height: 0.92rem !important;
+  background: #244486 !important;
+  border-radius: 50% !important;
+}
+
+.div_client_form .buttom-boleta,
+.div_client_form .buttom-factura {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.5px !important;
+  color: #121212 !important;
+  position: relative !important;
+}
+
+.div_client_form .buttom-boleta:hover,
+.div_client_form .buttom-factura:hover {
+  text-decoration: none !important;
+}
+
+.div_client_form .buttom-boleta.disabled,
+.div_client_form .buttom-factura.lock {
+  background: #fff !important;
+  color: #121212 !important;
+}
+
+.cart-template-holder div.cart-more-options,
+.cart-template-holder div.cart,
+.orderform-template-holder #client-profile-data .step.client-profile-data,
+.orderform-template-holder #shipping-data,
+.orderform-template-holder #payment-data {
+  border: 1px solid #121212 !important;
+  margin: auto auto 24px !important;
+}
+
+.summary-template-holder,
+.custom-cart-template-wrap {
+  border: 1px solid #121212 !important;
+}
+
+.orderform-template .custom-cart-template-wrap {
+  border-radius: 0 !important;
+}
+
+.cart-template.mini-cart.span4 .summary-template-holder {
+  border: none !important;
+}
+
+form#formCompraFactura label {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.2px !important;
+  color: #5E5E5E !important;
+  margin-top: 1rem !important;
+}
+
+form#formCompraFactura .input input,
+form#formCompraFactura .input select {
+  border: 1px solid #5E5E5E !important;
+  border-radius: 4px !important;
+}
+
+
+/* botones */
+
+.btn-success {
+  background: #121212 !important;
+  border-radius: 25px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none !important;
+  font-family: var(--reebokRegular)!important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  font-size: 0.875rem !important;
+}
+
+.btn-success:hover {
+  background-color: #244486 !important;
+}
+
+#cart-coupon-add {
+  background: #121212 !important;
+  border-radius: 25px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none !important;
+  font-family: var(--reebokRegular)!important;
+  font-weight: 400 !important;
+  color: transparent !important;
+  padding: 14px 20px !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 48px !important;
+}
+
+#cart-coupon-add::selection {
+  color: transparent !important;
+}
+
+#cart-coupon-add:hover {
+  background-color: #244486 !important;
+}
+
+.checkout-container.row-fluid.orderform-active .coupon-form #cart-coupon.coupon-value.input-small {
+  height: 48px !important;
+}
+
+#cart-choose-products {
+  padding: 14px 20px !important;
+  width: fit-content !important;
+}
+
+.item-link-remove {
+  filter: invert(1) !important;
+  position: relative !important;
+  display: flex !important;
+}
+
+.item-link-remove::before {
+  content: url(/arquivos/Delete.png) !important;
+  filter: contrast(0) brightness(100) !important;
+  position: absolute !important;
+  left: 0 !important;
+  display: block !important;
+  top: 0 !important;
+}
+
+
+/* Titulos */
+
+.empty-cart-title {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  line-height: 40px !important;
+}
+
+
+/* Parrafos */
+
+.empty-cart-message p {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+
+/* productos */
+
+.table.cart-items thead tr th {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.2px !important;
+  color: #121212 !important;
+}
+
+.table.cart-items tbody tr {
+  border-top: 1px solid #D1D1D1 !important;
+}
+
+.product-name a:first-child {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.5px !important;
+  color: #121212 !important;
+}
+
+.product-name .seller.muted span {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.2px !important;
+  color: #5E5E5E !important;
+}
+
+.product-item .quantity {
+  border: 1px solid #D1D1D1 !important;
+  margin: auto 40px !important;
+}
+
+.product-price span.best-price span {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  text-align: right !important;
+  color: #121212 !important;
+}
+
+
+/* Envío */
+
+.shipping-preview-container .srp-content .srp-main-title {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  color: #121212 !important;
+}
+
+.shipping-preview-container .srp-content .srp-delivery-header .srp-items,
+.shipping-preview-container .srp-content .srp-delivery-header .srp-items strong {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #121212 !important;
+}
+
+.cart-more-options .srp-container .onda-v1 .blue {
+  font-family: var(--reebokRegular)!important;
+  font-style: bold !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #121212 !important;
+}
+
+.srp-icon-radio-selected path {
+  fill: #244486 !important;
+}
+
+.summary-cart-template-holder .description {
+  font-size: 0.875rem !important;
+  font-family: var(--reebokRegular)!important;
+}
+
+.srp-shipping-current-single__description .srp-shipping-current-single__price {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: right !important;
+  letter-spacing: 0.5px !important;
+  color: #5E5E5E !important;
+}
+
+.srp-shipping-current-single__description .srp-shipping-current-single__text {
+  border-right: 1px solid #5E5E5E !important;
+}
+
+.srp-shipping-current-single__description .srp-shipping-current-single__sla {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.5px !important;
+  color: #121212 !important;
+}
+
+.srp-shipping-current-single {
+  border: 1px solid #D1D1D1 !important;
+}
+
+label[for="client-phone"] {
+position: relative !important;
+}
+#client-phone {
+z-index: 1;
+padding-left: 35px !important;
+}
+label[for="client-phone"]::before {
+content:"+56";
+position: absolute !important;
+left: 10px;
+top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 21px;
+height: 40px;
+font-size: 13px;
+z-index: 2;
+
+
+}
+
+/* Datos de precio */
+
+.totalizers-list {
+  opacity: 0.8 !important;
+  border-top: 1px solid #D1D1D1 !important;
+  border-bottom: 1px solid #D1D1D1 !important;
+}
+
+.orderform-template-holder #payment-data .v-custom-payment-item-wrap .payment-group-item.active+div,
+.orderform-template-holder #payment-data .v-custom-payment-item-wrap.active>div {
+  padding: 63px 12px 12px;
+  overflow: hidden;
+}
+
+.summary-template-holder tbody td.info {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.5px !important;
+  color: #5E5E5E !important;
+}
+
+.summary-template-holder tbody td.monetary {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: right !important;
+  letter-spacing: 0.5px !important;
+  color: #5E5E5E !important;
+
+}
+
+.summary-template-holder tfoot td.monetary {
+  font-family: var(--reebokSemiBold)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  text-align: right !important;
+  color: #121212 !important;
+  width: 100% !important;
+}
+
+.summary-template-holder tfoot td.info {
+  font-family: var(--reebokSemiBold)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #121212 !important;
+}
+
+.container.container-main.container-cart,
+.container.container-main.container-order-form {
+  max-width: 80.83% !important;
+  width: 80.83% !important;
+  margin-bottom: 80px !important;
+}
+
+.body-cart-vertical .cart-template.full-cart.active {
+  display: flex !important;
+  flex-flow: wrap !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.row-fluid.orderform-template.active {
+  display: flex !important;
+  flex-flow: wrap !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 20px !important;
+}
+
+.cart-template.full-cart .cart-template-holder {
+  position: relative !important;
+}
+
+.row-fluid.summary {
+  position: relative !important;
+}
+
+.row-fluid.orderform-template.span12.active .row-fluid.summary::before {
+  display: none !important;
+}
+
+.row-fluid.orderform-template.span12.active .row-fluid.summary .coupon-fields {
+  margin-top: 23px !important;
+}
+
+.row-fluid.summary::before {
+  content: 'Resumen de compra' !important;
+   font-family: var(--reebokBold) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  color: #121212 !important;
+  display: block !important;
+  position: absolute !important;
+  top: -61px !important;
+  left: 0 !important;
+  z-index: 1 !important;
+}
+
+.summary-template-holder {
+  padding-top: 24px !important;
+}
+
+.summary-template-holder .coupon-fields {
+  position: relative !important;
+}
+
+.summary-template-holder .coupon-fields::before {
+  content: 'Cupón de descuento' !important;
+  display: block !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  top: -18px !important;
+  left: 0 !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: #5E5E5E !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 1 !important;
+}
+
+#cart-coupon-add::before {
+  content: 'Aplicar' !important;
+  display: block !important;
+  position: absolute !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  letter-spacing: 0.5px !important;
+  color: #FFFFFF !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 1 !important;
+}
+
+
+/* Identificación */
+
+
+/* Formulario */
+
+.form-step .submit.btn-submit-wrapper #go-to-payment {
+  display: none !important;
+}
+
+body.js-vcustom-hideEmailStep .client-profile-data .accordion-toggle>span:before,
+body .vtex-omnishipping-1-x-shippingDataDev.active .accordion-toggle.accordion-toggle-active>span:before {
+  background-color: #244486 !important;
+  border: none !important;
+}
+
+body.js-vcustom-hideEmailStep .shipping-data .accordion-toggle:before,
+body.js-vcustom-hideEmailStep .payment-data .accordion-toggle>span:not(.payment-edit-link):before {
+  color: #FFFFFF !important;
+  background-color: #244486 !important;
+  border: none !important;
+}
+
+body .accordion-toggle.collapsed.accordion-toggle-active>span::before,
+body .accordion-toggle.collapsed.accordion-toggle-active::before {
+  background-color: #D1D1D1 !important;
+  color: #121212 !important;
+}
+
+.box-client-info-pf input.input-small,
+.box-client-info-pf input.input-xlarge {
+  border: 1px solid #121212 !important;
+  box-shadow: none !important;
+}
+
+.box-client-info-pf input#client-email.input-xlarge.error,
+.box-client-info-pf input.input-small.error {
+  border: 1px solid #CF1423 !important;
+  box-shadow: none !important;
+}
+
+.box-client-info label {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.2px !important;
+  color: #5E5E5E !important;
+}
+
+.box-client-info label.newsletter-text {
+  display: block !important;
+  align-items: unset !important;
+}
+
+.accordion-inner.shipping-container {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.2px !important;
+  color: #5E5E5E !important;
+}
+
+.form-step.box-edit .submit.btn-submit-wrapper #go-to-shipping,
+.vtex-omnishipping-1-x-submitPaymentButton.btn-submit-wrapper.btn-go-to-payment-wrapper #btn-go-to-payment {
+  width: fit-content !important;
+  min-width: auto !important;
+  margin: 0 !important;
+}
+
+.form-step.box-edit .submit.btn-submit-wrapper #go-to-shipping {
+  color: #121212 !important;
+}
+
+.form-step.box-edit .submit.btn-submit-wrapper #go-to-shipping::after {
+  content: 'Ir al Envío' !important;
+  position: absolute !important;
+  color: #fff !important;
+}
+
+.vtex-omnishipping-1-x-submitPaymentButton.btn-submit-wrapper.btn-go-to-payment-wrapper #btn-go-to-payment {
+  margin-top: 32px !important;
+}
+
+.form-step.box-edit .submit.btn-submit-wrapper {
+  display: flex !important;
+  justify-content: start !important;
+}
+
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-state,
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-city,
+.vtex-omnishipping-1-x-address div>p.input.ship-number,
+.vtex-omnishipping-1-x-address div>p.input.ship-complement {
+  width: 48% !important;
+  margin: 0 !important;
+  clear: none !important;
+}
+
+.vtex-omnishipping-1-x-address div>p.input.ship-number,
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-state {
+  float: left !important;
+}
+
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-city {
+  float: right !important;
+  margin-bottom: 1rem !important;
+}
+
+.vtex-omnishipping-1-x-address div>p.input.ship-complement{
+  float: right !important;
+  margin-bottom: 1rem !important;
+}
+
+.PaymentCardNumber,
+.PaymentInstallments {
+  margin-bottom: 1rem !important;
+}
+
+.iframe-credit-card-payment-group .FormFieldLabel {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.2px !important;
+  color: #5E5E5E !important;
+}
+
+.vtex-omnishipping-1-x-shippingSectionTitle.delivery-address-title,
+.vtex-omnishipping-1-x-deliveryGroup .vtex-omnishipping-1-x-shippingSectionTitle {
+  font-weight: bold !important;
+  color: #121212 !important;
+}
+
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-state select,
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-city select,
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-neighborhood select,
+.vtex-omnishipping-1-x-address div>p.input.ship-number input,
+.vtex-omnishipping-1-x-address div>p.input.ship-complement input,
+.vtex-omnishipping-1-x-address div>p.input.ship-receiverName input {
+  border: 1px solid #121212 !important;
+}
+
+.payment-submit-wrap #payment-data-submit:nth-child(2) {
+  display: none !important;
+}
+
+.orderform-template-holder #client-profile-data form.client-pre-email,
+.orderform-template-holder #client-profile-data .step.client-profile-data,
+.orderform-template-holder #shipping-data,
+.orderform-template-holder #payment-data {
+  border-radius: 0 !important;
+}
+
+.CardForm .PaymentCardDueDate {
+  margin: 1rem 0 !important;
+}
+
+#address-toggle-0 {
+  position: relative !important;
+}
+
+#address-toggle-0:checked::before {
+  content: url("/arquivos/input_checked.png") !important;
+  display: block !important;
+  position: absolute !important;
+  top: -6px !important;
+  left: -6px !important;
+  transform: scale(0.71) !important;
+}
+
+.vtex-omnishipping-1-x-addressFormPart1 div>p.input.ship-neighborhood,
+.vtex-omnishipping-1-x-address div>p.input.ship-receiverName {
+  margin-bottom: 2.5rem !important;
+}
+
+.container-order-form #progressbar,
+.container-order-form .message-bar,
+.container-order-form #container-progressbar {
+  display: none !important;
+}
+
+#go-to-cart-button {
+  top: -219px !important;
+  left: calc(-192% + 25.25px) !important;
+  right: 0 !important;
+}
+
+#go-to-cart-button a#orderform-minicart-to-cart::before {
+  content: url(/arquivos/arrow-back.png) !important;
+  display: block !important;
+  position: absolute !important;
+  left: -25.25px !important;
+  top: 2px !important;
+}
+
+#go-to-cart-button a#orderform-minicart-to-cart {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #121212 !important;
+  letter-spacing: 0.5px !important;
+  text-decoration: none !important;
+}
+
+.progress--bar-container {
+  margin-top: 48px !important;
+  margin-bottom: 128px !important;
+}
+
+.form-step.box-edit .submit.btn-submit-wrapper #go-to-shipping:hover {
+  color: #244486 !important;
+}
+
+/* TARJETA DE CREDITO PAGAR CON 2 TARJETAS Y FACTURAS */
+
+.BillingAddress {
+  display: none;
+}
+
+.ChangeNumberOfPayments {
+  display: none;
+}
+
+.PaymentCardFlags{
+  position: initial !important;
+}
+
+.link-gift-card{
+  display: none !important;
+}
+/**/
+
+
+/* Progress Bar Section */
+
+.progress--bar-container {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 46px !important;
+}
+
+img.activeLocationBar {
+  margin-bottom: 0 !important;
+}
+
+.progress-bar-description {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.875rem !important;
+}
+
+.progress-bar-description img {
+  background-color: #fff !important;
+  cursor: pointer !important;
+}
+
+.progress-bar-description p {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.progress--bar-container .progress--bar-section {
+  position: relative !important;
+}
+
+.progress--bar-container .progress--bar-section:nth-child(2) .progress-bar-description::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 27% !important;
+  left: -73% !important;
+  z-index: -1 !important;
+  height: 2px !important;
+  width: 58px !important;
+  background: #D1D1D1 !important;
+}
+
+.progress--bar-container .progress--bar-section:nth-child(3) .progress-bar-description::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 27% !important;
+  left: -120% !important;
+  z-index: -1 !important;
+  height: 2px !important;
+  width: 58px !important;
+  background: #D1D1D1 !important;
+}
+
+.progress--bar-container .progress--bar-section:nth-child(4) .progress-bar-description::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 27% !important;
+  left: -120% !important;
+  z-index: -1 !important;
+  height: 2px !important;
+  width: 58px !important;
+  background: #D1D1D1 !important;
+}
+
+.progress--bar-container .progress--bar-section:nth-child(2) .progress--bar-bar.profile.activeLocationBar::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 27% !important;
+  left: -73% !important;
+  z-index: -1 !important;
+  height: 2px !important;
+  width: 58px !important;
+  background: #244486 !important;
+}
+
+.progress--bar-container .progress--bar-section:nth-child(3) .progress--bar-bar.shipping.activeLocationBar::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 27% !important;
+  left: -120% !important;
+  z-index: -1 !important;
+  height: 2px !important;
+  width: 58px !important;
+  background: #244486 !important;
+}
+
+.progress--bar-container .progress--bar-section:nth-child(4) .progress--bar-bar.payment.activeLocationBar::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 27% !important;
+  left: -120% !important;
+  z-index: -1 !important;
+  height: 2px !important;
+  width: 58px !important;
+  background: #244486 !important;
+}
+
+
+/* Termometro */
+
+#container-progressbar {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  position: absolute !important;
+  width: 314px !important;
+  height: fit-content !important;
+  max-height: 99px !important;
+  background: #F7F7F7 !important;
+  color: #121212 !important;
+  padding: 17px 22px 18px 56px !important;
+  left: -1px !important;
+  bottom: -115px !important;
+}
+
+#container-progressbar::before {
+  content: 'Completa tu pedido y obtén envío gratis' !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #121212 !important;
+  display: block !important;
+  /* width: max-content !important; */
+  margin-bottom: 8px !important;
+}
+
+#container-progressbar::after {
+  content: url(/arquivos/camion.png) !important;
+  display: block !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  position: absolute !important;
+  left: 18px !important;
+}
+
+#progressbar {
+  background: #D1D1D1 !important;
+  border-radius: 12px !important;
+  height: 8px !important;
+  position: relative !important;
+  width: 298px !important;
+  margin: 8px 0 !important;
+}
+
+#icon {
+  background-color: transparent !important;
+  position: absolute !important;
+  width: 20px !important;
+  height: 20px !important;
+  top: -24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#progressbar>div {
+  background: #244486 !important;
+  border-radius: 12px !important;
+  height: 8px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+p.message-bar {
+  color: #5E5E5E !important;
+}
+
+.message-bar {
+  margin-bottom: auto !important;
+}
+
+.link.pf-pj.corporate-hide-link {
+  display: none !important;
+}
+
+.cart .table.cart-items .quantity-price,
+.cart .table.cart-items .shipping-date {
+  color: transparent !important;
+}
+
+.coupon-fields span:first-child {
+  display: grid !important;
+  width: 100% !important;
+  height: 48px !important;
+  position: relative !important;
+  grid-template-columns: 2fr 1fr !important;
+  gap: 8px !important;
+}
+
+
+/* Entrega */
+
+.checkout-container.row-fluid.cart-active #shipping-calculate-link,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect button#cart-shipping-calculate {
+  color: #fff !important;
+  background: #121212 !important;
+  border: none !important;
+  height: 45px !important;
+  padding: 0 20px !important;
+  border-radius: 25px !important;
+  font-size: 14px !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-calculate-link:hover,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect button#cart-shipping-calculate:hover {
+  background-color: #244486 !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div {
+  width: 100% !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-city {
+  float: right !important;
+  width: calc(50% - 8px) !important;
+  margin: 0 !important;
+  margin-bottom: 16px !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-state {
+  width: calc(50% - 8px) !important;
+  margin-bottom: 16px !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-city select#ship-city,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-state select#ship-state,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-neighborhood select#ship-neighborhood {
+  width: 100% !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-city label,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-state label,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-neighborhood label {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.2px !important;
+  color: #5E5E5E !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 1 !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-neighborhood select#ship-neighborhood {
+  margin-bottom: 32px !important;
+}
+
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-city select#ship-city.error,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-state select#ship-state.error,
+.checkout-container.row-fluid.cart-active #shipping-preview-container .srp-postal-code__form .vtex-shipping-preview-0-x-postalCodeSelect div .input.ship-neighborhood select#ship-neighborhood.error {
+  border-color: #CF1423 !important;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder span.link-choose-more-products-wrapper {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 48px !important;
+  border: 1px solid #121212 !important;
+  background-color: #fff !important;
+  border-radius: 25px !important;
+  cursor: pointer !important;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder span.link-choose-more-products-wrapper #cart-choose-more-products {
+  position: relative !important;
+  color: transparent !important;
+  width: 100% !important;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder span.link-choose-more-products-wrapper #cart-choose-more-products::selection {
+  position: relative !important;
+  color: transparent !important;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder span.link-choose-more-products-wrapper #cart-choose-more-products::after {
+  content: 'Continuar comprando' !important;
+  font-family: var(--reebokRegular)!important;
+  position: absolute !important;
+  display: block !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  letter-spacing: 0.5px !important;
+  color: #121212 !important;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder span.link-choose-more-products-wrapper:hover {
+  background-color: #244486 !important;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder span.link-choose-more-products-wrapper:hover #cart-choose-more-products::after {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.checkout-container.row-fluid.cart-active .summary-template-holder .cart-links-bottom {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  gap: 8px !important;
+  margin: 0 !important;
+}
+
+body .checkout-container.row-fluid.orderform-active .container-message--car {
+  display: none !important;
+}
+
+.summary-template-holder .summary-coupon fieldset.coupon-fieldset input:focus[type="text"] {
+  box-shadow: none !important;
+}
+
+.orderform-template-holder #client-profile-data .step.client-profile-data input:focus[type=text]:not(.pac-target-input),
+.orderform-template-holder #client-profile-data .step.client-profile-data input:focus[type=text]:not(.pac-target-input),
+.orderform-template-holder #client-profile-data .step.client-profile-data input:focus[type=text]:not(.pac-target-input),
+.orderform-template-holder #client-profile-data .step.client-profile-data input:focus[type=text]:not(.pac-target-input),
+.orderform-template-holder #client-profile-data .step.client-profile-data select:focus:not(.pac-target-input),
+.orderform-template-holder #client-profile-data .step.client-profile-data select:focus:not(.pac-target-input),
+.orderform-template-holder #client-profile-data .step.client-profile-data select:focus:not(.pac-target-input) {
+  box-shadow: none !important;
+}
+
+.input span.error {
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.2px !important;
+  color: #CF1423 !important;
+  width: 100%;
+  position: inherit !important;
+}
+
+#swal2-title.swal2-title {
+  font-family: var(--reebokSemiBold)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  color: #121212 !important;
+}
+
+.swal2-actions .swal2-confirm.swal2-styled {
+  border-radius: 1.56rem !important;
+  border: 1px solid #121212 !important;
+  font-family: var(--reebokRegular)!important;
+  background-color: #fff !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 1.25rem !important;
+  text-align: center !important;
+  letter-spacing: 0.5px !important;
+  color: #121212 !important;
+  height: 48px !important;
+  padding: 0 1.25rem !important;
+  width: 11.75rem !important;
+}
+
+.swal2-actions .swal2-confirm.swal2-styled:hover {
+  color: #fff !important;
+  background-color: #121212 !important;
+}
+
+.swal2-actions .swal2-cancel.swal2-styled {
+  color: #FFFFFF !important;
+  border-radius: 1.56rem !important;
+  background-color: #121212 !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  letter-spacing: 0.5px !important;
+  height: 48px !important;
+  padding: 0 1.25rem !important;
+  width: 11.75rem !important;
+}
+
+.swal2-actions .swal2-cancel.swal2-styled:hover {
+  background-color: #244486 !important;
+}
+
+.swal2-popup .swal2-styled:focus {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0), 0 0 0 4px rgba(0, 0, 0, 0) !important;
+}
+
+.checkout-container.row-fluid.cart-active .product-price .price-details .price-details-popup {
+  background-color: #F7F7F7 !important;
+  color: #121212 !important;
+  font-family: var(--reebokRegular)!important;
+  border-color: #F7F7F7 !important;
+}
+
+.link-box-edit .icon-edit {
+  color: #121212 !important;
+}
+
+.link-box-edit:hover .icon-edit {
+  color: #244486 !important;
+}
+
+.vtex-omnishipping-1-x-svg,
+.vtex-omnishipping-1-x-svg path {
+  fill: #244486 !important;
+}
+
+.vtex-omnishipping-1-x-addressItemOption {
+  background-color: #E9ECF3 !important;
+}
+
+.link-change-shipping.vtex-omnishipping-1-x-summaryChange,
+.vtex-omnishipping-1-x-buttonEditAddress,
+.vtex-omnishipping-1-x-buttonCreateAddress {
+  color: #244486 !important;
+  background-color: #E9ECF3 !important;
+}
+
+.cart-more-options,
+.cart-template-holder .cart,
+.summary-template-holder {
+  border-radius: 0px !important;
+}
+
+#TyCcheck {
+  position: relative !important;
+  height: 65px !important;
+}
+
+#TyCcheck label {
+  position: absolute !important;
+  top: 3px !important;
+  left: 17px !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.5px !important;
+}
+
+#TyCcheck label a {
+  font-family: var(--reebokSemiBold)!important;
+  text-decoration: underline !important;
+  color: #121212 !important;
+}
+
+#TyCcheck span.campo-requerido {
+  display: block !important;
+  margin-top: 20px !important;
+  margin-left: 18px !important;
+}
+
+#TyCcheck input:checked~span.campo-requerido {
+  display: none !important;
+}
+
+#TyCcheck input {
+  position: relative !important;
+}
+
+#TyCcheck input:checked::before {
+  content: url("/arquivos/input_checked.png") !important;
+  display: block !important;
+  position: absolute !important;
+  top: -6px !important;
+  left: -6px !important;
+  transform: scale(0.71) !important;
+}
+
+#TyCcheck2 {
+  position: relative !important;
+  height: 55px !important;
+}
+
+#TyCcheck2 label {
+  position: absolute !important;
+  top: 3px !important;
+  left: 17px !important;
+  font-family: var(--reebokRegular)!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.5px !important;
+}
+
+#TyCcheck2 label a {
+  font-family: var(--reebokSemiBold)!important;
+  text-decoration: underline !important;
+  color: #121212 !important;
+}
+
+#TyCcheck2 span.campo-requerido {
+  display: block !important;
+  margin-top: 20px !important;
+  margin-left: 18px !important;
+}
+
+#TyCcheck2 input:checked~span.campo-requerido {
+  display: none !important;
+}
+
+#TyCcheck2 input {
+  position: relative !important;
+}
+
+#TyCcheck2 input:checked::before {
+  content: url("/arquivos/input_checked.png") !important;
+  display: block !important;
+  position: absolute !important;
+  top: -6px !important;
+  left: -6px !important;
+  transform: scale(0.71) !important;
+}
+
+#TyCcheck {
+display: block !important;
+}
+#TyCcheck2 {
+display: block !important;
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+
+#TyCcheck {
+  position: relative !important;
+  height: 50px !important;
+}
+
+#TyCcheck2 {
+  position: relative !important;
+  height: 50px !important;
+}
+
+#TyCcheck span.campo-requerido {
+  display: block !important;
+  margin-top: 12px !important;
+  margin-left: 18px !important;
+}
+
+#TyCcheck2 span.campo-requerido {
+  display: block !important;
+  margin-top: 12px !important;
+  margin-left: 18px !important;
+}
+}
+
+
+@media screen and (max-width: 40em) {
+#TyCcheck {
+  position: relative !important;
+  height: 70px !important;
+}
+
+#TyCcheck2 {
+  position: relative !important;
+  height: 50px !important;
+}
+
+}
+
+.orderform-template-holder .step .input.text label{
+  color: #5E5E5E !important;
+}
+
+
+.orderform-template-holder .step .ship-complement label {
+  font-size: 0px !important;
+  height: 19px !important;
+}
+
+.orderform-template-holder .step .ship-complement label::after {
+  content: "Piso o Apartamento" !important;
+  font-size: 13px !important;
+  color: #5E5E5E !important;
+}
+
+#ship-street{
+  border-color: #121212 !important;
+}
+
+#creditCardpayment-card-0Number{
+  border-color: #121212 !important;
+}
+
+#creditCardpayment-card-0Brand{
+  border-color: #121212 !important;
+}
+
+#creditCardpayment-card-0Name{
+  border-color: #121212 !important;
+}
+
+#creditCardpayment-card-0Code{
+  border-color: #121212 !important;
+}
+
+#creditCardpayment-card-0Month{
+  border-color: #121212 !important;
+}
+
+#creditCardpayment-card-0Year{
+  border-color: #121212 !important;
+}
+
+#cart-coupon{
+  border-color: #121212 !important;
+}
+
+.orderform-template-holder
+.icon-edit::before{
+  content: "Editar" !important;
+  font-size: 14px !important;
+  font-family: var(--reebokRegular)!important;
+  text-decoration: underline;
+  color: #121212;
+}
+
+
+[data-i18n="totalizers.summary"]{
+  content: "";
+  font-size: 0px !important;
+  color: #121212 !important;
+  font-family: var(--reebokBold)!important;
+}
+
+
+[data-i18n="totalizers.summary"]::after{
+  content: "Resumen de compra";
+  font-size: 20px !important;
+  color: #121212 !important;
+  font-family: var(--reebokBold)!important;
+}
+
+.FormFieldLabel  {
+  color: #5E5E5E !important;
+}
+
+.payment-group-item-cards .card-flag::before{
+  content: "aqui" !important;
+  font-size: 10px !important;
+}
+
+.payment-group-item-cards{
+  display: none !important;
+}
+
+.tarjetas-creditos img {
+  height: 30px !important;
+}
+
+.pago-pse img {
+  height: 30px !important;
+}
+
+.orderform-template-holder #payment-data p.link.link-gift-card{
+  display: block !important;
+}
+
+[data-i18n="paymentData.paymentGroup.giftCard.codeCard"]{
+  width: 15rem !important;
+}
+.coupon-value {
+margin-top: auto !important;
+margin-bottom: auto !important;
+}
+
+.loading-text {
+display: none !important;
+}
+
+.newsletter-text{
+  display: none;
+}
+
+.newsletter{
+  display: flex;
+}
+
+.newsletter::after {
+  content: "Acepto que Reebok Chile se ponga en contacto conmigo por cualquier medio físico o electrónico para fines de marketing, publicidad y estudios de opinión.";
+  cursor: default;
+}
+
+
+@media only screen and (min-width: 80em) {
+  .checkout-container.row-fluid.cart-active .cart-template-holder,
+  .checkout-container.row-fluid.orderform-active .orderform-template .orderform-template-holder {
+      width: calc(64% - 20px) !important;
+      max-width: 732px !important;
+  }
+  .checkout-container.row-fluid.cart-active .summary-template-holder,
+  .checkout-container.row-fluid.orderform-active .orderform-template .cart-template.mini-cart.span4 {
+      width: calc(36% - 20px) !important;
+      max-width: 392px !important;
+      margin-bottom: 40px !important;
+  }
+  .container-message--car {
+      position: absolute !important;
+      top: -53px !important;
+      /*left: 1.4rem !important;*/
+      font-size: 40px !important;
+      font-family: var(--reebokBold) !important;
+      font-weight: 400 !important;
+      color: #121212 !important;
+  }
+  .orderform-template-holder {
+      position: relative !important;
+  }
+  .orderform-template-holder::before {
+      content: 'Finalizar compra' !important;
+      display: block !important;
+      position: absolute !important;
+      top: -63px !important;
+      left: 0 !important;
+      font-size: 40px !important;
+       font-family: var(--reebokBold) !important;
+      font-weight: 400 !important;
+      color: #121212 !important;
+  }
+  .checkout-container.row-fluid.cart-active .table.cart-items {
+      position: relative !important;
+  }
+  .checkout-container.row-fluid.cart-active .table.cart-items thead tr th.product-price {
+      position: absolute !important;
+      right: 21px !important;
+  }
+  .checkout-container.row-fluid.cart-active .table.cart-items thead tr th.quantity {
+      position: absolute !important;
+      right: 180px !important;
+  }
+  .orderform-template-holder .step .form-step fieldset p.client-last-name,
+  .orderform-template-holder .step .form-step fieldset p.client-first-name,
+  .orderform-template-holder .step.client-profile-data .client-document,
+  .orderform-template-holder .step.client-profile-data .client-phone {
+      width: 48% !important;
+  }
+  .orderform-template-holder .step .form-step fieldset p.client-last-name,
+  .orderform-template-holder .step.client-profile-data .client-phone {
+      float: right !important;
+  }
+}
+
+@media (max-width: 1025px) {
+
+  body .orderform-template .payment-confirmation-wrap .payment-submit-wrap {
+      position: absolute !important;
+      top: 30px;
+      border-radius: 25px !important;
+      width: 100% !important;
+  }
+  .cart-template-holder div.cart,
+  .summary-template-holder {
+      border: none !important;
+  }
+  .custom-cart-template-wrap{
+    padding-bottom: 100px !important;
+  }
+
+  .summary-template-holder .cart-links-bottom {
+      position: relative !important;
+  }
+  .orderform-template .payment-confirmation-wrap .payment-submit-wrap button {
+      background: #121212 !important;
+      border-radius: 25px !important;
+  }
+  .body-cart-vertical .cart-template.full-cart.active {
+      display: flex !important;
+      flex-flow: wrap !important;
+      justify-content: center !important;
+      align-items: flex-start !important;
+      gap: 150px !important;
+  }
+  .container.container-main.container-cart,
+  .container.container-main.container-order-form {
+      max-width: 90.67% !important;
+      width: 90.67% !important;
+  }
+  .body-cart-vertical .cart-template-holder {
+      width: 100% !important;
+      max-width: 100% !important;
+  }
+  .body-cart-vertical .summary-template-holder {
+      width: 100% !important;
+      max-width: 100% !important;
+  }
+  .orderform-template .cart-template.mini-cart {
+      width: 100% !important;
+      min-width: 255px !important;
+      position: relative !important;
+      bottom: 0px !important;
+      top: 20px !important;
+      right: 0 !important;
+      float: right !important;
+      margin: 0 !important;
+  }
+  .orderform-template .orderform-template-holder {
+      width: 100% !important;
+      padding-right: 0 !important;
+      max-width: 100% !important;
+      float: left !important;
+      box-sizing: border-box !important;
+  }
+
+  #container-progressbar {
+      max-width: 929px !important;
+      width: calc(100% - 77px) !important;
+      position: absolute !important;
+      top: -190px !important;
+  }
+
+  #warning-message{
+    max-width: 929px !important;
+    width: calc(100% - 77px) !important;
+    position: absolute !important;
+    top: -155px !important;
+  }
+
+  #progressbar {
+      background: #D1D1D1 !important;
+      border-radius: 12px !important;
+      height: 8px !important;
+      position: relative !important;
+      width: 100% !important;
+      margin: 8px 0 !important;
+  }
+  .orderform-template::before {
+      content: 'Finalizar compra' !important;
+      display: block !important;
+      position: absolute !important;
+      top: -32px !important;
+      left: 0 !important;
+      font-size: 24px !important;
+       font-family: var(--reebokBold) !important;
+      font-weight: 400 !important;
+      color: #121212 !important;
+  }
+  .container-message--car {
+      font-family: var(--reebokBold) !important;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      font-size: 24px !important;
+      line-height: 24px !important;
+      color: #121212 !important;
+      margin-bottom: 1.5rem !important;
+  }
+  .row-fluid.orderform-template.span12.active {
+      margin-top: 3rem !important;
+  }
+  .container.container-main.container-order-form {
+      margin-bottom: 0.188rem !important;
+  }
+  .progress--bar-container {
+      margin-bottom: 3rem !important;
+  }
+}
+
+@media(max-width: 800px) {
+  #container-progressbar {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      position: absolute !important;
+      top: -220px !important;
+  }
+
+  #warning-message {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    position: absolute !important;
+    top: -140px !important;
+  }
+
+  .body-cart-vertical .cart-template.full-cart.active {
+      display: flex !important;
+      flex-flow: wrap !important;
+      justify-content: center !important;
+      align-items: flex-start !important;
+      gap: 175px !important;
+  }
+  .footer {
+      flex-direction: column-reverse !important;
+      gap: 1.68rem !important;
+      padding: 1.68rem 0 !important;
+      height: auto !important;
+      bottom: auto !important;
+  }
+  .copyright {
+      text-align: center !important;
+      width: 100% !important;
+  }
+  .redes_sociales {
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 16px !important;
+      color: #fff !important;
+  }
+  .container.container-main.container-cart {
+      margin: 0 16px !important;
+  }
+  .cart-template.full-cart.span12.active .cart,
+  .summary-template-holder {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  .ship-complement label {
+      position: relative !important;
+      color: transparent !important;
+      height: 1.25rem !important;
+  }
+  .ship-complement label::before {
+      content: 'Piso o Apartamento' !important;
+      display: block !important;
+      position: absolute !important;
+      color: #999999 !important;
+  }
+  .orderform-template-holder #client-profile-data .step.client-profile-data,
+  .orderform-template-holder #shipping-data {
+      margin: auto auto 3rem !important;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  [data-i18n="paymentData.paymentGroup.giftCard.codeCard"]{
+      width: 8rem !important;
+  }
+
+  .cart-template-holder div.cart,
+  .summary-template-holder {
+      border: none !important;
+  }
+
+
+#creditCardpayment-card-0Month{
+  width: 50px !important;
+  padding: 0px !important;
+}
+
+#creditCardpayment-card-0Year{
+  width: 50px !important;
+  padding: 0px !important;
+}
+
+.payment-card-due-year{
+  width: 50px !important;
+  padding: 0px !important;
+}
+
+.payment-card-due-month{
+  width: 50px !important;
+  padding: 0px !important;
+}
+
+.progress--bar-container {
+  gap: 8% !important;
+}
+
+.tarjetas-creditos img {
+  height: 20px !important;
+}
+
+}
+@media (max-width: 393px) {
+#container-progressbar {
+  top: -211px !important;
+}
+
+#warning-message {
+  top: -105px !important;
+}
+}
+
+/* message */
+
+/* #warning-message::before {
+content: "Los artículos comprados en cualquiera de nuestras promociones no aplican para cambios ni devoluciones.";
+color: #000000;
+font-size: .9rem;
+display: flex !important;
+flex-direction: column !important;
+align-items: flex-start !important;
+position: absolute !important;
+width: 345px !important;
+height: fit-content !important;
+max-height: 99px !important;
+left: -1px !important;
+bottom: -170px !important;
+} */
+
+#warning-message {
+display: flex !important;
+flex-direction: column !important;
+align-items: flex-start !important;
+position: absolute !important;
+width: 330px !important;
+height: fit-content !important;
+max-height: 99px !important;
+color: #121212 !important;
+padding: 10px 5px 10px 5px !important;
+left: -1px !important;
+bottom: -182px !important;
+}
+
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+#warning-message {
+  width: -webkit-fill-available !important;
+}
+
+#warning-message {
+  top: -52px !important;
+
+}
+
+}
+
+@media screen and (max-width: 40em) {
+
+  #warning-message {
+    bottom: -111px !important;
+  }
+}
+
+.container-order-form #warning-message,
+.container-order-form #warning-message {
+display: none !important;
+}
+
+/* message */
+
+/* GIF  */
+
+.checkout-gif {
+  cursor: pointer;
+  position: absolute;
+  bottom: -160px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+/* promo carrusel */
+
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+}
+.owl-carousel .owl-stage:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  width: inherit;
+}
+.owl-carousel .owl-item,
+.owl-carousel .owl-wrapper {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  max-width: 150px !important;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+.owl-carousel.owl-hidden {
+  opacity: 0;
+}
+.owl-carousel.owl-refresh .owl-item {
+  visibility: hidden;
+}
+.owl-carousel.owl-drag .owl-item {
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab;
+}
+.owl-carousel.owl-rtl {
+  direction: rtl;
+}
+.owl-carousel.owl-rtl .owl-item {
+  float: right;
+}
+.no-js .owl-carousel {
+  display: block;
+}
+.owl-carousel .animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.owl-carousel .owl-animated-in {
+  z-index: 0;
+}
+.owl-carousel .owl-animated-out {
+  z-index: 1;
+}
+.owl-carousel .fadeOut {
+  animation-name: fadeOut;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.owl-height {
+  transition: height 0.5s ease-in-out;
+}
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.owl-carousel .owl-item .owl-lazy:not([src]),
+.owl-carousel .owl-item .owl-lazy[src^=''] {
+  max-height: 0;
+}
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d;
+}
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000;
+}
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url(owl.video.play.png) no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 0.1s ease;
+}
+.owl-carousel .owl-video-play-icon:hover {
+  transform: scale(1.3, 1.3);
+}
+.owl-carousel .owl-video-playing .owl-video-play-icon,
+.owl-carousel .owl-video-playing .owl-video-tn {
+  display: none;
+}
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 0.4s ease;
+}
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
+.available-gift .cart-gift-items {
+  display: none;
+}
+
+.cart-select-gift-placeholder {
+  margin: 0 !important;
+}
+
+.cart-select-gift-placeholder .available-gift-item.active {
+  background: 0 0;
+  box-shadow: none;
+  border: 3px solid #f4f4f4;
+}
+.cart-select-gift-placeholder .available-gift-item.inactive {
+  background: 0 0;
+  box-shadow: none;
+  border: 3px solid #f4f4f4;
+}
+.cart-gift-items .product-name {
+  color: #4a4a4a;
+}
+.cart-gift-items .product-name .icon-check-empty {
+  color: #dadada !important;
+}
+.cart-gift-items .product-name .icon-check-sign {
+  color: #E41D1B;
+}
+.cart-gift-items .product-name .checkbox-selector:hover {
+  color: #E41D1B;
+}
+
+.link-change-shipping:hover {
+  color: #E41D1B !important;
+  border-color: #fff !important;
+}
+.btn-group-vertical > .btn {
+  padding: 10px;
+}
+.summary-template-holder .row-fluid.summary {
+  display: block;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+.full-cart .summary-totalizers .monetary {
+  width: 150px;
+}
+.cart-template .product-item .quantity input {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.cart-select-gift-placeholder .available-gift {
+  display: none !important;
+}
+
+.new-box-gifts {
+  display: flex;
+  margin: 0 0 0 0;
+  position: relative;
+  flex-wrap: wrap;
+  margin-left: 35px;
+  margin-top: 20px;
+
+}
+.new-box-gifts .navBrinde {
+  display: flex;
+  width: 100%;
+}
+.new-box-gifts h2.available-gift-quantity {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 20px;
+  font-weight: 400;
+ /*  margin: 0 0 14px; */
+  max-width: 80%;
+  min-height: 20px;
+}
+
+.navBrinde.owl-carousel.owl-theme.owl-loaded.owl-drag {
+  min-height: 251px !important;
+}
+
+/* .new-box-gifts h2.available-gift-quantity:after {
+  font-size: 18px;
+  margin-left: 5px;
+  content: ' \f004';
+  font-family: FontAwesome;
+  color: #E41D1B;
+} */
+.new-box-gifts .owl-stage {
+  padding-bottom: 10px;
+}
+.new-box-gifts .owl-nav {
+  position: absolute;
+  width: 60px;
+  top: -35px;
+  right: 6px;
+}
+.new-box-gifts .owl-nav button {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E41D1B !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.new-box-gifts .owl-nav button span {
+  background-image: url(https://pandoraco.vteximg.com.br/arquivos/atras.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  height: 12px;
+  left: 55%;
+  margin: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+}
+.new-box-gifts .owl-nav button.disabled {
+  background: rgba(242, 161, 178, 0.62) !important;
+}
+.new-box-gifts .owl-nav button.owl-next span {
+  transform: translate(-50%, -50%) rotate(180deg);
+  left: 53%;
+}
+.new-box-gifts .owl-nav .owl-prev {
+  left: 0;
+}
+.new-box-gifts .owl-nav .owl-next {
+  right: 0;
+}
+.new-box-gifts .owl-dots {
+  text-align: center;
+}
+.new-box-gifts .owl-dots button.owl-dot {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #E41D1B;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.new-box-gifts .owl-dots button.active {
+  background: #E41D1B;
+}
+.new-box-gifts .boxGifts {
+  display: inline-flex;
+  width: 100%;
+  height: 275px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8px 0 2px;
+  max-width: 150px !important;
+  justify-content: space-between;
+}
+.new-box-gifts .boxGifts .boxImg {
+  padding: 8px 0;
+  width: 100px;
+}
+.new-box-gifts .boxGifts .boxImg img {
+  max-height: 100px;
+}
+.new-box-gifts .boxGifts .boxTitle {
+  padding: 0 9px;
+  text-align: center;
+  min-height: 42px;
+}
+.new-box-gifts .boxGifts .boxTitle p {
+  font-size: 11px;
+  line-height: 14px;
+  color: #27251f;
+}
+.new-box-gifts .boxGifts .boxSkus ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.new-box-gifts .boxGifts .boxSkus ul li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #d0d1d2;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #27251f;
+  margin: 3px;
+  padding: 0;
+}
+.new-box-gifts .boxGifts .boxSkus ul li.active {
+  border-color: #E41D1B;
+  background: #E41D1B;
+  color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .owl-item {
+    width: 149.167px !important;
+  }
+
+  /* .new-box-gifts {
+    margin-right: 19px !important;
+  } */
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
+
+
+@media screen and (max-width: 767px) {
+  .new-box-gifts h2.available-gift-quantity {
+    margin: 0;
+  }
+  .new-box-gifts .boxGifts{
+    width: 44vw;
+    height: 275px;
+  }
+  .owl-stage{
+    display: flex;
+  }
+  .owl-item{
+    width: 50vw !important;
+  }
+}
+.owl-dots{
+  display: none;
+}
+.box-gifts-joyero{
+  order: 5;
+}
+
+/* div#cartLoadedDiv {
+  display: flex;
+  flex-direction: column;
+
+} */
+@media only screen and (max-width: 1200px){
+  .container-main{
+    width: 95%;
+  }
+  .cart-template.full-cart .cart-template-holder{
+    width: calc(100% - 320px);
+    margin-right: 20px;
+  }
+  .cart-template.full-cart .summary-template-holder{
+    width: 300px;
+  }
+  /* .owl-item, .owl-carousel >.boxGifts{
+    width: calc(50% - 10px) !important;
+  } */
+}
+
+@media only screen and (max-width: 980px) {
+  .cart-template.full-cart{
+    flex-direction: column;
+  }
+  .cart-template.full-cart .cart-template-holder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+  }
+  .cart-template.full-cart .summary-template-holder{
+    width: 100%;
+  }
+  .cart-template.full-cart .summary-template-holder .summary{
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .cart-template.full-cart .summary-template-holder .cart-more-options{
+    margin-bottom: 20px;
+  }
+  .cart-template.full-cart > .suggestions{
+    display: none !important;
+  }
+  .cart-template.full-cart .cart-template-holder .suggestions{
+    display: block !important;
+    order: 1;
+  }
+  .orderform-template .orderform-template-holder #payment-data .payment-submit-hide{
+    display: none;
+  }
+  #payment-data-submit{
+    max-width: 100%;
+  }
+}
+
+div#shipping-preview-container {
+  margin: 20px 10px 30px 35px !important;
+}
+
+
+@media (max-width: 40rem) {
+  .new-box-gifts {
+    margin: 0 0 25px 24px;
+  }
+
+  h2.available-gift-quantity.title-mid-size.all-gifts-were-chosen {
+    margin-bottom: .5rem;
+  }
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  .new-box-gifts .boxGifts {
+    width: 150px;
+  }
+}
+
+.table.cart-items tbody tr.hide {
+  display: block !important;
+}
+
+/*---------------css-modal-----------------*/
+
+/* Modales */
+.promoModal, .productModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0 0 0 / 80%);
+  z-index: 10000;
+}
+.promoModal .promoModalContainer, .productModal .productModalContainer{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px 20px;
+  background-color: #fff;
+  position: relative;
+}
+.promoModal .promoModalContainer{
+  max-width: 700px;
+}
+.promoModal .closeModal, .productModal .closeModal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 9;
+}
+.promoModal .closeModal::before, .promoModal .closeModal::after, .productModal .closeModal::before, .productModal .closeModal::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+.promoModal .closeModal::after, .productModal .closeModal::after{
+  transform: rotate(-45deg);
+}
+.promoModal .encabezado, .productModal .encabezado{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.promoModal .cuponsWrapper .cupon{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.promoModal .cuponsWrapper .cupon img{
+  width: 150px;
+  min-width: 150px;
+  margin-right: 20px;
+  object-fit: contain;
+  object-position: center;
+}
+.promoModal .cuponsWrapper .cupon:not(:last-child){
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+.promoModal .cuponsWrapper .cupon .copiarCupon{
+  min-width: 120px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: #ff8003;
+  cursor: pointer;
+}
+
+
+@media (max-width: 700px){
+
+  .promoModal .promoModalContainer, .productModal .productModalContainer{
+    padding: 30px 0px;
+  }
+
+  .promoModal .cuponsWrapper .cupon{
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .promoModal .cuponsWrapper .cupon img{
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+  .promoModal .cuponsWrapper .cupon:not(:last-child){
+      padding-bottom: 30px;
+  }
+  .promoModal .cuponsWrapper .cupon .copiarCupon{
+      width: 100%;
+      margin: 15px 0 0;
+  }
+  .productModalContainer iframe{
+      width: 100%;
+  }
+}
+@media (max-width: 540px){
+  .promoModal .cuponsWrapper .cupon, .cuponsModal .cuponsWrapper .cupon{
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .promoModal .cuponsWrapper .cupon img, .cuponsModal .cuponsWrapper .cupon img{
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+}
+
+#cartLoadedDiv > div.cart > table > tbody > tr > div > td.quantity{
+  min-width: 80px;
+  justify-content: center;
+}
+
+
+.closeButtonM {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 0;
+  border: none;
+  top: 0;
+  right: 0;
+}
+
+.closeButtonM:before,
+.closeButtonM:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background-color: #000000;
+  top: 5px;
+  left: 14px;
+}
+
+.closeButtonM:before {
+  transform: rotate(45deg);
+}
+
+.closeButtonM:after {
+  transform: rotate(-45deg);
+}
+
+.suggestions .container-progressbar {
+  position: static;
+}
+
+.suggestions_container {
+  position: relative;
+}
+
+@media (max-width: 40rem) {
+
+  .checkout-gif {
+    bottom: 571px !important;
+  }
+
+  .container-progressbar {
+    top: -246px !important;
+  }
+  .container-progressbar::before {
+    font-size: 15px !important;
+    width: max-content !important;
+  }
+
+  .progressbar {
+    max-width: 270px !important;
+    top: 33px !important;
+  }
+
+  .promoModal .promoModalContainer, .productModal .productModalContainer {
+    padding: 30px 0px;
+    height: 550px;
+  }
+  .suggestionsContainer {
+    margin-top: 3rem !important;
+  }
+
+  .suggestions .container-progressbar {
+    position: static !important;
+  }
+  .suggestions .progressbar{
+    margin-top: 37px !important;
+  }
+  .suggestions_container {
+    position: relative;
+    height: 99vh;
+    max-width: 338px;
+  }
+
+  /* No borrar por pruebas
+  #cartLoadedDiv > div.cart-more-options.span7 {
+    display: none !important;
+  } */
+
+  .cart-template-holder div.cart-more-options,
+  .cart-template-holder div.cart,
+  .orderform-template-holder #client-profile-data .step.client-profile-data,
+  .orderform-template-holder #shipping-data,
+  .orderform-template-holder #payment-data {
+    border: 1px solid #ffffff !important;
+  }
+
+  .suggestions_prodName {
+    margin-bottom: 15px !important;
+  }
+
+  .suggestions_variations {
+    margin-top: 10px !important;
+  }
+
+  .suggestions_inModalToCart {
+    margin-top: 10px !important;
+  }
+
+  .suggestions_variationOption {
+    padding: 8px !important;
+    min-width: 100px !important;
+  }
+
+  .suggestions_imageArea_link {
+    right: 1.5rem !important;
+  }
+  .suggestions > .container-progressbar > .progressbar {
+    width: 80%;
+  }
+
+  .suggestions .container-progressbar::after {
+    left: 15px !important;
+  }
+
+  .container-progressbar {
+    padding: 17px 22px 18px 46px !important;
+  }
+
+  .container-progressbar {
+    max-width: 929px !important;
+    width: calc(100% - 70px) !important;
+  }
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+
+  .progressbar {
+    max-width: 80% !important;
+    top: 33px !important;
+  }
+
+  .suggestions .progressbar{
+    margin-top: 37px !important;
+  }
+
+  #checkout-gif-bg {
+    display: none !important;
+  }
+
+  .table.cart-items thead tr th.product-price, .table.cart-items thead tr th.quantity-price {
+    width: 43px !important;
+    margin-left: 1rem;
+  }
+
+  th.product-price {
+    padding-left: 2rem;
+  }
+
+  .table.cart-items thead tr th.shipping-date {
+    display: none !important;
+  }
+
+  #container-progressbar {
+    top: -130px !important;
+  }
+
+  div#shipping-preview-container {
+    margin: 20px 10px 30px 35px !important;
+  }
+
+  .row-fluid.summary::before {
+    top: -45px !important;
+  }
+}
+
+/* cupón */
+
+p.coupon-label {
+  display: none;
+}
+
+/* cupón */
+
+/* por mientras se oculta mensaje gatillado desde append */
+/* .container-progressbar {
+  display: none !important;
+} */

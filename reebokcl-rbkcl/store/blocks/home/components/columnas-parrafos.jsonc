@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#columnas-parrafos": {
+    "props": { "blockClass": "container-columnas-parrafos" },
+    "children": [
+      "flex-layout.col#columna-parrafo-uno",
+      "flex-layout.col#columna-parrafo-dos"
+    ]
+  },
+  "flex-layout.col#columna-parrafo-uno": {
+    "children": ["rich-text#desktop-parrafo-uno"]
+  },
+  "rich-text#desktop-parrafo-uno": {
+    "props": {
+      "blockClass": "desktop-parrafos",
+      "text": "**Una tienda on line con los mejores productos Reebok** Ya sea que ames bailar, boxear, correr o ir al gym, en nuestra tienda on line encontrarás ropa deportiva que te motivará a entrenar con todo. Todas nuestras prendas han sido cuidadosamente diseñadas en materiales de primera calidad para brindarte máxima comodidad y ayudarte a entrenar viéndote y sintiéndote mejor que nunca. Con diseños cargados de características prácticas para que entrenes sin distracciones, estamos muy orgullosos del amplio rango de productos que ofrecemos para cada categoría deportiva, así como colecciones modernas y con estilo para adultos y niños. En nuestra tienda, encontrarás desde equipo con tecnología de ventilación diseñado para entrenamientos de alta intensidad hasta looks cómodos y modernos ideales, con suficiente estilo como para que los uses el resto del día. Es decir, contamos con un rango de talles y looks lo suficientemente amplio para cubrir todas tus necesidades. No olvides navegar por nuestro increíble categoría de zapatillas en todos los modelos y colores que puedas imaginarte, además de colaboraciones con diseñadores, importantes figuras deportivas y, por supuesto, estilo retro clásicos de Reebok."
+    }
+  },
+  "flex-layout.col#columna-parrafo-dos": {
+    "children": ["rich-text#desktop-parrafo-dos"]
+  },
+  "rich-text#desktop-parrafo-dos": {
+    "props": {
+      "blockClass": "desktop-parrafos",
+      "text": "**Llegá a donde quieras con nuestra ropa deportiva** Una vez que descubrís el deporte que te mueve, todo empieza a tener sentido. En un mundo tan agitado, regalate el tiempo que necesitás para liberar tu mente y poner a tu cuerpo en movimiento. No lo dudes, sabés que valdrá la pena. Ya sea correr bajo la lluvia o ir a yoga durante la hora de la comida, comprometete a hacerlo: te sentirás muy bien cada vez que lo logres. Incluso en esos días ocupados en los que sentís que no hay tiempo, responsabilizate de tus acciones, actuá con convicción. Te sentirás incluso mejor al darte cuenta de que cumpliste con tu objetivo. Si sos de los que ama su vida social, hacelo con un amigo o comenzá a entrenar con un compañero. Sentite bien y como nunca! Contar con ropa deportiva que te quede bien y te haga lucir bien juega un papel importantísimo en ayudarte a dar el primer paso para salir a entrenar y vivir una vida plena. Perseguí tus metas con ropa deportiva para hombre y mujer de Reebok, prendas cómodas y diseñadas especialmente para entrenar que te harán sentir más y más motivado a la vez que maximizan tu rendimiento."
+    }
+  }
+}

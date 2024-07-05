@@ -1,0 +1,113 @@
+{
+    "custom-banner#summer-sale-00": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/Hero-Banner-Summer-Sale-Desktop.jpg",
+            "phoneBgImageUrl": "/arquivos/Hero-Banner-Summer-Sale-Mobile.jpg",
+            "headlines": [{
+                    "type": "headline",
+                    "text": "HASTA 30% OFF",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cWhite",
+                        "tablet": "banner-headline-bottom mr2 cWhite",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+
+                {
+                    "type": "copy",
+                    "text": "Además, aprovecha los descuentos",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite dNone"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "en Nano desde $48.990",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite dNone"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [{
+                    "label": "COMPRAR AHORA",
+                    "link": "/OUTLET",
+                    "sx": {
+                        "desktop": "mt2 fs80 mr1",
+                        "tablet": "mt5 fs70",
+                        "phone": "mt5 mr17 fs70"
+                    }
+                }],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t30 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t71 tac"
+            }
+        }
+    },
+
+    /*------------------------------------mobile--------------------------*/
+
+    "custom-banner#summer-sale-00-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/Hero-Banner-Summer-Sale-Desktop.jpg",
+            "phoneBgImageUrl": "/arquivos/Hero-Banner-Summer-Sale-Mobile.jpg",
+            "headlines": [{
+                    "type": "headline",
+                    "text": "HASTA 30% OFF",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cWhite",
+                        "tablet": "banner-headline-bottom mr2 cWhite",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+
+                {
+                    "type": "copy",
+                    "text": "Además, aprovecha los descuentos",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite "
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "en Nano desde $48,990",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite "
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [{
+                    "label": "COMPRAR AHORA",
+                    "link": "/OUTLET",
+                    "sx": {
+                        "desktop": "mt2 fs80 mr1",
+                        "tablet": "mt5 fs70",
+                        "phone": "mt5 mr20 fs70"
+                    }
+                }],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t30 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t71 tac"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "custom-banner#wintersale": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-CHILE-winter.jpg",
+          "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-CHILE-winter.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "WINTER SALE",
+              "sx": {
+                "desktop": " banner-headline-bottom ml2 cWhite",
+                "tablet": "banner-headline-bottom ml2 cWhite",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "¡Disfruta de Hasta 60% en ropa de invierno!",
+              "sx": {
+                "desktop": "banner-copy ml2 cWhite",
+                "tablet": "banner-copy ml2 cWhite",
+                "phone": "banner-copy mt3 cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR AHORA",
+                "link": "/ofertas",
+                "color": "white",
+                "sx": {
+                  "desktop": "ml2 mt2",
+                  "tablet": "ml3 mt3",
+                  "phone": "ml24 mt5"
+                }
+              }
+            ]
+          },
+          "sx": {
+            "desktop": "relative t40 ",
+            "tablet": "relative t30 ",
+            "phone": "relative t67 tac "
+          }
+        }
+      }
+}

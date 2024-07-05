@@ -1,0 +1,76 @@
+{
+    "custom-banner#lostrepaired": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/assets/vtex.file-manager-graphql/images/ee97d0b2-9450-44f1-8f47-e9d2565a77d9___ef702b1985aed5507410f507f2a4c0c0.jpg",
+            "phoneBgImageUrl": "/assets/vtex.file-manager-graphql/images/1cde41d5-fe14-4418-b34f-2b8b362642a5___f69bf18151a4c8882e38b64cde1d3c0a.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "ENCUENTRA",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite mt5 mb1",
+                "tablet": "banner-headline-bottom mr2 cWhite tar  mt7",
+                "phone": "banner-headline-bottom cWhite tac"
+              }
+            },
+            {
+                "type": "headline",
+                "text": "TU LOOK ICÓNICO",
+                "sx": {
+                  "desktop": "banner-headline-bottom cWhite mb1",
+                  "tablet": "banner-headline-bottom mr2 cWhite tar",
+                  "phone": "banner-headline-bottom cWhite tac"
+                }
+              },
+            {
+              "type": "copy",
+              "text": "Una colección que rinde homenaje",
+              "sx": {
+                "desktop": "banner-copy  cWhite",
+                "tablet": "banner-copy mr2 cWhite tar",
+                "phone": "banner-copy cWhite tac"
+              }
+            },
+            {
+                "type": "copy",
+                "text": "al pasado con destellos del futuro:",
+                "sx": {
+                  "desktop": "banner-copy  cWhite",
+                  "tablet": "banner-copy mr2 cWhite tar",
+                  "phone": "banner-copy cWhite tac"
+                }
+              },
+              {
+                "type": "copy",
+                "text": "Lost & Repaired",
+                "sx": {
+                  "desktop": "banner-copy  cWhite",
+                  "tablet": "banner-copy mr2 cWhite tar",
+                  "phone": "banner-copy cWhite tac"
+                }
+              }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR AHORA",
+                  "link": "/lostrepaired",
+                "sx": {
+                    "desktop": "mt2 mr1 fs80",
+                    "tablet": "mt3 fs70",
+                    "phone": "mt5 fs70 mr15"
+                  }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t20 r5 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t60 tac"
+          }
+        }
+    }
+}

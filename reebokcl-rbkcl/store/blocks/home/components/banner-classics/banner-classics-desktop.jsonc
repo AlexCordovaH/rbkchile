@@ -1,0 +1,129 @@
+{
+  "flex-layout.col#banner-classics": {
+    "props": {
+      "blockClass": "main-desktopHome-carousel3"
+    },
+    "children": [
+      "flex-layout.row#image-desktop-classics",
+      "flex-layout.col#info-banner-classics"
+    ]
+  },
+  "flex-layout.row#image-desktop-classics": {
+    "props": {
+      "blockClass": "image-desktopHome-c3"
+    },
+    "children": ["image#banner-classics"]
+  },
+  "flex-layout.col#info-banner-classics": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["main-desktopHome-banner-classics"]
+    },
+    "children": [
+      "flex-layout.row#titulo-banner-classics",
+      "flex-layout.row#body-banner-classics",
+      "flex-layout.row#button-banner-classics-men",
+      "flex-layout.row#button-banner-classics-women"
+    ]
+  },
+  "flex-layout.row#titulo-banner-classics": {
+    "props": {
+      "blockClass": "titulo-desktopHome"
+    },
+    "children": [
+      "rich-text#titulo-banner-classics"//,
+    //   "rich-text#titulo2-banner-classics"
+    ]
+  },
+  "flex-layout.row#body-banner-classics": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#body-banner-classics"]
+  },
+
+  "flex-layout.row#body-banner-classics-mobile": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#body-banner-classics"]
+  },
+
+  "flex-layout.row#button-banner-classics-men": {
+    "props": {
+      "blockClass": ["buttons-desktopHome", "buttons-desktopHome-flex", "button-banner-classics-men"]
+    },
+    "children": ["flex-layout.col#button-classics-men"]
+  },
+
+  "flex-layout.row#button-banner-classics-women": {
+    "props": {
+      "blockClass": ["buttons-desktopHome", "buttons-desktopHome-flex", "button-banner-classics-women"]
+    },
+    "children": ["flex-layout.col#button-classics-women"]
+  },
+
+  "flex-layout.col#button-classics-men": {
+    "props": {
+      "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale", "button-classics-men"]
+    },
+    "children": ["link#button-classics-men"]
+  },
+  "link#button-classics-men": {
+    "props": {
+      "href": "/hombre/calzado/classics?order=OrderByPriceDESC",
+      "label": "Comprar Hombre",
+      "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale","button-classics"]
+    }
+  },
+  "flex-layout.col#button-classics-women": {
+    "props": {
+      "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale","button-classics-women"]
+    },
+    "children": ["link#button-classics-women"]
+  },
+  "link#button-classics-women": {
+    "props": {
+      "href": "/mujer/calzado/classics?order=OrderByPriceDESC&page=1",
+      "label": "Comprar Mujer",
+      "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale","button-classics"]
+    }
+  },
+  "rich-text#titulo-banner-classics": {
+    "props": {
+      "blockClass": ["titulo-rebook-tunes", "reebok-classics", "titulo-sale-1"],
+      "text": "## Estilos retros o modernos",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#titulo2-banner-classics": {
+    "props": {
+      "blockClass": ["titulo-rebook-tunes", "reebok-classics", "titulo-rebook-2"],
+      "text": "## Todos combinan con el icónico Vector",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#body-banner-classics": {
+    "props": {
+      "blockClass": [
+        // "body-rebook-tunes",
+        // "body-rebook-dia-del-padre",
+        // "body-rebook-sale"
+        "banner-classics","banner-50-off-UPT"
+      ],
+      "textAlignment": "RIGHT",
+      "text": "Todos combinan con el icónico Vector"
+    }
+  },
+  "image#banner-classics": {
+    "props": {
+      "alt": "Estilos retros o modernos",
+      "title": "Estilos retros o modernos",
+      "src": "/arquivos/HERO-BANNER-DESKTOP-2-classics.jpg",
+      /* "link": {
+        "url": "/ofertas"
+      }, */
+      "blockClass": ["image-carousel3", "image-main-carousel"]
+    }
+  }
+}

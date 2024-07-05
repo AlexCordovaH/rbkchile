@@ -1,0 +1,3747 @@
+/*plp-gallery*/
+:global(.reebokcl-plp-gallery-0-x-galleryItem.reebokcl-plp-gallery-0-x-galleryItem--normal.pa4) {
+    flex-basis: 25% !important;
+    max-width: 25% !important;
+}
+
+/*-----home-----*/
+:global(.vtex-slider-layout-0-x-sliderTrack--wishlist_shelf) :global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-store-components-3-x-discountInsideContainer) {
+    transform: translateY(-5px);
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) :global(.vtex-slider-layout-0-x-sliderTrack--wishlist_shelf) :global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-product-summary-2-x-price_className) {
+    transform: translateY(-5px);
+}
+
+/* :global(
+    .vtex-slider-layout-0-x-slide--desktopHome-main-carousel--firstVisible
+  ) {
+  background-color: #000;
+} */
+
+/*-------------PDP destacados--------------*/
+:global(.vtex-disclosure-layout-1-x-content--container-description-destacados-pdp--visible) {
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------new-plp----------------*/
+:global(.vtex-checkbox__box-wrapper.absolute.w1.h1.flex.o-100) {
+    border: 1px solid #000;
+}
+
+:global(.reebokcl-plp-gallery-0-x-seeMoreButton--filter-block) {
+    color: #000;
+}
+
+:global(.reebokcl-plp-gallery-0-x-filterItem--filter-block) :global(.vtex-checkbox__inner-container.h1.w1.absolute.ba.bw1.br1.b--action-primary.bg-action-primary.mr3) {
+    accent-color: #000;
+    border-color: #000;
+    background: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-summary-similar-products-variants) {
+    margin: 0;
+}
+
+:global(.reebokcl-plp-similar-products-variants-0-x-wrapper_similars) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) {
+    /* height: 3rem !important; */
+    padding: 3px 0.5rem;
+}
+
+:global(.vtex-product-summary-2-x-hoverEffect) {
+    z-index: 0;
+}
+
+:global(.vtex-product-summary-2-x-productPriceClass) {
+    position: absolute;
+    top: -1.5rem;
+    z-index: 2;
+    background: #fff;
+    padding: 0;
+    height: 23px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    padding: 0 0.3rem;
+}
+
+/*---------------*/
+
+:global(.vtex-modal-layout-0-x-triggerContainer--content-filtroCol-plp) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp.items-stretch.w-100) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1) {
+    width: 15.5% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp.items-stretch.w-100) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2) {
+    width: 160px !important;
+}
+
+:global(.vtex-rich-text-0-x-container--trigger-filtro-plp) {
+    background: #fff;
+    cursor: pointer;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--trigger-filtro-plp) {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background: #fff;
+    align-items: center;
+    color: #000;
+    margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+    display: flex;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+:global(.reebokcl-plp-gallery-0-x-loadingOverlay)
+
+/*home banner*/
+:global(.vtex-flex-layout-0-x-flexCol--buttons-desktopHome-2) {
+    gap: 0.5rem;
+}
+
+/*perfil ocultando newsletter*/
+:global(.vtex-my-account-1-x-newsletterBoxContainer) {
+    display: none;
+}
+
+:global(.vtex-login-2-x-loginOptionsContainer) {
+    display: none;
+}
+
+/*contador banner*/
+:global(.reebokcl-timer-0-x-countdown_bar--container-countdown) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+:global(.reebokcl-timer-0-x-buttonCD--container-countdown) {
+    text-decoration: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 16px 17.5px !important;
+    z-index: 9999;
+    bottom: 7%;
+    right: 2%;
+    color: #121212;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: NeuePlak-SemiBold;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    height: 49px;
+    width: 170px;
+    letter-spacing: 0.5px;
+}
+
+:global(.reebokcl-timer-0-x-buttonCD--container-countdown):hover {
+    background-color: #f0eee4;
+}
+
+:global(.reebokcl-timer-0-x-containerCTA--container-countdown) {
+    border: 2px solid #fff;
+    height: 49px !important;
+    position: relative;
+    width: 171px;
+    margin-left: 0.5rem;
+}
+
+:global(.reebokcl-timer-0-x-countdown_wrapper--container-countdown) {
+    margin-right: 4rem;
+}
+
+:global(.reebokcl-timer-0-x-infoContainer--container-countdown) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+:global(.reebokcl-timer-0-x-separator--container-countdown) {
+    display: flex;
+    align-items: center;
+    color: #121212;
+}
+
+/*--------------*/
+
+/*------banner plp------------*/
+:global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container.ph3.ph5-m.ph2-xl.mw9.center) {
+    padding: 0;
+}
+
+:global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+:global(.vtex-flex-layout-0-x-flexRow--search-title) :global(.vtex-store-components-3-x-container.ph3.ph5-m.ph2-xl.mw9) {
+    max-width: 1600px !important;
+}
+
+:global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3) :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+    padding: 0 8.5rem;
+}
+
+
+:global(.reebokcl-plp-gallery-0-x-galleryItem--normal.pa4) {
+    padding: 0px;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--pr_summary_wishlist) {
+    width: 100%;
+}
+
+:global(.reebokcl-plp-gallery-0-x-gallery) {
+    padding: 20px 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-container) {
+    max-width: 1600px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-order-y-filter-plp) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14rem;
+}
+
+:global(.reebokcl-plp-gallery-0-x-orderByButton) {
+    width: 13rem;
+    height: 2.5rem;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -1px;
+}
+
+:global(.reebokcl-plp-gallery-0-x-orderByButton) :global(.reebokcl-plp-gallery-0-x-filterPopupArrowIcon) {
+    display: none;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--trigger-filtro-plp) :global(.vtex-rich-text-0-x-paragraph)::after {
+    content: url("/arquivos/reebok-icon-filter.png");
+}
+
+:global(.vtex-rich-text-0-x-wrapper--trigger-filtro-plp) {
+    width: 10rem;
+    border: 1px solid #000;
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+}
+
+/*-------------------------*/
+:global(.vtex-flex-layout-0-x-flexRow--plp-banner-outlet) :global(.vtex-store-components-3-x-container.ph3.ph5-m.ph2-xl),
+:global(.vtex-flex-layout-0-x-flexRow--plp-banner-nanox3) :global(.vtex-store-components-3-x-container.ph3.ph5-m.ph2-xl) {
+    padding: 0;
+}
+
+/*---------------------------*/
+
+/*item menu coleccion*/
+:global(.vtex-menu-2-x-menuContainer.list.flex.pl0.mv0.flex-row) {
+    align-items: center;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--header-item-col) {
+    background-color: #e41d1b !important;
+    color: #fff !important;
+    padding: 0.5rem;
+}
+
+/*-----------banner-dia-nino------------*/
+:global(.vtex-rich-text-0-x-wrapper--titulo-promocion) {
+    color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--text-promocion) :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4--titulo-promocion) {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-banner-coleccion-dia-nino) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+    justify-content: center;
+    max-width: 50rem;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRowContent--text-promocion) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e41d1b;
+    align-items: center;
+    height: 12rem;
+  } */
+
+:global(.vtex-rich-text-0-x-paragraph--text-promocion) {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family: "NeuePlak-Bold";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #fff;
+    line-height: 28px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-banner-coleccion-dia-nino) {
+    height: 20rem;
+    background: #e41d1b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7rem;
+    margin-top: -0.5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--content-botones) {
+    justify-content: center;
+    gap: 2rem;
+}
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-prom) {
+    text-decoration: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 18px 25.5px !important;
+    top: -6px;
+    left: -4px;
+}
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-prom):hover {
+    background-color: #f0eee4;
+}
+
+:global(.vtex-store-link-0-x-label--buttons-desktopHome-prom) {
+    color: #121212;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "NeuePlak-SemiBold";
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--content-botones) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    border: 2px solid white;
+    height: 54px !important;
+    position: relative;
+    width: 200px !important;
+}
+
+/*--------------------------------------------------------------------*/
+/*-----------pdp similar color-------------*/
+:global(.vtex-flex-layout-0-x-flexColChild--similars-color-pdp) {
+    display: flex;
+    justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--similars-color-pdp) :global(.vtex-flex-layout-0-x-flexRowContent--container-pdp-simular-product-variants) {
+    justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--search-desktop) :global(.w-100.mw7.pv4.vtex-store-components-3-x-searchBarContainer) {
+    max-width: inherit;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--search-desktop) :global(.pointer.pl4.c-link.flex) {
+    padding-top: 3px !important;
+    width: 20px;
+    height: 60px;
+    background-image: url(assets/header/lupa.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--search-desktop) :global(.vtex__icon-search) {
+    display: none;
+}
+
+:global(.reebokcl-trigger-layout-0-x-layoutContainerBar--trigger-similar-colors) :global(.vtex-flex-layout-0-x-flexRow--container-pdp-simular-product-variants) {
+    background-color: transparent;
+    position: fixed;
+    bottom: 10vh;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*-----------------------------------------*/
+/*---pdp tallas--*/
+:global(.vtex-store-components-3-x-skuSelectorOptionsList) :global(.ma2) {
+    margin: 0;
+}
+
+/*---------------*/
+/*--------pdp descripcion----------*/
+:global(.reebokcl-pdp-description-and-details-0-x-descriptions) :global(.reebokcl-pdp-description-and-details-0-x-wrapper_description):nth-child(1) :global(.reebokcl-pdp-description-and-details-0-x-paragraph) {
+    font-size: 1.7rem;
+    line-height: 34px;
+    font-family: NeuePlak-WideRegular;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/*----------------------------------*/
+
+/*menu ofertas*/
+:global(.vtex-menu-2-x-submenu--submenu-sale) :global(.vtex-flex-layout-0-x-flexRow--submenu-padre-row1) {
+    background-color: red;
+    display: none;
+}
+
+/*---------------------------------------------*/
+:global(.vtex-account__page-body) a[href*="/cancel"] {
+    display: none !important;
+}
+
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/cancel"],
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/edit"],
+:global(.vtex-pageHeader__children) a[href="#/cards/new"] {
+    display: none;
+}
+
+/**-----MENU MOBILE - TXT TITLE ACCORDDION-----**/
+:global(.reebokcl-mobile-drawers-0-x-AccorddionClose)>table>tbody>tr>th>p {
+    color: #121212 !important;
+    font-family: "NeuePlak-SemiBold" !important;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--label-position-top-left-color-red) {
+    position: absolute;
+    z-index: 10;
+    top: 11%;
+    /* left: 12%; */
+    background: red;
+    width: 2.99rem !important;
+    height: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.75rem;
+    margin-left: 5px;
+}
+
+/**-----BANNER PLP OFERTAS-----**/
+/* :global(.vtex-flex-layout-0-x-flexRowContent--text-promocion) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--text-promocion) {
+    background-color: #000;
+  } */
+/* :global(.vtex-flex-layout-0-x-flexRow--banner-color-plp) {
+    background-color: #c0c0c0 !important;
+  } */
+:global(.vtex-rich-text-0-x-paragraph--text-promocion) {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+    font-family: "NeuePlak-WideRegular";
+    font-weight: 700;
+}
+
+/* :global(.vtex-rich-text-0-x-headingLevel4--subtitle-text-promocion) {
+    color: #fff;
+    margin: 0;
+  } */
+:global(.vtex-flex-layout-0-x-flexRowContent--text-promocion) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 50% !important;
+}
+
+/**-----MENU MOBILE - TXT SUBITEM ACCORDDION-----**/
+:global(.reebokcl-mobile-drawers-0-x-submenuItem)>div>a>li {
+    color: #121212 !important;
+    font-family: "NeuePlak-Regular" !important;
+}
+
+/**-----Product summary wrapper-----**/
+:global(.vtex-product-summary-2-x-container--pr_summary_wishlist) {
+    border-radius: 0 !important;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+}
+
+:global(.vtex-product-summary-2-x-container--pr_summary_wishlist):hover {
+    border: 1px solid #121212;
+}
+
+:global(.vtex-product-summary-2-x-element--pr_summary_wishlist) {
+    padding: 0 !important;
+}
+
+/**-----Product summary - wrapper image and btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_img_and_wishlist) :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+}
+
+/**-----Product summary -  wrapper image and btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) {
+    position: relative;
+}
+
+/**-----Product summary -  wrapper image-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 100% !important;
+}
+
+/**-----Product summary -  wrapper btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    position: absolute !important;
+    width: 24px !important;
+    height: 24px !important;
+    right: 18px;
+    top: 20px;
+    z-index: 1;
+}
+
+/**-----Product summary -  btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+    width: 24px !important;
+    height: 24px !important;
+    min-height: 24px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button):hover {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-wish-list-1-x-fill) {
+    background-image: url("assets/header/wishlist-hover.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label) {
+    width: 24px !important;
+    height: 24px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-summary-similar-products-variants) {
+    margin: 0;
+}
+
+:global(.reebokcl-plp-similar-products-variants-0-x-wrapper_similars) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) {
+    height: 7rem !important;
+    padding: 0 0.5rem;
+} */
+/**-----Product summary - discount-----**/
+/* :global(.vtex-flex-layout-0-x-flexRow--pr_summary_img_and_wishlist)
+    :global(.vtex-store-components-3-x-discountInsideContainer) {
+    right: initial !important;
+    top: 21.5rem;
+    left: 12px !important;
+} */
+/**-----Product summary - Wrapper info-----**/
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-flex-layout-0-x-flexCol--pr_summary_info_content) {
+    position: relative;
+    padding: 0 1px !important;
+}
+
+/**-----Product summary - Product title-----**/
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-product-summary-2-x-productNameContainer) {
+    margin: 0 !important;
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-product-summary-2-x-productNameContainer) :global(.vtex-product-summary-2-x-brandName) {
+    text-align: left;
+}
+
+/**-----Product summary - Wrapper price-----**/
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-product-summary-2-x-priceContainer) {
+    align-items: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-store-components-3-x-priceContainer) {
+    margin: 0 !important;
+}
+
+/**-----Product summary - Product discount-----**/
+:global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-store-components-3-x-listPriceValue) {
+    padding-left: 0 !important;
+}
+
+/**-----Carousel wishlist - wrapper-----**/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--wishlist_shelf) {
+    margin-top: 1.5rem;
+}
+
+/**-----Carousel wishlist - wrapper dots-----**/
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--wishlist_shelf) {
+    bottom: -24px !important;
+}
+
+/**-----Carousel wishlist - dots-----**/
+:global(.vtex-shelf-1-x-sliderContainer--wishlist_shelf) :global(.vtex-slider-0-x-dotsContainer) :global(.vtex-shelf-1-x-dot),
+:global(.vtex-slider-layout-0-x-paginationDot--wishlist_shelf) {
+    width: 18px !important;
+    height: 1px !important;
+    margin: 0 8px 0 0 !important;
+    border-radius: 6px !important;
+    transition: all 0.25s linear;
+}
+
+/**-----Carousel wishlist - dot is active-----**/
+:global(.vtex-shelf-1-x-sliderContainer--wishlist_shelf) :global(.vtex-slider-0-x-dotsContainer) :global(.vtex-shelf-1-x-dot--isActive),
+:global(.vtex-shelf-1-x-dot--isActive--wishlist_shelf),
+:global(.vtex-slider-layout-0-x-paginationDot--wishlist_shelf--isActive),
+:global(.vtex-slider-layout-0-x-paginationDot--mobileHome-main-carousel--isActive),
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    width: 16px !important;
+    height: 6px !important;
+    border-radius: 16px !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--home-mobile-destacados--isActive) {
+    width: 16px !important;
+    height: 6px !important;
+    border-radius: 16px !important;
+}
+
+/**-----Carousel wishlist - buttons arrow-----**/
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--wishlist_shelf) {
+    /*  margin: 0 !important;
+  padding: 0 !important;
+  right: 15px;
+  top: -51px;
+  background: #f7f7f7 !important;
+  width: 40px;
+  height: 40px;
+  content: none !important;
+  border-radius: 100%;*/
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 25px;
+    top: 124px;
+    background: #f7f7f7 !important;
+    width: 40px;
+    height: 40px;
+    content: none !important;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow--wishlist_shelf) {
+    margin: 0 !important;
+    padding: 0 !important;
+    right: 25px;
+    top: 124px;
+    background: #f7f7f7 !important;
+    width: 40px;
+    height: 40px;
+    content: none !important;
+}
+
+/* :global(.vtex-slider-layout-0-x-sliderLeftArrow--wishlist_shelf) {
+    left: inherit !important;
+  right: 63px;
+}*/
+/**-----Carousel wishlist - buttons arrow hover effect-----**/
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--wishlist_shelf):hover,
+:global(.vtex-slider-layout-0-x-sliderRightArrow--wishlist_shelf):hover {
+    content: none !important;
+    color: #fff !important;
+}
+
+/**-----PDP - txt size finder-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)>div>p a,
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)>div>p {
+    color: #121212;
+    font-size: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)>div>p a,
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)>div>p {
+    color: #121212;
+    font-size: 14px;
+}
+
+/**-----PDP - size finder txt size guide-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)>div>p {
+    font-family: "NeuePlak-Regular";
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)>div>p {
+    font-family: "NeuePlak-Regular";
+    margin: 16px 16px 0;
+}
+
+/**-----PDP - size finder txt size guide-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)>div>p a {
+    font-family: "NeuePlak-SemiBold";
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)>div>p a {
+    font-family: "NeuePlak-SemiBold";
+}
+
+/**-----PDP - size finder btn size guide-----**/
+:global(.reebokcl-size-finder-0-x-triggerContainer)>p {
+    font-family: "NeuePlak-SemiBold";
+}
+
+/**-----Carousel wishlist - buttons arrow icon-----**/
+:global(.vtex-slider-layout-0-x-caretIcon--wishlist_shelf) {
+    width: 16px !important;
+    height: 16px !important;
+    transform: translateX(4px);
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-header-row1):global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(5) {
+    width: 30% !important;
+}
+
+:global(.reebokcl-mobile-drawers-0-x-submenuItem):global(.mb5) {
+    color: #121212 !important;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--header-icon-login):global(.vtex-button):global(.login-label) svg {
+    display: none;
+}
+
+p:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf-products):global(.vtex-product-summary-2-x-containerNormal):global(.vtex-flex-layout-0-x-flexColChild--product-summary-first):nth-child(2) {
+    height: 10% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-summary-first):nth-child(2) {
+    height: 0% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-summary-first):nth-child(4) {
+    height: auto !important;
+    margin-bottom: 0.625rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--component-shelf-productos-destacados):global(.vtex-flex-layout-0-x-flexColChild--product-summary-first):nth-child(5) {
+    height: 200px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--component-shelf-productos-destacados) :global(.vtex-flex-layout-0-x-flexColChild--product-summary-first):nth-child(5) {
+    height: 200px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-desktop):global(.vtex-flex-layout-0-x-flexColChild--header-icon-login):global(.vtex-button__label) svg {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--skuselector-button):global(.vtex-button__label):global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+    font-family: "NeuePlak-Regular" !important;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer):global(.vtex-button) svg {
+    display: none;
+}
+
+/**-----Comment-----**/
+:global(.vtex-login-2-x-buttonLink) :global(.vtex-button__label) div {
+    margin: 0;
+    padding: 0;
+}
+
+:global(.vtex-breadcrumb-1-x-homeLink) svg {
+    display: none !important;
+}
+
+:global(.vtex-breadcrumb-1-x-arrow) svg {
+    display: none !important;
+}
+
+/* :global(.reebokcl-plp-gallery-0-x-filtersWrapper--filter-block):global(
+        .reebokcl-plp-gallery-0-x-filter__container--category-2
+    ):global(.vtex-checkbox__container) {
+    display: none;
+} */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--filter-content) :global(.pagination) {
+    position: relative;
+}
+
+:global(.pagination__link--previous) {
+    display: flex !important;
+    position: absolute !important;
+    left: 7% !important;
+}
+
+:global(.pagination__link--previous)::before {
+    content: url("/arquivos/ChevronLeft.png");
+}
+
+:global(.pagination__link--previous)::after {
+    content: "\00a0 Anterior";
+    color: #121212;
+    font-family: "NeuePlak-Regular";
+    font-weight: 400;
+}
+
+:global(.pagination__link--disabled):global(.pagination__link--previous)::before {
+    content: url("/arquivos/ChevronDisableLeft.png") !important;
+}
+
+:global(.pagination__link--disabled):global(.pagination__link--previous)::after {
+    color: #d1d1d1 !important;
+}
+
+:global(.pagination__link--next) {
+    display: flex !important;
+    position: absolute !important;
+    right: 7% !important;
+}
+
+:global(.pagination__link--next)::after {
+    content: url("/arquivos/ChevronRight.png");
+}
+
+:global(.pagination__link--next)::before {
+    content: "\00a0 Siguiente";
+    color: #121212;
+    font-family: "NeuePlak-SemiBold";
+    font-weight: 400;
+}
+
+:global(.pagination) a {
+    font-family: "NeuePlak-Regular" !important;
+}
+
+:global(.pagination__link--active) a {
+    font-family: "NeuePlak-SemiBold" !important;
+}
+
+:global(.pagination__link--disabled):global(.pagination__link--next)::after {
+    content: url("/arquivos/ChevronDisableRight.png");
+}
+
+:global(.pagination__link--disabled):global(.pagination__link--next)::before {
+    color: #d1d1d1 !important;
+}
+
+:global(.vtex-breadcrumb-1-x-arrow) svg {
+    display: none !important;
+}
+
+:global(.vtex-order-placed-2-x-confirmationTitle),
+:global(.vtex-order-placed-2-x-confirmationMessage),
+:global(.vtex-order-placed-2-x-noticeListItem) {
+    font-family: "NeuePlak-Regular" !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button):hover,
+:global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button) :global(.vtex-button__label):hover {
+    background-color: #244486 !important;
+    border-radius: 25px;
+}
+
+:global(.vtex-login-2-x-backButton) :global(.vtex-button):hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+:global(.vtex-login-2-x-backButton) :global(.vtex-button__label) {
+    font-family: "NeuePlak-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #121212;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button):hover,
+:global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button):hover {
+    background-color: #244486 !important;
+}
+
+:global(.vtex-rich-text-0-x-link--action-button-newsletter-footer):hover {
+    background: #244486 !important;
+    color: #ffffff !important;
+}
+
+:global(.vtex-account__page) :global(.vtex-pageHeader__container) {
+    padding-left: 0.8rem;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer),
+:global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    border: 1px solid #121212;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody),
+:global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    padding: 24px;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-nameContainer) :global(.vtex-my-account-1-x-firstNameSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-nameContainer) :global(.vtex-my-account-1-x-lastNameSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-emailContainer) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-genderContainer) :global(.vtex-my-account-1-x-documentsSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-genderContainer) :global(.vtex-my-account-1-x-genderSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-phoneNumberContainer) :global(.vtex-my-account-1-x-dateOfBirthSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-phoneNumberContainer) :global(.vtex-my-account-1-x-phoneNumberSubContainer) :global(.vtex-my-account-1-x-dataEntryLabel) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-bottom: 4px;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-nameContainer) :global(.vtex-my-account-1-x-firstNameSubContainer) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-nameContainer) :global(.vtex-my-account-1-x-lastNameSubContainer) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-emailContainer) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-genderContainer) :global(.vtex-my-account-1-x-documentsSubContainer) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-genderContainer) :global(.vtex-my-account-1-x-genderSubContainer) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-phoneNumberContainer) :global(.vtex-my-account-1-x-dateOfBirthSubContainer) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-phoneNumberContainer) :global(.vtex-my-account-1-x-phoneNumberSubContainer) :global(.vtex-my-account-1-x-dataEntryChildren) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-nameContainer) :global(.vtex-my-account-1-x-firstNameSubContainer),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-nameContainer) :global(.vtex-my-account-1-x-lastNameSubContainer),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-emailContainer),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-genderContainer) :global(.vtex-my-account-1-x-documentsSubContainer),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-genderContainer) :global(.vtex-my-account-1-x-genderSubContainer) {
+    margin-bottom: 24px;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-phoneNumberContainer) :global(.vtex-my-account-1-x-dateOfBirthSubContainer),
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-phoneNumberContainer) :global(.vtex-my-account-1-x-phoneNumberSubContainer) {
+    margin-bottom: 0;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) {
+    padding: 0 24px 24px;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button):hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) {
+    text-transform: capitalize;
+    color: #121212;
+    height: fit-content;
+    text-decoration: underline;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: fit-content;
+}
+
+:global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title) {
+    font-family: "NeuePlak-Bold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #121212;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-newsletterContainerTitle) {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-newsletterContainerMessage) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #5e5e5e;
+    max-width: 324px;
+    padding: 8px 0px 28px;
+}
+
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-passwordBox) :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    max-width: 324px;
+}
+
+:global(.vtex-my-account-1-x-passwordBox):global(.vtex-checkbox__line-container):global(.vtex-checkbox__container) {
+    margin-top: 0.2rem;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-userInfo) :global(.vtex-my-account-1-x-userGreeting) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: transparent;
+    position: relative;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-userInfo) :global(.vtex-my-account-1-x-userGreeting)::before {
+    content: "¡Hola!";
+    position: absolute;
+    display: block;
+    color: #121212;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-userInfo) :global(.vtex-my-account-1-x-userName) {
+    font-family: "NeuePlak-Bold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #121212;
+    position: relative;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-userInfo) :global(.vtex-my-account-1-x-userName)::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 19px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ffffff;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-menuLinks) :global(.vtex-account_menu-link),
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-menuLinks) :global(.vtex-my-account-1-x-menuLink) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+    margin: 8px 0;
+    padding: 9px 0px 9px 28px;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menu) :global(.vtex-my-account-1-x-userInfo) {
+    flex-wrap: nowrap;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.vtex-button) {
+    position: relative;
+    color: transparent;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.vtex-button):hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.vtex-button)::before {
+    content: url(/arquivos/arrow_down.png);
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transform: rotate(90deg);
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.vtex-button)::after {
+    content: "Volver";
+    display: block;
+    position: absolute;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    top: 0;
+    left: 32px;
+}
+
+:global(.vtex-my-account-1-x-profileEdit) :global(.vtex-my-account-1-x-profileFormBoxContainer) :global(.vtex-my-account-1-x-boxContainer) {
+    border: 1px solid #121212;
+}
+
+:global(.vtex-my-account-1-x-profileEdit) :global(.vtex-my-account-1-x-profileFormBoxContainer) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    padding: 24px;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input__label) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+    margin-bottom: 4px;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input):global(.vtex-input-prefix__group) :global(.border-box) {
+    height: 48px;
+    padding: 10px 16px;
+    border: 1px solid #5e5e5e;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) {
+    padding-bottom: 16px;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+    margin-bottom: 24px;
+}
+
+:global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button):last-child {
+    height: 48px;
+    width: 60.4%;
+    color: #ffffff;
+    background: #121212;
+    border-radius: 25px;
+    border: none;
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: initial;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+    background-color: transparent;
+    border: none;
+    text-transform: initial;
+    width: fit-content !important;
+    height: fit-content !important;
+    padding: 0;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #121212 !important;
+    background-color: transparent !important;
+}
+
+:global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button):hover {
+    background-color: #244486;
+}
+
+:global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button) {
+    background-color: #121212;
+    border: none;
+    border-radius: 25px;
+    height: 48px;
+    padding: 0 20px;
+}
+
+:global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: initial;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    padding: 24px;
+    position: relative;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody)::before {
+    content: "Dirección";
+    display: block;
+    font-family: "NeuePlak-Bold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #121212;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.lighter) {
+    padding-top: 28px;
+    padding-bottom: 0;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.lighter) :global(.address-summary) span {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-account-1-x-addressList) div:global(.flex-none) {
+    width: 50%;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) {
+    padding: 0 24px 24px 24px;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button):hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #121212;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    padding: 24px;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--xlarge),
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--large),
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--mini) {
+    padding-bottom: 16px;
+}
+
+:global(.vtex-address-form__container) {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+:global(.vtex-address-form__container) :global(.vtex-address-form__number),
+:global(.vtex-address-form__container) :global(.vtex-address-form__complement) {
+    width: calc(50% - 8px);
+}
+
+:global(.vtex-address-form__container) :global(.vtex-address-form__complement) {
+    float: right;
+    margin-left: 16px;
+}
+
+:global(.vtex-address-form__container) :global(.vtex-address-form__street),
+:global(.vtex-address-form__container) :global(.vtex-address-form__receiverName) {
+    width: 100%;
+    display: block;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button) {
+    height: 48px;
+    background-color: #121212;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button):hover {
+    background-color: #244486;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: "NeuePlak-Regular";
+    text-transform: initial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    padding: 24px;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--xlarge) :global(.vtex-input__label),
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--xlarge) :global(.vtex-dropdown__label),
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--large) :global(.vtex-input__label) {
+    margin-bottom: 4px;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-dropdown__container),
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-input-prefix__group) {
+    border: 1px solid #121212;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--xlarge) :global(.vtex-input__label),
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__field--xlarge) :global(.vtex-dropdown__label) {
+    margin-bottom: 4px;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-address-form__complement) {
+    margin-left: 0;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-dropdown__container),
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-input-prefix__group) {
+    border: 1px solid #121212;
+}
+
+:global(.vtex-my-account-1-x-addressCreate) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-dropdown__container) select option {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) div:nth-child(3) {
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.address-summary-PER)::before {
+    content: url(/arquivos/address.png);
+    display: block;
+    position: absolute;
+    left: 19px;
+    top: calc(50% - 25px / 2);
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.address-summary-PER) {
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 16px 16px 16px 60px;
+    position: relative;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button) :global(.vtex-button__label)::before {
+    content: "Guardar cambios";
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    font-family: "NeuePlak-Regular";
+    text-transform: initial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button):hover {
+    background-color: #244486;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button) {
+    width: 60%;
+    border: none;
+    background-color: #121212;
+    height: 48px;
+    border-radius: 25px;
+    position: relative;
+    color: transparent;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) {
+    position: relative;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.mt5) {
+    margin: 0;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.mt5) :global(.vtex-button) {
+    background-color: transparent;
+    border: 1px solid #121212;
+    color: #121212;
+    text-transform: initial;
+    width: 30%;
+    display: block;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) {
+    border: 1px solid #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) {
+    background-color: transparent;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+    text-transform: initial;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) :global(.vtex-my-orders-app-3-x-orderId) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) {
+    padding: 24px 24px 20px;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) :global(.bg-warning) {
+    background-color: transparent;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+:global(.vtex-my-orders-app-3-x-ordersList):global(.vtex-account__orders-list) :global(.vtex-my-orders-app-3-x-orderCard) :global(.vtex-my-orders-app-3-x-orderHeader) :global(.bg-warning) span {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #5e5e5e;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-orderProduct) img {
+    width: 96px;
+    height: 96px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-orderProduct) :global(.vtex-my-orders-app-3-x-orderProductName) {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-orderProduct) :global(.vtex-my-orders-app-3-x-orderProductShipping) {
+    margin: 8px 0;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-orderProduct) :global(.vtex-my-orders-app-3-x-orderProductQuantityValue) span {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) {
+    position: relative;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-detailsBtn):hover {
+    background-color: #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-detailsBtn) {
+    background: #fff;
+    border: 1px solid #121212;
+    height: 48px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-detailsBtn):hover span {
+    color: #fff;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-detailsBtn) span {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-reorderBtn) {
+    position: relative;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-reorderBtn)::before {
+    content: url(/arquivos/Return.png);
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    background: #fff;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-reorderBtn)::after {
+    content: "Pedir de nuevo";
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 24px;
+    padding-left: 5px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.cf):global(.fr):global(.db):global(.w-100):global(.w-30-ns):global(.pt0-xl):global(.pt5) {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.mt5) :global(.vtex-button):hover {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.mt5) :global(.vtex-button) :global(.vtex-button__label)::before {
+    content: "";
+}
+
+:global(.vtex-my-account-1-x-addressList):global(.vtex-store-components-3-x-searchBarIcon) svg {
+    display: none;
+}
+
+:global(.vtex-product-list-0-x-removeButtonContainer):global(.vtex-product-list-0-x-removeButton) svg {
+    display: none !important;
+}
+
+:global(.reebokcl-show-add-to-cart-button-0-x-ShowKitLink) {
+    opacity: 0;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-store-components-3-x-skuSelectorOptionsList),
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.reebokcl-show-add-to-cart-button-0-x-ShowKitLink),
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-flex-layout-0-x-flexCol--skuselector-button) {
+    background: #fff;
+    opacity: 1;
+    z-index: 3;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonContainer) :global(.vtex-product-summary-2-x-buyButton) :global(.vtex-product-summary-2-x-buyButtonText) {
+    opacity: 0;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-store-components-3-x-skuSelectorOptionsList),
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-product-summary-2-x-buyButtonText) {
+    background: #fff;
+    opacity: 1;
+    z-index: 3;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--home-desktop-classics) :global(.vtex-flex-layout-0-x-flexColChild--home-desktop-classics) {
+    height: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--home-desktop-performance) :global(.vtex-flex-layout-0-x-flexColChild--home-desktop-performance) {
+    height: auto !important;
+}
+
+:global(.accordionFilterItemTag) {
+    background-color: red !important;
+}
+
+:global(.reebokcl-plp-gallery-0-x-sidebar) :global(.ReactCollapse--content) :global(.pl8) {
+    padding: 0px !important;
+}
+
+:global(.vtex-login-2-x-content) :global(.vtex-login-2-x-options) :global(.vtex-login-2-x-formTitle) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+}
+
+:global(.vtex-login-2-x-content) :global(.vtex-login-2-x-options) :global(.vtex-login-2-x-formTitle)::before {
+    content: "Escoge una opción para entrar";
+    color: #121212;
+    display: block;
+    position: absolute;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+:global(.vtex-login-2-x-contentForm) :global(.vtex-login-2-x-emailVerification) :global(.vtex-login-2-x-formTitle) {
+    color: #121212;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+:global(.vtex-login-2-x-content--emailAndPassword) :global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button),
+:global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button),
+:global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) {
+    background: transparent !important;
+    height: 48px !important;
+    border-radius: 25px !important;
+    border: 1px solid #121212 !important;
+}
+
+:global(.vtex-login-2-x-content--emailAndPassword) :global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button):hover {
+    background-color: #121212 !important;
+}
+
+:global(.vtex-login-2-x-content--emailAndPassword) :global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button) :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label):hover {
+    color: #ffffff;
+}
+
+:global(.vtex-login-2-x-content--emailAndPassword) :global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-login-2-x-optionsListItem) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label) {
+    text-transform: none;
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+:global(.vtex-login-2-x-emailAndPasswordForm) :global(.vtex-login-2-x-inputContainerEmail) :global(.vtex-input-prefix__group),
+:global(.vtex-login-2-x-emailAndPasswordForm) :global(.vtex-login-2-x-inputContainerPassword) :global(.vtex-input-prefix__group),
+:global(.vtex-login-2-x-inputContainerAccessCode) :global(.vtex-input-prefix__group) {
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
+    position: relative;
+}
+
+:global(.vtex-login-2-x-inputContainer) :global(.vtex-input-prefix__group) {
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
+    position: relative;
+}
+
+:global(.vtex-login-2-x-inputContainer) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-row-product-pdp) :global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.swiper-container) {
+    height: 200px !important;
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0 20px;
+}
+
+:global(.vtex-login-2-x-emailAndPasswordForm) :global(.vtex-login-2-x-inputContainerEmail)::before {
+    content: "E-mail";
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-bottom: 4px;
+}
+
+:global(.vtex-login-2-x-emailAndPasswordForm) :global(.vtex-login-2-x-inputContainerPassword) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
+    position: relative;
+}
+
+:global(.vtex-login-2-x-emailAndPasswordForm) :global(.vtex-login-2-x-inputContainerPassword)::before {
+    content: "Contraseña";
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+:global(.vtex-login-2-x-inputContainerPassword) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-login-2-x-eyeIcon--invisible)::before,
+:global(.vtex-login-2-x-inputContainerPassword) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-login-2-x-eyeIcon--visible)::before {
+    content: url("/arquivos/Eye.png");
+    position: absolute;
+    background: #ffffff;
+}
+
+:global(.vtex-login-2-x-inputContainerPassword) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-login-2-x-eyeIcon--visible)::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    position: absolute;
+    top: 20px;
+    right: 7px;
+    background: #121212;
+    transform: rotateZ(45deg);
+}
+
+:global(.vtex-login-2-x-emailAndPasswordForm) :global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink) {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #121212;
+}
+
+:global(.vtex-login-2-x-formFooter) {
+    border: none;
+}
+
+:global(.vtex-login-2-x-formFooter) :global(.vtex-login-2-x-sendButton) :global(.vtex-button) {
+    background-color: #121212;
+    border: none;
+    height: 48px;
+    border-radius: 25px;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-dontHaveAccount) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+    position: relative;
+}
+
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-dontHaveAccount)::after {
+    content: "Regístrate";
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+    text-decoration: underline;
+    position: absolute;
+    display: block;
+    right: 0;
+    padding: 0 2px;
+    background-color: #ffffff;
+}
+
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button) {
+    border: 1px solid #121212;
+    border-radius: 25px;
+    height: 48px;
+}
+
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button):hover {
+    background-color: #121212;
+}
+
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button) :global(.vtex-button__label) svg {
+    display: none;
+}
+
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button):hover :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel) {
+    color: #fff;
+}
+
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel) {
+    color: #121212;
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #121212;
+    text-transform: initial;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.review__rating--average) {
+    font-family: "NeuePlak-Regular";
+    font-size: 1rem;
+    color: #121212;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.review__comment--user) {
+    font-family: "NeuePlak-Regular";
+    font-size: 1rem;
+    color: #121212;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-reviewCommentsContainer) :global(.t-body) {
+    font-family: "NeuePlak-Regular";
+    font-size: 1rem;
+    color: #121212;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-writeReviewContainer) :global(.c-action-primary) {
+    font-family: "NeuePlak-Regular";
+    color: #121212 !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-reviewCommentsContainer) :global(.review__comment) {
+    border-bottom: 0px;
+}
+
+/* :global(.reebokcl-plp-gallery-0-x-filter__container--filter-block):nth-child(3)
+    :global(.vtex-checkbox__container) {
+    display: none !important;
+} */
+:global(.reebokcl-plp-gallery-0-x-filter__container--filter-block):nth-child(3) :global(.reebokcl-plp-gallery-0-x-filterAvailable) {
+    display: block;
+}
+
+:global(.reebokcol-plp-gallery-0-x-accordionFilter) {
+    background-color: #ffff;
+}
+
+:global(.reebokcol-plp-gallery-0-x-accordionFilter) :global(.reebokcol-plp-gallery-0-x-accordionFilterOpen) {
+    margin-top: -20px !important;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) div:global(.flex-grow-1) div:nth-child(4) {
+    display: none;
+}
+
+:global(.vtex_my-authentication_box_container) {
+    border: 1px solid #121212;
+}
+
+:global(.vtex_my-authentication_authenticationScreen_container) {
+    width: 54.43%;
+}
+
+:global(.vtex_my-authentication_box_container) :global(.vtex_my-authentication_maskedPassword_title),
+:global(.vtex_my-authentication_box_container) :global(.vtex_my-authentication_loginSessionsBox_title) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+}
+
+:global(.vtex_my-authentication_box_container) :global(.vtex_my-authentication_maskedPassword_content),
+:global(.vtex_my-authentication_box_container) :global(.vtex_my-authentication_loginSessionsBox_content) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #5e5e5e;
+}
+
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button) :global(.vtex-button__label) {
+    color: #121212;
+    text-transform: initial;
+    text-decoration: underline;
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button):hover {
+    background-color: #fff;
+}
+
+:global(.vtex-my-authentication-1-x-createPassword_text) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex-my-authentication-1-x-createPassword_text) :global(.c-muted-1) {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+:global(.vtex_my-authentication_codeInput_container) {
+    padding: 0;
+}
+
+:global(.vtex_my-authentication_codeInput_container) :global(.vtex-input__label),
+:global(.vtex_my-authentication_newPassInput_container) :global(.vtex-input__label) {
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #5e5e5e;
+}
+
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button__label) {
+    color: #121212;
+    text-decoration: underline;
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: initial;
+}
+
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button):hover {
+    background-color: #fff;
+}
+
+:global(.vtex_my-authentication_codeInput_container) :global(.vtex-input-prefix__group),
+:global(.vtex_my-authentication_newPassInput_container) :global(.vtex-input-prefix__group) {
+    height: 3rem;
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
+}
+
+:global(.vtex_my-authentication_newPassInput_container) :global(.vtex-input__suffix) {
+    position: relative;
+}
+
+:global(.vtex_my-authentication_newPassInput_container) :global(.vtex-input__suffix)::after {
+    content: url(/arquivos/Eye.png);
+    position: absolute;
+    background: #ffffff;
+}
+
+:global(.vtex_my-authentication_savePassButton_container) :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+:global(.vtex_my-authentication_savePassButton_container) :global(.vtex-button) {
+    padding: 0.87rem 1.25rem;
+    background-color: #a5a5a5;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+:global(.vtex_my-authentication_savePassButton_container) :global(.vtex-button):hover {
+    background-color: #244486;
+}
+
+:global(.vtex-login-2-x-box) :global(.vtex-login-2-x-contentContainer) :global(.vtex-login-2-x-content--accountOptions) {
+    border-radius: 4px;
+}
+
+:global(.vtex-login-2-x-box) :global(.vtex-login-2-x-contentContainer) :global(.vtex-login-2-x-content--accountOptions) :global(.vtex-login-2-x-contentForm) div :global(.vtex-login-2-x-button) span:global(.t-action--small),
+:global(.vtex-login-2-x-box) :global(.vtex-login-2-x-contentContainer) :global(.vtex-login-2-x-content--accountOptions) :global(.vtex-login-2-x-contentForm) div :global(.vtex-button) :global(.vtex-button__label) span:global(.t-action--small) {
+    color: #5e5e5e;
+    text-transform: capitalize !important;
+    font-family: "NeuePlak-Regular";
+}
+
+:global(.vtex-login-2-x-box) :global(.vtex-login-2-x-contentContainer) :global(.vtex-login-2-x-content--accountOptions) :global(.vtex-login-2-x-contentForm) div :global(.vtex-login-2-x-button):hover span:global(.t-action--small),
+:global(.vtex-login-2-x-box) :global(.vtex-login-2-x-contentContainer) :global(.vtex-login-2-x-content--accountOptions) :global(.vtex-login-2-x-contentForm) div :global(.vtex-button):hover :global(.vtex-button__label) span:global(.t-action--small) {
+    font-family: "NeuePlak-SemiBold";
+    color: #121212;
+    background-color: #fff;
+}
+
+:global(.vtex-login-2-x-box) :global(.vtex-login-2-x-contentContainer) :global(.vtex-login-2-x-content--accountOptions) :global(.vtex-login-2-x-contentForm) div :global(.vtex-button):hover {
+    background-color: #fff;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) {
+    overflow: hidden;
+    padding: 0px;
+    width: 35.83%;
+    height: 23.45%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-modal__close-icon) {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    padding: 1.26rem;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) div:nth-child(1) {
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) span:global(.t-heading-5):global(.pa6) {
+    font-family: "NeuePlak-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0;
+    margin-left: 3rem;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 2.5rem;
+    padding: 0;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: "NeuePlak-Regular";
+    text-transform: initial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) :global(.vtex-button) {
+    height: 3rem;
+    width: 41.86%;
+    padding: 0 1.25rem;
+    background-color: #121212;
+    border-radius: 1.563rem;
+    color: #fff;
+    border: none;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) :global(.vtex-button):hover {
+    background-color: #244486;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) span:global(.mr4) {
+    width: 36.43%;
+    margin: 0;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) span:global(.mr4) :global(.vtex-button) {
+    color: #121212;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    padding: 0 1.25rem;
+    border: 1px solid #121212;
+    border-radius: 1.563rem;
+}
+
+:global(.styles_overlay__CLSq-):global(.styles_overlayCenter__YHoO7):global(.vtex-modal__overlay) :global(.styles_modal__gNwvD):global(.vtex-modal__modal):global(.vtex-styleguide-9-x-mh100) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-modal__confirmation) span:global(.mr4) :global(.vtex-button):hover {
+    background-color: #121212;
+    color: #fff;
+}
+
+
+
+:global(.vtex-login-2-x-box) {
+    right: -34px !important;
+}
+
+
+
+:global(.reebokcl-mobile-drawers-0-x-itemContainer):nth-child(7) :global(.reebokcl-mobile-drawers-0-x-textTitle)::after {
+    display: none;
+    content: "\00a0"url("assets/fuego-sale.svg");
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-desktop) :global(.vtex-input__suffix) :global(.mh2) {
+    display: none;
+}
+
+@media (min-width: 90em) {
+    :global(.vtex-store-components-3-x-searchBarIcon) svg {
+        display: none;
+    }
+}
+
+@media (max-width: 64em) {
+
+    :global(.vtex-rich-text-0-x-headingLevel4--footer-newsletter-title-modal) br,
+    :global(.vtex-rich-text-0-x-paragraph--footer-newsletter-paragraph-modal) br {
+        display: none;
+    }
+
+    :global(.vtex-menu-2-x-menuItem--title-menu-footer--isOpen) :global(.overflow-hidden) {
+        height: fit-content;
+    }
+
+    :global(.vtex-menu-2-x-menuItem--isClosed) :global(.overflow-hidden) {
+        height: 0 !important;
+    }
+
+    :global(.vtex-menu-2-x-menuItem--title-menu-footer--isOpen) :global(.overflow-hidden) :global(.vtex-menu-2-x-submenuAccordion),
+    :global(.vtex-menu-2-x-menuItem--title-menu-footer--isClosed) :global(.overflow-hidden) :global(.vtex-menu-2-x-submenuAccordion) {
+        padding: 0 !important;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarIcon) svg {
+        display: block;
+    }
+
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-mobile) :global(.vtex-input__suffix) {
+        background-color: #f7f7f7 !important;
+    }
+
+    /*   :global(.vtex-store-drawer-0-x-childrenContainer--container-drawer-search)
+        :global(.vtex-store-components-3-x-searchBarIcon) {
+        background-color: #f7f7f7 !important;
+    }*/
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col) :global(.mb5) {
+        color: #121212 !important;
+    }
+
+    :global(.vtex-account) :global(.vtex-my-account-1-x-userGreeting) {
+        font-family: "NeuePlak-SemiBold" !important;
+        font-size: 1px !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--text-promocion) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-mobile) :global(.vtex-input-prefix__group) {
+        padding: 0 1.5rem;
+    }
+
+    :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-store-components-3-x-skuSelectorOptionsList),
+    :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-buyButtonText) {
+        opacity: 1;
+    }
+
+    :global(.pagination__link--next) {
+        content: "";
+        font-size: 0px !important;
+    }
+
+    :global(.pagination__link--next)::before {
+        content: "Siguiente" !important;
+        font-size: 0.875rem !important;
+    }
+
+    :global(.pagination__link--next) {
+        position: absolute;
+        right: 0% !important;
+        padding-right: 5rem !important;
+    }
+
+    :global(.pagination__link--previous) {
+        left: 0% !important;
+        padding-left: 1rem !important;
+    }
+
+    :global(.pagination__link--previous) {
+        content: "" !important;
+        font-size: 0px !important;
+    }
+
+    :global(.pagination__link--previous)::after {
+        content: "Anterior" !important;
+        font-size: 0.875rem !important;
+    }
+}
+
+@media (max-width: 40rem) {
+
+    /*-----plp-----*/
+
+    :global(.reebokcl-plp-gallery-0-x-gallery) {
+        padding: 0px !important;
+    }
+    :global(.reebokcl-plp-gallery-0-x-galleryItem--small.pa4) {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-orderByOptionsContainer.z-3.absolute.bg-base.shadow-5.w-100.f5.b--muted-4.br2.ba.bw1.br--bottom.top-0.right-0-ns.db) {
+        left: -6rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--search-title),
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3) {
+        padding: 0 0.5rem !important;
+    }
+
+    /*----------*/
+
+    :global(.vtex-product-summary-2-x-containerNormal--pr_summary_wishlist) {
+        max-height: 17rem;
+    }
+
+    /* :global(.reebokcl-plp-gallery-0-x-filterPopupButton)
+    :global(.reebokcl-plp-gallery-0-x-filterPopupTitle) {
+    display: none !important;
+  } */
+    :global(.vtex-flex-layout-0-x-flexRowContent--searchinfomobile-mobile.items-stretch.w-100) {
+        justify-content: flex-end;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-galleryTitle--layout) {
+        font-size: 1.5rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-title-and-filter) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reebokcl-plp-gallery-0-x-orderByOptionsContainer {
+        left: -6rem !important;
+        top: 0rem;
+        width: 2rem;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-orderByButton) {
+        width: auto;
+        border: 1px solid #000;
+        height: 30px;
+        padding: 0.5rem 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 0;
+    }
+
+    :global(.reebokcol-plp-gallery-0-x-gallery) {
+        padding: 0px 0px;
+    }
+
+    :global(.reebokcol-plp-gallery-0-x-filterIcon--filter-block) {
+        visibility: hidden;
+    }
+
+    :global(.reebokcol-plp-gallery-0-x-sidebar) {
+        width: 100%;
+    }
+
+    :global(.reebokcol-plp-gallery-0-x-accordionFilterContainer--filter-block--gama-de-precios) {
+        display: none;
+    }
+
+    :global(.reebokcol-plp-gallery-0-x-filterAccordionBreadcrumbs.pointer.flex.flex-row.items-center.pa5.bg-base.w-100.z-max.bb.b--muted-4) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-store-components-3-x-skuSelectorOptionsList),
+    :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-buyButtonText) {
+        opacity: 1;
+    }
+
+    :global(.pagination) li {
+        width: 5% !important;
+    }
+
+    :global(.pagination__link--next) {
+        content: "";
+        font-size: 0px !important;
+        padding-right: 1rem !important;
+    }
+
+    :global(.pagination__link--next)::before {
+        content: "Siguiente" !important;
+        font-size: 0.875rem !important;
+    }
+
+    :global(.pagination__link--next) {
+        position: absolute;
+        right: 0% !important;
+        padding-right: 5rem !important;
+    }
+
+    :global(.pagination__link--previous) {
+        left: 0% !important;
+        padding-left: 1rem !important;
+    }
+
+    :global(.pagination__link--previous) {
+        content: "" !important;
+        font-size: 0px !important;
+    }
+
+    :global(.pagination__link--previous)::after {
+        content: "Anterior" !important;
+        font-size: 0.875rem !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--product-summary-first):nth-child(3) {
+        max-height: 40px !important;
+        min-height: 40px !important;
+    }
+
+    /* Pendiente de eliminar */
+
+    :global(.vtex-flex-layout-0-x-flexCol--skuselector-button) :global(.vtex-button__label) {
+        padding: 0px;
+    }
+
+    /**-----Product summary -  wrapper btn wishlist-----**/
+    :global(.vtex-flex-layout-0-x-flexRowContent--pr_summary_img_and_wishlist) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+        top: 6px;
+        right: 10px;
+    }
+
+    /**-----Product summary - discount-----**/
+    /* :global(.vtex-flex-layout-0-x-flexRow--pr_summary_img_and_wishlist)
+        :global(.vtex-store-components-3-x-discountInsideContainer) {
+        right: initial !important;
+        top: 8px;
+        /* left: 8px !important; */
+}
+
+/**-----Carousel wishlist - wrapper-----**/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--wishlist_shelf) {
+    margin-top: 3.5rem;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--label-position-top-left-color-red) {
+    top: 12% !important;
+    /* left: 4% !important; */
+}
+
+/* :global(.reebokcl-plp-gallery-0-x-filterIcon--filter-block) {
+        visibility: hidden;
+      }
+    
+      :global(.reebokcl-plp-gallery-0-x-sidebar) {
+        width: 100%;
+      }
+      :global(
+          .reebokcl-plp-gallery-0-x-accordionFilterContainer--filter-block--gama-de-precios
+        ) {
+        display: none;
+      }
+      :global(
+          .reebokcl-plp-gallery-0-x-filterAccordionBreadcrumbs.pointer.flex.flex-row.items-center.pa5.bg-base.w-100.z-max.bb.b--muted-4
+        ) {
+        display: flex;
+        justify-content: space-between;
+      } */
+:global(.vtex-checkbox__label.w-100.c-on-base.pointer) {
+    padding-left: 0.3rem;
+}
+
+:global(.reebokcl-timer-0-x-container_message_and_date--container-countdown) {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+:global(.reebokcl-timer-0-x-buttonCD--container-countdown) {
+    height: 41px;
+}
+
+:global(.reebokcl-timer-0-x-containerCTA--container-countdown) {
+    height: 40px;
+}
+
+:global(.reebokcl-timer-0-x-containerCTA--container-countdown) {
+    margin: 0;
+}
+
+:global(.reebokcl-timer-0-x-countdown_wrapper--container-countdown) {
+    margin-top: 19rem;
+}
+
+:global(.reebokcl-timer-0-x-infoContainer--container-countdown) {
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+
+
+@media (max-width: 400px) {
+    :global(.vtex-product-highlights-2-x-productHighlightWrapper--label-position-top-left-color-red) {
+        top: 14% !important;
+        /* left: 4% !important; */
+    }
+
+}
+
+@media (max-width: 1680px) {
+
+    /*new plp*/
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+    :global(.vtex-flex-layout-0-x-flexRow--filter-content),
+    :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+        padding: 0 2rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+        gap: 3rem !important;
+    }
+
+    /*--------------------*/
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--mobileHome-main-carousel),
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--desktopHome-main-carousel) {
+    bottom: 1rem !important;
+}
+
+/*landing newsletter*/
+:global(.vtex-flex-layout-0-x-flexRowContent--input-newsletter-origin) {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing)>div {
+    width: 100%;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-label--terminos-Condiciones),
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+    margin-left: -71%;
+} */
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.vtex-flex-layout-0-x-flexRowContent) {
+    align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter) :global(.reebokcl-contact-form-0-x-sucessContainer--newsletter-custom) {
+    background-color: #fff;
+    margin-top: -9rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.reebokcl-contact-form-0-x-sucessContainer--newsletter-landing-custom) {
+    background-color: #fff;
+    margin-top: -6rem;
+}
+
+:global(.reebokcl-contact-form-0-x-FormularioSucessButtom--newsletter-landing-custom) {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing)>div {
+    width: -webkit-fill-available;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--texts-modal-newsletter-footer),
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) {
+    height: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing)>div>form,
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.vtex-rich-text-0-x-wrapper--footer-newsletter-paragraph-modal),
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.vtex-rich-text-0-x-container--footer-newsletter-title-modal) {
+    margin-top: -0.5rem;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-logo-newsletter) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+    display: flex;
+    height: auto;
+    padding: 20px;
+    background-image: url(https://reebokcol.vteximg.com.br/arquivos/Bg_WelcomePage_1920x1080_DT_1.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--newsletter-landing) {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0px;
+    max-width: 700px;
+    width: 650px;
+    /* margin: 2rem; */
+    height: fit-content;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem !important;
+    letter-spacing: 0 !important;
+    margin: 0;
+    color: #202020;
+    font-family: NeuePlak-WideRegular;
+    line-height: 1.1;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem !important;
+    letter-spacing: 0 !important;
+    margin: 0;
+    color: #202020;
+    font-family: NeuePlak-WideRegular;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>p {
+    text-align: center;
+    font-family: NeuePlak-Regular;
+    letter-spacing: 0;
+    color: #202020;
+    font-weight: lighter;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>p {
+    text-align: center;
+    font-family: NeuePlak-Regular;
+    letter-spacing: 0;
+    color: #202020;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom) {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>a,
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>a,
+:global(.vtex-flex-layout-0-x-flexRowContent--button-newsletter) {
+    background: #121212;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-family: NeuePlak-SemiBold;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>a:hover,
+:global(.vtex-flex-layout-0-x-flexRowContent--button-newsletter):hover {
+    background: #244486 !important;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) {
+    display: flex;
+    justify-content: center;
+}
+
+:global(.vtex-store-link-0-x-link--button-newsletter) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:global(.vtex-store-link-0-x-link--button-newsletter),
+:global(.vtex-store-link-0-x-label--button-newsletter) {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*-------------------*/
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--mobileHome-main-carousel),
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--desktopHome-main-carousel) {
+    bottom: -1rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--home-destacados-body) {
+    margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--ver-product-dealcard) {
+    width: 100% !important;
+    display: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--ver-product-dealcard) {
+    display: none;
+    justify-content: center;
+    background-color: #121212 !important;
+    color: #f7f7f7 !important;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 0.875rem;
+    font-family: "NeuePlak-SemiBold";
+    width: 100% !important;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonText):hover {
+    background-color: #244486 !important;
+    transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--ver-product-dealcard):hover {
+    background-color: #244486 !important;
+    transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--ver-product-dealcard) {
+    opacity: 0;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-rich-text-0-x-paragraph--ver-product-dealcard) {
+    background: #fff;
+    opacity: 1;
+    z-index: 3;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0 3rem 0;
+}
+
+@media (max-width: 1292px) {
+    :global(.vtex-product-highlights-2-x-productHighlightWrapper--label-position-top-left-color-red) {
+        /* left: 6.5%; */
+        top: 13%;
+    }
+}
+
+@media (max-width: 40rem) {
+    :global(.vtex-flex-layout-0-x-flexCol--newsletter-landing) {
+        width: 340px !important;
+        padding: 1rem 1rem;
+        margin-top: 2rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--button-newsletter) {
+        padding: 1rem 3rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+        background-image: url(https://reebokcol.vteximg.com.br/arquivos/Bg_WelcomePage_MB_1.jpg);
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        background-size: cover;
+    }
+
+    /* :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-label--link-politicas-de-privacidad),
+    :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-label--terminos-Condiciones) {
+        margin-left: -47%;
+    } */
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-flex-layout-0-x-flexRowContent--input-inputCondicionesNewsLetter) {
+        display: flex;
+        align-items: center;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--inputCondicionesNewsLetter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+  padding-right: 4px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--inputPoliticasNewsLetter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+  padding-right: 4px;
+}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-link--link-politicas-de-privacidad),
+    :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-link--terminos-Condiciones) {
+        width: -webkit-fill-available !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--footer-newsletter-mobile) :global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>h1,
+    :global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>h1 {
+        font-size: 1.1rem !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--footer-newsletter-mobile) :global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>p {
+        font-weight: lighter;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--footer-newsletter-mobile) :global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>a,
+    :global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>a,
+    :global(.vtex-flex-layout-0-x-flexRowContent--button-newsletter) {
+        padding: 1rem 2rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--footer-newsletter-mobile) :global(.vtex-flex-layout-0-x-flexRow--input-newsletter-origin) {
+        display: none;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--footer-newsletter-mobile) :global(.reebokcl-contact-form-0-x-sucessContainer--newsletter-custom) {
+        background-color: white;
+        margin-top: -10rem;
+    }
+
+    /*-----------*/
+    /*------info pdp---------------*/
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-colorProduct-rango-edad),
+    :global(.vtex-flex-layout-0-x-flexRow--container-colorProduct-color-name) {
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /*----------------*/
+}
+
+@media all and (width: 1180px) and (height: 820px) and (orientation: landscape) {
+    :global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+        background-image: url(https://reebokcol.vtexassets.com/arquivos/Bg_WelcomePage_1920x1080_DT_1.jpg);
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+}
+
+@media all and (width: 820px) and (height: 1180px) and (orientation: portrait) {
+    :global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+        background-image: url(https://reebokcol.vteximg.com.br/arquivos/Bg_WelcomePage_MB_1.jpg);
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-mobile) :global(.vtex-input-prefix__group) {
+        padding: 0 1.5rem;
+    }
+}
+
+@media all and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+    :global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+        background-image: url(https://reebokcol.vteximg.com.br/arquivos/Bg_WelcomePage_MB_1.jpg);
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-mobile) :global(.vtex-input-prefix__group) {
+        padding: 0 1.5rem;
+    }
+}
+
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+    :global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+        background-image: url(https://reebokcol.vtexassets.com/arquivos/Bg_WelcomePage_1920x1080_DT_1.jpg);
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+}
+
+@media all and (width: 820px) and (height: 1180px) and (orientation: portrait) {
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.reebokcl-product-specific-image-0-x-imageContainerthirdImage),
+    :global(.reebokcl-product-specific-image-0-x-imageContainerSecondImage) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--mobile-row-one) :global(.vtex-flex-layout-0-x-flexColChild--mobile-row-one) {
+        background-color: initial;
+        background-image: url(https://reebokcl.vteximg.com.br/arquivos/reebok-image-viewer-background.png);
+        background-size: contain;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col) :global(.vtex-breadcrumb-1-x-container) {
+        position: inherit !important;
+        left: 0rem !important;
+        z-index: 0 !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)>div>p {
+        margin: 16px 0px 0;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-orderByButton) {
+        width: 100%;
+        height: 3rem;
+        border: 0;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-filterPopupButton) :global(.reebokcl-plp-gallery-0-x-filterPopupTitle) {
+        display: none !important;
+    }
+
+    /*new plp*/
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--PLP--subcategoria-carousel),
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+    :global(.vtex-flex-layout-0-x-flexRow--filter-content),
+    :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+        padding: 0 0.5rem !important;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-orderByOptionsContainer) {
+        width: 4rem !important;
+        left: 36rem !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-orderByMobileCol-mobile) {
+        max-width: 49rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--container-filter-mobile) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-right: 2rem;
+    }
+}
+
+@media all and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-tunes.vtex-rich-text-0-x-heading-level-2) {
+        font-size: 3rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.reebokcl-product-specific-image-0-x-imageContainerthirdImage),
+    :global(.reebokcl-product-specific-image-0-x-imageContainerSecondImage) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--mobile-row-one) :global(.vtex-flex-layout-0-x-flexColChild--mobile-row-one) {
+        background-color: initial;
+        background-image: url(https://reebokcl.vteximg.com.br/arquivos/reebok-image-viewer-background.png);
+        background-size: contain;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col) :global(.vtex-breadcrumb-1-x-container) {
+        position: inherit !important;
+        left: 0rem !important;
+        z-index: 0 !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)>div>p {
+        margin: 16px 0px 0 !important;
+    }
+
+    /*new plp*/
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--PLP--subcategoria-carousel),
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+    :global(.vtex-flex-layout-0-x-flexRow--filter-content),
+    :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+        padding: 0 0.5rem !important;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-orderByOptionsContainer) {
+        width: 4rem !important;
+        left: 33rem !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-orderByMobileCol-mobile) {
+        max-width: 46rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--container-filter-mobile) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-right: 2rem;
+    }
+}
+
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+    :global(.vtex-flex-layout-0-x-flexCol--mobile-row-one) :global(.vtex-flex-layout-0-x-flexColChild--mobile-row-one) {
+        background-color: initial;
+        background-image: url(https://reebokcl.vteximg.com.br/arquivos/reebok-image-viewer-background.png);
+        background-size: contain;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col) :global(.vtex-breadcrumb-1-x-container) {
+        position: inherit !important;
+        left: 0rem !important;
+        z-index: 0 !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.reebokcl-product-specific-image-0-x-imageContainerthirdImage),
+    :global(.reebokcl-product-specific-image-0-x-imageContainerSecondImage) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)>div>p {
+        margin: 16px 0px 0 !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+        gap: 4rem !important;
+    }
+
+    :global(.vtex-slider-layout-0-x-slide--PLP--subcategoria-carousel--visible) {
+        width: 11.1111%;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-orderByMobileCol-mobile) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-right: 2rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-orderByMobileCol-mobile) :global(.vtex-store-components-3-x-container.ph3.ph5-m.ph2-xl.mw9.center) {
+        margin: 0;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--pr_summary_img_and_wishlist) :global(.vtex-store-components-3-x-discountInsideContainer) {
+        top: 14.5rem !important;
+    }
+}
+
+@media all and (width: 1180px) and (height: 820px) and (orientation: landscape) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+        gap: 4rem !important;
+    }
+}
+
+@media all and (width: 1024px) and (height: 600px) and (orientation: landscape) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+        gap: 4rem !important;
+    }
+}
+
+@media all and (width: 810px) and (height: 1010px) and (orientation: portrait) {
+    :global(.reebokcol-plp-gallery-0-x-filterPopupButton) :global(.reebokcol-plp-gallery-0-x-filterPopupTitle) {
+        display: none !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-mobile) :global(.vtex-input-prefix__group) {
+        padding: 0 1.5rem;
+    }
+
+    /*new plp*/
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--PLP--subcategoria-carousel),
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+    :global(.vtex-flex-layout-0-x-flexRow--filter-content),
+    :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+        padding: 0 0.5rem !important;
+    }
+
+    :global(.reebokcl-plp-gallery-0-x-orderByOptionsContainer) {
+        width: 4rem !important;
+        left: 36rem !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-orderByMobileCol-mobile) {
+        max-width: 49rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--container-filter-mobile) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-right: 2rem;
+    }
+}
+
+@media all and (width: 1010px) and (height: 810px) and (orientation: landscape) {
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        flex-direction: column;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+        gap: 4rem !important;
+    }
+}
+
+@media only screen and (min-width: 639px) and (max-width: 1378px) {
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile-images-one) {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--container-mobile-images-one) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--product-summary-modal-content) :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content) :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1680px) {
+
+    /*new plp*/
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+    :global(.vtex-flex-layout-0-x-flexRow--filter-content),
+    :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+        padding: 0 0.5rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-order-filter-plp) {
+        gap: 3rem;
+        padding-right: 0.4rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--pr_summary_info_content.ml0.mr0.pl0.pr0) {
+        max-height: 3rem;
+    }
+
+    /*--------------------*/
+}
+
+@media (max-width: 1292px) {
+
+    /*new plp*/
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--PLP--subcategoria-carousel),
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+    :global(.vtex-flex-layout-0-x-flexRow--filter-content),
+    :global(.vtex-flex-layout-0-x-flexRow--search-title) {
+        padding: 0 2rem;
+    }
+
+    :global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3) {
+        padding-top: 1rem;
+    }
+
+    /*-------------------------------*/
+    .gallery .vtex-flex-layout-0-x-flexRowContent {
+        padding: 0 1rem;
+    }
+
+}
+
+/*landing newsletter*/
+:global(.vtex-flex-layout-0-x-flexRowContent--input-newsletter-origin) {
+    display: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing)>div {
+    width: 100%;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-label--terminos-Condiciones),
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing) :global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+    margin-left: -71%;
+} */
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.vtex-flex-layout-0-x-flexRowContent) {
+    align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter) :global(.reebokcl-contact-form-0-x-sucessContainer--newsletter-custom) {
+    background-color: #fff;
+    margin-top: -9rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.reebokcl-contact-form-0-x-sucessContainer--newsletter-landing-custom) {
+    background-color: #fff;
+    margin-top: -6rem;
+}
+
+:global(.reebokcl-contact-form-0-x-FormularioSucessButtom--newsletter-landing-custom) {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing)>div {
+    width: -webkit-fill-available;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--texts-modal-newsletter-footer),
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) {
+    height: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing)>div>form,
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.vtex-rich-text-0-x-wrapper--footer-newsletter-paragraph-modal),
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) :global(.vtex-rich-text-0-x-container--footer-newsletter-title-modal) {
+    margin-top: -0.5rem;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-logo-newsletter) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRow--newsletter-landing) {
+    display: flex;
+    height: 123vh;
+    background-image: url(https://reebokcol.vteximg.com.br/arquivos/Bg_WelcomePage_1920x1080_DT_1.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+} */
+
+:global(.vtex-flex-layout-0-x-flexCol--newsletter-landing) {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0px;
+    max-width: 700px;
+    width: 650px;
+    /* margin: 2rem; */
+    height: fit-content;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem !important;
+    letter-spacing: 0 !important;
+    margin: 0;
+    color: #202020;
+    font-family: NeuePlak-WideRegular;
+    line-height: 1.1;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem !important;
+    letter-spacing: 0 !important;
+    margin: 0;
+    color: #202020;
+    font-family: NeuePlak-WideRegular;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>p {
+    text-align: center;
+    font-family: NeuePlak-Regular;
+    letter-spacing: 0;
+    color: #202020;
+    font-weight: lighter;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>p {
+    text-align: center;
+    font-family: NeuePlak-Regular;
+    letter-spacing: 0;
+    color: #202020;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom) {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-custom)>div>div>a,
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>a,
+:global(.vtex-flex-layout-0-x-flexRowContent--button-newsletter) {
+    background: #121212;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-family: NeuePlak-SemiBold;
+}
+
+:global(.reebokcl-contact-form-0-x-sucessSubmitClass--newsletter-landing-custom)>div>div>a:hover,
+:global(.vtex-flex-layout-0-x-flexRowContent--button-newsletter):hover {
+    background: #244486 !important;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-landing) {
+    display: flex;
+    justify-content: center;
+}
+
+:global(.vtex-store-link-0-x-link--button-newsletter) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:global(.vtex-store-link-0-x-link--button-newsletter),
+:global(.vtex-store-link-0-x-label--button-newsletter) {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*-------------------*/
+
+/*Dia de la Madre*/
+:global(.vtex-rich-text-0-x-wrapper--titulo-promocion-plp) {
+    color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--text-promocion-plp) :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRowContent--text-promocion-plp) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e4dccf;
+    align-items: center;
+    height: 12rem;
+} */
+
+:global(.vtex-rich-text-0-x-paragraph--text-promocion-plp) {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family: "NeuePlak-Bold";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 24px; */
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #000;
+    line-height: 28px;
+}
+
+:global(.vtex-rich-text-0-x-container--text-promocion-plp-ofertas) {
+    background-color: #000;
+    color: white;
+    font-family: NeuePlak-WideRegular, ParaType, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif !important;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--text-promocion-plp-ofertas) {
+    width: 80% !important;
+}
+
+@media (max-width: 980px) {
+    :global(.vtex-rich-text-0-x-wrapper--text-promocion-plp-ofertas) {
+        width: 100% !important;
+    }
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4--subtitle-text-promocion-plp) {
+    margin: 0;
+    color: #000;
+}
+
+:global(.reebokcl-plp-gallery-0-x-filterItem--filter-block--unisex),
+:global(.reebokcl-plp-gallery-0-x-filterAccordionItemBox--unisex) {
+    display: none;
+}
+
+@media (max-width: 40em) {
+    :global(.vtex-rich-text-0-x-headingLevel4--subtitle-text-promocion-plp) {
+        font-size: 1rem;
+    }
+
+    :global(.vtex-rich-text-0-x-paragraph--text-promocion-plp) {
+        font-size: 20px;
+    }
+
+    /* Component Third Banners */
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-third-row-images) :global(.vtex-flex-layout-0-x-flexRowContent.items-stretch.w-100) {
+        flex-direction: column;
+    }
+
+    /* BANNER PLP OFERTAS */
+    :global(.vtex-flex-layout-0-x-flexRowContent--text-promocion) {
+        padding: 0.5rem 1rem;
+    }
+
+    :global(.vtex-rich-text-0-x-headingLevel4--titulo-promocion.vtex-rich-text-0-x-heading-level-4),
+    :global(.vtex-rich-text-0-x-headingLevel4--subtitle-text-promocion) {
+        font-size: 0.875rem !important;
+        padding: 0 1rem;
+    }
+
+    :global(.vtex-rich-text-0-x-headingLevel3--titulo-promocion.vtex-rich-text-0-x-heading-level-3),
+    :global(.vtex-rich-text-0-x-paragraph--text-promocion) {
+        font-size: 1.5rem !important;
+        padding: 0 1rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--nano-x4-mobile) :global(.reebokcl-custom-banner-0-x-mt5)>div {
+        width: 130px !important;
+    }
+
+    :global(.reebokcl-custom-banner-0-x-mt1)>div {
+        width: 130px !important;
+    }
+
+}
+
+/* Component Third Banners */
+:global(.vtex-flex-layout-0-x-flexRowContent--container-third-row-images) :global(.vtex-flex-layout-0-x-flexRowContent.items-stretch.w-100) {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+@media (min-width: 1025px) {
+    :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) div div {
+        height: 0px !important;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) :global(.vtex__icon-search) path {
+        fill: #121212;
+    }
+
+}
+
+:global(.vtex-rich-text-0-x-paragraph--subtitle-text-promocion) {
+    font-size: 1.5rem
+}
+
+
+
+@media screen and (max-width: 700px) {
+    :global(.vtex-flex-layout-0-x-flexRow--banner-mobile-mynameis) :global(.customBannerContainer) :global(.button) {
+        width: 150px !important;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    :global(.customBannerContainer) :global(.button) {
+        margin-bottom: 1rem !important;
+        margin-right: 0px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--banner-mobile-miembros) :global(.customBannerContainer) :global(.button) {
+        width: 150px !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--banner-mobile-miembros) {
+        width: 100% !important;
+    }
+
+    :global(.vtex-slider-layout-0-x-paginationDotsContainer--mobileHome-main-carousel),
+    :global(.vtex-slider-layout-0-x-paginationDotsContainer--desktopHome-main-carousel) {
+        bottom: -1rem !important;
+    }
+
+
+}
+
+
+
+
+
+/*whatsaap business*/
+:global(.vtex-store-components-3-x-imageElement--icon-whatsapp-fixed) {
+    max-height: 60px;
+    margin: auto;
+    position: fixed;
+    right: 10px;
+    z-index: 99;
+    bottom: 30px;
+    margin-left: 20px;
+    border: solid 13px rgba(140, 190, 46, 0.42);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+:global(.vtex-store-components-3-x-imageElement--icon-whatsapp-fixed):hover {
+    border-color: rgba(3, 128, 123, 0.42);
+}
+
+/*whatsaap business*/
+:global(.vtex-store-components-3-x-imageElement--icon-whatsapp-fixed) {
+    bottom: 35px;
+    max-height: 50px;
+    border: solid 7px rgba(140, 190, 46, 0.42);
+}
+
+:global(.reebokcl-custom-banner-0-x-banner-headline-bottom),
+:global(.reebokcl-custom-banner-0-x-banner-copy) {
+    text-shadow: none !important
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--mobileHome-main-carousel) {
+    display: none;
+}
+
+@media (max-width: 40rem) {
+
+    :global(.reebokcl-component-generator-0-x-sliderTrack) :global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        min-height: 48px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--pr_summary_info) :global(.vtex-flex-layout-0-x-flexCol--pr_summary_info_content) {
+        position: relative !important;
+        padding: 0 1px !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--custom-banner-members) :global(.customBannerContainer) :global(.button) {
+        width: 150px !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--custom-banner-members) {
+        width: 100% !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--input-newsletter-retail-tyc)
+:global(.vtex-flex-layout-0-x-flexRowContent--input-newsletter-retail-tyc) {
+    margin-top: 5px !important;
+}
+}
+
+:global(.button-container) {
+    font-family: 'NeuePlak-Regular';
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--input-newsletter-retail-tyc)
+:global(.vtex-flex-layout-0-x-flexRowContent--input-newsletter-retail-tyc) {
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--input-newsletter-retail-tyc) 
+:global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+    margin-left: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--input-newsletter-retail-tyc) 
+:global(.vtex-store-link-0-x-label--terminos-Condiciones) {
+    margin-left: 0 !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--cyber-icon) {
+    background-image: url("/arquivos/logo-cyber-wrg-removebg-preview.png");
+    width: 80px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(3);
+    margin-left: 20px;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col)
+:global(.reebokcl-mobile-drawers-0-x-itemContainer):first-child
+:global(.reebokcl-mobile-drawers-0-x-textTitle) {
+    color: red;
+} */
+
+
+
+/* SEO */
+:global(.vtex-breadcrumb-1-x-container--search-breadcrumb.pv3),
+:global(.vtex-flex-layout-0-x-flexRow--search-title) :global(.vtex-store-components-3-x-container) {
+  max-width: 1600px !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--h1-texto-seo) {
+  font-size: 2.5rem !important;
+  color: #121212 !important;
+  text-transform: uppercase;
+  margin-left: 2px;
+  margin-bottom: 0;
+  letter-spacing: 0px;
+}
+
+:global(.vtex-rich-text-0-x-link--h3-texto-seo) {
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--h2-texto-seo),
+:global(.vtex-rich-text-0-x-heading--h2-texto-seo),
+:global(.vtex-rich-text-0-x-wrapper--h2-texto-seo) {
+  font-family: NeuePlak-Regular;
+  font-weight: 200;
+  font-size: .99rem;
+  color: #121212;
+  width: 100%;
+  margin-left: 1.8px;
+  margin-top: .3rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--h3-texto-seo),
+:global(.vtex-rich-text-0-x-heading--h3-texto-seo),
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo) {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: justify;
+  color: #121212;
+  margin: 0rem auto;
+  margin-bottom: .6rem !important;
+}
+
+:global(.vtex-rich-text-0-x-container--h3-texto-seo) {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  padding: 10px 0.6rem;
+}
+
+:global(.vtex-rich-text-0-x-container--h3-texto-seo)
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo)
+:global(.vtex-rich-text-0-x-headingLevel2--h3-texto-seo) {
+  font-size: 1.7rem;
+}
+
+:global(.vtex-rich-text-0-x-container--h3-texto-seo)
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo)
+:global(.vtex-rich-text-0-x-paragraph--h3-texto-seo) {
+  font-size: .95rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--h3-texto-seo){
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+:global(.vtex-flex-layout-0-x-flexCol--search-title)
+:global(.vtex-flex-layout-0-x-flexColChild--search-title):last-child {
+display: flex;
+align-self: flex-end;
+}
+@media screen and (max-width: 700px) {
+  :global(.vtex-rich-text-0-x-container--h3-texto-seo) {
+    margin: 0px auto;
+    margin-top: .5rem;
+    padding-top: 1rem;
+  }
+}
+
+
+/* SEO */
+
+
+:global(.vtex-rich-text-0-x-container--h3-texto-seo)
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo)
+:global(.vtex-rich-text-0-x-paragraph--h3-texto-seo) {
+    font-size: .95rem;
+    font-family: 'NeuePlak-Regular';
+}
+
+:global(.vtex-rich-text-0-x-container--h3-texto-seo) 
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo)
+:global(.vtex-rich-text-0-x-headingLevel1--h3-texto-seo) {
+    font-family: 'NeuePlak-WideRegular'!important;
+    letter-spacing: 0 !important;
+    font-weight: 700 !important;
+    font-size: 1.75rem !important;
+}
+:global(.vtex-rich-text-0-x-container--h3-texto-seo) 
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo)
+:global(.vtex-rich-text-0-x-headingLevel2--h3-texto-seo) {
+    font-family: 'NeuePlak-WideRegular'!important;
+    letter-spacing: 0 !important;
+    font-weight: 700 !important;
+    font-size: 1.7rem !important;
+}
+:global(.vtex-rich-text-0-x-container--h3-texto-seo) 
+:global(.vtex-rich-text-0-x-wrapper--h3-texto-seo)
+:global(.vtex-rich-text-0-x-headingLevel3--h3-texto-seo) {
+    font-family: 'NeuePlak-WideRegular'!important;
+    letter-spacing: 0 !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+}
+
+/* SEO */

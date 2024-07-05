@@ -1,0 +1,27 @@
+{
+  //------------------- Highlights 2 * 1 plp -------///
+  "vtex.product-highlights@2.x:product-highlights#2x1": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Sale 2x1"]
+      }
+    },
+    "children": ["product-highlight-wrapper#2x1"]
+  },
+  "product-highlight-wrapper#2x1": {
+    "children": ["product-highlight-text#2x1"],
+    "props": {
+      "blockClass": [
+        "label-position-top-left",
+        "label-position-top-left-color-red"
+      ]
+    }
+  },
+  "product-highlight-text#2x1": {
+    "props": {
+      "message": "2 x 1"
+    }
+  }
+}

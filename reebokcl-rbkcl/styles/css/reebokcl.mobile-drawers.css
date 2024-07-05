@@ -1,0 +1,253 @@
+.drawerContent--container-drawer-filter
+.filtersWrapper--filter-block
+.filter__container--filter-block--title.bb.b--muted-4
+.filterMessage--filter-block.t-heading-5.mv5 {
+display: none;
+}
+.closeIconButton--container-drawer-filter {
+padding: 0;
+margin-top: 0 !important;
+}
+.drawerContent--container-drawer-filter
+.closeIconContainer--container-drawer-filter
+.closeIconButton--container-drawer-filter::before {
+content: "Filtrar" !important;
+margin-right: 83%;
+}
+.drawerContent--container-drawer-filter {
+padding: 1rem;
+}
+.moving--container-drawer-filter {
+width: 85%;
+max-width: 570px;
+min-width: 280px;
+pointer-events: auto;
+transform: translate3d(0px, 0px, 0px);
+}
+.openIconContainer--container-drawer-filter {
+padding: 0;
+}
+/*-------------------- Header drawer --------------------*/
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    height: 60px;
+    max-height: 60px;
+}
+
+/*-------------------- DRAWER config --------------------*/
+.drawer {
+    width: 100% !important;
+}
+
+.menuIcon {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+    width: 100% !important;
+}
+
+.closeIconContainer {
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px 0px;
+}
+
+.closeIconButton {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.closeIconButton::before {
+    content: url("assets/header/header-logo.svg");
+    margin-right: 30%;
+}
+
+/* -------------------- container of items -------------------- */
+.textTitle {
+    color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 22px;
+    margin: 0 !important;
+    font-family: "NeuePlak-SemiBold" !important;
+}
+
+.textContainerTitle {
+    cursor: pointer;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+
+.textContainerTitle .itemIcon {
+    margin-right: 1.563rem;
+}
+
+.accordeonItemContainer .itemIcon {
+    display: block;
+    margin-right: 8px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    width: 9px;
+}
+
+.image {
+    content: url(/arquivos/arrow_down.png) !important;
+    width: 20px !important;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.imageContainerRegresar .image {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.AccorddionOpen .icon {
+    content: url(/arquivos/arrow_down.png) !important;
+    width: 20px !important;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.AccorddionClose .icon {
+    content: url(/arquivos/arrow_down.png) !important;
+    width: 20px !important;
+}
+/**-----Contaner title submenu-----**/
+.textContainerRegresar {
+    display: flex;
+    margin: 0 !important;
+    max-width: 100% !important;
+    height: 56px;
+    padding-left: 3px;
+    align-items: center;
+}
+
+.textContainerRegresar .image {
+    margin-right: 8px;
+}
+
+.imageContainerRegresar {
+    display: flex;
+    align-items: center;
+}
+
+.textContainerRegresar .textTitle {
+    font-size: 1rem;
+    color: #121212;
+    width: auto;
+    font-family: "NeuePlak-Regular" !important;
+}
+.categoryTextTitleContainer {
+    padding: 0 0.625rem 0px 15px;
+    margin: 1.25rem 0 1.625rem 0;
+}
+
+.menuContainer .accordeonItemContainer:last-child {
+    border-bottom: solid 0.5px #b2b2b2;
+}
+
+.categoryTextTitle {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    width: 60%;
+}
+
+.accordionTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #121212;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+}
+
+.iconBox {
+    width: 5%;
+}
+
+.content .ulContent {
+    padding: 0px;
+}
+
+.content {
+    padding-bottom: 24px;
+}
+
+.iconBox .icon {
+    margin-left: auto;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+}
+
+.separator {
+    border: none;
+    margin: 0;
+}
+
+.accordionContent {
+    border-top: solid 0.5px #b2b2b2;
+}
+
+/* COLOR PRIMER ITEM MENU */ 
+/* :global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col)
+    .itemContainer:nth-child(0n + 1)
+    .textTitle {
+    color: #e41d1b; 
+}  */
+
+.textContainerTitle .textTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #121212;
+}
+
+/**-----Contanier navbar-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row) {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--mobile-drawer-row) {
+    width: 100%;
+    padding: 0 16px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col) .itemContainer {
+    border-bottom: solid 0.5px #b2b2b2;
+}
+
+/* MEDIA QUERY TABLET */
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+    .openIconContainer {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .openIconContainer {
+        padding-left: 18% !important;
+    }
+}
+
+@media (max-width: 40rem) {
+    .openIconContainer {
+        padding-left: 0.5rem;
+    }
+}

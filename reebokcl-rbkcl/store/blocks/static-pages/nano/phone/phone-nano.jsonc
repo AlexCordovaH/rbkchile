@@ -1,0 +1,14 @@
+{
+    "responsive-layout.phone#nano":{
+        "children":[
+            "custom-banner#nano-landing-mobile",
+            "flex-layout.row#nano-row-images-text",
+            "flex-layout.row#nano-row-images",
+            "flex-layout.row#component-shelf-productos-nano-destacados-title",
+            "flex-layout.row#component-shelf-productos-nano-destacados",
+            "flex-layout.row#doorway-nano-title",
+            "slider-layout#slider-doorway-nano-mobile",
+            "custom-banner#nano-banner-inferior-landing-mobile"
+        ]
+    }
+}

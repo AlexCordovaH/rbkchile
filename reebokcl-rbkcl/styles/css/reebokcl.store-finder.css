@@ -1,0 +1,123 @@
+.listStoreContainer{
+    height: auto !important;
+    width: 100%;
+}
+
+.listStores{
+
+    height: 540px !important;
+}
+
+.containerMap{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.elementMap{
+    width: 70% !important;
+    margin-left: 2% !important;
+}
+
+.titleLocalizador{
+    content: "";
+    font-size: 0px;
+}
+
+.titleLocalizador::after{
+    content: "Localizar una tienda";
+    font-size: 1.5rem;
+    font-family: "NeuePlak-Bold";
+    color: #121212;
+}
+
+.listStores{
+    border: solid 1.5px #121212;
+    padding: 25px 15px 25px 15px;
+
+}
+
+.country{
+display: none
+}
+
+.state{
+    font-family: "NeuePlak-SemiBold";
+    color: #121212;
+    font-size: 1rem;
+}
+
+.client{
+    font-family: "NeuePlak-SemiBold";
+    color: #121212;
+    font-size: 1rem;
+}
+
+.addressContainer{
+    font-family: "NeuePlak-Regular";
+    color: #121212;
+    font-size: 0.875rem;
+}
+
+.phone{
+    font-family: "NeuePlak-Regular";
+    color: #121212;
+    font-size: 0.875rem;
+}
+
+.itemListMap{
+    border: solid 1.5px #E5E5E5;
+    padding-left: 10px;
+}
+
+.inputSearch{
+border-radius: 5px;
+border: solid 1px #D1D1D1;
+}
+
+.inputSearch:focus{
+ border: solid 2px #D1D1D1;
+}
+
+
+
+
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+    .containerMap{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .elementMap{
+        width: 80% !important;
+        margin-left: 2% !important;
+    }
+}
+
+
+@media (max-width: 40rem) {
+
+    .elementMap{
+        width: 100% !important;
+        margin-left: 0% !important;
+        height: 343px;
+    }
+
+    .containerMap{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .mapAndListContainer{
+        flex-direction: column !important;
+    }
+
+    .elementMap{
+        height: 300px;
+        width: 100%;
+    }
+
+    .listStoreContainer{
+        margin-top: 2.5rem;
+    }
+}

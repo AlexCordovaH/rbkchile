@@ -1,0 +1,380 @@
+{
+    /*Store custom: NIÑOS - COLABORACIONES */
+    "store.custom#ninos-colaboraciones": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-cardib": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-cardib"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-jurassicworld": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-jurassicworld"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-looneytunes": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-looneytunes"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-nationalgeographic": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-nationalgeographic"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-pepapig": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-pepapig"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-pjmask": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-pjmask"
+        ]
+    },
+    "store.custom#ninos-colaboraciones-powerrangers": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-colaboraciones-powerrangers"
+        ]
+    },
+    /*Store custom: NIÑOS - NOVEDADES */
+    "store.custom#ninos-novedades": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades"
+        ]
+    },
+    "store.custom#ninos-novedades-losmasvendidos": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-losmasvendidos"
+        ]
+    },
+    "store.custom#ninos-novedades-weebok": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-weebok"
+        ]
+    },
+    "store.custom#ninos-novedades-clubc": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-clubc"
+        ]
+    },
+    "store.custom#ninos-novedades-reebokroyal": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-reebokroyal"
+        ]
+    },
+    "store.custom#ninos-novedades-classics": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-classics"
+        ]
+    },
+    "store.custom#ninos-novedades-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-classicleather"
+        ]
+    },
+    "store.custom#ninos-novedades-nano": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-nano"
+        ]
+    },
+    "store.custom#ninos-novedades-zig": {
+        "blocks": [
+            "search-result-layout.customQuery#ninos-novedades-zig"
+        ]
+    },
+    /*Search result layout: NIÑOS - COLABORACIONES */
+    "search-result-layout.customQuery#ninos-colaboraciones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "322",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-cardib": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/cardi-b",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-jurassicworld": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/jurassic-world",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-looneytunes": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/looney-tunes",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-nationalgeographic": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/national-geographic",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-pepapig": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "195",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-pjmask": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/pj-mask",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-colaboraciones-powerrangers": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/power-rangers",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: NIÑOS - NOVEDADES */
+    "search-result-layout.customQuery#ninos-novedades": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "323",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-losmasvendidos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "#",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-weebok": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/weebok",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-clubc": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/club-c",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-reebokroyal": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/reebok-royal",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-classics": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/classic",
+                "mapField": "categoria-deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-nano": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/nano",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#ninos-novedades-zig": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ninos/zig",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

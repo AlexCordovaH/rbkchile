@@ -1,0 +1,4 @@
+:global(.vtex-breadcrumb-1-x-termArrow),
+:global(.vtex-breadcrumb-1-x-term) {
+  display: none;
+}

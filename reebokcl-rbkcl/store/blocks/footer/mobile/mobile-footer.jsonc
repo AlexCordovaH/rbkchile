@@ -1,0 +1,39 @@
+{
+  /*MOBILE */
+  /*-----------------------------------------------------------------------------------------------*/
+  "footer-layout.mobile": {
+    "children": [
+      // "back-to-top-button",
+      "flex-layout.row#container-footer-row-newsletter",
+      "flex-layout.row#mobile-accordion",
+      "flex-layout.row#component-footer-mobile-2"
+    ],
+    "props": {
+      "blockClass": "footer-layout-mobile"
+    }
+  },
+
+  "flex-layout.row#component-footer-mobile-2":{
+    "props":{
+      "blockClass":"footer-layout-mobile-row-2"
+    },
+    "children":[
+      "rich-text#links-footer-2",
+      "flex-layout.row#social-media",
+      // "rich-text#mobile-social-media",
+      "footer-year-copyright"
+    ]
+  },
+  /*Footer mobile*/
+  "flex-layout.row#mobile-wrapper": {
+    "children": ["flex-layout.row#mobile-accordion"]
+  },
+  /* Seccion Menu  footer*/
+  "flex-layout.row#mobile-accordion": {
+    "children": ["vtex.menu@2.x:menu#mobile-accordion"],
+    "props": {
+      "blockClass": "row-mobile-accordion",
+      "marginTop": 6
+    }
+  }
+}

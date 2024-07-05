@@ -1,0 +1,40 @@
+{
+  "flex-layout.col#mobile-banner-classics": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-classics",
+      "flex-layout.row#image-mobile-banner-classics"
+    ]
+  },
+  "flex-layout.row#image-mobile-banner-classics": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-classics"]
+  },
+  "image#image-banner-classics": {
+    "props": {
+      "alt": "Estilos retros o modernos",
+      "title": "Estilos retros o modernos",
+      "src": "/arquivos/HERO-BANNER-MOBILE-2-classics.jpg",
+      /* "link": {
+        "url": "/ofertas"
+      }, */
+      "blockClass": ["image-carousel3", "image-main-carousel"]
+    }
+  },
+  "flex-layout.col#mobile-info-banner-classics": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "mobile-info-banner-classics"
+    },
+    "children": [
+      "flex-layout.row#titulo-banner-classics",
+      //   "flex-layout.row#body-banner-classics",
+      "flex-layout.row#button-banner-classics-men",
+      "flex-layout.row#button-banner-classics-women"
+    ]
+  }
+}

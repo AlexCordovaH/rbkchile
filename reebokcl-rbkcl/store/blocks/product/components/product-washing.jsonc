@@ -1,0 +1,38 @@
+{
+  "pdp-have-cares-wrapper": {
+    "children": ["disclosure-layout#pdp-product-washing"]
+  },
+  "disclosure-layout#pdp-product-washing": {
+    "title": "Product washing | PDP",
+    "props": {
+      "blockClass": "pdp_product_description"
+    },
+    "children": [
+      "disclosure-trigger#pdp-product-washing-title",
+      "disclosure-content#pdp-product-washing-content"
+    ]
+  },
+  "disclosure-trigger#pdp-product-washing-title": {
+    "props": {
+      "blockClass": "pdp_product_description_title"
+    },
+    "children": [
+      "rich-text#pdp-product-washing-title",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pdp-product-washing-title": {
+    "props": {
+      "text": "### Cuidados",
+      "blockClass": "pdp_product_description_title"
+    }
+  },
+  //?---- Content Acordion ----?//
+  "disclosure-content#pdp-product-washing-content": {
+    "children": [
+      // Contenido
+      "pdp-whasing-formatter"
+    ]
+  }
+}

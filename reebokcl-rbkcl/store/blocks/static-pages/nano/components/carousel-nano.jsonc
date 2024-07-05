@@ -1,0 +1,67 @@
+{
+      /*--------------------------------------------Shelf productos destacados nano ---------------------------------------*/
+    "flex-layout.row#component-shelf-productos-nano-destacados-title": {
+    "children": ["flex-layout.col#component-shelf-productos-nano-destacados-title"],
+    "props": {
+      "blockClass": [
+        "dekstop-component-shelf-productos-destacados-title",
+        "home-principal-row"
+      ]
+    }
+  },
+
+  "flex-layout.col#component-shelf-productos-nano-destacados-title": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "100%",
+      "blockClass": "component-shelf-productos-destacados-title"
+    },
+    "children": ["rich-text#component-shelf-productos-destacados-nano"]
+  },
+  "rich-text#component-shelf-productos-destacados-nano": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "## NANO X4",
+      "blockClass": ["rich-text-shelf-productos-destacados","component-shelf-productos-destacados-nano-title"],
+      "font": "t-heading-3"
+    }
+  },
+
+  "flex-layout.row#component-shelf-productos-nano-destacados": {
+    "children": [
+      "list-context.product-list#component-shelf-productos-nano-destacados"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": [
+        "component-shelf-productos-destacados",
+        "home-principal-row"
+      ]
+    }
+  },
+
+  "list-context.product-list#component-shelf-productos-nano-destacados": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#component-shelf-productos-destacados-nano"],
+    "props": {
+      "orderBy": "OrderByPriceDESC",
+      "maxItems": 10,
+      "collection": "561"
+    }
+  },
+
+  "slider-layout#component-shelf-productos-destacados-nano": {
+    "props": {
+      "blockClass": "wishlist_shelf",
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "flex-layout.row#home-desktop-hero-banners": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "desktopHome-main-carousel"
+    },
+    "children": ["slider-layout#home-desktop-hero-banners"]
+  },
+
+  "slider-layout#home-desktop-hero-banners": {
+    "props": {
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": ["desktopHome-main-carousel"]
+    },
+    "children": [
+    //"custom-banner#accesorios",
+    "custom-banner#floatzig",
+    "custom-banner#lostrepaired"
+    ]
+  },
+
+
+  /*----------------------------------------*/
+
+  //HERO BANNER - LIVE CLASSIC
+  "flex-layout.col#home-hero-banner-1": {
+    "props": {
+      "blockClass": ["main-desktopHome-carousel3", "hero-banner-txt-center"]
+    },
+    "children": [
+      "flex-layout.row#home-desktop-hero-banner",
+      "flex-layout.col#home-hero-banner-body"
+    ]
+  },
+
+  "flex-layout.col#home-mobile-hero-banner-1": {
+    "props": {
+      "blockClass": ["main-desktopHome-carousel3", "hero-banner-txt-center"]
+    },
+    "children": [
+      "flex-layout.row#home-mobile-hero-banner",
+      "flex-layout.col#home-hero-banner-body"
+    ]
+  },
+  "flex-layout.row#home-desktop-hero-banner": {
+    "props": {
+      "blockClass": "image-desktopHome-c3"
+    },
+    "children": ["image#home-desktop-hero-banner-1"]
+  },
+  "flex-layout.row#home-mobile-hero-banner": {
+    "props": {
+      "blockClass": "image-desktopHome-c3"
+    },
+    "children": ["image#home-mobile-hero-banner-1"]
+  },
+
+  "flex-layout.col#home-hero-banner-body": {
+    "props": {
+      "preventVerticalStretch": "true",
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "hero-banner-txt-center"
+      ]
+    },
+    "children": [
+      "flex-layout.row#home-hero-banner-text",
+      "flex-layout.row#home-hero-banner-cta"
+    ]
+  },
+
+  /* Banner 10 Mayo */
+  "flex-layout.col#home-hero-banner-2": {
+    "props": {
+      "blockClass": [
+        "main-desktopHome-carousel3",
+        "main-desktopHome-info-carousel3-new3"
+      ]
+    },
+    "children": [
+      "flex-layout.row#image-desktopHome-banner-2",
+      "flex-layout.col#home-hero-banner-body-2",
+      "flex-layout.row#buttons-legales"
+    ]
+  },
+
+  "flex-layout.row#image-desktopHome-banner-2": {
+    "props": {
+      "blockClass": "image-desktopHome-c3"
+    },
+    "children": ["image#home-desktop-hero-banner-2"]
+  },
+  "flex-layout.col#home-hero-banner-body-2": {
+    "props": {
+      "preventVerticalStretch": "true",
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "main-desktopHome-info-carousel3-new3"
+      ]
+    },
+    "children": [
+      //"flex-layout.row#home-hero-banner-text-baner-10-mayo"
+    ]
+  },
+  /*Mobile*/
+  "flex-layout.row#home-mobile-hero-banner-2": {
+    "props": {
+      "blockClass": "image-desktopHome-c3"
+    },
+    "children": ["image#home-mobile-hero-banner-2"]
+  },
+  "flex-layout.col#home-mobile-hero-banner-2": {
+    "props": {
+      "blockClass": [
+        "main-desktopHome-carousel3",
+        "main-desktopHome-info-carousel3-new3"
+      ]
+    },
+    "children": [
+      "flex-layout.row#home-mobile-hero-banner-2",
+      "flex-layout.col#home-hero-banner-body-2",
+      "flex-layout.row#buttons-legales"
+    ]
+  },
+  /*fn Banner 10 Mayo */
+  "flex-layout.row#home-hero-banner-text": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#home-hero-banner-text"]
+  },
+
+  "rich-text#home-hero-banner-text": {
+    "props": {
+      "blockClass": "body-rebook-tunes",
+      "text": "Impulsa la libertad en todas sus dimensiones"
+    }
+  },
+
+  /* Texto Banner 10 Mayo */
+  "flex-layout.row#home-hero-banner-text-baner-10-mayo": {
+    "props": {
+      "blockClass": ["body-desktopHome", "body-posicion-right"]
+    },
+    "children": ["flex-layout.col#home-hero-banner-text-baner-10-mayo"]
+  },
+  "flex-layout.col#home-hero-banner-text-baner-10-mayo": {
+    "props": {
+      "blockClass": ["body-desktopHome", "body-posicion-right"]
+    },
+    "children": [
+      "rich-text#home-hero-banner-text-banner-10-mayo",
+      "rich-text#home-hero-banner-sub-text-banner-10-mayo",
+      "flex-layout.row#home-hero-banner2-cta"
+    ]
+  },
+
+  "rich-text#home-hero-banner-sub-text-banner-10-mayo": {
+    "props": {
+      "blockClass": ["body-rebook-tunes", "txt-b2-right"],
+      "text": "Disfruta de hasta 30% de \n descuento en catálogo seleccionado"
+    }
+  },
+  "rich-text#home-hero-banner-text-banner-10-mayo": {
+    "props": {
+      "blockClass": ["titulo-rebook-tunes", "txt-b2-right"],
+      "text": "CELEBRAMOS LO \n QUE LAS MUEVE",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "flex-layout.row#home-hero-banner2-cta": {
+    "props": {
+      "blockClass": ["buttons-desktopHome", "buttons-desktopHome-flex"]
+    },
+    "children": ["flex-layout.col#home-hero-banner2-cta"]
+  },
+  "flex-layout.col#home-hero-banner2-cta": {
+    "props": {
+      "blockClass": "buttons-desktopHome-2"
+    },
+    "children": ["link#home-hero-banner-cta-2"]
+  },
+  "link#home-hero-banner-cta-2": {
+    "props": {
+      "href": "/diadelasmadres",
+      "label": "COMPRAR AHORA",
+      "blockClass": "buttons-desktopHome-2"
+    }
+  },
+  /*fn. Día de la madre*/
+  "flex-layout.row#home-hero-banner-cta": {
+    "props": {
+      "blockClass": ["buttons-desktopHome", "buttons-desktopHome-flex"]
+    },
+    "children": ["flex-layout.col#home-hero-banner-cta"]
+  },
+  "flex-layout.col#home-hero-banner-cta": {
+    "props": {
+      "blockClass": "buttons-desktopHome-2"
+    },
+    "children": ["link#home-hero-banner-cta"]
+  },
+  "link#home-hero-banner-cta": {
+    "props": {
+      "href": "/classics?order=OrderByPriceDESC",
+      "label": "COMPRAR AHORA",
+      "blockClass": "buttons-desktopHome-2"
+    }
+  },
+  /*link legales*/
+  "flex-layout.row#buttons-legales": {
+    "props": {
+      "blockClass": "buttons-desktopHome-legalesC"
+    },
+    "children": ["flex-layout.col#buttons-legales"]
+  },
+
+  "flex-layout.col#buttons-legales": {
+    "props": {
+      "blockClass": "buttons-desktopHome-legales"
+    },
+    "children": ["link#buttons-legales"]
+  },
+
+  "link#buttons-legales": {
+    "props": {
+      "href": "/legales-promociones",
+      "label": "*Aplican términos y condiciones",
+      "blockClass": "buttons-legales-main-banner"
+    }
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "store.custom#novedades-classics": {
+    "blocks": ["search-result-layout.customQuery#novedades-classics"]
+  },
+
+  "store.custom#club-c-classics": {
+    "blocks": ["search-result-layout.customQuery#club-c-classics"]
+  },
+
+  "store.custom#classic-leather": {
+    "blocks": ["search-result-layout.customQuery#classic-leather"]
+  },
+
+  "store.custom#classic-reebok-royal": {
+    "blocks": ["search-result-layout.customQuery#classic-reebok-royal"]
+  },
+
+  "store.custom#classics-ree-cycled": {
+    "blocks": ["search-result-layout.customQuery#classics-ree-cycled"]
+  },
+
+  "store.custom#classics-jurassic-world": {
+    "blocks": ["search-result-layout.customQuery#classics-jurassic-world"]
+  },
+
+  "store.custom#classic-peppa-pig": {
+    "blocks": ["search-result-layout.customQuery#classic-peppa-pig"]
+  },
+  "store.custom#classic-reebok-pride": {
+    "blocks": ["search-result-layout.customQuery#classic-reebok-pride"]
+  },
+  "store.custom#classics-novedades-sale": {
+    "blocks": ["search-result-layout.customQuery#classics-novedades-sale"]
+  },
+
+  "store.custom#classics-mujer-sale": {
+    "blocks": ["search-result-layout.customQuery#classics-mujer-sale"]
+  },
+
+  "store.custom#classics-hombre-sale": {
+    "blocks": ["search-result-layout.customQuery#classics-hombre-sale"]
+  },
+
+  "store.custom#classics-ninos-sale": {
+    "blocks": ["search-result-layout.customQuery#classics-ninos-sale"]
+  },
+  "store.custom#panini": {
+    "blocks": ["search-result-layout.customQuery#panini"]
+  },
+  "store.custom#smiley": {
+    "blocks": ["search-result-layout.customQuery#smiley"]
+  },
+  "store.custom#cardi": {
+    "blocks": ["search-result-layout.customQuery#cardi"]
+  },
+  "store.custom#finaldetemporada": {
+    "blocks": ["image#imagen-findetemporada","search-result-layout.customQuery#finaldetemporada"]
+  },
+
+  "search-result-layout.customQuery#classics-mujer-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "232",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classics-hombre-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "231",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classics-ninos-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "230",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classics-novedades-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "233",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classics-jurassic-world": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "200",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#classic-peppa-pig": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "269",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#classic-reebok-pride": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "202",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classics-ree-cycled": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "199",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classic-reebok-royal": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "203",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#classic-leather": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/classic-leather",
+        "mapField": "colección"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#club-c-classics": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "198",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#novedades-classics": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "197",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#panini": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "277",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#smiley": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "278",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#cardi": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "197",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#finaldetemporada": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "299",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "image#imagen-findetemporada": {
+    "props": {
+      "src":"https://reebokcl.vteximg.com.br/arquivos/SitePLP_asset_2007616_1920x480.jpg",
+      "blockClass": "imagen-findetemporada"      
+    }
+  }
+}

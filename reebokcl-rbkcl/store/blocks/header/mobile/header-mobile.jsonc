@@ -1,0 +1,287 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "modal-trigger#modal-subs",
+      "trigger-modal",
+      "image#whatsapp-business",
+      "back-to-top-button",
+      "sticky-layout#mobile",
+      "flex-layout.row#home-promotion-bar",
+      // "custom-banner-timer#header-contador",
+      "custom-banner-timer#pre-cyber",
+      "flex-layout.row#header-contador-Mob"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      // "flex-layout.row#header-guincha",
+      "flex-layout.row#topbar-mobile",
+      "flex-layout.row#mobile"],
+    "props": {
+      "blockClass": "sticky-header-mobile"
+    }
+  },
+
+  "flex-layout.row#topbar-mobile": {
+    "title": "Topbar editable [Mobile]",
+    "children": [
+      "notificacions-bar"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "topbar-anuncios"
+    }
+  },
+
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#header-mobile-drawer-button",
+      "flex-layout.col#header-mobile-logo",
+      "flex-layout.col#header-mobile-drawer-button-login",
+      "flex-layout.col#header-mobile-minicart"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#header-mobile-drawer-button-login": {
+    "children": ["vtex.store-drawer:drawer#search"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "drawer-search-icon"
+    }
+  },
+
+  "vtex.store-drawer:drawer#search": {
+    "children": ["flex-layout.row#content-search-mobile"],
+    "props": {
+      "blockClass": "container-drawer-search",
+      "slideDirection": "rightToLeft"
+    }
+  },
+
+  "flex-layout.row#content-search-mobile": {
+    "children": ["search-bar#trigger-mobile"],
+    "props": {
+      "width": "100%",
+      "blockClass": "content-search-mobile"
+    }
+  },
+
+  "search-bar#trigger-mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "Busca tu producto",
+      "blockClass": "trigger-mobile",
+      "attemptPageTypeSearch": true
+    }
+  },
+
+  "flex-layout.row#mobile-white-row": {
+    "children": [],
+    "props": {
+      "blockClass": "mobile-white-row",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  /*-----------------------------section drawer button --------------------------------------------------*/
+  "flex-layout.col#header-mobile-drawer-button": {
+    "children": ["reebokcl.mobile-drawers:drawer"],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
+  },
+  /*-------------------------------------Section login--------------------------*/
+  "flex-layout.col#header-mobile-login": {
+    "children": ["login#sticky-mobile"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "login#sticky-mobile": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      "blockClass": "sticky-mobile",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky-mobile"]
+  },
+
+  "icon-profile#sticky-mobile": {
+    "props": {
+      "size": 20,
+      "viewBox": "0 0 20 20"
+    }
+  },
+
+  "flex-layout.col#header-mobile-logo": {
+    "children": ["logo"],
+    "props": {
+      "width": "60%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "header-mobile-logo"
+    }
+  },
+
+  "flex-layout.col#header-mobile-minicart": {
+    "children": ["minicart.v2"],
+    "props": {
+      "width": "10%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "header-mobile-minicart"
+    }
+  },
+
+  "flex-layout.col#header-mobile-searchicon": {
+    "children": ["image#mobile-icono-search"],
+    "props": {
+      "width": "10%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "header-mobile-searchicon"
+    }
+  },
+  /*-------------------------------------Section Tiendas--------------------------*/
+  "flex-layout.col#header-mobile-tiendas": {
+    "children": ["image#tiendas"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "sticky-mobile-image"
+    }
+  },
+  /*-------------------------------------Section ayuda--------------------------*/
+  "flex-layout.col#header-mobile-ayuda": {
+    "children": ["image#ayuda"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "sticky-mobile-image"
+    }
+  },
+
+  "flex-layout.col#mobile-info-container": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": "mobile-info-container"
+    },
+    "children": [
+      "flex-layout.row#mobile-info-cuenta",
+      "flex-layout.row#mobile-info-favoritos",
+      "flex-layout.row#mobile-info-location",
+      "flex-layout.row#mobile-info-ayuda",
+      "rich-text#drawer-nosotros"
+      // "rich-text#drawer-rebook"
+    ]
+  },
+
+  "flex-layout.row#mobile-info-cuenta": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": ["mobile-info-cuenta", "mobile-info-row"]
+    },
+    "children": ["image#mobile-icono-login", "rich-text#drawer-mi-cuenta"]
+  },
+
+  "flex-layout.row#mobile-info-favoritos": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": ["mobile-info-favoritos", "mobile-info-row"]
+    },
+    "children": ["image#mobile-icono-whislist", "rich-text#drawer-favoritos"]
+  },
+
+  "flex-layout.row#mobile-info-location": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": ["mobile-info-location", "mobile-info-row"]
+    },
+    "children": ["image#mobile-icono-location", "rich-text#drawer-location"]
+  },
+
+  "flex-layout.row#mobile-info-ayuda": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": ["mobile-info-ayuda", "mobile-info-row"]
+    },
+    "children": ["image#mobile-icono-question", "rich-text#drawer-ayuda"]
+  },
+
+  "flex-layout.col#mobile-subchildren": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": "mobile-subchildren"
+    },
+    "children": [
+      "image#header-comprar-cardib",
+      "rich-text#header-comprar-cardib",
+      "image#header-comprar-nano",
+      "link#header-comprar-nano",
+      "image#header-size-finder",
+      "link#header-size-finder"
+    ]
+  },
+
+  "rich-text#drawer-mi-cuenta": {
+    "props": {
+      "text": "[Mi cuenta](/login?returnUrl=%2F)",
+      "blockClass": ["drawer-mi-cuenta", "drawer-submenu-texto"]
+    }
+  },
+
+  "rich-text#drawer-favoritos": {
+    "props": {
+      "text": "[Favoritos](/account/#/wishlist)",
+      "blockClass": ["drawer-mi-favoritos", "drawer-submenu-texto"]
+    }
+  },
+
+  "rich-text#drawer-location": {
+    "props": {
+      "text": "[Tiendas](/nuestras-tiendas)",
+      "blockClass": ["drawer-mi-location", "drawer-submenu-texto"]
+    }
+  },
+
+  "rich-text#drawer-ayuda": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass": ["drawer-mi-ayuda", "drawer-submenu-texto"]
+    }
+  },
+
+  "rich-text#drawer-nosotros": {
+    "props": {
+      "text": "[Nosotros](/nosotros)",
+      "blockClass": ["drawer-mi-nosotros", "drawer-submenu-texto"]
+    }
+  },
+
+  "rich-text#drawer-rebook": {
+    "props": {
+      "text": "Rebook unlocked",
+      "blockClass": ["drawer-mi-rebook", "drawer-submenu-texto"]
+    }
+  }
+}

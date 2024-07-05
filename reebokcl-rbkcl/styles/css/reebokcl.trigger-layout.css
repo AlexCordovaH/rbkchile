@@ -1,0 +1,9 @@
+/* Search bar */
+
+.layoutContainer--active {
+    display: block;
+}
+
+.layoutContainer--inactive {
+    visibility: hidden; 
+}

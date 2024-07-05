@@ -1,0 +1,49 @@
+{
+    "store.custom#training-days": {
+        "blocks": [
+            "flex-layout.row#training-banner",
+            "search-result-layout.customQuery#training-days"
+        ]
+    },
+    //BANNER TRAINING DAYS
+    "flex-layout.row#training-banner": {
+        "children": ["rich-text#training-banner-text-2"],
+        "props": {
+            "blockClass": ["text-promocion"]
+        }
+    },
+    "rich-text#training-banner-text-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Entrena como los más FIT del mundo",
+            "blockClass": "text-promocion"
+        }
+    },
+    "rich-text#training-banner-text-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "#### Aprovecha hasta 60% de descuento en catálogo de Entrenamiento Funcional, incluye Nano.",
+            "blockClass": "subtitle-text-promocion"
+        }
+    },
+
+    "search-result-layout.customQuery#training-days": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 18,
+                "queryField": "419",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

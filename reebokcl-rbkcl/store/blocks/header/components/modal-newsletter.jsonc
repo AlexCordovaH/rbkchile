@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#modal-subs": {
+        "children": ["flex-layout.col#modal-subs"]
+      },
+      "flex-layout.col#modal-subs": {
+        "children": ["modal-trigger#modal-subs"]
+      },
+      "modal-trigger#modal-subs": {
+        "props": {
+          "customPixelEventName": "ModalNewsletter"
+        },
+        "children": ["modal-layout#newsletter-layout-footer"]
+      }
+}

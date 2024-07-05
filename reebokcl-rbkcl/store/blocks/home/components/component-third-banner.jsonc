@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#desktopHome-third-row-images": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "container-third-row-images",
+            "marginBottom": 4
+        },
+        "children": ["flex-layout.row#desktopHome-third-row-of-images"]
+    },
+    "flex-layout.row#desktopHome-third-row-of-images": {
+        "children": [
+            "info-card#desktopHome-first-image",
+            "info-card#desktopHome-second-image",
+            "info-card#desktopHome-third-image"
+        ]
+    },
+    "info-card#desktopHome-first-image": {
+        "props": {
+            "id": "info-card-one",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            // "callToActionText": "MUJER",
+            // "callToActionUrl": "/mujer",
+            // "imageUrl": "https://reebokcol.vteximg.com.br/arquivos/Stack-Mujer.jpg",
+            // "imageActionUrl": "/mujer",
+            "callToActionText": "MUJER",
+            "callToActionUrl": "/mujer",
+            "imageUrl": "https://reebokcl.vtexassets.com/assets/vtex.file-manager-graphql/images/cd6395be-e4fa-4351-a102-e41a646de858___8f94720d76db17a49eb82ff3043f5652.jpg",
+            "imageActionUrl": "/mujer",
+
+            "blockClass": ["info-card-third-row", "info-card-third-row-one"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#desktopHome-second-image": {
+        "props": {
+            "id": "info-card-two",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            // "callToActionText": "HOMBRE",
+            // "callToActionUrl": "/hombre",
+            // "imageUrl": "https://reebokcol.vteximg.com.br/arquivos/Stack-Hombre.jpg",
+            // "imageActionUrl": "/hombre",
+            "callToActionText": "HOMBRE",
+            "callToActionUrl": "/hombre",
+            "imageUrl": "https://reebokcl.vtexassets.com/assets/vtex.file-manager-graphql/images/9decc2e9-b5db-49af-ba93-7cda9180cb4d___ecbdf9d018b3b325f4ea46753756411f.jpg",
+            "imageActionUrl": "/hombre",
+            "blockClass": ["info-card-third-row", "info-card-third-row-two"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#desktopHome-third-image": {
+        "props": {
+            "id": "info-card-three",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            // "callToActionText": "NIÑOS",
+            // "callToActionUrl": "/ninos",
+            // "imageUrl":"https://reebokcol.vteximg.com.br/arquivos/Stack-Ninos.jpg",
+            // "imageActionUrl": "/ninos",
+            "callToActionText": "NIÑOS",
+            "callToActionUrl": "/ninos",
+            "imageUrl":"https://reebokcl.vtexassets.com/assets/vtex.file-manager-graphql/images/8a1c9634-4a1e-49b4-be9c-d0d4ea2d638d___7ad08ea4f7b6b7c8dff32a02fe979f4f.jpg",
+            "imageActionUrl": "/ninos",
+            "blockClass": ["info-card-third-row", "info-card-third-row-three"],
+            "textAlignment": "center"
+        }
+    }
+}

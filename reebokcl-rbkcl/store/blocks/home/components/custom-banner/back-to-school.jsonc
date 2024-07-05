@@ -1,0 +1,59 @@
+{
+    "custom-banner#back-to-school": {
+    "title": "main-banner",
+    "props": {
+        "desktopBgImageUrl": "/arquivos/Hero-Banner-BackToSchool-Desktop.jpg",
+        "phoneBgImageUrl": "/arquivos/HeroBannerBackToSchoolMobile.jpg",
+        "headlines": [
+        {
+        "type": "headline",
+        "text": "A CLASES CON TODO",
+        "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite",
+            "phone": "banner-headline-bottom cWhite"
+        }
+        },
+        {
+        "type": "copy",
+        "text": "Prepárate para el regreso a clases",
+        "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+        }
+        },
+        {
+        "type": "copy",
+        "text": "y lleva todo lo que necesitas",
+        "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+        }
+        }
+    ],
+    "buttons": {
+        "CTAs": [
+        {
+            "label": "COMPRAR AHORA",
+            "link": "/ESCOLARES",
+            "sx": {
+            "desktop": "mt2 fs80 mr1",
+            "tablet": "mt5 fs70",
+            "phone": "mt5 mr17 fs70"
+            }
+        }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+    },
+    "sx": {
+        "desktop": "relative t38 tar",
+        "tablet": "relative t25 tar",
+        "phone": "relative t60 tac"
+    }
+    }
+    }
+}
+    

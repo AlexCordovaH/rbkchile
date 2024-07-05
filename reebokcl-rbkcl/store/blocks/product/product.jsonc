@@ -1,0 +1,18 @@
+{
+  "store.product": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-products",
+      "responsive-layout.phone#mobile-product",
+      "responsive-layout.tablet#tablet-product"
+    ]
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "text": "Añadir al carrito",
+      "unavailableText": "No disponible"
+    }
+  }
+}
+
+

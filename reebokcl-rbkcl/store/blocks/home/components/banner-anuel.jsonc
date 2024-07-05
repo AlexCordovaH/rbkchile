@@ -1,0 +1,122 @@
+{
+    "flex-layout.col#banner-anuel-promotion-desktop": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktopHome-anuel",
+            "flex-layout.col#main-desktopHome-info-carousel-anuel"
+        ]
+    },
+    "flex-layout.row#image-desktopHome-anuel": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-anuel"
+        ]
+    },
+    "flex-layout.col#main-desktopHome-info-carousel-anuel": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-desktopHome-info-carousel3",
+                "main-desktopHome-info-anuel"
+            ]
+        },
+        "children": [
+            "flex-layout.row#titulo-desktopHome",
+            "flex-layout.row#body-desktopHome",
+            "flex-layout.row#buttons-desktopHome"
+        ]
+    },
+    "flex-layout.row#titulo-desktopHome": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-rebook-tunes"
+        ]
+    },
+    "flex-layout.row#body-desktopHome": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-rebook-tunes"
+        ]
+    },
+
+    "flex-layout.row#body-mobileHome-Anuel": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-rebook-tunes-anuel"
+        ]
+    },
+    
+    "flex-layout.row#buttons-desktopHome": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#buttons-desktopHome"
+        ]
+    },
+    "flex-layout.col#buttons-desktopHome": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2",
+                "buttons-desktopHome-container",
+                "buttons-desktopHome-container-anuel"
+            ]
+        },
+        "children": [
+            "link#buttons-desktopHome"
+        ]
+    },
+    "link#buttons-desktopHome": {
+        "props": {
+            "href": "/zapatillas-anuel-classic-leather-unisex-100048337/p",
+            "label": "VER PRODUCTO",
+            "blockClass": [
+                "buttons-desktopHome-2", 
+                "buttons-desktopHome-anuel"
+            ]
+        }
+    },
+    "rich-text#titulo-rebook-tunes": {
+        "props": {
+            "blockClass": [
+                "titulo-rebook-tunes",
+                "titulo-rebook-anuel"
+            ],
+            "text": "# Reebok X Anuel",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-rebook-tunes": {
+        "props": {
+            "blockClass": [
+                "body-rebook-tunes",
+                "body-rebook-anuel"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Nuestras Classic Leather inspiradas en la historia \n del rapero Puertorriqueño Anuel. \n"
+        }
+    },
+    "rich-text#body-rebook-tunes-anuel": {
+        "props": {
+            "blockClass": [
+                "body-rebook-tunes",
+                "body-rebook-anuel"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Nuestras Classic Leather inspiradas en la historia del rapero Puertorriqueño Anuel. \n"
+        }
+    }
+}

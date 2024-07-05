@@ -1,0 +1,435 @@
+{
+    "store.custom#landing-cyber": {
+        "blocks": [
+            "responsive-layout.desktop#landing-cyber",
+            "responsive-layout.mobile#landing-cyber"
+        ]
+    },
+    "responsive-layout.desktop#landing-cyber":{
+        "children":[
+            "flex-layout.row#container-landing-cyber-desktop",
+            "back-to-top-button"
+        ]
+    },
+
+    "responsive-layout.mobile#landing-cyber":{
+        "children":[
+            "flex-layout.row#container-landing-cyber-mobile",
+            "back-to-top-button"
+        ]
+    },
+
+    "flex-layout.row#container-landing-cyber-mobile":{
+        "children": [
+            "custom-banner#cyber-2024",
+            "rich-text#title-landing-cyber",
+            "flex-layout.row#categories-cyber",
+            "rich-text#title-registro-cyber",
+            "rich-text#subtitle-registro-cyber",
+            "flex-layout.row#registro-cyber",
+            "flex-layout.row#container-preguntas-frecuentes-cyber"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "container-landing-cyber",
+            "marginTop": 6
+        }
+    },
+
+    "flex-layout.row#container-landing-cyber-desktop":{
+        "children": [
+            "custom-banner#cyber-2024",
+            "rich-text#title-landing-cyber",
+            "flex-layout.row#categories-cyber",
+            "rich-text#title-registro-cyber",
+            "rich-text#subtitle-registro-cyber",
+            "flex-layout.row#registro-cyber",
+            "flex-layout.row#container-preguntas-frecuentes-cyber"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "container-landing-cyber",
+            "marginTop": 6
+        }
+    },
+
+    "rich-text#title-landing-cyber":{
+        "props":{
+            "text": "# ¡Prepara tu bolsa con nuestras categorías!",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "title-landing-cyber"
+        }
+    },
+
+    "flex-layout.col#image-2023":{
+        "children": ["image#landing-cyber-2023"],
+        "props": {
+            "width": "100%",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "col-image"
+        }
+    },
+
+    "image#landing-cyber-2023": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-Desktop-Sin-Logo.jpg",
+            "blockClass": "image-landing-cyber-banner",
+            "alt":"Reebok CL - Cyber monday 2023"
+            /* "link":{
+                "url": "#id-form-cyberg",
+                "newTab": true
+            } */
+        }
+    },
+
+    "flex-layout.col#image-mobile-2023":{
+        "children": ["image#landing-cyber-mobile"],
+        "props": {
+            "width": "100%",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "col-image"
+        }
+    },
+
+    "image#landing-cyber-mobile": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-Mobile-Sin-Logo.jpg",
+            "blockClass": "image-landing-cyber-banner",
+            "alt":"Reebok CL - Cyber monday 2023"
+            /* "link":{
+                "url": "",
+                "newTab": true
+            } */
+        }
+    },
+    
+    "custom-banner#cyber-2024": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/Cyber-Day-Reebok-Desktop-Sin-Logo.jpg",
+          "phoneBgImageUrl": "/arquivos/Cyber-Day-Reebok-Mobile-Sin-Logo.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "¡Espera el próximo Cyber!",
+              "sx": {
+                "desktop": " banner-headline-bottom ml2 cWhite",
+                "tablet": "banner-headline-bottom ml2 cWhite",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Entérate aquí sobre los mejores descuentos",
+              "sx": {
+                "desktop": "banner-copy ml2 cWhite",
+                "tablet": "banner-copy ml2 cWhite",
+                "phone": "banner-copy mt3 cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "CONOCER MÁS",
+                "link": "/outlet?page=1",
+                "color": "white",
+                "sx": {
+                  "desktop": "ml2 mt2",
+                  "tablet": "ml3 mt3",
+                  "phone": "ml24 mt5"
+                }
+              }
+            ]
+          },
+          "sx": {
+            "desktop": "relative t40 ",
+            "tablet": "relative t30 ",
+            "phone": "relative t67 tac "
+          }
+        }
+      },
+
+    "flex-layout.row#categories-cyber":{
+        "children":[
+            "flex-layout.row#cyber-category-1",
+            "flex-layout.row#cyber-category-2",
+            "flex-layout.row#cyber-category-3"
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "categories-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+
+    "flex-layout.row#cyber-category-1":{
+        "children":[
+            /* "image#cyber-category-1", */"info-card#cyber-category-1"
+
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "categories-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+    "info-card#cyber-category-1": {
+        "props": {
+            "id": "info-card-one",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "callToActionText": "MUJER",
+            "callToActionUrl": "/mujer?order=OrderByPriceDESC&page=1",
+            "imageUrl": "/arquivos/Cyber-Day-Reebok-500x500-Women.jpg",
+            "imageActionUrl": "/mujer?order=OrderByPriceDESC&page=1",
+            "blockClass": ["info-card-third-row", "info-card-cyber", "info-card-third-row-one"],
+            "textAlignment": "center"
+        }
+    },
+
+    "image#cyber-category-1": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-500x500-Women.jpg",
+            "blockClass": "image-landing-cyber",
+            "alt":"Mujer",
+            "link":{
+                "url": "/mujer?order=OrderByPriceDESC&page=1",
+                "newTab": true
+            }
+        }
+    },
+    
+    "flex-layout.row#cyber-category-2":{
+        "children":[
+            /* "image#cyber-category-2" */"info-card#cyber-category-2"
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "categories-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+    "info-card#cyber-category-2": {
+        "props": {
+            "id": "info-card-one",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "callToActionText": "HOMBRE",
+            "callToActionUrl": "/hombre?order=OrderByPriceDESC&page=1",
+            "imageUrl": "/arquivos/Cyber-Day-Reebok-500x500-Men.jpg",
+            "imageActionUrl": "/hombre?order=OrderByPriceDESC&page=1",
+            "blockClass": ["info-card-third-row", "info-card-cyber", "info-card-third-row-two"],
+            "textAlignment": "center"
+        }
+    },
+
+    "image#cyber-category-2": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-500x500-Men.jpg",
+            "blockClass": "image-landing-cyber",
+            "alt":"Hombre",
+            "link":{
+                "url": "/hombre?order=OrderByPriceDESC&page=1",
+                "newTab": true
+            }
+        }
+    },
+    
+    "flex-layout.row#cyber-category-3":{
+        "children":[
+            /* "image#cyber-category-3" */"info-card#cyber-category-3"
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "categories-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+    "info-card#cyber-category-3": {
+        "props": {
+            "id": "info-card-one",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "callToActionText": "NIÑOS",
+            "callToActionUrl": "/ninos?order=OrderByPriceDESC&page=1",
+            "imageUrl": "/arquivos/Cyber-Day-Reebok-500x500-Kids.jpg",
+            "imageActionUrl": "/ninos?order=OrderByPriceDESC&page=1",
+            "blockClass": ["info-card-third-row", "info-card-cyber", "info-card-third-row-three"],
+            "textAlignment": "center"
+        }
+    },
+    
+    "image#cyber-category-3": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-500x500-Kids.jpg",
+            "blockClass": "image-landing-cyber",
+            "alt":"Niños",
+            "link":{
+                "url": "/ninos?order=OrderByPriceDESC&page=1",
+                "newTab": true
+            }
+        }
+    },
+
+    "flex-layout.row#registro-cyber":{
+        "children":[
+            
+            "flex-layout.row#cyber-registro-1",
+            "flex-layout.row#cyber-actualiza-2"
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "sign-in-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+    "rich-text#title-registro-cyber":{
+        "props":{
+            "text": "# Regístrate y actualiza tus datos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text-titles-cyber"
+        }
+    },
+
+    "rich-text#subtitle-registro-cyber":{
+        "props":{
+            "text": "## ¡Se el primero en enterarte de nuestras novedades!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text-titles-cyber"
+        }
+    },
+
+
+    "flex-layout.row#cyber-registro-1":{
+        "children":[
+            "image#cyber-registro-1",
+            "rich-text#cyber-registro-1"
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "registro-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+    "image#cyber-registro-1": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-Icono-Registrate.png",
+            "blockClass": "image-landing-cyber-registro",
+            "alt":"Registro",
+            "link":{
+                "url": "/newsletter",
+                "newTab": true
+            }
+        }
+    },
+
+    "rich-text#cyber-registro-1":{
+        "props": {
+            "text": "[Regístrate](https://www.reebok.cl/newsletter)",
+            "blockClass": "text-cyber-registro",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    "flex-layout.row#cyber-actualiza-2":{
+        "children":[
+            "image#cyber-actualiza-2",
+            "rich-text#cyber-actualiza-2"
+        ],
+        "props":{
+            "fullWidth": true,
+            "blockClass": "registro-cyber",
+            "horizontalAlign": "between",
+            "preventHorizontalStretch": false,
+            "marginTop": 4
+        }
+    },
+
+    "image#cyber-actualiza-2": {
+        "props": {
+            "src": "/arquivos/Cyber-Day-Reebok-Icono-Actualiza.png",
+            "blockClass": "image-landing-cyber-registro",
+            "alt":"Actualiza",
+            "link":{
+                "url": "https://www.reebok.cl/login?returnUrl=%2Fnewsletter",
+                "newTab": true
+            }
+        }
+    },
+
+    "rich-text#cyber-actualiza-2":{
+        "props": {
+            "text": "[Actualiza tus datos](https://www.reebok.cl/login?returnUrl=%2Fnewsletter)",
+            "blockClass": "text-cyber-registro",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+
+    
+    //banner negro
+    // "flex-layout.row#container-banner": {
+    //     "children": ["rich-text#plp-text-1", "rich-text#plp-text-2"],
+    //     "props": {
+    //         "blockClass": ["text-promocion"]
+    //     }
+    // },
+    // "rich-text#plp-text-1": {
+    //     "props": {
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "text": "¡COMENZÓ EL CYBER DAY!",
+    //         "blockClass": "text-promocion"
+    //     }
+    // },
+    // "rich-text#plp-text-2": {
+    //     "props": {
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "text": "#### Disfruta de hasta 60% de descuento en catálogo seleccionado.",
+    //         "blockClass": "subtitle-text-promocion"
+    //     }
+    // },
+
+    /* "search-result-layout.customQuery#cyber-day": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "372", //Cyber 372
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category-cyber",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    } */
+}

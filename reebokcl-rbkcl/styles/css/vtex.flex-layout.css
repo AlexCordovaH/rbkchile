@@ -1,0 +1,796 @@
+/*-----PLP------------*/
+:global(.vtex-flex-layout-0-x-flexRowContent--container-order-and-filter-mobile){
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-order-and-filter-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--plp-menu-subcategoria) {
+  background-image: url(https://reebokcol.vteximg.com.br/arquivos/background-plp.jpg);
+  background-size: cover;
+  background-position-y: 85px;
+  background-repeat: no-repeat;
+  margin-bottom: 1.5rem;
+}
+/*---------------------*/
+/*--------PDP-----------*/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-row-product-pdp)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-component-accordion-principal) {
+  margin: 0 0 0 1rem;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-row-product-pdp)
+  :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+  padding: 0.5rem 60px 0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-name) {
+  margin-bottom: 1rem;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  padding-top: 0.25em;
+  position: absolute;
+  border: 1px solid black;
+  top: 0.2rem;
+  left: 0.2rem;
+  z-index: 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--guia-tallas-col) {
+  margin-top: 1rem;
+}
+
+/*----------------------------*/
+.flexRow--product-wishlist-button {
+  position: absolute;
+  left: 85%;
+  max-width: 480px;
+  padding: 10px;
+  width: 100%;
+  top: 0;
+}
+
+.flexRowContent--product-wishlist-button {
+  padding: 10px;
+}
+.flexRowContent--product-wishlist-button
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
+  :global(.vtex-button) {
+  opacity: 0;
+}
+.flexRowContent--product-wishlist-button
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
+  :global(.vtex-button):hover {
+  background: transparent;
+}
+.flexRowContent--product-wishlist-button
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
+  :global(.vtex-button__label) {
+  padding: 0;
+  margin: 0;
+  display: contents;
+}
+
+/**-----PDP-----**/
+/**--------------------------------**/
+/**-----PDP - Wrapper Description----**/
+:global(.vtex-flex-layout-0-x-flexRow--pdp-component-accordion-principal)
+  :global(.vtex-store-components-3-x-container) {
+  margin: 0 auto;
+  padding: 0 !important;
+}
+:global(.vtex-flex-layout-0-x-flexCol--pdp-component-accordion-principal) {
+  margin-top: 40px;
+  max-width: 50rem;
+}
+/**-----PDP - Wrapper Description content----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--pdp-component-accordion-principal)
+  :global(.vtex-disclosure-layout-1-x-content--visible) {
+  display: block;
+  width: 100%;
+  max-width: 66rem;
+  margin: 0 auto;
+}
+/**-----PDP - Description title Wrapper----**/
+:global(.vtex-disclosure-layout-1-x-trigger--pdp_product_description_title) {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 66rem;
+  padding: 24px 0;
+  align-items: center;
+  margin: 0 auto 0 !important;
+  border-top: none;
+  border-bottom: 1px solid #d1d1d1 !important;
+  border-left: none !important;
+  border-right: none !important;
+  cursor: pointer;
+}
+
+/**-----Borders titles-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-component-accordion-principal)
+  :global(
+    .vtex-disclosure-layout-1-x-trigger--pdp_product_description_title
+  ):first-child {
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+}
+/**-----PDP - Description title Wrapper is active----**/
+:global(.vtex-disclosure-layout-1-x-trigger--visible) {
+  border-bottom: none !important;
+}
+/**-----PDP - title text description-----**/
+:global(.vtex-rich-text-0-x-headingLevel3--pdp_product_description_title) {
+  margin: 0 !important;
+  font-size: 14px;
+  color: #000000;
+  font-family: "NeuePlak-Regular";
+  font-weight: 600;
+}
+/*?---- Landing Institucionales (LI)----?*/
+/*?---- Preguntas frecuentes(PF) ----?*/
+
+/**-----LI - Landing Layout-----**/
+:global(.vtex-flex-layout-0-x-flexRow--landing_institucional_wrapper) {
+  margin: 0 5.25rem 80px 5.25rem !important;
+}
+/**-----LI - Wrapper all-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--landing_institucional_wrapper) {
+  margin: 0;
+  max-width: 1760px;
+}
+/**-----LI - Menu Links-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--landing_institucional_wrapper)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 12rem !important;
+  margin: 2.4375rem 8.25rem 0 0;
+}
+/**-----LI - Questions Wrapper-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--landing_institucional_wrapper)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(0n + 2) {
+  width: calc(88% - 192px) !important;
+}
+/**-----LI - Question Trigger-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+  :global(.vtex-disclosure-layout-1-x-trigger) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  border-bottom: 1px solid #d1d1d1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px 20px 20px 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+  :global(.vtex-disclosure-layout-1-x-trigger):first-child {
+  border-top: 1px solid #d1d1d1;
+}
+/**-----LI - Wrapper Questions-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+  :global(.vtex-disclosure-layout-1-x-content--visible) {
+  padding: 0 1.5rem;
+}
+/**-----LI - Wrapper Questions is Active-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+  :global(.vtex-disclosure-layout-1-x-trigger--visible) {
+  border-bottom: none !important;
+}
+
+/**-----LI - Title h1-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+  :global(.vtex-rich-text-0-x-headingLevel1--landing_inst_content_text) {
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  margin: 0;
+  color: #121212;
+  font-size: 2.5rem !important;
+  margin: 2.4375rem 0 3rem !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+  :global(.vtex-rich-text-0-x-headingLevel2--landing_inst_content_text) {
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  margin: 0;
+  color: #121212;
+  font-size: 2rem !important;
+  margin: 0 !important;
+}
+
+/**-----PF - Title Question Acordion h2-----**/
+:global(.vtex-disclosure-layout-1-x-trigger--landing_pf_question)
+  :global(.vtex-rich-text-0-x-headingLevel2--pf_title_acordion) {
+  font-size: 1.125rem !important;
+  margin: 0;
+  color: #121212;
+}
+/**-----LI - title question h3-----**/
+:global(.vtex-rich-text-0-x-headingLevel3--landing_inst_content_text) {
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem;
+  margin: 32px 0 16px;
+  color: #121212;
+  font-weight: 700 !important;
+}
+/**-----LI - title question h4-----**/
+:global(.vtex-rich-text-0-x-headingLevel4--landing_inst_content_text) {
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem;
+  margin: 0;
+  color: #121212;
+  font-weight: bold;
+}
+/**-----LI - text-----**/
+:global(.vtex-rich-text-0-x-paragraph--landing_inst_content_text) {
+  font-size: 1rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  /* line-height: 1rem;
+letter-spacing: 0.0125rem; */
+  color: #121212;
+}
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_text_underline) {
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+}
+/**-----LI - text with decoration underline-----**/
+:global(.vtex-rich-text-0-x-strong--landing_inst_content_text_underline) {
+  text-decoration: underline;
+  font-weight: 400 !important;
+}
+/**-----LI - link text-----**/
+:global(.vtex-rich-text-0-x-link--landing_inst_content_text) {
+  color: #121212;
+  text-decoration: none;
+  font-weight: bold;
+  word-break: break-all;
+}
+:global(.vtex-rich-text-0-x-link--landing_inst_content_text):hover {
+  text-decoration: underline;
+}
+
+/**-----LI - List and sublist normal-----**/
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_normal),
+:global(.vtex-rich-text-0-x-listOrdered--landing_inst_content_list_normal),
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_sublist_normal),
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_number),
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_letter) {
+  list-style-type: disc;
+  font-size: 1rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  color: #121212;
+  line-height: 1.5;
+}
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_roman)
+  :global(.vtex-rich-text-0-x-list--landing_inst_content_list_normal)
+  :global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_normal) {
+  list-style-type: disc;
+  font-size: 1rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  color: #121212;
+  line-height: 1.5;
+}
+/**-----LI - List and sublist normal-----**/
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_letter) {
+  list-style-type: lower-alpha !important;
+}
+/**-----LI - List number decimal-----**/
+:global(.vtex-rich-text-0-x-listOrdered--landing_inst_content_list_number)
+  :global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_number) {
+  list-style-type: decimal !important;
+  line-height: 1.5;
+}
+/**-----LI - List number roman-----**/
+:global(.vtex-rich-text-0-x-listOrdered--landing_inst_content_list_roman)
+  :global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_roman) {
+  list-style-type: lower-roman;
+  font-size: 1rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  color: #121212;
+  line-height: 1.5;
+}
+
+:global(.vtex-rich-text-0-x-listItem--landing_inst_content_list_number)
+  :global(.vtex-rich-text-0-x-listItem--landing_inst_content_sublist_letter) {
+  list-style-type: lower-alpha !important;
+}
+/**-----LI - items menu left-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_wrapper_menu)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0 0 16px 0 !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+}
+/**-----LI - title menu left-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_wrapper_menu)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem):first-child
+  :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0 0 24px 0 !important;
+  font-size: 18px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--landing_inst_wrapper_menu)
+  :global(.vtex-menu-2-x-styledLinkContent--title-menu-footer) {
+  margin: 0 !important;
+  font-size: 18px !important;
+}
+/**-----LI - item menu is active-----**/
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-landing-desktop-isActive) {
+  font-weight: bold !important;
+}
+/**-----LI - Table DESKTOP/MOBILE-----**/
+:global(.vtex-rich-text-0-x-table--landing_inst_content_table_desktop),
+:global(.vtex-rich-text-0-x-table--landing_inst_content_table_mobile),
+:global(.vtex-rich-text-0-x-table--landing_inst_content_table_mobile_2) {
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.0125rem;
+  color: #121212;
+}
+/**-----LI - Table header DESKTOP-----**/
+:global(.vtex-rich-text-0-x-tableTh--landing_inst_content_table_desktop) {
+  font-weight: bold;
+}
+/**-----LI - Table header MOBILE-----**/
+:global(.vtex-rich-text-0-x-tableHead--landing_inst_content_table_mobile),
+:global(.vtex-rich-text-0-x-tableHead--landing_inst_content_table_mobile_2) {
+  display: none;
+}
+/**-----LI - Table borders DESKTOP-----**/
+:global(.vtex-rich-text-0-x-tableHead--landing_inst_content_table_desktop),
+:global(.vtex-rich-text-0-x-tableTh--landing_inst_content_table_desktop),
+:global(.vtex-rich-text-0-x-tableTd--landing_inst_content_table_desktop) {
+  border: none;
+}
+
+/**-----LI - Table th and td DESKTOP-----**/
+:global(.vtex-rich-text-0-x-tableTh--landing_inst_content_table_desktop),
+:global(.vtex-rich-text-0-x-tableTd--landing_inst_content_table_desktop) {
+  padding: 1rem;
+}
+/**-----LI - Table th and td MOBILE-----**/
+:global(.vtex-rich-text-0-x-tableTh--landing_inst_content_table_mobile),
+:global(.vtex-rich-text-0-x-tableTh--landing_inst_content_table_mobile_2),
+:global(.vtex-rich-text-0-x-tableTd--landing_inst_content_table_mobile),
+:global(.vtex-rich-text-0-x-tableTd--landing_inst_content_table_mobile_2) {
+  padding: 0.75rem;
+}
+/**-----LI - Table td impar DESKTOP-----**/
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_desktop)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(even),
+:global(.vtex-rich-text-0-x-tableHead--landing_inst_content_table_desktop)
+  :global(.vtex-rich-text-0-x-tableTr) {
+  background: #f7f7f7;
+}
+/**-----LI - Table MOBILE-----**/
+:global(.vtex-rich-text-0-x-table--landing_inst_content_table_mobile_2),
+:global(.vtex-rich-text-0-x-table--landing_inst_content_table_mobile) {
+  width: 100% !important;
+}
+/**-----LI - Table td 4 in 4 MOBILE-----**/
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile)
+  :global(.vtex-rich-text-0-x-tableTr)
+  :global(
+    .vtex-rich-text-0-x-tableTd--landing_inst_content_table_mobile
+  ):first-child {
+  font-weight: bold;
+}
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(-n + 4),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(8n + 1),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(8n + 2),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(8n + 3),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(8n + 4) {
+  background: #f7f7f7;
+}
+/**-----LI - Table td 3 in 3 MOBILE-----**/
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile_2)
+  :global(.vtex-rich-text-0-x-tableTr)
+  :global(
+    .vtex-rich-text-0-x-tableTd--landing_inst_content_table_mobile_2
+  ):first-child {
+  font-weight: bold;
+}
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile_2)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(-n + 3),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile_2)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(6n + 1),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile_2)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(6n + 2),
+:global(.vtex-rich-text-0-x-tableBody--landing_inst_content_table_mobile_2)
+  :global(.vtex-rich-text-0-x-tableTr):nth-child(6n + 3) {
+  background: #f7f7f7;
+}
+/**-----PAGE NOT FOUND AND 404-----**/
+/**----------------------------------------------------**/
+
+/**-----PAGE NOT FOUND AND 404 -  Wrapper-----**/
+:global(.vtex-flex-layout-0-x-flexCol--content_not_found) {
+  padding-top: 1rem;
+  margin: 0 5rem 7.5rem;
+}
+/**-----PAGE NOT FOUND AND 404 - Breadcrumb-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--content_not_found)
+  :global(.vtex-breadcrumb-1-x-container) {
+  padding-left: 0.25rem;
+}
+/**-----PAGE NOT FOUND AND 404 -  illustration not found-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--content_not_found)
+  :global(.vtex-store-components-3-x-imageElement) {
+  margin: 1rem auto 0 !important;
+  display: block !important;
+}
+/**-----PAGE NOT FOUND AND 404 -  title h1 404-----**/
+:global(.vtex-rich-text-0-x-headingLevel1--not_found_title) {
+  font-family: "NeuePlak-Bold" !important;
+  font-size: 2.5rem;
+  margin: 3.25rem 0 1.5rem !important;
+  color: #121212;
+}
+/**-----PAGE NOT FOUND AND 404 -  title h1 404-----**/
+:global(.vtex-rich-text-0-x-italic--not_found_title) {
+  font-style: normal !important;
+  font-size: 2rem !important;
+}
+/**-----PAGE NOT FOUND AND 404 -  text content-----**/
+:global(.vtex-rich-text-0-x-paragraph--not_found_txt) {
+  font-size: .9rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  line-height: 1.375rem;
+  margin: 0 0 5px !important;
+  color: #121212;
+}
+/**-----PAGE NOT FOUND AND 404 -  btn go to back-----**/
+:global(.vtex-store-link-0-x-buttonLink--btn_not_found_go_to_back) {
+  display: block;
+  width: fit-content;
+  margin: 0 auto !important;
+  font-family: "NeuePlak-SemiBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+  letter-spacing: 0.0313rem;
+  color: #ffffff;
+  order: 0;
+  flex-grow: 1;
+  text-decoration: none;
+  background: #121212;
+  padding: 0.875rem 1.25rem;
+  border-radius: 3.125rem;
+  text-transform: none !important;
+}
+/**-----PAGE NOT FOUND AND 404 -  btn go to back hover effect-----**/
+:global(.vtex-store-link-0-x-buttonLink--btn_not_found_go_to_back):hover {
+  background: #244486 !important;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1284px) {
+  /**-----PDP - Wrapper Description----**/
+  :global(.vtex-flex-layout-0-x-flexRow--pdp-component-accordion-principal)
+    :global(.vtex-store-components-3-x-container) {
+    margin: 0 5rem;
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  :global(.vtex-flex-layout-0-x-flexRow--component-shelf-productos-destacados)
+    .flexRow--product-wishlist-button {
+    left: 80% !important;
+    top: 0% !important;
+  }
+  /**-----PDP - Wrapper Description----**/
+  :global(.vtex-flex-layout-0-x-flexRow--pdp-component-accordion-principal)
+    :global(.vtex-store-components-3-x-container) {
+    margin: 0 1rem !important;
+  }
+  /**-----PDP - Description title Wrapper----**/
+  :global(.vtex-disclosure-layout-1-x-trigger--pdp_product_description_title) {
+    margin: 0 !important;
+    padding: 20px 0 !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--pdp-component-accordion-principal)
+    :global(
+      .vtex-disclosure-layout-1-x-trigger--pdp_product_description_title
+    ):first-child {
+    margin: 48px 0 0 !important;
+    padding: 20px 0 !important;
+  }
+  /*?---- Landing Institucional (LI) ----?*/
+  /*?---- Landing Preguntas frecuentes(PF) ----?*/
+  /*?--------------------------------------------------?*/
+  /**-----LI - Landing Layout-----**/
+  :global(.vtex-flex-layout-0-x-flexRow--landing_institucional_wrapper) {
+    margin: 0 2.1875rem !important;
+  }
+  /**-----LI - Menu Links-----**/
+  :global(.vtex-flex-layout-0-x-flexRowContent--landing_institucional_wrapper)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 12rem !important;
+    margin: 2.4375rem 1rem 0 0;
+  }
+  /**-----LI - Questions Wrapper-----**/
+  :global(.vtex-flex-layout-0-x-flexRowContent--landing_institucional_wrapper)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(0n + 2) {
+    width: calc(100% - 12rem) !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--content_not_found) {
+    margin: 0 1.8125rem 7.5rem;
+    padding-top: 0 !important;
+  }
+  /**-----PAGE NOT FOUND AND 404 -  title h1 404-----**/
+  :global(.vtex-rich-text-0-x-headingLevel1--not_found_title) {
+    font-size: 2.25rem;
+  }
+  /**-----PAGE NOT FOUND AND 404 - Breadcrumb-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--content_not_found)
+    :global(.vtex-breadcrumb-1-x-container) {
+    padding-left: 0 !important;
+  }
+  /**-----PAGE NOT FOUND AND 404 -  title h1 text-----**/
+  :global(.vtex-rich-text-0-x-italic--not_found_title) {
+    font-size: 1.5rem !important;
+  }
+}
+@media (max-width: 64em) {
+  /**-----LI - Title menub left-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--landing_inst_wrapper_menu)
+    :global(.vtex-menu-2-x-styledLinkContent--title-menu-footer) {
+    border-top: none !important;
+    height: fit-content !important;
+  }
+}
+@media (max-width: 40rem) {
+  :global(
+      .vtex-flex-layout-0-x-flexRowContent--pdp-component-accordion-principal
+    )
+    :global(.vtex-disclosure-layout-1-x-content--visible) {
+    margin-bottom: 3rem;
+  }
+  :global(
+      .vtex-flex-layout-0-x-flexColChild--pdp-component-accordion-principal
+    ) {
+    margin: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--component-shelf-productos-destacados)
+    .flexRow--product-wishlist-button {
+    left: 76% !important;
+    top: -0.3% !important;
+  }
+  /**-----PDP - Wrapper Description----**/
+  :global(.vtex-flex-layout-0-x-flexRow--pdp-component-accordion-principal)
+    :global(.vtex-store-components-3-x-container) {
+    margin: 0 1rem !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--pdp-component-accordion-principal) {
+    margin: 0 !important;
+  }
+  /**-----PDP - Description title Wrapper----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--pdp-component-accordion-principal)
+    :global(
+      .vtex-disclosure-layout-1-x-trigger--pdp_product_description_title
+    ):first-child {
+    margin: 40px 0 0 !important;
+  }
+  :global(.vtex-disclosure-layout-1-x-trigger--pdp_product_description_title) {
+    margin: 0 !important;
+    padding: 22px 0 !important;
+  }
+  /*?---- Landing Institucional (LI) ----?*/
+  /*?---- Landing Preguntas frecuentes(PF) ----?*/
+  /*?--------------------------------------------------?*/
+  /**-----LI - Wrapper all-----**/
+  :global(.vtex-flex-layout-0-x-flexRow--landing_institucional_wrapper) {
+    margin: 0 1rem 3rem !important;
+  }
+  /**-----LI - Wrapper Questions-----**/
+  :global(.vtex-flex-layout-0-x-flexRow--landing_institucional_wrapper)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    display: none;
+  }
+  /**-----LI - Questions Wrapper-----**/
+  :global(.vtex-flex-layout-0-x-flexRowContent--landing_institucional_wrapper)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(0n + 2) {
+    width: 100% !important;
+  }
+
+  /**-----LI - Title h1-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+    :global(.vtex-rich-text-0-x-headingLevel1--landing_inst_content_text) {
+    font-size: 2.25rem !important;
+    margin: 2.4375rem 0 2.5rem !important;
+  }
+  /**-----LI - Wrapper Questions-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--landing_inst_content)
+    :global(.vtex-disclosure-layout-1-x-content--visible) {
+    padding: 0;
+  }
+  /**-----PAGE NOT FOUND AND 404 -  Wrapper-----**/
+  :global(.vtex-flex-layout-0-x-flexCol--content_not_found) {
+    margin: 0 1rem 7.5rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--content_not_found) {
+    margin: 0 1rem 7.5rem;
+    padding-top: 0 !important;
+  }
+  /**-----PAGE NOT FOUND AND 404 - Breadcrumb-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--content_not_found)
+    :global(.vtex-breadcrumb-1-x-container) {
+    padding-left: 0 !important;
+  }
+  /**-----PAGE NOT FOUND AND 404 -  title h1 404-----**/
+  :global(.vtex-rich-text-0-x-headingLevel1--not_found_title) {
+    margin-top: 52px !important;
+    margin-bottom: 24px !important;
+    font-size: 36px;
+  }
+  /**-----PAGE NOT FOUND AND 404 -  title h1 txt-----**/
+  :global(.vtex-rich-text-0-x-italic--not_found_title) {
+    font-size: 1.5rem !important;
+  }
+  /**-----PAGE NOT FOUND AND 404 - text-----**/
+  :global(.vtex-rich-text-0-x-paragraph--not_found_txt) {
+    font-size: .9rem !important;
+    margin: 0 0 .5rem !important;
+  }
+}
+
+/* banner principal */
+/* content-info */
+.flexCol--main-desktopHome-info-carousel3 {
+  height: auto;
+  width: auto;
+  align-items: flex-start;
+  position: absolute;
+  left: 3%;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  /* bottom: 5%; */
+  top: 16%;
+}
+.flexColChild--main-desktopHome-info-carousel3 {
+  width: 100%;
+}
+
+/* @media screen and (min-width: 640px) {
+    .flexCol--main-desktopHome-info-carousel3 {
+      top: auto !important;
+      bottom: 70px!important;
+      left: 1.5rem!important;
+      }
+  } */
+
+@media screen and (max-width: 639.99px) {
+  .flexCol--main-desktopHome-info-carousel3 {
+    width: 100%;
+    /* left: 9%; */
+    top: 2.6rem;
+  }
+  /* button */
+  .flexRow--buttons-desktopHome {
+    margin-top: 0%;
+  }
+}
+/* fn. button */
+/* fn. content-info */
+/* fn. banner principal */
+
+/*Tiendas oficiales*/
+.tableTh--landing_sitios_oficiales {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tableTd--landing_sitios_oficiales {
+  padding: 15px;
+}
+.flexCol--titulo-nuestras-tiendas {
+  text-indent: 8%;
+}
+
+.flexRowContent--inputPoliticasNewsLetter {
+  height: 10px;
+  margin-bottom: 1rem;
+}
+/* .flexRowContent--inputPoliticasNewsLetter, .flexRowContent--inputCondicionesNewsLetter {
+  font-family: 'NeuePlak-Regular';
+} */
+@media screen and (max-width: 639.99px) {
+  /*Newsletter*/
+  .flexRowContent--newsletter-footer-modal {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .flexRowContent--inputPoliticasNewsLetter {
+    height: 20px;
+  }
+  .flexRowContent--inputCondicionesNewsLetter {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--desktop-row-product-pdp)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    padding: 0.5rem 5px 0 30px;
+  }
+}
+@media (min-width: 1680px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--desktop-row-product-pdp)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    padding: 0.5rem 83px 0 72px !important;
+  }
+}
+@media (min-width: 960px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--desktop-row-product-pdp)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    padding: 0rem 20px 0 20px;
+    margin-top: 1.875rem;
+    display: flex;
+  }
+}
+@media (max-width: 40rem) {
+  .flexCol--newsletter-landing {
+    width: 340px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/*Banner btn R*/
+
+.flexColChild--main-desktopHome-info-carousel3-new3 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--buttons-desktopHome-legalesC {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+}
+.flexRowContent--body-posicion-right {
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 2.5rem;
+  display: flex;
+  top: 10%;
+}
+
+@media (max-width: 40rem) {
+  .flexCol--main-desktopHome-info-carousel3-new3 {
+    top: 2% !important;
+  }
+  .flexColChild--body-posicion-right {
+    margin-top: 10%;
+  }
+}
+

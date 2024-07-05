@@ -1,0 +1,60 @@
+{
+    "custom-banner#black-friday-23": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/hero-banner-black-friday-23-desktop-CL.jpg",
+          "phoneBgImageUrl": "/arquivos/hero-banner-black-friday-23-mobile-CL.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "HASTA 50% OFF",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2 cWhite",
+                "tablet": "banner-headline-bottom mr2 cWhite mW40 tar",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Además, 20% adicional por la compra de",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite mW40 tar",
+                "phone": "banner-copy cWhite dNone"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "2 productos o 30% por la compra de 3 productos o más.",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite mW40 tar",
+                "phone": "banner-copy cWhite dNone"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR AHORA",
+                "link": "/black-friday",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt5 fs70"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t25 r2 tar",
+            "tablet": "relative t20 l57",
+            "phone": "relative t70 l3"
+          }
+        }
+      }
+    
+    
+}

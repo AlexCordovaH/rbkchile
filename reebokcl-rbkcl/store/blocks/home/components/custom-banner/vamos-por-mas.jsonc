@@ -1,0 +1,59 @@
+{
+    "custom-banner#vamos-mas": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-vamos-mas.jpg",
+          "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-vamos-mas.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "VAMOS POR MÁS ",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2",
+                "tablet": "banner-headline-bottom mr2",
+                "phone": "banner-headline-bottom"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Muévete y vive la vida junto a nosotros",
+              "sx": {
+                "desktop": "banner-copy mr2",
+                "tablet": "banner-copy mr2",
+                "phone": "banner-copy"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "Comprar Funcional",
+                "link": "/entrenamiento-funcional",
+                "color": "black",
+                "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt5 fs70"
+                }
+              },
+              {
+                "label": "Comprar Running",
+                "link": "/running",
+                "color": "black",
+                "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt5 fs70"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t10 r2 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t10 l3"
+          }
+        }
+      }
+}

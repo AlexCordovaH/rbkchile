@@ -1,0 +1,68 @@
+{
+      //banner color hp
+  "flex-layout.row#container-color-02-harry": {
+    "children": [
+      "rich-text#ofertas-text-act-harry"
+    ],
+    "props": {
+      "blockClass": ["text-promocion-plp-ofertas-harry"]
+    }
+  },
+  "rich-text#ofertas-text-act-harry": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## HARRY POTTER X REEBOK",
+      "blockClass": ["text-promocion-plp-ofertas-harry", "subtitle-text-promocion"]
+    }
+  },
+
+  /* LOLLAPALOOZA */
+
+  "responsive-layout.desktop#lollacl":{
+    "children":["flex-layout.row#container-lollacl-desk"]
+  },
+  
+  "responsive-layout.tablet#lollacl":{
+    "children":["flex-layout.row#container-lollacl-desk"]
+  },
+  
+  "responsive-layout.phone#lollacl":{
+    "children":["flex-layout.row#container-lollacl-mob"]
+  },
+
+  "flex-layout.row#container-lollacl-desk": {
+    "children": [
+      "image#ofertas-img-lolla"
+    ],
+    "props": {
+      "blockClass": ["banner-promocion-plp-ofertas-lolla"]
+    }
+  },
+
+  "image#ofertas-img-lolla": {
+    "props": {
+        "src": "/arquivos/BANNER-PLP-LOLLAPALOOZA-Desktop.jpg",
+        "blockClass": "image-lolla-banner",
+        "alt":"Reebok CL - Lollapalooza 2023"
+    }
+  },
+
+  "flex-layout.row#container-lollacl-mob": {
+    "children": [
+      "image#ofertas-img-lolla-mob"
+    ],
+    "props": {
+      "blockClass": ["banner-promocion-plp-ofertas-lolla"]
+    }
+  },
+
+  "image#ofertas-img-lolla-mob": {
+    "props": {
+        "src": "/arquivos/BANNER-PLP-LOLLAPALOOZA-Mobile.jpg",
+        "blockClass": "image-lolla-banner",
+        "alt":"Reebok CL - Lollapalooza 2023"
+    }
+  }
+  
+}

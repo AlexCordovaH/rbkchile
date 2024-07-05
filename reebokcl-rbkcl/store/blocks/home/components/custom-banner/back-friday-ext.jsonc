@@ -1,0 +1,59 @@
+{
+    "custom-banner#black-friday-ext": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/Hero-Banner-Extension-SALE-BF-Desktop-CO.jpg",
+          "phoneBgImageUrl": "/arquivos/Hero-Banner-Extension-SALE-BF-Mobile-CO.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "DESCUENTOS",
+              "sx": {
+                "desktop": "banner-headline ml50 fs280 mr2 cWhite",
+                "tablet": "banner-headline-bottom mr3 cWhite",
+                "phone": "banner-headline-bottom fs150 cWhite"
+              }
+            },
+            {
+              "type": "headline",
+              "text": "DE HASTA 50%",
+              "sx": {
+                "desktop": "banner-headline-bottom ml50 mb2 fs280 mr2 cWhite",
+                "tablet": "banner-headline-bottom mr3 cWhite",
+                "phone": "banner-headline-bottom fs150 cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Disfruta de hasta 50% OFF en catálogo seleccionado.",
+              "sx": {
+                "desktop": "banner-copy-bottom mr2 cWhite",
+                "tablet": "banner-copy-bottom mr3 cWhite dNone",
+                "phone": "banner-copy-bottom cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR",
+                "link": "/ofertas",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt1 mr1",
+                  "tablet": " mt2",
+                  "phone": "mt3 mr15 tac"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t35 r3 tar cWhite",
+            "tablet": "relative t13 r0 tar cWhite",
+            "phone": "relative t70 ml0 tac cWhite"
+          }
+        }
+      }
+    
+}

@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#que-hacemos":{
+        "props":{
+            "blockClass": "que_hacemos"
+        },
+        "children":[
+            "flex-layout.col#que-hacemos"
+        ]
+    },
+    "flex-layout.col#que-hacemos":{
+        "children":[
+            "rich-text#que-hacemos-pre-title",
+            "rich-text#que-hacemos-title",
+            "rich-text#que-hacemos-post-title"
+        ]
+    },
+    "rich-text#que-hacemos-pre-title":{
+        "props":{
+            "text": "¿Qué hacemos?",
+            "blockClass": "que-hacemos-pre-title"
+        }
+    },
+    "rich-text#que-hacemos-title":{
+        "props":{
+            "text": "## Abogamos por una vida en movimiento y por los Derechos Humanos",
+            "blockClass": "que-hacemos-title"
+        }
+    },
+    "rich-text#que-hacemos-post-title":{
+        "props":{
+            "text": "para todos, no solo para algunos",
+            "blockClass": "que-hacemos-post-title"
+        }
+    }
+}

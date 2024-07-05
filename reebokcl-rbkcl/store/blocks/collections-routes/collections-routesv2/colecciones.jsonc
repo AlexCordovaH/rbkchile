@@ -1,0 +1,960 @@
+{
+    /*Store custom: COLECCIONES */
+    "store.custom#colecciones": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones"
+        ]
+    },
+    /*Store custom: COLECCIONES - MUJER */
+    "store.custom#colecciones-mujer": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer"
+        ]
+    },
+    // San valentin
+    "store.custom#san-valentin": {
+        "blocks": [
+            "search-result-layout.customQuery#san-valentin"
+        ]
+    },
+    // Todo el sitio
+    "store.custom#todo-el-sitio": {
+        "blocks": [
+            "search-result-layout.customQuery#todo-el-sitio"
+        ]
+    },
+    "store.custom#colecciones-mujer-clubc": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-clubc"
+        ]
+    },
+    "store.custom#colecciones-mujer-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-classicleather"
+        ]
+    },
+    "store.custom#colecciones-mujer-freestyle": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-freestyle"
+        ]
+    },
+    "store.custom#colecciones-mujer-zigkinetica": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-zigkinetica"
+        ]
+    },
+    "store.custom#colecciones-mujer-zigdynamica": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-zigdynamica"
+        ]
+    },
+    "store.custom#colecciones-mujer-unitedbyfitness": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-unitedbyfitness"
+        ]
+    },
+    "store.custom#colecciones-mujer-zapatillasblancas": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-zapatillasblancas"
+        ]
+    },
+    "store.custom#colecciones-mujer-zapatillasnegras": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-mujer-zapatillasnegras"
+        ]
+    },
+    /*Store custom: COLECCIONES - HOMBRE */
+    "store.custom#colecciones-hombre": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre"
+        ]
+    },
+    "store.custom#colecciones-hombre-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-classicleather"
+        ]
+    },
+    "store.custom#colecciones-hombre-freestyle": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-freestyle"
+        ]
+    },
+    "store.custom#colecciones-hombre-zigdynamica": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-zigdynamica"
+        ]
+    },
+    "store.custom#colecciones-hombre-unitedbyfitness": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-unitedbyfitness"
+        ]
+    },
+    "store.custom#colecciones-hombre-question": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-question"
+        ]
+    },
+    "store.custom#colecciones-hombre-zapatillasblancas": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-zapatillasblancas"
+        ]
+    },
+    "store.custom#colecciones-hombre-zapatillasnegras": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-hombre-zapatillasnegras"
+        ]
+    },
+    /*Store custom: COLECCIONES - UNISEX */
+    "store.custom#colecciones-unisex": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex"
+        ]
+    },
+    "store.custom#colecciones-unisex-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-classicleather"
+        ]
+    },
+    "store.custom#colecciones-unisex-freestyle": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-freestyle"
+        ]
+    },
+    "store.custom#colecciones-unisex-zigkinetica": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-zigkinetica"
+        ]
+    },
+    "store.custom#colecciones-unisex-unitedbyfitness": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-unitedbyfitness"
+        ]
+    },
+    "store.custom#colecciones-unisex-shaqattaq": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-shaqattaq"
+        ]
+    },
+    "store.custom#colecciones-unisex-question": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-question"
+        ]
+    },
+    "store.custom#colecciones-unisex-zapatillasblancas": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-zapatillasblancas"
+        ]
+    },
+    "store.custom#colecciones-unisex-zapatillasnegras": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-unisex-zapatillasnegras"
+        ]
+    },
+    /*Store custom: COLECCIONES - COLECCIONES */
+    "store.custom#colecciones-colecciones": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones"
+        ]
+    },
+    "store.custom#colecciones-colecciones-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-classicleather"
+        ]
+    },
+    "store.custom#colecciones-colecciones-classicslides": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-classicslides"
+        ]
+    },
+    "store.custom#colecciones-colecciones-clubc": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-clubc"
+        ]
+    },
+    "store.custom#colecciones-colecciones-fitnessandtraining": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-fitnessandtraining"
+        ]
+    },
+    "store.custom#colecciones-colecciones-floatride": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-floatride"
+        ]
+    },
+    "store.custom#colecciones-colecciones-freestyle": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-freestyle"
+        ]
+    },
+    "store.custom#colecciones-colecciones-instapump": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-instapump"
+        ]
+    },
+    "store.custom#colecciones-colecciones-makeityours": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-makeityours"
+        ]
+    },
+    "store.custom#colecciones-colecciones-meetyouthere": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-meetyouthere"
+        ]
+    },
+    "store.custom#colecciones-colecciones-nano": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-nano"
+        ]
+    },
+    "store.custom#colecciones-colecciones-reebokroyal": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-reebokroyal"
+        ]
+    },
+    "store.custom#colecciones-colecciones-sostenible": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-sostenible"
+        ]
+    },
+    "store.custom#colecciones-colecciones-zig": {
+        "blocks": [
+            "search-result-layout.customQuery#colecciones-colecciones-zig"
+        ]
+    },
+    /*Search result layout: COLECCIONES */
+    "search-result-layout.customQuery#colecciones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "329",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: COLECCIONES - MUJER */
+    "search-result-layout.customQuery#colecciones-mujer": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/coleccion",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-clubc": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/club-c",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-freestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/freestyle",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-zigkinetica": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/ZigKinetica",
+                "mapField": "serie"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-zigdynamica": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/Zig-Dynamica",
+                "mapField": "serie"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-unitedbyfitness": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/united-by-fitness",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-zapatillasblancas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/calzado/zapatillas/blanco",
+                "mapField": "color"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-mujer-zapatillasnegras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/calzado/zapatillas/negro",
+                "mapField": "color"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: COLECCIONES - HOMBRE */
+    "search-result-layout.customQuery#colecciones-hombre": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/coleccion",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-freestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "#",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-zigdynamica": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/Zig-Dynamica",
+                "mapField": "serie"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-unitedbyfitness": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/united-by-fitness",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-question": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/question",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-zapatillasblancas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/calzado/zapatillas/blanco",
+                "mapField": "color"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-hombre-zapatillasnegras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/calzado/tenis/negro",
+                "mapField": "color"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: COLECCIONES - UNISEX */
+    "search-result-layout.customQuery#colecciones-unisex": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/coleccion",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-freestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "#",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-zigkinetica": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/ZigKinetica",
+                "mapField": "serie"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-unitedbyfitness": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/united-by-fitness",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-shaqattaq": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/shaq-attaq",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-question": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/question",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-zapatillasblancas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/calzado/zapatillas/blanco",
+                "mapField": "color"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-unisex-zapatillasnegras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/calzado/zapatillas/negro",
+                "mapField": "color"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: COLECCIONES */
+    "search-result-layout.customQuery#colecciones-colecciones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "329",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-classicslides": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/classic-slides",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-clubc": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/clubC",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-fitnessandtraining": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/entrenamiento-funcional",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-floatride": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/floatride",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-freestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/freestyle",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-instapump": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/instapump",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-makeityours": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/make-it-yours",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-meetyouthere": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/meet-you-there",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-nano": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/nano",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-reebokroyal": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/reebok-royal",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-sostenible": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/sostenible",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#colecciones-colecciones-zig": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/zig",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#todo-el-sitio": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "264",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#san-valentin": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "337",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

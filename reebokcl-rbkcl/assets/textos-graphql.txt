@@ -1,0 +1,37 @@
+{
+  "saveArgs": {
+    "to": "es-PE",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/ordenation.sales",
+        "context": "reebokcl.plp-gallery@0.x",
+        "targetMessage": "Más vendidos"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/ordenation.discount",
+        "context": "reebokcl.plp-gallery@0.x",
+        "targetMessage": "Mayor descuento"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/ordenation.name.ascending",
+        "context": "reebokcl.plp-gallery@0.x",
+        "targetMessage": "A - Z"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/ordenation.name.descending",
+        "context": "reebokcl.plp-gallery@0.x",
+        "targetMessage": "Z - A"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/add-to-cart.success",
+        "context": "vtex.add-to-cart-button@0.x",
+        "targetMessage": "Producto agregado al carrito"
+      }
+    ]
+  }
+}

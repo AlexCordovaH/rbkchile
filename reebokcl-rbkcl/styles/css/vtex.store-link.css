@@ -1,0 +1,50 @@
+/* banner principal */
+
+.link--buttons-desktopHome {
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #121212;
+    width: max-content!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link--buttons-desktopHome:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #f6f4e4;
+}
+
+.label--buttons-desktopHome {
+    color: #121212;
+    text-decoration: none;
+    font-family: "NeuePlak-Semibold";
+    display: inline-block;
+    line-height: normal;
+}
+/* @media screen and (min-width: 640px) {
+    .link--buttons-desktopHome {
+        padding: 2% 4.4%;
+        width: 100%;
+    }
+    .label--buttons-desktopHome {
+        font-size: calc(0.1em + 0.7vw);
+    }
+} */
+
+/* @media screen and (max-width: 639.99px) {
+    .link--buttons-desktopHome {
+        padding: 2% 4.4%;
+        width: 100%;
+    }
+    .label--buttons-desktopHome {
+        font-size: calc(0.3em + 1.5vw);
+    }
+} */
+/* fn. banner principal */
+
+.link--buttons-legales-main-banner {
+    color: #fff!important;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 10px;
+}

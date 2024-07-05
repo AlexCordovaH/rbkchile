@@ -1,0 +1,88 @@
+.imgWrap--is-active{
+    border: solid 2px #244486 !important;
+    margin: 4px;
+    height: 64px !important;
+    width: 64px !important;
+    overflow: hidden;
+    border-radius: 5px !important;
+}
+
+.imgWrap{
+    border: solid 2px #FFFFFF !important;
+    height: 64px !important;
+    width: 64px !important;
+    border-radius: 5px !important;
+}
+
+.img {
+    height: 64px !important;
+    width: 64px !important;
+    border-radius: 0px !important;
+}
+
+
+:global(.vtex-search-2-x-tileListList)
+.variants{
+  display: none !important;
+}
+
+
+
+@media only screen and (max-width: 64em) and (min-width: 40em){
+ 
+    .imgWrap--is-active{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    
+    .imgWrap{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    
+    .img {
+        height: 40px !important;
+        width: 40px !important;
+
+    }
+
+}
+
+@media (max-width: 40rem) {
+
+    .imgWrap--is-active{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    
+    .imgWrap{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    
+    .img {
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--mobile-product)
+    .img{
+        height: 64px!important;
+        width: 64px!important;
+      }
+
+      :global(.vtex-flex-layout-0-x-flexRowContent--mobile-product)
+      .imgWrap--is-active{
+        height: 64px!important;
+        width: 64px!important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--mobile-product)
+    .imgWrap{
+        height: 64px!important;
+        width: 64px!important;
+    }
+    
+
+    
+}

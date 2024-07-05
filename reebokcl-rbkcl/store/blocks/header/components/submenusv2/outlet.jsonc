@@ -1,0 +1,108 @@
+{
+    "vtex.menu@2.x:submenu#v2-outlet": {
+        "props": {
+            "width": "100%",
+            "orientation": "vertical",
+            "blockClass": "submenu-mujer"
+        },
+        "children": [
+            "flex-layout.row#submenu-desktop-v2-outlet"
+        ]
+    },
+    "flex-layout.row#submenu-desktop-v2-outlet": {
+        "props": {
+            "blockClass": "submenu-desktop"
+        },
+        "children": [
+            "flex-layout.row#submenu-v2outlet-padre-row2"
+        ]
+    },
+    "flex-layout.row#submenu-v2outlet-padre-row2": {
+        "props": {
+            "blockClass": "submenu-padre-row2"
+        },
+        "children": [
+            "flex-layout.row#submenu-item-general-v2-outlet-titulos"
+        ]
+    },
+    "flex-layout.row#submenu-item-general-v2-outlet-titulos": {
+        "props": {
+            "blockClass": "submenu-item-general-titulos"
+        },
+        "children": [
+            "flex-layout.col#submenu-item-v2-outlet-mujer",
+            "flex-layout.col#submenu-item-v2-outlet-hombre",
+            "flex-layout.col#submenu-item-v2-outlet-ninos",
+            "flex-layout.col#submenu-item-v2-outlet-unisex"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-outlet-mujer": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-outlet-mujer",
+            "menu-item#submenu-outlet-link-mujer-zapatillas",
+            //"menu-item#submenu-outlet-link-mujer-sandalias",
+            "menu-item#submenu-outlet-link-mujer-conjuntodeportivo",
+            "menu-item#submenu-outlet-link-mujer-chaquetas",
+            //"menu-item#submenu-outlet-link-mujer-faldasyvestidos",
+            "menu-item#submenu-outlet-link-mujer-pantalonesycalzas",
+            "menu-item#submenu-outlet-link-mujer-polerones",
+            "menu-item#submenu-outlet-link-mujer-poleras",
+            "menu-item#submenu-outlet-link-mujer-shorts",
+            "menu-item#submenu-outlet-link-mujer-petosdeportivos"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-outlet-hombre": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-outlet-hombre",
+            "menu-item#submenu-outlet-link-hombre-zapatillas",
+            // "menu-item#submenu-outlet-link-hombre-conjuntodeportivo",
+            "menu-item#submenu-outlet-link-hombre-chaquetas",
+            "menu-item#submenu-outlet-link-hombre-pantalonesycalzas",
+            "menu-item#submenu-outlet-link-hombre-polerones",
+            "menu-item#submenu-outlet-link-hombre-poleras",
+            "menu-item#submenu-outlet-link-hombre-shorts"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-outlet-ninos": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-outlet-ninos",
+            "menu-item#submenu-outlet-link-ninos-zapatillas"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-outlet-unisex": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            //"menu-item#submenu-title-outlet-unisex",
+            //"menu-item#submenu-outlet-link-unisex-zapatillas",
+            //"menu-item#submenu-outlet-link-unisex-sandalias",
+            //"menu-item#submenu-outlet-link-unisex-bolsosymochilas",
+            //"menu-item#submenu-outlet-link-unisex-chaquetas",
+            //"menu-item#submenu-outlet-link-unisex-gorras",
+            //"menu-item#submenu-outlet-link-unisex-matdeyoga",
+            //"menu-item#submenu-outlet-link-unisex-calcetines",
+            //"menu-item#submenu-outlet-link-unisex-pantalonesycalzas",
+            //"menu-item#submenu-outlet-link-unisex-polerones",
+            //"menu-item#submenu-outlet-link-unisex-poleras" ,
+           // "menu-item#submenu-outlet-link-unisex-shorts" 
+        ]
+    }
+}

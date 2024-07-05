@@ -1,0 +1,437 @@
+{
+  "store.custom#novedades-hombre": {
+    "blocks": ["search-result-layout.customQuery#novedades-hombre"]
+  },
+
+  "store.custom#ree-cycled-hombre": {
+    "blocks": ["search-result-layout.customQuery#ree-cycled-hombre"]
+  },
+
+  "store.custom#jurassic-world-hombre": {
+    "blocks": ["search-result-layout.customQuery#jurassic-world-hombre"]
+  },
+
+  "store.custom#club-c-hombre": {
+    "blocks": ["search-result-layout.customQuery#club-c-hombre"]
+  },
+
+  "store.custom#reebok-royal-hombre": {
+    "blocks": ["search-result-layout.customQuery#reebok-royal-hombre"]
+  },
+
+  "store.custom#essentials-hombre": {
+    "blocks": ["search-result-layout.customQuery#essentials-hombre"]
+  },
+
+  "store.custom#reebok-pride-hombre": {
+    "blocks": ["search-result-layout.customQuery#pride-hombre"]
+  },
+
+  "store.custom#novedades-hombre-sale": {
+    "blocks": ["search-result-layout.customQuery#novedades-hombre-sale"]
+  },
+
+  "store.custom#hombre-calzado-sale": {
+    "blocks": ["search-result-layout.customQuery#hombre-calzado-sale"]
+  },
+
+  "store.custom#hombre-ropa-sale": {
+    "blocks": ["search-result-layout.customQuery#hombre-ropa-sale"]
+  },
+  "store.custom#hombre-accesorios-sale": {
+    "blocks": ["search-result-layout.customQuery#hombre-accesorios-sale"]
+  },
+  "store.custom#nino-novedades-sale": {
+    "blocks": ["search-result-layout.customQuery#nino-novedades-sale"]
+  },
+
+  "store.custom#hombre-classics": {
+    "blocks": ["search-result-layout.customQuery#hombre-classics"]
+  },
+
+  "store.custom#hombre-classic-leather": {
+    "blocks": ["search-result-layout.customQuery#hombre-classic-leather"]
+  },
+
+  "store.custom#hombre-sostenible": {
+    "blocks": ["search-result-layout.customQuery#hombre-sostenible"]
+  },
+
+  "store.custom#hombre-running": {
+    "blocks": ["search-result-layout.customQuery#hombre-running"]
+  },
+
+  "store.custom#hombre-nanoxi": {
+    "blocks": ["search-result-layout.customQuery#hombre-nanoxi"]
+  },
+
+  "store.custom#hombre-entrenamiento-funcional": {
+    "blocks": [
+      "search-result-layout.customQuery#hombre-entrenamiento-funcional"
+    ]
+  },
+
+  "store.custom#hombre-zig": {
+    "blocks": ["search-result-layout.customQuery#hombre-zig"]
+  },
+
+  "store.custom#hombre-deporte": {
+    "blocks": ["search-result-layout.customQuery#hombre-deporte"]
+  },
+
+  "search-result-layout.customQuery#hombre-deporte": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "236",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-zig": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/hombre/zig",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-entrenamiento-funcional": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/hombre/entrenamiento-funcional",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-nanoxi": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/hombre/nano-xi",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-running": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/hombre/running",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-sostenible": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/hombre/sostenible",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-classic-leather": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/classics/hombre/classic-leather",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-classics": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/classics/hombre/classics",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-ropa-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "227",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#hombre-accesorios-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "228",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#nino-novedades-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "234",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#hombre-calzado-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "226",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#novedades-hombre-sale": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "225",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#reebok-royal-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "191",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#essentials-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "188",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#pride-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "190",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#club-c-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "187",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#jurassic-world-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "189",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#novedades-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "185",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#ree-cycled-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "186",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -1,0 +1,644 @@
+{
+  //?----Landing Preguntas frecuentes - All questions----?/
+  "disclosure-layout-group#landing-pf-questions": {
+    "title": "Group questions | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-questions"
+    },
+    "children": [
+      "disclosure-layout#pf-tiendas-reebok",
+      "disclosure-layout#pf-sobre-pedidos",
+      "disclosure-layout#pf-sobre-el-producto",
+      "disclosure-layout#pf-sobre-el-pago",
+      "disclosure-layout#pf-sobre-el-envio"
+      //"disclosure-layout#pf-sobre-devolucion-reembolso"
+    ]
+  },
+  //?----Preguntas frecuentes - Tiendas Reebok----?/
+  "disclosure-layout#pf-tiendas-reebok": {
+    "title": "Tiendas Reebok | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-question"
+    },
+    "children": [
+      "disclosure-trigger#pf-tiendas-reebok",
+      "disclosure-content#pf-tiendas-reebok"
+    ]
+  },
+  "disclosure-trigger#pf-tiendas-reebok": {
+    "props": {
+      "blockClass": "landing_pf_question"
+    },
+    "children": [
+      "rich-text#pf-title-tiendas-reebok",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pf-title-tiendas-reebok": {
+    "props": {
+      "text": "## Sobre Tiendas Reebok",
+      "blockClass": "pf_title_acordion"
+    }
+  },
+  "disclosure-content#pf-tiendas-reebok": {
+    "children": [
+      // Contenido
+      "rich-text#pf-tienda-reebok-1",
+      "rich-text#pf-tienda-reebok-2",
+      "rich-text#pf-tienda-reebok-3",
+      "rich-text#pf-tienda-reebok-4",
+      "rich-text#pf-tienda-reebok-5"
+    ]
+  },
+  //?----Preguntas frecuentes - Sobre Pedidos----?/
+  "disclosure-layout#pf-sobre-pedidos": {
+    "title": "Sobre el Pedido | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-question"
+    },
+    "children": [
+      "disclosure-trigger#pf-sobre-pedidos",
+      "disclosure-content#pf-sobre-pedidos"
+    ]
+  },
+  "disclosure-trigger#pf-sobre-pedidos": {
+    "props": {
+      "blockClass": "landing_pf_question"
+    },
+    "children": [
+      "rich-text#pf-title-sobre-pedidos",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pf-title-sobre-pedidos": {
+    "props": {
+      "text": "## Sobre Órdenes/Pedidos",
+      "blockClass": "pf_title_acordion"
+    }
+  },
+  "disclosure-content#pf-sobre-pedidos": {
+    "children": [
+      //Contenido
+      "rich-text#pf-sobre-pedidos-1",
+      "rich-text#pf-sobre-pedidos-2",
+      "rich-text#pf-sobre-pedidos-3",
+      "rich-text#pf-sobre-pedidos-4",
+      "rich-text#pf-sobre-pedidos-5",
+      "rich-text#pf-sobre-pedidos-6",
+      "rich-text#pf-sobre-pedidos-7"
+    ]
+  },
+  //?----Preguntas frecuentes - Sobre el Producto---?/
+  "disclosure-layout#pf-sobre-el-producto": {
+    "title": "Sobre el Producto | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-question"
+    },
+    "children": [
+      "disclosure-trigger#pf-sobre-el-producto",
+      "disclosure-content#pf-sobre-el-producto"
+    ]
+  },
+  "disclosure-trigger#pf-sobre-el-producto": {
+    "props": {
+      "blockClass": "landing_pf_question"
+    },
+    "children": [
+      "rich-text#pf-title-sobre-el-producto",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pf-title-sobre-el-producto": {
+    "props": {
+      "text": "## Sobre el Producto",
+      "blockClass": "pf_title_acordion"
+    }
+  },
+  "disclosure-content#pf-sobre-el-producto": {
+    "children": [
+      //Contenido
+      "rich-text#pf-sobre-producto-1",
+      "rich-text#pf-sobre-producto-2",
+      "rich-text#pf-sobre-producto-3",
+      "rich-text#pf-sobre-producto-4"
+    ]
+  },
+  //?----Preguntas frecuentes - Sobre el Pago----?/
+  "disclosure-layout#pf-sobre-el-pago": {
+    "title": "Sobre el Pago | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-question"
+    },
+    "children": [
+      "disclosure-trigger#pf-sobre-el-pago",
+      "disclosure-content#pf-sobre-el-pago"
+    ]
+  },
+  "disclosure-trigger#pf-sobre-el-pago": {
+    "props": {
+      "blockClass": "landing_pf_question"
+    },
+    "children": [
+      "rich-text#pf-title-sobre-el-pago",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pf-title-sobre-el-pago": {
+    "props": {
+      "text": "## Sobre el Pago",
+      "blockClass": "pf_title_acordion"
+    }
+  },
+  "disclosure-content#pf-sobre-el-pago": {
+    "children": [
+      //Contenido
+      "rich-text#pf-sobre-el-pago-1",
+      "rich-text#pf-sobre-el-pago-2"
+    ]
+  },
+  //?----Preguntas frecuentes - Sobre el Envio----?/
+  "disclosure-layout#pf-sobre-el-envio": {
+    "title": "Sobre el Envio | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-question"
+    },
+    "children": [
+      "disclosure-trigger#pf-sobre-el-envio",
+      "disclosure-content#pf-sobre-el-envio"
+    ]
+  },
+  "disclosure-trigger#pf-sobre-el-envio": {
+    "props": {
+      "blockClass": "landing_pf_question"
+    },
+    "children": [
+      "rich-text#pf-title-sobre-el-envio",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pf-title-sobre-el-envio": {
+    "props": {
+      "text": "## Sobre el Envío",
+      "blockClass": "pf_title_acordion"
+    }
+  },
+  "disclosure-content#pf-sobre-el-envio": {
+    "children": [
+      //Contenido
+      "rich-text#pf-sobre-el-envio-1",
+      "rich-text#pf-sobre-el-envio-2",
+      "rich-text#pf-sobre-el-envio-3",
+      "rich-text#pf-sobre-el-envio-4",
+      "rich-text#pf-sobre-el-envio-6"
+    ]
+  },
+  //?----Preguntas frecuentes - Sobre Devoluciones y Reembolsos----?/
+  "disclosure-layout#pf-sobre-devolucion-reembolso": {
+    "title": "Sobre Devoluciones y Reembolsos | Preguntas frecuentes",
+    "props": {
+      "blockClass": "landing-pf-question"
+    },
+    "children": [
+      "disclosure-trigger#pf-sobre-devolucion-reembolso",
+      "disclosure-content#pf-sobre-devolucion-reembolso"
+    ]
+  },
+  "disclosure-trigger#pf-sobre-devolucion-reembolso": {
+    "props": {
+      "blockClass": "landing_pf_question"
+    },
+    "children": [
+      "rich-text#pf-title-sobre-devolucion-reembolso",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pf-title-sobre-devolucion-reembolso": {
+    "props": {
+      "text": "## Devoluciones, Cambios y Reembolsos",
+      "blockClass": "pf_title_acordion"
+    }
+  },
+  "disclosure-content#pf-sobre-devolucion-reembolso": {
+    "children": [
+      //Contenido
+      "rich-text#pf-desktop-sobre-devoluciones-reembolsos-1",
+      "rich-text#pf-sobre-devoluciones-reembolsos-2",
+      "rich-text#pf-sobre-devoluciones-reembolsos-3",
+      "rich-text#pf-sobre-devoluciones-reembolsos-4",
+      "rich-text#pf-sobre-devoluciones-reembolsos-5",
+      "rich-text#pf-sobre-devoluciones-reembolsos-6"
+    ]
+  },
+
+  //?----Sobre tienda Reebok----?//
+  //? ¿Tengo que registrarme para comprar algo en la tienda en línea de Reebok?
+  "rich-text#pf-tienda-reebok-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Tengo que registrarme para comprar algo en la tienda en línea de Reebok?** \n\nNo es necesario registrarse. Puede realizar un pedido en la tienda en línea de Reebok como invitado. Por otra parte, si tiene pensado realizar compras frecuentemente a través de nuestro sitio web, le recomendamos que se registre. Así ahorrará tiempo cuando realice los siguientes pedidos en la tienda en línea de Reebok. \n\n Por favor tomar en cuenta que si compra como invitado recibirá los correos electrónicos con los estados de su pedido sin embargo no podrá ver historial de pedidos en la página directamente.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Qué pasa si olvido la contraseña de mi cuenta?
+  "rich-text#pf-tienda-reebok-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué pasa si olvido la contraseña de mi cuenta?** \n\nSi ha olvidado la contraseña de su cuenta, puede hacer clic en **«Iniciar sesión»** y después en el enlace **«Olvidé mi contraseña»** e inmediatamente le enviaremos por correo electrónico un código el cual digitará en la página, de esta manera podrá crear su nueva contraseña.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Cómo puedo realizar cambios en mi carrito?
+  "rich-text#pf-tienda-reebok-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cómo puedo realizar cambios en mi carrito?** \n\nSi ha olvidado la contraseña de su cuenta, puede hacer clic en «Iniciar sesión» y después en el enlace «Olvidé mi contraseña» e inmediatamente le enviaremos por correo electrónico un código el cual digitará en la página, de esta manera podrá crear su nueva contraseña.\n\nAntes de dirigirse a la sección de Pago, puede realizar los siguientes cambios en su carrito de la compra si lo necesita:\n\n- Actualizar la cantidad. Seleccione una cantidad a partir del menú desplegable \n- Eliminar un producto del carrito de la compra. Para eliminar un producto, haga clic en **«Eliminar del carrito»**, o cambie la cantidad a cero y haga clic en **«Actualizar carrito»**. \n- Seguir comprando. Si desea seguir comprando, puede usar el carrito de la compra para guardar los productos que desee comprar. Haga clic en **«Seguir comprando»** para buscar más productos en el sitio web. En cualquier momento durante su proceso de compra podrá regresar a su carrito de la compra haciendo clic en el icono de la cesta situado en la parte superior de cualquier página.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Cómo puedo resolver problemas para visualizar la tienda online de Reebok?
+  "rich-text#pf-tienda-reebok-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cómo puedo resolver problemas para visualizar la tienda online de Reebok?**\n\nSi está teniendo problemas para visualizar la tienda online de Reebok, podría intentar eliminar las cookies y los archivos temporales de Internet. Esto debería ser útil para resolver sus problemas de visualización. Por favor, asegúrese de tener habilitadas las cookies.\n\nNuestro sitio web es compatible con los siguientes navegadores: Internet Explorer, Firefox y Google Chrome.\n\n",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Qué pasa si no puedo encontrar la respuesta a mi pregunta aquí?
+  "rich-text#pf-tienda-reebok-5": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué pasa si no puedo encontrar la respuesta a mi pregunta aquí?**\n\nSi no puede encontrar la respuesta a su pregunta aquí, le recomendamos comunicarse a través de nuestros canales digitales de Servicio al Cliente y que comunique al asesor los detalles de su pedido y/o su pregunta pendiente. Nuestro equipo de atención al cliente para la tienda en línea está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM, excepto fines de semana y días feriados nacionales.\n\nTambién puede enviarnos un correo electrónico a la dirección contacto.cl@fashionfitnessgroup.com . Nuestros asesores estarán encantados de ayudarle.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //*----Sobre Ordenes/Pedidos----?//
+  //* ¿Puedo realizar un pedido por teléfono?
+  "rich-text#pf-sobre-pedidos-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Puedo realizar un pedido por teléfono?**\n\nEn caso de necesitar asistencia para realizar una compra a través de la página por favor contacte a nuestro equipo de atención al cliente en nuestros canales de Servicio al Cliente **(Chat en la tienda online / Teléfono +56 22 6178801)**. Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* ¿Cómo puedo realizar un seguimiento de mi pedido?
+  "rich-text#pf-sobre-pedidos-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cómo puedo realizar un seguimiento de mi pedido?**\n\nPuede hacer seguimiento a su pedido dirigiéndose al Historial de Pedidos dentro de la sección **Mi Cuenta**. Diríjase a la descripción del pedido que desee seguir y haga clic en el número de seguimiento en la columna **«Detalles»**. Esto le llevará al sitio web del transportista, en el que podrá encontrar la información más reciente disponible.\n\nLe rogamos que tenga en cuenta que mientras el transportista no actualice su sistema con la información del seguimiento de su pedido, usted no podrá seguir su pedido a través de Internet. Por tanto, es posible que cuando le proporcionemos el enlace para poder seguir el pedido, el primer día en que usted haya realizado su pedido todavía no haya disponible información de seguimiento. Sin embargo, el transportista habitualmente actualiza su información en el plazo de un día hábil desde el momento en que le proporcionemos el enlace, de manera que, si aún no hay información disponible, le rogamos que vuelva a comprobar el enlace más tarde.\n\nLos estados en los que se puede encontrar el pedido son:",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* Estado de Ordenes(Cancelada, confirmada, etc...)
+  "rich-text#pf-sobre-pedidos-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "#### Confirmación de Orden –\n\nEste estado significa que su pedido ha sido recibido y confirmado por el sistema. También recibirá un correo electrónico con el estado de la orden.\n\n#### Confirmación de Pago  –\n\nEste estado significa que se ha procesado el pago en línea de su pedido exitosamente. También recibirá un correo electrónico con el estado de la orden.\n\n#### Pago Pendiente –\n\nEn caso de hacer pago en efectivo o por transferencia, este estado significa que esta pendiente el pago de la orden. Una vez completada será confirmada la orden por el sistema. También recibirá un correo electrónico con el estado de la orden.\n\n#### Pedido en Camino –\n\nEste estado significa que su pedido ha abandonado nuestro almacén y que actualmente está en manos del transportista o ya ha sido entrega por este. Puede hacer clic en el enlace de seguimiento del transportista, que también se proporciona con este estado, y ver dónde se encuentra su paquete en estos momentos. Cuando su pedido abandone nuestro almacén, también recibirá un correo electrónico con el enlace de seguimiento del pedido\n\n#### Pedido Entregado –\n\nEste estado significa que su pedido ya fue entregado por el transportista. También recibirá un correo electrónico con el estado de la orden.\n\n#### Orden Cancelada –\n\nEste estado significa que su pedido ha sido cancelado debido a circunstancias imprevistas.\n\n El método y tiempo de reembolso dependerá del método de pago utilizado en tu compra. Desde nuestro Centro de Servicio a Clientes iniciaremos tu proceso de reembolso el cual puede tomar de diez (10) hasta veinte (20) días hábiles dependiendo de su método de pago original.\n\nPor favor tomar en cuenta que si compra como invitado recibirá los correos electrónicos con los estados de su pedido sin embargo no podrá ver historial de pedidos en la página directamente.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* ¿Puedo cancelar mi pedido si aún no lo han enviado?
+  "rich-text#pf-sobre-pedidos-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Puedo cancelar mi pedido si aún no lo han enviado?**\n\nSe puede cancelar mientras que el pedido se encuentre en proceso dentro de nuestro almacén. Una vez que el pedido haya sido despachado y facturado no se podrá solicitar la cancelación.\n\nSi el pedido ya ha sido enviado no se puede cancelar y puede devolverlo cuando lo reciba por correo siguiendo las instrucciones de nuestros [ Términos y Condiciones](/terminos-condiciones).\n\nPara le aconsejamos que contacte a nuestro equipo de atención al cliente a través de nuestros canales de Servicio al Cliente (Chat en la tienda online / Teléfono +56 22 6178801). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.\n\nTambién puede enviarnos un correo electrónico a la dirección [contacto.cl@fashionfitnessgroup.com](mailto:contacto.cl@fashionfitnessgroup.com) . Nuestros asesores estarán encantados de ayudarle.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* ¿Puedo modificar mi pedido?
+  "rich-text#pf-sobre-pedidos-5": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Puedo modificar mi pedido?** \n\nSe puede cambiar mientras que el pedido se encuentre en proceso dentro de nuestro almacén. Una vez que el pedido haya sido despachado y facturado no se podrá solicitar la modificacion.\n\nSi el pedido ya ha sido enviado no se puede cancelar y puede devolverlo cuando lo reciba por correo siguiendo las instrucciones de nuestros [Términos y Condiciones](/terminos-condiciones).\n\nPara mas consultas le aconsejamos que contacte a nuestro equipo de atención al cliente a través de nuestros canales de Servicio al Cliente (Chat en la tienda online / Teléfono +56 22 6178801). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.\n\nTambién puede enviarnos un correo electrónico a la dirección [contacto.cl@fashionfitnessgroup.com](contacto.cl@fashionfitnessgroup.com) . Nuestros asesores estarán encantados de ayudarle.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* ¿Qué tipo de correos electrónicos recibiré acerca de mi pedido?
+  "rich-text#pf-sobre-pedidos-6": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué tipo de correos electrónicos recibiré acerca de mi pedido?**\n\nUna vez que haya realizado su pedido en la tienda en línea de Reebok, recibirá los siguientes mensajes de correo electrónico:\n\n#### Confirmación de Orden –\n\nEste estado significa que su pedido ha sido recibido y confirmado por el sistema. También recibirá un correo electrónico con el estado de la orden.\n\n#### Confirmación de Pago –\n\nEste estado significa que se ha procesado el pago en línea de su pedido exitosamente. También recibirá un correo electrónico con el estado de la orden.\n\n#### Pago Pendiente –\n\nEn caso de hacer pago en efectivo o por transferencia, este estado significa que esta pendiente el pago de la orden. Una vez completada será confirmada la orden por el sistema. También recibirá un correo electrónico con el estado de la orden.\n\n#### Pedido en Camino –\n\nEste estado significa que su pedido ha abandonado nuestro almacén y que actualmente está en manos del transportista o ya ha sido entrega por este. Puede hacer clic en el enlace de seguimiento del transportista, que también se proporciona con este estado, y ver dónde se encuentra su paquete en estos momentos. Cuando su pedido abandone nuestro almacén, también recibirá un correo electrónico con el enlace de seguimiento del pedido.\n\n#### Pedido Entregado –\n\nEste estado significa que su pedido ya fue entregado por el transportista. También recibirá un correo electrónico con el estado de la orden.\n\n#### Cancelación de Orden –\n\nEste estado significa que su pedido ha sido cancelado debido a circunstancias imprevistas. \n\n El método y tiempo de reembolso dependerá del método de pago utilizado en tu compra. Desde nuestro Centro de Servicio a Clientes iniciaremos tu proceso de reembolso el cual puede tomar de diez (10) hasta veinte (20) días hábiles dependiendo de su método de pago original. \n\n Por favor tomar en cuenta que si compra como invitado recibirá los correos electrónicos con los estados de su pedido sin embargo no podrá ver historial de pedidos en la página directamente.\n\n#### Pedido no procesado –\n\n  Este estado significa que en caso de no lograr acreditarse el pago, señalando que el pedido no será procesado debido a que no logró acreditarse el pago, informándose dentro de dicho correo los medios de contacto en caso de existir algún problema o duda con el procesamiento del pago. ",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* ¿Por qué ha sido cancelado mi pedido?
+  "rich-text#pf-sobre-pedidos-7": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Por qué ha sido cancelado mi pedido?** \n\nSu pedido puede haber sido anulado por numerosas razones. La más común es que el producto que usted encargó lamentablemente ya no está disponible en el almacén. Naturalmente, nos esforzamos en la medida de lo posible por entregar todos los pedidos de los clientes. No obstante, en raras ocasiones, podemos tener problemas con las existencias en el almacén. Para comprender claramente por qué se anuló su pedido, le aconsejamos que contacte a nuestro equipo de atención al cliente a través de nuestros canales de Servicio al Cliente (Chat en la tienda online / Teléfono +56 22 6178801). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM\n\nTambién puede enviarnos un correo electrónico a la dirección [contacto.cl@fashionfitnessgroup.com](contacto.cl@fashionfitnessgroup.com) . Nuestros asesores estarán encantados de ayudarle.\n\nPor favor tener en consideración que si el método de pago que escogió al comprar es en efectivo tendrá un plazo de 24 horas para hacer el pago antes de que la orden se cancele automáticamente.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+
+  //?----Sobre el Producto----?//
+  //? ¿Cómo puedo encontrar el producto que estoy buscando?
+  "rich-text#pf-sobre-producto-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cómo puedo encontrar el producto que estoy buscando?**\n\nSi necesita ayuda para encontrar un producto, use nuestra función de búsqueda de productos, situada en la parte superior de todas las páginas. Solo tiene que introducir palabras clave o un número de producto en la casilla de búsqueda y hacer clic en la lupa. Los resultados de su búsqueda se mostrarán en la página, con enlaces a productos concretos o a grupos de productos. Entonces, podrá afinar su búsqueda seleccionando las diferentes categorías situadas a la izquierda de la página en la que se muestran los resultados de su búsqueda; por ejemplo: Género, Deportes, Rango de precios o incluso Color.\n\n**Consejos de búsqueda:**\n\n- Asegúrese de haber escrito correctamente las palabras que ha empleado para su búsqueda, ya que esto le permitirá obtener resultados más precisos. \n- Use múltiples palabras para buscar tipos específicos de productos, como por ejemplo «zapatillas para correr». Después podrá afinar la búsqueda a un género o rango de precios específico.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Cómo puedo añadir productos a mi carrito de compra?
+  "rich-text#pf-sobre-producto-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cómo puedo añadir productos a mi carrito de compra?**\n\nPara añadir productos a su carrito de la compra, siga los siguientes pasos:\n\n- Antes de añadir un producto a su carrito de compra desde la página del producto, puede que sea necesario seleccionar una «talla» y/o «color» para el producto que desee comprar. Haga clic en el menú situado bajo la descripción del producto para seleccionar una talla y/o color.\n- Haga clic en el botón «Añadir al carrito» para añadir el producto a su cesta de la compra.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Qué debería hacer si he recibido el producto dañado o defectuoso?
+  "rich-text#pf-sobre-producto-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué debería hacer si he recibido el producto dañado o defectuoso?**\n\nSi ha recibido un producto dañado o defectuoso, le recomendamos que se comunique a través de nuestros canales de Servicio al Cliente (**Chat en la tienda online / Teléfono +56 22 6178801**). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.\n\nTambién puede enviarnos un correo electrónico a la dirección [contacto.cl@fashionfitnessgroup.com](mailto:contacto.cl@fashionfitnessgroup.com) . Nuestros asesores estarán encantados de ayudarle.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Qué debería hacer si recibo un producto equivocado?
+  "rich-text#pf-sobre-producto-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué debería hacer si recibo un producto equivocado?**\n\nSi ha recibido un producto equivocado, le recomendamos que se comunique a través de nuestros canales de Servicio al Cliente (**Chat en la tienda online / Teléfono +56 22 6178801**). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM. \n\n También puede enviarnos un correo electrónico a la dirección contacto.cl@fashionfitnessgroup.com . Nuestros asesores estarán encantados de ayudarle.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //*----Sobre el Pago----?//
+  //* ¿Cómo puedo pagar?
+  "rich-text#pf-sobre-el-pago-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cómo puedo pagar?**\n\nNuestro sencillo proceso de pago está diseñado para ayudarle a completar su pedido y finalizar su visita de compras en línea fácil y rápidamente. Si ya ha registrado su dirección de correo electrónico en el sitio web de Reebok o ha creado una cuenta en nuestra tienda en línea anteriormente, podrá usar su dirección de correo electrónico para iniciar sesión. Tener una cuenta le permitirá acceder a funciones útiles, como la libreta de direcciones y su historial personal de pedidos. De lo contrario, podrá pagar identificándose como invitado y recibirá los correos electrónicos con los estados de su pedido sin embargo no podrá ver historial de pedidos en la página directamente.\n\nEn los primeros dos pasos del proceso de pago se le solicitará su dirección de entrega y facturación. Si su dirección de facturación es la misma que su dirección de entrega, solo tendrá que marcar la casilla correspondiente y la dirección de facturación se copiará automáticamente. Si ha guardado una dirección durante pagos anteriores, también podrá usar la libreta de direcciones para seleccionar dicha dirección.\n\nEl siguiente paso consiste en indicar la información de pago. Puede elegir pagar con tarjeta de crédito, transferencias bancarias en línea o en efectivo. Una vez que haya introducido todos sus datos en esta página y haya hecho clic en Continuar, el dinero no será cargado a su tarjeta hasta que confirme su pedido en la siguiente página. Le rogamos que tenga en cuenta que, con el fin de garantizar la seguridad de sus datos, los datos relativos a su tarjeta de débito o crédito no quedarán almacenados en nuestros sistemas.\n\nUna vez que haya completado la información sobre su modalidad de pago, pasará a una pantalla con el resumen de su pedido Reebok. Por favor, compruebe toda la información contenida en esta página, dado que esta es su última oportunidad de corregirla. Después de pulsar «Confirmar pedido», su pedido será procesado y enviado al almacén. Desde este momento, si se ha registrado en la tienda en línea de Reebok, podrá hacer seguimiento de su pedido en su cuenta.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //* ¿Qué métodos de pago se aceptan?
+  "rich-text#pf-sobre-el-pago-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué métodos de pago se aceptan?**\n\nEstán disponibles las siguientes opciones de pago:\n\n- Tarjetas de Crédito: Visa, Mastercard, AMEX\n- Tarjetas de Débito: Visa, Mastercard, MACH, Superdigital, Tenpo, dale, Prepago\n- Cash: Multicaja\n- Transferencia bancaria: Multicaja.\n\n![metodos de pago | Reebok Chile](https://reebokcl.vteximg.com.br/arquivos/payu-preguntas-frecuentes-chile-2.png)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //?----Sobre el Envio----?//
+  //? ¿Puedo indicar una dirección de entrega distinta de mi dirección de facturación?
+  "rich-text#pf-sobre-el-envio-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Puedo indicar una dirección de entrega distinta de mi dirección de facturación?**\n\nSí, es posible. Durante el proceso de pago, puede seleccionar diferentes direcciones. Le rogamos que tenga en cuenta que esta opción solo es válida para direcciones dentro del mismo país.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Qué gastos de envío deberé pagar?
+  "rich-text#pf-sobre-el-envio-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Qué gastos de envío deberé pagar?**\n\nConsulta la sección de Entrega de Productos en nuestros [Términos y Condiciones](/terminos-condiciones).",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_table_desktop"
+      ]
+    }
+  },
+  //? ¿Cuándo recibiré mi pedido?
+  "rich-text#pf-sobre-el-envio-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cuándo recibiré mi pedido?**\n\nLos pedidos empiezan a procesarse en cuanto queda completada su compra en línea y reciba su correo de **Confirmación de Pago.**\n\nLas entregas se realizarán en días hábiles de lunes a viernes, excepto los días festivos.\n\n Los periodos de entrega son indicativos y, por consiguiente, no se consideran fechas límite estrictas. El mero hecho de haber excedido un periodo de entrega no le dará ningún derecho de compensación. \n\nRecibirá un correo electrónico de notificación cuando se haya enviado su pedido con toda la información para que pueda hacer seguimiento.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //? ¿Puedo modificar mi dirección de entrega después de que mi pedido haya sido enviado?
+  "rich-text#pf-sobre-el-envio-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Puedo modificar mi dirección de entrega después de que mi pedido haya sido enviado?**\n\nSe puede cambiar mientras que el pedido se encuentre en proceso dentro de nuestro almacén. Una vez que el pedido haya sido despachado y facturado no se podrá solicitar el cambio.\n\n1. Normas y restricciones de envío:\n - Los pedidos se envían de lunes a viernes, excluyendo los festivos nacionales de Chile.\n - No realizamos entregas en casillas de correos, ni en áreas restringidas como zonas francas, puertos, aeropuertos, etc.\n - Para cualquier consulta, llame a nuestro servicio de atención al cliente al número +56 22 6178801 o a través de nuestro correo electrónico [contacto.cl@fashionfitnessgroup.com](mailto:contacto.cl@fashionfitnessgroup.com) .\n\nLe rogamos se contacte con nosotros a través de nuestros canales de Servicio al Cliente y comunique al asesor el número de su pedido y la dirección de entrega. Nuestro asesor de atención al cliente se pondrá en contacto en su nombre con el transportista y le preguntará si es posible modificar la dirección de entrega. Por favor, tenga en cuenta que normalmente solo es posible modificar la dirección si el transportista aún no ha pasado a recoger su pedido de nuestro almacén.\n\nAntes del final del mismo día hábil recibirá la notificación de su envio. Con la notificación de su envío, recibirá un enlace de seguimiento de su pedido. Desde este enlace podrá ver si el transportista pudo modificar su dirección.\n\nNuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_number",
+        "landing_inst_content_sublist_letter"
+      ]
+    }
+  },
+  //? ¿Cuánto tendré que esperar para poder seguir mi pedido una vez que haya recibido el mensaje de confirmación del envío?
+  "rich-text#pf-sobre-el-envio-6": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cuánto tendré que esperar para poder seguir mi pedido una vez que haya recibido el mensaje de confirmación del envío?**\n\nSu correo electrónico de confirmación del envío debería incluir un enlace desde el que seguir su pedido online. Puede producirse algún retraso en la actualización en el sitio web del estado de un pedido; sin embargo, normalmente será breve. La información de seguimiento debería estar disponible en cuanto usted reciba dicho correo electrónico de confirmación.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //*----Sobre Devoluciones----?//
+  //* ¿Cuál es su política de cambios
+  "rich-text#pf-desktop-sobre-devoluciones-reembolsos-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cuál es su política de cambios?** \nPara hacer cambios a través de Servicio de Atención al cliente puede consultar la sección de Garantia de Satisfaccion en nuestros [Términos y Condiciones](/terminos-condiciones). ",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal",
+        "landing_inst_content_table_desktop"
+      ]
+    }
+  },
+  //*Cambios en Tiendas
+  "rich-text#pf-sobre-devoluciones-reembolsos-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **Cambios en Tiendas**\n\n¡En hora buena! Comprar productos en la tienda online[ www.reebok.cl](/) nunca fue tan fácil. Si compras un producto y quieres realizar un cambio, ya sea porque te queda muy grande, muy chico, o aunque nuestros productos son los mejores, has decidido que quieres cambiarlos, Reebok te da la capacidad de cambiar tu producto en cualquiera de las tiendas reebok en todo Chile.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //*Requisitos para cambios:
+  "rich-text#pf-sobre-devoluciones-reembolsos-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **Requisitos para cambios:**\n\n- Los cambios solamente aplican por compras a través de la tienda en linea[ www.reebok.cl](/) \n- Para cambios en tienda por número, talla o modelo el plazo es de 30 días a partir de la fecha de recepción del producto \n- El producto que quieres cambiar debe estar sin uso, con sus etiquetas y cajas originales \n- La devolución del monto se hace a través de un Giftcard; en caso de que se necesite de la devolución de dinero se hace el trámite para la cancelación de la compra a través del mismo medio de pago que se realizó originalmente en la compra \n- Solo aplica para tiendas propias Reebok Chile; no franquicias \n- El cambio no aplica a trajes de baño, ropa interior, calzas ni bras deportivos \n- Para cambios por problemas de calidad el plazo es de 180 días a partir de la fecha de recepción del producto\n\nPara más información le recomendamos que se comunique a través de nuestros canales de Servicio al Cliente (**Chat en la tienda online / Teléfono +56 22 6178801**). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.\n\nTambién puede enviarnos un correo electrónico a la dirección contacto.cl@fashionfitnessgroup.com . Nuestros asesores estarán encantados de ayudarle.\n\n**¿Listo para un cambio?** - Mira que tienda te queda más cerca.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_normal",
+        "landing_inst_content_sublist_normal"
+      ]
+    }
+  },
+  //*¿Cuáles son las condiciones y limitaciones para devolver un producto?
+  "rich-text#pf-sobre-devoluciones-reembolsos-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cuáles son las condiciones y limitaciones para devolver un producto?*\n\nDevolución de productos:\n\nSi no está completamente satisfecho con su pedido consulta la sección de Garantía Legal en nuestros [Términos y Condiciones](/terminos-condiciones). Solo tiene que seguir las instrucciones que se indican en esta sección.\n\nNuestra Garantía para usted:\n\nUsted podrá solicitar el cambio de un producto por talla o el reembolso de la compra realizada en nuestro Sitio Web dentro del plazo de 6 meses contados desde su recepción siempre que el producto no se haya usado ni deteriorado por un hecho imputable a usted. Este proceso lo puede realizar ya sea contactándose con nuestro servicio de atención al cliente a través de en nuestro teléfono +56 22 6178801 (número local) o a través de nuestro correo electrónico contacto.cl@fashionfitnessgroup.com en donde le podrán aclarar dudas del procedimiento a seguir para los cambios del producto o el reembolso total o parcial del importe pagado.\n\n_Este derecho no aplica respecto de trajes de baño, mascarillas y productos de la línea stay in play._\n\nSi usted tiene algún inconveniente con la celebración del contrato o su cumplimiento, puede contactarse con nosotros a la siguiente dirección de correo electrónico: contacto.cl@fashionfitnessgroup.com , indicando el motivo del inconveniente o contactarse directamente con nuestro Servicio de Atención al Cliente al siguiente número +56 22 6178801.\n\nNuestro Derecho de Devoluciones para usted:\n\n- Tiene un plazo de 30 días a partir de la fecha de recepción del producto.\n- Para artículos con problemas de calidad cuentas con un periodo de hasta 6 meses a partir de la fecha de recepción del producto.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_letter"
+      ]
+    }
+  },
+  //*¿Cuándo recibiré mi devolución del dinero?
+  "rich-text#pf-sobre-devoluciones-reembolsos-5": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Cuándo recibiré mi devolución del dinero?**\n\nTodas las devoluciones se hacen a través de Certificados de Regalo; se emite al cliente alrededor de 2 – 4 días hábiles luego de confirmada la devolución del producto.\n\nSi el consumidor opta por la devolución de su dinero, una vez que nuestro almacén haya confirmado tu devolución, desde nuestro Centro de Servicio a Clientes daremos inicio a tu proceso de reembolso el cual puede tomar de diez (10) hasta veinte (20) días hábiles dependiendo de su método de pago original. El método y tiempo de reembolso dependerá del método de pago utilizado en tu compra.\n\nPara mas detalles puede consultar la sección de Garantia Legal en nuestros [Términos y Condiciones](/terminos-condiciones).\n\nSi tiene más consultas/preguntas, le recomendamos que se comunique a través de nuestros canales de Servicio al Cliente (**Chat en la tienda online / Teléfono +56 22 6178801**). Nuestro equipo de atención al cliente para la tienda online está disponible de Lunes a Viernes de 9:00 AM a 6:00 PM.\n\nTambién puede enviarnos un correo electrónico a la dirección contacto.cl@fashionfitnessgroup.com . Nuestros asesores estarán encantados de ayudarle.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_letter"
+      ]
+    }
+  },
+  //*¿Me devolverán los gastos de envío si les devuelvo mi pedido?
+  "rich-text#pf-sobre-devoluciones-reembolsos-6": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### **¿Me devolverán los gastos de envío si les devuelvo mi pedido?**\n\nSiempre que recibamos la devolución de su pedido íntegro y que cumpla con nuestra política de devoluciones, le reembolsaremos los gastos de envío así como el coste del producto. Si solo va a devolver un artículo perteneciente a un pedido con múltiples artículos, lamentablemente no le reembolsaremos los gastos de envío.",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_list_letter"
+      ]
+    }
+  },
+  //?---- Icons arrows -----?//
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "image#icon-open",
+      "Hide": "image#icon-close"
+    }
+  },
+  "image#icon-close": {
+    "props": {
+      "src": "assets/ChevronUp.png",
+      "alt": "icon arrow up",
+      "maxHeight": 24,
+      "maxWidth": 24
+    }
+  },
+  "image#icon-open": {
+    "props": {
+      "src": "assets/ChevronDown.png",
+      "alt": "icon arrow down",
+      "maxHeight": 24,
+      "maxWidth": 24
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "NeuePlak-Regular";
+  src: url(assets/fonts/NeuePlak-Regular.ttf);
+}
+  
+@font-face {
+  font-family: "NeuePlak-SemiBold";
+  src: url(assets/fonts/NeuePlak-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "NeuePlak-Bold";
+  src: url(assets/fonts/NeuePlak-WideBold.ttf);
+}
+
+@font-face {
+  font-family: "NeuePlak-WideRegular";
+  src: url(assets/fonts/NeuePlak-WideRegular.ttf);
+}
+
+@font-face {
+  font-family: "NeuePlak-CompBlack";
+  src: url(assets/fonts/NeuePlak-CompBlack.ttf);
+}
+

@@ -1,0 +1,646 @@
+{
+    /*SECCION MUJER*/
+    "menu-item#submenu-title-colecciones-mujer": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                //"href": "/coleccion-mujer",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-clubc": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/club-c",
+                "noFollow": false,
+                "tagTitle": "Club C",
+                "text": "Club C "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-classicleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classic Leather",
+                "text": "Classic Leather "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-freestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/freestyle",
+                "noFollow": false,
+                "tagTitle": "Freestyle",
+                "text": "Freestyle "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-zigkinetica": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/zig-kinetica",
+                "noFollow": false,
+                "tagTitle": "Zig Kinetica",
+                "text": "Zig Kinetica "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-zigdynamica": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/zig-dynamica",
+                "noFollow": false,
+                "tagTitle": "Zig Dynamica",
+                "text": "Zig Dynamica "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-unitedbyfitness": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/united-by-fitness",
+                "noFollow": false,
+                "tagTitle": "United by Fitness",
+                "text": "United by Fitness "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-zapatillasblancas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/zapatillas-blancas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas Blancas",
+                "text": "Zapatillas Blancas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-mujer-link-zapatillasnegras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/zapatillas-negras",
+                "noFollow": false,
+                "tagTitle": "Zapatillas Negras",
+                "text": "Zapatillas Negras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION HOMBRE*/
+    "menu-item#submenu-title-colecciones-hombre": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                //"href": "/coleccion-hombre",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-classicleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classic Leather",
+                "text": "Classic Leather "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-freestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Freestyle",
+                "text": "Freestyle "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-zigdynamica": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/zig-dynamica",
+                "noFollow": false,
+                "tagTitle": "Zig Dynamica",
+                "text": "Zig Dynamica "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-unitedbyfitness": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/united-by-fitness",
+                "noFollow": false,
+                "tagTitle": "United by Fitness",
+                "text": "United by Fitness "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-question": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/question",
+                "noFollow": false,
+                "tagTitle": "Question",
+                "text": "Question "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-zapatillasblancas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/zapatillas-blancas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas Blancas",
+                "text": "Zapatillas Blancas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-hombre-link-zapatillasnegras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/zapatillas-negras",
+                "noFollow": false,
+                "tagTitle": "Zapatillas Negras",
+                "text": "Zapatillas Negras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION UNISEX*/
+    "menu-item#submenu-title-colecciones-unisex": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                //"href": "/colecciones-unisex",
+                "noFollow": false,
+                "tagTitle": "Unisex",
+                "text": "Unisex"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-classicleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classic Leather",
+                "text": "Classic Leather "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-freestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Freestyle",
+                "text": "Freestyle "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-zigkinetica": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/zig-kinetica",
+                "noFollow": false,
+                "tagTitle": "Zig Kinetica",
+                "text": "Zig Kinetica "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-unitedbyfitness": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/united-by-fitness",
+                "noFollow": false,
+                "tagTitle": "United by Fitness",
+                "text": "United by Fitness "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-shaqattaq": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/shaq-attaq",
+                "noFollow": false,
+                "tagTitle": "Shaq Attaq",
+                "text": "Shaq Attaq "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-question": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/question",
+                "noFollow": false,
+                "tagTitle": "Question",
+                "text": "Question "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-zapatillasblancas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/zapatillas-blancas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas Blancas",
+                "text": "Zapatillas Blancas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-unisex-link-zapatillasnegras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex/zapatillas-negras",
+                "noFollow": false,
+                "tagTitle": "Zapatillas Negras",
+                "text": "Zapatillas Negras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION COLECCIONES*/
+    "menu-item#submenu-title-colecciones-colecciones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                //"href": "/coleccion",
+                "noFollow": false,
+                "tagTitle": "Colecciones",
+                "text": "Colecciones"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-classicleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classic Leather",
+                "text": "Classic Leather "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-classicslides": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/classic-slides",
+                "noFollow": false,
+                "tagTitle": "Classic Slides",
+                "text": "Classic Slides "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-clubc": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ClubC",
+                "noFollow": false,
+                "tagTitle": "Club C",
+                "text": "Club C "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-fitnessandtraining": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-floatride": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/floatride",
+                "noFollow": false,
+                "tagTitle": "Floatride",
+                "text": "Floatride "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-freestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/freestyle",
+                "noFollow": false,
+                "tagTitle": "Freestyle",
+                "text": "Freestyle"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-instapump": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/instapump",
+                "noFollow": false,
+                "tagTitle": "InstaPump",
+                "text": "InstaPump"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-makeityours": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/make-it-yours",
+                "noFollow": false,
+                "tagTitle": "Make it Yours",
+                "text": "Make it Yours"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-meetyouthere": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/meet-you-there",
+                "noFollow": false,
+                "tagTitle": "Meet you There",
+                "text": "Meet you There"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-nano": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/nano",
+                "noFollow": false,
+                "tagTitle": "Nano",
+                "text": "Nano"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-reebokroyal": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/reebok-royal",
+                "noFollow": false,
+                "tagTitle": "Reebok Royal",
+                "text": "Reebok Royal"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-sostenible": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sostenible",
+                "noFollow": false,
+                "tagTitle": "Sostenible",
+                "text": "Sostenible"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-colecciones-colecciones-link-zig": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/zig",
+                "noFollow": false,
+                "tagTitle": "Zig",
+                "text": "Zig"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    }
+}

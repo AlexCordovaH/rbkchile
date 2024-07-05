@@ -1,0 +1,18 @@
+{
+    "store.custom#conoce-tu-talla": {
+        "blocks": [
+          "flex-layout.row#size-finder-container"
+        ]
+      },
+      "flex-layout.row#size-finder-container": {
+        "props":{
+          "marginTop": 4,
+          "marginBottom": 6,
+          "fullWitdth": true
+        },
+        "children": ["flex-layout.col#size-finder-container"]
+      },
+      "flex-layout.col#size-finder-container": {
+        "children": ["size-finder"]
+      }
+}

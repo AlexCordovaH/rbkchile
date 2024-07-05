@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#floatzig-row-images-text": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["container-third-row-images-text","container-floatzig-third-row-images-text"]
+    },
+    "children": ["flex-layout.row#floatzig-row-of-images-text"]
+  },
+
+  "flex-layout.row#floatzig-row-of-images-text": {
+    "props":{ 
+      "blockClass": ["container-third-row-images-text","container-floatzig-third-row-images-text"]
+    },
+    "children": [
+      "rich-text#floatzig-row-of-images-text-title","rich-text#floatzig-row-of-images-text-description"
+    ]
+  },
+
+  "rich-text#floatzig-row-of-images-text-title": {
+    "props": {
+    "text": "### DESCUBRE LAS NUEVAS FLOATZIG 1 <br/>",
+    "blockClass": ["nano-text-title"]
+    }
+  },
+
+  "rich-text#floatzig-row-of-images-text-description": {
+    "props": {
+    "text": "#### La espuma de la suela te da un mejor performance, mientras que la forma en Zig permite el máximo retorno de energía. \n #### Bienvenido a la nueva forma de correr. <br/><br/>",
+    "blockClass": ["nano-text-description", "floatzig-row-of-images-text-description"]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+    "custom-banner#floatzig": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP_FLOATZIG_v3.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE_FLOATZIG.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "LLEGÓ FLOATZIG 1",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr3 cWhite mb1",
+                        "tablet": "banner-headline-bottom mr3 cWhite",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "El futuro del running ya está aquí.",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cWhite mb0",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Descubre las zapatillas más ligeras para ",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cWhite",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "corredores de todos los niveles.",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cWhite",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite "
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "DESCUBRE MÁS",
+                        "link": "/reebokfloatzig",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2 font-family-NR",
+                            "tablet": "mt5 fs70 font-family-NR",
+                            "phone": "mt5 mr17 fs70 font-family-NR"
+                        }
+                    },
+                    {
+                        "label": "COMPRAR AHORA",
+                        "link": "/floatzig",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2 font-family-NR",
+                            "tablet": "mt5 fs70 font-family-NR",
+                            "phone": "mt5 mr17 fs70 font-family-NR"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t25 tar font-family-NR",
+                "tablet": "relative t25 tar font-family-NR",
+                "phone": "relative t71 tac font-family-NR"
+            }
+        }
+    },
+    /* mobile */
+
+    "flex-layout.row#custom-banner-members": {
+        "children": ["custom-banner#floatzig-mobile"],
+        "props": {
+          "blockClass": "custom-banner-members",
+          "marginBottom": 4
+        }
+    },
+    
+    "custom-banner#floatzig-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP_FLOATZIG_v3.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE_FLOATZIG.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "LLEGÓ FLOATZIG 1",
+                    "sx": {
+                        "desktop": "font-family-NR banner-headline-bottom mr3 cWhite mb0",
+                        "tablet": "banner-headline-bottom mr3 cWhite",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "El futuro del running ya está aquí.",
+                    "sx": {
+                        "desktop": "font-family-NR banner-copy mr3 cWhite mb0",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Descubre las zapatillas más ligeras para corredores",
+                    "sx": {
+                        "desktop": "font-family-NR banner-copy mr3 cWhite",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "de todos los niveles.",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cWhite",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite "
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "DESCUBRE MÁS",
+                        "link": "/reebokfloatzig",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr1",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70 ml7"
+                        }
+                    },
+                    {
+                        "label": "COMPRAR AHORA",
+                        "link": "/floatzig",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "center"
+            },
+            "sx": {
+                "desktop": "relative t30 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t60 tac"
+            }
+        }
+    }
+}

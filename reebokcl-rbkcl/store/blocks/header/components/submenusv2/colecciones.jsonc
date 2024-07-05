@@ -1,0 +1,116 @@
+{
+    "vtex.menu@2.x:submenu#v2-colecciones": {
+        "props": {
+            "width": "100%",
+            "orientation": "vertical",
+            "blockClass": "submenu-mujer"
+        },
+        "children": [
+            "flex-layout.row#submenu-desktop-v2-colecciones"
+        ]
+    },
+    "flex-layout.row#submenu-desktop-v2-colecciones": {
+        "props": {
+            "blockClass": "submenu-desktop"
+        },
+        "children": [
+            "flex-layout.row#submenu-v2colecciones-padre-row2"
+        ]
+    },
+    "flex-layout.row#submenu-v2colecciones-padre-row2": {
+        "props": {
+            "blockClass": "submenu-padre-row2"
+        },
+        "children": [
+            "flex-layout.row#submenu-item-general-v2-colecciones-titulos"
+        ]
+    },
+    "flex-layout.row#submenu-item-general-v2-colecciones-titulos": {
+        "props": {
+            "blockClass": "submenu-item-general-titulos"
+        },
+        "children": [
+            "flex-layout.col#submenu-item-v2-colecciones-mujer",
+            "flex-layout.col#submenu-item-v2-colecciones-hombre",
+            "flex-layout.col#submenu-item-v2-colecciones-unisex",
+            "flex-layout.col#submenu-item-v2-colecciones-colecciones"
+            
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-colecciones-mujer": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-colecciones-mujer",
+            "menu-item#submenu-colecciones-mujer-link-clubc",
+            "menu-item#submenu-colecciones-mujer-link-classicleather",
+            "menu-item#submenu-colecciones-mujer-link-freestyle",
+            //"menu-item#submenu-colecciones-mujer-link-zigkinetica",
+            "menu-item#submenu-colecciones-mujer-link-zigdynamica",
+            "menu-item#submenu-colecciones-mujer-link-unitedbyfitness",
+            "menu-item#submenu-colecciones-mujer-link-zapatillasblancas",
+            "menu-item#submenu-colecciones-mujer-link-zapatillasnegras"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-colecciones-hombre": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-colecciones-hombre",
+            "menu-item#submenu-colecciones-hombre-link-classicleather",
+            //"menu-item#submenu-colecciones-hombre-link-freestyle",
+            "menu-item#submenu-colecciones-hombre-link-zigdynamica",
+            "menu-item#submenu-colecciones-hombre-link-unitedbyfitness",
+            "menu-item#submenu-colecciones-hombre-link-question",
+            "menu-item#submenu-colecciones-hombre-link-zapatillasblancas"/* ,
+            "menu-item#submenu-colecciones-hombre-link-zapatillasnegras" */
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-colecciones-unisex": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-colecciones-unisex",
+            "menu-item#submenu-colecciones-unisex-link-classicleather",
+            //"menu-item#submenu-colecciones-unisex-link-freestyle",
+            "menu-item#submenu-colecciones-unisex-link-zigkinetica",
+            //"menu-item#submenu-colecciones-unisex-link-unitedbyfitness",
+            "menu-item#submenu-colecciones-unisex-link-shaqattaq",
+            "menu-item#submenu-colecciones-unisex-link-question",
+            "menu-item#submenu-colecciones-unisex-link-zapatillasblancas",
+            "menu-item#submenu-colecciones-unisex-link-zapatillasnegras"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-colecciones-colecciones": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-colecciones-colecciones",
+            "menu-item#submenu-colecciones-colecciones-link-classicleather",
+            "menu-item#submenu-colecciones-colecciones-link-classicslides",
+            //"menu-item#submenu-colecciones-colecciones-link-clubc",
+            "menu-item#submenu-colecciones-colecciones-link-fitnessandtraining",
+            "menu-item#submenu-colecciones-colecciones-link-floatride",
+            "menu-item#submenu-colecciones-colecciones-link-freestyle",
+            //"menu-item#submenu-colecciones-colecciones-link-instapump",
+            "menu-item#submenu-colecciones-colecciones-link-makeityours",
+            "menu-item#submenu-colecciones-colecciones-link-meetyouthere",
+            "menu-item#submenu-colecciones-colecciones-link-nano",
+            "menu-item#submenu-colecciones-colecciones-link-reebokroyal",
+            "menu-item#submenu-colecciones-colecciones-link-sostenible",
+            "menu-item#submenu-colecciones-colecciones-link-zig"
+        ]
+    }
+}

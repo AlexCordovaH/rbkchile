@@ -1,0 +1,609 @@
+{
+  /*hombre*/
+  "rich-text#plp-hombre-piepagina-titulo": {
+    "props": {
+      "text": "NUESTRA ROPA PARA HOMBRE MEZCLA COMODIDAD, TECNOLOGÍA Y ESTILO",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-piepagina-body-1": {
+    "props": {
+      "text": "Si te gusta la comodidad en la ropa deportiva para hombre, estás en el sitio indicado. Reebok confecciona ropa de corte deportivo a la vez que ofrece el máximo confort y comodidad posible. Además, tenemos en cuenta los diferentes gustos ofreciendo modelos de todos los estilos: clásico, retro, moderno, etc. Y por si esto no fuera suficiente, también utilizamos los últimos avances en tecnología deportiva y la incorporamos al tejido de nuestras prendas y al diseño de nuestros tenis. Gracias a ello, tu rendimiento aumentará en tu deporte favorito si eliges el equipo de entrenamiento adecuado.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-piepagina-subtitulo-1": {
+    "props": {
+      "text": "Vístete con la ropa para hombre de Reebok",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-piepagina-body-2": {
+    "props": {
+      "text": "En la tienda de Reebok podrás encontrar todo tipo de prendas de ropa, calzado y accesorios deportivos. Sea cual sea tu estilo, estamos seguros de que encontrarás tu outfit perfecto dentro de nuestro catálogo. ¿Te encanta el estilo retro de los ochenta y los noventa? En Reebok tenemos sudaderas, pantalones y otras prendas con diseños recuperados de aquellos maravillosos años. ¿Prefieres un estilo más moderno? No te preocupes, porque también disponemos de ropa deportiva para ti. No te olvides de los accesorios deportivos de nuestra tienda: gorras, medias, mochilas, guantes para el gym y demás material deportivo está a tu alcance.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-piepagina-subtitulo-2": {
+    "props": {
+      "text": "¿Quieres un look increíble? Apuesta por nuestra ropa deportiva de hombre",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-piepagina-body-3": {
+    "props": {
+      "text": "Conseguir un outfit deportivo perfecto es posible en la tienda de Reebok. Combina un par de nuestras zapatillas fabricadas con la última tecnología con otras de nuestras prendas para aumentar tu rendimiento, sea cual sea tu deporte. Si lo tuyo es el running, puedes optar por una camiseta con el logo de Reebok, unos pantalones cortos o unas licras deportivas y unas deportivas específicas de running. ¿Lo tuyo son los deportes de contacto? Luce una sudadera con nuestro clásico logo Vector, un pantalón corto estilo calzón de boxeo y unos guantes de training para darle duro al saco.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  /*mujer*/
+  "rich-text#plp-mujer-piepagina-titulo": {
+    "props": {
+      "text": "CELEBRA TU ESTILO DE VIDA ACTIVO CON LA LÍNEA REEBOK DE MUJER",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-piepagina-body-1": {
+    "props": {
+      "text": "Tanto la ropa como el calzado de mujer están pensados para las exigencias de una forma de vida activa. Encuentra camisetas para entrenar con tecnología ACTIVCHILL, que te mantendrá fresca durante el verano gracias su sistema de ventilación, o con Speedwick, que previene la acumulación de sudor en los entrenamientos más intensos. También tienes a tu disposición sudaderas que te servirán para ir al gimnasio o para dar un paseo por la ciudad. En cuanto a las zapatillas, podrás encontrar modelos para practicar running, con amortiguación ligera para una mayor comodidad y absorción de impactos, o para entrenar en el gym, con suelas de caucho que ofrecen una mayor sujeción sobre cualquier superficie. Finalmente, las licras  te ofrecen una libertad de movimientos excepcional en todo momento.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-piepagina-subtitulo-1": {
+    "props": {
+      "text": "Reebok de mujer: una apuesta por la comodidad y el rendimiento",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-piepagina-body-2": {
+    "props": {
+      "text": "Si armas tu equipamiento deportivo, con la línea Reebok para mujeres estarás dando un paso adelante para mejorar tu rendimiento en tus entrenamientos. Cada prenda está diseñada para optimizar el ejercicio. Por ejemplo, las licras de compresión te ayudarán a proteger los músculos al mismo tiempo que te permitirán realizar movimientos como zancadas o giros con total libertad. Las zapatillas, por su parte, te permiten mejorar la pisada y obtener estabilidad durante la rutina, mientras que las camisetas te mantendrán cómoda en todo momento. La idea es que puedas entrenar al máximo sin distracciones ni interrupciones de ningún tipo para que alcances tus metas.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-piepagina-subtitulo-2": {
+    "props": {
+      "text": "Arma un look único con Reebok para mujer",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-piepagina-body-3": {
+    "props": {
+      "text": "Además de ofrecer ropa y calzado, los productos Reebok de mujer también incluyen accesorios. Entre ellos encontrarás una selección de bolsos de distintos tamaños para que puedas llevar tu equipamiento, gorras para protegerte del sol cuando estés al aire libre, muñequeras y botellas de agua, entre otros. Todos los productos de Reebok están disponibles en distintos colores y diseños para que puedas escoger el que mejor se ajuste a tu estilo.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  /*niños*/
+  "rich-text#plp-ninos-piepagina-titulo": {
+    "props": {
+      "text": "EMPIEZA EL DÍA CON ENERGÍA CON NUESTRAS PRENDAS DE REEBOK INFANTIL",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-piepagina-body-1": {
+    "props": {
+      "text": "Sabemos que el día a día de un niño está lleno de saltos y carreras, y por este motivo necesitan una ropa cómoda que les siga el ritmo en todo momento. En la colección de Reebok infantil encontrarás zapatillas deportivas de todos los estilos, que sin duda harán las delicias de los niños y niñas más exigentes. Están fabricados con materiales de gran calidad, ya que sabemos que los pies en crecimiento son especialmente delicados. Asimismo, incorporan elementos de última generación para que los pies de tus hijos estén siempre a salvo. Las zapatillas de Reebok para niños están fabricadas para que sean duraderas. Podrá jugar junto a sus amigos en la escuela o en el parque tanto como quiera, ya que nuestras suelas de caucho son realmente resistentes a la abrasión. Además, le proporcionarán una tracción y una resistencia extra.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-piepagina-subtitulo-1": {
+    "props": {
+      "text": "Morrales duraderos en nuestra colección para niños de Reebok",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-piepagina-body-2": {
+    "props": {
+      "text": "En nuestra colección Kids podrás encontrar también bolsos de diferentes tamaños y estilos. Son perfectas para transportar los libros del cole, ya que gracias a sus correas acolchadas se reduce la presión sobre los hombros, haciendo que el peso les resulte más llevadero. Tienen un montón de compartimentos con cremalleras, para que los niños puedan organizar todo el material para ir a clase. Los materiales de los bolsos de Reebok son muy resistentes. Además, hay disponibles muchos diseños que convencerán tanto a las niñas como a los niños más exigentes.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-piepagina-subtitulo-2": {
+    "props": {
+      "text": "Consigue el look perfecto para un día lleno de aventuras en la colección infantil de Reebok",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-piepagina-body-3": {
+    "props": {
+      "text": "Todo lo que necesitas para los más pequeños de la casa lo puedes encontrar en nuestra tienda. Combina unas zapatillas para niños de Reebok con uno de nuestros bolsos para que los días de escuela sean magníficos. La comodidad para ellos es muy importante, por lo que un pantalón deportivo será perfecto para su día a día. En su armario tampoco puede faltar una sudadera Reebok para que en los fríos días de invierno pueda seguir jugando al aire libre.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  /*deporte*/
+  "rich-text#plp-deporte-piepagina-titulo-v1": {
+    "props": {
+      "text": "EMPIEZA EL DÍA CON ENERGÍA CON NUESTRAS PRENDAS DE REEBOK",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-body-1": {
+    "props": {
+      "text": "Aprovecha al máximo el esfuerzo al entrenar con la ropa para deporte Reebok, diseñada para mejorar tu rendimiento mientras luces un estilo atractivo y único. Desde chaquetas hasta pantalones, camisetas y medias, puedes completar tu equipamiento con facilidad para cumplir tus objetivos. Cada prenda está fabricada con materiales pensados para darte una mayor libertad de movimientos y mantenerte cómodo. Tecnologías como Speedwick o ACTIVCHILL evitan que se acumule el sudor al dispersarlo rápidamente, para que tengas una sensación de frescura durante el entrenamiento. Otras prendas incluyen paneles de malla que mejoran la ventilación en los días de calor, mientras que la ropa de invierno está pensada para mantener la temperatura corporal.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-subtitulo-1": {
+    "props": {
+      "text": "CUMPLE TUS OBJETIVOS FÁCILMENTE CON LA ROPA DEPORTIVA REEBOK",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-body-2": {
+    "props": {
+      "text": "Con la ropa deportiva Reebok, podrás mostrar diferentes estilos dependiendo de la colección que elijas: moda urbana de los noventa, clásicos de los ochenta o prendas modernas utilizadas por celebridades y deportistas son algunas de las opciones. También encontrarás equipamiento deportivo para distintas disciplinas, como running, yoga, sesiones en el gimnasio, boxeo o levantamiento de pesas. Cada colección ha sido diseñada para adaptarse al tipo de ejercicio que realices. Por ejemplo, las licras de yoga presentan un corte más alto para mantenerse en su sitio mientras realizas las distintas asanas, mientras que los pantalones cortos para running usan materiales elásticos y resistentes al agua para que puedas correr libremente sin preocupaciones.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-subtitulo-2": {
+    "props": {
+      "text": "Diseños clásicos y modernos en ropa de deporte",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-body-3": {
+    "props": {
+      "text": "Gracias a la variedad de estilos y diseños de la ropa de deporte Reebok, podrás crear atuendos atractivos para entrenar. Además, puedes complementarlos con unas zapatillas adecuadas al ejercicio que realices. Si te gusta levantar pesas, entonces necesitas modelos que te procuren un mayor soporte en talones y punteras para garantizar la estabilidad, mientras que, si eres de los que prefieren salir a correr, entonces unas zapatillas con suela de caucho que te brinden buena tracción en cualquier superficie representan la mejor opción. También puedes añadir otros accesorios, como bolsas para llevar el equipamiento o gorras para el día a día.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  /*classics*/
+  "rich-text#plp-classics-piepagina-titulo": {
+    "props": {
+      "text": "CONSIGUE UN ESTILO RETRO IMPOLUTO CON NUESTRA COLECCIÓN REEBOK CLASSIC",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-classics-piepagina-body-1": {
+    "props": {
+      "text": "¿Te gusta vestir con un estilo retro y atemporal? ¿Sí? Pues estás de enhorabuena, porque en nuestra colección Classics podrás encontrar todo tipo de productos que te encantarán. Calzado, ropa o accesorios de toda clase que recuperan los diseños de épocas pasadas, pero que incorporan lo mejor en tecnología y materiales para obtener una mayor duración y comodidad. Podrás encontrar tejidos de algodón, que se han confeccionado respetando el medioambiente, o tejidos elásticos que se adaptan a tu anatomía como una segunda piel.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-classics-piepagina-subtitulo-1": {
+    "props": {
+      "text": "VÍSTETE CON UNA DE NUESTRAS PRENDAS DE REEBOK CLASSICS Y QUE NADA TE PARE",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-classics-piepagina-body-2": {
+    "props": {
+      "text": "Si quieres construir un estilo deportivo clásico imparable, lo puedes conseguir con nuestra colección Reebok Classics. Prendas de estilo retro que te harán brillar por dondequiera que vayas. Con zapatillas de estilo clásico podrás realizar el deporte que más te guste, ir al gimnasio o, simplemente, utilizarlas en tu día a día. Entre nuestras prendas de ropa, podrás encontrar desde vestidos o sujetadores deportivos hasta chaquetas o sudaderas clásicas. No te olvides de los accesorios, tan importantes como cualquier otra prenda. Medias espectaculares de estilo retro, morrales de toda clase con un estilo clásico o gorras impresionantes que acabarán de dar el toque final a tu atuendo.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-classics-piepagina-subtitulo-2": {
+    "props": {
+      "text": "Combina productos de nuestra colección Reebok Classics y sal a comerte el mundo",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-classics-piepagina-body-3": {
+    "props": {
+      "text": "Si te gusta un estilo que actualice tiempos pretéritos y deseas fijar en ti las miradas, te encuentras en el sitio correcto. La colección de Reebok Classics te estaba esperando. Si quieres conseguir un look deportivo totalmente retro con el que puedas salir ahí fuera demostrando tu estilo, en nuestra web tienes todo lo necesario. Cálzate algún par de nuestras zapatillas más clásicas para que nada te pare y combínalo con tu pantalón favorito de estilo retro o con unas licras de diseño clásico. Sea cual sea tu color favorito o tu estilo ideal, estamos seguros de que lo encontrarás en Reebok.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  /*outlet*/
+  "rich-text#plp-outlet-piepagina-titulo": {
+    "props": {
+      "text": "COLECCIÓN DE REEBOK OUTLET: LAS MEJORES OFERTAS EN MODA DEPORTIVA",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-outlet-piepagina-body-1": {
+    "props": {
+      "text": "Ahorrar y lucir la mejor moda deportiva no tienen por qué ser incompatibles. La colección de Reebok Outlet te trae las ofertas más interesantes para que puedas equiparte sin que se dañe tu bolsillo. Hay opciones para todos los gustos y disciplinas deportivas. No importa si eres más de salir a correr, de yoga o de entrenamiento funcional, porque esta sección tiene en cuenta todas las necesidades. Son las calidades de siempre, pero con un ahorro considerable.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-outlet-piepagina-subtitulo-1": {
+    "props": {
+      "text": "PRENDAS OUTLET DE REEBOK: SIEMPRE A LA ÚLTIMA Y AL MEJOR PRECIO",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-outlet-piepagina-body-2": {
+    "props": {
+      "text": "En Reebok, las rebajas son permanentes. Solo tienes que echarle un vistazo a esta selección de artículos deportivos para obtener los mejores descuentos en cualquier momento del año. Si buscas el máximo confort en tus entrenamientos diarios, las camisetas sin mangas con espalda de nadadora se convertirán en tus mejores aliadas. Si no quieres complicarte, con las camisetas de manga corta de algodón 100 %, siempre acertarás. Pero aún hay mucho más. Examina las chaquetas, los pantalones, los shorts y licras que se dan cita en esta sección de Reebok con ofertas que no podrás rechazar.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-outlet-piepagina-subtitulo-2": {
+    "props": {
+      "text": "Calzado y complementos deportivos con descuento en Reebok",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-subtitulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-outlet-piepagina-body-3": {
+    "props": {
+      "text": "Otro punto fuerte de la colección de Reebok Outlet es el calzado. Si necesitas renovar tus zapatillas, aquí encontrarás las deportivas que querías. Para los amantes del estilo retro, la marca propone modelos clásicos de inspiración ochentera y noventera. La suela de caucho resistente al desgaste está presente en prácticamente todas las zapatillas. En la parte superior, la piel, la malla o el nobuk son algunos de los materiales predominantes. La comodidad de este calzado está garantizada, especialmente, si lo combinas con medias con refuerzo, muchas veces también en oferta. Y si necesitas accesorios para tus sesiones de mantenimiento, abre bien los ojos, porque esta sección se renueva cada día con sujetadores deportivos, bolsos y otros complementos.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+
+  "rich-text#plp-sale-piepagina-titulo": {
+    "props": {
+      "text": "¡OFERTAS INCREÍBLES PARA TODOS!",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-sale-piepagina-body": {
+    "props": {
+      "text": "¡Variedad de opciones a precios irresistibles! Descubre en nuestro catálogo de ofertas Tenis, ropa y accesorios. ¡Ya sea para tu próximo entrenamiento o para ese look casual que tanto buscas! ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-novedades-piepagina-titulo": {
+    "props": {
+      "text": "ROPA DEPORTIVA REEBOK. DISEÑADA PARA SUPERARTE",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-novedades-piepagina-body": {
+    "props": {
+      "text": "Una vez encuentras el deporte que te apasiona, todo cobra sentido. En un mundo tan frenético como este, a veces necesitas dedicarte un poco de tiempo para liberar tu mente y tu cuerpo. No lo dudes y sal ahí fuera, valdrá la pena. No importa que se trate de una carrera bajo la lluvia o una sesión de yoga al mediodía; aférrate a ello y te sentirás en la cima cada vez que lo hagas. Que estás muy ocupado, que no tienes ganas… Sé más fuerte que tus excusas. Ya verás que cuando aceptes el reto, te sentirás invencible. ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-classics-ropa-titulo": {
+    "props": {
+      "text": "VÍSTETE CON UNA DE NUESTRAS PRENDAS DE REEBOK CLASSIC Y QUE NADA TE PARE",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-classics-ropa-body": {
+    "props": {
+      "text": "¿Te gusta vestir con un estilo retro y atemporal? ¿Sí? Pues estás de enhorabuena, porque en nuestra colección Classic Reebok podrás encontrar todo tipo de productos que te encantarán. Calzado, ropa o accesorios de toda clase que recuperan los diseños de épocas pasadas, pero que incorporan lo mejor en tecnología y materiales para obtener una mayor duración y comodidad. Podrás encontrar tejidos de algodón, que se han confeccionado respetando el medioambiente, o tejidos elásticos que se adaptan a tu anatomía como una segunda piel.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-ropa-titulo": {
+    "props": {
+      "text": "CUMPLE TUS OBJETIVOS FÁCILMENTE CON LA ROPA DEPORTIVA REEBOK",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-ropa-body": {
+    "props": {
+      "text": "Con la ropa deportiva Reebok, podrás mostrar diferentes estilos dependiendo de la colección que elijas: moda urbana de los noventa, clásicos de los ochenta o prendas modernas utilizadas por celebridades y deportistas son algunas de las opciones. También encontrarás equipamiento deportivo para distintas disciplinas, como running, yoga, sesiones en el gimnasio, boxeo o levantamiento de pesas. Cada colección ha sido diseñada para adaptarse al tipo de ejercicio que realices. ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-calzado-classics-titulo": {
+    "props": {
+      "text": "COMBINA PRODUCTOS DE NUESTRA COLECCIÓN REEBOK CLASSIC Y SAL A COMERTE EL MUNDO",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-calzado-classics-body": {
+    "props": {
+      "text": " La colección de Reebok Classics te estaba esperando. Si quieres conseguir un look deportivo totalmente retro con el que puedas salir ahí fuera demostrando tu estilo, en nuestra web tienes todo lo necesario. Cálzate algún par de nuestras Tenis más clásicas para que nada te pare y combínalo con tu pantalón favorito de estilo retro. Sea cual sea tu color favorito o tu estilo ideal, estamos seguros de que lo encontrarás en Reebok.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-calzado-deporte-titulo": {
+    "props": {
+      "text": "ROPA PARA DEPORTE REEBOK: DONDE SE ENCUENTRAN EL ESTILO Y LA COMODIDAD",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-calzado-deporte-body": {
+    "props": {
+      "text": "Aprovecha al máximo el esfuerzo al entrenar con la ropa para deporte Reebok, diseñada para mejorar tu rendimiento mientras luces un estilo atractivo y único.  Cada prenda está fabricada con materiales pensados para darte una mayor libertad de movimientos y mantenerte cómodo. Tecnologías como Speedwick o ACTIVCHILL evitan que se acumule el sudor al dispersarlo rápidamente, para que tengas una sensación de frescura durante el entrenamiento. Otras prendas incluyen paneles de malla que mejoran la ventilación en los días de calor, mientras que la ropa de invierno está pensada para mantener la temperatura corporal.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-titulo": {
+    "props": {
+      "text": "Diseños clásicos y modernos en ropa de deporte",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-deporte-piepagina-body": {
+    "props": {
+      "text": "Gracias a la variedad de estilos y diseños de la ropa de deporte Reebok, podrás crear atuendos atractivos para entrenar. Además, puedes complementarlos con unos tenis adecuados al ejercicio que realices. Si te gusta levantar pesas, entonces necesitas modelos que te procuren un mayor soporte en talones y punteras para garantizar la estabilidad, mientras que, si eres de los que prefieren salir a correr, entonces unos tenis con suela de caucho que te brinden buena tracción en cualquier superficie representan la mejor opción. ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-calzado-titulo": {
+    "props": {
+      "text": "LOOK CASUAL Y ATLÉTICO CON EL CALZADO DE HOMBRE REEBOK",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-calzado-body": {
+    "props": {
+      "text": "Luce un estilo único y atractivo tanto para entrenar como para salir con el calzado de hombre Reebok. Todas las prendas están diseñadas con materiales de alta calidad y distintas tecnologías que garantizan tu comodidad y seguridad. Encuentra Tenis para salir a correr con tecnología de primera, que ayuda a mantenerte fresco y elimina el sudor. Por su parte, la Tecnologia Speedwick ayuda para dispersar el sudor y evitar que se acumule. La idea es que puedas escoger el tipo de prenda que mejor se adapte a tu tipo de entrenamiento. ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-ropa-titulo": {
+    "props": {
+      "text": "DISEÑOS FUNCIONALES EN LA COLECCIÓN DE ROPA MASCULINA REEBOK",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-hombre-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-hombre-ropa-body": {
+    "props": {
+      "text": "Con la línea de ropa masculina Reebok podrás ir a cualquier lado gracias a sus diseños atractivos. Por ejemplo, las sudaderas se pueden usar para ejercitar, pero también para una tarde de cine o una salida a cenar. En el caso de las prendas deportivas, cada una está pensada para que puedas alcanzar tus objetivos de entrenamiento. Las camisetas tienen un corte ceñido que brinda comodidad mientras que los pantalones te ayudarán a moverte libremente durante el ejercicio. ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-hombre-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-calzado-titulo": {
+    "props": {
+      "text": "LOOK CASUAL O DEPORTIVO CON NUESTRO CALZADO DE DEPORTE",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-calzado-body": {
+    "props": {
+      "text": "El calzado de mujer Reebok está pensada para ofrecerte la máxima comodidad posible y una mayor libertad de movimientos. Las Tenis Reebok son ideales para entrenar pues te permiten realizar todo tipo de ejercicios sin ponerte obstáculos También tienes la opción de utilizar Tenis de corte bajo con tejidos suaves y ajuste ceñido para una mejor movilidad. Tambien te ayudarán a mantenerte protegida de los elementos durante los meses de frío y lluvia. ",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-mujer-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-ropa-titulo": {
+    "props": {
+      "text": "ROPA DEPORTIVA DE MUJER PARA UNA VIDA ACTIVA CON REEBOK",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-mujer-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-mujer-ropa-body": {
+    "props": {
+      "text": "Con un ritmo de vida acelerado que te lleva de un lado para otro cada día es importante contar con ropa de mujer resistente y que refleje tu estilo. Reebok cuenta con una amplia gama de colecciones femeninas que van desde lo casual hasta lo más deportivo. Las chaquetas de mujer tienen un corte que estiliza la figura y brinda comodidad. Para entrenar puedes optar por sujetadores para cada tipo de deporte, que te ofrecerán una sujeción superior cada día. Por otra parte, las mallas cuentan con tecnología Speedwick capaz de dispersar en segundos el sudor y evitar que se acumule la humedad. También tienes a tu disposición camisetas de materiales suaves y diseños atractivos.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-mujer-calzado-body"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-calzado-titulo": {
+    "props": {
+      "text": "EMPIEZA EL DÍA CON ENERGÍA CON NUESTRAS PRENDAS DE REEBOK INFANTIL",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-titulo",
+        "plp-ninos-calzado-titulo"
+      ]
+    }
+  },
+  "rich-text#plp-ninos-calzado-body": {
+    "props": {
+      "text": "Sabemos que el día a día de un niño está lleno de saltos y carreras, y por este motivo necesitan unas Tenis cómodas que les siga el ritmo en todo momento. En la colección de Reebok infantil encontrarás Tenis deportivas de todos los estilos, que sin duda harán las delicias de los niños y niñas más exigentes. Están fabricadas con materiales de gran calidad, ya que sabemos que los pies en crecimiento son especialmente delicados. Asimismo, incorporan elementos de última generación para que los pies de tus hijos estén siempre a salvo. Las Tenis de Reebok para niños están fabricadas para que sean duraderas. Podrá jugar junto a sus amigos en la escuela o en el parque tanto como quiera, ya que nuestras suelas de caucho son realmente resistentes a la abrasión. Además, le proporcionarán una tracción y una resistencia extra.",
+      "textColor": "c-auto",
+      "blockClass": [
+        "plp-texto-body",
+        "plp-ninos-calzado-body"
+      ]
+    }
+  }
+}

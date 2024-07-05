@@ -1,0 +1,50 @@
+{
+    "custom-banner#dime": {
+      "title": "main-banner",
+      "props": {
+        "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKT-dime.jpg",
+        "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-dime.jpg",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "REEBOK X DIME",
+            "sx": {
+              "desktop": "banner-headline-bottom cWhite",
+              "tablet": "banner-headline-bottom cWhite",
+              "phone": "banner-headline-bottom cWhite"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "Lleva lo clásico a un nuevo nivel",
+            "sx": {
+              "desktop": "banner-copy cWhite",
+              "tablet": "banner-copy cWhite",
+              "phone": "banner-copy cWhite"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            {
+              "label": "COMPRAR AHORA",
+              "link": "/DIME",
+              "sx": {
+                "desktop": "mt2 fs80",
+                "tablet": "mt5 fs70",
+                "phone": "mt5 ml7 fs70"
+              }
+            }
+          ],
+          "layout": "horizontal",
+          "alignment": "center"
+        },
+        "sx": {
+          "desktop": "relative t38 tac",
+          "tablet": "relative t20 tac",
+          "phone": "relative t65 tac"
+        }
+      }
+    }
+  }
+  

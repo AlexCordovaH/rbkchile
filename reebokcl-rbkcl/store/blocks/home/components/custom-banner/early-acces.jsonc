@@ -1,0 +1,152 @@
+{  
+    "custom-banner#early-access": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/Black-Banner-Reebok-Desk.png",
+      "phoneBgImageUrl": "/arquivos/Black-Banner-Reebok-Mob.png",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "OFERTAS ANTICIPADAS",
+          "sx": {
+            "desktop": " banner-headline-bottom ml2 cWhite",
+            "tablet": "banner-headline-bottom ml2 cWhite",
+            "phone": "banner-headline-bottom cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Disfruta de hasta 40% de descuento",
+          "sx": {
+            "desktop": "banner-copy ml2 cWhite",
+            "tablet": "banner-copy ml2 cWhite",
+            "phone": "banner-copy mt3 cWhite"
+          }
+        },
+        {
+            "type": "copy",
+            "text": "en catálogo seleccionado",
+            "sx": {
+              "desktop": "banner-copy ml2 cWhite",
+              "tablet": "banner-copy ml2 cWhite",
+              "phone": "banner-copy mt3 cWhite"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "+ 20% EXTRA solo para miembros",
+            "sx": {
+              "desktop": "banner-copy ml2 cWhite",
+              "tablet": "banner-copy ml2 cWhite",
+              "phone": "banner-copy mt3 cWhite"
+            }
+          }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR YA",
+            "link": "/black-friday",
+            "color": "white",
+            "sx": {
+              "desktop": "ml2 mt2",
+              "tablet": "ml3 mt3",
+              "phone": "ml24 mt5"
+            }
+          },
+          {
+            "label": "REGÍSTRATE",
+            "link": "/newsletter",
+            "color": "white",
+            "sx": {
+              "desktop": "ml2 mt2",
+              "tablet": "ml3 mt3",
+              "phone": "mt5"
+            }
+          }
+        ]
+      },
+      "sx": {
+        "desktop": "relative t40 ",
+        "tablet": "relative t30 ",
+        "phone": "relative t40 tac "
+      }
+    }
+  },
+  
+  "custom-banner#early-access-mobile": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/Black-Banner-Reebok-Desk.png",
+      "phoneBgImageUrl": "/arquivos/Black-Banner-Reebok-Mob.png",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "OFERTAS ANTICIPADAS",
+          "sx": {
+            "desktop": " banner-headline-bottom ml2 cWhite",
+            "tablet": "banner-headline-bottom ml2 cWhite",
+            "phone": "banner-headline-bottom cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Disfruta de hasta 40% de descuento",
+          "sx": {
+            "desktop": "banner-copy ml2 cWhite",
+            "tablet": "banner-copy ml2 cWhite",
+            "phone": "banner-copy mt3 cWhite"
+          }
+        },
+        {
+            "type": "copy",
+            "text": "en catálogo seleccionado",
+            "sx": {
+              "desktop": "banner-copy ml2 cWhite",
+              "tablet": "banner-copy ml2 cWhite",
+              "phone": "banner-copy mt3 cWhite"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "+ 20% EXTRA solo para miembros",
+            "sx": {
+              "desktop": "banner-copy ml2 cWhite",
+              "tablet": "banner-copy ml2 cWhite",
+              "phone": "banner-copy mt3 cWhite"
+            }
+          }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR YA",
+            "link": "/black-friday",
+            "color": "white",
+            "sx": {
+              "desktop": "ml2 mt2",
+              "tablet": "ml3 mt3",
+              "phone": "mt5"
+            }
+          },
+          {
+            "label": "REGÍSTRATE",
+            "link": "/newsletter",
+            "color": "white",
+            "sx": {
+              "desktop": "ml2 mt2",
+              "tablet": "ml3 mt3",
+              "phone": "mt5"
+            }
+          }
+        ],
+        "layout": "vertical",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t40 ",
+        "tablet": "relative t30 ",
+        "phone": "relative t40 tac "
+      }
+    }
+
+  }
+}

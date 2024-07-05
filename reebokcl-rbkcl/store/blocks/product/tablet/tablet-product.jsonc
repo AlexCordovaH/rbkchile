@@ -1,0 +1,12 @@
+{
+  "responsive-layout.tablet#tablet-product": {
+    "children": [
+      "flex-layout.row#mobile-main",
+      "minicart-bar",
+      "__fold__",
+      "flex-layout.row#pdp-product-descripcion",
+      "flex-layout.row#mobile-product-shelf",
+      "flex-layout.row#mobile-coment"
+    ]
+  }
+}

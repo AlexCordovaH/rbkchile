@@ -1,0 +1,419 @@
+{
+    "search-result-layout.desktop#category": {
+        "children": [
+            "flex-layout.row#searchbread",
+            "flex-layout.row#searchtitle--Desk",
+            "flex-layout.row#seo-h2--Desk",
+            "trigger-url#plp-glide",
+            "trigger-url#plp-mujer",
+            "trigger-url#plp-mujer-calzado-subcategoria",
+            "trigger-url#plp-mujer-ropa-subcategoria",
+            "trigger-url#plp-mujer-accesorios-subcategoria",
+            "trigger-url#plp-hombre",
+            "trigger-url#plp-hombre-calzado-subcategoria",
+            "trigger-url#plp-hombre-ropa-subcategoria",
+            "trigger-url#plp-hombre-accesorios-subcategoria",
+            // "trigger-url#plp-ninos",
+            "trigger-url#plp-unisex",
+            "trigger-url#plp-deporte",
+            "trigger-url#plp-classics",
+            // "trigger-url#plp-outlet",
+            "trigger-url#plp-lux",
+            "trigger-url#plp-nano3",
+            "trigger-url#plp-backtoschool",
+            "flex-layout.row#category-result",
+               "flex-layout.row#seo-h3--Desk"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#searchtitle": {
+        "children": [
+            "flex-layout.col#searchtitle"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "search-title"
+        }
+    },
+    "flex-layout.col#searchtitle": {
+        "children": [
+            "search-title.v2",
+            "total-products.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "search-title"
+        }
+    },
+    //////////// Category Result /////////////
+    "flex-layout.row#category-result": {
+        "children": ["flex-layout.col#category-content"],
+        // "children": [
+        //     "flex-layout.col#filter",
+        //     "flex-layout.col#category-content"
+        // ],
+        "props": {
+            // "preventHorizontalStretch": true,
+            "fullWidth": true,
+            "colSizing": "equal",
+            "blockClass": "filter-content"
+        }
+    },
+    "flex-layout.col#filter": {
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "blockClass": "filterCol",
+            "width": "18%",
+            "slideDirection": "rightToLeft"
+        }
+    },
+    "flex-layout.col#category-content": {
+        "children": [
+            "flex-layout.row#searchinfo",
+            //"flex-layout.row#fetchprevious",
+            "flex-layout.row#product-container",
+            "flex-layout.row#fetchmore",
+            "pagination-number#desktop",
+            "flex-layout.row#productCountMobile"
+            // "trigger-url#plp-hombre-calzado",
+            // "trigger-url#plp-mujer-calzado",
+            // "trigger-url#plp-ninos-calzado",
+            // "trigger-url#plp-hombre-ropa",
+            // "trigger-url#plp-mujer-ropa",
+            // "trigger-url#plp-hombre-piepagina",
+            // "trigger-url#plp-mujer-piepagina",
+            // "trigger-url#plp-ninos-piepagina",
+            // "trigger-url#plp-deporte-piepagina",
+            // "trigger-url#plp-sale-piepagina",
+            // "trigger-url#plp-classics-piepagina",
+            // "trigger-url#plp-outlet-piepagina",
+            // "trigger-url#plp-calzado-classics-piepagina",
+            // "trigger-url#plp-deporte-calzado",
+            // "trigger-url#plp-novedades-piepagina",
+            // "trigger-url#plp-classics-ropa",
+            // "trigger-url#plp-deporte-ropa"
+        ],
+        "props": {
+            "blockClass": "desktop-container",
+            "preventVerticalStretch": true
+        }
+    },
+    "pagination-number#desktop": {
+        "props": {
+            "nextLabel": " ",
+            "previousLabel": " ",
+            "nextLabelMobile": "Sig",
+            "previousLabelMobile": "Ant"
+        }
+    },
+    "flex-layout.row#searchinfo": {
+        // "children": [
+        //     "flex-layout.col#orderby"
+        // ]
+        "children": ["flex-layout.row#orderby", "flex-layout.row#filter-plp"],
+        "props": {
+          "blockClass": "container-order-filter-plp",
+          "horizontalAlign": "right"
+        }
+    },
+
+    "flex-layout.row#orderby": {
+        "children": ["order-by.v2"],
+        "props": {
+          "blockClass": "orderByCol"
+        }
+    },
+    // "flex-layout.row#filter-plp": {
+    //     "children": ["modal-trigger#filtro"],
+    //     "props": { "blockClass": "container-filter-plp" }
+    //   },
+    "flex-layout.row#filter-plp": {
+        "children": ["reebokcl.mobile-drawers@0.x:drawer#plp"],
+        "props": { "blockClass": "container-filter-plp" }
+      },
+    // "modal-trigger#filtro": {
+    //     "children": ["rich-text#open-drawer", "modal-layout#filtro"],
+    //     "props": {
+    //       "blockClass": "content-filtroCol-plp"
+    //     }
+    // },
+    "modal-layout#filtro": {
+        "children": ["filter-navigator.v3"],
+        "props": { "blockClass": ["content-filtro-plp"] }
+      },
+    "reebokcl.mobile-drawers@0.x:drawer#plp": {
+        "children": ["filter-navigator.v3#desktop"],
+        "props": {
+          "blockClass": "container-drawer-filter",
+          "slideDirection": "rightToLeft"
+        },
+        "blocks": ["reebokcl.mobile-drawers@0.x:drawer-trigger#plp"]
+    },
+    "reebokcl.mobile-drawers@0.x:drawer-trigger#plp": {
+        "children": ["rich-text#open-drawer"]
+    },
+    "rich-text#open-drawer": {
+        "props": {
+        "text": "Filtrar",
+        "blockClass": ["trigger-filtro-plp"]
+        }
+    },
+
+      
+    /* CONTADOR DE PRODUCTOS VERIFICAR */
+    "flex-layout.col#orderby": {
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {
+            "blockClass": "orderByCol",
+            "horizontalAlign": "left"
+        }
+    },
+    "flex-layout.row#fetchmore": {
+        "props": {
+            "marginTop": 1,
+            "marginBottom": 1
+        },
+        "children": [
+            "search-fetch-more"
+        ]
+    },
+    /* Category Cyber */
+    "search-result-layout.desktop#category-cyber": {
+        "children": [
+            "trigger-url#plp-glide",
+            "trigger-url#plp-mujer",
+            "trigger-url#plp-hombre",
+            // "trigger-url#plp-ninos",
+            "trigger-url#plp-unisex",
+            "trigger-url#plp-deporte",
+            "trigger-url#plp-classics",
+            // "trigger-url#plp-outlet",
+            "trigger-url#plp-lux",
+            "trigger-url#plp-nano3",
+            "trigger-url#plp-backtoschool",
+            "flex-layout.row#searchbread",
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#category-result"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    /* Categorias Cyber */
+    "flex-layout.row#image-plp-cyber": {
+        "title": "Cyber",
+        "props": {
+            "category": "cyber",
+            "positionGallery": "4",
+            "positionGalleryMobile": "3",
+            "blockClass": "cyber-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    /* Categorias día del padre */
+    "flex-layout.row#dia-del-padre": {
+        "title": "Cyber",
+        "props": {
+            "category": "diadelpadre",
+            "positionGallery": "4",
+            "positionGalleryMobile": "3",
+            "blockClass": "cyber-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    /* Categorias ofertas */
+    "flex-layout.row#ofertas": {
+        "title": "Ofertas",
+        "props": {
+            "category": "ofertas",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+           /*  "image#banner-plp" */
+        ]
+    },
+    /* Categorias Extras */
+    "flex-layout.row#extras": {
+        "title": "Extras",
+        "props": {
+            "category": "extras",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-mujer-calzado": {
+        "title": "Cyber",
+        "props": {
+            "category": "mujer/calzado",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-mujer-ropa": {
+        "title": "Cyber",
+        "props": {
+            "category": "mujer/ropa",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-hombre-calzado": {
+        "title": "Cyber",
+        "props": {
+            "category": "hombre/calzado",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-hombre-ropa": {
+        "title": "Cyber",
+        "props": {
+            "category": "hombre/ropa",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-outlet": {
+        "title": "Cyber",
+        "props": {
+            "category": "outlet",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-unisex-calzado": {
+        "title": "Cyber",
+        "props": {
+            "category": "unisex/calzado",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-unisex-ropa": {
+        "title": "Cyber",
+        "props": {
+            "category": "unisex/ropa",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            "image#banner-plp"
+        ]
+    },
+    "flex-layout.row#image-plp-cyber-2": {
+        "title": "Cyber",
+        "props": {
+            "category": "cyber",
+            "positionGallery": "4",
+            "positionGalleryMobile": "1",
+            "blockClass": "promotion-image-plp",
+            "rowStart": "2",
+            "colStart": "1",
+            "longRows": "1",
+            "longCols": "1"
+        },
+        "children": [
+            /* "image#banner-plp" */
+        ]
+    },
+    "image#banner-plp": {
+        "props": {
+            "src": "/arquivos/PLP-BANNER-CHILE.jpg",
+            "blockClass": "plp-banner",
+            "link": {
+                "url": "/ofertas"
+            }
+        }
+    }
+    //////////////
+    /////////////////////////////////////////
+}

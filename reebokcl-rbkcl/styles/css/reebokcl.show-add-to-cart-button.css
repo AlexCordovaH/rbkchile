@@ -1,0 +1,31 @@
+
+.ShowKitLink 
+:global(.vtex-button){
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100% !important;
+background-color: #244486 !important;
+border-radius: 20px !important;
+text-transform: unset !important;
+font-size: 0.875rem;
+font-family: "NeuePlak-Semibold";
+color: #F7F7F7 !important;
+text-transform: none !important;
+
+}
+
+@media only screen and (min-width: 90.063em) {
+
+    .ShowAddToCartButtonPlp{
+        margin-top: 25px !important;
+    }
+  }
+  
+  /* Todo tipo de medios hasta 1440px */
+  @media (min-width: 90em) {
+
+    .ShowAddToCartButtonPlp{
+        margin-top: 10px !important;
+    }
+  }

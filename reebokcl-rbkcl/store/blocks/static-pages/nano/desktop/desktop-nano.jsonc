@@ -1,0 +1,14 @@
+{
+    "responsive-layout.desktop#nano":{
+        "children":[
+            "custom-banner#nano-landing",
+            "flex-layout.row#nano-row-images-text",
+            "flex-layout.row#nano-row-images",
+            "flex-layout.row#component-shelf-productos-nano-destacados-title",
+            "flex-layout.row#component-shelf-productos-nano-destacados",
+            "flex-layout.row#doorway-nano-title",
+            "flex-layout.row#doorway-nano-content",
+            "custom-banner#nano-banner-inferior-landing"
+        ]
+    }
+}

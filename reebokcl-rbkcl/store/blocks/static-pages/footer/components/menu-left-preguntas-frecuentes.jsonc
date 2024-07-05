@@ -1,0 +1,178 @@
+{
+    // Servicio al Cliente - Pregunats Frecuentes
+    "vtex.menu@2.x:menu#desktop-pf-servicio-al-cliente": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#desktop-title-row-servicio-al-cliente",
+            "menu-item#component-contacto-reebok",
+            "menu-item#component-preguntas-frecuentes-is-active",
+            // "menu-item#component-devoluciones",
+            // "menu-item#component-informacion-de-envio",
+            // "menu-item#component-metodos-de-pago",
+            "menu-item#component-seguimiento-de-pedido",
+            // "menu-item#component-facturacion",
+            "menu-item#component-terminos-condiciones",
+            "menu-item#component-politicas-de-privacidad",
+            "menu-item#component-legales-promociones",
+            "menu-item#component-tiendas-oficiales",
+            "menu-item#component-programa-fidelidad"
+        ]
+    },
+    "menu-item#component-preguntas-frecuentes-is-active": {
+        "props": {
+            "id": "menu-item-productos-preguntas-frecuentes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/preguntas-frecuentes",
+                "noFollow": false,
+                "tagTitle": "Preguntas Frecuentes",
+                "text": "Preguntas Frecuentes"
+            },
+            "blockClass": [
+                "menu-item-footer-desktop",
+                "menu-item-landing-desktop-isActive"
+            ]
+        }
+    },
+    "menu-item#component-informacion-de-envio": {
+        "props": {
+            "id": "menu-item-landing-informacion-de-envio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/informacion-de-envio",
+                "noFollow": false,
+                "tagTitle": "Información de envíos",
+                "text": "Información de envíos"
+            },
+            "blockClass": "menu-item-footer-desktop"
+        }
+    },
+    "menu-item#component-metodos-de-pago": {
+        "props": {
+            "id": "menu-item-landing-metodos-de-pago",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/metodos-de-pago",
+                "noFollow": false,
+                "tagTitle": "Métodos de pago",
+                "text": "Métodos de pago"
+            },
+            "blockClass": "menu-item-footer-desktop"
+        }
+    },
+    "menu-item#component-facturacion": {
+        "props": {
+            "id": "menu-item-landing-facturacion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/facturacion",
+                "noFollow": false,
+                "tagTitle": "Facturación",
+                "text": "Facturación"
+            },
+            "blockClass": "menu-item-footer-desktop"
+        }
+    },
+    "menu-item#component-terminos-condiciones": {
+        "props": {
+            "id": "menu-item-landing-terminos-condiciones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/terminos-condiciones",
+                "noFollow": false,
+                "tagTitle": "Términos y Condiciones",
+                "text": "Términos y Condiciones"
+            },
+            "blockClass": "menu-item-footer-desktop"
+        }
+    },
+    "menu-item#component-politicas-de-privacidad": {
+        "props": {
+            "id": "menu-item-landing-politicas-de-privacidad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/politicas-de-privacidad",
+                "noFollow": false,
+                "tagTitle": "Políticas de Privacidad",
+                "text": "Políticas de Privacidad"
+            },
+            "blockClass": "menu-item-footer-desktop"
+        }
+    },
+
+    "menu-item#component-legales-promociones": {
+        "props": {
+            "id": "menu-item-landing-politicas-de-privacidad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/legales-promociones",
+                "noFollow": false,
+                "tagTitle": "Términos Legales Promociones",
+                "text": "Términos Legales Promociones"
+            },
+            "blockClass": "menu-item-footer-desktop"
+        }
+    },
+    "menu-item#component-tiendas-oficiales": {
+        "props": {
+            "id": "menu-item-landing-tiendas-oficiales",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sitiosoficiales",
+                "noFollow": false,
+                "tagTitle": "Puntos de Ventas oficiales Reebok en Latinoamérica",
+                "text": "Puntos de Ventas oficiales Reebok en Latinoamérica"
+            },
+            "blockClass": [
+                "menu-item-footer-desktop",
+                "menu-item-tienda-oficiales"
+            ]
+        }
+    },
+
+    "menu-item#component-programa-fidelidad": {
+        "props": {
+            "id": "menu-item-landing-programa-fidelidad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/programa-fidelidad",
+                "noFollow": false,
+                "tagTitle": "Programa de Fidelidad",
+                "text": "Programa de Fidelidad"
+            },
+            "blockClass": [
+                "menu-item-footer-desktop",
+                "menu-item-tienda-oficiales"
+            ]
+        }
+    }
+}

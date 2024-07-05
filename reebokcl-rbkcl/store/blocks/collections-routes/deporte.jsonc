@@ -1,0 +1,432 @@
+{
+
+    "store.custom#fitness-y-training":{
+        "blocks": [
+            "search-result-layout.customQuery#fitness-y-training"
+        ]
+    },
+
+    "store.custom#calzado-fitness-y-training":{
+        "blocks": [
+            "search-result-layout.customQuery#calzado-fitness-y-training"
+        ]
+    },
+
+    "store.custom#ropa-fitness-y-training":{
+        "blocks": [
+            "search-result-layout.customQuery#ropa-fitness-y-training"
+        ]
+    },
+
+    "store.custom#accesorios-fitness-y-training":{
+        "blocks": [
+            "search-result-layout.customQuery#accesorios-fitness-y-training"
+        ]
+    },
+    "store.custom#lifestyle":{
+        "blocks": [
+            "search-result-layout.customQuery#lifestyle"
+        ]
+    },
+
+    "store.custom#calzado-lifestyle":{
+        "blocks": [
+            "search-result-layout.customQuery#calzado-lifestyle"
+        ]
+    },
+
+    "store.custom#ropa-lifestyle":{
+        "blocks": [
+            "search-result-layout.customQuery#ropa-lifestyle"
+        ]
+    },
+
+    "store.custom#accesorios-lifestyle":{
+        "blocks": [
+            "search-result-layout.customQuery#accesorios-lifestyle"
+        ]
+    },
+
+    "store.custom#natacion":{
+        "blocks": [
+            "search-result-layout.customQuery#natacion"
+        ]
+    },
+
+    "store.custom#calzado-natacion":{
+        "blocks": [
+            "search-result-layout.customQuery#calzado-natacion"
+        ]
+    },
+
+    "store.custom#running":{
+        "blocks": [
+            "search-result-layout.customQuery#running"
+        ]
+    },
+
+    "store.custom#calzado-running":{
+        "blocks": [
+            "search-result-layout.customQuery#calzado-running"
+        ]
+    },
+
+    "store.custom#ropa-running":{
+        "blocks": [
+            "search-result-layout.customQuery#ropa-running"
+        ]
+    },
+
+    "store.custom#accesorios-running":{
+        "blocks": [
+            "search-result-layout.customQuery#accesorios-running"
+        ]
+    },
+
+    "store.custom#studio":{
+        "blocks": [
+            "search-result-layout.customQuery#studio"
+        ]
+    },
+
+    "store.custom#ropa-studio":{
+        "blocks": [
+            "search-result-layout.customQuery#ropa-studio"
+        ]
+    },
+
+    "store.custom#deporte":{
+        "blocks": [
+            "search-result-layout.customQuery#deporte"
+        ]
+    },
+
+    "store.custom#coleccion-luz": {
+        "blocks": ["search-result-layout.customQuery#coleccion-luz"]
+      },
+
+      "search-result-layout.customQuery#coleccion-luz": {
+        "props": {
+          "querySchema": {
+            "orderByField": "OrderByPriceDESC",
+            "hideUnavailableItems": false,
+            "maxItemsPerPage": 20,
+            "queryField": "276",
+            "mapField": "productClusterIds"
+          },
+          "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+          "search-result-layout.desktop#category",
+          "search-result-layout.mobile",
+          "search-not-found-layout"
+        ]
+      },
+
+    "search-result-layout.customQuery#deporte": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "268",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#fitness-y-training": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/fitness-y-training",
+                "mapField": "deporte"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#calzado-fitness-y-training": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "248",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#ropa-fitness-y-training": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "249",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#accesorios-fitness-y-training": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "250",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#lifestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/lifestyle",
+                "mapField": "deporte"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#calzado-lifestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "251",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#ropa-lifestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "252",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#accesorios-lifestyle": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "253",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#natacion": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/natacion",
+                "mapField": "deporte"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#calzado-natacion": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "254",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#running": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/running",
+                "mapField": "deporte"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#calzado-running": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "255",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#ropa-running": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "256",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#accesorios-running": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "257",
+                "mapField": "productClusterIds"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#studio": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/studio",
+                "mapField": "deporte"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.customQuery#ropa-studio": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ropa/studio",
+                "mapField": "deporte"
+            }, 
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+
+}

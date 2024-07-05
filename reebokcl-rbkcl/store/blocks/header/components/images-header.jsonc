@@ -1,0 +1,82 @@
+{
+  "image#tiendas": {
+    "props": {
+      "src": "assets/header/tiendas.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+
+  "image#ayuda": {
+    "props": {
+      "src": "assets/header/ayuda.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+
+  "image#logo-header": {
+    "props": {
+      "src": "assets/header/header-logo.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+
+  "image#mobile-icono-search": {
+    "props": {
+      "src": "assets/header/lupa.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+
+  "image#mobile-icono-login": {
+    "props": {
+      "src": "assets/header/icon.png",
+      "link": {
+        "url": "/login?returnUrl=%2F"
+      },
+      "blockClass": "mobile-icono-login"
+    }
+  },
+
+  "image#mobile-icono-whislist": {
+    "props": {
+      "src": "assets/header/whislist.png",
+      "link": {
+        "url": "/account/#/wishlist"
+      },
+      "blockClass": "mobile-icono-whislist"
+    }
+  },
+
+  "image#mobile-icono-location": {
+    "props": {
+      "src": "assets/header/location.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "mobile-icono-location"
+    }
+  },
+
+  "image#mobile-icono-question": {
+    "props": {
+      "src": "assets/header/question.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "mobile-icono-question"
+    }
+  }
+
+}

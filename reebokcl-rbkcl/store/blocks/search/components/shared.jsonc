@@ -1,0 +1,63 @@
+{
+  // ---------------------------ROWS------------------------
+
+  "flex-layout.row#searchbread": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "marginBottom": 3,
+      "blockClass": "breadcrumb.search"
+    }
+  },
+
+  // -------------------------------- BLOCKS ---------------------
+  "store.not-found#product":{
+    "children": ["flex-layout.row#notfound"]
+  },
+
+  // "search-not-found-layout": {
+  //   "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+  // },
+
+  // "flex-layout.row#notfound": {
+  //   "children": ["not-found"],
+  //   "props": {
+  //     "fullWidth": true
+  //   }
+  // },
+  // "gallery": {
+  //   "blocks": ["product-summary.shelf#wishlist"],
+  //   "props": {
+  //     "maxItemsPerRow": {
+  //       "desktop": 4,
+  //       "tablet": 3,
+  //       "phone": 2
+  //     },
+  //     "width": 400
+  //   }
+  // },
+  "gallery": {
+    "children": [
+      // "flex-layout.row#dia-del-padre",
+      /* "flex-layout.row#ofertas", */
+      "flex-layout.row#extras",
+      //"flex-layout.row#image-plp-mujer-calzado",
+      //"flex-layout.row#image-plp-mujer-ropa",
+      //"flex-layout.row#image-plp-hombre-calzado",
+      //"flex-layout.row#image-plp-hombre-ropa",
+      //"flex-layout.row#image-plp-outlet",
+      "flex-layout.row#image-plp-unisex-calzado",
+      "flex-layout.row#image-plp-unisex-ropa"
+    ],
+    "blocks": ["product-summary.shelf#wishlist"],
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "width": 400
+    }
+  }
+}

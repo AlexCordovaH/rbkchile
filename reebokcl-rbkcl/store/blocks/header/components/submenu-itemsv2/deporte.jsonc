@@ -1,0 +1,295 @@
+{
+    /*SECCION BASQUET*/
+    "menu-item#submenu-title-deporte-basquet": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/basquet",
+                "noFollow": false,
+                "tagTitle": "Básquet",
+                "text": "Básquet"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-deporte-link-basquet-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/basquet",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-basquet-ropa": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ropa/basquet",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION ENTRENAMIENTO FUNCIONAL*/
+    "menu-item#submenu-title-deporte-entrenamientofuncional": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-deporte-link-entrenamientofuncional-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-entrenamientofuncional-ropa": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ropa/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION FITNESS & TRAINING*/
+    "menu-item#submenu-title-deporte-fitnessandtraining": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-deporte-link-fitnessandtraining-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/fitness-y-training",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-fitnessandtraining-ropa": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ropa/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-fitnessandtraining-accesorios": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/accesorios/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION RUNNING*/
+    "menu-item#submenu-title-deporte-running": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/running",
+                "noFollow": false,
+                "tagTitle": "Running",
+                "text": "Running"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-deporte-link-running-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/running",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-running-ropa": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ropa/running",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-running-accesorios": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/accesorios/running",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION OUTDOOR*/
+    "menu-item#submenu-title-deporte-outdoor": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outdoor",
+                "noFollow": false,
+                "tagTitle": "Outdoor",
+                "text": "Outdoor"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-deporte-link-outdoor-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outdoor-calzado",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-running-senderismo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outdoor-senderismo",
+                "noFollow": false,
+                "tagTitle": "Senderismo",
+                "text": "Senderismo "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-deporte-link-running-walking": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outdoor-walking",
+                "noFollow": false,
+                "tagTitle": "Walking",
+                "text": "Walking "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    }
+}

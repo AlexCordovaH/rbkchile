@@ -1,0 +1,48 @@
+{
+    "custom-banner#cyber": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/Cyber-Day-Reebok-Desktop-60-chile.jpg",
+          "phoneBgImageUrl": "/arquivos/Cyber-Day-Reebok-Mobile-60-chile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "¡COMENZÓ EL CYBER!",
+              "sx": {
+                "desktop": " banner-headline-bottom ml2 cWhite",
+                "tablet": "banner-headline-bottom ml2 cWhite",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "DISFRUTA DE HASTA 60% DE DESCUENTO. ",
+              "sx": {
+                "desktop": "banner-copy ml2 cWhite",
+                "tablet": "banner-copy ml2 cWhite",
+                "phone": "banner-copy mt3 cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR AHORA",
+                "link": "/cyber-ofertas",
+                "color": "white",
+                "sx": {
+                  "desktop": "ml2 mt2",
+                  "tablet": "ml3 mt3",
+                  "phone": "ml24 mt5"
+                }
+              }
+            ]
+          },
+          "sx": {
+            "desktop": "relative t40 ",
+            "tablet": "relative t30 ",
+            "phone": "relative t65 tac "
+          }
+        }
+      }
+    
+}

@@ -1,0 +1,91 @@
+{
+    "custom-banner#floatzig-second-banner-landing-00": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "https://reebokcol.myvtex.com/arquivos/FLOATZIG_TECH-BANNER-1906X846px.jpg",
+            "phoneBgImageUrl": "https://reebokcol.myvtex.com/arquivos/FLOATZIG_TECH-BANNER-767x480.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "ÁGILES, ELÁSTICAS",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite mt2 mb1 tar",
+                "tablet": "banner-headline-bottom mr2 cWhite mb0 tar mt7",
+                "phone": "banner-headline-bottom cWhite tar mr3"
+              }
+            },
+
+            {
+              "type": "headline",
+              "text": "Y LIGERAS",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite mb1 tar",
+                "tablet": "banner-headline-bottom mr2 cWhite tar mt0",
+                "phone": "banner-headline-bottom cWhite tar mr3"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR YA",
+                  "link": "/floatzig",
+                  "color": "white",
+                "sx": {
+                    "desktop": "mt2 fs80",
+                    "tablet": "mt1 fs70 mr1",
+                    "phone": "mt5 fs70 mr2"
+                  }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t10 tar mr3",
+            "tablet": "relative t5 tar mr2",
+            "phone": "relative t15 tar"
+          }
+        }
+    },
+
+    "custom-banner#floatzig-second-banner-landing-00-mobile": {
+      "title": "main-banner",
+      "props": {
+          "desktopBgImageUrl": "https://reebokcol.myvtex.com/arquivos/Banner-inferiro-desk-floatzig.jpg",
+          "phoneBgImageUrl": "https://reebokcol.myvtex.com/arquivos/FLOATZIG_TECH-BANNER-767x480.jpg",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "ÁGILES, ELÁSTICAS Y LIGERAS",
+            "sx": {
+              "desktop": "banner-headline-bottom cWhite mt5 mb1 tar",
+              "tablet": "banner-headline-bottom mr2 cWhite tar mt7",
+              "phone": "banner-headline-bottom cWhite tar"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            {
+                "label": "COMPRAR YA",
+                "link": "/floatzig",
+                "color": "white",
+              "sx": {
+                  "desktop": "mt2 fs80 mr2",
+                  "tablet": "mt3 fs70 mr2",
+                  "phone": "mt5 fs70 mr23"
+                }
+            }
+          ],
+          "layout": "horizontal",
+          "alignment": "flex-end"
+        },
+        "sx": {
+          "desktop": "relative t20 tar mr3",
+          "tablet": "relative t5 tar mr2",
+          "phone": "relative t25 tar"
+        }
+      }
+  }
+}

@@ -1,0 +1,63 @@
+.titulo {
+  font-family: "NeuePlak-Bold";
+  font-size: 1.5rem;
+  color: #121212;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.containerSizeguideBody {
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.title {
+  font-family: "NeuePlak-SemiBold" !important;
+  font-size: 0.75rem;
+}
+
+.BodyTalla {
+  margin-bottom: 2.5rem;
+}
+
+.tituloTalla {
+  font-family: "NeuePlak-Bold";
+  font-size: 1.5rem;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.generalTalla {
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+  line-height: 20px;
+}
+
+.imagenTalla {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.TextoEspecial,
+.link {
+  font-family: "NeuePlak-SemiBold";
+  color: #121212 !important;
+  margin-left: 2px;
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  .tabla {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .containerSizeguideBody {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 40rem) {
+  .tabla {
+    display: block;
+    overflow-x: auto;
+  }
+}

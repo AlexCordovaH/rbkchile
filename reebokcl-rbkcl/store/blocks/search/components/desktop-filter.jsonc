@@ -1,0 +1,30 @@
+{
+  "filter-navigator.v3": {
+    "props": {
+      "truncateFilters": true,
+      "navigationTypeOnMobile": "collapsible",
+      "initiallyCollapsed": false,
+      "blockClass": "filter-block",
+      "drawerDirectionMobile": "drawerRight"
+    }
+  },
+  "filter-navigator.v3#desktop": {
+    "props": {
+      "truncateFilters": false,
+      "navigationTypeOnMobile": "collapsible",
+      "initiallyCollapsed": true,
+      "blockClass": "filter-block"
+      // "drawerDirectionMobile": "drawerRight"
+    }
+  },
+  "filter-navigator.v3#mobile": {
+    "props": {
+      "truncateFilters": false,
+      "navigationTypeOnMobile": "collapsible",
+      "initiallyCollapsed": true,
+      "blockClass": "filter-block",
+      "drawerDirectionMobile": "drawerRight",
+      "layout": "responsive"
+    }
+  }
+}

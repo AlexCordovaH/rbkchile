@@ -1,0 +1,1208 @@
+{
+  "store.custom#landing-terminos-condiciones": {
+    "path": "/terminos-condiciones",
+    "isSitemapEntry": true
+  },
+  "store.custom#lp-about": {
+    "path": "/nosotros",
+    "isSitemapEntry": true
+  },
+  "store.custom#politica-de-privacidad": {
+    "path": "/politicas-de-privacidad",
+    "isSitemapEntry": true
+  },
+  "store.custom#footer-preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes",
+    "isSitemapEntry": true
+  },
+  "store.custom#nuestras-tiendas": {
+    "path": "/nuestras-tiendas",
+    "isSitemapEntry": true
+  },
+  "store.custom#conoce-tu-talla": {
+    "path": "/conoce-tu-talla",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades": {
+    "path": "/novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#footer-calzado": {
+    "path": "/calzado",
+    "isSitemapEntry": true
+  },
+  "store.custom#footer-ropa": {
+    "path": "/ropa",
+    "isSitemapEntry": true
+  },
+  "store.custom#footer-accesorios": {
+    "path": "/accesorios",
+    "isSitemapEntry": true
+  },
+  "store.custom#ree-cycled-novedades": {
+    "path": "/ree-cycled-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-mujer": {
+    "path": "/novedades-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#ree-cycled-mujer": {
+    "path": "/ree-cycled-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#jurassic-world-novedades": {
+    "path": "/jurassic-world-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#club-c-novedades": {
+    "path": "/club-c-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#reebok-royal-novedades": {
+    "path": "/reebok-royal-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-novedades": {
+    "path": "/sale-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#essentials-mujer": {
+    "path": "/essentials-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#jurassic-world": {
+    "path": "/jurassic-world-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#club-c-mujer": {
+    "path": "/club-c-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#reebok-royal-mujer": {
+    "path": "/reebok-royal-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#reebok-pride-mujer": {
+    "path": "/reebok-pride-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-mujer-sale": {
+    "path": "/novedades-mujer-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-calzado-sale": {
+    "path": "/sale-mujer-calzado",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-ropa-sale": {
+    "path": "/sale-mujer-ropa",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-hombre": {
+    "path": "/novedades-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#ree-cycled-hombre": {
+    "path": "/ree-cycled-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#jurassic-world-hombre": {
+    "path": "/jurassic-world-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#club-c-hombre": {
+    "path": "/club-c-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#reebok-royal-hombre": {
+    "path": "/reebok-royal-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#essentials-hombre": {
+    "path": "/essentials-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#reebok-pride-hombre": {
+    "path": "/reebok-pride-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-hombre-sale": {
+    "path": "/novedades-hombre-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-calzado-sale": {
+    "path": "/sale-hombre-calzado",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-ropa-sale": {
+    "path": "/sale-hombre-ropa",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-accesorios-sale": {
+    "path": "/sale-hombre-accesorios",
+    "isSitemapEntry": true
+  },
+  "store.custom#nino-novedades-sale": {
+    "path": "/novedades-sale-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-classics": {
+    "path": "/mujer/classics",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-classic-leather": {
+    "path": "/mujer/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-sostenible": {
+    "path": "/mujer/sostenible",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-running": {
+    "path": "/mujer/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-nanoxi": {
+    "path": "/mujer/nanoxi",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-cardib": {
+    "path": "/mujer/cardib",
+    "isSitemapEntry": true
+  },
+  "store.custom#entrenamiento-funcional": {
+    "path": "/mujer/entrenamiento-funcional",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-zig": {
+    "path": "/mujer/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-classics": {
+    "path": "/hombre/classics",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-classic-leather": {
+    "path": "/hombre/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-sostenible": {
+    "path": "/hombre/sostenible",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-running": {
+    "path": "/hombre/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-nanoxi": {
+    "path": "/hombre/nanoxi",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-entrenamiento-funcional": {
+    "path": "/hombre/entrenamiento-funcional",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-zig": {
+    "path": "/hombre/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-ninos": {
+    "path": "/novedades-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-peppa-pig-ninos": {
+    "path": "/peppa-pig-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-classics": {
+    "path": "/ninos/classics",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-classic-leather": {
+    "path": "/ninos/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#peppa-pig-ninos": {
+    "path": "peppa-pig-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#jurassic-world-ninos": {
+    "path": "/jurassic-world-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#reebok-royal-ninos": {
+    "path": "/reebok-royal-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#club-c-ninos": {
+    "path": "/club-c-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-sale": {
+    "path": "/ninos-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#novedades-classics": {
+    "path": "/novedades-classic",
+    "isSitemapEntry": true
+  },
+  "store.custom#club-c-classics": {
+    "path": "/club-c-classics",
+    "isSitemapEntry": true
+  },
+  "store.custom#classics-jurassic-world": {
+    "path": "/classic-jurassic-world",
+    "isSitemapEntry": true
+  },
+  "store.custom#classic-peppa-pig": {
+    "path": "/classic-peppa-pig",
+    "isSitemapEntry": true
+  },
+  "store.custom#classic-reebok-pride": {
+    "path": "/classic-reebok-pride",
+    "isSitemapEntry": true
+  },
+  "store.custom#classics-ree-cycled": {
+    "path": "/classic-ree-cycled",
+    "isSitemapEntry": true
+  },
+  "store.custom#classic-reebok-royal": {
+    "path": "/classic-reebok-royal",
+    "isSitemapEntry": true
+  },
+  "store.custom#classic-leather": {
+    "path": "/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#classics-novedades-sale": {
+    "path": "/classic-novedades-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#classics-mujer-sale": {
+    "path": "/classics-mujer-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#classics-hombre-sale": {
+    "path": "/classics-hombre-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#classics-ninos-sale": {
+    "path": "/classics-ninos-sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#fitness-y-training": {
+    "path": "/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#calzado-fitness-y-training": {
+    "path": "/calzado/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#ropa-fitness-y-training": {
+    "path": "/ropa/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#accesorios-fitness-y-training": {
+    "path": "/accesorios/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#lifestyle": {
+    "path": "/lifestyle",
+    "isSitemapEntry": true
+  },
+  "store.custom#calzado-lifestyle": {
+    "path": "/calzado/lifestyle",
+    "isSitemapEntry": true
+  },
+  "store.custom#ropa-lifestyle": {
+    "path": "/ropa/lifestyle",
+    "isSitemapEntry": true
+  },
+  "store.custom#accesorios-lifestyle": {
+    "path": "/accesorios/lifestyle",
+    "isSitemapEntry": true
+  },
+  "store.custom#natacion": {
+    "path": "/natacion",
+    "isSitemapEntry": true
+  },
+  "store.custom#calzado-natacion": {
+    "path": "/calzado/natacion",
+    "isSitemapEntry": true
+  },
+  "store.custom#running": {
+    "path": "/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#calzado-running": {
+    "path": "/calzado/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#ropa-running": {
+    "path": "/ropa/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#accesorios-running": {
+    "path": "/accesorios/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#studio": {
+    "path": "/studio",
+    "isSitemapEntry": true
+  },
+  "store.custom#ropa-studio": {
+    "path": "/ropa/studio",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-hombre": {
+    "path": "/sale-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-hombre-calcetines": {
+    "path": "/sale-hombre-calcetines",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-hombre-poleras": {
+    "path": "/sale-hombre-poleras",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-hombre-polos": {
+    "path": "/sale-hombre-poleron",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-hombre-shorts": {
+    "path": "/sale-hombre-shorts",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-hombre-zapatillas": {
+    "path": "/sale-hombre-zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer": {
+    "path": "/sale-mujer/",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-calcetines": {
+    "path": "/sale-mujer-calcetines",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-conjunto-deportivo": {
+    "path": "/sale-mujer/conjunto-deportivo",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-licras": {
+    "path": "/sale-mujer-legging",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-pantalones": {
+    "path": "/sale-mujer/pantalones",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-polos": {
+    "path": "/sale-mujer-polera",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-sandalias": {
+    "path": "/sale-mujer-sandalias",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-shorts": {
+    "path": "/sale-mujer-shorts",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-tops-deportivo": {
+    "path": "/sale-mujer-poleron",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-mujer-zapatillas": {
+    "path": "/sale-mujer/zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-nino": {
+    "path": "/sale-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale-nino-zapatillas": {
+    "path": "/sale-ninos-zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#coleccion-cardi-b": {
+    "path": "/coleccion-cardi-b",
+    "isSitemapEntry": true
+  },
+  "store.custom#coleccion-nano-xi": {
+    "path": "/coleccion-nano-xi",
+    "isSitemapEntry": true
+  },
+  "store.custom#coleccion-luz": {
+    "path": "/lux",
+    "isSitemapEntry": true
+  },
+  "store.custom#coleccion-bts": {
+    "path": "/regresoaclase",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-deporte": {
+    "path": "/mujer-deporte",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-deporte": {
+    "path": "/hombre-deporte",
+    "isSitemapEntry": true
+  },
+  "store.custom#colaboraciones": {
+    "path": "/colaboraciones",
+    "isSitemapEntry": true
+  },
+  "store.custom#sale": {
+    "path": "/sale",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte": {
+    "path": "/deporte",
+    "isSitemapEntry": true
+  },
+  "store.custom#terminos-legales-promociones": {
+    "path": "/legales-promociones",
+    "isSitemapEntry": true
+  },
+  "store.custom#cardi": {
+    "path": "/cardi",
+    "isSitemapEntry": true
+  },
+  "store.custom#panini": {
+    "path": "/panini",
+    "isSitemapEntry": true
+  },
+  "store.custom#smiley": {
+    "path": "/smiley",
+    "isSitemapEntry": true
+  },
+  "store.custom#finaldetemporada": {
+    "path": "/finaldetemporada",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-tiendas-oficiales": {
+    "path": "/sitiosoficiales",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-colaboraciones": {
+    "path": "/mujer-colaboraciones",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-colaboraciones-cardib": {
+    "path": "/mujer/cardib",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-colaboraciones-nationalgeographic": {
+    "path": "/mujer/national-geographic",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-colaboraciones-powerrangers": {
+    "path": "/mujer/power-rangers",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades": {
+    "path": "/mujer-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-lux": {
+    "path": "/lux-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-reecycled": {
+    "path": "/ree-cycled-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-workoutready": {
+    "path": "/workout-ready-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-princess": {
+    "path": "/princess-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-classics": {
+    "path": "/mujer/classic",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-classicleather": {
+    "path": "/mujer/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-nano": {
+    "path": "/nano-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#mujer-novedades-zig": {
+    "path": "/mujer/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-calzado-zapatillas": {
+    "path": "/hombre/calzado/zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-calzado-sandalias": {
+    "path": "/hombre/calzado/sandalias",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-ropa-pantalonesyleggins": {
+    "path": "/hombre/ropa/pantalones-y-leggings",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones": {
+    "path": "/hombre-colaboraciones",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-jurassicworld": {
+    "path": "/jurassic-world-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-looneytunes": {
+    "path": "/looney-tunes-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-naoserati": {
+    "path": "/nao-serati-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-nationalgeographic": {
+    "path": "/national-geographic-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-powerrangers": {
+    "path": "/power-rangers-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-streetfighter": {
+    "path": "/street-fighter-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-colaboraciones-warnerbros": {
+    "path": "/warner-bros-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades": {
+    "path": "/hombre-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-unitedbyfitness": {
+    "path": "/hombre/united-by-fitness",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-reecycled": {
+    "path": "/ree-cycled-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-workoutready": {
+    "path": "/hombre/workout-ready",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-royalcomplete": {
+    "path": "/hombre/royal-complete",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-classics": {
+    "path": "/hombre/classic",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-classicleather": {
+    "path": "/hombre/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-nano": {
+    "path": "/hombre/nano",
+    "isSitemapEntry": true
+  },
+  "store.custom#hombre-novedades-zig": {
+    "path": "/hombre/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones": {
+    "path": "/ninos-colaboraciones",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-cardib": {
+    "path": "/cardi-b-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-jurassicworld": {
+    "path": "/jurassic-world-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-looneytunes": {
+    "path": "/looney-tunes-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-nationalgeographic": {
+    "path": "/national-geographic-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-pepapig": {
+    "path": "/peppa-pig- ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-pjmask": {
+    "path": "/pj-mask-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-colaboraciones-powerrangers": {
+    "path": "/power-rangers-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades": {
+    "path": "/ninos-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-weebok": {
+    "path": "/weebok-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-clubc": {
+    "path": "/club-c-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-reebokroyal": {
+    "path": "/reebok-royal-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-classics": {
+    "path": "/ninos/classic",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-classicleather": {
+    "path": "/ninos/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-nano": {
+    "path": "/nano-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#ninos-novedades-zig": {
+    "path": "/ninos/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-calzado-sandalias": {
+    "path": "/unisex/calzado/sandalias",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones": {
+    "path": "/colaboraciones-unisex",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-jurassicworld": {
+    "path": "/unisex/jurassic-world",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-lacasadepapel": {
+    "path": "/unisex/la-casa-de-papel",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-looneytunes": {
+    "path": "/unisex/looney-tunes",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-maharishi": {
+    "path": "/unisex/maharishi",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-maisonmargiela": {
+    "path": "/unisex/maison-margiela",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-naoserati": {
+    "path": "/unisex/nao-serati",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-panini": {
+    "path": "/unisex/panini",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-powerrangers": {
+    "path": "/unisex/power-rangers",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-streetfighter": {
+    "path": "/unisex/street-fighter",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-victoriabeckham": {
+    "path": "/unisex/victoria-beckham",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-colaboraciones-warnerbros": {
+    "path": "/unisex/warner-bros",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades": {
+    "path": "/novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-reebokpride": {
+    "path": "/unisex/reebok-pride",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-reecycled": {
+    "path": "/unisex/ree-cycled-novedades",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-workoutready": {
+    "path": "/unisex/workout-ready",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-furylite": {
+    "path": "/unisex/furylite",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-meetyouthere": {
+    "path": "/unisex/meet-you-there",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-classics": {
+    "path": "/unisex/unisex/classics",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-classicleather": {
+    "path": "/unisex/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-nano": {
+    "path": "/unisex/nano",
+    "isSitemapEntry": true
+  },
+  "store.custom#unisex-novedades-zig": {
+    "path": "/unisex/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-v2": {
+    "path": "/deporte",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-basquet": {
+    "path": "/basquet",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-basquet-calzado": {
+    "path": "/calzado/basquet",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-basquet-ropa": {
+    "path": "/ropa/basquet",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-entrenamientofuncional": {
+    "path": "/entrenamiento-funcional",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-entrenamientofuncional-calzado": {
+    "path": "/calzado/entrenamiento-funcional",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-entrenamientofuncional-ropa": {
+    "path": "/ropa/entrenamiento-funcional",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-fitnessandtraining": {
+    "path": "/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-fitnessandtraining-calzado": {
+    "path": "/calzado/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-fitnessandtraining-ropa": {
+    "path": "/ropa/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-fitnessandtraining-accesorios": {
+    "path": "/accesorios/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-running": {
+    "path": "/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-running-calzado": {
+    "path": "/calzado/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-running-ropa": {
+    "path": "/ropa/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-running-accesorios": {
+    "path": "/accesorios/running",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-outdoor": {
+    "path": "/outdoor",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-outdoor-calzado": {
+    "path": "/outdoor-calzado",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-outdoor-senderismo": {
+    "path": "/outdoor-senderismo",
+    "isSitemapEntry": true
+  },
+  "store.custom#deporte-outdoor-walking": {
+    "path": "/outdoor-walking",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones": {
+    "path": "/coleccion",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer": {
+    "path": "/coleccion-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-clubc": {
+    "path": "/mujer/club-c",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-classicleather": {
+    "path": "/mujer/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-freestyle": {
+    "path": "/mujer/freestyle",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-zigkinetica": {
+    "path": "/mujer/zig-kinetica",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-zigdynamica": {
+    "path": "/mujer/zig-dynamica",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-unitedbyfitness": {
+    "path": "/mujer/united-by-fitness",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-zapatillasblancas": {
+    "path": "/mujer/zapatillas-blancas",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-mujer-zapatillasnegras": {
+    "path": "/mujer/zapatillas-negras",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre": {
+    "path": "/coleccion-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre-classicleather": {
+    "path": "/hombre/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre-zigdynamica": {
+    "path": "/hombre/zig-dynamica",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre-unitedbyfitness": {
+    "path": "/hombre/united-by-fitness",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre-question": {
+    "path": "/hombre/question",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre-zapatillasblancas": {
+    "path": "/hombre/zapatillas-blancas",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-hombre-zapatillasnegras": {
+    "path": "/hombre/zapatillas-negras",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex": {
+    "path": "/colecciones-unisex",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-classicleather": {
+    "path": "/unisex/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-zigkinetica": {
+    "path": "/unisex/zig-kinetica",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-unitedbyfitness": {
+    "path": "/unisex/united-by-fitness",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-shaqattaq": {
+    "path": "/unisex/shaq-attaq",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-question": {
+    "path": "/unisex/question",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-zapatillasblancas": {
+    "path": "/unisex/zapatillas-blancas",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-unisex-zapatillasnegras": {
+    "path": "/unisex/zapatillas-negras",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-classicleather": {
+    "path": "/classic-leather",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-classicslides": {
+    "path": "/classic-slides",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-clubc": {
+    "path": "/ClubC",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-fitnessandtraining": {
+    "path": "/fitness-y-training",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-floatride": {
+    "path": "/floatride",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-freestyle": {
+    "path": "/freestyle",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-instapump": {
+    "path": "/instapump",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-makeityours": {
+    "path": "/make-it-yours",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-meetyouthere": {
+    "path": "/meet-you-there",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-nano": {
+    "path": "/nano",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-reebokroyal": {
+    "path": "/reebok-royal",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-sostenible": {
+    "path": "/sostenible",
+    "isSitemapEntry": true
+  },
+  "store.custom#colecciones-colecciones-zig": {
+    "path": "/zig",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet": {
+    "path": "/outlet",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer": {
+    "path": "/outlet-mujer",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-zapatillas": {
+    "path": "/outlet-mujer-zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-sandalias": {
+    "path": "/outlet-mujer-sandalias",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-conjuntodeportivo": {
+    "path": "/outlet-mujer-conjunto-deportivo",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-chaquetas": {
+    "path": "/outlet-mujer-chaquetas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-faldasyvestidos": {
+    "path": "/outlet-mujer-faldas-y-vestidos",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-pantalonesycalzas": {
+    "path": "/outlet-mujer-pantalones-y-calzas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-polerones": {
+    "path": "/outlet-mujer-poleron",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-poleras": {
+    "path": "/outlet-mujer-polera",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-shorts": {
+    "path": "/outlet-mujer-shorts",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-mujer-petosdeportivos": {
+    "path": "/outlet-mujer-petos-deportivos",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre": {
+    "path": "/outlet-hombre",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-zapatillas": {
+    "path": "/outlet-hombre-zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-conjuntodeportivo": {
+    "path": "/outlet-hombre-conjunto-deportivo",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-chaquetas": {
+    "path": "/outlet-hombre-chaquetas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-pantalonesycalzas": {
+    "path": "/outlet-hombre-pantalones-y-calzas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-polerones": {
+    "path": "/outlet-hombre-poleron",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-poleras": {
+    "path": "/outlet-hombre-poleras",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-hombre-shorts": {
+    "path": "/outlet-hombre-shorts",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-ninos": {
+    "path": "/outlet-ninos",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-ninos-zapatillas": {
+    "path": "/outlet-ninos-zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex": {
+    "path": "/outlet-unisex",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-zapatillas": {
+    "path": "/outlet-unisex-zapatillas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-sandalias": {
+    "path": "/outlet-unisex-sandalias",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-bolsosymochilas": {
+    "path": "/outlet-unisex-bolsos-y-mochilas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-chaquetas": {
+    "path": "/outlet-unisex-chaquetas",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-gorras": {
+    "path": "/outlet-unisex-gorras",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-matdeyoga": {
+    "path": "/outlet-unisex-mat-de-yoga",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-calcetines": {
+    "path": "/outlet-unisex-calcetines",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-pantalonesycalzas": {
+    "path": "/outlet-unisex-pantalones-y-calzas ",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-polerones": {
+    "path": "/outlet-unisex-polerones",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-poleras": {
+    "path": "/outlet-unisex-poleras",
+    "isSitemapEntry": true
+  },
+  "store.custom#outlet-unisex-shorts": {
+    "path": "/outlet-unisex-shorts",
+    "isSitemapEntry": true
+  },
+  "store.custom#san-valentin": {
+    "path": "/sanvalentin",
+    "isSitemapEntry": true
+  },
+  "store.custom#todo-el-sitio": {
+    "path": "/todo-reebok",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-newsletter": {
+    "path": "/newsletter",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-newsletter-retail": {
+    "path": "/newsletter-retail",
+    "isSitemapEntry": true
+  },
+  "store.custom#programa-fidelidad": {
+    "path": "/programa-fidelidad",
+    "isSitemapEntry": true
+  },
+  "store.custom#dia-de-las-madres": {
+    "path": "/diadelasmadres",
+    "isSitemapEntry": true
+  },
+  "store.custom#extras": {
+    "path": "/extras",
+    "isSitemapEntry": true
+  },
+  "store.custom#eoss": {
+    "path": "/ofertas",
+    "isSitemapEntry": true
+  },
+  "store.custom#dia-del-nino": {
+    "path": "/diadelnino",
+    "isSitemapEntry": true
+  },
+  "store.custom#training-days": {
+    "path": "/ofertas-entrenamiento",
+    "isSitemapEntry": true
+  },
+
+  "store.custom#ofertas-black-friday":{
+    "path": "/black-friday",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-harry-potter": {
+    "path": "/reebokxharrypotter",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-nano":{
+    "path": "/reeboknanox4",
+    "isSitemapEntry": true
+  },
+  "store.custom#ofertas-dia-madre":{
+    "path": "/ofertas-regalos-dia-madre",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-floatzig": {
+    "path": "/reebokfloatzig",
+    "isSitemapEntry": true
+  },
+  "store.custom#landing-cyber":{
+    "path": "/cyber",
+    "isSitemapEntry": true
+  }
+  
+}

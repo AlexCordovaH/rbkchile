@@ -1,0 +1,55 @@
+{
+    "custom-banner#navidad-act": {
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER-navidad.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-navidad.jpg",
+            "headlines": [
+              {
+                "type": "headline",
+                "text": "REGALOS CON 50% OFF",
+                "sx": {
+                  "desktop": " banner-headline-bottom ml2 cWhite",
+                  "tablet": "banner-headline-bottom ml2 cWhite",
+                  "phone": "banner-headline-bottom cWhite"
+                }
+              },
+              {
+                "type": "copy",
+                "text": "Además, usa el cupón HOLIDAYS20",
+                "sx": {
+                  "desktop": "banner-copy ml2 cWhite",
+                  "tablet": "banner-copy ml2 cWhite",
+                  "phone": "banner-copy mt3 cWhite"
+                }
+              },
+              {
+                "type": "copy",
+                "text": " en tu carrito y recibe 20% adicional",
+                "sx": {
+                  "desktop": "banner-copy ml2 cWhite",
+                  "tablet": "banner-copy ml2 cWhite",
+                  "phone": "banner-copy mt3 cWhite"
+                }
+              }
+            ],
+            "buttons": {
+              "CTAs": [
+                {
+                  "label": "COMPRAR",
+                  "link": "/outlet",
+                  "color": "white",
+                  "sx": {
+                    "desktop": "ml2 mt2 font-family-NR",
+                    "tablet": "ml3 mt3 font-family-NR",
+                    "phone": "ml25 mt5 font-family-NR"
+                  }
+                }
+              ]
+            },
+            "sx": {
+              "desktop": "relative t40 ",
+              "tablet": "relative t30 tal",
+              "phone": "relative t67 tac "
+            }
+          }
+        }}

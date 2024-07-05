@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#pdp-product-descripcion": {
+    "title": "Product description Wrapper flex | PDP",
+    "children": ["flex-layout.col#pdp-product-descripcion"],
+    "props": {
+      "blockClass": "pdp-component-accordion-principal"
+    }
+  },
+  "flex-layout.col#pdp-product-descripcion": {
+    "props": {
+      "blockClass": "pdp-component-accordion-principal"
+    },
+    "children": ["disclosure-layout-group#pdp-product-description"]
+  },
+  //?----PDP - acorden description ----?/
+  "disclosure-layout-group#pdp-product-description": {
+    "title": "Product description | PDP",
+    "props": {
+      "blockClass": "pdp_product_description",
+      "maxVisible": "many"
+    },
+    "children": [
+      "pdp-have-highlight-wrapper",
+      "disclosure-layout#pdp-product-description",
+      "pdp-have-cares-wrapper",
+      "pdp-have-details-wrapper"
+    ]
+  },
+
+  "disclosure-layout#pdp-product-description": {
+    "title": "Product description | PDP",
+    "props": {
+      "blockClass": "pdp_product_description"
+    },
+    "children": [
+      "disclosure-trigger#pdp-product-description-title",
+      "disclosure-content#pdp-product-description-content"
+    ]
+  },
+  "disclosure-trigger#pdp-product-description-title": {
+    "props": {
+      "blockClass": "pdp_product_description_title"
+    },
+    "children": [
+      "rich-text#pdp-product-description-title",
+      "disclosure-state-indicator"
+    ]
+  },
+  //?---- Title Acordion ----?//
+  "rich-text#pdp-product-description-title": {
+    "props": {
+      "text": "### Descripción",
+      "blockClass": "pdp_product_description_title"
+    }
+  },
+  //?---- Content Acordion ----?//
+  "disclosure-content#pdp-product-description-content": {
+    "children": [
+      // Contenido
+      //"flex-layout.row#desktop-identifier",
+      "pdp-description-formatter"//,
+      // "pdp-whasing-formatter"
+    ],
+    "props": {
+      "blockClass": "container-description-pdp"
+    }
+  }
+}

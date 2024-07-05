@@ -1,0 +1,137 @@
+{
+
+
+  "custom-banner#miembros": {
+    "title": "main-banner",
+    "props": {
+        "desktopBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Desktop-1201.jpg",
+        "phoneBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Mobile-1201.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "DESCUENTOS SOLO",
+          "sx": {
+            "desktop": "banner-headline-bottom  cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite tar",
+            "phone": "banner-headline-bottom cWhite tac"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "PARA MIEMBROS",
+          "sx": {
+            "desktop": "banner-headline-bottom  cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite tar",
+            "phone": "banner-headline-bottom cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Únete a nuestro newsletter y recibe",
+          "sx": {
+            "desktop": "banner-copy  cWhite",
+            "tablet": "banner-copy mr2 cWhite tar",
+            "phone": "banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "30% EXTRA por tiempo limitado",
+          "sx": {
+            "desktop": "banner-copy cWhite",
+            "tablet": "banner-copy mr2 cWhite tar",
+            "phone": "banner-copy cWhite tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+              "label": "REGÍSTRATE",
+              "link": "/newsletter",
+            "sx": {
+                "desktop": "mt2 mr1 fs80",
+                "tablet": "mt3 fs70",
+                "phone": "mt5 fs70"
+              }
+          },
+          {
+              "label": "COMPRAR",
+              "link": "/todo-reebok",
+              "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt3 fs70",
+                  "phone": "mt5 fs70"
+                }
+            }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t20 r4 tar",
+        "tablet": "relative t5 r2 tar",
+        "phone": "relative t65 tac"
+      }
+    }
+},
+
+
+"flex-layout.row#miembros-mobile":{
+  "children":[
+      "custom-banner#miembros-mobile"
+  ],
+  "props":{
+      "blockClass": "banner-mobile-mynameis"
+  }
+},
+
+
+"custom-banner#miembros-mobile": {
+  "title": "main-banner",
+  "props": {
+      "desktopBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Desktop-1201",
+      "phoneBgImageUrl": "/arquivos/Hero-Banner-OnlyMembers-Mobile-1201.jpg",
+    "headlines": [
+      {
+        "type": "headline",
+        "text": "DESCUENTOS SOLO PARA MIEMBROS",
+        "sx": {
+          "desktop": "banner-headline-bottom mr2 cWhite",
+          "tablet": "banner-headline-bottom mr2 cWhite tar",
+          "phone": "banner-headline-bottom tac cWhite"
+        }
+      }
+    ],
+    "buttons": {
+      "CTAs": [
+        {
+          "label": "REGÍSTRATE",
+          "link": "/newsletter",
+          "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt6 fs70 mr1"
+            }
+        },
+        {
+          "label": "COMPRAR",
+          "link": "/todo-reebok",
+          "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt6 fs70 ml1"
+            }
+        }
+      ],
+      "layout": "horizontal",
+      "alignment": "center"
+    },
+    "sx": {
+      "desktop": "relative t44 r8 tar",
+      "tablet": "relative t5 r2 tar",
+      "phone": "relative t70 tac"
+    }
+  }
+}
+}

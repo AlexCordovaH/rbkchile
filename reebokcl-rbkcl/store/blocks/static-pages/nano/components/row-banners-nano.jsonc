@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#nano-row-images-text": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container-third-row-images-text"
+    },
+    "children": ["flex-layout.row#nano-row-of-images-text"]
+  },
+
+  "flex-layout.row#nano-row-of-images-text": {
+    "props":{ 
+      "blockClass": "container-third-row-images-text"
+    },
+    "children": [
+      "rich-text#nano-row-of-images-text-title","rich-text#nano-row-of-images-text-description"
+    ]
+  },
+
+  "rich-text#nano-row-of-images-text-title": {
+    "props": {
+    "text": "### TECNOLOGÍA PARA EL MEJOR PERFORMANCE <br/>",
+    "blockClass": ["nano-text-title"]
+    }
+  },
+
+  "rich-text#nano-row-of-images-text-description": {
+    "props": {
+    "text": "#### Nano X4 fueron especialmente diseñadas para entrenamiento funcional y running. Su tejido flexweave brinda flexibilidad y su clip en el talón da mayor establidad a la hora de entrenar.<br/><br/>",
+    "blockClass": ["nano-text-description"]
+    }
+  },
+
+  "flex-layout.row#nano-row-images": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container-third-row-images"
+    },
+    "children": ["flex-layout.row#nano-row-of-images"]
+  },
+  "flex-layout.row#nano-row-of-images": {
+    "children": [
+      "info-card#nano-first-image",
+      "info-card#nano-second-image",
+      "info-card#nano-third-image"
+    ]
+  },
+  "info-card#nano-first-image": {
+    "props": {
+        "id": "info-card-one",
+        "isFullModeStyle": true,
+        "textPosition": "center",
+        // "callToActionText": "REGALOS PARA ELLA",
+        // "callToActionUrl": "/mujer",
+        // "imageActionUrl": "/mujer",
+        "imageUrl": "https://reebokcol.vteximg.com.br/arquivos/nano-atributos-1.jpg",
+        "blockClass": ["info-card-third-row-nano", "info-card-third-row", "info-card-third-row-one","info-card-gtm-one"],
+        "textAlignment": "center"
+    }
+},
+"info-card#nano-second-image": {
+    "props": {
+        "id": "info-card-two",
+        "isFullModeStyle": true,
+        "textPosition": "center",
+        // "callToActionText": " REGALOS PARA ÉL",
+        // "callToActionUrl": "/hombre",
+        // "imageActionUrl": "/hombre",
+        "imageUrl": "https://reebokcol.vteximg.com.br/arquivos/nano-atributos-2.jpg",
+        "blockClass": ["info-card-third-row-nano", "info-card-third-row", "info-card-third-row-two","info-card-gtm-two"],
+        "textAlignment": "center"
+    }
+},
+"info-card#nano-third-image": {
+    "props": {
+        "id": "info-card-three",
+        "isFullModeStyle": true,
+        "textPosition": "center",
+        // "callToActionText": "REGALOS PARA NIÑOS",
+        // "callToActionUrl": "/ninos",
+        // "imageActionUrl": "/ninos",
+        "imageUrl": "https://reebokcol.vteximg.com.br/arquivos/nano-atributos-3.jpg",
+        "blockClass": ["info-card-third-row-nano", "info-card-third-row", "info-card-third-row-three","info-card-gtm-three"],
+        "textAlignment": "center"
+    }
+}
+}

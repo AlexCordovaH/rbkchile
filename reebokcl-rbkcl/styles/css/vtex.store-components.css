@@ -1,0 +1,5744 @@
+/*----------------------imagenes pdp-----------------------------------*/
+:global(
+    .vtex-slider-layout-0-x-sliderLayoutContainer--PLP--subcategoria-carousel
+  ) {
+  max-width: 1600px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--body-desktopHome) {
+  margin: 1rem 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-one)
+  :global(.vtex-flex-layout-0-x-flexCol--desktop-row-one) {
+  background-color: initial;
+  background-image: url(https://reebokcl.vteximg.com.br/arquivos/reebok-image-viewer-background.png);
+  background-size: contain;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-one) {
+  position: relative;
+}
+/*--------------pdp tallas----------------------*/
+:global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  display: flex !important;
+  gap: 0.1rem;
+}
+:global(
+    .vtex-store-components-3-x-infoCardTextContainer--info-card-plp-subcategory
+  ) {
+  background: #fff;
+  width: -webkit-fill-available;
+  margin-top: -0.5rem;
+}
+:global(
+    .vtex-store-components-3-x-infoCardImageContainer--info-card-plp-subcategory
+  ) {
+  width: 100%;
+}
+:global(
+    .vtex-store-components-3-x-infoCardContainer--info-card-plp-subcategory
+  ) {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  background: transparent;
+}
+:global(
+    .vtex-store-components-3-x-infoCardCallActionContainer--info-card-plp-subcategory
+  )
+  :global(.vtex-button) {
+  background: transparent;
+  color: #000;
+  text-align: left;
+  text-transform: none;
+  border: 0;
+}
+:global(
+    .vtex-store-components-3-x-infoCardCallActionContainer--info-card-plp-subcategory
+  )
+  :global(.vtex-button__label) {
+  padding: 0;
+  text-decoration: underline;
+  color: #313131;
+  font-family: "NeuePlak-Regular";
+  font-weight: 700;
+}
+
+:global(
+    .vtex-store-components-3-x-infoCardCallActionContainer--info-card-plp-subcategory
+  ) {
+  margin: 0;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 2px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--body-desktopHome) {
+  margin: 1rem 0;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorInternalBox)
+  :global(.vtex-store-components-3-x-diagonalCross) {
+  background-color: #f0f0f0;
+}
+:global(.vtex-store-components-3-x-valueWrapper--unavailable) {
+  text-decoration: line-through;
+}
+:global(.vtex-store-components-3-x-skuSelectorInternalBox)
+  :global(.vtex-store-components-3-x-diagonalCross) {
+  background-image: none;
+}
+/*----------------------------------------------------*/
+
+/*-----newsletter------*/
+:global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+  align-items: center !important;
+}
+:global(.vtex-store-link-0-x-label--terminos-Condiciones),
+:global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+  color: #5e5e5e;
+  font-weight: 100;
+  font-size: 0.75rem;
+  text-decoration: underline;
+
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--inputCondicionesNewsLetter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+  padding-right: 4px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--inputPoliticasNewsLetter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+  padding-right: 4px;
+}
+:global(.vtex-store-link-0-x-link--link-politicas-de-privacidad),
+:global(.vtex-store-link-0-x-link--terminos-Condiciones) {
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+/*----------------------*/
+:global(.vtex-rich-text-0-x-link--action-button-newsletter-footer) {
+  background-color: #000;
+  color: #ffffff;
+  font-style: 14px;
+  padding: 15px 60px 15px 60px;
+  border: solid 1px white;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/*home mobile*/
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer) {
+  margin-right: 92%;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button) {
+  background: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  margin-bottom: 40px;
+}
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  background-color: #121212;
+  border: none;
+  border-radius: 60%;
+  width: 25px !important;
+  height: 45px;
+}
+:global(
+    .vtex-store-components-3-x-infoCardImageContainer--info-card-plp-subcategory
+  ) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before {
+  content: url("assets/header/chevron-white-up.png") !important;
+}
+/**-----LOGIN-----**/
+:global(.vtex-login-2-x-content--emailAndPassword)
+  :global(.vtex-login-2-x-loginOptionsContainer) {
+  display: none !important;
+}
+/**-----My account -boletin informativo-----**/
+:global(.vtex-my-account-1-x-newsletterBoxContainer) {
+  /* display: none !important; */
+  display: block;
+}
+
+/**-----HOME - WRAPPER PROMOTION RED-----**/
+:global(.vtex-rich-text-0-x-container--home-subpromotion-red) {
+  background: #e41d1b;
+  margin-top: -0.5rem;
+  padding: 16px 0 28px;
+}
+/**-----HOME - CONTAINER PROMOTION RED-----**/
+:global(.vtex-rich-text-0-x-wrapper--home-subpromotion-red) {
+  width: 100%;
+  max-width: 800px;
+}
+/**-----HOME - TITLES PROMOTION RED-----**/
+:global(.vtex-rich-text-0-x-headingLevel4--home-subpromotion-red),
+:global(.vtex-rich-text-0-x-headingLevel3--home-subpromotion-red) {
+  color: #fff;
+  padding: 0 16px;
+}
+:global(.vtex-rich-text-0-x-headingLevel4--home-subpromotion-red) {
+  margin-top: 0;
+}
+
+/**-----HOME - LINK PROMOTION RED-----**/
+:global(.vtex-rich-text-0-x-link--home-subpromotion-red) {
+  background: #fff;
+  /* padding: 18px 25.5px!important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 196px;
+  height: 52px;
+  color: #121212;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+:global(.vtex-rich-text-0-x-link--home-subpromotion-red)::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: -1;
+}
+
+@media (max-width: 1488px) {
+  :global(.vtex-rich-text-0-x-wrapper--titulo-training-days)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-newsletter)
+    :global(.vtex-store-components-3-x-label) {
+    font-size: 1.2rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--rich-text-shelf-productos-destacados),
+  :global(.vtex-rich-text-0-x-paragraph--rich-text-coleccion-destacada) {
+    font-size: 1.2rem;
+  }
+}
+
+/* PDP DESKTOP */
+:global(.vtex-flex-layout-0-x-flexRow--desktop-row-identifier) {
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  color: #121212 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--dekstop-shelf)
+  :global(.vtex-shelf-1-x-title--desktop-shelf-recomendados) {
+  padding: 0px;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionTitle) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) {
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+:global(.vtex-shelf-1-x-title--desktop-shelf-recomendados) {
+  margin-top: 2.5rem;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--isClosed) {
+  font-size: 0px;
+}
+:global(.vtex-menu-2-x-accordionIcon--isClosed)::after {
+  content: url("assets/ChevronDown.png");
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-store-components-3-x-productBrand) {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+  margin-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--similar-products) {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--guia-tallas) {
+  padding: 0px;
+  margin: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--guia-tallas) {
+  font-family: "NeuePlak-Semibold";
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  font-family: "NeuePlak-Semibold";
+  color: #121212;
+  font-size: 0.875rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-one)
+  :global(.vtex-store-components-3-x-productImagesThumb) {
+  margin-right: 1rem;
+}
+
+.productNameContainer .productBrand {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton) {
+  display: flex;
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton)
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+  :global(.vtex-button) {
+  background-color: #000000;
+  border-color: #ffffff;
+  width: 98%;
+  height: 49px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton)
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+  :global(.vtex-button):hover {
+  background-color: #244486;
+  width: 98%;
+  height: 49px;
+  transition: all 0.3s ease 0s;
+  z-index: 999;
+  transform: scale(1);
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  font-size: 0;
+  margin: 0 28px 0 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle)::after {
+  content: "Seleccionar cantidad";
+  font-family: "NeuePlak-SemiBold" !important;
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-numeric-stepper__minus-button) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-numeric-stepper__input) {
+  border: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-numeric-stepper__minus-button) {
+  border: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-numeric-stepper__plus-button) {
+  border: none;
+}
+
+:global(.vtex-store-components-3-x-productImageTag--main) {
+  max-height: 630px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--component-row-breadcrumb-pdp)
+  :global(.vtex-breadcrumb-1-x-container) {
+  position: absolute;
+  left: 2rem;
+  z-index: 10;
+  margin-top: 22px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-description-accordion) {
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--dekstop-shelf) {
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-reviews) {
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+:global(.vtex-store-components-3-x-productBrand) {
+  /* font-family: "NeuePlak-SemiBold"; */
+  font-size: 1.5rem;
+}
+:global(.vtex-flex-layout-0-x-flexRow--desktop-name) {
+  padding: 0;
+}
+:global(.vtex-store-components-3-x-price_className) {
+  display: flex;
+  align-items: start;
+}
+
+:global(.vtex-store-components-3-x-price_listPriceLabel) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-price_sellingPriceLabel) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-price_savings) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-price_listPrice) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  color: #5e5e5e !important;
+}
+
+:global(.vtex-store-components-3-x-price_sellingPrice) {
+  font-size: 0.875rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: "NeuePlak-Regular";
+}
+
+:global(.vtex-store-components-3-x-price_listPriceContainer) {
+  margin: 0px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorName) {
+  content: "";
+  font-size: 0px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorName)::after {
+  content: "Tallas";
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem) {
+  min-width: 60px;
+  max-width: 60px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+  border-color: white;
+}
+
+:global(.vtex-store-components-3-x-frameAround) {
+  display: none !important;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem) {
+  border: solid 1px #e9ecef;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem--selected) {
+  border: solid 1px #000000;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  margin: 0px;
+}
+
+/**-----PDP - Btns quantity selector-----**/
+:global(.vtex-numeric-stepper-wrapper) {
+  width: 100px;
+  height: 38px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+}
+/**-----PDP - Wrapper quantity selector-----**/
+:global(.vtex-numeric-stepper-container) {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  align-content: stretch;
+}
+/**-----PDP - input quantity selector-----**/
+:global(.vtex-numeric-stepper__input) {
+  width: inherit !important;
+  height: 100%;
+  font-size: 16px;
+  font-family: "NeuePlak-Regular";
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/**-----PDP - btns quantity selector-----**/
+:global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-numeric-stepper__plus-button) {
+  height: 100%;
+}
+:global(.vtex-numeric-stepper__minus-button__text),
+:global(.vtex-numeric-stepper__plus-button__text) {
+  font-size: 0px;
+  content: "";
+}
+:global(.vtex-numeric-stepper__minus-button__text)::after {
+  content: url(https://reebokcol.vteximg.com.br/arquivos/pdp-resta.png);
+}
+:global(.vtex-numeric-stepper__plus-button__text)::after {
+  content: url(https://reebokcol.vteximg.com.br/arquivos/pdp-suma.png);
+}
+
+:global(.vtex-numeric-stepper__plus-button):disabled,
+:global(.vtex-numeric-stepper__minus-button):disabled {
+  background-color: #ffffff;
+  opacity: 0.4;
+  cursor: no-drop;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIcon) {
+  background-image: url("assets/header/wishlist.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-pdp-whislist)
+  :global(.vtex-button) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #d1d1d1;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 64px;
+  height: 48px;
+  transition: all 0.3s;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-pdp-whislist)
+  :global(.vtex-button):hover {
+  border-color: #244486;
+  background-color: #ffffff;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-pdp-whislist)
+  :global(.vtex-button):focus {
+  background-color: #ffffff;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-pdp-whislist)
+  :global(.vtex-button__label) {
+  width: fit-content;
+  height: fit-content;
+  padding: 0 !important;
+}
+
+/*
+:global(.vtex-numeric-stepper__minus-button):disabled
+:global(.vtex-numeric-stepper__minus-button__text)::after{
+  content: "";
+}
+*/
+
+:global(.vtex-store-components-3-x-swiperCaretNext) {
+  content: url("assets/header/chevron-black-right.svg");
+}
+
+:global(.vtex-store-components-3-x-swiperCaretPrev) {
+  content: url("assets/header/chevron-black-left.svg");
+}
+
+:global(.vtex-store-components-3-x-swiperCaretNext):hover {
+  content: url("assets/header/chevron-white-right.svg") !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-store-components-3-x-swiperCaretPrev):hover {
+  content: url("assets/header/chevron-white-left.svg") !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-store-components-3-x-swiperCaretPrev) {
+  background-color: #f7f7f7;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin-left: 2.5%;
+}
+
+:global(.vtex-store-components-3-x-swiperCaretNext) {
+  background-color: #f7f7f7;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin-right: 2.5%;
+}
+
+:global(.vtex-store-components-3-x-swiperCaretNext):hover {
+  background-color: #244486 !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-store-components-3-x-swiperCaretPrev):hover {
+  background-color: #244486 !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-product-availability-0-x-container)
+  :global(.vtex-product-availability-0-x-lowStockText) {
+  font-family: "NeuePlak-SemiBold";
+  color: #e41d1b;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+:global(.vtex-product-availability-0-x-container)
+  :global(.vtex-product-availability-0-x-lowStockHighlight) {
+  font-family: "NeuePlak-SemiBold";
+  color: #e41d1b;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--similar-products) {
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--similar-products)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 100% !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--similar-products-titulo) {
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  color: #121212;
+  margin-bottom: 0px;
+}
+/**-----PDP - Wrapper sizes and txt-----**/
+:global(.vtex-store-components-3-x-skuSelectorNameContainer) {
+  margin: 0 !important;
+}
+:global(.vtex-store-components-3-x-priceContainer) {
+  margin: 0px;
+  display: flex;
+  flex-direction: row !important;
+}
+/**-----PDP - Txt tallas disponibles-----**/
+:global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+  margin: 0 0 8px !important;
+}
+/**-----PDP - wrapper items sizes-----**/
+:global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  margin: 0px !important;
+  align-items: normal !important;
+}
+/**-----PDP - Items sizes-----**/
+:global(.vtex-store-components-3-x-skuSelectorItem) {
+  min-width: 72px !important;
+  min-height: 40px !important;
+  max-width: fit-content !important;
+  max-height: fit-content !important;
+  border: 1px solid #d1d1d1 !important;
+  transition: all 0.3s;
+}
+/**-----PDP - Items sizes hover effect-----**/
+
+:global(.vtex-store-components-3-x-priceContainer) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem):hover {
+  border: 1px solid #000000 !important;
+}
+/**-----PDP - Items sizes when is selected-----**/
+:global(.vtex-store-components-3-x-skuSelectorItem--selected),
+:global(.vtex-store-components-3-x-skuSelectorItem--selected):hover {
+  border: 1px solid #000000 !important;
+}
+/**-----PDP - Items sizes txt-----**/
+:global(.vtex-store-components-3-x-valueWrapper) {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: "NeuePlak-Regular" !important;
+  color: #000000 !important;
+  font-size: 0.7rem !important;
+}
+
+/**-----PDP - Wrapper Item sizes txt-----**/
+:global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+  border: 0 !important;
+  padding: 4px !important;
+  min-width: 91px !important;
+  min-height: 40px !important;
+  max-width: initial !important;
+  max-height: initial !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+/**-----PDP - Wrapper all info-----**/
+:global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two) {
+  max-width: 496px;
+  /* border: 1px solid ; */
+}
+/**-----PDP - Wrapper sizes-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-selector) {
+  position: relative;
+  margin: 0 !important;
+}
+
+/**-----PDP - Wrapper internal  sizes & btn size guide-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-selector)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: block !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/**-----PDP - Wrapper internal  sizes-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-selector)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+}
+/**-----PDP - Wrapper internal btn size guide-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-selector) {
+  display: flex;
+  flex-direction: column;
+}
+/**-----PDP - Wrapper btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 64px !important;
+}
+/**-----PDP - Wrapper add to cart button & btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: calc(100% - 64px) !important;
+}
+/**-----PDP - btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexCol--desktop-pdp-whislist) {
+  width: fit-content !important;
+}
+/**-----PDP - Wrapper btn wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-pdp-whislist)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  display: block !important;
+  min-width: initial !important;
+  max-width: max-content !important;
+}
+
+/**-----PDP - Wrapper - items size guide-----**/
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
+  margin-bottom: 4px !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--desktop-row-product-pdp)
+  :global(.vtex-store-components-3-x-container):first-child {
+  padding: 0px !important;
+}
+
+:global(.vtex-modal-layout-0-x-paper--trigger-tallas) {
+  width: 600px !important;
+  height: 600px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--guia-tallas) {
+  font-size: 0.875rem;
+  color: #121212;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+:global(.vtex-rich-text-0-x-container--guia-tallas):hover {
+  cursor: pointer;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-star--filled) {
+  content: url("assets/star-filled.svg") !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-star--empty) {
+  content: url("assets/star-empty.svg") !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-reviewsHeading) {
+  content: "";
+  font-size: 0px;
+  border-bottom: 0px;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-reviewsHeading)::before {
+  content: "Reseña";
+  font-size: 2rem;
+  font-family: "NeuePlak-Bold";
+}
+
+:global(.vtex-shelf-1-x-title--desktop-shelf-recomendados) {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  font-family: "NeuePlak-Bold";
+  color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--dekstop-shelf)
+  :global(.vtex-shelf-1-x-dot--isActive) {
+  background-color: #121212;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer)
+  :global(.vtex-input__label) {
+  color: #121212 !important;
+  font-family: "NeuePlak-Regular";
+  font-size: 0.875rem;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer)
+  :global(.vtex-textarea__label) {
+  color: #121212 !important;
+  font-family: "NeuePlak-Regular";
+  font-size: 0.875rem;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer) :global(.vtex-card) {
+  color: #121212 !important;
+  font-family: "NeuePlak-SemiBold";
+  font-size: 1rem;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer) :global(.vtex-button) {
+  background-color: #121212;
+  border-color: #121212;
+  text-transform: capitalize;
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  border-radius: 50px;
+  padding: 10px 20px !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer)
+  :global(.vtex-button):hover {
+  background-color: #244486;
+  border-color: #244486;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer) {
+  padding: 0px !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer) :global(.vtex-card) {
+  box-shadow: none !important;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content) {
+  padding: 0 20px;
+}
+/**-----PLP Modal QuickView - Body modal quick-view----**/
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content) {
+  max-width: 1056px;
+}
+/**-----PLP Modal QuickView - Wrapper content modal quick-view----**/
+:global(.vtex-flex-layout-0-x-flexColChild--quick-view-plp)
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-botton) {
+  padding: 0 !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--promotion-image-plp)
+  :global(.vtex-store-components-3-x-imageElementLink) {
+  display: flex;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--promotion-image-plp)
+  :global(.vtex-store-components-3-x-imageElement) {
+  margin: auto;
+}
+/**----PLP Modal QuickView - Btn size guide------**/
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-selector)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  right: 0 !important;
+}
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content) {
+  width: 80%;
+  height: 80%;
+}
+
+.vtex-store-components-3-x-carouselGaleryThumbs {
+  margin-top: 0px !important;
+  margin-bottom: 20px;
+  height: 150px !important;
+}
+
+:global(.vtex-modal-layout-0-x-headerContainer) {
+  border-bottom: 0px;
+  height: 30px;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) {
+  height: 480px;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-store-components-3-x-productImageTag) {
+  height: 450px !important;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content) {
+  z-index: 99;
+}
+
+:global(.vtex-minicart-2-x-drawer) {
+  z-index: 99999;
+}
+
+:global(.vtex-breadcrumb-1-x-term) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+  :global(.vtex-button)
+  :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  content: "" !important;
+  font-size: 0px !important;
+  font-family: "NeuePlak-SemiBold" !important;
+  color: #ffffff !important;
+  font-size: 0.875rem !important;
+  min-width: 20rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+  :global(.vtex-button) {
+  padding: 5px 0px 5px 0px;
+}
+
+/* FIN PDP DESKTOP */
+
+/* HOME PRINCIPAL */
+
+:global(
+    .vtex-flex-layout-0-x-flexColChild--component-shelf-productos-destacados-title
+  ) {
+  width: 100%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rich-text-shelf-productos-destacados) {
+  font-size: 32px;
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+  max-width: 1548px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--home-classics-titulo) {
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0px;
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--home-classics-parrafo) {
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0px;
+  color: #121212;
+}
+
+:global(.vtex-store-link-0-x-link--home-classic-compra) {
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0px;
+  border: #121212 solid 1px;
+  padding: 14px 20px 14px 20px;
+  border-radius: 0;
+}
+
+:global(.vtex-store-link-0-x-link--home-classic-compra) {
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0px;
+  border: #121212 solid 1px;
+  padding: 14px 20px 14px 20px;
+  border-radius: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--home-desktop-compra-mujer-classic) {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+:global(.vtex-store-link-0-x-link--home-classic-compra):hover {
+  background-color: #244486;
+  cursor: pointer;
+  color: #f7f7f7;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-store-link-0-x-link--home-classic-compra):hover {
+  background-color: #244486;
+  cursor: pointer;
+  color: #f7f7f7;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--destacados-title) {
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--home-destacados-col) {
+  height: auto !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--home-destacados-titulo) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  color: #121212;
+  font-weight: 700;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+  margin-top: 4rem;
+}
+
+:global(
+    .vtex-flex-layout-0-x-flexRow--dekstop-component-shelf-productos-destacados-title
+  )
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+  margin-top: 2rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-principal-row)
+  :global(.vtex-store-components-3-x-container) {
+  max-width: none !important;
+}
+
+:global(
+    .vtex-flex-layout-0-x-flexRowContent--component-shelf-productos-destacados
+  ) {
+  margin-top: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-destacados) {
+  margin-top: 30px;
+}
+
+:global(.vtex-rich-text-0-x-heading--home-destacados-body) {
+  margin: 0px;
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem;
+}
+
+:global(.vtex-store-link-0-x-label--home-destacados-piepagina) {
+  margin: 0px;
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  text-decoration: underline;
+  color: #121212;
+}
+
+:global(.vtex-store-link-0-x-label--home-destacados-piepagina):hover {
+  cursor: pointer;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-destacados-col1-image) {
+  overflow: hidden;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-destacados-col2-image) {
+  overflow: hidden;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-destacados-col3-image) {
+  overflow: hidden;
+}
+
+:global(.vtex-store-components-3-x-imageElement--home-destacados) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+:global(.vtex-store-components-3-x-imageElement--home-destacados):hover {
+  transform: scale(1.05);
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-rebook-cardib)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-rebook-cardib) {
+  padding: 0px;
+}
+
+:global(.vtex-rich-text-0-x-container--home-destacados-piepagina) {
+  margin-top: 1rem;
+}
+
+:global(.vtex-rich-text-0-x-heading--home-reebok-cardib-titulo) {
+  margin: 0px;
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--reebok-cardib) {
+  height: 50% !important;
+  width: 70% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--reebok-cardib-titulo) {
+  margin-top: 35%;
+}
+
+:global(.vtex-rich-text-0-x-heading--home-reebok-cardib-body) {
+  margin-top: 0px;
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+:global(.vtex-store-link-0-x-link--home-reebok-cardib-piepagina) {
+  display: flex;
+  text-decoration: none;
+}
+
+:global(.vtex-store-link-0-x-label--home-reebok-cardib-piepagina) {
+  background-color: #121212;
+  color: #f7f7f7;
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  border: #121212 solid 1px;
+  padding: 14px 30px 14px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+:global(.vtex-store-link-0-x-label--home-reebok-cardib-piepagina):hover {
+  background-color: #244486;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mas-vendido-title) {
+  width: 100%;
+}
+:global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+  :global(.vtex-rich-text-0-x-heading-level-1),
+:global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes) {
+  color: #fff;
+  font-size: 3rem !important;
+  font-family: "NeuePlak-WideRegular";
+  font-weight: 800;
+  line-height: 1 !important;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+  :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-dia-del-padre) {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+  :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1)
+  :global(.vtex-rich-text-0-x-headingLevel2--reebok-classics) {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  margin: 0px;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 0px black;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+  :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2) {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  margin-top: 15px !important;
+  text-transform: capitalize;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-2x1)
+  :global(.vtex-rich-text-0-x-heading-level-1),
+:global(.vtex-rich-text-0-x-paragraph--titulo-2x1) {
+  color: #fff;
+  font-size: 3rem !important;
+  font-family: "NeuePlak-WideRegular";
+  font-weight: 800;
+  line-height: 1 !important;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes):hover {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes):hover {
+  cursor: default;
+}
+:global(.vtex-rich-text-0-x-headingLevel5--body-rebook-tunes) {
+  color: #fff;
+  font-family: "NeuePlak-Regular";
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+:global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes) {
+  color: #fff;
+  font-family: "NeuePlak-WideRegular";
+  margin: 0.8rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex) {
+  display: flex;
+  flex-direction: column;
+}
+/* :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome-2),
+:global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome) {
+  padding: 20px 51px !important;
+} */
+:global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  height: 70px !important;
+}
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome) {
+  text-decoration: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 17px 72.5px !important;
+  z-index: 9999;
+  top: -5px;
+  left: -5px;
+}
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-2) {
+  text-decoration: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 8px 25.5px !important;
+  z-index: 9999;
+  top: -5px;
+  left: -5px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-training-days)
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-2) {
+  padding: 6px 15.5px !important;
+  min-height: 58px;
+  display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-training-days)
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-2-training) {
+  padding: 18px 17.5px !important;
+  width: inherit;
+  text-align: center;
+}
+/*----mobile---------*/
+@media screen and (max-width: 992px) {
+:global(.vtex-flex-layout-0-x-flexColChild--info-banner-training-days)
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-2) {
+  padding: 8px 20px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--info-banner-training-days)
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-2-training) {
+  padding: 15px 19px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--info-banner-training-days){
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+/*----*/
+
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome):hover {
+  transition: all 0.3s ease 0s;
+  background-color: #f6f4e4;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2) {
+  border: 2px solid white;
+  height: 58px !important;
+  position: relative;
+  width: 210px;
+}
+
+/* :global(.vtex-store-link-0-x-link--button-extra-classic-2) 
+{
+  
+  padding: 17px 42px!important;
+} */
+
+:global(.vtex-flex-layout-0-x-flexColChild--button-classics-women) {
+  border: 2px solid white;
+  height: 58px !important;
+  position: relative;
+  width: 190px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome) {
+  border: 2px solid white;
+  height: 58px !important;
+  position: relative;
+  width: 206px;
+}
+
+:global(.vtex-store-link-0-x-label--buttons-desktopHome-2),
+:global(.vtex-store-link-0-x-label--buttons-desktopHome) {
+  color: #121212;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-main-carousel) {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-destacados1-body) {
+  min-height: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-destacados2-body) {
+  min-height: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-destacados3-body) {
+  min-height: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-destacados1-body-nano) {
+  min-height: 50px !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--home-destacados) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-imageElement--reebook-cardib-home) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-imageElement--home-classics) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-imageElement--home-performance) {
+  width: 100%;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row)
+  :global(.vtex-rich-text-0-x-container--home-classics-titulo) {
+  margin-top: 10px !important;
+}
+
+/* FIN DE HOME */
+
+/*PLP DESTACADOS*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-summary-atribute) {
+  margin-top: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-wishlist-button)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
+  :global(.vtex-button) {
+  opacity: 1;
+}
+:global(.vtex-flex-layout-0-x-flexRow):global(
+    .vtex-flex-layout-0-x-flexRow--product-wishlist-button
+  ) {
+  padding: 0;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf-products),
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-products) {
+  bottom: 103.5%;
+  background-color: #f7f7f7 !important;
+  border-radius: 100%;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  padding: 5px 3px 5px 10px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  padding: 5px 5px 5px 8px;
+}
+:global(.vtex-slider-layout-0-x-sliderLeftArrow):hover,
+:global(.vtex-slider-layout-0-x-sliderRightArrow):hover {
+  margin: 0.6em;
+  padding: 0.9em;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--header-guincha)
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  height: 25px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--header-guincha)
+  :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  height: 25px !important;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-products) {
+  margin-left: 92% !important;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--shelf-products),
+:global(.vtex-slider-layout-0-x-caretIcon--desktop-irDirectamentea-col2) {
+  width: 1.25rem;
+}
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf-products) {
+  display: flex;
+  align-items: flex-start;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--home-lo-mas-nuevoCol2)
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  margin-left: 94% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--home-lo-mas-vendidoCol2)
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  margin-left: 94% !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot) {
+  height: 1px !important;
+  width: 18px !important;
+  border: 0;
+  transform: none !important;
+  padding: 0;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background: #000 !important;
+  height: 4px !important;
+  width: 18px !important;
+}
+
+:global(.vtex-product-summary-2-x-element--product-summary-custom)
+    :global(.vtex-product-summary-2-x-price_listPrice) {
+    font-family: "NeuePlak-SemiBold";
+    color: #c1c1c1 !important;
+  :global(.vtex-product-summary-2-x-price_listPrice) {
+  font-family: "NeuePlak-SemiBold";
+  color: #5e5e5e !important;
+}
+    }
+
+/*FIN PLP DESTACADOS*/
+
+/* PLP  FILTRO */
+
+:global(.vtex-flex-layout-0-x-flexRow--plp-banner-hombre)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+}
+
+:global(.vtex-search-2-x-listPriceValue) {
+  font-family: "NeuePlak-SemiBold";
+  color: #5e5e5e !important;
+  font-size: 0.875rem;
+}
+
+:global(.vtex-search-2-x-sellingPriceValue) {
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+  font-size: 0.875rem;
+}
+
+:global(.vtex-search-2-x-productBrand) {
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+  font-size: 0.875rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-container)
+    :global(.vtex-product-summary-2-x-price_listPrice) {
+    font-family: "NeuePlak-Regular";
+    color: #c1c1c1 !important;
+  :global(.vtex-product-summary-2-x-price_listPrice) {
+  font-family: "NeuePlak-SemiBold";
+  color: #5e5e5e !important;
+}
+    }
+/* COLORES SWITCH AQUI
+:global(.vtex-flex-layout-0-x-flexCol--desktop-container)
+:global(.vtex-product-summary-2-x-price_sellingPrice){
+  font-family: "NeuePlak-SemiBold";
+  color: #E41D1B !important;
+}*/
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  overflow: hidden;
+}
+
+:global(.vtex-breadcrumb-1-x-container) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-breadcrumb-1-x-container) :global(.vtex-breadcrumb-1-x-arrow) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  color: #121212;
+}
+:global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-arrow)
+  :global(.vtex-breadcrumb-1-x-link) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  text-decoration: underline;
+  color: #121212;
+}
+
+:global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-homeLink)::after {
+  content: "Inicio";
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  text-decoration: underline;
+  color: #121212;
+}
+
+:global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-arrow)::before {
+  content: "/ ";
+}
+
+:global(.vtex-breadcrumb-1-x-container)
+  :global(.vtex-breadcrumb-1-x-arrow):last-child
+  :global(.vtex-breadcrumb-1-x-link) {
+  text-decoration: unset;
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--search-title) {
+  display: flex;
+  flex-direction: row;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer) {
+  display: flex;
+  justify-content: start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-summary-modal-preview) {
+  width: 100% !important;
+  display: none;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--product-summary-quick-view) {
+  width: 100% !important;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonText) {
+  display: flex;
+  justify-content: center;
+  background-color: #121212 !important;
+  color: #f7f7f7 !important;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  width: 100% !important;
+  text-transform: capitalize;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonText):hover {
+  background-color: #244486 !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonContainer)
+  :global(.vtex-product-summary-2-x-buyButton)
+  :global(.vtex-button) {
+  background-color: unset;
+  border-color: unset;
+  border: 0 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonContainer)
+  :global(.vtex-product-summary-2-x-buyButton)
+  :global(.vtex-button__label) {
+  margin: 0px;
+  padding: 0px;
+}
+
+:global(.vtex-product-summary-2-x-buyButtonContainer)
+  :global(.vtex-product-summary-2-x-buyButton)
+  :global(.vtex-button__label):hover {
+  cursor: pointer;
+}
+
+:global(.vtex-product-summary-2-x-nameWrapper) {
+  margin-top: 0.75rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--div-texto-filtradoplp) {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0em !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--div-texto-filtradoplp)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--plp-texto-titulo) {
+  margin-top: 0px;
+  font-size: 1.5rem;
+  font-family: "NeuePlak-SemiBold";
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--plp-texto-body) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-Regular";
+  width: 90%;
+  text-align: left;
+  color: #121212;
+  margin-top: 0px;
+  margin-bottom: 4rem !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--div-texto-filtradoplp) {
+  margin-left: 6rem;
+  width: 90%;
+}
+
+/* PLP  FILTRO */
+
+/* PLP SEARCH */
+
+:global(.vtex-search-2-x-biggy-autocomplete) {
+  overflow: hidden;
+}
+
+:global(.vtex-search-2-x-tileListItem)
+  :global(.vtex-product-summary-2-x-container) {
+  position: relative;
+}
+
+:global(.vtex-slider-0-x-sliderFrame)
+  :global(.vtex-shelf-1-x-slide--desktop-shelf-recomendados)
+  :global(.vtex-flex-layout-0-x-flexCol--product-summary-first):hover {
+  border: solid 1px #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--product-summary-first) {
+  border: solid 1px #ffffff;
+}
+
+:global(.vtex-slider-0-x-sliderFrame)
+  :global(.vtex-shelf-1-x-slide--desktop-shelf-recomendados)
+  :global(.vtex-product-summary-2-x-element--product-summary-custom) {
+  padding: 16px;
+}
+
+:global(.vtex-slider-0-x-sliderFrame)
+  :global(.vtex-shelf-1-x-slide--desktop-shelf-recomendados)
+  :global(.vtex-flex-layout-0-x-flexRow--product-wishlist-button) {
+  top: 3%;
+}
+
+:global(.vtex-slider-0-x-sliderFrame)
+  :global(.vtex-shelf-1-x-slide--desktop-shelf-recomendados)
+  :global(.vtex-product-summary-2-x-productBrand) {
+  margin-bottom: 0.25rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--desktop-reviews) {
+  margin-top: 5rem;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-loginLink) {
+  font-family: "NeuePlak-SemiBold";
+  color: #121212;
+}
+/* FIN PLP SEARCH*/
+
+/* MINI CART */
+
+:global(.vtex-product-list-0-x-deleteIcon) {
+  display: none;
+}
+
+:global(.vtex-minicart-2-x-minicartTitle) {
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  display: none;
+}
+
+/*CAMBIO CARRITO */
+
+:global(.vtex-minicart-2-x-closeIconContainer) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-minicart-2-x-drawer)
+  :global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-minicart-2-x-closeIconContainer)::after {
+  content: "Carrito";
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 16px;
+  padding-bottom: 0.4rem;
+}
+
+:global(.vtex-minicart-2-x-childrenContainer)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+}
+
+:global(.vtex-product-list-0-x-productName) {
+  font-size: 1rem;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+  color: #121212;
+}
+
+:global(.vtex-product-list-0-x-productPriceContainer)
+  :global(.vtex-product-list-0-x-price) {
+  font-family: "NeuePlak-SemiBold";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #121212;
+}
+
+:global(.vtex-product-list-0-x-productPriceContainer)
+  :global(.vtex-product-list-0-x-currencyContainer) {
+  font-family: "NeuePlak-Regular";
+  font-size: 0.875rem;
+  color: #5e5e5e;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+  :global(.vtex-button) {
+  background-color: #121212;
+  border-color: #121212;
+  margin-bottom: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+  :global(.vtex-button):hover {
+  background-color: #244486;
+  border-color: #244486;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  content: "";
+  font-size: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::after {
+  content: "Finalizar compra";
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+  text-transform: capitalize !important;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+  font-weight: 400;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+  font-size: 0.875rem;
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+  font-weight: 400;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  font-size: 1rem;
+  font-family: "NeuePlak-SemiBold";
+  font-weight: bold;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child
+  :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+  font-size: 1rem;
+  font-family: "NeuePlak-SemiBold";
+  font-weight: bold;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol)
+  :global(.vtex-flex-layout-0-x-flexColChild):first-child {
+  /* margin-top: 20px; */
+  margin: 25px 16px 0;
+  padding-bottom: 24px;
+  border-bottom: solid 1px #d1d1d1;
+}
+:global(.vtex-minicart-2-x-minicartSummary) {
+  padding: 24px 16px 0 !important;
+  margin: 0 !important;
+}
+:global(.vtex-product-list-0-x-productVariationsItem) {
+  display: none !important;
+}
+
+:global(.vtex-product-list-0-x-unitPrice) {
+  display: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--quantity-selector-mobile)
+  :global(.vtex-flex-layout-0-x-flexRowContent--quantity-selector-mobile) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--quantity-selector-col2) {
+  margin-left: 50%;
+}
+
+:global(.vtex-product-list-0-x-quantitySelector) {
+  min-width: 4rem;
+  max-width: 4rem;
+}
+
+:global(.vtex-product-list-0-x-removeButtonContainer)
+  :global(.vtex-product-list-0-x-removeButton)::before {
+  content: url("assets/header/basura.svg") !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+  :global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button) {
+  padding: 14px 20px !important;
+}
+
+/* FIN MINI CART */
+
+/* ABOUT */
+
+:global(.vtex-flex-layout-0-x-flexRow--about_banner)
+  :global(.vtex-store-components-3-x-container):first-child {
+  padding: 0 !important;
+  max-width: 100% !important;
+  margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner) {
+  position: relative;
+  /* height: 700px; */
+  /* overflow: hidden; */
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 0 !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--about_banner_image) {
+  height: 100%;
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol--about_banner_texts) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  height: 100%;
+  left: 5.25rem;
+  max-width: 30.5rem;
+  width: 30.5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--about_banner_texts) {
+  height: fit-content !important;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+:global(.vtex-rich-text-0-x-container--about_banner_title) {
+  height: 100%;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol--about_banner_texts)
+  :global(.vtex-rich-text-0-x-headingLevel1--about_banner_title) {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px !important;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol--about_banner_texts)
+  :global(.vtex-rich-text-0-x-paragraph--about_banner_pre_title) {
+  color: #fff;
+  font-family: "NeuePlak-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about_banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol--about_banner_texts)
+  :global(.vtex-rich-text-0-x-paragraph--about_banner_post_title) {
+  color: #fff;
+  font-family: "NeuePlak-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 22px;
+  margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--que_hacemos) {
+  background: #244486;
+  height: 20.235rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--que_hacemos)
+  :global(.vtex-store-components-3-x-container):first-child {
+  display: contents;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--que_hacemos) {
+  width: 44%;
+}
+
+:global(.vtex-rich-text-0-x-container--que-hacemos-pre-title),
+:global(.vtex-rich-text-0-x-container--que-hacemos-title),
+:global(.vtex-rich-text-0-x-container--que-hacemos-post-title) {
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--que-hacemos-pre-title) {
+  text-transform: uppercase;
+  font-family: "NeuePlak-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--que-hacemos-title) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin: 12px 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--que-hacemos-post-title) {
+  font-family: "NeuePlak-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--por-que-lo-hacemos) {
+  /* height: 35.37rem; */
+  padding: 5rem 0;
+}
+
+:global(.vtex-store-components-3-x-imageElement--por-que-lo-hacemos-image) {
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--por-que-lo-hacemos)
+  :global(.vtex-flex-layout-0-x-flexCol--por-que-lo-hacemos-texts) {
+  width: 25.5rem;
+  gap: 12px;
+  justify-content: center;
+  align-items: start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--por-que-lo-hacemos)
+  :global(.vtex-flex-layout-0-x-flexCol--por-que-lo-hacemos-texts)
+  :global(.vtex-flex-layout-0-x-flexColChild--por-que-lo-hacemos-texts) {
+  height: fit-content !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--por-que-lo-hacemos-quest),
+:global(.vtex-rich-text-0-x-headingLevel2--por-que-lo-hacemos-title),
+:global(.vtex-rich-text-0-x-paragraph--por-que-lo-hacemos-paragraph) {
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--por-que-lo-hacemos-quest) {
+  font-family: "NeuePlak-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--por-que-lo-hacemos-title) {
+  font-family: "NeuePlak-Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--por-que-lo-hacemos-paragraph) {
+  font-family: "NeuePlak-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about-last-section) {
+  justify-content: center !important;
+  gap: 1.37rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--about-last-section) {
+  padding-bottom: 5rem;
+  display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--col-last-section) {
+  align-items: center;
+  width: fit-content !important;
+  gap: 0.75rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-last-section) {
+  height: fit-content !important;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4--col-last-section-text) {
+  max-width: 25.5rem;
+  margin: 0;
+  font-family: "NeuePlak-Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #121212;
+}
+
+/* Fin About */
+
+/*CHECKOUT */
+
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons)
+  :global(.vtex-button) {
+  background-color: #121212;
+  border-color: #121212;
+  border-radius: 40px;
+  color: #ffffff;
+  padding: 12px 10px 12px 10px;
+}
+
+:global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button) {
+  background-color: #121212;
+  border-color: #121212;
+  border-radius: 40px;
+  color: #ffffff;
+  padding: 12px 10px 12px 10px;
+}
+/**/
+
+:global(.vtex-modal-layout-0-x-container--trigger-tallas)
+  :global(.vtex-modal-layout-0-x-paperScrollContent) {
+  height: auto !important;
+}
+
+:global(.vtex-rich-text-0-x-container--home-titulo) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-heading--home-titulo) {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #121212;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+:global(.vtex-shelf-1-x-sliderContainer--desktop-shelf-recomendados)
+  :global(.vtex-flex-layout-0-x-flexCol--product-summary-first) {
+  padding: 10px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2) {
+  font-size: 1.5rem !important;
+  margin-top: 0px !important;
+  font-weight: lighter !important;
+}
+
+:global(
+    .vtex-rich-text-0-x-headingLevel2--rich-text-shelf-productos-destacados
+  ) {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px;
+  color: #121212;
+  letter-spacing: 1.5px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--home-classics-titulo) {
+  font-family: "NeuePlak-Bold";
+  font-weight: bold;
+  font-size: 2rem !important;
+  margin: 0px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--home-classics-parrafo) {
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem !important;
+  font-weight: 400;
+  margin: 0px;
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--home-destacados-titulo) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+  font-family: "NeuePlak-SemiBold";
+  color: #121212;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-heading--home-destacados-body) {
+  font-weight: 400;
+}
+
+:global(.vtex-rich-text-0-x-container--home-classics-parrafo) {
+  margin-top: 10px;
+  min-height: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--div-texto-filtradoplp) {
+  margin-bottom: 2.5rem;
+}
+
+:global(.vtex-store-link-0-x-link--home-classic-compra) {
+  color: #121212;
+  text-decoration: none;
+}
+
+:global(.vtex-store-link-0-x-link--home-classic-compra):hover {
+  color: #ffffff;
+}
+/* Nuestras tiendas*/
+
+:global(.vtex-rich-text-0-x-paragraph--titulo-nuestras-tiendas) {
+  font-size: 2.5rem;
+  font-family: "NeuePlak-Bold";
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-container--titulo-nuestras-tiendas) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--store-finder) {
+  margin-bottom: 5rem;
+}
+
+/* Fin Nuestras Tiendas*/
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer--trigger-desktop)
+  :global(.vtex__icon-search) {
+  display: none;
+}
+
+/*:global(.vtex-store-components-3-x-searchBarInnerContainer--trigger-desktop)
+    :global(.vtex-input__suffix) {
+    background-color: #f7f7f7;
+}*/
+
+/**-----PDP - Wrapper buy btn and btn favorites-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton) {
+  margin-bottom: 32px !important;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla)
+  :global(.vtex-store-components-3-x-seeMoreButton)
+  :global(.vtex-button__label) {
+  content: "";
+  font-size: 0px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla)
+  :global(.vtex-store-components-3-x-seeMoreButton)
+  :global(.vtex-button__label)::after {
+  content: "Ver más tallas";
+  text-transform: initial !important;
+  font-size: 0.875rem;
+  color: #121212;
+  font-family: "NeuePlak-SemiBold";
+}
+/**-----Comment-----**/
+:global(.vtex-shelf-1-x-relatedProducts--wishlist_shelf)
+  :global(.vtex-shelf-1-x-title--wishlist_shelf) {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin: 84px 0 16px;
+  font-size: 32px;
+  font-family: "NeuePlak-Bold";
+  color: #121212;
+}
+
+:global(.vtex-rich-text-0-x-heading--que-hacemos-title) {
+  font-size: 2rem !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--por-que-lo-hacemos-title) {
+  font-size: 2rem !important;
+}
+
+:global(.vtex-search-2-x-tileList) :global(.vtex-search-2-x-tileListItem) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-tienda-oficiales) {
+  white-space: initial;
+}
+
+:global(
+    .vtex-rich-text-0-x-wrapper--landing_inst_content_sublist_nuestras-tiendas-landing
+  )
+  :global(.vtex-rich-text-0-x-headingLevel3) {
+  font-weight: 100 !important;
+  margin-top: -20px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--titulo-nuestras-tiendas) {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+/**-----HOME - HERO BANNER-----**/
+:global(.vtex-flex-layout-0-x-flexCol--hero-banner-txt-center) {
+  position: relative !important;
+}
+:global(.vtex-flex-layout-0-x-flexCol--hero-banner-txt-center)
+  :global(
+    .vtex-flex-layout-0-x-flexColChild--hero-banner-txt-center
+  ):last-child {
+  width: 100%;
+  position: absolute !important;
+  top: 50% !important;
+  height: fit-content !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--hero-banner-txt-center):last-child
+  :global(.vtex-flex-layout-0-x-flexColChild--hero-banner-txt-center) {
+  position: relative !important;
+}
+/**-----Comment-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--hero-banner-txt-center)
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2) {
+  margin: auto;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--hero-banner-txt-center):last-child
+  :global(.vtex-flex-layout-0-x-flexCol--hero-banner-txt-center) {
+  display: block !important;
+  width: fit-content !important;
+  position: relative !important;
+  left: initial !important;
+  top: initial !important;
+  margin: auto;
+}
+
+/*Sticky banner azul*/
+:global(.vtex-rich-text-0-x-paragraph--desktop-header-descuento-282) {
+  display: flex;
+  letter-spacing: 1.2px;
+}
+
+:global(.vtex-rich-text-0-x-link--desktop-header-descuento-282) {
+  font-weight: 800 !important;
+  padding-left: 4px;
+  text-decoration: revert !important;
+}
+/**-----DÍA DE LA NIÑEZ 2023-----**
+/**-----CONTENEDOR INFO BANNER DÍA DE LA NIÑEZ-----**/
+:global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-dia-del-nino) {
+  display: flex;
+  height: auto;
+  left: 3%;
+  position: absolute;
+  top: 14%;
+}
+/**-----TÍTULO BANNER DÍA DE LA NIÑEZ-----**/
+:global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  line-height: 1.3 !important;
+  margin: 0px;
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  width: 65%;
+}
+/**-----SUBTÍTULO BANNER DÍA DE LA NIÑEZ-----**/
+:global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino) {
+  color: #fff;
+  font-family: "NeuePlak-WideRegular";
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 1rem 0;
+  text-align: initial;
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 1);
+  width: 55%;
+}
+/**-----FN DÍA DE LA NIÑEZ 2023-----**
+
+/**-----TRAINING DAYS-----**
+/**-----CONTENEDOR INFO BANNER TRAINING DAYS-----**/
+:global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-training-days) {
+  height: auto;
+  width: auto;
+  align-items: flex-end !important;
+  position: absolute;
+  left: 63%;
+  display: flex;
+  justify-content: center;
+  top: 20% !important;
+}
+/**-----TÍTULO BANNER TRAINING DAYS-----**/
+:global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+  color: black !important;
+  text-shadow: none !important;
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  line-height: 1.3 !important;
+  margin: 0px;
+  text-align: end;
+  text-transform: uppercase;
+}
+:global(.vtex-rich-text-0-x-wrapper--titulo-training-days),
+:global(.vtex-rich-text-0-x-wrapper--body-rebook-training-days) {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+/**-----SUBTÍTULO BANNER TRAINING DAYS-----**/
+:global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days) {
+
+  color: black;
+  font-family: "NeuePlak-WideRegular";
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 1rem 0;
+  text-align: end;
+
+}
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-2-training-days){
+  border: 1px solid black !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-training-days){
+  border: 1px solid black;
+}
+
+/**-----BOTÓN BANNER TRAINING DAYS-----**/
+:global(
+    .vtex-flex-layout-0-x-flexColChild--main-contenedor-info-training-days
+  ) {
+  display: flex;
+  justify-content: flex-end;
+}
+/**-----FN TRAINING DAYS-----**
+
+/* Browsers nuevos, pantallas de resolución superior a 1440px */
+@media only screen and (min-width: 90.063em) {
+  :global(.vtex-store-components-3-x-carouselGaleryThumbs) {
+    height: 200px !important;
+  }
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-products) {
+    margin-left: 93% !important;
+  }
+
+  :global(.vtex-store-components-3-x-container) {
+    max-width: initial;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-reebok-cardib-titulo)
+    :global(.vtex-rich-text-0-x-headingLevel2--home-reebok-cardib-titulo) {
+    font-size: 2rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel1--home-titulo) {
+    margin-top: 3rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--home-titulo2) {
+    margin-bottom: 3rem !important;
+  }
+
+  :global(.vtex-store-components-3-x-figure):hover {
+    pointer-events: none !important;
+  }
+
+  :global(.vtex-store-components-3-x-figure):hover {
+    pointer-events: none !important;
+  }
+
+  :global(.vtex-store-components-3-x-carouselGaleryCursor):hover {
+    cursor: pointer !important;
+  }
+}
+
+/* ONLY DESKTOP */
+@media (min-width: 90em) {
+  :global(.vtex-store-components-3-x-carouselGaleryThumbs) {
+    height: 200px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel1--home-titulo) {
+    margin-top: 3rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--home-titulo2) {
+    margin-bottom: 3rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-reebok-cardib-titulo)
+    :global(.vtex-rich-text-0-x-headingLevel2--home-reebok-cardib-titulo) {
+    font-size: 2rem !important;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-products) {
+    margin-left: 93% !important;
+  }
+
+    :global(.vtex-rich-text-0-x-heading--home-destacados-body) {
+        min-height: 70px;
+    }
+  :global(.vtex-product-summary-2-x-nameContainer) {
+    min-height: 25px;
+  }
+  :global(.vtex-rich-text-0-x-heading--home-destacados-body) {
+    min-height: 70px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-performance-compra)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-performance-compra)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    padding-right: 16px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-classics-titulo) {
+    margin-bottom: 10px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-performance-titulo) {
+    margin-bottom: 10px;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-reebok-cardib-titulo) {
+    margin-bottom: 14px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-desktop-classics-parrafo) {
+    min-height: 100px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-desktop-performance-parrafo) {
+    min-height: 100px;
+  }
+}
+/* VERSION TABLET */
+@media (max-width: 900px) {
+  :global(.vtex-rich-text-0-x-wrapper--titulo-2x1)
+    :global(.vtex-rich-text-0-x-heading-level-1),
+  :global(.vtex-rich-text-0-x-paragraph--titulo-2x1) {
+    font-size: 1.9rem !important;
+  }
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  /*HOME*/
+
+  :global(.vtex-product-summary-2-x-buyButtonText) {
+    opacity: unset !important;
+  }
+
+  :global(.vtex-product-summary-2-x-nameContainer) {
+    min-height: 20px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-carousel3) {
+    top: 10% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1) {
+    top: 35% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--dekstop-shelf) {
+    padding: 0px;
+  }
+
+  :global(.vtex-shelf-1-x-arrow) {
+    top: -9% !important;
+  }
+
+  :global(.vtex-shelf-1-x-arrowLeft) {
+    left: 80% !important;
+    background-color: #f7f7f7 !important;
+    border-radius: 100%;
+    content: url("assets/header/chevron-black-left.svg");
+    padding: 5px 10px;
+  }
+
+  :global(.vtex-shelf-1-x-arrowRight) {
+    background-color: #f7f7f7 !important;
+    border-radius: 100%;
+    content: url("assets/header/chevron-black-right.svg");
+    padding: 5px 10px;
+    right: 3% !important;
+  }
+
+  :global(.vtex-shelf-1-x-arrowRight):hover {
+    content: url("assets/header/chevron-white-right.svg") !important;
+    background-color: #244486 !important;
+    transition: all 0.3s ease 0s;
+  }
+
+  :global(.vtex-shelf-1-x-arrowLeft):hover {
+    content: url("assets/header/chevron-white-left.svg") !important;
+    background-color: #244486 !important;
+    transition: all 0.3s ease 0s;
+  }
+
+  :global(.vtex-store-components-3-x-backToTopButtonContainer) {
+    margin-right: 88%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+    padding: 0px 1% 0px 1%;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--rich-text-shelf-productos-destacados) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--home-classics-titulo) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--home-classics-titulo) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-heading-level-1),
+  :global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes),
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-dia-del-padre) {
+    font-size: 2.5rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2) {
+    font-size: 2rem !important;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1) {
+    font-size: 2.5rem !important;
+  }
+
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome) {
+    padding: 12px 15px 12px 15px;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-products) {
+    margin-left: 90% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-carousel3) {
+    padding-left: 0%;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-classics) {
+    content: "";
+    font-size: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-classics)::after {
+    content: "Los verdaderos íconos no se hacen solos. Ser clásico es un estado que se obtiene a través de un enfoque auténtico y original día tras día, década tras década.";
+    font-size: 1rem;
+    color: #121212;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-performance) {
+    content: "";
+    font-size: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-performance)::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore.";
+    color: #121212;
+    font-size: 1rem;
+  }
+
+  :global(.vtex-store-link-0-x-link--home-classic-compra) {
+    padding: 8px 1vw 8px 1vw;
+  }
+
+  :global(.vtex-store-link-0-x-link--home-classic-compra) {
+    font-size: 0.775rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+    margin-top: 2.5rem;
+  }
+
+  :global(
+      .vtex-flex-layout-0-x-flexRowContent--component-shelf-productos-destacados
+    ) {
+    margin-top: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-destacados-titulo) {
+    min-height: 65px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-destacados) {
+    margin-top: 0px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-destacados1-body) {
+    min-height: 110px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-destacados2-body) {
+    min-height: 110px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-destacados3-body) {
+    min-height: 110px;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-destacados-body) {
+    font-size: 0.875rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--reebok-cardib-titulo) {
+    margin-top: 10%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--reebok-cardib) {
+    width: 80% !important;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-reebok-cardib-titulo) {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  :global(.vtex-store-link-0-x-label--home-reebok-cardib-piepagina) {
+    padding: 14px 20px 14px 20px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-rebook-cardib)
+    :global(.vtex-flex-layout-0-x-flexRowContent--home-rebook-cardib) {
+    padding: 0px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-desktop-classics-parrafo) {
+    margin-top: 12px;
+    min-height: 80px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-desktop-performance-parrafo) {
+    margin-top: 12px;
+    min-height: 80px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-classic-performance) {
+    margin: 0px !important;
+  }
+
+  /* About */
+  :global(.vtex-flex-layout-0-x-flexRowContent--por-que-lo-hacemos)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: start;
+    align-items: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--por-que-lo-hacemos) {
+    gap: 10px;
+  }
+  :global(.vtex-store-components-3-x-imageElement--por-que-lo-hacemos-image) {
+    width: 100%;
+    height: max-content;
+  }
+
+  /* FIN HOME */
+
+  /*PDP TABLET*/
+  :global(.vtex-flex-layout-0-x-flexRow--component-row-breadcrumb-pdp) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-row-product-pdp) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--product-description-accordion) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--dekstop-shel) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-reviews) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent):first-child {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+
+  :global(.vtex-store-components-3-x-swiperPaginationClickable) {
+    position: relative;
+    /* margin-top: 0.625rem; */
+  }
+
+  :global(.vtex-store-components-3-x-swiperBullet) {
+    position: inherit;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--similar-products) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  :global(.vtex-product-availability-0-x-container) {
+    margin-bottom: 0px;
+  }
+
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    font-size: 0.875rem;
+    font-family: "NeuePlak-SemiBold";
+    color: #121212;
+  }
+
+  :global(.vtex-reviews-and-ratings-1-x-reviewsHeading) {
+    margin-top: 3rem;
+  }
+
+  :global(.vtex-reviews-and-ratings-1-x-reviewsHeading)::before {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-titulo) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-store-components-3-x-productDescriptionText) {
+    padding: 0px;
+  }
+
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    width: 60%;
+  }
+
+  /*FIN PDP TABLET*/
+
+  /* About tablet */
+  :global(.vtex-flex-layout-0-x-flexCol--por-que-lo-hacemos-texts) {
+    padding: 0 3rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--que-hacemos-pre-title) {
+    margin-bottom: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--que-hacemos-post-title) {
+    margin-top: 0;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--por-que-lo-hacemos-title) {
+    font-size: 24px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--por-que-lo-hacemos-texts) {
+    margin: 1rem auto 3rem;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel2--por-que-lo-hacemos-title),
+  :global(.vtex-rich-text-0-x-paragraph--por-que-lo-hacemos-quest) {
+    margin-bottom: 0.75rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--por-que-lo-hacemos)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: start;
+    align-items: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--por-que-lo-hacemos) {
+    gap: 10px;
+  }
+  :global(.vtex-store-components-3-x-imageElement--por-que-lo-hacemos-image) {
+    width: 100%;
+    height: max-content;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--que_hacemos) {
+    width: 80%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--div-texto-filtradoplp) {
+    margin-left: 0 !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--home-classics-titulo) {
+    font-size: 1.3rem !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--component-row-breadcrumb-pdp) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+    :global(.vtex-product-quantity-1-x-quantitySelectorTitle)::after {
+    content: "Seleccionar cantidad";
+    font-family: "NeuePlak-SemiBold" !important;
+    font-size: 0.875rem;
+    color: #121212;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--titulo-nuestras-tiendas) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/* Promoción Anuel x Reebok */
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-anuel) {
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 5rem !important;
+  width: 90%;
+}
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-anuel)
+  :global(.vtex-flex-layout-0-x-flexColChild--main-desktopHome-info-anuel) {
+  display: flex;
+  justify-content: end;
+}
+:global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel) {
+  letter-spacing: 1.2px;
+}
+:global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel),
+:global(.vtex-rich-text-0-x-paragraph--body-rebook-anuel) {
+  color: #000 !important;
+}
+
+/* botón */
+:global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container) {
+  width: 205px;
+}
+
+/* Fn Promoción Anuel x Reebok */
+
+/* Promoción 2x1 */
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1) {
+  height: auto;
+  position: absolute;
+  top: 40%;
+  /* left: 2rem !important; */
+  width: 90%;
+  padding-left: 40%;
+}
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1)
+  :global(.vtex-flex-layout-0-x-flexColChild--main-desktopHome-promo2x1) {
+  display: flex;
+  justify-content: end;
+}
+/* Fn Promoción 2x1 */
+
+/* Componente Sección Productos Destacados Home */
+:global(.vtex-flex-layout-0-x-flexRowContent--content-botones-menu) {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.6rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--content-botones-menu)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  border: 1px solid #000;
+  height: 48px !important;
+  position: relative;
+  width: 90px !important;
+  background-color: #000;
+}
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-menu) {
+  text-decoration: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 15px 10.5px !important;
+  top: -5px;
+  left: -3px;
+  border: 1px solid #000;
+}
+
+:global(.vtex-store-link-0-x-label--buttons-desktopHome-menu) {
+  color: #121212;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: NeuePlak-SemiBold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-store-link-0-x-link--buttons-desktopHome-menu):hover {
+  background-color: #f0eee4;
+}
+
+/* Component Third Banners */
+:global(.vtex-flex-layout-0-x-flexRow--container-third-row-images) {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-third-row) {
+  background-size: contain !important;
+  max-width: 501px;
+  height: 418px;
+  border: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-third-row) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-third-row)
+  :global(.vtex-button) {
+  background: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  border: 1px solid;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-third-row)
+  :global(.vtex-button):hover {
+  background: #000;
+  border: 1px solid #000000;
+}
+
+/* Texto Parrafos */
+:global(.vtex-flex-layout-0-x-flexRow--container-columnas-parrafos) {
+  padding: 0 1rem;
+  margin-top: 65px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-columnas-parrafos) {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--desktop-parrafos) {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "NeuePlak-Regular";
+  font-weight: 400;
+}
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-dia-del-padre),
+:global(.vtex-flex-layout-0-x-flexCol--info-banner-nano-3),
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-sale) {
+  height: auto;
+  width: auto;
+  align-items: flex-start;
+  position: absolute;
+  left: 3%;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  top: 43%;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-dia-del-padre) {
+  color: #ffffff;
+}
+
+/* Promotion Bar */
+:global(.vtex-flex-layout-0-x-flexRow--row-promotion-bar)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+/* Banner Nano3 PLP */
+:global(.vtex-flex-layout-0-x-flexRow--image-nano3-plp)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+/* VERSION MOBILE*/
+@media only screen and (max-width: 600px) {
+  :global(.vtex-rich-text-0-x-headingLevel3--home-subpromotion-red) {
+    font-size: 24px;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel4--home-subpromotion-red) {
+    font-size: 14px;
+  }
+
+  /* Componente Sección Productos Destacados Home */
+  :global(.vtex-flex-layout-0-x-flexRowContent--content-botones-menu) {
+    padding: 0 0.5rem;
+    gap: 0.5rem;
+  }
+
+  /* Component Third Banners */
+  :global(.vtex-flex-layout-0-x-flexRow--container-third-row-images) {
+    padding: 0 0.5rem;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--info-card-third-row) {
+    max-width: 501px;
+    height: 325px;
+    margin: 0 7px;
+  }
+
+  /* Texto Parrafos */
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-columnas-parrafos) {
+    flex-direction: column;
+  }
+
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino) {
+    font-size: 1.1rem !important;
+  }
+  /**----- FN DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days) {
+    font-size: 1.1rem !important;
+  }
+}
+@media (max-width: 640px) {
+  /**-----PDP - Wrapper Item sizes txt-----**/
+  :global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+    min-width: 71px !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 14rem;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-heading-level-1),
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-dia-del-padre),
+  :global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes) {
+    font-size: 2rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2) {
+    font-size: 1.8rem !important;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1) {
+    font-size: 2rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes) {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--component-row-breadcrumb-pdp)
+    :global(.vtex-breadcrumb-1-x-container) {
+    position: inherit;
+    left: 0rem;
+    z-index: 0;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--titulo-nuestras-tiendas) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome) {
+    border: 2px solid white;
+    height: 58px !important;
+    position: relative;
+    width: 222px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter-mobile-app)
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
+    display: flex;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter-mobile-app)
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
+    align-items: center !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--footer-newsletter-mobile)
+    :global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter)
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
+    display: flex;
+    align-items: center;
+  }
+  :global(.vtex-store-link-0-x-link--link-politicas-de-privacidad),
+  :global(.vtex-store-link-0-x-link--terminos-Condiciones) {
+    margin-bottom: -4px;
+  }
+
+  :global(.vtex-product-summary-2-x-buyButtonText) {
+    opacity: unset !important;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-titulo2) {
+    margin-bottom: 1rem !important;
+  }
+
+  :global(.vtex-store-link-0-x-label--home-reebok-cardib-piepagina) {
+    width: 100%;
+  }
+
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    font-size: 0;
+    margin-bottom: 8px;
+  }
+  :global(.vtex-product-quantity-1-x-quantitySelectorTitle)::after {
+    content: "Seleccionar cantidad";
+    font-family: "NeuePlak-SemiBold" !important;
+    font-size: 0.875rem;
+    color: #121212;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-BACK-TO-SCHOOL)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_BacktoSchool_750x750.jpg");
+    width: 100% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-unisex)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/plpmobile-hombreymujer.jpg");
+    width: 100% !important;
+  }
+  /* :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-lux)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/160922_LuxBraHeroMB_750x750.jpg");
+    width: 100% !important;
+  } */
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-navidad)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/BannerPLP_HolidayCompartir_750x750_MB.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-findetemporada)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/SitePLP_asset_2007616_750x750.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-ultimosdias)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/Mobile_SitePLP_asset_2007616_750x750ud.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-preservethepast)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLPBannerMobile.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-dia-mujer)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_DiaMujer_750x750.jpg");
+    width: 100% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-glide)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLPbanner_Glide_750x750_MB_2.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-maharishi)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLPbanner_Maharishi_750x750_MB.jpg");
+    width: 100% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-mujer)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_banner_Mujer_MB_update.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-hombre)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_banner_Hombre_MB_update.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-ninos)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_banner_Kids_MB_update.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-deporte)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_banner_Deporte_MB.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-outlet)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_banner_Outlet_MB_rojo.jpg");
+    width: 100% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--plp-banner-classics)
+    :global(.vtex-store-components-3-x-imageElement) {
+    content: url("https://reebokcol.vteximg.com.br/arquivos/PLP_banner_Classics_MB.jpg");
+    width: 100% !important;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel1--home-titulo) {
+    text-align: center !important;
+  }
+
+  :global(.vtex-store-components-3-x-backToTopButtonContainer) {
+    margin-right: 72%;
+    margin-bottom: 4rem;
+  }
+
+  :global(.vtex-store-components-3-x-backToTopButtonContainer)
+    :global(.vtex-button) {
+    margin-bottom: 0px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-classic-performance) {
+    margin-top: 24px;
+  }
+
+  /*HOME */
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+    padding: 0px 0.5rem 0px 0.5rem;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-products) {
+    margin-left: 78% !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--rich-text-shelf-productos-destacados) {
+    font-size: 1.5rem;
+  }
+
+  :global(
+      .vtex-flex-layout-0-x-flexRowContent--dekstop-component-shelf-productos-destacados-title
+    ) {
+    margin-top: 2.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--home-classic-compra) {
+    width: 100%;
+  }
+
+  :global(.vtex-store-link-0-x-link--home-classic-compra) {
+    display: flex;
+    justify-content: center;
+    padding: 14px 24px 14px 24px;
+    margin-bottom: 8px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--reebok-cardib) {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--home-reebok-cardib-piepagina) {
+    width: 100% !important;
+  }
+
+  :global(.vtex-store-link-0-x-label--home-reebok-cardib-piepagina) {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 15px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--home-desktop-performance) {
+    margin-top: 2.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row) {
+    margin-top: 2.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--reebok-cardib-titulo) {
+    margin-top: 1rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--reebok-cardib-body) {
+    margin-top: 1rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-classics) {
+    content: "";
+    font-size: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-classics)::after {
+    content: "Los verdaderos íconos no se hacen solos. Ser clásico es un estado que se obtiene a través de un enfoque auténtico y original día tras día, década tras década.";
+    font-size: 1rem;
+    color: #121212;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-performance) {
+    content: "";
+    font-size: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--parrafo-unico-performance)::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore.";
+    font-size: 1rem;
+    color: #121212;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--reebok-cardib) {
+    padding: 0px 1rem 0px 1rem;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--home-classics-parrafo) {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  :global(
+      .vtex-flex-layout-0-x-flexRowContent--component-shelf-productos-destacados
+    ) {
+    margin-top: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--home-classics-titulo) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-reebok-cardib-titulo) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-mobile-destacados) {
+    padding: 0px 0.5rem 0px 0.5rem;
+  }
+
+  :global(
+      .vtex-slider-layout-0-x-paginationDot--home-mobile-destacados--isActive
+    ) {
+    background-color: #121212;
+  }
+
+  :global(.vtex-rich-text-0-x-container--home-destacados-piepagina) {
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-destacados-body) {
+    min-height: 90px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-destacados1-body) {
+    min-height: 90px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-destacados2-body) {
+    min-height: 90px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-destacados3-body) {
+    min-height: 90px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-carousel3) {
+    top: 38%;
+    display: flex;
+    align-items: left;
+    /* left: 2.5rem; */
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-2x1) {
+    width: 82%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-2x1) {
+    top: 57%;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes) {
+    margin-bottom: 0px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-rebook-cardib) {
+    padding: 0px !important;
+  }
+
+  :global(.vtex-store-link-0-x-label--home-reebok-cardib-piepagina) {
+    padding: 14px 20px 14px 20px;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--text-doorway-nano-body) {
+    min-height: 30px !important;
+  }
+  /*FIN HOME*/
+
+  /*PDP*/
+  :global(.vtex-flex-layout-0-x-flexRow--component-row-breadcrumb-pdp) {
+    padding: 0px !important;
+  }
+  /**-----PDP - General wrapper-----**/
+  :global(.vtex-flex-layout-0-x-flexRow--mobile-product)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0px !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--mobile-Main-Col) {
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  /**-----PDP - Product Name-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-flex-layout-0-x-flexRow--desktop-name) {
+    padding: 16px 16px 0;
+  }
+  /**-----PDP - Price-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-store-components-3-x-priceContainer) {
+    padding: 8px 16px 0;
+  }
+  /**-----PDP - Arrows gallery-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-store-components-3-x-swiperCaret) {
+    background-color: transparent !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-store-components-3-x-swiperCaret):hover {
+    background-color: transparent !important;
+  }
+  /**-----PDP - arrow Left gallery-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-store-components-3-x-swiperCaretPrev):hover {
+    content: url("assets/header/chevron-black-left.svg") !important;
+  }
+  /**-----PDP - arrow Right gallery-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-store-components-3-x-swiperCaretNext):hover {
+    content: url("assets/header/chevron-black-right.svg") !important;
+  }
+  /**-----PDP - Wrapper dots gallery-----**/
+  :global(.vtex-store-components-3-x-swiper-pagination) {
+    bottom: 0 !important;
+  }
+  /**-----PDP - dots gallery-----**/
+  :global(.vtex-store-components-3-x-swiperBullet) {
+    width: 6px !important;
+    height: 6px !important;
+    margin: 0 8px 0 0 !important;
+    transition: all 0.3s;
+    transform-origin: center;
+  }
+  /**-----PDP - dot gallery is active-----**/
+  :global(.vtex-store-components-3-x-swiperBullet--active) {
+    background-color: #121212;
+    width: 16px !important;
+    border-radius: 16px;
+  }
+  /**-----PDP - Wrapper size guide-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-flex-layout-0-x-flexRow--desktop-selector) {
+    margin: 8px 8px 0 !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    padding: 16px 8px 0 !important;
+  }
+  /**-----PDP - Wrapper btn add-to-cart-button and wishlist-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-flex-layout-0-x-flexRow--desktop-botton) {
+    padding: 0 8px !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: calc(100% - 64px) !important;
+    padding-right: 8px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--desktop-botton)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 64px !important;
+  }
+
+  /**-----PDP - quantity product txt red-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-product-availability-0-x-container) {
+    padding: 0 16px;
+  }
+  /**-----PDP - Wrapper internal btn size guide-----**/
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+    :global(.vtex-breadcrumb-1-x-container) {
+    padding: 0px 10px 0 !important;
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+  :global(.vtex-breadcrumb-1-x-container) {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    white-space: nowrap;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--desktop-selector) {
+    display: flex;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--guia-tallas) {
+    margin-top: 0px;
+  }
+
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  :global(.vtex-numeric-stepper__minus-button) {
+    border-color: white;
+  }
+
+  :global(.vtex-numeric-stepper__input) {
+    border-color: white;
+  }
+
+  :global(.vtex-numeric-stepper__plus-button) {
+    border-color: white;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--prduct-shelf1)
+    :global(.vtex-shelf-1-x-title) {
+    display: flex;
+    justify-content: flex-start;
+    content: "";
+    font-size: 0px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--prduct-shelf1)
+    :global(.vtex-shelf-1-x-title)::before {
+    content: "Recomendados";
+    font-size: 1.5rem;
+    font-family: "NeuePlak-Bold";
+    color: #121212;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--mobile-product)
+    :global(.vtex-breadcrumb-1-x-arrow) {
+    padding: 0px;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
+    padding: 0px !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-one) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) {
+    height: 200px !important;
+  }
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-store-components-3-x-productImageTag) {
+    height: 200px !important;
+  }
+
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    border-radius: unset;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-row-identifier) {
+    margin-top: 1rem;
+    padding: 0 !important;
+  }
+
+  :global(.vtex-store-components-3-x-productImagesContainer--carousel) {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
+
+  :global(.vtex-store-components-3-x-swiperPaginationClickable) {
+    position: relative;
+    /* margin-top: 0.625rem; */
+  }
+
+  :global(.vtex-store-components-3-x-swiperBullet) {
+    position: inherit;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--similar-products) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  :global(.vtex-product-availability-0-x-container) {
+    margin-bottom: 0px;
+  }
+  :global(.vtex-reviews-and-ratings-1-x-reviewsHeading) {
+    margin-top: 3rem;
+  }
+
+  :global(.vtex-reviews-and-ratings-1-x-reviewsHeading)::before {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    margin-left: 0rem !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+    :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    padding-right: 0px;
+  }
+  :global(.vtex-shelf-1-x-dot--isActive) {
+    background-color: #121212;
+  }
+  /*FIN PDP*/
+
+  :global(.vtex-shelf-1-x-arrow) {
+    top: -9% !important;
+  }
+
+  :global(.vtex-shelf-1-x-arrowLeft) {
+    left: 80% !important;
+    background-color: #f7f7f7 !important;
+    border-radius: 100%;
+    content: url("assets/header/chevron-black-left.svg");
+    padding: 5px 10px;
+  }
+
+  :global(.vtex-shelf-1-x-arrowRight) {
+    background-color: #f7f7f7 !important;
+    border-radius: 100%;
+    content: url("assets/header/chevron-black-right.svg");
+    padding: 5px 10px;
+    right: 3% !important;
+  }
+
+  :global(.vtex-shelf-1-x-arrowRight):hover {
+    content: url("assets/header/chevron-white-right.svg") !important;
+    background-color: #244486 !important;
+    transition: all 0.3s ease 0s;
+  }
+
+  :global(.vtex-shelf-1-x-arrowLeft):hover {
+    content: url("assets/header/chevron-white-left.svg") !important;
+    background-color: #244486 !important;
+    transition: all 0.3s ease 0s;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--home-titulo) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-store-components-3-x-productDescriptionText) {
+    padding: 0px;
+  }
+
+  /* About Mobile */
+  :global(.vtex-store-components-3-x-imageElement--about_banner_image_mobile) {
+    width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--about_banner_mobile)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--about_banner_mobile) {
+    position: relative;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--about_banner_mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--about_banner_texts_mobile) {
+    height: fit-content;
+    width: 91.46% !important;
+    gap: 0.75rem;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--about_banner_pre_title_mobile) {
+    margin: 0;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "NeuePlak-SemiBold";
+  }
+  :global(.vtex-rich-text-0-x-headingLevel1--about_banner_title_mobile) {
+    margin: 0;
+    color: #fff;
+    font-size: 2.25rem;
+    font-family: "NeuePlak-Bold";
+  }
+  :global(.vtex-rich-text-0-x-paragraph--about_banner_post_title_mobile) {
+    margin: 0;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: "NeuePlak-Regular";
+  }
+  :global(.vtex-store-components-3-x-imageElement--por-que-lo-hacemos-image) {
+    margin: 3rem 0 1rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--que_hacemos) {
+    width: 91.46%;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--que-hacemos-pre-title) {
+    margin-bottom: 0;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--que-hacemos-post-title) {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--que_hacemos) {
+    font-size: 24px;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel3--por-que-lo-hacemos-title) {
+    font-family: "NeuePlak-Bold";
+    color: #121212;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--por-que-lo-hacemos-texts) {
+    margin-bottom: 3rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--por-que-lo-hacemos-texts)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0 1rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--por-que-lo-hacemos-texts) {
+    gap: 0.785rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--about-last-section) {
+    padding: 0 1rem 3rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--about-last-section)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0 !important;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel2--que-hacemos-title) {
+    font-size: 24px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--about-last-section) {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel4--col-last-section-text) {
+    text-align: left;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--col-last-section) {
+    width: 100% !important;
+  }
+  :global(.vtex-store-components-3-x-imageElement--col-last-section-image) {
+    width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--col-last-section) {
+    gap: 0.25rem;
+  }
+  /* Fin About Mobile */
+
+  :global(.vtex-rich-text-0-x-heading-level-1) {
+    font-size: 1.25rem !important;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel2) {
+    font-size: 1.5rem !important;
+    text-align: left;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-atribute) {
+    margin-top: 12px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-guincha)
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+    height: 25px !important;
+    left: -4%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-guincha)
+    :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+    height: 25px !important;
+    right: -5%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--div-texto-filtradoplp) {
+    margin-left: 0 !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--plp-texto-titulo) {
+    margin-top: 0px;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-store-components-3-x-productBrand) {
+    font-size: 1.125rem;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-store-components-3-x-skuSelectorNameContainer) {
+    margin: 0px;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-product-summary-2-x-skuSelectorItemTextValue) {
+    font-size: 0.875rem;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--home-titulo2) {
+    font-size: 1.1rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel1--home-titulo) {
+    font-size: 1.1rem !important;
+  }
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--wishlist_shelf) {
+    margin-top: 0px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--component-shelf-productos-destacados) {
+    margin-top: 0.5rem;
+  }
+
+  :global(
+      .vtex-slider-layout-0-x-paginationDotsContainer--home-mobile-destacados
+    ) {
+    bottom: -15px !important;
+  }
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome) {
+    padding: 6px 10px 6px 10px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--landing_institucional_wrapper) {
+    overflow: hidden;
+  }
+
+  :global(
+      .vtex-rich-text-0-x-container--landing_inst_content_sublist_overflow
+    ) {
+    overflow: scroll;
+  }
+
+  /* Promoción 2x1 */
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1) {
+    left: 1rem !important;
+    top: 70%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1)
+    :global(.vtex-flex-layout-0-x-flexColChild--main-desktopHome-promo2x1) {
+    justify-content: start;
+  }
+  /* Fn Promoción 2x1 */
+
+  /* Promoción Anuel x Reebok */
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-anuel) {
+    left: 1rem !important;
+    top: 70%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-anuel)
+    :global(.vtex-flex-layout-0-x-flexColChild--main-desktopHome-info-anuel) {
+    justify-content: start;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-anuel) {
+    text-align: start;
+  }
+
+  /* :global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel){
+        font-size: 1.1rem !important;
+    } */
+
+  /* :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-anuel)
+    :global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel){
+        font-size: 1.1rem !important;
+    } */
+
+  /* botón */
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container) {
+    width: 173px;
+  }
+
+  :global(
+      .vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container-anuel
+    ) {
+    height: 48px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+    :global(.vtex-store-link-0-x-link--buttons-desktopHome-anuel) {
+    padding: 15px 35px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--main-desktopHome-info-anuel)
+    :global(.vtex-flex-layout-0-x-flexRow--buttons-desktopHome) {
+    margin-top: 0;
+  }
+
+  /* :global(.vtex-store-link-0-x-link--buttons-desktopHome-anuel){
+        padding: 17px 42px!important;
+    } */
+
+  /* Fn Promoción Anuel x Reebok */
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-padre) {
+    text-align: start;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-dia-del-padre) {
+    left: 1rem !important;
+    top: 65%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-nano-3) {
+    left: 1rem !important;
+    top: 42%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-sale),
+  :global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-dia-del-nino) {
+    left: 1rem !important;
+    top: 65%;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--home-destacados) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    height: 483px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-sale) {
+    top: 64%;
+    left: 1.3rem !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-dia-del-nino) {
+    top: 50%;
+    left: 1.3rem !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-training-days) {
+    top: 8%;
+    left: 2rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino) {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1296px) {
+  /**-----TRAINING DAYS-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 2.2rem !important;
+  }
+}
+
+@media (max-width: 1292px) {
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-heading-level-1),
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-dia-del-padre),
+  :global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes) {
+    font-size: 2rem !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes) {
+    font-size: 1.5rem;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1) {
+    font-size: 2rem !important;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2) {
+    font-size: 1.5rem !important;
+  }
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    font-size: 2.2rem !important;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+}
+
+@media (max-width: 1070px) {
+  /**-----TRAINING DAYS-----**/
+  :global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-training-days) {
+    top: 12%;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 1.7rem !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days) {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 883px) {
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-sale) {
+    width: 70%;
+    text-align: left;
+  }
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    font-size: 2rem !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-sale),
+  :global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-dia-del-nino) {
+    top: 6%;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino) {
+    width: 90%;
+    text-align: left;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+}
+@media only screen and (min-width: 1026px) and (max-width: 1378px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 7rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 790px) {
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 1.3rem !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days) {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 639px) {
+  :global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-training-days) {
+    left: 1rem !important;
+    top: 65%;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 1.6rem !important;
+    margin-bottom: 15px !important;
+    width: 100%;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days) {
+    font-size: 1.3rem;
+    width: 100% !important;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+    /* :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child */
+    :global(.vtex-store-link-0-x-link--buttons-desktopHome-2-classic) {
+    padding: 17px 42px !important; 
+  }
+  
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2) {
+    height: 52px !important;
+    width: 214px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--button-extra-classic-2 ) {
+    height: 52px !important;
+    width: 214px;
+  }
+
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1) {
+    top: 20% !important;
+  }
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    width: 100%;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+  /* :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+        width: 100%;
+    } */
+}
+
+@media (max-width: 40rem) {
+    :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+        :global(.vtex-rich-text-0-x-heading-level-1),
+        :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+        :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-dia-del-padre),
+    :global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes) {
+        font-size: 1.7rem !important;
+    }
+    :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1){
+        font-size: 1.3rem !important;
+        margin-bottom: 15px !important;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--body-rebook-sale){
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    :global(
+        .vtex-store-components-3-x-infoCardContainer--info-card-plp-subcategory
+      ) {
+      display: flex;
+    }
+    :global(
+        .vtex-slider-layout-0-x-sliderLayoutContainer--PLP--subcategoria-carousel
+      ) {
+      max-width: 1600px;
+      margin: 15px auto;
+      padding: 0 10px;
+    }
+    :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2){
+        font-size: 1.1rem !important;
+        margin-top: 10px !important;
+        margin-bottom: 0 !important;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes) {
+        font-size: 1.2rem;
+    }
+    :global(.vtex-rich-text-0-x-headingLevel5--body-rebook-tunes) {
+        font-size: 0.875rem;
+        margin: 0;
+    }
+    :global(.vtex-store-components-3-x-container)
+        :global(.vtex-rich-text-0-x-container--home-titulo2)
+        :global(.vtex-rich-text-0-x-headingLevel2--home-titulo2) {
+        text-align: center;
+    }
+    :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-anuel)
+        :global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel) {
+        font-size: 1.1rem !important;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--body-rebook-anuel), 
+    :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-padre) {
+        font-size: 1.2rem !important;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--body-rebook-sale) {
+        font-size: 1rem !important;
+        width: 100% !important;
+    }
+    /**-----DÍA DE LA NIÑEZ 2023-----**/
+    :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino){
+        font-size: 1.6rem !important;
+        margin-bottom: 15px !important;
+        width: 100%;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino){
+        font-size: 1.3rem;
+        width: 100% !important;
+    }
+    /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-heading-level-1),
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-dia-del-padre),
+  :global(.vtex-rich-text-0-x-paragraph--titulo-rebook-tunes) {
+    font-size: 1.7rem !important;
+    text-shadow: 2px 2px 0px black;
+    font-size: 1.6rem;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1) {
+    font-size: 1.3rem !important;
+    margin-bottom: 15px !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-sale) {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2) {
+    font-size: 1.1rem !important;
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-tunes) {
+    font-size: 1.2rem;
+  }
+  :global(.vtex-rich-text-0-x-headingLevel5--body-rebook-tunes) {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  :global(.vtex-store-components-3-x-container)
+    :global(.vtex-rich-text-0-x-container--home-titulo2)
+    :global(.vtex-rich-text-0-x-headingLevel2--home-titulo2) {
+    text-align: center;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-anuel)
+    :global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel) {
+    font-size: 1.1rem !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-anuel),
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-padre) {
+    font-size: 1.2rem !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-sale) {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    font-size: 1.6rem !important;
+    margin-bottom: 15px !important;
+    width: 100%;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino) {
+    font-size: 1.3rem;
+    width: 100% !important;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-padre) {
+    text-shadow: 2px 1px 0px black;
+    margin: 0px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color:#ffffff ;
+  }
+}
+
+@media all and (width: 1180px) and (height: 820px) and (orientation: landscape) {
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 16rem !important;
+  }
+}
+@media all and (width: 820px) and (height: 1180px) and (orientation: portrait) {
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 40rem !important;
+  }
+}
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 54rem;
+  }
+}
+
+@media (max-width: 40rem) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing)
+        :global(.vtex-store-link-0-x-label--terminos-Condiciones),
+    :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing)
+        :global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+        margin-left: -14%;
+    }
+    :global(
+        .vtex-store-components-3-x-infoCardCallActionContainer--info-card-plp-subcategory
+      )
+      :global(.vtex-button__label) {
+      font-size: 0.875rem;
+    }
+  :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing)
+    :global(.vtex-store-link-0-x-label--terminos-Condiciones),
+  :global(.vtex-flex-layout-0-x-flexRowContent--newsletter-landing)
+    :global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+    margin-left: -14%;
+  }
+}
+
+/* Banners 10 Mayo */
+
+.flexRow--buttons-desktopHome-legalesC {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 536px) {
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    font-size: 1.3rem !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 1.3rem !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 435px) {
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    font-size: 1.1rem !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-dia-del-nino) {
+    margin: 0;
+    font-size: 0.9rem !important;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 1.8rem !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days){ 
+    /* display: none; */
+    text-align: center;
+  }
+
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days) {
+    margin: 0;
+    font-size: 1.2rem !important;
+    padding-bottom: .5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-training-days){
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  /**-----DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-dia-del-nino) {
+    top: 50%;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-dia-del-nino) {
+    font-size: 1rem !important;
+  }
+  /**-----FN DÍA DE LA NIÑEZ 2023-----**/
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-training-days) {
+    top: 58%;
+    left: 1.5rem;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-training-days) {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 367px) {
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-anuel) {
+    top: 68%;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-promo2x1) {
+    top: 68%;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-anuel)
+    :global(.vtex-rich-text-0-x-headingLevel1--titulo-rebook-anuel) {
+    font-size: 0.9rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-anuel) {
+    font-size: 0.9rem !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container) {
+    width: 164px;
+  }
+
+  :global(
+      .vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container-anuel
+    ) {
+    height: 37px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+    :global(.vtex-store-link-0-x-link--buttons-desktopHome-anuel) {
+    padding: 10px 31px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-dia-del-padre) {
+    top: 50%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-nano-3) {
+    top: 65%;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-2x1)
+    :global(.vtex-rich-text-0-x-heading-level-1) {
+    font-size: 1.2rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-sale-1) {
+    font-size: 1.1rem !important;
+    margin-bottom: 0 !important;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--titulo-rebook-tunes)
+    :global(.vtex-rich-text-0-x-headingLevel2--titulo-rebook-2),
+  :global(.vtex-rich-text-0-x-paragraph--body-rebook-sale) {
+    font-size: 0.9rem !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-sale) {
+    width: 178px !important;
+    height: 39px !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+    :global(.vtex-store-link-0-x-link--buttons-desktopHome-2-sale) {
+    padding: 11px 29px !important;
+  }
+}
+
+@media (max-width: 325px) {
+  :global(.vtex-flex-layout-0-x-flexCol--info-banner-training-days) {
+    top: 54%;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container) {
+  width: 164px;
+}
+
+:global(
+    .vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-container-anuel
+  ) {
+  height: 37px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome-anuel) {
+  padding: 10px 31px !important;
+}
+
+:global(.vtex-rich-text-0-x-container--pdp-zapatillas-unisex) {
+  display: flex;
+  position: relative;
+  padding-left: 3rem;
+  top: 33px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--pdp-zapatillas-unisex) {
+  color: #e41d1b;
+  font-family: "NeuePlak-SemiBold";
+  font-size: 0.875rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColchild--50-off-home-banner-copy) {
+  position: absolute;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-banner-50-off-UPT) {
+  height: auto;
+  width: auto;
+  align-items: flex-start;
+  position: absolute;
+  left: 55%;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  top: 20%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--banner-50-off-UPT) {
+  color: #fff;
+  font-family: "NeuePlak-WideRegular";
+  margin: 0.8rem 0;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1.2;
+  width: 70%;
+}
+
+@media screen and (max-width: 992px) {
+  :global(.vtex-rich-text-0-x-paragraph--banner-50-off-UPT) {
+    color: #fff;
+    font-family: "NeuePlak-WideRegular";
+    margin: 0.8rem 0;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.2;
+    width: 70%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-banner-50-off-UPT) {
+    height: auto;
+    width: auto;
+    align-items: flex-start;
+    position: absolute;
+    left: 55%;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-info-banner-50-off-UPT) {
+  height: auto;
+  width: auto;
+  align-items: flex-start;
+  position: absolute;
+  left: 10%;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  top: 75%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-banner-classics) {
+    height: auto;
+    width: auto;
+    align-items: flex-start;
+    position: absolute;
+    left: 3%;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    top: 36%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--banner-classics) {
+  color: #ffffff;
+  font-family: "NeuePlak-WideRegular";
+  margin: 1.8rem 0;
+  font-size: 1.6rem;
+  text-align: right;
+  width: auto;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--reebok-classics) {
+  font-size: 3rem !important;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 0px black;
+}
+
+:global(.vtex-store-link-0-x-label--button-classics) {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+:global(.vtex-store-link-0-x-link--button-classics) {
+  padding: 16px 22px !important;
+}
+
+
+@media screen and (min-width: 992px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--button-banner-classics-women){
+    left: 18rem;
+    position: absolute;
+    bottom: 0rem;
+  }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-contenedor-info-training-days) {
+    padding-right: 3.5rem;
+  }
+
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome-2-training-days) {
+    background-color: #ffffff;
+  }
+
+  :global(.vtex-store-link-0-x-label--buttons-desktopHome-2-training-days) {
+    color: #000000;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-sale) {
+    height: 59px!important;
+    width: 289px;
+  } 
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-sale-two) {
+    height: 59px!important;
+  }
+
+  /* :global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-super-sale-ph) {
+    position: absolute;
+    z-index: 3;
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 1rem;
+    padding: 3px;
+  } */
+
+  :global(.vtex-menu-2-x-menuItem--item-cyber)
+  :global(.vtex-menu-2-x-styledLink--item-cyber) {
+    cursor: pointer !important;
+  }
+  
+  @media (max-width: 40rem) {
+    :global(.vtex-rich-text-0-x-headingLevel2--reebok-classics) {
+      text-shadow: 2px 2px 0px black;
+      font-size: 1.6rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+  :global(.vtex-store-link-0-x-link--button-extra-classic-2) 
+  {
+    padding: 17px 50px !important;
+  }
+
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome-2-training-days) {
+    padding: 15px 0px !important;
+    width: 100%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-training-days) {
+    width: 320px;
+    
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-sale) {
+    height: 59px!important;
+    width: 289px;
+    padding: 15px 29px!important;
+  } 
+
+  :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome-2-sale-two) {
+    height: 54px!important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--main-desktopHome-info-carousel3) {
+    left: 0% !important;
+  }
+
+  /* :global(.vtex-flex-layout-0-x-flexColChild--info-banner-training-days) 
+  :global(.vtex-store-link-0-x-link--buttons-desktopHome-2) {
+    padding: 15px 29px!important;
+  } */
+
+  
+  }
+
+
+  /* CYBER */
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-landing-cyber){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-landing-cyber)
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+} 
+
+:global(.vtex-rich-text-0-x-container--title-preguntas-frecuentes-cyber) {
+	display: flex;
+	justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--title-preguntas-frecuentes-cyber) {
+	font-size: 1.5rem;
+  color: #000000;
+  /* text-transform: uppercase; */
+  margin: 6px 0;
+  /* letter-spacing: .15rem; */
+  font-weight: bold !important;
+	text-align: center;
+	margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem !important;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--frequent-questions-p) {
+ /*  border: solid 1px #000000; */
+  border-top: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--entry-accordion-section--disclosure) {
+  display: flex !important;
+    flex-direction: column;
+    width: max-content;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger) {
+  display: flex;
+  /* background-color: #025cf769; */
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000; 
+  user-select: none;
+  cursor: pointer;
+  width: 70% !important;
+}
+
+
+:global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger):hover {
+  display: flex;
+  background-color: #025cf769;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #025cf7;; 
+  user-select: none;
+  cursor: pointer;
+  width: 70% !important;
+}
+
+
+:global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger)
+:global(.vtex-store-components-3-x-imageElement) {
+  align-self: center;
+  justify-self: end;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-landing-cyber) {
+  width: 85%;
+}
+:global(.vtex-flex-layout-0-x-flexRow--registro-cyber)
+:global(.vtex-flex-layout-0-x-flexRowContent--registro-cyber) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-container--text-cyber-registro) {
+  
+  border: solid 1px #000000;
+  width: 45% !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-cyber-registro) {
+  width: 100%;
+}
+
+:global(.vtex-rich-text-0-x-link--text-cyber-registro) {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  width: 231px;
+  font-family: 'NeuePlak-Regular',sans-serif;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--image-landing-cyber-registro) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--image-landing-cyber){
+  display: contents !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--frequent-questions-p) {
+  width: 90%;
+  margin: 0 auto;
+  padding: .5rem;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--frequent-questions-p) {
+  margin-bottom: 1rem;
+  font-family: 'NeuePlak-Regular',sans-serif;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger--hidden) {
+  margin-bottom: 1rem;
+}
+
+/* :global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger--visible) {
+  margin-bottom: 0;
+} */
+
+:global(.vtex-rich-text-0-x-headingLevel2--text-titles) {
+  text-align: center;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-landing-cyber-registro) {
+  margin-bottom: 1.5rem;
+  width: 50%; 
+}
+
+:global(.vtex-rich-text-0-x-link--frequent-questions-p) {
+  font-weight: bold;
+  color: #025AF7;
+  text-decoration: none;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger) {
+  /* border: 1px; */
+}
+
+:global(.vtex-rich-text-0-x-container--frequent-questions-h3) {
+  width: 75%;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-strong--frequent-questions-h3) {
+  font-family: 'NeuePlak-Regular',sans-serif;
+  color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sign-in-cyber) {
+  max-width: 700px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--title-landing-cyber) {
+  margin-top: 3rem;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--text-titles-cyber) {
+  margin-top: 3rem;
+}
+
+:global(.vtex-rich-text-0-x-link--footer-preguntas-frecuentes) {
+  font-weight: bold;
+  color: #025AF7;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--text-titles-cyber) {
+  font-size: 1.3rem !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-cyber){
+  background-size: contain !important;
+  border: none !important;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger--visible) {
+  border-bottom: 1px solid black !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageLinkWrapper--info-card-cyber) {
+  width: 90% !important;
+}
+:global(.vtex-rich-text-0-x-container--text-cyber-registro ) {
+  border: 1px solid #000;
+    height: 58px!important;
+    position: relative;
+    width: 233px!important;
+    background-color: #000;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageLinkWrapper--info-card-cyber) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-link--text-cyber-registro) {
+  text-decoration: none;
+    position: absolute;
+    background-color: #e41d1b;
+    padding: 15px 10.5px!important;
+    top: -5px;
+    left: -3px;
+    border: 1px solid #000;
+    height: 58px;
+}
+
+:global(.vtex-rich-text-0-x-link--text-cyber-registro):hover {
+  text-decoration: none;
+    position: absolute;
+    background-color: #015AF7;
+    padding: 15px 10.5px!important;
+    top: -5px;
+    left: -3px;
+    border: 1px solid #000;
+    height: 58px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-cyber) {
+  background-size: cover;
+  min-width: 420px;
+  height: 420px;
+}
+
+:global(.vtex-rich-text-0-x-strong--rich-text-shelf-productos-destacados-cyber) {
+  color: #e41d1b;
+}
+
+:global(.vtex-rich-text-0-x-heading--title-landing-cyber-h1) {
+  margin-top: 0rem;
+  margin-bottom: 2rem; 
+}
+
+:global(.vtex-rich-text-0-x-paragraph--item-cyber-footer) {
+  margin-top: 0rem;
+  
+}
+
+:global(.vtex-rich-text-0-x-link--item-cyber-footer) {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+/*  FLAG CYBER */
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-super-sale-ph) {
+  position: absolute;
+  z-index: 2;
+  background-color: #e41d1b;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  margin-right: 1rem;
+  padding: 3px;
+  font-size: .75rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-row-one)
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-super-sale-ph){
+  right: 1px;
+  top: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col) 
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-super-sale){
+  right: 1px;
+}
+
+@media only screen and (max-width: 40em) {
+
+  :global(.vtex-rich-text-0-x-container--text-cyber-registro) {
+    max-width: 235px !important;
+    margin-bottom: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel1--title-landing-cyber) {
+    margin-top: 2rem;
+  }
+  
+  :global(.vtex-rich-text-0-x-headingLevel1--text-titles-cyber) {
+    margin-top: 2rem;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--text-titles-cyber) {
+    font-size: 1.2rem !important;
+    text-align: center;
+  } 
+
+  :global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger) {
+    width: 90% !important;
+  }
+
+  :global(.vtex-disclosure-layout-1-x-trigger--entry-accordion-trigger):hover {
+    width: 90% !important;
+  }
+
+  :global(.vtex-rich-text-0-x-container--frequent-questions-h3) {
+    width: 90% !important;
+    justify-content: center;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--frequent-questions-p) {
+    /* border: solid 1px #000000; */
+    border-top: none;
+    width: 90% !important;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--info-card-cyber) {
+    background-size: cover;
+    min-width: 340px;
+    height: 340px;
+  }
+
+  :global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-super-sale-ph) {
+    position: absolute;
+    z-index: 2;
+    font-size: .8rem !important;
+    background-color: #e41d1b;
+    color: #ffffff;
+    font-weight: bold;
+    /* margin-top: 8px; */
+    margin-left: .45rem;
+    padding: 3px;
+  }
+
+  :global(.vtex-store-components-3-x-discountInsideContainer) {
+    left: 4.5%;
+
+  }
+
+  :global(.vtex-rich-text-0-x-link--item-cyber-footer) {
+    margin-left: 0rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--frequent-questions-h3) {
+    text-align: center;
+    font-size: 0.765rem;
+  }
+
+} 
+
+@media (min-width: 48em) and (max-width: 64em) {
+
+  :global(.vtex-rich-text-0-x-headingLevel1--title-landing-cyber) {
+    margin-top: 3rem;
+  }
+  
+  :global(.vtex-rich-text-0-x-headingLevel1--text-titles-cyber) {
+    margin-top: 3rem;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--info-card-cyber) {
+    height: 450px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--categories-cyber) {
+    flex-direction: column;
+  }
+
+  :global(.vtex-rich-text-0-x-link--item-cyber-footer) {
+    margin-left: 0rem;
+  }
+
+  :global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-super-sale-ph) {
+    position: absolute;
+    z-index: 2;
+    font-size: .8rem !important;
+    background-color: #e41d1b;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 0.75rem;
+    padding: 3px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--text-promocion-plp-ofertas) {
+  background-color: #e41d1b;
+  /* padding-bottom: 1rem; */
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-huincha-tc-promo) {
+  background-color: #D83636;
+}
+:global(.vtex-rich-text-0-x-container--text-huincha-tc-promo) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--text-huincha-tc-promo) {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  font-family: "NeuePlak-Regular";
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+:global(.vtex-rich-text-0-x-link--text-huincha-tc-promo) {
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "NeuePlak-Regular";
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid;
+  text-transform: uppercase;
+}
+:global(.vtex-rich-text-0-x-link--text-huincha-tc-promo):hover {
+  color: #000000b0;
+  border-bottom: 1px solid #000000b0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--subtitle-text-promocion) {
+  font-family: "NeuePlak-WideRegular" !important;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--subtitle-text-promocion) {
+  font-size: 1.3rem !important;
+  color: #ffffff;
+  font-weight: bold !important;
+  margin-top: 1rem !important;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--flag-text-new) {
+  font-size: .75rem;
+  background-color: #000000;
+  display: none !important;
+}
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--ultimastallas) {
+  font-size: .75rem;
+  background-color: #000000;
+  display: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--text-promocion-plp-ofertas-harry){
+  background-color: black;
+}
+
+/*--------------landing-harry-potter------------*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--landing-harry-potter-sec6){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 25rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--landing-harry-potter-sec6)
+:global(.vtex-store-components-3-x-container){
+  height: 0px !important;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--harry-potter-sec4-txt-category){
+  color: white;
+  font-size: 2.5rem !important;
+  margin: 0px;
+  width: 50rem;
+  margin-bottom: 2rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--harry-potter-sec4-txt-category){
+  color: white;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+
+:global(.vtex-store-link-0-x-link--link1-landing-harry-potter-sec6){
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+:global(.vtex-store-link-0-x-link--link2-landing-harry-potter-sec6){
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+
+:global(.vtex-store-link-0-x-label--link1-landing-harry-potter-sec6){
+  background-color: #FFEEC8;
+  color: black;
+  font-size: 18px;
+  padding: 0.8rem 6rem;
+  text-align: center;
+}
+
+:global(.vtex-store-link-0-x-label--link1-landing-harry-potter-sec6):hover{
+  background-color: black;
+  color: white;
+}
+
+:global(.vtex-store-link-0-x-label--link2-landing-harry-potter-sec6){
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 0.8rem 3.5rem;
+  margin-top: 13px;
+  text-align: center;
+}
+
+
+
+:global(.vtex-store-link-0-x-label--link2-landing-harry-potter-sec6):hover{
+  background-color: black;
+  color: white;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-landing-harry-potter-sec4){
+  gap: 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-landing-harry-potter-sec4){
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--harry-potter-sec3-txt1){
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #121212;
+  letter-spacing: 1.5px;
+  font-family: NeuePlak-WideRegular,NeuePlak-Bold,ParaType,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--harry-potter-sec2-txt1){
+  font-weight: 700;
+  line-height: 32px;
+  font-family: NeuePlak-Bold;
+  color: black;
+}
+
+:global(.vtex-store-link-0-x-link--cat-link-harry-potter){
+  text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+:global(.vtex-rich-text-0-x-wrapper--harry-potter-sec2-txt1){
+  width: 90%;
+  margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--landing-harry-potter-sec6){
+  bottom: 16rem !important;
+}
+:global(.vtex-rich-text-0-x-wrapper--potter-sec4-txt-category){
+  margin-bottom: 0rem !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--img-landing-harry-potter-sec5){
+  margin-top: 3rem !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--harry-potter-sec2-txt1){
+  font-weight: normal !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--harry-potter-sec3-txt1){
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+
+:global(.vtex-store-link-0-x-childrenContainer--cat-link-harry-potter){
+  margin-bottom: 2rem;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--harry-potter-sec4-txt-category){
+  width: auto !important;
+  font-size: 1.5rem !important;
+}
+}
+
+@media screen and (min-width: 780px) {
+:global(.vtex-store-link-0-x-link--cat-link-harry-potter){
+  padding: .5rem
+}
+
+:global(.vtex-store-link-0-x-childrenContainer--link-landing-harry-potter){
+  text-align: center;
+}
+
+:global(.vtex-store-components-3-x-imageElement--img-landing-harry-potter-sec5){
+  margin-top: 3rem;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+  :global(.vtex-rich-text-0-x-headingLevel1--harry-potter-sec4-txt-category){
+    width: auto !important;
+    
+  }
+}
+
+/* 404 not found */
+
+:global(.vtex-rich-text-0-x-headingLevel1--not_found_title) {
+  margin-top: 1rem !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--buttons-not-found) 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 150px !important;
+}
+
+/* Landing NANOX4 */
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-third-row-nano) {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-third-row-images-text) {
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-third-row-images-text)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ) {
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4--nano-text-description) {
+  margin: 0px;
+  font-family: "NeuePlak-Regular";
+  font-size: 1rem;
+  text-align: center;
+
+}
+  
+:global(.vtex-rich-text-0-x-heading--nano-text-title) {
+  margin-bottom: .5rem;
+  text-align: center;
+  color: #000000;  
+}
+
+:global(.vtex-rich-text-0-x-container--nano-text-title) {
+  width: 100% !important;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--nano-text-title) {
+  width: 100% !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--nano-slider-landing) {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 40em) {
+  :global(.vtex-store-link-0-x-link--link-doorway-nano-piepagina) {
+    margin-bottom: 1rem;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel3--text-doorway-nano-body ) {
+    text-align: center;
+    margin-top: .5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-third-row-images-text)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth ) {
+    width: 100% !important;
+  }
+
+  :global(.vtex-store-link-0-x-childrenContainer--cat-link-nano){
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-third-row-images-text)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth ) {
+    width: 100% !important;
+  }
+}
+
+/* Landing NANOX4 */
+/*---------------------------------------newsletter--------------*/
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--texts-modal-newsletter-footer){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--texts-modal-newsletter-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 95% !important;
+}
+
+:global(.vtex-modal-layout-0-x-container--modal-layout-newsletter-footer)
+:global(.vtex-modal-layout-0-x-headerContainer){
+  position: absolute;
+  right: 0rem;
+}
+
+
+:global(.vtex-modal-layout-0-x-container--modal-layout-newsletter-footer)
+:global(.vtex-modal-layout-0-x-paperScrollContent){
+  max-height: calc(100% - 0rem);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter)
+:global(.vtex-flex-layout-0-x-flexRow){
+  padding-left: .8rem !important;
+  margin-right: .8rem;
+
+}
+
+
+@media screen and (max-width: 780px) {
+:global(.vtex-store-components-3-x-imageElement--img-newsletter-content){
+  display: none;
+}
+}
+
+@media screen and (min-width: 780px) {
+  :global(.vtex-modal-layout-0-x-paperNotFullScreen){
+    margin: 7rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--col-image-newsletter)
+  :global(.vtex-store-components-3-x-imageElement){
+    height: 34rem !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-content-newsletter)
+:global(.vtex-flex-layout-0-x-flexCol--col-image-newsletter){
+  padding-right: 1rem;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-newsletter-paragraph-modal){
+  display: none !important;
+}
+
+}
+
+/* landing floatzig */
+
+:global(.vtex-store-video-1-x-videoContainer--demo-media-floatzig) {
+  width: -webkit-fill-available;
+  height: 500px;
+}
+
+:global(.vtex-store-video-1-x-videoElement--demo-media-floatzig) {
+  width: -webkit-fill-available;
+  height: 500px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-floatzig-third-row-images-text) {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-floatzig-third-row-images-text) 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) { 
+  width: 100% !important;
+}
+
+:global(.vtex-rich-text-0-x-container--rt-doorway-floatzig-title) {
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--doorway-floatzig-content) {
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--doorway-floatzig-title) {
+  margin-top:.5rem;
+}
+
+:global(.vtex-rich-text-0-x-container--floatzig-row-of-images-text-description) {
+  justify-content: center;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--component-shelf-productos-destacados-floatzig) {
+  margin-top: 2rem !important;
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-principal-row)
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    min-height: 310px;
+    max-height: 310px;
+  }
+  
+}
+
+@media screen and (max-width: 40em) {
+  :global(.vtex-store-video-1-x-videoContainer--banner-media-floatzig) {
+    height: 250px !important;
+  }
+  :global(.vtex-store-video-1-x-videoElement--banner-media-floatzig) {
+    height: 250px !important;
+  }
+}
+
+/* landing floatzig */
+
+/*-----newsletter------*/
+:global(.vtex-flex-layout-0-x-flexColChild--footer-newsletter)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+  align-items: center !important;
+  display: flex;
+}
+:global(.vtex-store-link-0-x-label--terminos-Condiciones),
+:global(.vtex-store-link-0-x-label--link-politicas-de-privacidad) {
+  color: #5e5e5e;
+  font-weight: 100;
+  font-size: 0.75rem;
+  text-decoration: underline;
+
+}
+:global(.vtex-store-link-0-x-link--link-politicas-de-privacidad),
+:global(.vtex-store-link-0-x-link--terminos-Condiciones) {
+  width: auto !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--input-inputCondicionesNewsLetter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+  padding-right: 4px;
+}
+:global(.vtex-store-link-0-x-link--link-politicas-de-privacidad),
+:global(.vtex-store-link-0-x-link--terminos-Condiciones) {
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 40em) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--input-inputCondicionesNewsLetter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){/* 
+  width: auto !important; */
+  padding-right: 4px;
+  justify-content: flex-start;
+}
+}
+
+/*----------------------------*/
+/* TopBar */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--topbar-anuncios) {
+  background-color: #244486;
+}
+
+/* Icons */
+
+:global(.vtex-store-components-3-x-imageElement--icons-home) {
+  width: 95%;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--home-desktop-icons) {
+  width: 95%;
+}
+
+:global(.vtex-rich-text-0-x-container--home-desktop-icons-title) {
+  margin-bottom: 1rem;
+}
+
+:global(.vtex-store-link-0-x-label--home-icons-link) {
+  margin-left: .5rem !important;
+  font-weight: bold;
+}
+
+:global(.vtex-store-link-0-x-link--home-icons-link) {
+  padding-top: .5rem !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-desktop-icons){
+  max-width: 1548px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-landing-cyber){
+  margin-top: 0rem;
+}

@@ -1,0 +1,534 @@
+{
+    /*SECCION MUJER*/
+    "menu-item#submenu-title-outlet-mujer": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-zapatillas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-zapatillas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas",
+                "text": "Zapatillas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-sandalias": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-sandalias",
+                "noFollow": false,
+                "tagTitle": "Sandalias",
+                "text": "Sandalias "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-conjuntodeportivo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-conjunto-deportivo",
+                "noFollow": false,
+                "tagTitle": "Conjunto Deportivo",
+                "text": "Conjunto Deportivo "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-chaquetas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-chaquetas",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-faldasyvestidos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-faldas-y-vestidos",
+                "noFollow": false,
+                "tagTitle": "Faldas y Vestidos",
+                "text": "Faldas y Vestidos "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-pantalonesycalzas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-pantalones-y-calzas",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Calzas",
+                "text": "Pantalones y Calzas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-polerones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-poleron",
+                "noFollow": false,
+                "tagTitle": "Polerones",
+                "text": "Polerones "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-poleras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-polera",
+                "noFollow": false,
+                "tagTitle": "Poleras",
+                "text": "Poleras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-shorts": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-shorts",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-mujer-petosdeportivos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-mujer-petos-deportivos",
+                "noFollow": false,
+                "tagTitle": "Petos Deportivos",
+                "text": "Petos Deportivos "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION HOMBRE*/
+    "menu-item#submenu-title-outlet-hombre": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-zapatillas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-zapatillas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas",
+                "text": "Zapatillas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-conjuntodeportivo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-conjunto-deportivo",
+                "noFollow": false,
+                "tagTitle": "Conjunto Deportivo",
+                "text": "Conjunto Deportivo "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-chaquetas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-chaquetas",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-pantalonesycalzas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-pantalones-y-calzas",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Calzas",
+                "text": "Pantalones y Calzas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-polerones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-poleron",
+                "noFollow": false,
+                "tagTitle": "Polerones",
+                "text": "Polerones "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-poleras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-poleras",
+                "noFollow": false,
+                "tagTitle": "Poleras",
+                "text": "Poleras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-hombre-shorts": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-hombre-shorts",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION NIÑOS*/
+    "menu-item#submenu-title-outlet-ninos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-ninos",
+                "noFollow": false,
+                "tagTitle": "Niños",
+                "text": "Niños"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-outlet-link-ninos-zapatillas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-ninos-zapatillas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas",
+                "text": "Zapatillas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /*SECCION UNISEX*/
+    "menu-item#submenu-title-outlet-unisex": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex",
+                "noFollow": false,
+                "tagTitle": "Unisex",
+                "text": "Unisex"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-zapatillas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-zapatillas",
+                "noFollow": false,
+                "tagTitle": "Zapatillas",
+                "text": "Zapatillas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-sandalias": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-sandalias",
+                "noFollow": false,
+                "tagTitle": "Sandalias",
+                "text": "Sandalias "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-bolsosymochilas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-bolsos-y-mochilas",
+                "noFollow": false,
+                "tagTitle": "Bolsos y Mochilas",
+                "text": "Bolsos y Mochilas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-chaquetas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-chaquetas",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-gorras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-gorras",
+                "noFollow": false,
+                "tagTitle": "Gorras",
+                "text": "Gorras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-matdeyoga": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-mat-de-yoga",
+                "noFollow": false,
+                "tagTitle": "Mat de Yoga",
+                "text": "Mat de Yoga "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-calcetines": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-calcetines",
+                "noFollow": false,
+                "tagTitle": "Calcetines",
+                "text": "Calcetines "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-pantalonesycalzas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-pantalones-y-calzas ",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Calzas",
+                "text": "Pantalones y Calzas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-polerones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-polerones",
+                "noFollow": false,
+                "tagTitle": "Polerones",
+                "text": "Polerones "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-poleras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-poleras",
+                "noFollow": false,
+                "tagTitle": "Poleras",
+                "text": "Poleras "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-outlet-link-unisex-shorts": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet-unisex-shorts",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    }
+}

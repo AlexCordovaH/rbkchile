@@ -1,0 +1,99 @@
+.spantxtBefore,.spantxtAfter {
+  font-size: 1rem;
+  font-family: "NeuePlak-Regular";
+  display: flex;
+  justify-content: center;
+  width: -webkit-fill-available;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.customBannerTimerAnchorLink {
+  display: flex;
+  justify-content: center !important;
+  text-align: center;
+  margin: 0 auto !important;
+}
+
+
+.contentSpantxtBefore {
+  display: flex !important;
+}
+
+@media screen and (max-width: 40em) {
+  .spantxtBefore {
+    justify-content: center;
+    font-family: "NeuePlak-Regular";
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .customBannerTimerContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .customBannerTimerAnchorLink {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+  .spantxtBefore {
+    font-size: 1rem;
+    /* position: absolute; */
+    margin-top: 0.5rem;
+    text-align: center;
+    justify-content: end;
+    font-weight: bolder;
+  }
+
+  .customBannerTimerContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .customBannerTimerAnchorLink {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    width: 100%;
+    /* flex-direction: column; */
+    margin: 0 auto;
+  }
+}
+
+.containerTimerAnchorLink {
+  width: 100%;
+  padding: 0;
+  /* background: linear-gradient(to right, #00a73b, #0071cb); */
+}
+
+@media only screen and (max-width: 991px) {
+  /* Estilos para teléfonos y tablets */
+  .spantxtBefore {
+    position: unset;
+    font-size: 13px;
+    padding-left: 9px;
+  }
+
+  .customBannerTimerAnchorLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .spantxtBefore {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}

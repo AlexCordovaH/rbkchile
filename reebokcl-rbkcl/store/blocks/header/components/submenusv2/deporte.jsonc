@@ -1,0 +1,105 @@
+{
+    "vtex.menu@2.x:submenu#v2-deporte": {
+        "props": {
+            "width": "100%",
+            "orientation": "vertical",
+            "blockClass": "submenu-mujer"
+        },
+        "children": [
+            "flex-layout.row#submenu-desktop-v2-deporte"
+        ]
+    },
+    "flex-layout.row#submenu-desktop-v2-deporte": {
+        "props": {
+            "blockClass": "submenu-desktop"
+        },
+        "children": [
+            "flex-layout.row#submenu-v2deporte-padre-row2"
+        ]
+    },
+    "flex-layout.row#submenu-v2deporte-padre-row2": {
+        "props": {
+            "blockClass": "submenu-padre-row2"
+        },
+        "children": [
+            "flex-layout.row#submenu-item-general-v2-deporte-titulos"
+        ]
+    },
+    "flex-layout.row#submenu-item-general-v2-deporte-titulos": {
+        "props": {
+            "blockClass": "submenu-item-general-titulos"
+        },
+        "children": [
+            // "flex-layout.col#submenu-item-v2-deporte-basquet",
+            "flex-layout.col#submenu-item-v2-deporte-entrenamientofuncional",
+            //"flex-layout.col#submenu-item-v2-deporte-fitnessandtraining",
+            "flex-layout.col#submenu-item-v2-deporte-running",
+            "flex-layout.col#submenu-item-v2-deporte-outdoor"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-deporte-basquet": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-deporte-basquet",
+            "menu-item#submenu-deporte-link-basquet-calzado",
+            "menu-item#submenu-deporte-link-basquet-ropa"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-deporte-entrenamientofuncional": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-deporte-entrenamientofuncional",
+            "menu-item#submenu-deporte-link-entrenamientofuncional-calzado",/* ,
+            "menu-item#submenu-deporte-link-entrenamientofuncional-ropa" */
+            "menu-item#submenu-deporte-link-fitnessandtraining-ropa"//,
+            // "menu-item#submenu-deporte-link-fitnessandtraining-accesorios"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-deporte-fitnessandtraining": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-deporte-fitnessandtraining",
+            "menu-item#submenu-deporte-link-fitnessandtraining-calzado",
+            "menu-item#submenu-deporte-link-fitnessandtraining-ropa",
+            "menu-item#submenu-deporte-link-fitnessandtraining-accesorios"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-deporte-running": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-deporte-running",
+            "menu-item#submenu-deporte-link-running-calzado",
+            "menu-item#submenu-deporte-link-running-ropa",
+            "menu-item#submenu-deporte-link-running-accesorios"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-deporte-outdoor": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-deporte-outdoor",
+            "menu-item#submenu-deporte-link-outdoor-calzado",
+            // "menu-item#submenu-deporte-link-running-senderismo",
+            "menu-item#submenu-deporte-link-running-walking"
+        ]
+    }
+}

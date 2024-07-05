@@ -1,0 +1,53 @@
+{
+  "store.custom#eoss": {
+    "blocks": [
+      /* "flex-layout.row#banner-ofertas-02", */
+      "search-result-layout.customQuery#eoss"
+    ]
+  },
+
+  "search-result-layout.customQuery#eoss": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "408",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  /*----------------valentines----------------------*/
+  
+  "store.custom#valentines": {
+    "blocks": [
+      /* "flex-layout.row#banner-ofertas-02", */
+      "search-result-layout.customQuery#valentines"
+    ]
+  },
+
+  "search-result-layout.customQuery#valentines": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "valentines",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

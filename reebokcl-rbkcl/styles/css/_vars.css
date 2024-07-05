@@ -1,0 +1,12 @@
+:root{
+    --white: #FFFFFF;
+    
+    --plak-regular: "NeuePlak-Regular";
+    --neuePlak-semibold: "NeuePlak-SemiBold";
+    --neuePlak-bold: "NeuePlak-Bold";
+    --neuePlakywide-thin: 'neue_plakwide_thin';
+    --neuePlakwide-ultralight: 'neue_plakwide_ultralight';
+    --neuePlakwiswide-light: 'neue_plakwide_light';
+    --neuePlakwiswide-extrablack: 'neue_plakwide_extrablack';
+    --neuePlakwiswide-black: 'neue_plakwide_black';
+}

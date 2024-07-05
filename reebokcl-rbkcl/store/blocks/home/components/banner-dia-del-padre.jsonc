@@ -1,0 +1,106 @@
+{
+    "flex-layout.col#banner-dia-del-padre-desktop": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktopHome-dia-del-padre",
+            "flex-layout.col#main-desktopHome-info-carousel-dia-del-padre"
+        ]
+    },
+    "flex-layout.row#image-desktopHome-dia-del-padre": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-dia-del-padre"
+        ]
+    },
+    "flex-layout.col#main-desktopHome-info-carousel-dia-del-padre": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-desktopHome-info-dia-del-padre"
+            ]
+        },
+        "children": [
+            "flex-layout.row#titulo-desktopHome-dia-del-padre",
+            "flex-layout.row#body-desktopHome-dia-del-padre",
+            "flex-layout.row#buttons-desktopHome-dia-del-padre"
+        ]
+    },
+    "flex-layout.row#titulo-desktopHome-dia-del-padre": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-rebook-dia-del-padre"
+        ]
+    },
+    "flex-layout.row#body-desktopHome-dia-del-padre": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-rebook-tunes-dia-del-padre"
+        ]
+    },
+
+    "flex-layout.row#body-mobileHome-dia-del-padre": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-rebook-tunes-dia-del-padre"
+        ]
+    },
+    
+    "flex-layout.row#buttons-desktopHome-dia-del-padre": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#buttons-desktopHome-dia-del-padre"
+        ]
+    },
+    "flex-layout.col#buttons-desktopHome-dia-del-padre": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2"
+            ]
+        },
+        "children": [
+            "link#buttons-desktopHome-dia-del-padre"
+        ]
+    },
+    "link#buttons-desktopHome-dia-del-padre": {
+        "props": {
+            "href": "/diadelpadre",
+            "label": "COMPRAR AHORA",
+            "blockClass": "buttons-desktopHome-2"
+        }
+    },
+    "rich-text#titulo-rebook-dia-del-padre": {
+        "props": {
+            "blockClass": [
+                "titulo-rebook-tunes",
+                "titulo-rebook-dia-del-padre"
+            ],
+            "text": "# ¡Celebremos a Papá!",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-rebook-tunes-dia-del-padre": {
+        "props": {
+            "blockClass": [
+                "body-rebook-tunes",
+                "body-rebook-dia-del-padre"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Disfruta de hasta 30% de descuento en TODO el catálogo de hombre."
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#pdp-simular-product-variants": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container-pdp-simular-product-variants"
+    },
+
+    "children": ["flex-layout.row#pdp-similar-product"]
+  },
+
+  "flex-layout.row#pdp-similar-product": {
+    "children": ["pdp-color-selector#pdp-similar-variants"],
+    "props": {
+      "blockClass": "pdp-simular-product-variants",
+      "width": "67%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "pdp-color-selector#pdp-similar-variants": {
+    "props": {
+      "blockClass": "pdp-similar-variants"
+    }
+  }
+}

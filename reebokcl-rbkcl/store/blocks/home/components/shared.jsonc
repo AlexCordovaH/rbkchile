@@ -1,0 +1,903 @@
+{
+    "flex-layout.col#home-desktop-classics": {
+        "props": {
+            "width": "47%",
+            "blockClass": "home-desktop-classics"
+        },
+        "children": [
+            "flex-layout.row#home-desktop-classics-image",
+            "flex-layout.row#home-desktop-classics-titulo",
+            "flex-layout.row#home-desktop-classics-parrafo",
+            "flex-layout.row#home-classic-compra"
+        ]
+    },
+
+    "flex-layout.row#home-desktop-titulo": {
+        "props": {
+            "blockClass": "home-desktop-titulo"
+        },
+        "children": ["rich-text#home-titulo"]
+    },
+
+    "flex-layout.row#home-desktop-titulo2": {
+        "props": {
+            "blockClass": "home-desktop-titulo"
+        },
+        "children": ["rich-text#home-titulo2"]
+    },
+
+    "flex-layout.row#home-desktop-classics-image": {
+        "props": {
+            "blockClass": "home-desktop-classics-image"
+        },
+        "children": ["image#home-classics"]
+    },
+
+    "flex-layout.row#home-desktop-classics-titulo": {
+        "props": {
+            "blockClass": "home-desktop-classics-titulo",
+            "horizontalAlign": "left"
+        },
+        "children": ["rich-text#home-classics-titulo"]
+    },
+
+    "flex-layout.row#home-desktop-classics-parrafo": {
+        "props": {
+            "blockClass": "home-desktop-classics-parrafo"
+        },
+        "children": ["rich-text#home-classics-parrafo-1"]
+    },
+
+    "flex-layout.col#home-desktop-performance": {
+        "props": {
+            "blockClass": "home-desktop-performance",
+            "width": "47%"
+        },
+        "children": [
+            "flex-layout.row#home-desktop-performance-image",
+            "flex-layout.row#home-desktop-performance-titulo",
+            "flex-layout.row#home-desktop-performance-parrafo",
+            "flex-layout.row#home-performance-compra"
+        ]
+    },
+
+    "flex-layout.row#home-desktop-performance-image": {
+        "props": {
+            "blockClass": "home-desktop-performance-image"
+        },
+        "children": ["image#home-performance"]
+    },
+
+    "flex-layout.row#home-desktop-performance-titulo": {
+        "props": {
+            "blockClass": "home-desktop-performance-titulo",
+            "horizontalAlign": "left"
+        },
+        "children": ["rich-text#home-performance-titulo"]
+    },
+
+    "flex-layout.row#home-desktop-performance-parrafo": {
+        "props": {
+            "blockClass": "home-desktop-performance-parrafo"
+        },
+        "children": ["rich-text#home-performance-parrafo"]
+    },
+
+    "flex-layout.row#home-classic-compra": {
+        "props": {
+            "blockClass": [
+                "home-classic-performance",
+                "home-performance-compra"
+            ]
+        },
+        "children": [
+            "flex-layout.col#home-desktop-compra-mujer-classic"
+            //"flex-layout.col#home-desktop-compra-hombre-classic"
+        ]
+    },
+
+    "flex-layout.col#home-desktop-compra-mujer-classic": {
+        "props": {
+            "blockClass": "home-desktop-compra-mujer-classic",
+            "width": "auto"
+        },
+        "children": ["link#home-classic-compra-mujer"]
+    },
+
+    "flex-layout.col#home-desktop-compra-hombre-classic": {
+        "props": {
+            "blockClass": "home-desktop-compra-hombre-clasic",
+            "width": "auto"
+        },
+        "children": ["link#home-classic-compra-hombre"]
+    },
+
+    "flex-layout.row#home-performance-compra": {
+        "props": {
+            "blockClass": [
+                "home-classic-performance",
+                "home-performance-compra"
+            ]
+        },
+        "children": [
+            //"flex-layout.col#home-desktop-compra-mujer-performance"
+            "flex-layout.col#home-desktop-compra-hombre-performance"
+        ]
+    },
+
+    "flex-layout.col#home-performance-compra-colspace": {
+        "props": {
+            "width": "10%",
+            "blockClass": "home-performance-compra-colspace"
+        },
+        "children": []
+    },
+
+    "flex-layout.col#home-desktop-compra-mujer-performance": {
+        "props": {
+            "blockClass": "home-desktop-compra-mujer-performance",
+            "width": "auto"
+        },
+        "children": ["link#home-performance-compra-mujer"]
+    },
+
+    "flex-layout.col#home-desktop-compra-hombre-performance": {
+        "props": {
+            "blockClass": "home-desktop-compra-hombre-performance",
+            "width": "auto"
+        },
+        "children": ["link#home-performance-compra-hombre"]
+    },
+
+    /* =========================================================== */
+    "flex-layout.col#home-destacados-col4": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col4-image",
+            "flex-layout.row#home-destacados4-titulo",
+            "flex-layout.row#home-destacados4-body",
+            "flex-layout.row#home-destacados4-piepagina"
+        ]
+    },
+
+    "flex-layout.row#home-destacados-col4-image": {
+        "props": {
+            "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#home-destacados4"]
+    },
+
+    "flex-layout.row#home-destacados4-titulo": {
+        "props": {
+            "blockClass": ["home-destacados1-titulo"]
+        },
+        "children": ["rich-text#home-destacados4-titulo-classics"]
+    },
+
+    "flex-layout.row#home-destacados4-body": {
+        "props": {
+            "blockClass": ["home-destacados1-body"]
+        },
+        "children": ["rich-text#home-destacados4-body-classics"]
+    },
+
+    "flex-layout.row#home-destacados4-piepagina": {
+        "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+        },
+        "children": ["link#home-destacados-piepagina-4"]
+    },
+
+    "flex-layout.col#home-destacados-col1": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col1-image",
+            "flex-layout.row#home-destacados1-titulo",
+            "flex-layout.row#home-destacados1-body",
+            "flex-layout.row#home-destacados1-piepagina"
+        ]
+    },
+    "flex-layout.col#home-destacados-col1-mobile": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col1-image-mobile",
+            "flex-layout.row#home-destacados1-titulo",
+            "flex-layout.row#home-destacados1-body",
+            "flex-layout.row#home-destacados1-piepagina"
+        ]
+    },
+
+    "flex-layout.col#home-destacados-col2-new": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col2-image",
+            "flex-layout.row#home-destacados2-titulo",
+            "flex-layout.row#home-destacados2-body",
+            "flex-layout.row#home-destacados2-piepagina"
+        ]
+    },
+    "flex-layout.col#home-destacados-col2-mobile-new": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col2-image-mobile",
+            "flex-layout.row#home-destacados2-titulo",
+            "flex-layout.row#home-destacados2-body",
+            "flex-layout.row#home-destacados2-piepagina"
+        ]
+    },
+
+    "flex-layout.col#home-destacados-col3-new": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col3-image",
+            "flex-layout.row#home-destacados3-titulo",
+            "flex-layout.row#home-destacados3-body",
+            "flex-layout.row#home-destacados3-piepagina"
+        ]
+    },
+    "flex-layout.col#home-destacados-col3-mobile-new": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-col3-image-mobile",
+            "flex-layout.row#home-destacados3-titulo",
+            "flex-layout.row#home-destacados3-body",
+            "flex-layout.row#home-destacados3-piepagina"
+        ]
+    },
+
+    "flex-layout.row#home-destacados-col1-image": {
+        "props": {
+            "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#home-destacados1"]
+    },
+    "flex-layout.row#home-destacados-col1-image-mobile": {
+        "props": {
+            "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#home-destacados1-mobile"]
+    },
+
+    "flex-layout.row#home-destacados1-titulo": {
+        "props": {
+            "blockClass": ["home-destacados1-titulo"]
+        },
+        "children": ["rich-text#home-destacados1-titulo"]
+    },
+
+    "flex-layout.row#home-destacados1-body": {
+        "props": {
+            "blockClass": ["home-destacados1-body"]
+        },
+        "children": ["rich-text#home-destacados1-body"]
+    },
+
+    "flex-layout.row#home-destacados1-piepagina": {
+        "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+        },
+        "children": ["link#home-destacados-piepagina"]
+    },
+
+    "flex-layout.row#home-destacados-col2-image": {
+        "props": {
+            "blockClass": ["home-destacados-col2-image"]
+        },
+        "children": ["image#home-destacados-anuel"]
+    },
+    "flex-layout.row#home-destacados-col2-image-mobile": {
+        "props": {
+            "blockClass": ["home-destacados-col2-image"]
+        },
+        "children": ["image#home-destacados2-mobile-anuel"]
+    },
+
+    "flex-layout.row#home-destacados2-titulo": {
+        "props": {
+            "blockClass": ["home-destacados2-titulo"]
+        },
+        "children": ["rich-text#home-destacados2-titulo-anuel"]
+    },
+
+    "flex-layout.row#home-destacados2-body": {
+        "props": {
+            "blockClass": ["home-destacados2-body"]
+        },
+        "children": ["rich-text#home-destacados2-body-anuel"]
+    },
+
+    "flex-layout.row#home-destacados2-piepagina": {
+        "props": {
+            "blockClass": ["home-destacados2-piepagina"]
+        },
+        "children": ["link#home-destacados2-piepagina-anuel"]
+    },
+
+    "flex-layout.row#home-destacados-col3-image": {
+        "props": {
+            "blockClass": ["home-destacados-col3-image"]
+        },
+        "children": ["image#home-destacados3-kids"]
+    },
+    "flex-layout.row#home-destacados-col3-image-mobile": {
+        "props": {
+            "blockClass": ["home-destacados-col2-image"]
+        },
+        "children": ["image#home-destacados3-mobile-kids"]
+    },
+
+    "flex-layout.row#home-destacados3-titulo": {
+        "props": {
+            "blockClass": ["home-destacados3-titulo"]
+        },
+        "children": ["rich-text#home-destacados3-titulo-kids"]
+    },
+
+    "flex-layout.row#home-destacados3-body": {
+        "props": {
+            "blockClass": ["home-destacados3-body"]
+        },
+        "children": ["rich-text#home-destacados3-body-kids"]
+    },
+
+    "flex-layout.row#home-destacados3-piepagina": {
+        "props": {
+            "blockClass": ["home-destacados3-piepagina"]
+        },
+        "children": ["link#home-destacados3-piepagina-kids"]
+    },
+
+    "flex-layout.col#home-destacados-col4-mobile": {
+        "props": {
+            "blockClass": ["home-destacados-col2-image"]
+        },
+        "children": [
+            "image#home-destacados4-mobile-classics",
+            "flex-layout.row#home-destacados4-titulo",
+            "flex-layout.row#home-destacados4-body",
+            "flex-layout.row#home-destacados4-piepagina"
+        ]
+    },
+
+    "flex-layout.col#reebok-cardib": {
+        "props": {
+            "blockClass": "reebok-cardib"
+        },
+        "children": [
+            "flex-layout.row#reebok-cardib-titulo",
+            "flex-layout.row#reebok-cardib-body",
+            "flex-layout.row#reebok-cardib-piepagina"
+        ]
+    },
+
+    "flex-layout.row#reebok-cardib-titulo": {
+        "props": {
+            "blockClass": ["reebok-cardib-titulo"]
+        },
+        "children": ["rich-text#home-reebok-cardib-titulo"]
+    },
+
+    "flex-layout.row#reebok-cardib-body": {
+        "props": {
+            "blockClass": ["reebok-cardib-body"]
+        },
+        "children": ["rich-text#home-reebok-cardib-body"]
+    },
+
+    "flex-layout.row#reebok-cardib-piepagina": {
+        "props": {
+            "blockClass": ["reebok-cardib-piepagina"]
+        },
+        "children": ["link#home-reebok-cardib-piepagina"]
+    },
+
+    "flex-layout.col#home-destacados-colspace": {
+        "props": {
+            "width": "2%",
+            "blockClass": "home-destacados-colspace"
+        },
+        "children": []
+    },
+
+    "rich-text#home-titulo": {
+        "props": {
+            "text": "# ¡Envío GRATIS!",
+            "font": "t-heading-3",
+            "blockClass": ["home-titulo"]
+        }
+    },
+
+    "rich-text#home-titulo2": {
+        "props": {
+            "text": "##  Disfruta de envío gratis por compras desde $55.000",
+            "font": "t-heading-3",
+            "blockClass": ["home-titulo", "home-titulo2"]
+        }
+    },
+
+    "rich-text#home-classics-titulo": {
+        "props": {
+            "text": "## CONSIGUE TU LOOK SOÑADO",
+            "font": "t-heading-3",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["home-classics-titulo", "home-classics-titulo-tile"]
+        }
+    },
+
+    "rich-text#home-performance-titulo": {
+        "props": {
+            "text": "## MUESTRA TU LADO MÁS COOL",
+            "font": "t-heading-3",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["home-classics-titulo", "home-classics-titulo-tile"]
+        }
+    },
+
+    "rich-text#home-classics-parrafo-1": {
+        "props": {
+            "text": "### Disfruta cada paso que des con las últimas tendencias que tenemos para ti.",
+            "blockClass": ["home-classics-parrafo", "parrafo-unico-classics"]
+        }
+    },
+
+    "rich-text#home-performance-parrafo": {
+        "props": {
+            "text": "### Entrena como en el pasado con el vigor del presente. Encuentra todo lo que buscas para tu outfit aquí.",
+            "blockClass": ["home-classics-parrafo", "parrafo-unico-performance"]
+        }
+    },
+
+    "link#home-classic-compra-mujer": {
+        "props": {
+            "href": "/mujer",
+            "blockClass": ["home-classic-compra"],
+            "label": "CATÁLOGO MUJER"
+        }
+    },
+
+    "link#home-classic-compra-hombre": {
+        "props": {
+            "href": "/hombre",
+            "blockClass": ["home-classic-compra"],
+            "label": "CATOLOGO HOMBRE"
+        }
+    },
+
+    "link#home-performance-compra-mujer": {
+        "props": {
+            "href": "/mujer-deporte",
+            "blockClass": ["home-classic-compra"],
+            "label": "VER MUJER"
+        }
+    },
+
+    "link#home-performance-compra-hombre": {
+        "props": {
+            "href": "/hombre",
+            "blockClass": ["home-classic-compra"],
+            "label": "CATÁLOGO HOMBRE"
+        }
+    },
+
+    "link#home-reebok-cardib-piepagina": {
+        "props": {
+            "href": "/todo-reebok",
+            "blockClass": ["home-reebok-cardib-piepagina"],
+            "label": "VER TODO"
+        }
+    },
+
+    "link#home-destacados-piepagina": {
+        "title": "Desata tus superpoderes: Reebok X DC Comics",
+        "props": {
+            "href": "/dc?order=OrderByPriceDESC",
+            "blockClass": ["home-destacados-piepagina"],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "link#home-destacados-piepagina-4": {
+        "title": "Impulsa la libertad en todas sus dimensiones",
+        "props": {
+            "href": "/classics?order=OrderByPriceDESC",
+            "blockClass": ["home-destacados-piepagina"],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "link#home-destacados2-piepagina": {
+        "props": {
+            "href": "/266/chaqueta/conjunto-deportivo/pantalon/poleron/todo-ropa/todo-ropa?initialMap=productClusterIds&initialQuery=266&map=productClusterIds,tipo-de-producto,tipo-de-producto,tipo-de-producto,tipo-de-producto,productclusternames,productclusternames&order=OrderByPriceDESC",
+            "blockClass": [
+                "home-destacados-piepagina",
+                "coleccion-destacados-piepagina"
+            ],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "link#home-destacados2-piepagina-anuel": {
+        "props": {
+            "href": "/ninos?page=1",
+            "blockClass": [
+                "home-destacados-piepagina",
+                "coleccion-destacados-piepagina"
+            ],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "link#home-destacados3-piepagina": {
+        "props": {
+            "href": "/glide",
+            "blockClass": ["home-destacados-piepagina"],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "link#home-destacados3-piepagina-kids": {
+        "props": {
+            "href": "/MYNAMEIS",
+            "blockClass": ["home-destacados-piepagina"],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "link#home-destacados-piepagina-classics": {
+        "title": "Estilo Libre",
+        "props": {
+            "href": "/classics?order=OrderByPriceDESC",
+            "blockClass": ["home-destacados-piepagina"],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+    "rich-text#home-classic-compra-mujer": {
+        "props": {
+            "text": "[VER MUJER](/classics/mujer)",
+            "blockClass": ["home-classic-compra"]
+        }
+    },
+
+    "rich-text#home-classic-compra-hombre": {
+        "props": {
+            "text": "[VER HOMBRE](/classics/hombre)",
+            "blockClass": ["home-classic-compra"]
+        }
+    },
+
+    "rich-text#home-performance-compra-mujer": {
+        "props": {
+            "text": "[VER MUJER](/222?map=productClusterIds)",
+            "blockClass": ["home-classic-compra"]
+        }
+    },
+
+    "rich-text#home-performance-compra-hombre": {
+        "props": {
+            "text": "[VER HOMBRE](/223?map=productClusterIds)",
+            "blockClass": ["home-classic-compra"]
+        }
+    },
+
+    "rich-text#home-destacados-titutlo": {
+        "props": {
+            "text": "Destacadosssss",
+            "blockClass": ["home-destacados-titutlo"]
+        }
+    },
+
+    "rich-text#home-destacados1-titulo": {
+        "props": {
+            "text": "### DESATA TUS SUPERPODERES: REEBOK X DC COMICS",
+            "blockClass": ["home-destacados-titulo"]
+        }
+    },
+
+    "rich-text#home-destacados1-body": {
+        "props": {
+            "text": "### Saca al superhéroe que llevas dentro con una colección diseñada para la batalla. <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "rich-text#home-destacados1-piepagina": {
+        "props": {
+            "text": "### COMPRAR NANO",
+            "blockClass": ["home-destacados-piepagina"]
+        }
+    },
+
+    "rich-text#home-destacados2-titulo-anuel": {
+        "props": {
+            "text": "### La vida es para jugar",
+            "blockClass": ["home-destacados-titulo"]
+        }
+    },
+
+    "rich-text#home-destacados2-body": {
+        "props": {
+            "text": "### Dale a tu outfit el toque de estilo que necesita en esta temporada. <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "rich-text#home-destacados2-body-anuel": {
+        "props": {
+            "text": "### Vístelos con las mejores zapatillas <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "rich-text#home-destacados2-piepagina": {
+        "props": {
+            "text": "### VER COLABORACIONES",
+            "blockClass": [
+                "home-destacados-piepagina",
+                "coleccion-destacados-piepagina"
+            ]
+        }
+    },
+
+    "rich-text#home-destacados3-titulo": {
+        "props": {
+            "text": "### REEBOK GLIDE: NUNCA PASA DE MODA",
+            "blockClass": ["home-destacados-titulo"]
+        }
+    },
+
+    "rich-text#home-destacados3-titulo-kids": {
+        "props": {
+            "text": "### MY NAME IS",
+            "blockClass": ["home-destacados-titulo"]
+        }
+    },
+
+    "rich-text#home-destacados3-body": {
+        "props": {
+            "text": "### El diseño impecable y minimalista te permite combinarla con todo. <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "rich-text#home-destacados3-body-kids": {
+        "props": {
+            "text": "### Los clásicos de siempre con diseños que hacen tributo al Vector <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "rich-text#home-destacados3-piepagina": {
+        "props": {
+            "text": "### COMPRAR TOPS DEPORTIVOS",
+            "blockClass": ["home-destacados-piepagina"]
+        }
+    },
+
+    /* ==================================================== */
+    "rich-text#home-destacados4-titulo-classics": {
+        "props": {
+            "text": "### Estilo Libre",
+            "blockClass": ["home-destacados-titulo"]
+        }
+    },
+
+    "rich-text#home-destacados4-body-classics": {
+        "props": {
+            "text": "### Impulsa la libertad en todas sus dimensiones <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "rich-text#home-reebok-cardib-titulo": {
+        "props": {
+            "text": "## ¡TENEMOS LO QUE ESTAS BUSCANDO!",
+            "font": "t-heading-3",
+            "blockClass": ["home-reebok-cardib-titulo"]
+        }
+    },
+
+    "rich-text#home-reebok-cardib-body": {
+        "props": {
+            "text": "###  Descubre una gran variedad de ropa, calzado y accesorios para sorprender a tus seres queridos en estas fiestas. ",
+            "blockClass": ["home-reebok-cardib-body"]
+        }
+    },
+
+    "rich-text#home-reebok-cardib-piepagina": {
+        "props": {
+            "text": "VER MÁS",
+            "blockClass": ["home-reebok-cardib-piepagina"]
+        }
+    },
+    "rich-text#home-subpromotion-red": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### ¡Más compras más descuentos! \n #### Obtén 10% de descuento por la compra de 2 unidades y 20% por la compra de 3 unidades o más. \n [comprar ahora](/outlet)",
+            "blockClass": "home-subpromotion-red"
+        }
+    },
+
+    // Doorway NANO Flex 2.0
+
+    "flex-layout.col#home-destacados-nano-flex": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-nano-flex-image",
+            "flex-layout.row#home-nano-flex-titulo",
+            "flex-layout.row#home-nano-flex-body",
+            "flex-layout.row#home-nano-flex-piepagina"
+        ]
+    },
+
+    "flex-layout.col#home-destacados-nano-flex-mobile": {
+        "props": {
+            "blockClass": "home-destacados-col"
+        },
+        "children": [
+            "flex-layout.row#home-destacados-nano-flex-image-mobile",
+            "flex-layout.row#home-nano-flex-titulo",
+            "flex-layout.row#home-nano-flex-body",
+            "flex-layout.row#home-nano-flex-piepagina"
+        ]
+    },
+
+    "flex-layout.row#home-destacados-nano-flex-image": {
+        "props": {
+            "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#home-nano-flex"]
+    },
+    "flex-layout.row#home-destacados-nano-flex-image-mobile": {
+        "props": {
+            "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#home-nano-flex-mobile"]
+    },
+
+    "flex-layout.row#home-nano-flex-titulo": {
+        "props": {
+            "blockClass": ["home-destacados1-titulo"]
+        },
+        "children": ["rich-text#home-nano-flex-titulo"]
+    },
+
+    "flex-layout.row#home-nano-flex-body": {
+        "props": {
+            "blockClass": ["home-destacados1-body"]
+        },
+        "children": ["rich-text#home-nano-flex-body"]
+    },
+
+    "flex-layout.row#home-nano-flex-piepagina": {
+        "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+        },
+        "children": ["link#home-destacados-nano-flex-piepagina"]
+    },
+
+    "rich-text#home-nano-flex-titulo": {
+        "props": {
+            "text": "### NANOFLEX 2.0",
+            "blockClass": ["home-destacados-titulo"]
+        }
+    },
+
+    "rich-text#home-nano-flex-body": {
+        "props": {
+            "text": "### Las zapatillas oficiales del Fitness. <br/><br/>",
+            "blockClass": ["home-destacados-body"]
+        }
+    },
+
+    "link#home-destacados-nano-flex-piepagina": {
+        "title": "Las zapatillas oficiales del Fitness.",
+        "props": {
+            "href": "/nanoflex?order=OrderByPriceDESC",
+            "blockClass": ["home-destacados-piepagina"],
+            "label": "COMPRAR AHORA"
+        }
+    },
+
+        // Doorway EXTRA Classic
+
+        "flex-layout.col#home-destacados-extra-classic-new": {
+            "props": {
+                "blockClass": "home-destacados-col"
+            },
+            "children": [
+                "flex-layout.row#home-destacados-extra-classic-image",
+                "flex-layout.row#home-extra-classic-titulo",
+                "flex-layout.row#home-extra-classic-body",
+                "flex-layout.row#home-extra-classic-piepagina"
+            ]
+        },
+    
+        "flex-layout.col#home-destacados-extra-classic-mobile-new": {
+            "props": {
+                "blockClass": "home-destacados-col"
+            },
+            "children": [
+                "flex-layout.row#home-destacados-extra-classic-image-mobile",
+                "flex-layout.row#home-extra-classic-titulo",
+                "flex-layout.row#home-extra-classic-body",
+                "flex-layout.row#home-extra-classic-piepagina"
+            ]
+        },
+    
+        "flex-layout.row#home-destacados-extra-classic-image": {
+            "props": {
+                "blockClass": ["home-destacados-col1-image"]
+            },
+            "children": ["image#home-doorway-extra-classic"]
+        },
+        "flex-layout.row#home-destacados-extra-classic-image-mobile": {
+            "props": {
+                "blockClass": ["home-destacados-col1-image"]
+            },
+            "children": ["image#home-doorway-extra-classic-mobile"]
+        },
+    
+        "flex-layout.row#home-extra-classic-titulo": {
+            "props": {
+                "blockClass": ["home-destacados1-titulo"]
+            },
+            "children": ["rich-text#home-extra-classic-titulo"]
+        },
+    
+        "flex-layout.row#home-extra-classic-body": {
+            "props": {
+                "blockClass": ["home-destacados1-body"]
+            },
+            "children": ["rich-text#home-extra-classic-body"]
+        },
+    
+        "flex-layout.row#home-extra-classic-piepagina": {
+            "props": {
+                "blockClass": ["home-destacados1-piepagina"]
+            },
+            "children": ["link#home-destacados-extra-classic-piepagina"]
+        },
+    
+        "rich-text#home-extra-classic-titulo": {
+            "props": {
+                "text": "### REEBOK X DIME",
+                "blockClass": ["home-destacados-titulo"]
+            }
+        },
+    
+        "rich-text#home-extra-classic-body": {
+            "props": {
+                "text": "### Lleva lo clásico a un nuevo nivel <br/><br/>",
+                "blockClass": ["home-destacados-body"]
+            }
+        },
+    
+        "link#home-destacados-extra-classic-piepagina": {
+            "title": "Las zapatillas oficiales del Fitness.",
+            "props": {
+                "href": "/dime",
+                "blockClass": ["home-destacados-piepagina"],
+                "label": "COMPRAR AHORA"
+            }
+        }
+}

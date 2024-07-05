@@ -1,0 +1,14 @@
+{
+    "responsive-layout.desktop#floatzig":{
+        "children":[
+            //"flex-layout.row#banner-media-floatzig",
+            "custom-banner#floatzig-hero-banner-landing",
+            "flex-layout.row#floatzig-row-images-text",
+            "flex-layout.row#component-shelf-productos-floatzig-destacados",
+            "custom-banner#floatzig-second-banner-landing-00",
+            "flex-layout.row#doorway-floatzig-title",
+            "flex-layout.row#doorway-floatzig-content",
+            "flex-layout.row#banner-media-floatzig-inferior"
+        ]
+    }
+}

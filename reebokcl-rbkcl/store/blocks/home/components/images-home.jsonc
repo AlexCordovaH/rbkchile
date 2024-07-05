@@ -1,0 +1,532 @@
+{
+    "image#home-classics": {
+        "props": {
+            "title": "UN CLÁSICO ES PARA SIEMPRE",
+            "alt": "UN CLÁSICO ES PARA SIEMPRE",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Tile_ClassicLeather_SS22_800x800.jpg",
+            "blockClass": "home-classics",
+            "link": {
+                "title": "UN CLÁSICO ES PARA SIEMPRE",
+                "url": "/mujer"
+            }
+        }
+    },
+    "image#home-performance": {
+        "props": {
+            "title": "Si estas pensando en tus metas…",
+            "alt": "Si estas pensando en tus metas…",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Tile_ClassicLeather_800x800.jpg",
+            "blockClass": "home-performance",
+            "link": {
+                "title": "Si estas pensando en tus metas…",
+                "url": "/hombre"
+            }
+        }
+    },
+    "image#home-destacados1": {
+        "props": {
+            "title": "Desata tus superpoderes: Reebok X DC Comics",
+            "alt": "Desata tus superpoderes: Reebok X DC Comics",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/DoorwayGrid_DC_816x1020_DT-1302-min.gif",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Desata tus superpoderes: Reebok X DC Comics",
+                "url": "/dc?order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#home-destacados1-mobile": {
+        "props": {
+            "title": "Desata tus superpoderes: Reebok X DC Comics",
+            "alt": "Desata tus superpoderes: Reebok X DC Comics",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/DoorwayGrid_DC_508x680_-mobile-b-1302.gif",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Desata tus superpoderes: Reebok X DC Comics",
+                "url": "/dc?order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#home-destacados2": {
+        "props": {
+            "title": "REEBOK CHILE",
+            "alt": "REEBOK CHILE",
+            "src": "/arquivos/Hero-Banner-San-Valentin-Mobile-new-category.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "REEBOK CHILE",
+                "url": "/266/chaqueta/conjunto-deportivo/pantalon/poleron/todo-ropa/todo-ropa?initialMap=productClusterIds&initialQuery=266&map=productClusterIds,tipo-de-producto,tipo-de-producto,tipo-de-producto,tipo-de-producto,productclusternames,productclusternames&order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#home-destacados-anuel": {
+        "props": {
+            "title": "REEBOK CHILE",
+            "alt": "REEBOK CHILE",
+            "src": "/arquivos/banner-homeninos.png",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "REEBOK CHILE",
+                "url": "/ninos?page=1"
+            }
+        }
+    },
+    "image#home-destacados2-mobile": {
+        "props": {
+            "title": "¡PREPÁRALOS PARA EL REGRESO A CLASE!",
+            "alt": "¡PREPÁRALOS PARA EL REGRESO A CLASE!",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/DG_ClubC85_508x680.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "¡PREPÁRALOS PARA EL REGRESO A CLASE!",
+                "url": "/266/chaqueta/conjunto-deportivo/pantalon/poleron/todo-ropa/todo-ropa?initialMap=productClusterIds&initialQuery=266&map=productClusterIds,tipo-de-producto,tipo-de-producto,tipo-de-producto,tipo-de-producto,productclusternames,productclusternames&order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#home-destacados2-mobile-anuel": {
+        "props": {
+            "title": "¡PREPÁRALOS PARA EL REGRESO A CLASE!",
+            "alt": "¡PREPÁRALOS PARA EL REGRESO A CLASE!",
+            "src": "/arquivos/banner-homeninos.png",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "¡PREPÁRALOS PARA EL REGRESO A CLASE!",
+                "url": "/escolares"
+            }
+        }
+    },
+    "image#home-destacados3": {
+        "props": {
+            "title": "Reebok Glide : nunca pasa de moda",
+            "alt": "Reebok Glide : nunca pasa de moda",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/DoorwayGrid Desktop-1302.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Reebok Glide : nunca pasa de moda",
+                "url": "/glide"
+            }
+        }
+    },
+    "image#home-destacados3-kids": {
+        "props": {
+            "title": "Reebok Glide : nunca pasa de moda",
+            "alt": "Reebok Glide : nunca pasa de moda",
+            "src": "/arquivos/DOORWAY-GRID-MyNameIs-DESKTOP-new.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "MY NAME IS",
+                "url": "/MYNAMEIS"
+            }
+        }
+    },
+    "image#home-destacados3-mobile": {
+        "props": {
+            "title": "Reebok Glide : nunca pasa de moda",
+            "alt": "Reebok Glide : nunca pasa de moda",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/DoorwayGrid_Glide_508x680_MB-mobile-b-1302.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Reebok Glide : nunca pasa de moda",
+                "url": "/glide"
+            }
+        }
+    },
+    "image#home-destacados3-mobile-kids": {
+        "props": {
+            "title": "Reebok Glide : nunca pasa de moda",
+            "alt": "Reebok Glide : nunca pasa de moda",
+            "src": "/arquivos/DOORWAY-GRID-MyNameIs-MOBILE-new.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Sus Primeros Pasos",
+                "url": "/mynameis"
+            }
+        }
+    },
+    /* =========================================== */
+    "image#home-destacados4": {
+        "props": {
+            "title": "",
+            "alt": "",
+            "src": "/arquivos/classics.png",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Estilo Libre",
+                "url": "/classics?order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#home-destacados4-mobile-classics": {
+        "props": {
+            "title": "",
+            "alt": "",
+            "src": "/arquivos/classicsMobile.png",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "Estilo Libre",
+                "url": "/classics?order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#reebook-cardib-home": {
+        "props": {
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Split_Holiday_950x760_DT_up.jpg",
+            "blockClass": "reebook-cardib-home",
+            "link": {
+                "url": "/todo-reebok"
+            }
+        }
+    },
+    "image#image-carousel3": {
+        "props": {
+            "alt": "Reebok",
+            "title": "Reebok",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Hero_EOSS_texto_DT.jpg",
+            "link": {
+                "url": "/finaldetemporada"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-carousel-mobile1": {
+        "props": {
+            "alt": "Reebok",
+            "title": "Reebok",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Hero_EOSS_texto_MB_2.jpg",
+            "link": {
+                "url": "/finaldetemporada"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-carousel4": {
+        "props": {
+            "alt": "Reebok",
+            "title": "Reebok ",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Hero_SanValentines_texto_DT.jpg",
+            "link": {
+                "url": "/sanvalentin"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-carousel-classics-desktop": {
+        "props": {
+            "alt": "REEBOK DIA DE LA MUJER.",
+            "title": "REEBOK DIA DE LA MUJER.",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/HeroIma_DiaMujer_1020x980.jpg",
+            "link": {
+                "title": "REEBOK DIA DE LA MUJER.",
+                "url": "/diadelamujer"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-carousel-classics-mobile": {
+        "props": {
+            "alt": "LIVE CLASSIC: Conserva el pasado con lo último de Classics.",
+            "title": "LIVE CLASSIC: Conserva el pasado con lo último de Classics. ",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/HeroIma_DiaMujer_750x100.jpg",
+            "link": {
+                "title": "LIVE CLASSIC: Conserva el pasado con lo último de Classics. ",
+                "url": "/classics?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#home-desktop-hero-banner-1": {
+        "props": {
+            "alt": "Live Classic | Estilo Libre | Reebok Chile",
+            "title": "Live Classic | Estilo Libre | Reebok Chile",
+            "src": "/arquivos/Hero-Image.Desktop.home.jpg",
+            "link": {
+                "url": "/classics?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#home-desktop-hero-banner-2": {
+        "props": {
+            "alt": "Día de las Madres",
+            "title": "Día de las Madres",
+            "src": "/arquivos/baner10MDesktop.jpg",
+            "link": {
+                "url": "/diadelasmadres"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#home-mobile-hero-banner-2": {
+        "props": {
+            "alt": "Día de las Madres",
+            "title": "Día de las Madres",
+            "src": "/arquivos/MobMadres816X1020.jpg",
+            "link": {
+                "url": "/diadelasmadres"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#home-mobile-hero-banner-1": {
+        "props": {
+            "alt": "Live Classic | Estilo Libre | Reebok Chile",
+            "title": "Live Classic | Estilo Libre | Reebok Chile",
+            "src": "/arquivos/Hero-Image.Mobile.home.jpg",
+            "link": {
+                "url": "/classics?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-carousel-mobile6": {
+        "props": {
+            "alt": "Reebok",
+            "title": "Reebok",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Hero-preserve-the-past-mobile-1502.jpg",
+            "link": {
+                "url": "/finaldetemporada"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-carousel-mobile2": {
+        "props": {
+            "alt": "Reebok ",
+            "title": "Reebok ",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/Hero_SanValentines_texto_MB.jpg",
+            "link": {
+                "url": "/sanvalentin"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    /* Banner promoción Anuel*/
+    "image#image-banner-anuel": {
+        "props": {
+            "alt": "Reebok chile",
+            "title": "Reebok chile",
+            "src": "/arquivos/anuel-coll-desktop.jpg",
+            "link": {
+                "url": "/zapatillas-anuel-classic-leather-unisex-100048337/p"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-anuel-mobile": {
+        "props": {
+            "alt": "Reebok chile",
+            "title": "Reebok chile",
+            "src": "/arquivos/anuel-coll-mobile.jpg",
+            "link": {
+                "url": "/zapatillas-anuel-classic-leather-unisex-100048337/p"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    /* Banner promoción Día del padre*/
+    "image#image-banner-dia-del-padre": {
+        "props": {
+            "alt": "Reebok chile",
+            "title": "Reebok chile",
+            "src": "/arquivos/herobannerdesktopadre.jpg",
+            "link": {
+                "url": "/diadelpadre"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-dia-del-padre-mobile": {
+        "props": {
+            "alt": "Reebok chile",
+            "title": "Reebok chile",
+            "src": "/arquivos/herobannermobilepadre.jpg",
+            "link": {
+                "url": "/diadelpadre"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    /* Banner Nano X 3*/
+    "image#image-banner-nano-3": {
+        "props": {
+            "alt": "NANO X3",
+            "title": "NANO X3",
+            "src": "/arquivos/hero-banner-nano3-deskt.jpg",
+            "link": {
+                "url": "/nanox3?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-nano-3-mobile": {
+        "props": {
+            "alt": "NANO X3",
+            "title": "NANO X3",
+            "src": "/arquivos/hero-banner-nano3-mobile.jpg",
+            "link": {
+                "url": "/nanox3?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    /* Banner PLP Nano X 3*/
+    "image#image-banner-plp-nano-3": {
+        "props": {
+            "alt": "NANO X3",
+            "title": "NANO X3",
+            "src": "/arquivos/PLP_Desktop_NanoX3_ss23_1020x480.jpg",
+            "link": {
+                "url": "/nanox3?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel",
+                "image-nano3-plp"
+            ]
+        }
+    },
+    "image#image-banner-plp-nano-3-mobile": {
+        "props": {
+            "alt": "NANO X3",
+            "title": "NANO X3",
+            "src": "/arquivos/PLP_Mobile_NanoX3_ss23_750x750.jpg",
+            "link": {
+                "url": "/nanox3?order=OrderByPriceDESC"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    // Imágenes doorway Nano Flex
+    "image#home-nano-flex": {
+        "props": {
+            "title": "NANOFLEX 2.0",
+            "alt": "NANOFLEX 2.0",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/nano-flex-desk.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "NANOFLEX 2.0",
+                "url": "/nanoflex?order=OrderByPriceDESC"
+            }
+        }
+    },
+    "image#home-nano-flex-mobile": {
+        "props": {
+            "title": "NANOFLEX 2.0",
+            "alt": "NANOFLEX 2.0",
+            "src": "https://reebokcl.vteximg.com.br/arquivos/nano-flex-mobile.jpg",
+            "blockClass": "home-destacados",
+            "link": {
+                "title": "NANOFLEX 2.0",
+                "url": "/nanoflex?order=OrderByPriceDESC"
+            }
+        }
+    },
+        // Imágenes doorway Extra Classic
+        "image#home-doorway-extra-classic": {
+            "props": {
+                "title": "DIME",
+                "alt": "DIME",
+                "src": "https://reebokcl.vteximg.com.br/arquivos/DOORWAY-GRID-DEKT-2-1.jpg",
+                "blockClass": "home-destacados",
+                "link": {
+                    "title": "DIME",
+                    "url": "/dime"
+                }
+            }
+        },
+        "image#home-doorway-extra-classic-mobile": {
+            "props": {
+                "title": "DIME",
+                "alt": "DIME",
+                "src": "https://reebokcl.vteximg.com.br/arquivos/DOORWAY-GRID-DEKT-2-1.jpg",
+                "blockClass": "home-destacados",
+                "link": {
+                    "title": "DIME",
+                    "url": "/dime"
+                }
+            }
+        },
+    /* Banner 2x1*/
+    "image#image-banner-2x1": {
+        "props": {
+            "alt": "2x1",
+            "title": "2x1",
+            "src": "/arquivos/HERO-Banner-Desktop-2x1.jpg",
+            "link": {
+                "url": "/ofertas"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-2x1-mobile": {
+        "props": {
+            "alt": "2x1",
+            "title": "2x1",
+            "src": "/arquivos/HERO-Banner-Mobile-2x1.jpg",
+            "link": {
+                "url": "/ofertas"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    }
+}

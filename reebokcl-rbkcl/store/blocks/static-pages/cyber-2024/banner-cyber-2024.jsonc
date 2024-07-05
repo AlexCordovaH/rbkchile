@@ -1,0 +1,160 @@
+{
+    "custom-banner#cyber-2024": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESK-CYBER-CL-2024.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-CYBER-CL-2024.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "PREPÁRATE PARA",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr3 cWhite mb0",
+                        "tablet": "banner-headline-bottom mr3 cWhite mb0",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "LAS OFERTAS 🛍️",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr3 cWhite mb1",
+                        "tablet": "banner-headline-bottom mr3 cWhite",
+                        "phone": "banner-headline-bottom cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Regístrate y sé el primero en enterarte de",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cWhite mb0",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "nuestras novedades.",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cWhite",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "REGÍSTRATE",
+                        "link": "/newsletter",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2 font-family-NR",
+                            "tablet": "mt5 fs70 font-family-NR",
+                            "phone": "mt5 mr17 fs70 font-family-NR"
+                        }
+                    },
+                    {
+                        "label": "ACTUALIZA TUS DATOS",
+                        "link": "/login",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2 font-family-NR",
+                            "tablet": "mt5 fs70 font-family-NR",
+                            "phone": "mt5 mr17 fs70 font-family-NR"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t25 tar font-family-NR",
+                "tablet": "relative t25 tar font-family-NR",
+                "phone": "relative t71 tac font-family-NR"
+            }
+        }
+    },
+    /* mobile */
+
+    "flex-layout.row#custom-banner-cyber-2024": { 
+        "children": ["custom-banner#cyber-2024-mobile"],
+        "props": {
+          "blockClass": "custom-banner-members",
+          "marginBottom": 4
+        }
+    },
+    
+    "custom-banner#cyber-2024-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESK-CYBER-CL-2024.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-CYBER-CL-2024.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "PREPÁRATE PARA",
+                    "sx": {
+                        "desktop": "font-family-NR banner-headline-bottom mr3 cWhite mb0",
+                        "tablet": "banner-headline-bottom mr3 cWhite",
+                        "phone": "banner-headline-bottom cWhite mb0"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "LAS OFERTAS 🛍️",
+                    "sx": {
+                        "desktop": "font-family-NR banner-headline-bottom mr3 cWhite mb0",
+                        "tablet": "banner-headline-bottom mr3 cWhite",
+                        "phone": "banner-headline-bottom cWhite mb1"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Regístrate y sé el primero en enterarte de",
+                    "sx": {
+                        "desktop": "font-family-NR banner-copy mr3 cWhite mb0",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "nuestras novedades.",
+                    "sx": {
+                        "desktop": "font-family-NR banner-copy mr3 cWhite",
+                        "tablet": "banner-copy mr3 cWhite",
+                        "phone": "banner-copy cWhite"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "REGÍSTRATE",
+                        "link": "/newsletter",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr1",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70 ml7"
+                        }
+                    },
+                    {
+                        "label": "ACTUALIZA TUS DATOS",
+                        "link": "/login",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "center"
+            },
+            "sx": {
+                "desktop": "relative t30 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t60 tac"
+            }
+        }
+    }
+}

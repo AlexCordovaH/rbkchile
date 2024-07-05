@@ -1,0 +1,455 @@
+.errorClass {
+    border: 2px solid #f44336 !important;
+    border-color: #f44336 !important;
+}
+
+.sucessClass {
+    border-radius: 50%;
+    border: 2px solid #4caf50 !important;
+}
+
+.FormularioLabel {
+    margin-top: 2px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+.FormularioErrorMessage {
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.FormularioLabelNewsLetter {
+    display: flex;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+.message {
+    color: #fafafa;
+}
+
+.message--error {
+    color: #fafafa;
+}
+
+.FormularioInputNewsLetter {
+    height: 40px;
+    background-color: white;
+    border: #484848;
+    border-radius: 3px;
+    font-size: 0.813rem;
+    padding-left: 10px;
+    color: #121212;
+    margin-top: 5px;
+}
+
+.nameInput:focus,
+.emailInput:focus {
+    outline: auto;
+}
+
+.FormularioLabelNewsLetter--boton-enviar-formulario {
+    display: none;
+}
+
+
+
+
+.FormularioLabelCondiciones {
+    color: #121212;
+    font-weight: 100;
+    font-size: .75rem;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.FormularioClassCondiciones {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.FormularioInputNewsLetter--boton-enviar-formulario:hover {
+    transition: all 0.3s ease 0s;
+    opacity: 0.8;
+    cursor: pointer !important;
+}
+
+.errorSubmitClass--newsletter-custom,
+.errorSubmitClass--newsletter-landing-custom {
+    /* color: #121212 !important; */
+    color: #e41d1b !important;
+    font-family: "NeuePlak-Regular" !important;
+    font-weight: 700 !important;
+    font-size: 1.125rem;
+}
+
+.sucessSubmitClass--newsletter-custom {
+    color: #121212 !important;
+    font-weight: 400 !important;
+    font-family: "NeuePlak-SemiBold" !important;
+    font-weight: bold !important;
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.FormularioSucessButtom--newsletter-custom {
+    display: none;
+}
+
+.spinnerClass--newsletter-custom {
+    display: flex;
+    justify-content: center;
+    color: green;
+    min-height: 35vh !important;
+    align-items: center;
+}
+
+.FormularioInputNewsLetter::placeholder {
+    font-family: "Lato-Regular" !important;
+}
+
+
+/*** Formulario de Ventas Corporativas ***/
+
+ :global(.vtex-rich-text-0-x-paragraph--ventas-corporativas-titulo) {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 1.875rem;
+    font-family: "Lato-Regular" !important;
+    color: #3f3f40;
+}
+
+ :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 1px solid #d1d0d0 !important;
+    border-radius: 5px;
+}
+
+ :global(.vtex-flex-layout-0-x-flexRow--ventas-corporativas) {
+    margin-top: 25px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.FormularioInputVentasCorporativas,
+.FormularioInputVentasCorporativas {
+    height: 40px;
+    width: auto;
+    background-color: white;
+    border: 1px solid #d1d0d0 !important;
+    border-radius: 3px;
+    font-size: 0.813rem;
+    padding-left: 10px;
+    color: #121212;
+    margin-top: 5px;
+}
+
+.FormularioInputVentasCorporativas:focus {
+    outline: none !important;
+    border-color: #000000 !important;
+}
+
+ :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) .FormularioInput:focus {
+    outline: none !important;
+    border-color: #000000 !important;
+}
+
+ :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) .FormularioInput {
+    height: auto;
+    width: auto;
+    background-color: white;
+    border: 1px solid #d1d0d0 !important;
+    border-radius: 3px;
+    font-size: 0.813rem;
+    padding-left: 10px;
+    color: #121212;
+    margin-top: 15px;
+}
+
+ :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) .FormularioLabel {
+    font-weight: 100 !important;
+}
+
+.FormularioClassVentasCorporativas {
+    display: flex;
+    flex-direction: column;
+}
+
+ :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) .FormularioClass {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormularioInputVentasCorporativas--boton-enviar-formulario {
+    padding: 0;
+    color: white;
+    background-color: #000000 !important;
+    border: #000000 !important;
+    width: 15% !important;
+    font-size: 0.75rem;
+    height: 30px;
+}
+
+.FormularioInputVentasCorporativas--boton-enviar-formulario:hover {
+    opacity: 0.70;
+    cursor: pointer;
+}
+
+.spinnerClass--ventas-corporativas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sucessContainer--ventas-corporativas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sucessSubmitClass--ventas-corporativas {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Lato-Regular" !important;
+    color: #3f3f40;
+    margin-top: 25px;
+}
+
+.FormularioSucessButtom--ventas-corporativas {
+    display: flex;
+    justify-content: center;
+    width: 20% !important;
+    margin-top: 30px !important;
+    background-color: #121212;
+    border: 1px solid #000000 !important;
+    border-radius: 3px;
+    font-size: 0.813rem;
+    padding-left: 10px;
+    color: white;
+    margin-top: 15px;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+
+.FormularioSucessButtom--ventas-corporativas:hover {
+    transition: all 0.3s ease 0s;
+    opacity: 0.8;
+    cursor: pointer !important;
+}
+
+.errorSubmitClass--ventas-corporativas {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+
+.FormularioClassNewsLetter .FormularioInputNewsLetter--boton-input-formulario,
+.FormularioSelect--boton-input-formulario{
+    min-width: 96%;
+    border: 1px solid #5E5E5E !important;
+    border-radius: 4px;
+    padding: 10px 16px;
+    height: fit-content;
+    margin: 0;
+    margin-top: 3px;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #5E5E5E;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.FormularioInputNewsLetter::placeholder{
+    font-family: "NeuePlak-Regular" !important;
+}
+.FormularioInputNewsLetter--boton-input-formulario-daty{
+    min-width: 96%;
+    border: 1px solid #5E5E5E !important;
+    border-radius: 4px;
+    padding: 0px !important;
+    color: #5E5E5E;
+    /* padding: 14px 16px;
+    height: fit-content;
+    margin: 0;
+    margin-top: 4px;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #5E5E5E;
+    flex: none;
+    order: 0;
+    flex-grow: 1; */
+}
+
+
+.FormularioSelect--boton-input-formulario{
+    width: 96%;
+    margin-top: 7px;
+}
+
+
+
+.FormularioLabelNewsLetter,
+.FormularioLabel--boton-input-formulario {
+    padding: 0;
+    margin-top: 2px;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #5E5E5E;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.FormularioInputNewsLetter--boton-enviar-formulario {
+    margin: 0;
+    padding: 14px 20px !important;
+    width: 96.5% !important;
+    background: #121212;
+    /* border-radius: 25px; */
+    color: #fff;
+    height: 48px;
+}
+
+.FormularioLabelNewsLetter--boton-enviar-formulario {
+    margin: 0;
+}
+
+.FormularioClassCondiciones {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FormularioErrorMessage--boton-input-formulario {
+    padding: 0;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.sucessSubmitClass--newsletter-custom {
+    padding: 0;
+    font-family: "NeuePlak-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.FormularioInputNewsLetter--boton-enviar-formulario:hover {
+    background: #244486 !important;
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+     :global(.vtex-rich-text-0-x-paragraph--ventas-corporativas-titulo) {
+        font-size: 1.625rem;
+    }
+    .FormularioInputVentasCorporativas--boton-enviar-formulario {
+        width: 25% !important;
+    }
+     :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .FormularioInputNewsLetter {
+        width: 97%;
+    }
+
+
+    .FormularioSucessButtom--ventas-corporativas {
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 40em) {
+    
+     :global(.vtex-rich-text-0-x-paragraph--ventas-corporativas-titulo) {
+        font-size: 1.25rem;
+    }
+    .FormularioInputVentasCorporativas--boton-enviar-formulario {
+        width: 25% !important;
+    }
+     :global(.vtex-flex-layout-0-x-flexRow--landing-ventas-corporativas) {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  
+
+
+  
+    .FormularioClassCondiciones {
+        padding-top: 3px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+     :global(.vtex-rich-text-0-x-paragraph--ventas-corporativas-titulo) {
+        font-size: 1.375rem !important;
+    }
+    .sucessSubmitClass--ventas-corporativas {
+        font-size: 0.875rem !important;
+    }
+    .FormularioSucessButtom--ventas-corporativas {
+        width: 45% !important;
+    }
+    .FormularioInputNewsLetter--boton-enviar-formulario {
+        margin: 10px 0 0 0 !important;
+        padding: 14px 20px !important;
+        width: 100% !important;
+        background: #121212;
+        color: #fff;
+    }
+    .FormularioInputNewsLetter--boton-input-formulario {
+        width: 100% !important;
+    }
+
+    .FormularioSelect--boton-input-formulario{
+        width: 100% !important;
+    }
+}

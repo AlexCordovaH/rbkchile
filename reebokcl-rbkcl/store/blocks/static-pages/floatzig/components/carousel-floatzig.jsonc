@@ -1,0 +1,41 @@
+{
+      /*--------------------------------------------Shelf productos destacados floatzig ---------------------------------------*/
+
+  "flex-layout.row#component-shelf-productos-floatzig-destacados": {
+    "children": [
+      "list-context.product-list#component-shelf-productos-floatzig-destacados"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": [
+        "component-shelf-productos-destacados",
+        "home-principal-row",
+        "component-shelf-productos-floatzig-destacados"
+      ]
+    }
+  },
+
+  "list-context.product-list#component-shelf-productos-floatzig-destacados": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#component-shelf-productos-destacados-floatzig"],
+    "props": {
+      "orderBy": "OrderByPriceDESC",
+      "maxItems": 10,
+      "collection": "580"
+    }
+  },
+
+  "slider-layout#component-shelf-productos-destacados-floatzig": {
+    "props": {
+      "blockClass": ["wishlist_shelf", "component-shelf-productos-destacados-floatzig"],
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+    }
+  }
+}

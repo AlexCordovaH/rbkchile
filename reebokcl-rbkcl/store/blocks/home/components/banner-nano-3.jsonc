@@ -1,0 +1,123 @@
+{
+    "flex-layout.col#banner-nano-3": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktop-nano-3",
+            "flex-layout.col#info-banner-nano-3"
+        ]
+    },
+    "flex-layout.row#image-desktop-nano-3": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-nano-3"
+        ]
+    },
+    "flex-layout.col#info-banner-nano-3": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-desktopHome-info-dia-del-padre"
+            ]
+        },
+        "children": [
+            "flex-layout.row#titulo-banner-nano-3",
+            "flex-layout.row#body-banner-nano-3",
+            "flex-layout.row#button-banner-nano-3"
+        ]
+    },
+    "flex-layout.row#titulo-banner-nano-3": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-banner-nano-3"
+        ]
+    },
+    "flex-layout.row#body-banner-nano-3": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-nano-3"
+        ]
+    },
+
+    "flex-layout.row#body-banner-nano-3-mobile": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-nano-3"
+        ]
+    },
+    
+    "flex-layout.row#button-banner-nano-3": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#button-nano-3"
+        ]
+    },
+    "flex-layout.col#button-nano-3": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2"
+            ]
+        },
+        "children": [
+            "link#button-nano-3"
+        ]
+    },
+    "link#button-nano-3": {
+        "props": {
+            "href": "/nanox3?order=OrderByPriceDESC",
+            "label": "COMPRAR AHORA",
+            "blockClass": "buttons-desktopHome-2"
+        }
+    },
+    "rich-text#titulo-banner-nano-3": {
+        "props": {
+            "blockClass": [
+                "titulo-rebook-tunes",
+                "titulo-rebook-dia-del-padre"
+            ],
+            "text": "## NANO X3",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-banner-nano-3": {
+        "props": {
+            "blockClass": [
+                "body-rebook-tunes",
+                "body-rebook-dia-del-padre"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Los clásicos de siempre con diseños que hacen tributo al Vector"
+        }
+    },
+    "flex-layout.col#banner-plp-nano3": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktop-plp-nano-3"
+        ]
+    },
+
+    "flex-layout.row#image-desktop-plp-nano-3": {
+        "props": {
+            "blockClass": ["image-desktopHome-c3", "image-nano3-plp"]
+        },
+        "children": [
+            "image#image-banner-plp-nano-3"
+        ]
+    }
+}

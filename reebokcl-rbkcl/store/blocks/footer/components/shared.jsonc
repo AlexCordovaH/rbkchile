@@ -1,0 +1,253 @@
+{
+
+  "formulario#newsletter": {
+      "props": {
+        "dataEntity": "NW",
+        "successMessage": "<div><h1>¡Bienvenido a la <br>comunidad Reebok!</h1><p>Nos alegra que formes parte de nuestra historia. <br>Descubre todo lo que tenemos para ti: desde el <br>outfit perfecto para tu entrenamiento hasta el <br>estilo ideal para salir de paseo.<br><br>Para celebrar que ya eres parte de la comunidad,<br> <strong> te enviaremos un regalo especial a tu email en los próximos minutos.<br></strong><br><strong>¡QUE COMIENCE LA AVENTURA!</strong></p><br><br><a href='/todo-reebok'>VER TODO REEBOK</a></div>",
+        "blockClass": [
+          "newsletter-custom"
+        ]
+      },
+      "children": [
+        "flex-layout.row#inputOriginNewsLetter",
+        "flex-layout.row#inputNombreNewsLetter",
+        "flex-layout.row#inputSurnameNewsLetter",
+        "flex-layout.row#inputEmailNewsLetter",
+        "flex-layout.row#inputBirthdayNewsLetter",
+        "flex-layout.row#genderNewsLetter",
+        "flex-layout.row#inputCondicionesNewsLetter",
+        "flex-layout.row#inputPoliticasPrivacidad",
+        "flex-layout.row#inputSubmitNewsLetter"
+      ]
+    },
+    "flex-layout.row#inputOriginNewsLetter": {
+      "children": ["input#originNewsLetter"],
+      "props": {
+        "blockClass": ["input-newsletter-origin"]
+      }
+    },
+  
+    "flex-layout.row#inputNombreNewsLetter": {
+      "children": [
+        "input#nombreNewsLetter"//,
+        // "button"
+      ],
+      "props": {
+        "blockClass": []
+      }
+    },
+
+     "button":{
+      "props":{
+        "name" : "",
+        "id": "", 
+        "classname": "", 
+        "label": "", 
+        "type": ""
+      }
+     },
+
+    "flex-layout.row#inputEmailNewsLetter": {
+      "children": [
+        "input#emailNewsLetter"
+      ],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "flex-layout.row#inputSurnameNewsLetter": {
+      "children": [
+        "input#surnameNewsLetter"
+      ],
+      "props": {
+        "blockClass": []
+      }
+    },
+  
+    "flex-layout.row#inputCondicionesNewsLetter": {
+      "children": [
+        "input#inputCondicionesNewsLetter",
+        "link#terminos-condiciones"
+      ],
+      "props": {
+        "blockClass": ["input#inputCondicionesNewsLetter", "newsletter-footer-modal", "inputCondicionesNewsLetter"]
+      }
+    },
+    "flex-layout.row#inputPoliticasPrivacidad": {
+      "children": [
+        "input#inputPoliticasPrivacidad",
+        "link#PoliticasPrivacidad"
+      ],
+      "props": {
+        "blockClass": ["input#inputCondicionesNewsLetter","newsletter-footer-modal", "inputPoliticasNewsLetter"]
+      }
+    },
+    "flex-layout.row#inputSubmitNewsLetter": {
+      "children": [
+        "input#submitNewsLetter"
+      ],
+      "props": {
+        "blockClass": []
+      }
+    },
+    "input#originNewsLetter": {
+      "props": {
+        "nameInput": "origin",
+        "id": "origin",
+        "classDynamic": "NewsLetter",
+        "value": "footer",
+        "label": "origin*",
+        "blockClass": "boton-input-formulario",
+        "required": true,
+        "type": "text",
+        "minlength": 4
+      }
+    },
+    "flex-layout.row#inputBirthdayNewsLetter": {
+      "children": [
+        "input#birthdayNewsLetter"
+      ],
+      "props": {
+        "blockClass": []
+      }
+    },
+
+    "flex-layout.row#genderNewsLetter": {
+      "children": [
+        "select#genderNewsLetter"
+      ],
+      "props": {
+        "blockClass": []
+      }
+    },
+       
+    
+    "input#nombreNewsLetter": {
+      "props": {
+        "nameInput": "name",
+        "placeholder": "Ingresa tu nombre",
+        "required": true,
+        "id": "nombre",
+        "classDynamic": "NewsLetter",
+        "type": "text",
+        "classname": "nombre",
+        "minlength": 4,
+        "label": "Nombre*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+
+    "input#surnameNewsLetter": {
+      "props": {
+        "nameInput": "surname",
+        "placeholder": "Ingresa tu apellido",
+        "required": true,
+        "id": "surname",
+        "classDynamic": "NewsLetter",
+        "type": "text",
+        "classname": "nombre",
+        "minlength": 1,
+        "label": "Apellido*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+
+    "input#birthdayNewsLetter": {
+      "props": {
+        "nameInput": "birthday",
+        "placeholder": "dd/mm/aaaa",
+        "required": true,
+        "id": "birthday",
+        "classDynamic": "NewsLetter",
+        "type": "date",
+        "classname": "nombre",
+        "minlength": 1,
+        "label": "Cumpleaños*",
+        "blockClass": "boton-input-formulario-daty"
+      }
+    },
+
+    "select#genderNewsLetter": {
+      "props": {
+        "name": "gender",
+        "required": true,
+        "id": "gender",
+        // "classDynamic": "NewsLetter",
+        "classname": "nombre",
+        "label": "Género*",
+        "selectMessage":"Seleccione una opción",
+        "valueObj": [
+          {  "value": "m" ,"text": "HOMBRE" },
+          { "value": "f","text": "MUJER"}
+      ],
+        "blockClass": "boton-input-formulario"
+      }
+    },
+
+
+    "input#emailNewsLetter": {
+      "props": {
+        "nameInput": "email",
+        "uniqueKey": true,
+        "placeholder": "ejemplo@gmail.com",
+        "id": "email",
+        "classDynamic": "NewsLetter",
+        "type": "email",
+        "required": true,
+        "errorText": "No es un correo valido",
+        "typeValidation": "email",
+        "uniqueErrorMessage": "El correo $email ya se encuentra registrado",
+        "label": "Correo electrónico*",
+        "blockClass": "boton-input-formulario"
+      }
+    },
+  
+    "input#inputCondicionesNewsLetter": {
+      "props": {
+        "nameInput": "Accepttyc",
+        "id": "Accepttyc",
+        "type": "checkbox",
+        "classDynamic": "Condiciones",
+        "required": true,
+        "label": " Acepto los "
+      }
+    },
+
+    "link#terminos-condiciones":{
+    "props":{
+      "href": "/terminos-condiciones",
+      "target": "_blank",
+      "label": " Términos y Condiciones.",
+      "blockClass":["terminos-Condiciones"]
+    }
+  },
+  "input#inputPoliticasPrivacidad": {
+    "props": {
+      "nameInput": "PrivacyPolicy",
+      "id": "PrivacyPolicy",
+      "type": "checkbox",
+      "classDynamic": "Condiciones",
+      "required": true,
+      "label": " Acepto las"
+    }
+  },
+
+  "link#PoliticasPrivacidad":{
+  "props":{
+    "href": "/politicas-de-privacidad",
+    "target": "_blank",
+    "label": " Políticas de Privacidad.",
+    "blockClass":["terminos-Condiciones"]
+  }
+},
+
+    "input#submitNewsLetter": {
+      "props": {
+        "id": "suscribirme",
+        "type": "submit",
+        "value": "Suscribirme",
+        "classDynamic": "NewsLetter",
+        "blockClass": "boton-enviar-formulario"
+      }
+    }
+  }

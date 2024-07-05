@@ -1,0 +1,170 @@
+{
+  "custom-banner#accesorios-home": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "/assets/vtex.file-manager-graphql/images/ceb5f6d2-100a-4999-aec2-85b51badb9c2___ba7aceaa2e56a8e656d678a95ba7d390.jpg",
+      "phoneBgImageUrl": "/assets/vtex.file-manager-graphql/images/c5430e18-4a8a-4477-a3c8-c681f82c5ca1___addf39d619511050b1b76fa376da03e2.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "ACCESORÍZATE",
+          "sx": {
+            "desktop": "font-family-NR banner-headline-bottom mr3 cWhite",
+            "tablet": "font-family-NR banner-headline-bottom mr3 cWhite",
+            "phone": "font-family-NR banner-headline-bottom cWhite"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "CON ESTAS OFERTAS",
+          "sx": {
+            "desktop": "font-family-NR banner-headline-bottom mr3 cWhite",
+            "tablet": "font-family-NR banner-headline-bottom mr3 cWhite",
+            "phone": "font-family-NR banner-headline-bottom cWhite"
+          }
+        },
+      
+        {
+          "type": "copy",
+          "text": "Por cada $60.000 en compras,",
+          "sx": {
+            "desktop": "font-family-NR banner-copy mr3 cWhite",
+            "tablet": "font-family-NR banner-copy mr3 cWhite",
+            "phone": "font-family-NR banner-copy cWhite dNone"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "lleva un accesorio a mitad de precio.",
+          "sx": {
+            "desktop": "font-family-NR banner-copy mr3 cWhite",
+            "tablet": "font-family-NR banner-copy mr3 cWhite",
+            "phone": "font-family-NR banner-copy cWhite dNone"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "¡Aprovecha!",
+          "sx": {
+            "desktop": "font-family-NR banner-copy mr3 cWhite",
+            "tablet": "font-family-NR banner-copy mr3 cWhite",
+            "phone": "font-family-NR banner-copy cWhite dNone"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+            {
+                "label": "COMPRAR AHORA",
+                "link": "/todo-reebok",
+                "sx": {
+                    "desktop": "mt2 fs80 mr2 font-family-NR",
+                    "tablet": "mt5 fs70 font-family-NR",
+                    "phone": "mt5 mr17 fs70 font-family-NR"
+                }
+            },
+            {
+                "label": "ACCESORIOS",
+                "link": "/sale-accesorios",
+                "sx": {
+                    "desktop": "mt2 fs80 mr2 font-family-NR",
+                    "tablet": "mt5 fs70 font-family-NR",
+                    "phone": "mt5 mr17 fs70 font-family-NR"
+                }
+            }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+    },
+    "sx": {
+        "desktop": "relative t25 tar font-family-NR",
+        "tablet": "relative t15 tar font-family-NR",
+        "phone": "relative t71 tac font-family-NR"
+    }
+    }
+  },
+
+  "flex-layout.row#custom-banner-accesorios": {
+    "children": ["custom-banner#accesorios-home-mob"],
+    "props": {
+      "blockClass": "custom-banner-members",
+      "marginBottom": 4
+    }
+},
+
+  "custom-banner#accesorios-home-mob": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "/assets/vtex.file-manager-graphql/images/ceb5f6d2-100a-4999-aec2-85b51badb9c2___ba7aceaa2e56a8e656d678a95ba7d390.jpg",
+      "phoneBgImageUrl": "/assets/vtex.file-manager-graphql/images/c5430e18-4a8a-4477-a3c8-c681f82c5ca1___addf39d619511050b1b76fa376da03e2.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "ACCESORÍZATE",
+          "sx": {
+            "desktop": "font-family-NR banner-headline-bottom mr2 cWhite",
+            "tablet": "font-family-NR banner-headline-bottom mr2 cWhite",
+            "phone": "font-family-NR banner-headline-bottom cWhite tac mb2"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "CON ESTAS OFERTAS",
+          "sx": {
+            "desktop": "font-family-NR banner-headline-bottom mr2 cWhite",
+            "tablet": "font-family-NR banner-headline-bottom mr2 cWhite",
+            "phone": "font-family-NR banner-headline-bottom cWhite tac mb2"
+          }
+        },
+
+        {
+          "type": "copy",
+          "text": "Por cada $60.000 en compras,",
+          "sx": {
+            "desktop": "font-family-NR banner-copy mr2 cWhite",
+            "tablet": "font-family-NR banner-copy mr2 cWhite",
+            "phone": "font-family-NR banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "¡Aprovecha!",
+          "sx": {
+            "desktop": "font-family-NR banner-copy mr2 cWhite",
+            "tablet": "font-family-NR banner-copy mr2 cWhite",
+            "phone": "font-family-NR banner-copy cWhite tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/todo-reebok",
+            "sx": {
+              "desktop": "font-family-NR mt2 fs80 mr1",
+              "tablet": "font-family-NR mt5 fs70",
+              "phone": "font-family-NR mt5 fs70"
+            }
+          },
+          {
+            "label": "ACCESORIOS",
+            "link": "/sale-accesorios",
+            "sx": {
+              "desktop": "font-family-NR mt2 fs80 mr1",
+              "tablet": "font-family-NR mt5 fs70",
+              "phone": "font-family-NR mt5 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "font-family-NR relative t30 tar",
+        "tablet": "font-family-NR relative t15 tar",
+        "phone": "font-family-NR relative t55 tac"
+      }
+    }
+  }
+}

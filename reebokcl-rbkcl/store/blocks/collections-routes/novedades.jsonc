@@ -1,0 +1,167 @@
+{
+  "store.custom#novedades": {
+    "blocks": ["search-result-layout.customQuery#novedades"]
+  },
+  "store.custom#ree-cycled-novedades": {
+    "blocks": ["search-result-layout.customQuery#ree-cycled-novedades"]
+  },
+  "store.custom#jurassic-world-novedades": {
+    "blocks": ["search-result-layout.customQuery#jurassic-world-novedades"]
+  },
+  "store.custom#club-c-novedades": {
+    "blocks": ["search-result-layout.customQuery#club-c-novedades"]
+  },
+  "store.custom#reebok-royal-novedades": {
+    "blocks": ["search-result-layout.customQuery#reebok-royal-novedades"]
+  },
+  "store.custom#sale-novedades": {
+    "blocks": ["search-result-layout.customQuery#sale-novedades"]
+  },
+
+  "store.custom#coleccion-cardi-b": {
+    "blocks": ["search-result-layout.customQuery#coleccion-cardi-b"]
+  },
+
+  "store.custom#coleccion-nano-xi": {
+    "blocks": ["search-result-layout.customQuery#coleccion-nano-xi"]
+  },
+
+  "search-result-layout.customQuery#coleccion-nano-xi": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/nano-xi",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#coleccion-cardi-b": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "/cardi-b",
+        "mapField": "coleccion"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#novedades": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "242",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#ree-cycled-novedades": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "237",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#jurassic-world-novedades": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "238",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#club-c-novedades": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "239",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#reebok-royal-novedades": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "240",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#sale-novedades": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "241",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

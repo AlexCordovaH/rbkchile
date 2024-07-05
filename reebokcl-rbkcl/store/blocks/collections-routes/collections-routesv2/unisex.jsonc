@@ -1,0 +1,536 @@
+{
+    /*Store custom: UNISEX - CALZADO */
+    "store.custom#unisex-calzado-sandalias": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-calzado-sandalias"
+        ]
+    },
+    /*Store custom: UNISEX - COLABORACIONES */
+    "store.custom#unisex-colaboraciones": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-jurassicworld": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-jurassicworld"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-lacasadepapel": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-lacasadepapel"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-looneytunes": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-looneytunes"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-maharishi": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-maharishi"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-maisonmargiela": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-maisonmargiela"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-naoserati": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-naoserati"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-panini": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-panini"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-powerrangers": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-powerrangers"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-streetfighter": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-streetfighter"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-victoriabeckham": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-victoriabeckham"
+        ]
+    },
+    "store.custom#unisex-colaboraciones-warnerbros": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-colaboraciones-warnerbros"
+        ]
+    },
+    /*Store custom: UNISEX - NOVEDADES */
+    "store.custom#unisex-novedades": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades"
+        ]
+    },
+    "store.custom#unisex-novedades-losmasvendidos": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-losmasvendidos"
+        ]
+    },
+    "store.custom#unisex-novedades-reebokpride": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-reebokpride"
+        ]
+    },
+    "store.custom#unisex-novedades-reecycled": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-reecycled"
+        ]
+    },
+    "store.custom#unisex-novedades-workoutready": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-workoutready"
+        ]
+    },
+    "store.custom#unisex-novedades-furylite": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-furylite"
+        ]
+    },
+    "store.custom#unisex-novedades-meetyouthere": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-meetyouthere"
+        ]
+    },
+    "store.custom#unisex-novedades-classics": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-classics"
+        ]
+    },
+    "store.custom#unisex-novedades-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-classicleather"
+        ]
+    },
+    "store.custom#unisex-novedades-nano": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-nano"
+        ]
+    },
+    "store.custom#unisex-novedades-zig": {
+        "blocks": [
+            "search-result-layout.customQuery#unisex-novedades-zig"
+        ]
+    },
+    /*Search result layout: UNISEX - CALZADO */
+    "search-result-layout.customQuery#unisex-calzado-sandalias": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/calzado/Sandalias",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: UNISEX - COLABORACIONES */
+    "search-result-layout.customQuery#unisex-colaboraciones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "324",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-jurassicworld": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/jurassic-world",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-lacasadepapel": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/la-casa-de-papel",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-looneytunes": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/looney-tunes",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-maharishi": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/maharishi",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-maisonmargiela": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/maison-margiela",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-naoserati": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/nao-serati",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-panini": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/panini",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-powerrangers": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/power-rangers",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-streetfighter": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/street-fighter",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-victoriabeckham": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/victoria-beckham",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-colaboraciones-warnerbros": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/warner-bros",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: UNISEX - NOVEDADES */
+    "search-result-layout.customQuery#unisex-novedades": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "242",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-losmasvendidos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "320",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-reebokpride": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/reebok-pride",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-reecycled": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/ree-cycled",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-workoutready": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/workout-ready",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-furylite": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/furylite",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-meetyouthere": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/meet-you-there",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-classics": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/classics",
+                "mapField": "categoria-deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-nano": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/nano-xi",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#unisex-novedades-zig": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/unisex/zig",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

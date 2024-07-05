@@ -1,0 +1,300 @@
+// ****************fila de subcategorias PLP MUJER***********
+{
+  "flex-layout.row#slider-subcategorias-mujer": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-mujer"]
+  },
+
+  "slider-layout#plp-subcategoria-carousel-mujer": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "PLP--subcategoria-carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-mujer",
+      "info-card#plp-second-subcategory-mujer",
+      "info-card#plp-third-subcategory-mujer"
+    ]
+  },
+  "info-card#plp-first-subcategory-mujer": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Calzado",
+      "callToActionUrl": "/mujer/calzado",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Calzado.jpg",
+      "imageActionUrl": "/mujer/calzado",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-mujer": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Ropa",
+      "callToActionUrl": "/mujer/ropa",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Ropa.jpg",
+      "imageActionUrl": "/mujer/ropa",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-mujer": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Accesorios",
+      "callToActionUrl": "/mujer/accesorios",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Accesorios.jpg",
+      "imageActionUrl": "/mujer/accesorios",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#slider-subcategorias-mujer-calzado": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-mujer-calzado"]
+  },
+  "slider-layout#plp-subcategoria-carousel-mujer-calzado": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "PLP--subcategoria-carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-mujer-calzado",
+      "info-card#plp-second-subcategory-mujer-calzado",
+      "info-card#plp-third-subcategory-mujer-calzado"
+    ]
+  },
+  "info-card#plp-first-subcategory-mujer-calzado": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Classics",
+      "callToActionUrl": "/mujer/calzado/classics",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Classics.jpg",
+      "imageActionUrl": "/mujer/calzado/classics",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-mujer-calzado": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Entrenamiento funcional",
+      "callToActionUrl": "/mujer/calzado/entrenamiento-funcional",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/EntrenamientoFuncional.jpg",
+      "imageActionUrl": "/mujer/calzado/entrenamiento-funcional",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-mujer-calzado": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Running",
+      "callToActionUrl": "/mujer/calzado/running",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Running.jpg",
+      "imageActionUrl": "/mujer/calzado/running",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#slider-subcategorias-mujer-ropa": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-mujer-ropa"]
+  },
+  "slider-layout#plp-subcategoria-carousel-mujer-ropa": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": ["PLP--subcategoria-carousel","PLP--subcategoria-carousel-ropa"],
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-mujer-ropa",
+      "info-card#plp-second-subcategory-mujer-ropa",
+      "info-card#plp-third-subcategory-mujer-ropa",
+      "info-card#plp-fourth-subcategory-mujer-ropa",
+      "info-card#plp-fifth-subcategory-mujer-ropa"
+    ]
+  },
+  "info-card#plp-first-subcategory-mujer-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Conjuntos Deportivos",
+      "callToActionUrl": "/mujer/ropa/conjuntos-deportivos",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/PantalonesyLicras.jpg",
+      "imageActionUrl": "/mujer/ropa/conjuntos-deportivos",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-mujer-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Poleras",
+      "callToActionUrl": "/mujer/ropa/poleras",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Camisetas.jpg",
+      "imageActionUrl": "/mujer/ropa/poleras",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-mujer-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Petos Deportivos",
+      "callToActionUrl": "/mujer/ropa/petos-deportivos",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/TopDeportivos.jpg",
+      "imageActionUrl": "/mujer/ropa/petos-deportivos",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-fourth-subcategory-mujer-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Shorts",
+      "callToActionUrl": "/mujer/ropa/shorts",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Shorts.jpg",
+      "imageActionUrl": "/mujer/ropa/shorts",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-fifth-subcategory-mujer-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Polerones",
+      "callToActionUrl": "/mujer/ropa/polerones",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Buzos.jpg",
+      "imageActionUrl": "/mujer/ropa/polerones",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#slider-subcategorias-mujer-accesorios": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-mujer-accesorios"]
+  },
+  "slider-layout#plp-subcategoria-carousel-mujer-accesorios": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "PLP--subcategoria-carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-mujer-accesorios",
+      "info-card#plp-second-subcategory-mujer-accesorios",
+      "info-card#plp-third-subcategory-mujer-accesorios"
+    ]
+  },
+  "info-card#plp-first-subcategory-mujer-accesorios": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Calcetines",
+      "callToActionUrl": "/mujer/accesorios/calcetines",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Medias.jpg",
+      "imageActionUrl": "/mujer/accesorios/calcetines",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-mujer-accesorios": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Bolsos y mochilas",
+      "callToActionUrl": "/mujer/accesorios/bolsos-y-mochilas",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Bolsos.jpg",
+      "imageActionUrl": "/mujer/accesorios/bolsos-y-mochilas",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-mujer-accesorios": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Gorras",
+      "callToActionUrl": "/mujer/accesorios/gorras",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Gorras.jpg",
+      "imageActionUrl": "/mujer/accesorios/gorras",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  }
+}

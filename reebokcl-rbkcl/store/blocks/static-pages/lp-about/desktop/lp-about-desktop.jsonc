@@ -1,0 +1,10 @@
+{
+	"responsive-layout.desktop#lp-about": {
+        "children": [
+            "flex-layout.row#about-banner",
+            "flex-layout.row#que-hacemos",
+            "flex-layout.row#por-que-lo-hacemos",
+            "flex-layout.row#about-last-section"
+        ]
+    }
+}

@@ -1,0 +1,1272 @@
+{
+  "trigger-url#collection-example": {
+    "props": {
+      "triggerUrls": ["coleccion/example"]
+    },
+    "children": ["image#collection-example-plp"]
+  },
+  "image#collection-example-plp": {
+    "props": {
+      "src": "https://reebokcl.vteximg.com.br/arquivos/banner-plpejemplo.png"
+    }
+  },
+  "trigger-url#plp-glide": {
+    "props": {
+      "triggerUrls": ["glide"]
+    },
+    "children": ["flex-layout.row#plp-banner-glide"]
+  },
+  "trigger-url#plp-backtoschool": {
+    "props": {
+      "triggerUrls": ["regresoaclase"]
+    },
+    "children": ["flex-layout.row#plp-banner-backtoschool"]
+  },
+
+  "trigger-url#plp-mujer": {
+    "props": {
+      "triggerUrls": ["mujer"],
+      "blockClass": "container-triggermujer-subcategorias"
+    },
+    "children": ["flex-layout.row#plp-banner-mujer-subcategories"]
+  },
+
+  "trigger-url#plp-mujer-calzado-subcategoria": {
+    "props": {
+      "triggerUrls": ["mujer/calzado"],
+      "blockClass": "container-triggermujer-subcategorias"
+    },
+    "children": ["flex-layout.row#plp-banner-mujer-calzado-subcategories"]
+  },
+  "trigger-url#plp-mujer-ropa-subcategoria": {
+    "props": {
+      "triggerUrls": ["mujer/ropa"],
+      "blockClass": "container-triggermujer-subcategorias"
+    },
+    "children": ["flex-layout.row#plp-banner-mujer-ropa-subcategories"]
+  },
+  "trigger-url#plp-mujer-accesorios-subcategoria": {
+    "props": {
+      "triggerUrls": ["mujer/accesorios"],
+      "blockClass": "container-triggermujer-subcategorias"
+    },
+    "children": ["flex-layout.row#plp-banner-mujer-accesorios-subcategories"]
+  },
+
+  "trigger-url#plp-hombre": {
+    "props": {
+      "triggerUrls": ["hombre"]
+    },
+    "children": ["flex-layout.row#plp-banner-hombre-subcategories"]
+  },
+
+  "trigger-url#plp-hombre-accesorios-subcategoria": {
+    "props": {
+      "triggerUrls": ["hombre/accesorios"]
+    },
+    "children": ["flex-layout.row#plp-banner-hombre-accesorios-subcategories"]
+  },
+  "trigger-url#plp-hombre-ropa-subcategoria": {
+    "props": {
+      "triggerUrls": ["hombre/ropa"]
+    },
+    "children": ["flex-layout.row#plp-banner-hombre-ropa-subcategories"]
+  },
+  "trigger-url#plp-hombre-calzado-subcategoria": {
+    "props": {
+      "triggerUrls": ["hombre/calzado"]
+    },
+    "children": ["flex-layout.row#plp-banner-hombre-calzado-subcategories"]
+  },
+  "trigger-url#plp-ninos": {
+    "props": {
+      "triggerUrls": ["ninos"]
+    },
+    "children": ["flex-layout.row#plp-banner-ninos-subcategories"]
+  },
+
+  "trigger-url#plp-unisex": {
+    "props": {
+      "triggerUrls": ["unisex"]
+    },
+    "children": ["flex-layout.row#plp-banner-unisex-subcategories"]
+  },
+
+  "trigger-url#plp-unisex-ropa": {
+    "props": {
+      "triggerUrls": ["unisex/ropa"]
+    },
+    "children": ["flex-layout.row#plp-banner-unisex-ropa-subcategories"]
+  },
+  "trigger-url#plp-unisex-calzado": {
+    "props": {
+      "triggerUrls": ["unisex/calzado"]
+    },
+    "children": ["flex-layout.row#plp-banner-unisex-calzado-subcategories"]
+  },
+  "trigger-url#plp-unisex-accesorios": {
+    "props": {
+      "triggerUrls": ["unisex/accesorios"]
+    },
+    "children": ["flex-layout.row#plp-banner-unisex-accesorios-subcategories"]
+  },
+
+
+  "trigger-url#plp-nano3": {
+    "props": {
+      "triggerUrls": ["nanox3"]
+    },
+    "children": ["flex-layout.row#plp-banner-nano3"]
+  },
+  "trigger-url#plp-deporte": {
+    "props": {
+      "triggerUrls": ["deporte"]
+    },
+    "children": ["flex-layout.row#plp-banner-deporte"]
+  },
+  "trigger-url#plp-classics": {
+    "props": {
+      "triggerUrls": ["classics"]
+    },
+    "children": ["flex-layout.row#plp-banner-classics"]
+  },
+  "trigger-url#plp-outlet": {
+    "props": {
+      "triggerUrls": ["outlet"]
+    },
+    "children": [/*"rich-text#home-subpromotion-red"*/]
+  },
+  "trigger-url#plp-hombre-calzado": {
+    "props": {
+      "triggerUrls": ["hombre/calzado"]
+    },
+    "children": ["flex-layout.row#plp-hombre-calzado"]
+  },
+  "trigger-url#plp-hombre-piepagina": {
+    "props": {
+      "triggerUrls": ["hombre"]
+    },
+    "children": ["flex-layout.row#plp-hombre-piepagina"]
+  },
+  "trigger-url#plp-mujer-piepagina": {
+    "props": {
+      "triggerUrls": ["mujer"]
+    },
+    "children": ["flex-layout.row#plp-mujer-piepagina"]
+  },
+  "trigger-url#plp-ninos-piepagina": {
+    "props": {
+      "triggerUrls": ["ni%C3%B1os"]
+    },
+    "children": ["flex-layout.row#plp-ninos-piepagina"]
+  },
+  "trigger-url#plp-deporte-piepagina": {
+    "props": {
+      "triggerUrls": ["deporte"]
+    },
+    "children": ["flex-layout.row#plp-deporte-piepagina"]
+  },
+  "trigger-url#plp-classics-piepagina": {
+    "props": {
+      "triggerUrls": ["classics"]
+    },
+    "children": ["flex-layout.row#plp-classics-piepagina"]
+  },
+  "trigger-url#plp-outlet-piepagina": {
+    "props": {
+      "triggerUrls": ["outlet"]
+    },
+    "children": ["flex-layout.row#plp-outlet-piepagina"]
+  },
+  "trigger-url#plp-sale-piepagina": {
+    "props": {
+      "triggerUrls": ["sale"]
+    },
+    "children": ["flex-layout.row#plp-sale-piepagina"]
+  },
+  "trigger-url#plp-calzado-classics-piepagina": {
+    "props": {
+      "triggerUrls": ["classics/calzado"]
+    },
+    "children": ["flex-layout.row#plp-calzado-classics"]
+  },
+  "trigger-url#plp-deporte-calzado": {
+    "props": {
+      "triggerUrls": ["deporte/calzado"]
+    },
+    "children": ["flex-layout.row#plp-calzado-classics"]
+  },
+  "trigger-url#plp-novedades-piepagina": {
+    "props": {
+      "triggerUrls": ["novedades"]
+    },
+    "children": ["flex-layout.row#plp-novedades-piepagina"]
+  },
+  "trigger-url#plp-classics-ropa": {
+    "props": {
+      "triggerUrls": ["classics/ropa"]
+    },
+    "children": ["flex-layout.row#plp-classics-ropa"]
+  },
+  "trigger-url#plp-deporte-ropa": {
+    "props": {
+      "triggerUrls": ["deporte/ropa"]
+    },
+    "children": ["flex-layout.row#plp-deporte-ropa"]
+  },
+  "trigger-url#plp-hombre-ropa": {
+    "props": {
+      "triggerUrls": ["hombre/ropa"]
+    },
+    "children": ["flex-layout.row#plp-hombre-ropa"]
+  },
+  "trigger-url#plp-mujer-ropa": {
+    "props": {
+      "triggerUrls": ["mujer/ropa"]
+    },
+    "children": ["flex-layout.row#plp-mujer-ropa"]
+  },
+  "trigger-url#plp-mujer-calzado": {
+    "props": {
+      "triggerUrls": ["mujer/calzado"]
+    },
+    "children": ["flex-layout.row#plp-mujer-calzado"]
+  },
+  "trigger-url#plp-ninos-calzado": {
+    "props": {
+      "triggerUrls": ["ninos/calzado"]
+    },
+    "children": ["flex-layout.row#plp-ninos-calzado"]
+  },
+
+  "flex-layout.row#plp-banner-glide": {
+    "props": {
+      "blockClass": ["plp-banner-mujer"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-glide"]
+  },
+  "flex-layout.col#plp-banner-glide": {
+    "props": {
+      "blockClass": ["plp-banner-mujer"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-glide",
+      "responsive-layout.tablet#banner-plp-glide",
+      "responsive-layout.phone#banner-plp-glide"
+    ]
+  },
+  "flex-layout.row#plp-banner-mujer": {
+    "props": {
+      "blockClass": ["plp-banner-mujer"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-mujer"]
+  },
+  "flex-layout.col#plp-banner-mujer": {
+    "props": {
+      "blockClass": ["plp-banner-mujer"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-mujer",
+      "responsive-layout.tablet#banner-plp-mujer",
+      "responsive-layout.phone#banner-plp-mujer"
+    ]
+  },
+  "flex-layout.row#plp-banner-nano3": {
+    "props": {
+      // "blockClass": ["plp-banner-mujer"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-nano3"]
+  },
+  "flex-layout.col#plp-banner-nano3": {
+    "props": {
+      // "blockClass": ["plp-banner-mujer"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-nano3",
+      "responsive-layout.tablet#banner-plp-nano3",
+      "responsive-layout.phone#banner-plp-nano3"
+    ]
+  },
+  "flex-layout.row#plp-banner-hombre": {
+    "props": {
+      "blockClass": ["plp-banner-hombre"]
+    },
+    "children": ["flex-layout.col#plp-banner-hombre"]
+  },
+  "flex-layout.col#plp-banner-hombre": {
+    "props": {
+      "blockClass": ["plp-banner-hombre"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-hombre",
+      "responsive-layout.tablet#banner-plp-hombre",
+      "responsive-layout.phone#banner-plp-hombre"
+    ]
+  },
+  /*niños*/
+  "flex-layout.row#plp-banner-ninos": {
+    "props": {
+      "blockClass": ["plp-banner-ninos"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-ninos"]
+  },
+  "flex-layout.col#plp-banner-ninos": {
+    "props": {
+      "blockClass": ["plp-banner-ninos"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-ninos",
+      "responsive-layout.tablet#banner-plp-ninos",
+      "responsive-layout.phone#banner-plp-ninos"
+    ]
+  },
+  /*unisex*/
+  "flex-layout.row#plp-banner-unisex": {
+    "props": {
+      "blockClass": ["plp-banner-unisex"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-unisex"]
+  },
+  "flex-layout.col#plp-banner-unisex": {
+    "props": {
+      "blockClass": ["plp-banner-unisex"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-unisex",
+      "responsive-layout.tablet#banner-plp-unisex",
+      "responsive-layout.phone#banner-plp-unisex"
+    ]
+  },
+
+  /*Deporte*/
+  "flex-layout.row#plp-banner-deporte": {
+    "props": {
+      "blockClass": ["plp-banner-deporte"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-deporte"]
+  },
+  "flex-layout.col#plp-banner-deporte": {
+    "props": {
+      "blockClass": ["plp-banner-deporte"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-deporte",
+      "responsive-layout.tablet#banner-plp-deporte",
+      "responsive-layout.phone#banner-plp-deporte"
+    ]
+  },
+  /*classics*/
+  "flex-layout.row#plp-banner-classics": {
+    "props": {
+      "blockClass": ["plp-banner-classics"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-classics"]
+  },
+  "flex-layout.col#plp-banner-classics": {
+    "props": {
+      "blockClass": ["plp-banner-classics"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-classics",
+      "responsive-layout.tablet#banner-plp-classics",
+      "responsive-layout.phone#banner-plp-classics"
+    ]
+  },
+  /*outlet*/
+  "flex-layout.row#plp-banner-outlet": {
+    "props": {
+      "blockClass": ["plp-banner-outlet"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-outlet"]
+  },
+  "flex-layout.col#plp-banner-outlet": {
+    "props": {
+      "blockClass": ["plp-banner-outlet"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-outlet",
+      "responsive-layout.tablet#banner-plp-outlet",
+      "responsive-layout.phone#banner-plp-outlet"
+    ]
+  },
+
+  "trigger-url#plp-lux": {
+    "props": {
+      "triggerUrls": ["lux"]
+    },
+    "children": ["flex-layout.row#plp-banner-lux"]
+  },
+  "flex-layout.row#plp-banner-lux": {
+    "props": {
+      "blockClass": ["plp-banner-lux"]
+    },
+    "children": ["image#plp-lux"]
+  },
+
+  "flex-layout.row#plp-banner-backtoschool": {
+    "props": {
+      "blockClass": ["plp-banner-mujer"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#plp-banner-backtoschool"]
+  },
+  "flex-layout.col#plp-banner-backtoschool": {
+    "props": {
+      "blockClass": ["plp-banner-mujer"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-plp-backtoschool",
+      "responsive-layout.tablet#banner-plp-backtoschool",
+      "responsive-layout.phone#banner-plp-backtoschool"
+    ]
+  },
+  "flex-layout.row#plp-hombre-calzado": {
+    "props": {
+      "blockClass": ["plp-hombre-calzado", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-hombre-calzado-titulo",
+      "flex-layout.col#plp-hombre-calzado-body"
+    ]
+  },
+  "flex-layout.row#plp-hombre-piepagina": {
+    "props": {
+      "blockClass": ["plp-hombre-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-hombre-piepagina-titulo",
+      "flex-layout.col#plp-hombre-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-mujer-piepagina": {
+    "props": {
+      "blockClass": ["plp-mujer-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-mujer-piepagina-titulo",
+      "flex-layout.col#plp-mujer-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-ninos-piepagina": {
+    "props": {
+      "blockClass": ["plp-ninos-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-ninos-piepagina-titulo",
+      "flex-layout.col#plp-ninos-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-deporte-piepagina": {
+    "props": {
+      "blockClass": ["plp-deporte-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-deporte-piepagina-titulo",
+      "flex-layout.col#plp-deporte-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-classics-piepagina": {
+    "props": {
+      "blockClass": ["plp-classics-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-classics-piepagina-titulo",
+      "flex-layout.col#plp-classics-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-outlet-piepagina": {
+    "props": {
+      "blockClass": ["plp-outlet-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-outlet-piepagina-titulo",
+      "flex-layout.col#plp-outlet-piepagina-body"
+    ]
+  },
+
+  "flex-layout.row#plp-sale-piepagina": {
+    "props": {
+      "blockClass": ["plp-sale-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-sale-piepagina-titulo",
+      "flex-layout.col#plp-sale-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-novedades-piepagina": {
+    "props": {
+      "blockClass": ["plp-novedades-piepagina", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-novedades-piepagina-titulo",
+      "flex-layout.col#plp-novedades-piepagina-body"
+    ]
+  },
+  "flex-layout.row#plp-classics-ropa": {
+    "props": {
+      "blockClass": ["plp-classics-ropa", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-classics-ropa-titulo",
+      "flex-layout.col#plp-classics-ropa-body"
+    ]
+  },
+  "flex-layout.row#plp-deporte-ropa": {
+    "props": {
+      "blockClass": ["plp-deporte-ropa", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-deporte-ropa-titulo",
+      "flex-layout.col#plp-deporte-ropa-body"
+    ]
+  },
+  "flex-layout.row#plp-calzado-classics": {
+    "props": {
+      "blockClass": ["plp-calzado-classics", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-calzado-classics-titulo",
+      "flex-layout.col#plp-calzado-classics-body"
+    ]
+  },
+  "flex-layout.row#plp-calzado-deporte": {
+    "props": {
+      "blockClass": ["plp-calzado-deporte", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-calzado-deporte-titulo",
+      "flex-layout.col#plp-calzado-deporte-body"
+    ]
+  },
+  "flex-layout.row#plp-hombre-ropa": {
+    "props": {
+      "blockClass": ["plp-hombre-ropa", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-hombre-ropa-titulo",
+      "flex-layout.col#plp-hombre-ropa-body"
+    ]
+  },
+  "flex-layout.row#plp-mujer-ropa": {
+    "props": {
+      "blockClass": ["plp-mujer-ropa", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-mujer-ropa-titulo",
+      "flex-layout.col#plp-mujer-ropa-body"
+    ]
+  },
+  "flex-layout.row#plp-mujer-calzado": {
+    "props": {
+      "blockClass": ["plp-mujer-calzado", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-mujer-calzado-titulo",
+      "flex-layout.col#plp-mujer-calzado-body"
+    ]
+  },
+  "flex-layout.row#plp-ninos-calzado": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado", "div-texto-filtradoplp"]
+    },
+    "children": [
+      "flex-layout.col#plp-ninos-calzado-titulo",
+      "flex-layout.col#plp-ninos-calzado-body"
+    ]
+  },
+  "flex-layout.col#plp-hombre-calzado-titulo": {
+    "props": {
+      "blockClass": ["plp-hombre-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-hombre-calzado-titulo"]
+  },
+  "flex-layout.col#plp-hombre-calzado-body": {
+    "props": {
+      "blockClass": ["plp-hombre-calzado-body"]
+    },
+    "children": ["rich-text#plp-hombre-calzado-body"]
+  },
+  "flex-layout.col#plp-hombre-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-hombre-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-hombre-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-hombre-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-hombre-calzado-body"],
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#plp-hombre-piepagina-body-1",
+      "rich-text#plp-hombre-piepagina-subtitulo-1",
+      "rich-text#plp-hombre-piepagina-body-2",
+      "rich-text#plp-hombre-piepagina-subtitulo-2",
+      "rich-text#plp-hombre-piepagina-body-3"
+    ]
+  },
+  "flex-layout.col#plp-mujer-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-mujer-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-mujer-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-mujer-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-mujer-calzado-body"],
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#plp-mujer-piepagina-body-1",
+      "rich-text#plp-mujer-piepagina-subtitulo-1",
+      "rich-text#plp-mujer-piepagina-body-2",
+      "rich-text#plp-mujer-piepagina-subtitulo-2",
+      "rich-text#plp-mujer-piepagina-body-3"
+    ]
+  },
+  "flex-layout.col#plp-ninos-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-ninos-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-ninos-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-body"],
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#plp-ninos-piepagina-body-1",
+      "rich-text#plp-ninos-piepagina-subtitulo-1",
+      "rich-text#plp-ninos-piepagina-body-2",
+      "rich-text#plp-ninos-piepagina-subtitulo-2",
+      "rich-text#plp-ninos-piepagina-body-3"
+    ]
+  },
+  "flex-layout.col#plp-deporte-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-deporte-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-deporte-piepagina-titulo-v1"]
+  },
+  "flex-layout.col#plp-deporte-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-deporte-calzado-body"],
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#plp-deporte-piepagina-body-1",
+      "rich-text#plp-deporte-piepagina-subtitulo-1",
+      "rich-text#plp-deporte-piepagina-body-2",
+      "rich-text#plp-deporte-piepagina-subtitulo-2",
+      "rich-text#plp-deporte-piepagina-body-3"
+    ]
+  },
+
+  "flex-layout.col#plp-classics-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-classics-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-classics-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-classics-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-classics-calzado-body"],
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#plp-classics-piepagina-body-1",
+      "rich-text#plp-classics-piepagina-subtitulo-1",
+      "rich-text#plp-classics-piepagina-body-2",
+      "rich-text#plp-classics-piepagina-subtitulo-2",
+      "rich-text#plp-classics-piepagina-body-3"
+    ]
+  },
+
+  "flex-layout.col#plp-outlet-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-outlet-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-outlet-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-outlet-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-outlet-calzado-body"],
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#plp-outlet-piepagina-body-1",
+      "rich-text#plp-outlet-piepagina-subtitulo-1",
+      "rich-text#plp-outlet-piepagina-body-2",
+      "rich-text#plp-outlet-piepagina-subtitulo-2",
+      "rich-text#plp-outlet-piepagina-body-3"
+    ]
+  },
+
+  "flex-layout.col#plp-sale-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-sale-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-sale-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-body"]
+    },
+    "children": ["rich-text#plp-sale-piepagina-body"]
+  },
+  "flex-layout.col#plp-novedades-piepagina-titulo": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-novedades-piepagina-titulo"]
+  },
+  "flex-layout.col#plp-novedades-piepagina-body": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-body"]
+    },
+    "children": ["rich-text#plp-novedades-piepagina-body"]
+  },
+  "flex-layout.col#plp-classics-ropa-titulo": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-classics-ropa-titulo"]
+  },
+  "flex-layout.col#plp-classics-ropa-body": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-body"]
+    },
+    "children": ["rich-text#plp-classics-ropa-body"]
+  },
+  "flex-layout.col#plp-deporte-ropa-titulo": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-deporte-ropa-titulo"]
+  },
+  "flex-layout.col#plp-deporte-ropa-body": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-body"]
+    },
+    "children": ["rich-text#plp-deporte-ropa-body"]
+  },
+  "flex-layout.col#plp-calzado-classics-titulo": {
+    "props": {
+      "blockClass": ["plp-calzado-classics"]
+    },
+    "children": ["rich-text#plp-calzado-classics-titulo"]
+  },
+  "flex-layout.col#plp-calzado-classics-body": {
+    "props": {
+      "blockClass": ["plp-calzado-classics"]
+    },
+    "children": ["rich-text#plp-calzado-classics-body"]
+  },
+  "flex-layout.col#plp-calzado-deporte-titulo": {
+    "props": {
+      "blockClass": ["plp-calzado-deporte"]
+    },
+    "children": ["rich-text#plp-calzado-deporte-titulo"]
+  },
+  "flex-layout.col#plp-calzado-deporte-body": {
+    "props": {
+      "blockClass": ["plp-calzado-deporte"]
+    },
+    "children": ["rich-text#plp-calzado-deporte-body"]
+  },
+  "flex-layout.col#plp-hombre-ropa-titulo": {
+    "props": {
+      "blockClass": ["plp-hombre-ropa-titulo"]
+    },
+    "children": ["rich-text#plp-hombre-ropa-titulo"]
+  },
+  "flex-layout.col#plp-hombre-ropa-body": {
+    "props": {
+      "blockClass": ["plp-hombre-ropa-body"]
+    },
+    "children": ["rich-text#plp-hombre-ropa-body"]
+  },
+  "flex-layout.col#plp-mujer-ropa-titulo": {
+    "props": {
+      "blockClass": ["plp-hombre-ropa-titulo"]
+    },
+    "children": ["rich-text#plp-mujer-ropa-titulo"]
+  },
+  "flex-layout.col#plp-mujer-ropa-body": {
+    "props": {
+      "blockClass": ["plp-hombre-ropa-body"]
+    },
+    "children": ["rich-text#plp-mujer-ropa-body"]
+  },
+  "flex-layout.col#plp-mujer-calzado-titulo": {
+    "props": {
+      "blockClass": ["plp-mujer-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-mujer-calzado-titulo"]
+  },
+  "flex-layout.col#plp-mujer-calzado-body": {
+    "props": {
+      "blockClass": ["plp-mujer-calzado-body"]
+    },
+    "children": ["rich-text#plp-mujer-calzado-body"]
+  },
+  "flex-layout.col#plp-ninos-calzado-titulo": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-titulo"]
+    },
+    "children": ["rich-text#plp-ninos-calzado-titulo"]
+  },
+  "flex-layout.col#plp-ninos-calzado-body": {
+    "props": {
+      "blockClass": ["plp-ninos-calzado-body"]
+    },
+    "children": ["rich-text#plp-ninos-calzado-body"]
+  },
+
+  "flex-layout.row#plp-banner-mujer-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-mujer"]
+  },
+  "flex-layout.row#plp-banner-mujer-calzado-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-mujer-calzado"]
+  },
+
+  "flex-layout.row#plp-banner-mujer-ropa-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-mujer-ropa"]
+  },
+  "flex-layout.row#plp-banner-mujer-accesorios-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-mujer-accesorios"]
+  },
+  "flex-layout.row#plp-banner-hombre-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+    },
+    "children": ["flex-layout.row#slider-subcategorias-hombre"]
+  },
+  "flex-layout.row#plp-banner-hombre-calzado-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-hombre-calzado"]
+  },
+
+  "flex-layout.row#plp-banner-hombre-ropa-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-hombre-ropa"]
+  },
+  "flex-layout.row#plp-banner-hombre-accesorios-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+      // "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#slider-subcategorias-hombre-accesorios"]
+  },
+
+  "flex-layout.row#plp-banner-ninos-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+    },
+    "children": ["flex-layout.row#slider-subcategorias-ninos"]
+  },
+
+  "flex-layout.row#plp-banner-unisex-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+    },
+    "children": ["flex-layout.row#slider-subcategorias-unisex"]
+  },
+
+  "flex-layout.row#plp-banner-unisex-ropa-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+    },
+    "children": ["flex-layout.row#slider-subcategorias-unisex-ropa"]
+  },
+
+  "flex-layout.row#plp-banner-unisex-accesorios-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+    },
+    "children": ["flex-layout.row#slider-subcategorias-unisex-accesorios"]
+  },
+
+  "flex-layout.row#plp-banner-unisex-calzado-subcategories": {
+    "props": {
+      "blockClass": ["plp-banner-mujer-subcategories"],
+      "paddingTop": 4
+    },
+    "children": ["flex-layout.row#slider-subcategorias-unisex-calzado"]
+  },
+  /*Responsive layout Banner PLP*/
+  /*bts*/
+  "responsive-layout.desktop#banner-plp-backtoschool": {
+    "children": ["image#plp-backtoschool-desktop"]
+  },
+  "responsive-layout.tablet#banner-plp-backtoschool": {
+    "children": ["image#plp-backtoschool-desktop"]
+  },
+  "responsive-layout.phone#banner-plp-backtoschool": {
+    "children": ["image#plp-backtoschool-mobile"]
+  },
+  /*mujer*/
+  "responsive-layout.desktop#banner-plp-glide": {
+    "children": ["image#plp-glide-desktop"]
+  },
+  "responsive-layout.tablet#banner-plp-glide": {
+    "children": ["image#plp-glide-desktop"]
+  },
+  "responsive-layout.phone#banner-plp-glide": {
+    "children": ["image#plp-glide-mobile"]
+  },
+  /*mujer*/
+  "responsive-layout.desktop#banner-plp-mujer": {
+    "children": [/*"image#plp-mujer-desktop"*/]
+  },
+  "responsive-layout.tablet#banner-plp-mujer": {
+    "children": [/*"image#plp-mujer-desktop"*/]
+  },
+  "responsive-layout.phone#banner-plp-mujer": {
+    "children": [/*"image#plp-mujer-mobile"*/]
+  },
+    /*Nano x3*/
+    "responsive-layout.desktop#banner-plp-nano3": {
+      "children": ["image#plp-nano3-desktop"]
+   },
+   "responsive-layout.tablet#banner-plp-nano3": {
+     "children": ["image#plp-nano3-desktop"]
+   },
+   "responsive-layout.phone#banner-plp-nano3": {
+     "children": ["image#plp-nano3-mobile"]
+   },
+  /*hombre*/
+  "responsive-layout.desktop#banner-plp-hombre": {
+    "children": [/*"image#plp-hombre-desktop"*/]
+  },
+  "responsive-layout.tablet#banner-plp-hombre": {
+    "children": [/*"image#plp-hombre-desktop"*/]
+  },
+  "responsive-layout.phone#banner-plp-hombre": {
+    "children": [/*"image#plp-hombre-mobile"*/]
+  },
+  /*niños*/
+  "responsive-layout.desktop#banner-plp-ninos": {
+    "children": [/*"image#plp-ninos-desktop"*/]
+  },
+  "responsive-layout.tablet#banner-plp-ninos": {
+    "children": [/*"image#plp-ninos-desktop"*/]
+  },
+  "responsive-layout.phone#banner-plp-ninos": {
+    "children": [/*"image#plp-ninos-mobile"*/]
+  },
+  /*unisex*/
+  "responsive-layout.desktop#banner-plp-unisex": {
+    "children": [/*"image#plp-unisex-desktop"*/]
+  },
+  "responsive-layout.tablet#banner-plp-unisex": {
+    "children": [/*"image#plp-unisex-desktop"*/]
+  },
+  "responsive-layout.phone#banner-plp-unisex": {
+    "children": [/*"image#plp-unisex-mobile"*/]
+  },
+  /*deporte*/
+  "responsive-layout.desktop#banner-plp-deporte": {
+    "children": ["image#plp-deporte-desktop"]
+  },
+  "responsive-layout.tablet#banner-plp-deporte": {
+    "children": ["image#plp-deporte-desktop"]
+  },
+  "responsive-layout.phone#banner-plp-deporte": {
+    "children": ["image#plp-deporte-mobile"]
+  },
+  /*classics*/
+  "responsive-layout.desktop#banner-plp-classics": {
+    "children": ["image#plp-classics-desktop"]
+  },
+  "responsive-layout.tablet#banner-plp-classics": {
+    "children": ["image#plp-classics-desktop"]
+  },
+  "responsive-layout.phone#banner-plp-classics": {
+    "children": ["image#plp-classics-mobile"]
+  },
+  /*outlet*/
+  "responsive-layout.desktop#banner-plp-outlet": {
+    "children": ["image#plp-outlet-desktop"]
+  },
+  "responsive-layout.tablet#banner-plp-outlet": {
+    "children": ["image#plp-outlet-desktop"]
+  },
+  "responsive-layout.phone#banner-plp-outlet": {
+    "children": ["image#plp-outlet-mobile"]
+  },
+  /*Banners PLP */
+  "image#plp-hombre-desktop": {
+    "title": "Banner PLP hombre desktop",
+    "props": {
+      "blockClass": ["plp-hombre-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Hombre_DT_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Hombre - Reebok",
+      "alt": "Hombre - Reebok"
+    }
+  },
+  "image#plp-hombre-mobile": {
+    "title": "Banner PLP hombre mobile",
+    "props": {
+      "blockClass": ["plp-hombre-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Hombre_MB_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Hombre - Reebok",
+      "alt": "Hombre - Reebok"
+    }
+  },
+  "image#plp-mujer-desktop": {
+    "title": "Banner PLP Mujer desktop",
+    "props": {
+      "blockClass": ["plp-mujer-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Mujer_DT_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Mujer - Reebok",
+      "alt": "Mujer - Reebok"
+    }
+  },
+  "image#plp-mujer-mobile": {
+    "title": "Banner PLP Mujer mobile",
+    "props": {
+      "blockClass": ["plp-mujer-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Mujer_MB_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Mujer - Reebok",
+      "alt": "Mujer - Reebok"
+    }
+  },
+  "image#plp-nano3-desktop": {
+    "title": "Banner PLP NANO X3 desktop",
+    "props": {
+      "blockClass": ["plp-nano3-banner-desktop", "image-carousel3", "image-main-carousel"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_Desktop_NanoX3_ss23_1020x480.jpg",
+      "maxWidth": "100%",
+      "title": "Nano X3 - Reebok",
+      "alt": "Nano X3 - Reebok"
+    }
+  },
+  "image#plp-nano3-mobile": {
+    "title": "Banner PLP NANO X3 mobile",
+    "props": {
+      "blockClass": ["plp-nano3-banner-mobile", "image-carousel3", "image-main-carousel"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_Mobile_NanoX3_ss23_750x750.jpg",
+      "maxWidth": "100%",
+      "title": "Nano X3 - Reebok",
+      "alt": "Nano X3 - Reebok"
+    }
+  },
+  "image#plp-glide-desktop": {
+    "title": "Banner PLP Mujer desktop",
+    "props": {
+      "blockClass": ["plp-mujer-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLPbanner_Glide_1920x480_DT_2-1302.jpg",
+      "maxWidth": "100%",
+      "title": "Mujer - Reebok",
+      "alt": "Mujer - Reebok"
+    }
+  },
+  "image#plp-glide-mobile": {
+    "title": "Banner PLP Mujer mobile",
+    "props": {
+      "blockClass": ["plp-mujer-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLPbanner_Glide_750x750_MB_2-1302.jpg",
+      "maxWidth": "100%",
+      "title": "Mujer - Reebok",
+      "alt": "Mujer - Reebok"
+    }
+  },
+  "image#plp-ninos-desktop": {
+    "title": "Banner PLP Niños desktop",
+    "props": {
+      "blockClass": ["plp-ninos-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Kids_DT_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Niños - Reebok",
+      "alt": "Niños - Reebok"
+    }
+  },
+  "image#plp-ninos-mobile": {
+    "title": "Banner PLP Niños mobile",
+    "props": {
+      "blockClass": ["plp-ninos-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Kids_MB_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Niños - Reebok",
+      "alt": "Niños - Reebok"
+    }
+  },
+  "image#plp-unisex-desktop": {
+    "title": "Banner PLP Unisex desktop",
+    "props": {
+      "blockClass": ["plp-unisex-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Unisex_DT_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Unisex - Reebok",
+      "alt": "Unisex - Reebok"
+    }
+  },
+  "image#plp-unisex-mobile": {
+    "title": "Banner PLP Unisex mobile",
+    "props": {
+      "blockClass": ["plp-unisex-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Unisex_MB_update-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Unisex - Reebok",
+      "alt": "Unisex - Reebok"
+    }
+  },
+  "image#plp-deporte-desktop": {
+    "title": "Banner PLP Deporte desktop",
+    "props": {
+      "blockClass": ["plp-deporte-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Deporte_DT-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Deporte - Reebok",
+      "alt": "Deporte - Reebok"
+    }
+  },
+  "image#plp-deporte-mobile": {
+    "title": "Banner PLP Deporte mobile",
+    "props": {
+      "blockClass": ["plp-deporte-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Deporte_MB-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Deporte - Reebok",
+      "alt": "Deporte - Reebok"
+    }
+  },
+  "image#plp-classics-desktop": {
+    "title": "Banner PLP Classics desktop",
+    "props": {
+      "blockClass": ["plp-classics-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP-preserve-the-past-desktop-1502.jpg",
+      "maxWidth": "100%",
+      "title": "Classics - Reebok",
+      "alt": "Classics - Reebok"
+    }
+  },
+  "image#plp-classics-mobile": {
+    "title": "Banner PLP Classics mobile",
+    "props": {
+      "blockClass": ["plp-classics-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP-preserve-the-past-mobile-1502.jpg",
+      "maxWidth": "100%",
+      "title": "Classics - Reebok",
+      "alt": "Classics - Reebok"
+    }
+  },
+  "image#plp-outlet-desktop": {
+    "title": "Banner PLP Outlet desktop",
+    "props": {
+      "blockClass": ["plp-outlet-banner-desktop"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Outlet_DT_rojo-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Outlet - Reebok",
+      "alt": "Outlet - Reebok"
+    }
+  },
+  "image#plp-outlet-mobile": {
+    "title": "Banner PLP Outlet mobile",
+    "props": {
+      "blockClass": ["plp-outlet-banner-mobile"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_banner_Outlet_MB_rojo-2701.jpg",
+      "maxWidth": "100%",
+      "title": "Outlet - Reebok",
+      "alt": "Outlet - Reebok"
+    }
+  },
+  "image#plp-lux": {
+    "props": {
+      "blockClass": ["plp-hombre-banner"],
+      "src": "https://reebokcol.vteximg.com.br/arquivos/hero-plp.jpg"
+    }
+  },
+
+  "image#plp-backtoschool-desktop": {
+    "props": {
+      "blockClass": ["plp-bts-banner"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_BacktoSchool_1920x480-1302.jpg"
+    }
+  },
+  "image#plp-backtoschool-mobile": {
+    "props": {
+      "blockClass": ["plp-bts-banner"],
+      "src": "https://reebokcl.vteximg.com.br/arquivos/PLP_BacktoSchool_750x750-1302.jpg"
+    }
+  },
+  /* PRUEBA URL */
+  "store.custom#collection-example": {
+    "blocks": ["search-result-layout.customQuery#collection-example"]
+  },
+  "search-result-layout.customQuery#collection-example": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 30,
+        "queryField": "1",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByScoreDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

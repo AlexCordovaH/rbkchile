@@ -1,0 +1,69 @@
+{
+    "custom-banner#valentines": {
+    "title": "main-banner",
+    "props": {
+        "desktopBgImageUrl": "/arquivos/Hero-Banner-San-Valentin-Desktop.jpg",
+        "phoneBgImageUrl": "/arquivos/Hero-Banner-San-Valentin-Mobile-new.jpg",
+        "headlines": [
+        {
+        "type": "headline",
+        "text": "COMPRA MÁS Y",
+        "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite",
+            "phone": "banner-headline-bottom cWhite"
+        }
+        },
+        {
+            "type": "headline",
+            "text": "AHORRA MÁS 💗",
+            "sx": {
+                "desktop": "banner-headline-bottom mr2 cWhite",
+                "tablet": "banner-headline-bottom mr2 cWhite",
+                "phone": "banner-headline-bottom cWhite"
+            }
+            },
+
+        {
+        "type": "copy",
+        "text": "¡Regala con amor! Por la compra de 2 artículos",
+        "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+        }
+        },
+        {
+        "type": "copy",
+        "text": "recibe 20% de descuento en tu orden.",
+        "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite"
+        }
+        }
+    ],
+    "buttons": {
+        "CTAs": [
+        {
+            "label": "COMPRAR AHORA",
+            "link": "/VALENTINES",
+            "sx": {
+            "desktop": "mt2 fs80 mr1",
+            "tablet": "mt5 fs70",
+            "phone": "mt5 mr17 fs70"
+            }
+        }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+    },
+    "sx": {
+        "desktop": "relative t38 tar",
+        "tablet": "relative t25 tar",
+        "phone": "relative t60 tac"
+    }
+    }
+    }
+}
+    

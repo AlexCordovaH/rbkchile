@@ -1,0 +1,220 @@
+{
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "flex-layout.row#desktop-header-descuento": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": "desktop-header-descuento"
+    },
+    "children": [
+      "slider-layout#text-test"
+      // "rich-text#desktop-header-descuento-2"
+    ]
+  },
+
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      // "infinite": true,
+      // "autoplay": {
+      //   "timeout": 5000,
+      //   "stopOnHover": true
+      // },
+      "slideTransition": {
+        "speed": 3000,
+        "delay": 0,
+        "timing": ""
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    },
+    "children": [
+      // "rich-text#desktop-header-descuento-0",
+       "rich-text#desktop-header-descuento-1"
+      // "rich-text#desktop-header-descuento-2"
+    ]
+  },
+  
+  "rich-text#desktop-header-descuento-0": {
+    "props": {
+      "blockClass": ["desktop-header-descuento","desktop-header-descuento-282"],
+      "text": "¡APROVECHA HASTA 40% + 20% OFF! COMPRA [AQUÍ](/ofertas)"
+    }
+  },
+  "rich-text#desktop-header-descuento-1": {
+    "props": {
+      "blockClass": ["desktop-header-descuento","desktop-header-descuento-282"],
+      "text": "**¡ÚNETE Y RECIBE 20% OFF EN TU PRIMERA COMPRA!** [HAZ CLICK AQUÍ](/newsletter)"
+    }
+  },
+  "rich-text#desktop-header-descuento-2": {
+    "props": {
+      "blockClass": "desktop-header-descuento",
+      "text": "[**¡Envío GRATIS! Disfruta de envío gratis por compras desde $55.000**](/todo-reebok)"
+    }
+  },
+  "rich-text#desktop-header-descuento-3": {
+    "props": {
+      "blockClass": "desktop-header-descuento",
+      "text": "[Del 1 al 2 de febrero haremos una pausa. ¡Volveremos con nuestra mejor versión!](/todo-reebok)"
+    }
+  },
+
+  "flex-layout.row#desktop-header-descuento2": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": "desktop-header-descuento"
+    },
+    "children": ["rich-text#desktop-header-descuento2"]
+  },
+
+  "rich-text#desktop-header-descuento2": {
+    "props": {
+      "blockClass": "desktop-header-descuento",
+      "text": "¡SEGUNDO MENSAJE DE OFERTA!"
+    }
+  },
+
+  "flex-layout.row#desktop-header-guincha": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "blockClass": "desktop-header-guincha"
+    },
+    "children": ["flex-layout.row#desktop-header-guincha-row2"]
+  },
+
+  "flex-layout.row#desktop-header-guincha-row2": {
+    "props": {
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "width": "40%",
+      "blockClass": "desktop-header-row1"
+    },
+    "children": [
+      "link#header-Seguimiento-pedido",
+      "link#header-ayuda",
+      "link#header-tiendas",
+      "link#header-nosotros"
+    ]
+  },
+
+  "link#header-Seguimiento-pedido": {
+    "props": {
+      "target": "_blank",
+      "href": "https://www.blue.cl/seguimiento/",
+      "label": "Seguimiento de pedido",
+      "blockClass": ["header-ayuda", "header-guincha-texto"]
+    }
+  },
+
+  "link#header-ayuda": {
+    "props": {
+      "target": "_blank",
+      "href": "https://reebokcl-support.freshdesk.com/support/home",
+      "label": "Ayuda",
+      "blockClass": ["header-ayuda", "header-guincha-texto"]
+    }
+  },
+
+  "link#header-tiendas": {
+    "props": {
+      "href": "/nuestras-tiendas",
+      "label": "Tiendas",
+      "blockClass": ["header-tiendas", "header-guincha-texto"]
+    }
+  },
+
+  "link#header-nosotros": {
+    "props": {
+      "href": "/nosotros",
+      "label": "Nosotros",
+      "blockClass": ["header-nosotros", "header-guincha-texto"]
+    }
+  },
+
+  "link#header-blog": {
+    "props": {
+      "href": "/#",
+      "label": "Blog",
+      "blockClass": ["header-blog", "header-guincha-texto"]
+    }
+  },
+
+  "link#header-rebook": {
+    "props": {
+      "href": "/#",
+      "label": "Reebok unlocked",
+      "blockClass": ["header-rebook", "header-guincha-texto"]
+    }
+  },
+
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/header-logo.svg",
+      "width": "150"
+    }
+  },
+
+  "flex-layout.row#header-guincha": {
+    "props": {
+      "blockClass": "header-guincha",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": false
+    },
+    "children": ["slider-layout#header-gincha-slider"]
+  },
+
+  "slider-layout#header-gincha-slider": {
+    "props": {
+      "blockClass": "header-gincha-slider",
+      "itemsPerPage": {
+        "mobile": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    },
+    "children": ["flex-layout.row#desktop-header-descuento"]
+  },
+
+  /*-------------------------------------Login--------------------------*/
+  "login#sticky": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      // "blockClass": "login-block",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky"]
+  },
+  "icon-profile#sticky": {
+    "props": {
+      "size": 20,
+      "viewBox": "0 0 20 20"
+    }
+  }
+}

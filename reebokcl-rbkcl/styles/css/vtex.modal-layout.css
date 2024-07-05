@@ -1,0 +1,215 @@
+:global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content) {
+  display: flex;
+  gap: 1rem;
+}
+:global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+  :global(.vtex-breadcrumb-1-x-container) {
+  display: none;
+}
+:global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+  :global(
+    .vtex-flex-layout-0-x-flexRowContent--container-pdp-simular-product-variants
+  ) {
+  display: none;
+}
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+  :global(.vtex-button)
+  :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  min-width: 16rem;
+}
+:global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+  :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  gap: 2.5rem;
+}
+
+@media (max-width: 40rem) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(
+      .vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content
+    ) {
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 10rem !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    gap: 2rem !important;
+  }
+}
+@media all and (width: 820px) and (height: 1180px) and (orientation: portrait) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(
+      .vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content
+    ) {
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two) {
+    max-width: 100%;
+    margin: 0;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    margin: 0;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    gap: 22rem !important;
+  }
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 32rem !important;
+  }
+}
+
+@media all and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(
+      .vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content
+    ) {
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two) {
+    max-width: 100%;
+    margin: 0;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    margin: 0;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    gap: 20rem !important;
+  }
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 30rem !important;
+  }
+}
+@media all and (width: 1024px) and (height: 600px) and (orientation: landscape) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(
+      .vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content
+    ) {
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two) {
+    max-width: 100%;
+    margin: 0;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    margin: 0;
+  }
+}
+
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    gap: 0rem !important;
+  }
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 8rem !important;
+  }
+}
+@media all and (width: 1180px) and (height: 820px) and (orientation: landscape) {
+  :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 12rem !important;
+  }
+}
+@media all and (width: 810px) and (height: 1010px) and (orientation: portrait) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(
+      .vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content
+    ) {
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two) {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    margin: 0;
+  }
+}
+@media all and (width: 1010px) and (height: 810px) and (orientation: landscape) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    gap: 0rem !important;
+  }
+  :global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexColChild--desktop-add-to-cart-button)
+    :global(.vtex-button)
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    min-width: 9rem !important;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1200px) {
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(
+      .vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content
+    ) {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+  :global(.vtex-modal-layout-0-x-modal--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-modal-content)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-col-two) {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,83 @@
+{
+  /* "store.custom#footer-productos": {
+    "blocks": ["search-result-layout.customQuery#footer-productos"]
+  }, */
+  "store.custom#footer-calzado": {
+    "blocks": ["search-result-layout.customQuery#footer-calzado"]
+  },
+  "store.custom#footer-ropa": {
+    "blocks": ["search-result-layout.customQuery#footer-ropa"]
+  },
+  "store.custom#footer-accesorios": {
+    "blocks": ["search-result-layout.customQuery#footer-accesorios"]
+  },
+
+  /* "search-result-layout.customQuery#footer-productos": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "264",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }, */
+  "search-result-layout.customQuery#footer-calzado": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "265",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#footer-ropa": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "266",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#footer-accesorios": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 20,
+        "queryField": "267",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

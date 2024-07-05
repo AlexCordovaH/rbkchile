@@ -1,0 +1,146 @@
+{
+  "flex-layout.col#banner-end-season": {
+    "props": {
+      "blockClass": "main-desktopHome-carousel3"
+    },
+    "children": [
+      "flex-layout.row#image-desktop-end-season-end",
+      "flex-layout.col#info-banner-end-season"
+    ]
+  },
+  "flex-layout.row#image-desktop-end-season-end": {
+    "props": {
+      "blockClass": "image-desktopHome-c3"
+    },
+    "children": ["image#image-banner-end-season"]
+  },
+  "flex-layout.col#info-banner-end-season": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["main-desktopHome-info-sale"]
+    },
+    "children": [
+      "flex-layout.col#titulo-banner-end-season",
+      "flex-layout.row#body-banner-end-season",
+      "flex-layout.row#button-banner-end-season-end"
+    ]
+  },
+  "flex-layout.col#titulo-banner-end-season": {
+    "props": {
+      "blockClass": "titulo-desktopHome"
+    },
+    "children": [
+      "rich-text#titulo-banner-end-season",
+      "rich-text#titulo2-banner-end-season-end"
+    ]
+  },
+  "flex-layout.row#body-banner-end-season": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#body-banner-end-season"]
+  },
+
+  "flex-layout.row#body-banner-end-season-mobile-end": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#body-banner-end-season"]
+  },
+
+  "flex-layout.row#button-banner-end-season-end": {
+    "props": {
+      "blockClass": ["buttons-desktopHome", "buttons-desktopHome-flex"]
+    },
+    "children": ["flex-layout.col#button-end-season-end"]
+  },
+  "flex-layout.col#button-end-season-end": {
+    "props": {
+      "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale"]
+    },
+    "children": ["link#button-end-season-end"]
+  },
+  "link#button-end-season-end": {
+    "props": {
+      "href": "/ofertas",
+      "label": "COMPRAR AHORA",
+      "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale"]
+    }
+  },
+  "rich-text#titulo-banner-end-season": {
+    "props": {
+      "blockClass": ["titulo-rebook-tunes", "titulo-sale-1"],
+      "text": "## Descuentos",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#titulo2-banner-end-season-end": {
+    "props": {
+      "blockClass": ["titulo-rebook-tunes", "titulo-rebook-2"],
+      "text": "## ¡Final de temporada!",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#body-banner-end-season": {
+    "props": {
+      "blockClass": [
+        "body-rebook-tunes",
+        "body-rebook-dia-del-padre",
+        "body-rebook-sale"
+      ],
+      "textAlignment": "RIGHT",
+      "text": "¡Aprovecha hasta 60% de descuento!"
+    }
+  },
+  "image#image-banner-end-season": {
+    "props": {
+      "alt": "End Of Season",
+      "title": "End Of Season",
+      "src": "/arquivos/HERO-BANNER-DESKTOP-CHILE.jpg",
+      "link": {
+        "url": "/ofertas"
+      },
+      "blockClass": ["image-carousel3", "image-main-carousel"]
+    }
+  },
+  "image#image-banner-end-season-mobile": {
+    "props": {
+      "alt": "End Of Season",
+      "title": "End Of Season",
+      "src": "/arquivos/HERO-BANNER-MOBILE-CHILE.jpg",
+      "link": {
+        "url": "/ofertas"
+      },
+      "blockClass": ["image-carousel3", "image-main-carousel"]
+    }
+  },
+
+  /*Banner Mobile End Of Season*/
+  "flex-layout.col#mobile-banner-end-season": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-end-season",
+      "flex-layout.row#image-mobile-end-season"
+    ]
+  },
+  "flex-layout.row#image-mobile-end-season": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-end-season-mobile"]
+  },
+  "flex-layout.col#mobile-info-banner-end-season": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["main-desktopHome-info-carousel3", "info-banner-sale"]
+    },
+    "children": [
+      "flex-layout.col#titulo-banner-end-season",
+      "flex-layout.row#body-banner-end-season-mobile-end",
+      "flex-layout.row#button-banner-end-season-end"
+    ]
+  }
+  /*Fn Banner End Of Season*/
+}

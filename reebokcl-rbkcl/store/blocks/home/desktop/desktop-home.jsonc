@@ -1,0 +1,19 @@
+{
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#home-desktop-hero-banners",
+      "flex-layout.row#home-desktop-titulo-menu",
+      "flex-layout.row#component-destacados-ahora",
+      "flex-layout.row#desktopHome-third-row-images",
+      "flex-layout.row#mas-vendido-title",
+      "flex-layout.row#component-shelf-productos-mas-vendidos",
+      "__fold__",
+      "flex-layout.row#destacados-title",
+      "flex-layout.row#home-destacados",
+      "flex-layout.row#component-shelf-productos-destacados-title-home-icons",
+      "flex-layout.row#home-desktop-icons",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-recomendados"
+    ]
+  }
+}

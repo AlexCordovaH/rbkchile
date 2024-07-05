@@ -1,0 +1,95 @@
+{
+    "vtex.menu@2.x:submenu#v2-ninos": {
+        "props": {
+            "width": "100%",
+            "orientation": "vertical",
+            "blockClass": "submenu-mujer"
+        },
+        "children": [
+            "flex-layout.row#submenu-desktop-v2-ninos"
+        ]
+    },
+    "flex-layout.row#submenu-desktop-v2-ninos": {
+        "props": {
+            "blockClass": "submenu-desktop"
+        },
+        "children": [
+            "flex-layout.row#submenu-v2ninos-padre-row2"
+        ]
+    },
+    "flex-layout.row#submenu-v2ninos-padre-row2": {
+        "props": {
+            "blockClass": "submenu-padre-row2"
+        },
+        "children": [
+            "flex-layout.row#submenu-item-general-v2-ninos-titulos"
+        ]
+    },
+    "flex-layout.row#submenu-item-general-v2-ninos-titulos": {
+        "props": {
+            "blockClass": "submenu-item-general-titulos"
+        },
+        "children": [
+            "flex-layout.col#submenu-item-v2-ninos-calzado",
+            // "flex-layout.col#submenu-item-v2-ninos-colaboraciones",
+            "flex-layout.col#submenu-item-v2-ninos-novedades"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-ninos-calzado": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-ninos-calzado",
+            "menu-item#submenu-ninos-link-calzado-zapatillas04anos",
+            "menu-item#submenu-ninos-link-calzado-zapatillas58anos",
+            "menu-item#submenu-ninos-link-calzado-zapatillas914anos",
+            //"menu-item#submenu-ninos-link-calzado-basquet",
+            //"menu-item#submenu-ninos-link-calzado-entrenamientofuncional",
+            //"menu-item#submenu-ninos-link-calzado-fitnetsandtraining",
+            "menu-item#submenu-ninos-link-calzado-lifestyle",
+            "menu-item#submenu-ninos-link-calzado-running",
+            //"menu-item#submenu-ninos-link-calzado-senderismo",
+            //"menu-item#submenu-ninos-link-calzado-walking",
+            "menu-item#submenu-ninos-link-calzado-ver-todo"
+        ]
+    },
+
+    "flex-layout.col#submenu-item-v2-ninos-colaboraciones": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-ninos-colaboraciones",
+            "menu-item#submenu-ninos-link-colaboraciones-cardib",
+            //"menu-item#submenu-ninos-link-colaboraciones-jurassicworld",
+            //"menu-item#submenu-ninos-link-colaboraciones-looneytunes",
+            "menu-item#submenu-ninos-link-colaboraciones-nationalgeographic",
+            "menu-item#submenu-ninos-link-colaboraciones-peppapig"/* ,
+            "menu-item#submenu-ninos-link-colaboraciones-pjmask" *//* ,
+            "menu-item#submenu-ninos-link-colaboraciones-powerrangers" */
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-ninos-novedades": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-ninos-novedades",
+            //"menu-item#submenu-ninos-link-novedades-losmasvendidos",
+            // "menu-item#submenu-ninos-link-novedades-weebok",
+            "menu-item#submenu-ninos-link-novedades-clubc",
+            // "menu-item#submenu-ninos-link-novedades-reebokroyal",
+            //"menu-item#submenu-ninos-link-novedades-nano",
+            //"menu-item#submenu-ninos-link-novedades-classics",
+            "menu-item#submenu-ninos-link-novedades-classicsleather"//,
+            // "menu-item#submenu-ninos-link-novedades-zig"
+        ]
+    }
+}

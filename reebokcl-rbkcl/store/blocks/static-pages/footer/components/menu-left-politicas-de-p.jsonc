@@ -1,0 +1,39 @@
+{
+  // Servicio al Cliente - Pregunats Frecuentes
+"vtex.menu@2.x:menu#desktop-pp-servicio-al-cliente":{
+  "props":{
+    "orientation":"vertical"
+  },
+  "children":[
+    "menu-item#desktop-title-row-servicio-al-cliente",
+    "menu-item#component-contacto-reebok",
+    "menu-item#component-preguntas-frecuentes",
+    // "menu-item#component-devoluciones",
+    // "menu-item#component-informacion-de-envio",
+    // "menu-item#component-metodos-de-pago",
+    "menu-item#component-seguimiento-de-pedido",
+    // "menu-item#component-facturacion",
+    "menu-item#component-terminos-condiciones",
+    "menu-item#component-politicas-de-privacidad-is-active",
+    "menu-item#component-legales-promociones",
+    "menu-item#component-tiendas-oficiales",
+    "menu-item#component-programa-fidelidad"
+  ]
+},
+"menu-item#component-politicas-de-privacidad-is-active": {
+  "props": {
+    "id": "menu-item-productos-politicas-de-privacidad",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/politicas-de-privacidad",
+      "noFollow": false,
+      "tagTitle": "Políticas de Privacidad",
+      "text": "Políticas de Privacidad"
+    },
+    "blockClass":[ "menu-item-footer-desktop", "menu-item-landing-desktop-isActive"]
+  }
+}
+}

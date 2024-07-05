@@ -1,0 +1,169 @@
+{
+    "flex-layout.col#banner-dia-del-nino": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktop-dia-del-nino",
+            "flex-layout.col#info-banner-dia-del-nino"
+        ]
+    },
+    "flex-layout.row#image-desktop-dia-del-nino": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-dia-del-nino"
+        ]
+    },
+    "flex-layout.col#info-banner-dia-del-nino": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-contenedor-info-dia-del-nino"
+            ]
+        },
+        "children": [
+            "flex-layout.col#titulo-banner-dia-del-nino",
+            "flex-layout.row#body-banner-dia-del-nino",
+            "flex-layout.row#button-banner-dia-del-nino"
+        ]
+    },
+    "flex-layout.col#titulo-banner-dia-del-nino": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-banner-dia-del-nino"
+        ]
+    },
+    "flex-layout.row#body-banner-dia-del-nino": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-dia-del-nino"
+        ]
+    },
+
+    "flex-layout.row#body-banner-dia-del-nino-mobile": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-dia-del-nino"
+        ]
+    },
+    
+    "flex-layout.row#button-banner-dia-del-nino": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#button-dia-del-nino"
+        ]
+    },
+    "flex-layout.col#button-dia-del-nino": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2",
+                "buttons-desktopHome-2-sale"
+            ]
+        },
+        "children": [
+            "link#button-dia-del-nino"
+        ]
+    },
+    "link#button-dia-del-nino": {
+        "props": {
+            "href": "/ofertas",
+            "label": "COMPRAR AHORA",
+            "blockClass": ["buttons-desktopHome-2", "buttons-desktopHome-2-sale" ]
+        }
+    },
+    "rich-text#titulo-banner-dia-del-nino": {
+        "props": {
+            "blockClass": [
+                "titulo-rebook-tunes",
+                "titulo-dia-del-nino"
+            ],
+            "text": "## Más Compras Más Descuentos",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-banner-dia-del-nino": {
+        "props": {
+            "blockClass": [
+                "body-rebook-dia-del-nino"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Disfruta de hasta 50% de descuento y por la compra de 2 artículos obtén 10% adicional y 20% adicional por la compra de 3 artículos. \n Aplica catálogo de outlet." 
+        }
+    },
+    "image#image-banner-dia-del-nino": {
+        "props": {
+            "alt": "Día de la niñez",
+            "title": "Día de la niñez",
+            "src": "/arquivos/HERO--18DESK.jpg",
+            "link": {
+                "url": "/diadelnino"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-dia-del-nino-mobile": {
+        "props": {
+            "alt": "Día de la niñez",
+            "title": "Día de la niñez",
+            "src": "/arquivos/HERO--18MOB.jpg",
+            "link": {
+                "url": "/diadelnino"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+
+
+/*Banner Mobile Día del Niño*/
+  "flex-layout.col#mobile-banner-dia-del-nino": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-dia-del-nino",
+      "flex-layout.row#image-mobile-dia-del-nino"
+    ]
+  },
+  "flex-layout.row#image-mobile-dia-del-nino": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": [
+      "image#image-banner-dia-del-nino-mobile"
+    ]
+  },
+  "flex-layout.col#mobile-info-banner-dia-del-nino": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "info-banner-dia-del-nino"
+      ]
+    },
+    "children": [
+      "flex-layout.col#titulo-banner-dia-del-nino",
+      "flex-layout.row#body-banner-dia-del-nino-mobile",
+      "flex-layout.row#button-banner-dia-del-nino"
+    ]
+  }
+  /*Fn Banner Día del Niño*/
+}

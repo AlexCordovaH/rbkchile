@@ -1,0 +1,472 @@
+{
+    /*Store custom: HOMBRE - CALZADO */
+    "store.custom#hombre-calzado-zapatillas": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-calzado-zapatillas"
+        ]
+    },
+    "store.custom#hombre-calzado-sandalias": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-calzado-sandalias"
+        ]
+    },
+    /*Store custom: HOMBRE - ROPA */
+    "store.custom#hombre-ropa-pantalonesyleggins": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-ropa-pantalonesyleggins"
+        ]
+    },
+    /*Store custom: HOMBRE - COLABORACIONES */
+    "store.custom#hombre-colaboraciones": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-jurassicworld": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-jurassicworld"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-looneytunes": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-looneytunes"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-naoserati": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-naoserati"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-nationalgeographic": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-nationalgeographic"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-powerrangers": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-powerrangers"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-streetfighter": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-streetfighter"
+        ]
+    },
+    "store.custom#hombre-colaboraciones-warnerbros": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-colaboraciones-warnerbros"
+        ]
+    },
+    /*Store custom: HOMBRE - NOVEDADES */
+    "store.custom#hombre-novedades": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades"
+        ]
+    },
+    "store.custom#hombre-novedades-losmasvendidos": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-losmasvendidos"
+        ]
+    },
+    "store.custom#hombre-novedades-unitedbyfitness": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-unitedbyfitness"
+        ]
+    },
+    "store.custom#hombre-novedades-reecycled": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-reecycled"
+        ]
+    },
+    "store.custom#hombre-novedades-workoutready": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-workoutready"
+        ]
+    },
+    "store.custom#hombre-novedades-royalcomplete": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-royalcomplete"
+        ]
+    },
+    "store.custom#hombre-novedades-classics": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-classics"
+        ]
+    },
+    "store.custom#hombre-novedades-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-classicleather"
+        ]
+    },
+    "store.custom#hombre-novedades-nano": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-nano"
+        ]
+    },
+    "store.custom#hombre-novedades-zig": {
+        "blocks": [
+            "search-result-layout.customQuery#hombre-novedades-zig"
+        ]
+    },
+    /*Search result layout: HOMBRE - CALZADO */
+    "search-result-layout.customQuery#hombre-calzado-zapatillas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/calzado/zapatillas",
+                "mapField": "tipo-de-producto"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-calzado-sandalias": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/calzado/Sandalias",
+                "mapField": "tipo-de-producto"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: HOMBRE - ROPA */
+    "search-result-layout.customQuery#hombre-ropa-pantalonesyleggins": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/ropa/pantalones-y-calzas",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: HOMBRE - COLABORACIONES */
+    "search-result-layout.customQuery#hombre-colaboraciones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "321",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-jurassicworld": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/jurassic-world",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-looneytunes": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/looney-tunes",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-naoserati": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/nao-serati",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-nationalgeographic": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/national-geographic",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-powerrangers": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/power-rangers",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-streetfighter": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/street-fighter",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-colaboraciones-warnerbros": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/warner-bros",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: HOMBRE - NOVEDADES */
+    "search-result-layout.customQuery#hombre-novedades": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "185",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-losmasvendidos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "320",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-unitedbyfitness": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/united-by-fitness",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-reecycled": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/ree-cycled",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-workoutready": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/workout-ready",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-royalcomplete": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/royal-complete",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-classics": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/classic",
+                "mapField": "categoria-deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-nano": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/nano",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#hombre-novedades-zig": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/hombre/zig",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

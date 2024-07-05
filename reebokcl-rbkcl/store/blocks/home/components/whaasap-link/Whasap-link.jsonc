@@ -1,0 +1,12 @@
+{
+    "image#whatsapp-business": {
+        "props": {
+          "blockClass": "icon-whatsapp-fixed",
+          "alt":"whatsapp",
+          "src": "https://reebokcl.vteximg.com.br/arquivos/whatsapp-12-10-22.png",
+          "link": {
+            "url": "https://api.whatsapp.com/send/?phone=56931908761&text=Hola%F0%9F%8E%89&type=phone_number&app_absent=0"
+          }
+        }
+}
+}

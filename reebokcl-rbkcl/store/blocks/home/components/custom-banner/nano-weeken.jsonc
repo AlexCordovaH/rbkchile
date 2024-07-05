@@ -1,0 +1,106 @@
+{
+    "custom-banner#nano-weekend": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/banner-nano-weekend-desktop.jpg",
+          "phoneBgImageUrl": "/arquivos/banner-nano-weekend-mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "OFERTAS DE NANO WEEKEND",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2 cWhite",
+                "tablet": "banner-headline-bottom mr2 cWhite mW40 tar",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Aprovecha y lleva tu outfit Nano con hasta 40% de descuento",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite mW40 tar",
+                "phone": "banner-copy cWhite dNone"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR AHORA",
+                "link": "/ofertas",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt5 fs70"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t25 r2 tar",
+            "tablet": "relative t20 l55",
+            "phone": "relative t70 l3"
+          }
+        }
+      },
+
+      "custom-banner#banner-nano-x3": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO123dek.jpg",
+          "phoneBgImageUrl": " /arquivos/HERO123MOB.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "NANO X3 ADVENTURE",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite",
+                "tablet": "banner-headline-bottom cWhite",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Todas las aventuras tienen un inicio. Comienza a explorar",
+              "sx": {
+                "desktop": "banner-copy-bottom mb0 cWhite",
+                "tablet": "banner-copy-bottom mb0 cWhite",
+                "phone": "banner-copy-bottom mW90 cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "¡Nano X3 Adventure ya está disponible!",
+              "sx": {
+                "desktop": "banner-copy-bottom cWhite",
+                "tablet": "banner-copy-bottom cWhite",
+                "phone": "banner-copy-bottom cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "Comprar ahora",
+                "link": "/adventure?_q=adventure&map=ft&page=1",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt1",
+                  "tablet": "mt1",
+                  "phone": "mt5"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": ""
+          },
+          "sx": {
+            "desktop": "relative t25 l5",
+            "tablet": "relative t13 l5",
+            "phone": "relative t55 l3"
+          }
+        }
+      }
+}

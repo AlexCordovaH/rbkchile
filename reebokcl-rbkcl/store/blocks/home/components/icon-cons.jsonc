@@ -1,0 +1,309 @@
+{
+    "flex-layout.row#component-shelf-productos-destacados-title-home-icons": {
+      "children": ["flex-layout.col#component-shelf-productos-destacados-title-act-1-icons"],
+      "props": {
+        "blockClass": ["dekstop-component-shelf-productos-destacados-title","home-principal-row"]
+      }
+    },
+  
+    "flex-layout.col#component-shelf-productos-destacados-title-act-1-icons": {
+      "props": { 
+        "horizontalAlign": "center",
+        "width": "100%",
+        "blockClass": "component-shelf-productos-destacados-title"
+      
+      },
+      "children": ["rich-text#component-shelf-productos-destacados-icons"]
+    },
+    "rich-text#component-shelf-productos-destacados-icons": {
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "## COMPRA LOS ÍCONOS",
+        "blockClass": ["rich-text-shelf-productos-destacados","section-title-reebok-days","home-desktop-icons-title"],
+        "font": "t-heading-3"
+      }
+    },
+      "flex-layout.row#home-desktop-icons": {
+          "children": [
+              "slider-layout#home-desktop-icons"
+          ],
+          "props": {
+              "marginBottom": 7,
+              "blockClass": [
+                "home-desktop-icons"
+              ]
+          }
+      },
+  
+      "slider-layout#home-desktop-icons": {
+          "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 4,
+              "phone": 2
+            },
+            //"infinite": true,
+            "showPaginationDots": "always",
+            "blockClass": ["mobileHome-main-carousel","home-desktop-icons"]
+          },
+          "children": [
+              "flex-layout.col#image-00",
+              "flex-layout.col#image-01",
+              "flex-layout.col#image-02",
+              "flex-layout.col#image-03",
+              "flex-layout.col#image-04",
+              "flex-layout.col#image-05"
+          ]
+      },
+  
+      "flex-layout.col#image-00":{
+          "children":[
+              "flex-layout.row#home-icons-images--00",
+              "flex-layout.row#home-icons-link--00"
+  
+          ]
+      },
+  
+      "flex-layout.col#image-01":{
+          "children":[
+              "flex-layout.row#home-icons-images--01",
+              "flex-layout.row#home-icons-link--01"
+          ]
+      },
+      "image#icons-home--00": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina","icons-home"],  
+            "src": "/arquivos/CLUBC-icons.jpg",
+              "alt":"Club C",
+            "link": {
+              "url": "/club-c"
+            }
+          }
+      },
+      "image#icons-home--01": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina","icons-home"],  
+            "src": "/arquivos/NANO-icons.jpg",
+              "alt":"Nano",
+            "link": {
+              "url": "/nano"
+            }
+          }
+      },
+      
+      "flex-layout.col#image-02":{
+          "children":[
+              "flex-layout.row#home-icons-images--02",
+              "flex-layout.row#home-icons-link--02"
+          ]
+      },
+      "image#icons-home--02": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina","icons-home"],  
+            "src": "/arquivos/CLASSICLEATHER-icons.jpg",
+              "alt":"Classic Leather",
+            "link": {
+              "url": "/classic-leather"
+            }
+          }
+      },
+  
+      "flex-layout.col#image-03":{
+          "children":[
+              "flex-layout.row#home-icons-images--03",
+              "flex-layout.row#home-icons-link--03"
+          ]
+      },
+      "image#icons-home--03": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina","icons-home"],  
+            "src": "/arquivos/FLOATRIDE-icons.jpg",
+              "alt":"Floatride",
+            "link": {
+              "url": "/floatride"
+            }
+          }
+      },
+  
+      "flex-layout.col#image-04":{
+          "children":[
+              "flex-layout.row#home-icons-images--04",
+              "flex-layout.row#home-icons-link--04"
+          ]
+      },
+      "image#icons-home--04": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina","icons-home"],  
+            "src": "/arquivos/PUMP-icons.jpg",
+              "alt":"Pump",
+            "link": {
+              "url": "/pump"
+            }
+          }
+      },
+     
+      "flex-layout.col#image-05":{
+          "children":[
+              "flex-layout.row#home-icons-images--05",
+              "flex-layout.row#home-icons-link--05"
+          ]
+      },
+      "image#icons-home--05": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina","icons-home"],  
+            "src": "/arquivos/BB4000II-icons.jpg",
+              "alt":"BB4000II",
+            "link": {
+              "url": "/bb4000"
+            }
+          }
+      },
+      "flex-layout.row#home-icons-link--00": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "link#home-home-icons-link--00"
+        ]
+        },
+        "link#home-home-icons-link--00": {
+          "props": {
+            "href": "/club-c",
+            "blockClass":["home-destacados-piepagina","home-icons-link"],
+            "label": "COMPRAR AHORA"
+          }
+        },
+  
+  
+  
+        "flex-layout.row#home-icons-link--01": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "link#home-home-icons-link--01"
+        ]
+        },
+        "link#home-home-icons-link--01": {
+          "props": {
+            "href": "/nano",
+            "blockClass":["home-destacados-piepagina","home-icons-link"],
+            "label": "COMPRAR AHORA"
+          }
+        },
+        
+  
+        "flex-layout.row#home-icons-link--02": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "link#home-home-icons-link--02"
+        ]
+        },
+        "link#home-home-icons-link--02": {
+          "props": {
+            "href": "/classic-leather",
+            "blockClass":["home-destacados-piepagina","home-icons-link"],
+            "label": "COMPRAR AHORA"
+          }
+        },
+  
+        "flex-layout.row#home-icons-link--03": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "link#home-home-icons-link--03"
+        ]
+        },
+        "link#home-home-icons-link--03": {
+          "props": {
+            "href": "/floatride",
+            "blockClass":["home-destacados-piepagina","home-icons-link"],
+            "label": "COMPRAR AHORA"
+          }
+        },
+  
+        "flex-layout.row#home-icons-link--04": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "link#home-home-icons-link--04"
+        ]
+        },
+        "link#home-home-icons-link--04": {
+          "props": {
+            "href": "/pump",
+            "blockClass":["home-destacados-piepagina","home-icons-link"],
+            "label": "COMPRAR AHORA"
+          }
+        },
+        "flex-layout.row#home-icons-link--05": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "link#home-home-icons-link--05"
+        ]
+        },
+        "link#home-home-icons-link--05": {
+          "props": {
+            "href": "/bb4000",
+            "blockClass":["home-destacados-piepagina","home-icons-link"],
+            "label": "COMPRAR AHORA"
+          }
+        },
+        "flex-layout.row#home-icons-images--00": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "image#icons-home--00"
+        ]
+        },
+  
+        "flex-layout.row#home-icons-images--01": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "image#icons-home--01"
+        ]
+        },
+        "flex-layout.row#home-icons-images--02": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "image#icons-home--02"
+        ]
+        },
+        "flex-layout.row#home-icons-images--03": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "image#icons-home--03"
+        ]
+        },
+        "flex-layout.row#home-icons-images--04": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "image#icons-home--04"
+        ]
+        },
+        "flex-layout.row#home-icons-images--05": {
+          "props": {
+            "blockClass": ["home-destacados1-piepagina"]
+          },
+          "children": [
+            "image#icons-home--05"
+        ]
+        }
+      
+  }

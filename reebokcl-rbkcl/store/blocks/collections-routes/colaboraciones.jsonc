@@ -1,0 +1,22 @@
+{
+    "store.custom#colaboraciones": {
+        "blocks": ["search-result-layout.customQuery#colaboraciones"]
+    },
+        "search-result-layout.customQuery#colaboraciones": {
+        "props": {
+            "querySchema": {
+            "orderByField": "OrderByPriceDESC",
+            "hideUnavailableItems": false,
+            "maxItemsPerPage": 20,
+            "queryField": "261",
+            "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

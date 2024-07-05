@@ -1,0 +1,143 @@
+{
+    // Por que lo hacemos
+    "flex-layout.row#por-que-lo-hacemos":{
+        "props":{
+            "fullWidth": true,
+            // "marginTop": 5,
+            // "marginBottom": 5,
+            "blockClass": "por-que-lo-hacemos"
+        },
+        "children":[
+            "image#por-que-lo-hacemos",
+            "flex-layout.col#por-que-lo-hacemos-texts"
+        ]
+    },
+    "image#por-que-lo-hacemos":{
+        "props":{
+            // "src": "/arquivos/porque_lo_hacemos_about.png",
+            "src": "/arquivos/Split50_DesktopFFG-950x760.jpg",
+            "alt": "Porque la vida no es un Deporte para espectadores | Reebok Chile",
+            "blockClass": "por-que-lo-hacemos-image"
+        }
+    },
+    "flex-layout.col#por-que-lo-hacemos-texts":{
+        "props":{
+            "blockClass": "por-que-lo-hacemos-texts"
+        },
+        "children":[
+            "rich-text#por-que-lo-hacemos-quest",
+            "rich-text#por-que-lo-hacemos-title",
+            "rich-text#por-que-lo-hacemos-paragraph"
+        ]
+    },
+    "rich-text#por-que-lo-hacemos-quest":{
+        "props":{
+            "text": "¿Por qué lo hacemos?",
+            "blockClass": "por-que-lo-hacemos-quest"
+        }
+    },
+    "rich-text#por-que-lo-hacemos-title":{
+        "props":{
+            "text": "## Porque la vida no es un Deporte para espectadores",
+            "blockClass": "por-que-lo-hacemos-title"
+        }
+    },
+    "rich-text#por-que-lo-hacemos-paragraph":{
+        "props": {
+            "text": "No nos interesa tener una fanaticada. Tampoco la perfección. Ni el elitismo. O la fama. Mientras te muevas con propósito, eres bienvenido en nuestro mundo. Derribaremos cualquier barrera que se interponga en nuestro camino, el camino del movimiento. Porque sin importar quién seas, de dónde vengas, cómo te veas o cómo te mantengas en movimiento todos tienen derecho a hacerlo libremente.",
+            "blockClass": "por-que-lo-hacemos-paragraph"
+        }
+    },
+
+    //tablet
+
+    "flex-layout.row#por-que-lo-hacemos-tablet":{
+        "props":{
+            "fullWidth": true,
+            // "marginTop": 5,
+            // "marginBottom": 5,
+            "blockClass": "por-que-lo-hacemos"
+        },
+        "children":[
+            "image#por-que-lo-hacemos-tablet",
+            "flex-layout.col#por-que-lo-hacemos-texts-tablet"
+        ]
+    },
+    "image#por-que-lo-hacemos-tablet":{
+        "props":{
+            // "src": "/arquivos/porque_lo_hacemos_about.png",
+            "src": "/arquivos/Split50_MoblieFFG-700x600.jpg",
+            "alt": "Porque la vida no es un Deporte para espectadores | Reebok Chile",
+            "blockClass": "por-que-lo-hacemos-image"
+        }
+    },
+    "flex-layout.col#por-que-lo-hacemos-texts-tablet":{
+        "props":{
+            "blockClass": "por-que-lo-hacemos-texts"
+        },
+        "children":[
+            "rich-text#por-que-lo-hacemos-quest-tablet",
+            "rich-text#por-que-lo-hacemos-title-tablet",
+            "rich-text#por-que-lo-hacemos-paragraph-tablet"
+        ]
+    },
+    "rich-text#por-que-lo-hacemos-quest-tablet":{
+        "props":{
+            "text": "¿Por qué lo hacemos?",
+            "blockClass": "por-que-lo-hacemos-quest"
+        }
+    },
+    "rich-text#por-que-lo-hacemos-title-tablet":{
+        "props":{
+            "text": "## Porque la vida no es un Deporte para espectadores",
+            "blockClass": "por-que-lo-hacemos-title"
+        }
+    },
+    "rich-text#por-que-lo-hacemos-paragraph-tablet":{
+        "props": {
+            "text": "No nos interesa tener una fanaticada. Tampoco la perfección. Ni el elitismo. O la fama. Mientras te muevas con propósito, eres bienvenido en nuestro mundo. Derribaremos cualquier barrera que se interponga en nuestro camino, el camino del movimiento. Porque sin importar quién seas, de dónde vengas, cómo te veas o cómo te mantengas en movimiento todos tienen derecho a hacerlo libremente.",
+            "blockClass": "por-que-lo-hacemos-paragraph"
+        }
+    },
+
+    //Mobile
+
+    "flex-layout.row#por-que-lo-hacemos-texts-mobile":{
+        "props":{
+            "blockClass": "por-que-lo-hacemos-texts"
+        },
+        "children":[
+           "flex-layout.col#por-que-lo-hacemos-texts-mobile"
+        ]
+    },
+
+
+    "flex-layout.col#por-que-lo-hacemos-texts-mobile":{
+        "props":{
+            "blockClass": "por-que-lo-hacemos-texts"
+        },
+        "children":[
+            "rich-text#por-que-lo-hacemos-quest-mobile",
+            "rich-text#por-que-lo-hacemos-title-mobile",
+            "rich-text#por-que-lo-hacemos-paragraph-mobile"
+        ]
+    },
+    "rich-text#por-que-lo-hacemos-quest-mobile":{
+        "props":{
+            "text": "¿Por qué lo hacemos?",
+            "blockClass": "por-que-lo-hacemos-quest"
+        }
+    },
+    "rich-text#por-que-lo-hacemos-title-mobile":{
+        "props":{
+            "text": "### Porque la vida no es un Deporte para espectadores",
+            "blockClass": "por-que-lo-hacemos-title"
+        }
+    },
+    "rich-text#por-que-lo-hacemos-paragraph-mobile":{
+        "props": {
+            "text": "No nos interesa tener una fanaticada. Tampoco la perfección. Ni el elitismo. O la fama. Mientras te muevas con propósito, eres bienvenido en nuestro mundo. Derribaremos cualquier barrera que se interponga en nuestro camino, el camino del movimiento. Porque sin importar quién seas, de dónde vengas, cómo te veas o cómo te mantengas en movimiento todos tienen derecho a hacerlo libremente.",
+            "blockClass": "por-que-lo-hacemos-paragraph"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    //?----Landing newsletter----?//
+    "store.custom#landing-newsletter": {
+      "blocks": ["flex-layout.row#newsletter-landing"]
+    },
+    "flex-layout.row#newsletter-landing": {
+      "children": ["flex-layout.col#newsletter-landing"],
+      "props": {
+        "blockClass": "newsletter-landing"
+      }
+    },
+    "formulario#newsletter-landing": {
+      "props": {
+        "dataEntity": "NW",
+        "successMessage": "<div><h1>¡Bienvenido a la <br>comunidad Reebok!</h1><p>Nos alegra que formes parte de nuestra historia. <br>Descubre todo lo que tenemos para ti: desde el <br>outfit perfecto para tu entrenamiento hasta el <br>estilo ideal para salir de paseo.<br><br>Para celebrar que ya eres parte de la comunidad,<br> <strong>te hemos enviado un regalo especial.<br></strong><br><strong>¡CHEQUEA TU EMAIL Y COMIENZA LA AVENTURA!</strong></p><br><br><a href='/todo-reebok'>VER TODO REEBOK</a></div>",
+        "blockClass": ["newsletter-landing-custom"]
+      },
+      "children": [
+        "flex-layout.row#inputOriginNewsLetter-landing",
+        "flex-layout.row#inputNombreNewsLetter",
+        "flex-layout.row#inputSurnameNewsLetter",
+        "flex-layout.row#inputEmailNewsLetter",
+        "flex-layout.row#inputBirthdayNewsLetter",
+        "flex-layout.row#genderNewsLetter",
+        "flex-layout.row#inputCondicionesNewsLetter",
+        "flex-layout.row#inputPoliticasPrivacidad",
+        "flex-layout.row#inputSubmitNewsLetter"
+      ]
+    },
+    "flex-layout.row#inputOriginNewsLetter-landing": {
+      "children": ["input#originNewsLetter-landing"],
+      "props": {
+        "blockClass": ["input-newsletter-origin"]
+      }
+    },
+    "input#originNewsLetter-landing": {
+      "props": {
+        "nameInput": "origin",
+        "id": "origin",
+        "classDynamic": "NewsLetter",
+        "value": "landing",
+        "label": "origin*",
+        "blockClass": "boton-input-formulario",
+        "required": true,
+        "type": "text"
+      }
+    },
+    "flex-layout.col#newsletter-landing": {
+      "children": [
+        "flex-layout.row#logo-newsletter",
+        "flex-layout.row#newsletter-text-footer",
+        "formulario#newsletter-landing"
+      ],
+      "props": {
+        "blockClass": "newsletter-landing"
+      }
+    },
+  
+    "flex-layout.row#logo-newsletter": {
+      "props": {
+        "blockClass": "logo-newsletter"
+      },
+      "children": ["image#image-logo-newsletter"]
+    },
+    "image#image-logo-newsletter": {
+      "props": {
+        "alt": "Logo reebok",
+        "title": "Reebok Chile",
+        "src": "https://reebokcol.vteximg.com.br/arquivos/icono_logo_reebok.jpg",
+        // "link": {
+        //   "url": ""
+        // },
+        "blockClass": ["image-logo-newsletter"]
+      }
+    }
+  }
+  

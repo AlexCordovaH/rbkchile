@@ -1,0 +1,12 @@
+{
+    "responsive-layout.mobile#landing-harry-potter": {
+        "children": [
+            "flex-layout.row#landing-harry-potter-mobile",
+            "flex-layout.row#landing-harry-potter-sec2",
+            "flex-layout.row#landing-harry-potter-sec3",
+            "slider-layout#slider-harry-potter-mobile",
+            "flex-layout.row#landing-harry-potter-sec5-mobile",
+            "flex-layout.row#landing-harry-potter-sec6"
+        ]
+    }
+}

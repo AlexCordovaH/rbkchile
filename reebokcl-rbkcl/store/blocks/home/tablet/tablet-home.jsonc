@@ -1,0 +1,133 @@
+{
+  "responsive-layout.tablet": {
+    "children": [
+      "slider-layout#home-desktop-hero-banners",
+      "flex-layout.row#home-desktop-titulo-menu",
+      "flex-layout.row#component-destacados-ahora",
+      "flex-layout.row#desktopHome-third-row-images",
+      "flex-layout.row#mas-vendido-title",
+      "flex-layout.row#component-shelf-productos-mas-vendidos",
+      "__fold__",
+      "flex-layout.row#destacados-title",
+      "flex-layout.row#home-destacados",
+      "flex-layout.row#component-shelf-productos-destacados-title-home-icons",
+      "flex-layout.row#home-desktop-icons",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-recomendados"
+    ]
+  },
+
+  "custom-banner#black-friday-23-tablet": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/hero-banner-black-friday-23-desktop-CL.jpg",
+      "phoneBgImageUrl": "/arquivos/hero-banner-black-friday-23-mobile-CL.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "HASTA 50% OFF",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite tar",
+            "phone": "banner-headline-bottom cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Además, 20% adicional por la compra",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite tar",
+            "phone": "banner-copy cWhite dNone"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "de 2 productos o 30% por la",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite tar",
+            "phone": "banner-copy cWhite dNone"
+          }
+        },
+        {
+          "type": "copy",
+          "text": " compra de 3 productos o más.",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite tar",
+            "phone": "banner-copy cWhite dNone"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/black-friday",
+            "color": "white",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt5 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t25 r2 tar",
+        "tablet": "relative t20 tar",
+        "phone": "relative t70 l3"
+      }
+    }
+  },
+
+  "custom-banner#nano-weekend-tablet": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/banner-nano-weekend-desktop.jpg",
+      "phoneBgImageUrl": "/arquivos/banner-nano-weekend-mobile.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "OFERTAS DE NANO WEEKEND",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite mW40 tar",
+            "phone": "banner-headline-bottom cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Aprovecha y lleva tu outfit Nano con hasta 40% de descuento",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite mW40 tar",
+            "phone": "banner-copy cWhite dNone"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/ofertas",
+            "color": "white",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt5 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-start"
+      },
+      "sx": {
+        "desktop": "relative t25 r2 tar",
+        "tablet": "relative t20 l55",
+        "phone": "relative t70 l3"
+      }
+    }
+  }
+}

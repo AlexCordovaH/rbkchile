@@ -1,0 +1,204 @@
+{
+    "flex-layout.col#banner-extra-classic": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktop-extra-classic",
+            "flex-layout.col#info-banner-extra-classic"
+        ]
+    },
+    "flex-layout.row#image-desktop-extra-classic": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-extra-classic"
+        ]
+    },
+    "flex-layout.col#info-banner-extra-classic": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-desktopHome-info-dia-del-padre"
+            ]
+        },
+        "children": [
+            "flex-layout.row#titulo-banner-extra-classic",
+            "flex-layout.row#body-banner-extra-classic",
+            "flex-layout.row#button-banner-extra-classic"
+        ]
+    },
+    "flex-layout.row#titulo-banner-extra-classic": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-banner-extra-classic"
+        ]
+    },
+    "flex-layout.row#body-banner-extra-classic": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-extra-classic"
+        ]
+    },
+
+    "flex-layout.row#body-banner-extra-classic-mobile": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-extra-classic"
+        ]
+    },
+    
+    "flex-layout.row#button-banner-extra-classic-2": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#button-extra-classic-2"
+        ]
+    },
+    "flex-layout.col#button-extra-classic-2": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2","button-extra-classic-2",
+                "buttons-desktopHome-2-classic"
+            ]
+        },
+        "children": [
+            "link#button-extra-classic-2" 
+        ]
+    },
+    "link#button-extra-classic-2": {
+        "props": {
+            // "href": "/extras?order=OrderByPriceDESC",
+            "href": "/mujer/calzado/classics?order=OrderByPriceDESC&page=1",
+            "label": "Comprar Mujer", 
+            "blockClass": ["buttons-desktopHome-2","button-extra-classic-2","buttons-desktopHome-2-classic"] 
+        }
+    },
+
+    "flex-layout.row#button-banner-extra-classic": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#button-extra-classic"
+        ]
+    },
+    "flex-layout.col#button-extra-classic": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2",
+                "buttons-desktopHome-2-classic"
+            ]
+        },
+        "children": [
+            "link#button-extra-classic"
+        ]
+    },
+    "link#button-extra-classic": {
+        "props": {
+            // "href": "/extras?order=OrderByPriceDESC",
+            "href": "/hombre/calzado/classics?order=OrderByPriceDESC",
+            "label": "Comprar Hombre",
+            "blockClass":  ["buttons-desktopHome-2","buttons-desktopHome-2-classic"]
+        }
+    },
+
+    "rich-text#titulo-banner-extra-classic": {
+        "props": {
+            "blockClass": [
+                "titulo-rebook-tunes",
+                "titulo-rebook-dia-del-padre"
+            ],
+            "text": "## Estilos retros o modernos",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-banner-extra-classic": {
+        "props": {
+            "blockClass": [
+                "body-rebook-tunes",
+                "body-rebook-dia-del-padre"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Todos combinan con el icónico Vector"
+        }
+    },
+        
+    "image#image-banner-extra-classic": {
+        "props": {
+            "alt": "EXTRAS",
+            "title": "EXTRAS",
+            "src": "/arquivos/HERO-BANNER-Extra-1920x930-2.jpg",
+            "link": {
+                // "url": "/extras?order=OrderByPriceDESC"
+                "url": "/extras"
+            },
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+    "image#image-banner-extra-classic-mobile": {
+        "props": {
+            "alt": "EXTRAS",
+            "title": "EXTRAS",
+            "src": "/arquivos/HERO-BANNER-MOBILE-2-classics.jpg",
+            
+            "blockClass": [
+                "image-carousel3",
+                "image-main-carousel"
+            ]
+        }
+    },
+
+
+      /*Banner Mobile Nano X3*/
+  "flex-layout.col#mobile-banner-extra-classic": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-extra-classic",
+      "flex-layout.row#image-mobile-extra-classic"
+    ]
+  },
+  "flex-layout.row#image-mobile-extra-classic": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": [
+      "image#image-banner-extra-classic-mobile"
+    ]
+  },
+  "flex-layout.col#mobile-info-banner-extra-classic": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "info-banner-nano-3"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-banner-extra-classic",
+      "flex-layout.row#body-banner-extra-classic-mobile",
+      "flex-layout.row#button-banner-extra-classic",
+      "flex-layout.row#button-banner-extra-classic-2" 
+    ]
+  }
+  /*Fn Banner Nano X3*/
+}

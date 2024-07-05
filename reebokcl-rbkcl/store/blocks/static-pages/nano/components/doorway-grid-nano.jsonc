@@ -1,0 +1,399 @@
+{
+    "flex-layout.row#doorway-nano-title": {
+        "children": ["flex-layout.col#doorway-nano-title"],
+        "props": {
+            "blockClass": ["destacados-title", "home-principal-row"]
+            }
+        },
+        
+    "flex-layout.col#doorway-nano-title": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": ["destacados-title"]
+        },
+        "children": ["rich-text#doorway-nano-title"]
+    },
+    
+    "rich-text#doorway-nano-title": {
+        "props": {
+            "textAlignment": "center",
+            "textPosition": "center",
+            "text": "## EL MEJOR PERFORMANCE",
+            "blockClass": ["rich-text-shelf-productos-destacados", "rt-doorway-nano-title"],
+            "font": "t-heading-3"
+        }
+    },
+
+    "flex-layout.row#doorway-nano-content": {
+        "props": {
+        "blockClass": ["home-destacados", "home-principal-row"]
+        },
+        "children": [
+        "flex-layout.col#doorway-nano-col1",
+        "flex-layout.col#home-destacados-colspace",
+        "flex-layout.col#doorway-nano-col2",
+        "flex-layout.col#home-destacados-colspace",
+        "flex-layout.col#doorway-nano-col3",
+        "flex-layout.col#home-destacados-colspace",
+        "flex-layout.col#doorway-nano-col4",
+        "flex-layout.col#home-destacados-colspace" 
+        ]
+    },
+
+    /* Columna 1 nano */
+
+    "flex-layout.col#doorway-nano-col1": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-nano-col1-image",
+        "flex-layout.row#doorway-nano-body-1",
+        "flex-layout.row#doorway-nano-piepagina"
+        ]
+    },
+
+    "flex-layout.row#doorway-nano-col1-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-1"]
+    },
+
+    "image#doorway-nano-1": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-desk-1.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-col1-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-1-MB"]
+    },
+
+    "image#doorway-nano-1-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-mob-1.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-body-1": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body", "home-destacados1-body-nano"]
+        },
+        "children": ["rich-text#doorway-nano-1"]
+    },
+
+    "rich-text#doorway-nano-1": {
+        "props": {
+        "text": "### Nano X4 fueron diseñadas para ser las más ligeras de la historia. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-nano-body"]
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-piepagina": {
+        "props": {
+        "blockClass": ["home-destacados1-piepagina"]
+        },
+        "children": ["link#doorway-nano-piepagina"]
+    },
+
+    "link#doorway-nano-piepagina": {
+        "props": {
+        "href": "/nanox4",
+        "blockClass": ["home-destacados-piepagina","link-doorway-nano-piepagina"],
+        "label": "COMPRAR AHORA"
+        }
+    },
+
+    /* Columna 2 nano */
+    "flex-layout.col#doorway-nano-col2": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-nano-col2-image",
+        "flex-layout.row#doorway-nano-body-2",
+        "flex-layout.row#doorway-nano-piepagina"
+        ]
+    },
+
+    "flex-layout.row#doorway-nano-col2-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-2"]
+    },
+
+    "image#doorway-nano-2": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-desk-2.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-col2-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-2-MB"]
+    },
+
+    "image#doorway-nano-2-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-mob-2.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-body-2": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body", "home-destacados1-body-nano"]
+        },
+        "children": ["rich-text#doorway-nano-2"]
+    },
+
+    "rich-text#doorway-nano-2": {
+        "props": {
+        "text": "### Son perfectas para cualquier tipo de entrenamiento, incluyendo tus sesiones de running. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-nano-body"]
+        }
+    },
+    
+    /* Columna 3 nano */
+    "flex-layout.col#doorway-nano-col3": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-nano-col3-image",
+        "flex-layout.row#doorway-nano-body-3",
+        "flex-layout.row#doorway-nano-piepagina"
+        ]
+    },
+
+    "flex-layout.row#doorway-nano-col3-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-3"]
+    },
+
+    "image#doorway-nano-3": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-desk-3.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-col3-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-3-MB"]
+    },
+
+    "image#doorway-nano-3-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-mob-3.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-body-3": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body", "home-destacados1-body-nano"]
+        },
+        "children": ["rich-text#doorway-nano-3"]
+    },
+
+    "rich-text#doorway-nano-3": {
+        "props": {
+        "text": "### Eliminamos elementos innecesarios para brindarte un calzado de entrenamiento más ligero y flexible. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-nano-body"]
+        }
+    },
+    
+    /* Columna 4 nano */
+    "flex-layout.col#doorway-nano-col4": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-nano-col4-image",
+        "flex-layout.row#doorway-nano-body-4",
+        "flex-layout.row#doorway-nano-piepagina"
+        ]
+    },
+
+    "flex-layout.row#doorway-nano-col4-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-4"]
+    },
+
+    "image#doorway-nano-4": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-desk-4.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-col4-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-nano-4-MB"]
+    },
+
+    "image#doorway-nano-4-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/DOORWAY-mob-4.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/nanox4"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-nano-body-4": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body", "home-destacados1-body-nano"]
+        },
+        "children": ["rich-text#doorway-nano-4"]
+    },
+
+    "rich-text#doorway-nano-4": {
+        "props": {
+        "text": "### Experimenta el máximo rendimiento y durabilidad en cada uno de tus entrenamientos. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-nano-body"]
+        }
+    },
+    
+    /* slider mobile */
+
+    "slider-layout#slider-doorway-nano-mobile": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "blockClass": ["carousel", "nano-slider-landing"]
+        },
+        "children": [
+            "flex-layout.row#doorway-nano-col1-mobile",
+            "flex-layout.row#doorway-nano-col2-mobile",
+            "flex-layout.row#doorway-nano-col3-mobile",
+            "flex-layout.row#doorway-nano-col4-mobile" 
+        ]
+    },
+
+    "flex-layout.row#doorway-nano-col1-mobile":{
+        "children":[
+            "link#doorway-nano-col1-mobile"
+        ]
+      },
+
+    "link#doorway-nano-col1-mobile": {
+        "children":[
+            "flex-layout.row#doorway-nano-col1-image-MB",
+            "flex-layout.row#doorway-nano-body-1",
+            "link#doorway-nano-piepagina"
+        ],
+        "props": {
+            "blockClass": ["cat-link-harry-potter","cat-link-nano"],
+            "href": "/nanox4"
+        }
+    },
+
+      "flex-layout.row#doorway-nano-col2-mobile":{
+        "children":[
+            "link#doorway-nano-col2-mobile"
+        ]
+      },
+
+      "link#doorway-nano-col2-mobile": {
+        "children":[
+            "flex-layout.row#doorway-nano-col2-image-MB",
+            "flex-layout.row#doorway-nano-body-2",
+            "link#doorway-nano-piepagina"
+        ],
+        "props": {
+            "blockClass": ["cat-link-harry-potter","cat-link-nano"],
+            "href": "/nanox4"
+        }
+    },
+
+      "flex-layout.row#doorway-nano-col3-mobile":{
+        "children":[
+            "link#doorway-nano-col3-mobile"
+        ]
+      },
+
+      "link#doorway-nano-col3-mobile": {
+        "children":[
+            "flex-layout.row#doorway-nano-col3-image-MB",
+            "flex-layout.row#doorway-nano-body-3",
+            "link#doorway-nano-piepagina"
+        ],
+        "props": {
+            "blockClass": ["cat-link-harry-potter","cat-link-nano"],
+            "href": "/nanox4"
+        }
+    },
+
+      "flex-layout.row#doorway-nano-col4-mobile":{
+        "children":[
+            "link#doorway-nano-col4-mobile"
+        ]
+      },
+
+      "link#doorway-nano-col4-mobile": {
+        "children":[
+            "flex-layout.row#doorway-nano-col4-image-MB",
+            "flex-layout.row#doorway-nano-body-4",
+            "link#doorway-nano-piepagina"
+        ],
+        "props": {
+            "blockClass": ["cat-link-harry-potter","cat-link-nano"],
+            "href": "/nanox4"
+        }
+    }
+}

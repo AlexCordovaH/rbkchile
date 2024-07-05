@@ -1,0 +1,75 @@
+{
+
+    "flex-layout.row#landing-harry-potter": {
+        "children": [
+            "link#landing-harry-potter"
+        ]
+    },
+
+    "link#landing-harry-potter": {
+        "children":["image#landing-harry-potter"],
+        "props": {
+          "href": "/reebokxharrypotter",
+          "blockClass": ["link-landing-harry-potter"]
+        }
+      },
+
+    "image#landing-harry-potter": {
+        "props": {
+            "src": "/arquivos/HERO-BANNER-1-01.jpg"
+        }
+    },
+    "flex-layout.row#landing-harry-potter-sec2": {
+        "children": [
+            "rich-text#harry-potter-sec2-txt1"
+        ]
+    },
+    "rich-text#harry-potter-sec2-txt1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " # DESCUBRE HARRY POTTER X REEBOK \n  Muggles, transpórtense al mundo mágico de Harry Potter y conozcan la edición limitada de **Harry Potter x Reebok.**",
+            "blockClass": "harry-potter-sec2-txt1"
+        }
+    },
+    /*-----------------*/
+    "flex-layout.row#landing-harry-potter-sec3": {
+        "children": [
+            "rich-text#harry-potter-sec3-txt1"
+        ],
+        "props":{
+            "blockClass": "row-landing-harry-potter-sec4"
+        }
+    },
+    "rich-text#harry-potter-sec3-txt1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "ENTRA YA AL MUNDO MÁGICO",
+            "blockClass": "harry-potter-sec3-txt1"
+        }
+    },
+
+    /*----------------------Harry-potter-mobile-----------------*/
+
+    "flex-layout.row#landing-harry-potter-mobile": {
+        "children": [
+            "link#landing-harry-potter-mobile"
+        ]
+    },
+
+    "link#landing-harry-potter-mobile": {
+        "children":["image#landing-harry-potter-mobile"],
+        "props": {
+          "href": "/reebokxharrypotter",
+          "blockClass": ["link-landing-harry-potter"]
+        }
+      },
+
+    "image#landing-harry-potter-mobile": {
+        "props": {
+            "src": "/arquivos/HERO-BANNER-1-MOBILE-01-HO.jpg"
+        }
+    }
+
+}

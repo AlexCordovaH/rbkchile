@@ -1,0 +1,63 @@
+{
+    "store.custom#nuestras-tiendas": {
+        "blocks": [ 
+            "flex-layout.row#titulo-nuestras-tiendas",
+            "flex-layout.row#nuestras-tiendas",
+            "flex-layout.row#info-nuestras-tiendas"
+        ]
+    },
+
+    "flex-layout.row#titulo-nuestras-tiendas": {
+      "props":{
+        "blockClass":"titulo-nuestras-tiendas"
+      },
+      "children":[
+        "rich-text#titulo-nuestras-tiendas"
+      ]
+    },
+
+    "rich-text#titulo-nuestras-tiendas": {
+      "props": {
+        "blockClass":"titulo-nuestras-tiendas",
+        "text": "Nuestras Tiendas"
+      }
+    },
+
+    
+    "flex-layout.row#nuestras-tiendas": {
+        "children": ["map"],
+        "props":{
+          "blockClass":"store-finder"
+        }
+      },
+      "flex-layout.row#info-nuestras-tiendas": {
+        "props":{
+          "blockClass":"titulo-nuestras-tiendas"
+        },
+        "children":[
+          "flex-layout.col#info-nuestras-tiendas"
+        ]
+      },
+  
+      "flex-layout.col#info-nuestras-tiendas": {
+        "props":{
+          "blockClass":"titulo-nuestras-tiendas"
+        },
+        "children":[
+          "rich-text#nuestras-tiendas-info"
+        ]
+      },
+      "rich-text#nuestras-tiendas-info": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "### Para conocer nuestros puntos de ventas oficiales Reebok dirígete a nuestro [Comunicado de Puntos de Ventas oficiales Reebok en Latinoamérica](/sitiosoficiales).",
+          "blockClass": [
+            "landing_inst_content_text",
+            "landing_inst_content_list_normal",
+            "landing_inst_content_sublist_normal",
+            "landing_inst_content_sublist_nuestras-tiendas-landing"
+          ]
+        }
+      }
+}

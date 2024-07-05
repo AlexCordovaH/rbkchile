@@ -1,0 +1,563 @@
+{    
+    "flex-layout.row#container-preguntas-frecuentes-cyber": {
+        "children": [
+            "rich-text#title-preguntas-frecuentes-cyber",
+            "flex-layout.row#accordion-frequent-questions"/* ,
+            "rich-text#footer-preguntas-frecuentes" */
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "container-landing-cyber",
+            "marginTop": 4,
+            "marginBottom": 8
+        }
+    },
+
+    "rich-text#title-preguntas-frecuentes-cyber": {
+        "props": {
+            "text": "## Este Cyber debes saber:",
+            "blockClass": "title-preguntas-frecuentes-cyber"
+        }
+    },
+
+    "flex-layout.row#slogan-frequent-questions": {
+        "children": [
+        "rich-text#slogan-frequent-questions"
+        ],
+        "props": {
+        "fullWidth": true,
+        "marginTop": 6,
+        "horizontalAlign": "center",
+        "blockClass": "slogan-frequent-questions"
+        }
+    },
+    "rich-text#slogan-frequent-questions": {
+        "props": {
+        "text": "¿Tienes dudas? \n Te ayudamos a resolverlas",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass": "slogan-frequent-questions"
+        }
+    },
+
+
+    "flex-layout.row#disclosure-frequent-questions":{
+        "children": [
+        "image#frequent-questions",
+        "flex-layout.row#accordion-frequent-questions"
+        ],
+        "props": {
+        "blockClass": "container-disclosure-frequent-questions"
+        }
+    },
+    
+    "image#frequent-questions": {
+        "title": "Preguntas Frecuentes",
+        "props": {
+        "src": "/arquivos/Group-89.png",
+        "maxHeight": 600,
+        "blockClass": "image-frequent-questions"
+        }
+    },
+
+    "flex-layout.row#accordion-frequent-questions":{
+        "children": [
+        "flex-layout.col#accordion-frequent-questions"
+        ],
+        "props": {
+        "blockClass": "entry-accordion-section--disclosure"
+        }
+    },
+
+    "flex-layout.col#accordion-frequent-questions":{
+        "children": [
+            "disclosure-layout-group#landing-cyber-pf-questions"
+        ]
+    },
+
+    "disclosure-layout-group#landing-cyber-pf-questions": {
+        "title": "Group questions | Preguntas frecuentes",
+        "props": {
+          "blockClass": "landing-pf-questions"
+        },
+        "children": [
+            "disclosure-layout#frequent-questions--1",
+            "disclosure-layout#frequent-questions--2",
+            "disclosure-layout#frequent-questions--3",
+            "disclosure-layout#frequent-questions--4",
+            "disclosure-layout#frequent-questions--5",
+            "disclosure-layout#frequent-questions--6",
+            "disclosure-layout#frequent-questions--7"
+        ]
+      },
+
+
+    "disclosure-layout#frequent-questions--1":{
+        "props": {
+            "initialVisibility": "hidden"
+        },
+        "children": [
+            "flex-layout.row#trigger-frequent-questions--1",
+            "flex-layout.row#content-frequent-questions--1"
+        ]
+    },
+
+    "flex-layout.row#trigger-frequent-questions--1": {
+        "children": [
+            "disclosure-trigger#entry-accordion--frequent-questions--1"
+        ],
+        "props": {
+            "blockClass": "trigger-description-row"
+        }
+    },
+    "flex-layout.row#content-frequent-questions--1": {
+        "children": [
+            "disclosure-content#entry-accordion--frequent-questions--1"
+        ],
+        "props": {
+            "blockClass": "content-description-row"
+        }
+    },
+    "disclosure-trigger#entry-accordion--frequent-questions--1": {
+        "props": {
+            "blockClass": "entry-accordion-trigger"
+        },
+        "children": [
+            "rich-text#entry-accordion-trigger--frequent-questions--1",
+            "disclosure-state-indicator"
+        ]
+    },
+    "disclosure-content#entry-accordion--frequent-questions--1": {
+        "props": {
+            "blockClass": "entry-accordion-content"
+        },
+        "children": [
+            "rich-text#entry-accordion-content--frequent-questions--1"
+        ]
+    },
+
+    "rich-text#entry-accordion-trigger--frequent-questions--1": {
+        "props": {
+            "blockClass": "frequent-questions-h3",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**1. ¿Qué es el Cyber?**"
+        }
+    },
+
+    "rich-text#entry-accordion-content--frequent-questions--1": {
+        "props": {
+            "blockClass": "frequent-questions-p",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Cyber.cl es uno de los eventos de compra online más importantes del país. Es una iniciativa de la Cámara de Comercio de Santiago y busca fomentar las compras por internet.      Aprovecha estos días para revisar si los  [articulos de mujer](/mujer) y los [articulos de hombre](/hombre) tendrán descuentos especiales."
+        }
+    },
+    /* dos */
+    "disclosure-layout#frequent-questions--2":{
+    "props": {
+        "initialVisibility": "hidden"
+    },
+    "children": [
+        "flex-layout.row#trigger-frequent-questions--2",
+        "flex-layout.row#content-frequent-questions--2"
+    ]
+    },
+
+    "flex-layout.row#trigger-frequent-questions--2": {
+        "children": [
+            "disclosure-trigger#entry-accordion--frequent-questions--2"
+        ],
+        "props": {
+            "blockClass": "trigger-description-row"
+        }
+    },
+    "flex-layout.row#content-frequent-questions--2": {
+        "children": [
+            "disclosure-content#entry-accordion--frequent-questions--2"
+        ],
+        "props": {
+            "blockClass": "content-description-row"
+        }
+    },
+    "disclosure-trigger#entry-accordion--frequent-questions--2": {
+        "props": {
+            "blockClass": "entry-accordion-trigger"
+        },
+        "children": [
+            "rich-text#entry-accordion-trigger--frequent-questions--2",
+            "disclosure-state-indicator"
+        ]
+    },
+    "disclosure-content#entry-accordion--frequent-questions--2": {
+        "props": {
+            "blockClass": "entry-accordion-content"
+        },
+        "children": [
+            "rich-text#entry-accordion-content--frequent-questions--2"
+        ]
+    },
+
+    "rich-text#entry-accordion-trigger--frequent-questions--2": {
+    "props": {
+        "blockClass": "frequent-questions-h3",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**2. ¿Cuándo es el Cyber?**"
+    }
+    },
+
+    "rich-text#entry-accordion-content--frequent-questions--2": {
+    "props": {
+        "blockClass": "frequent-questions-p",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Cyber se lleva a cabo en diferentes momentos del año para que puedas realizar tus compras de regalos para temporadas de mitad de año y fin de año, para conocer la fecha exacta debes estar muy pendiente de nuestros canales de comunicación o suscribirte al  [Newsletter](/newsletter) y recibir nuestros comunicados."
+    }
+    },
+    /* tres */
+    "disclosure-layout#frequent-questions--3":{
+    "props": {
+        "initialVisibility": "hidden"
+    },
+    "children": [
+        "flex-layout.row#trigger-frequent-questions--3",
+        "flex-layout.row#content-frequent-questions--3"
+    ]
+    },
+
+    "flex-layout.row#trigger-frequent-questions--3": {
+        "children": [
+            "disclosure-trigger#entry-accordion--frequent-questions--3"
+        ],
+        "props": {
+            "blockClass": "trigger-description-row"
+        }
+    },
+    "flex-layout.row#content-frequent-questions--3": {
+        "children": [
+            "disclosure-content#entry-accordion--frequent-questions--3"
+        ],
+        "props": {
+            "blockClass": "content-description-row"
+        }
+    },
+    "disclosure-trigger#entry-accordion--frequent-questions--3": {
+        "props": {
+            "blockClass": "entry-accordion-trigger"
+        },
+        "children": [
+            "rich-text#entry-accordion-trigger--frequent-questions--3",
+            "disclosure-state-indicator"
+        ]
+    },
+    "disclosure-content#entry-accordion--frequent-questions--3": {
+        "props": {
+            "blockClass": "entry-accordion-content"
+        },
+        "children": [
+            "rich-text#entry-accordion-content--frequent-questions--3"
+        ]
+    },
+
+    "rich-text#entry-accordion-trigger--frequent-questions--3": {
+    "props": {
+        "blockClass": "frequent-questions-h3",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**3. ¿Qué comprar en Cyber?**"
+    }
+    },
+
+    "rich-text#entry-accordion-content--frequent-questions--3": {
+    "props": {
+        "blockClass": "frequent-questions-p",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "En [Reebok Chile](/) tenemos miles de opciones para comprar durante todo el año, así que te sugerimos que vayas haciendo tu lista de productos favoritos y realices tus compras online de manera fácil y segura."
+    }
+    },
+    /* cuatro */
+    "disclosure-layout#frequent-questions--4":{
+    "props": {
+        "initialVisibility": "hidden"
+    },
+    "children": [
+        "flex-layout.row#trigger-frequent-questions--4",
+        "flex-layout.row#content-frequent-questions--4"
+    ]
+    },
+
+    "flex-layout.row#trigger-frequent-questions--4": {
+        "children": [
+            "disclosure-trigger#entry-accordion--frequent-questions--4"
+        ],
+        "props": {
+            "blockClass": "trigger-description-row"
+        }
+    },
+    "flex-layout.row#content-frequent-questions--4": {
+        "children": [
+            "disclosure-content#entry-accordion--frequent-questions--4"
+        ],
+        "props": {
+            "blockClass": "content-description-row"
+        }
+    },
+    "disclosure-trigger#entry-accordion--frequent-questions--4": {
+        "props": {
+            "blockClass": "entry-accordion-trigger"
+        },
+        "children": [
+            "rich-text#entry-accordion-trigger--frequent-questions--4",
+            "disclosure-state-indicator"
+        ]
+    },
+    "disclosure-content#entry-accordion--frequent-questions--4": {
+        "props": {
+            "blockClass": "entry-accordion-content"
+        },
+        "children": [
+            "rich-text#entry-accordion-content--frequent-questions--4"
+        ]
+    },
+
+    "rich-text#entry-accordion-trigger--frequent-questions--4": {
+    "props": {
+        "blockClass": "frequent-questions-h3",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**4. ¿Cómo puedo comprar en el Cyber?**"
+    }
+    },
+
+    "rich-text#entry-accordion-content--frequent-questions--4": {
+    "props": {
+        "blockClass": "frequent-questions-p",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Comprar productos Cyber en  [Reebok Chile](/)  es muy simple. Regístrate en nuestro sitio los días previos al próximo Cyber y podrás saber con anticipación si el  [calzado mujer](/mujer/calzado?order=OrderByPriceDESC&page=1), el [calzado hombre](/hombre/calzado?order=OrderByPriceDESC&page=1), contarán con descuentos, así tendrás una experiencia de compra mucho más ágil en el Cyber."
+    }
+    },
+    /* cinco */
+    "disclosure-layout#frequent-questions--5":{
+    "props": {
+        "initialVisibility": "hidden"
+    },
+    "children": [
+        "flex-layout.row#trigger-frequent-questions--5",
+        "flex-layout.row#content-frequent-questions--5"
+    ]
+    },
+
+    "flex-layout.row#trigger-frequent-questions--5": {
+        "children": [
+            "disclosure-trigger#entry-accordion--frequent-questions--5"
+        ],
+        "props": {
+            "blockClass": "trigger-description-row"
+        }
+    },
+    "flex-layout.row#content-frequent-questions--5": {
+        "children": [
+            "disclosure-content#entry-accordion--frequent-questions--5"
+        ],
+        "props": {
+            "blockClass": "content-description-row"
+        }
+    },
+    "disclosure-trigger#entry-accordion--frequent-questions--5": {
+        "props": {
+            "blockClass": "entry-accordion-trigger"
+        },
+        "children": [
+            "rich-text#entry-accordion-trigger--frequent-questions--5",
+            "disclosure-state-indicator"
+        ]
+    },
+    "disclosure-content#entry-accordion--frequent-questions--5": {
+        "props": {
+            "blockClass": "entry-accordion-content"
+        },
+        "children": [
+            "rich-text#entry-accordion-content--frequent-questions--5"
+        ]
+    },
+
+    "rich-text#entry-accordion-trigger--frequent-questions--5": {
+    "props": {
+        "blockClass": "frequent-questions-h3",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**5. ¿Es seguro comprar en el Cyber?**"
+    }
+    },
+
+    "rich-text#entry-accordion-content--frequent-questions--5": {
+    "props": {
+        "blockClass": "frequent-questions-p",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Comprar en [Reebok Chile](/) durante el Cyber u otro de nuestros eventos, es seguro y confiable, ya que todos tus datos e historial de compras se mantienen siempre protegidos.    ¡Así que no te preocupes! Podrás comprar tus nuevas zapatillas y otros productos con total seguridad. También puedes consultar las políticas de cambio y devoluciones disponibles en la sección de [Términos y Condiciones](/terminos-condiciones)."
+    }
+    },
+    /* seis */
+    "disclosure-layout#frequent-questions--6":{
+    "props": {
+        "initialVisibility": "hidden"
+    },
+    "children": [
+        "flex-layout.row#trigger-frequent-questions--6",
+        "flex-layout.row#content-frequent-questions--6"
+    ]
+    },
+
+    "flex-layout.row#trigger-frequent-questions--6": {
+        "children": [
+            "disclosure-trigger#entry-accordion--frequent-questions--6"
+        ],
+        "props": {
+            "blockClass": "trigger-description-row"
+        }
+    },
+    "flex-layout.row#content-frequent-questions--6": {
+        "children": [
+            "disclosure-content#entry-accordion--frequent-questions--6"
+        ],
+        "props": {
+            "blockClass": "content-description-row"
+        }
+    },
+    "disclosure-trigger#entry-accordion--frequent-questions--6": {
+        "props": {
+            "blockClass": "entry-accordion-trigger"
+        },
+        "children": [
+            "rich-text#entry-accordion-trigger--frequent-questions--6",
+            "disclosure-state-indicator"
+        ]
+    },
+    "disclosure-content#entry-accordion--frequent-questions--6": {
+        "props": {
+            "blockClass": "entry-accordion-content"
+        },
+        "children": [
+            "rich-text#entry-accordion-content--frequent-questions--6"
+        ]
+    },
+
+    "rich-text#entry-accordion-trigger--frequent-questions--6": {
+    "props": {
+        "blockClass": "frequent-questions-h3",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**6.  ¿Qué métodos de pago puedo usar para comprar en Cyber?**"
+    }
+    },
+
+    "rich-text#entry-accordion-content--frequent-questions--6": {
+    "props": {
+        "blockClass": "frequent-questions-p",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "¡No hay excusas para no comprar en el Cyber de [Reebok Chile](/)! Para facilitar tu experiencia de compra, puedes usar el medio de pago que tú prefieras. Elige las mejores ofertas y paga con tu tarjeta de crédito y débito de cualquier banco."
+    }
+    },
+
+    /* siete */
+    "disclosure-layout#frequent-questions--7":{
+        "props": {
+            "initialVisibility": "hidden"
+        },
+        "children": [
+            "flex-layout.row#trigger-frequent-questions--7",
+            "flex-layout.row#content-frequent-questions--7"
+        ]
+        },
+    
+        "flex-layout.row#trigger-frequent-questions--7": {
+            "children": [
+                "disclosure-trigger#entry-accordion--frequent-questions--7"
+            ],
+            "props": {
+                "blockClass": "trigger-description-row"
+            }
+        },
+        "flex-layout.row#content-frequent-questions--7": {
+            "children": [
+                "disclosure-content#entry-accordion--frequent-questions--7"
+            ],
+            "props": {
+                "blockClass": "content-description-row"
+            }
+        },
+        "disclosure-trigger#entry-accordion--frequent-questions--7": {
+            "props": {
+                "blockClass": "entry-accordion-trigger"
+            },
+            "children": [
+                "rich-text#entry-accordion-trigger--frequent-questions--7",
+                "disclosure-state-indicator"
+            ]
+        },
+        "disclosure-content#entry-accordion--frequent-questions--7": {
+            "props": {
+                "blockClass": "entry-accordion-content"
+            },
+            "children": [
+                "rich-text#entry-accordion-content--frequent-questions--7"
+            ]
+        },
+    
+        "rich-text#entry-accordion-trigger--frequent-questions--7": {
+        "props": {
+            "blockClass": "frequent-questions-h3",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**7.  ¿Cuáles son algunas recomendaciones para comprar en Cyber?**"
+        }
+        },
+    
+        "rich-text#entry-accordion-content--frequent-questions--7": {
+        "props": {
+            "blockClass": "frequent-questions-p",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Antes de realizar cualquier compra en alguna tienda online, asegúrate de que sea un sitio oficial y esté registrado de forma oficial en el Cyber. Además, revisa siempre los términos y condiciones de cada tienda e infórmate de sus tiempos de entrega, políticas de devoluciones, formas de pago, entre otros datos. No olvides fijarte en que sea un sitio seguro, es decir, que cuente con protocolo HTTPS."
+        }
+        },
+
+    "disclosure-state-indicator": {
+    "props": {
+        "Show": "image#plus-icon",
+        "Hide": "image#minus-icon",
+        "blockClass": "img-preguntas-frecuentes"
+    }
+    },
+    "image#plus-icon": {
+    "props": {
+        "src": "assets/Vectorup.svg",
+        "maxHeight": "50px",
+        "maxWidth": "50px",
+        "blockClass": "img-cambios"
+    }
+    },
+    "image#minus-icon": {
+    "props": {
+        "src": "assets/Vectordown.svg",
+        "maxHeight": "50px",
+        "maxWidth": "50px",
+        "blockClass": "img-cambios"
+    }
+    },
+
+
+    "rich-text#footer-preguntas-frecuentes":{
+        "props": {
+            "text": "¿No encuentras la información que buscabas? \n[Visita nuestro centro de ayuda](https://reebokcl-support.freshdesk.com/support/home) \nen donde encontrarás más información sobre nuestro sitio y preguntas frecuentes.",
+            "blockClass": "footer-preguntas-frecuentes",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+}

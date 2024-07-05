@@ -1,0 +1,633 @@
+{
+  "responsive-layout.phone": {
+    "children": [
+      "flex-layout.row#mobileHome-main-carousel",
+      "flex-layout.row#component-destacados-ahora",
+      "flex-layout.row#desktopHome-third-row-images",
+      "flex-layout.row#mas-vendido-title",
+      "flex-layout.row#component-shelf-productos-mas-vendidos",
+      "__fold__",
+      "flex-layout.row#destacados-title",
+      "flex-layout.row#home-mobile-destacados",
+      "flex-layout.row#component-shelf-productos-destacados-title-home-icons",
+      "flex-layout.row#home-desktop-icons",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-recomendados"
+    ]
+  },
+  "flex-layout.row#mobileHome-main-carousel": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobileHome-main-carousel"
+    },
+    "children": [
+      "slider-layout#mobileHome-main-carousel"
+    ]
+  },
+  "slider-layout#mobileHome-main-carousel": {
+    "props": {
+      "itemsPerPage": {
+        "mobile": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showPaginationDots": "always",
+      "blockClass": "mobileHome-main-carousel"
+    },
+    "children": [
+      //"flex-layout.row#custom-banner-accesorios",
+      "flex-layout.row#custom-banner-members",
+      "custom-banner#lostrepaired"
+    ]
+  },
+
+  "custom-banner#black-friday-ext-mobile": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/Hero-Banner-Extension-SALE-BF-Desktop-CO.jpg",
+      "phoneBgImageUrl": "/arquivos/Hero-Banner-Extension-SALE-BF-Mobile-CO.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "DESCUENTOS",
+          "sx": {
+            "desktop": "banner-headline ml50 fs280 mr2 cWhite",
+            "tablet": "banner-headline-bottom mr3 cWhite",
+            "phone": "banner-headline-bottom fs150 cWhite"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "DE HASTA 50%",
+          "sx": {
+            "desktop": "banner-headline-bottom ml50 mb2 fs280 mr2 cWhite",
+            "tablet": "banner-headline-bottom mr3 cWhite",
+            "phone": "banner-headline-bottom fs150 cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Disfruta de hasta 50% OFF",
+          "sx": {
+            "desktop": "banner-copy-bottom mr2 cWhite",
+            "tablet": "banner-copy-bottom mr3 cWhite",
+            "phone": "banner-copy cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "en catálogo seleccionado",
+          "sx": {
+            "desktop": "banner-copy-bottom mr2 cWhite",
+            "tablet": "banner-copy-bottom mr3 cWhite",
+            "phone": "banner-copy-bottom cWhite"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR",
+            "link": "/ofertas",
+            "color": "white",
+            "sx": {
+              "desktop": "mt1 mr1",
+              "tablet": " mt2 mr0",
+              "phone": "mt3 ml5 tac"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t35 r3 tar cWhite",
+        "tablet": "relative t13 r0 tar cWhite",
+        "phone": "relative t62 ml0 tac cWhite"
+      }
+    }
+  },
+
+  "custom-banner#black-friday-23-mobile": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/hero-banner-black-friday-23-desktop-CL.jpg",
+      "phoneBgImageUrl": "/arquivos/hero-banner-black-friday-23-mobile-CL.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "HASTA 50% OFF",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite mW40 tar",
+            "phone": "banner-headline-bottom cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Además, 20% adicional por la compra de",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite mW40 tar",
+            "phone": "banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "2 productos o 30% por la compra de",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite mW40 tar",
+            "phone": "banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "3 productos o más.",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite mW40 tar",
+            "phone": "banner-copy cWhite tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/black-friday",
+            "color": "white",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt5 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t25 r2 tar",
+        "tablet": "relative t20 l57",
+        "phone": "relative t63"
+      }
+    }
+  },
+
+  "flex-layout.row#huincha-tc-promos": {
+    "title": "Huicha promo",
+    "children": ["rich-text#huincha-tc-promo"],
+    "props": {
+      "blockClass": "row-huincha-tc-promo"
+    }
+  },
+  "rich-text#huincha-tc-promo": {
+    "props": {
+      "blockClass": "text-huincha-tc-promo",
+      "text": "[*No aplica a lista de exclusión y productos con el tag NUEVO](/legales-promociones/?target=_blank)"
+    }
+  },
+
+  "custom-banner#vamos-mas-mobile": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-vamos-mas.jpg",
+      "phoneBgImageUrl": " /arquivos/HERO-BANNER-MOBILE-vamos-mas.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "VAMOS POR MÁS",
+          "sx": {
+            "desktop": "banner-headline-bottom",
+            "tablet": "banner-headline-bottom",
+            "phone": "banner-headline-bottom tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Muévete y vive la vida junto a nosotros",
+          "sx": {
+            "desktop": "banner-copy",
+            "tablet": "banner-copy",
+            "phone": "banner-copy tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "Comprar Funcional",
+            "link": "/entrenamiento-funcional",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt5 fs70"
+            }
+          },
+          {
+            "label": "Comprar Running",
+            "link": "/running",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt1 fs70"
+            }
+          }
+        ],
+        "layout": "vertical",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t5 r2 tar",
+        "tablet": "relative t5 r2 tac",
+        "phone": "relative mt7 tac"
+      }
+    }
+  },
+
+  "custom-banner#UTP-40-off-outlet-mobile": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-UTP-40-Off-outlet.png",
+      "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-UTP-40-Off-outlet.png",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "¡TÚ ELIGES EL DESCUENTO!",
+          "sx": {
+            "desktop": "banner-headline mb1",
+            "tablet": "banner-headline mb2 tar",
+            "phone": "banner-copy bold mb2 fs80"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Disfruta de hasta 40% OFF.",
+          "sx": {
+            "desktop": "banner-copy",
+            "tablet": "banner-copy tar",
+            "phone": "banner-copy mW90"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Compra 2 artículos, recibe 20% adicional. ",
+          "sx": {
+            "desktop": "banner-copy",
+            "tablet": "banner-copy tar",
+            "phone": "banner-copy mW90"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Compra 3 artículos, recibe 30% adicional.",
+          "sx": {
+            "desktop": "banner-copy",
+            "tablet": "banner-copy tar",
+            "phone": "banner-copy mW90"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Aplica sobre catálogo de Outlet.",
+          "sx": {
+            "desktop": "banner-copy",
+            "tablet": "banner-copy tar",
+            "phone": "banner-copy mW90"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR YA",
+            "link": "/outlet",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2",
+              "tablet": "mt5",
+              "phone": "mt5"
+            }
+          }
+        ]
+        // "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t30 tar mr5",
+        "tablet": "relative t10 ml56 mW40",
+        "phone": "relative l7 t58"
+      }
+    }
+  },
+
+  // "flex-layout.col#main-mobileHome-carousel3": {
+  //   "props": {
+  //     "blockClass": "main-mobileHome-carousel3"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#image-mobileHome-c3"
+  //     // "flex-layout.col#main-mobileHome-info-carousel3",
+  //     //"flex-layout.row#pie-desktopHome"
+  //   ]
+  // },
+  // "flex-layout.col#main-mobileHome-carousel4": {
+  //   "props": {
+  //     "blockClass": "main-mobileHome-carousel3"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#image-mobileHome-c4",
+  //     "flex-layout.row#pie-desktopHome4"
+  //   ]
+  // },
+  "flex-layout.row#image-mobileHome-c4": {
+    "props": {
+      "blockClass": "image-mobileHome-c4"
+    },
+    "children": ["image#image-carousel-mobile2"]
+  },
+  "flex-layout.row#image-mobileHome-c3": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-carousel-mobile1"]
+  },
+  // "flex-layout.col#main-mobileHome-info-carousel3": {
+  //   "props": {
+  //     "preventVerticalStretch": "true",
+  //     "blockClass": "main-desktopHome-info-carousel3"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#titulo-mobileHome",
+  //     "flex-layout.row#body-mobileHome",
+  //     "flex-layout.row#buttons-desktopHome"
+  //   ]
+  // },
+  "flex-layout.row#titulo-mobileHome": {
+    "props": {
+      "blockClass": "titulo-desktopHome"
+    },
+    "children": ["rich-text#titulo-rebook-tunes-mobile"]
+  },
+  "rich-text#titulo-rebook-tunes-mobile": {
+    "props": {
+      "blockClass": "titulo-rebook-tunes",
+      "text": "LIVE CLASSIC"
+    }
+  },
+  "flex-layout.row#body-mobileHome": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#body-rebook-tunes-mobile"]
+  },
+  "rich-text#body-rebook-tunes-mobile": {
+    "props": {
+      "blockClass": "body-rebook-tunes",
+      "text": "Conserva el pasado con lo último de Classics."
+    }
+  },
+  "flex-layout.row#home-mobile-destacados": {
+    "props": {
+      "blockClass": "home-mobile-destacados",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": false
+    },
+    "children": ["slider-layout#home-mobile-destacados"]
+  },
+  "slider-layout#home-mobile-destacados": {
+    "props": {
+      "blockClass": "home-mobile-destacados",
+      "itemsPerPage": {
+        "mobile": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly"
+    },
+    "children": [
+      // "flex-layout.col#home-destacados-col1-mobile",
+      "flex-layout.col#home-destacados-extra-classic-mobile-new",
+      "flex-layout.col#home-destacados-nano-flex-mobile",
+      "flex-layout.col#home-destacados-col2-mobile-new",
+      // "flex-layout.col#home-destacados-col4-mobile",
+      "flex-layout.col#home-destacados-col3-mobile-new"
+    ]
+  },
+  "flex-layout.col#main-mobileHome-carousel5": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.row#image-mobileHome-c5"
+      // "flex-layout.col#main-mobileHome-info-carousel5"
+      // "flex-layout.row#buttons-legales"
+    ]
+  },
+  "flex-layout.row#image-mobileHome-c5": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-carousel-mobile6"]
+  },
+  "flex-layout.col#main-mobileHome-info-carousel5": {
+    "props": {
+      "preventVerticalStretch": "true",
+      "blockClass": "main-desktopHome-info-carousel3"
+    },
+    "children": [
+      // "flex-layout.row#titulo-mobileHome",
+      // "flex-layout.row#body-mobileHome",
+      // "flex-layout.row#buttons-desktopHome-verano"
+    ]
+  },
+  "flex-layout.col#main-mobileHome-carousel-classics": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.row#image-mobileHome-classics",
+      "flex-layout.col#main-mobileHome-info-carousel-classics"
+      //  "flex-layout.row#buttons-legales"
+    ]
+  },
+  "flex-layout.row#image-mobileHome-classics": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-carousel-classics-mobile"]
+  },
+  "flex-layout.col#main-mobileHome-info-carousel-classics": {
+    "props": {
+      "preventVerticalStretch": "true",
+      "blockClass": "main-desktopHome-info-carousel3"
+    },
+    "children": [
+      "flex-layout.row#titulo-mobileHome-classics",
+      "flex-layout.row#body-mobileHome-classics"
+      // "flex-layout.row#buttons-desktopHome-classics"
+    ]
+  },
+  "flex-layout.row#titulo-mobileHome-classics": {
+    "props": {
+      "blockClass": "titulo-desktopHome"
+    },
+    "children": ["rich-text#titulo-rebook-classics-mobile"]
+  },
+  "rich-text#titulo-rebook-classics-mobile": {
+    "props": {
+      "blockClass": "titulo-rebook-tunes",
+      "text": "SOMOS INVENCIBLES. \n\n SOMOS MUJERES"
+    }
+  },
+  "flex-layout.row#body-mobileHome-classics": {
+    "props": {
+      "blockClass": "body-desktopHome"
+    },
+    "children": ["rich-text#body-rebook-classics-mobile"]
+  },
+  "rich-text#body-rebook-classics-mobile": {
+    "props": {
+      "blockClass": "body-rebook-tunes",
+      "text": "Siéntete cómoda a donde sea que vayas \n y vive tu propia aventura.\n ##### Conmemoramos la lucha por conquistar espacios, igualdad \n ##### de género, derechos y trato digno."
+    }
+  },
+  /*Banner promoción Anuel*/
+  "flex-layout.col#main-mobileHome-carousel-banner-anuel": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#main-mobileHome-info-carousel-anuel",
+      "flex-layout.row#image-mobileHome-banner-anuel"
+    ]
+  },
+  "flex-layout.row#image-mobileHome-banner-anuel": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-anuel-mobile"]
+  },
+  "flex-layout.col#main-mobileHome-info-carousel-anuel": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "main-desktopHome-info-anuel"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-desktopHome",
+      "flex-layout.row#body-mobileHome-Anuel",
+      "flex-layout.row#buttons-desktopHome"
+    ]
+  },
+  /*Fn Banner promoción Anuel*/
+  /*Banner día del padre*/
+  "flex-layout.col#main-mobileHome-carousel-dia-del-padre": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#main-mobileHome-info-carousel-dia-del-padre",
+      "flex-layout.row#image-mobileHome-banner-dia-del-padre"
+    ]
+  },
+  "flex-layout.row#image-mobileHome-banner-dia-del-padre": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-dia-del-padre-mobile"]
+  },
+  "flex-layout.col#main-mobileHome-info-carousel-dia-del-padre": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "main-desktopHome-info-carousel3",
+        "main-desktopHome-info-dia-del-padre"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-desktopHome-dia-del-padre",
+      "flex-layout.row#body-mobileHome-dia-del-padre",
+      "flex-layout.row#buttons-desktopHome-dia-del-padre"
+    ]
+  },
+  /*Fn Banner día del padre*/
+  /*Banner Nano X3*/
+  "flex-layout.col#mobile-banner-nano-3": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-nano-3",
+      "flex-layout.row#image-mobile-banner-nano-3"
+    ]
+  },
+  "flex-layout.row#image-mobile-banner-nano-3": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-nano-3-mobile"]
+  },
+  "flex-layout.col#mobile-info-banner-nano-3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["main-desktopHome-info-carousel3", "info-banner-nano-3"]
+    },
+    "children": [
+      "flex-layout.row#titulo-banner-nano-3",
+      "flex-layout.row#body-banner-nano-3-mobile",
+      "flex-layout.row#button-banner-nano-3"
+    ]
+  },
+  /*Fn Banner Nano X3*/
+  /*Banner Nano PLP X3*/
+  "flex-layout.col#mobile-banner-plp-nano-3": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": ["flex-layout.row#image-mobile-banner-plp-nano-3"]
+  },
+  "flex-layout.row#image-mobile-banner-plp-nano-3": {
+    "props": {
+      "blockClass": ["image-mobileHome-c3", "image-nano3-plp"]
+    },
+    "children": ["image#image-banner-plp-nano-3-mobile"]
+  },
+  /*Banner 2x1*/
+  "flex-layout.col#mobile-banner-2x1": {
+    "props": {
+      "blockClass": "main-mobileHome-carousel3"
+    },
+    "children": [
+      "flex-layout.col#mobile-info-banner-2x1",
+      "flex-layout.row#image-mobile-banner-2x1"
+    ]
+  },
+  "flex-layout.row#image-mobile-banner-2x1": {
+    "props": {
+      "blockClass": "image-mobileHome-c3"
+    },
+    "children": ["image#image-banner-2x1-mobile"]
+  },
+  "flex-layout.col#mobile-info-banner-2x1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["main-desktopHome-info-carousel3", "info-banner-2x1"]
+    },
+    "children": [
+      "flex-layout.row#titulo-banner-2x1",
+      "flex-layout.row#body-banner-2x1-mobile",
+      "flex-layout.row#button-banner-2x1"
+    ]
+  }
+  /*Fn Banner 2x1*/
+}

@@ -1,0 +1,97 @@
+.sliderContainer .barContainer {
+  background-color: #244486 !important;
+}
+.sliderText .text3 {
+  color: #5e5e5e !important;
+  font-family: "NeuePlak-Regular";
+}
+.sliderContainer {
+  background-color: #d1d1d1 !important;
+}
+.freigthScaleContainer {
+  margin-left: 0;
+}
+.freigthScaleContainer .text2 {
+  font-family: "NeuePlak-Regular" !important;
+  font-size: 0px;
+  color: red;
+}
+.freigthScaleContainer .text1 {
+  font-size: 0px;
+  font-family: "NeuePlak-Regular" !important;
+  color: red;
+}
+
+.freigthScaleContainer {
+  box-shadow: none !important;
+}
+
+.freigthScaleContainer .text1::before {
+  font-family: "NeuePlak-Regular" !important;
+  position: absolute;
+  content: url("assets/carrito-minicart.png") !important;
+}
+.freigthScaleContainer .text1::after {
+  margin-left: 37px;
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 400;
+  content: "Completa tu pedido y obtén envío gratis";
+  font-family: "NeuePlak-Regular";
+  color: #121212;
+}
+
+.freigthScaleContainer {
+  padding: 0px !important;
+  position: relative !important;
+}
+
+.sliderText {
+  font-family: "NeuePlak-Regular" !important;
+  margin: 8px 0 0 37px !important;
+  text-align: start;
+}
+.freigthScaleContainer {
+  width: 100% !important;
+  background-color: #f7f7f7 !important;
+  padding: 17px 22px 17px 18px !important;
+  border-radius: 4px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--desktop-row-product-pdp)
+  .freigthScaleContainer {
+  max-width: 100%;
+}
+
+.sliderContainer {
+  margin: 8px 0 0 37px;
+}
+
+.text0 {
+  display: flex;
+  justify-content: center;
+  font-family: "NeuePlak-SemiBold" !important;
+  font-size: 1rem !important;
+  color: #121212 !important;
+  align-items: center !important;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-summary-modal-content)
+  .freigthScaleContainer {
+  display: none;
+}
+
+/**-----MINICART-----**/
+:global(.vtex-flex-layout-0-x-flexColChild--minicart-footer)
+  .freigthScaleContainer {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+@media (max-width: 40rem) {
+  .freigthScaleContainer {
+    border-radius: 0;
+  }
+
+  .freigthScaleContainer .text1::after {
+    display: inline-block !important;
+  }
+}

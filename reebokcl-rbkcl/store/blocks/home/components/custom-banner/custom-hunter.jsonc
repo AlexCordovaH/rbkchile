@@ -1,0 +1,155 @@
+{
+
+    
+    "custom-banner#hunter-hunter": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HunterXHunterDesktop.jpg",
+            "phoneBgImageUrl": "/arquivos/HunterXHunter%20Mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "COLECCIÓN",
+              "sx": {
+                "desktop": "banner-headline-bottom cBlack mt5 mb1 mr2",
+                "tablet": "banner-headline-bottom mr2 cBlack tar  mt7",
+                "phone": "banner-headline-bottom cBlack tac"
+              }
+            },
+            {
+              "type": "headline",
+              "text": "HUNTER X HUNTER",
+              "sx": {
+                "desktop": "banner-headline-bottom cBlack mr2",
+                "tablet": "banner-headline-bottom mr2 cBlack tar",
+                "phone": "banner-headline-bottom tac mb1 cBlack"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Únete a las filas de la élite. Explora nuevos",
+              "sx": {
+                "desktop": "banner-copy  cBlack mr2",
+                "tablet": "banner-copy mr2 cBlack tar",
+                "phone": "banner-copy cBlack tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "estilos de edición limitada inspirados en escenas",
+              "sx": {
+                "desktop": "banner-copy  cBlack mr2",
+                "tablet": "banner-copy mr2 cBlack tar",
+                "phone": "banner-copy cBlack tac"
+              }
+            },
+            {
+                "type": "copy",
+                "text": "y personajes de Hunter x Hunter",
+                "sx": {
+                  "desktop": "banner-copy  cBlack mr2",
+                  "tablet": "banner-copy mr2 cBlack tar",
+                  "phone": "banner-copy cBlack tac"
+                }
+              }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR",
+                  "link": "/hunterxhunter",
+                  "color":"black",
+                  "sx": {
+                      "desktop": "mt2 fs80",
+                      "tablet": "mt3 fs70",
+                      "phone": "mt5 fs70"
+                    }
+                }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t20 r2 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t65 tac"
+          }
+        }
+    },
+
+    "custom-banner#hunter-hunter-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HunterXHunterDesktop.jpg",
+            "phoneBgImageUrl": "/arquivos/HunterXHunter%20Mobile.jpg",
+          "headlines": [
+            {
+                "type": "headline",
+                "text": "COLECCIÓN",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2 cBlack",
+                "tablet": "banner-headline-bottom mr2 cBlack tar",
+                "phone": "banner-headline-bottom tac mb1 cBlack"
+              }
+            },
+            {
+                "type": "headline",
+                "text": "HUNTER X HUNTER",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2 cBlack",
+                "tablet": "banner-headline-bottom mr2 cBlack tar",
+                "phone": "banner-headline-bottom tac mb2 cBlack"
+              }
+            },
+            {
+                "type": "copy",
+                "text": "Únete a las filas de la élite. Explora nuevos",
+              "sx": {
+                "desktop": "banner-copy  cBlack",
+                "tablet": "banner-copy mr2 cBlack tar",
+                "phone": "banner-copy cBlack tac"
+              }
+            },
+            {
+                "type": "copy",
+                "text": "estilos de edición limitada inspirados en escenas",
+              "sx": {
+                "desktop": "banner-copy  cBlack",
+                "tablet": "banner-copy mr2 cBlack tar",
+                "phone": "banner-copy cBlack tac"
+              }
+            },
+            {
+                "type": "copy",
+                "text": "y personajes de Hunter x Hunter",
+              "sx": {
+                "desktop": "banner-copy  cBlack",
+                "tablet": "banner-copy mr2 cBlack tar",
+                "phone": "banner-copy cBlack tac"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR",
+                "link": "/hunterxhunter",
+                "color":"black",
+                "sx": {
+                    "desktop": "mt2 fs80",
+                    "tablet": "mt5 fs70",
+                    "phone": "mt6 fs60 "
+                  }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "center"
+          },
+          "sx": {
+            "desktop": "relative t44 r8 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t52 tac"
+          }
+        }
+      }
+}

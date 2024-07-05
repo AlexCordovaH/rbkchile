@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#about-banner":{
+        "props":{
+            "fullWidth": false,
+            "blockClass": "about_banner"
+        },
+        "children":[
+            "image#about-banner_image",
+            "flex-layout.col#about-banner-text"
+        ]
+    },
+    "image#about-banner_image":{
+        "props":{
+            "src": "/arquivos/Hero_desktop_FFG-1920x930.jpg",
+            "alt": "Una compañía de estilo de vida atlético | Reebok Chile",
+            "blockClass": "about_banner_image"
+        }
+    },
+    "flex-layout.col#about-banner-text":{
+        "props":{
+            "blockClass": "about_banner_texts"
+        },
+        "children":[
+            "rich-text#about-banner-pre-text",
+            "rich-text#about-banner-text",
+            "rich-text#about-banner-post-text"
+        ]
+    },
+    "rich-text#about-banner-pre-text":{
+        "props":{
+            "text": "¿Quienes somos?",
+            "blockClass": "about_banner_pre_title"
+        }
+    },
+    "rich-text#about-banner-text":{
+        "props":{
+            "text": "# Una compañía de estilo de vida atlético",
+            "blockClass": "about_banner_title"
+        }
+    },
+    "rich-text#about-banner-post-text":{
+        "props":{
+            "text": "Auténtica - Accesible - Impulsada por un Propósito",
+            "blockClass": "about_banner_post_title"
+        }
+    },
+    // Mobile
+    "flex-layout.row#about-banner-mobile":{
+        "props":{
+            "fullWidth": false,
+            "blockClass": "about_banner_mobile"
+        },
+        "children":[
+            "image#about-banner_image_mobile",
+            "flex-layout.col#about-banner-text-mobile"
+        ]
+    },
+    "image#about-banner_image_mobile":{
+        "props":{
+            "src": "/arquivos/Hero_MoblieFFG-750x1000.jpg",
+            "alt": "Una compañía de estilo de vida atlético | Reebok Chile",
+            "blockClass": "about_banner_image_mobile"
+        }
+    },
+    "flex-layout.col#about-banner-text-mobile":{
+        "props":{
+            "blockClass": "about_banner_texts_mobile"
+        },
+        "children":[
+            "rich-text#about-banner-pre-text-mobile",
+            "rich-text#about-banner-text-mobile",
+            "rich-text#about-banner-post-text-mobile"
+        ]
+    },
+    "rich-text#about-banner-pre-text-mobile":{
+        "props":{
+            "text": "¿Quienes somos?",
+            "blockClass": "about_banner_pre_title_mobile"
+        }
+    },
+    "rich-text#about-banner-text-mobile":{
+        "props":{
+            "text": "# Una compañía de estilo de vida atlético",
+            "blockClass": "about_banner_title_mobile"
+        }
+    },
+    "rich-text#about-banner-post-text-mobile":{
+        "props":{
+            "text": "Auténtica - Accesible - Impulsada por un Propósito",
+            "blockClass": "about_banner_post_title_mobile"
+        }
+    }
+}

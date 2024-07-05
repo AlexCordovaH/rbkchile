@@ -1,0 +1,53 @@
+{
+  // CARRUSEL RECOMENDADOS
+  "list-context.product-list#component-shelf-productos-destacados": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#component-shelf-productos-destacados"],
+    "props": {
+      "collection": "397",
+      /* "collection": "481", */
+      "orderBy": "OrderByPriceDESC",
+      "maxItems": 10,
+      "blockClass": "list-contenxt-home"
+    }
+  },
+
+  "slider-layout#component-shelf-productos-destacados": {
+    "props": {
+      "blockClass": "wishlist_shelf",
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+    }
+  },
+  // CARRUSEL LOS MÁS VENDIDOS
+  "list-context.product-list#component-shelf-productos-mas-vendidos": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#component-shelf-productos-mas-vendidos"],
+    "props": {
+      "collection": "481",
+      "orderBy": "OrderByReleaseDateDESC",
+      "maxItems": 10,
+      "blockClass": ["list-contenxt-home"]
+    }
+  },
+
+  "slider-layout#component-shelf-productos-mas-vendidos": {
+    "props": {
+      "blockClass": "wishlist_shelf",
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+    }
+  }
+}

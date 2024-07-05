@@ -1,0 +1,432 @@
+{
+    /*Store custom: DEPORTE */
+    "store.custom#deporte-v2": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-v2"
+        ]
+    },
+    /*Store custom: DEPORTE - BASQUET */
+    "store.custom#deporte-basquet": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-basquet"
+        ]
+    },
+    "store.custom#deporte-basquet-calzado": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-basquet-calzado"
+        ]
+    },
+    "store.custom#deporte-basquet-ropa": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-basquet-ropa"
+        ]
+    },
+    /*Store custom: DEPORTE - ENTRENAMIENTO FUNCIONAL */
+    "store.custom#deporte-entrenamientofuncional": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-entrenamientofuncional"
+        ]
+    },
+    "store.custom#deporte-entrenamientofuncional-calzado": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-entrenamientofuncional-calzado"
+        ]
+    },
+    "store.custom#deporte-entrenamientofuncional-ropa": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-entrenamientofuncional-ropa"
+        ]
+    },
+    /*Store custom: DEPORTE - FITNESS & TRAINING */
+    "store.custom#deporte-fitnessandtraining": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-fitnessandtraining"
+        ]
+    },
+    "store.custom#deporte-fitnessandtraining-calzado": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-fitnessandtraining-calzado"
+        ]
+    },
+    "store.custom#deporte-fitnessandtraining-ropa": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-fitnessandtraining-ropa"
+        ]
+    },
+    "store.custom#deporte-fitnessandtraining-accesorios": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-fitnessandtraining-accesorios"
+        ]
+    },
+    /*Store custom: DEPORTE - RUNNING */
+    "store.custom#deporte-running": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-running"
+        ]
+    },
+    "store.custom#deporte-running-calzado": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-running-calzado"
+        ]
+    },
+    "store.custom#deporte-running-ropa": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-running-ropa"
+        ]
+    },
+    "store.custom#deporte-running-accesorios": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-running-accesorios"
+        ]
+    },
+    /*Store custom: DEPORTE - OUTDOOR */
+    "store.custom#deporte-outdoor": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-outdoor"
+        ]
+    },
+    "store.custom#deporte-outdoor-calzado": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-outdoor-calzado"
+        ]
+    },
+    "store.custom#deporte-outdoor-senderismo": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-outdoor-senderismo"
+        ]
+    },
+    "store.custom#deporte-outdoor-walking": {
+        "blocks": [
+            "search-result-layout.customQuery#deporte-outdoor-walking"
+        ]
+    },
+    /*Search result layout: DEPORTE */
+    "search-result-layout.customQuery#deporte-v2": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/deporte",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: BASQUET */
+    "search-result-layout.customQuery#deporte-basquet": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/basquet",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-basquet-calzado": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "calzado/basquet",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-basquet-ropa": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "ropa/basquet",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: ENTRENAMIENTO FUNCIONAL */
+    "search-result-layout.customQuery#deporte-entrenamientofuncional": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/entrenamiento-funcional",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-entrenamientofuncional-calzado": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "calzado/entrenamiento-funcional",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-entrenamientofuncional-ropa": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "ropa/entrenamiento-funcional",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: FITNESS & TRAINING */
+    "search-result-layout.customQuery#deporte-fitnessandtraining": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/fitness-y-training",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-fitnessandtraining-calzado": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "calzado/fitness-y-training",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-fitnessandtraining-ropa": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "ropa/entrenamiento-funcional",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-fitnessandtraining-accesorios": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "accesorios/fitness-y-training",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: RUNNING */
+    "search-result-layout.customQuery#deporte-running": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/running",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-running-calzado": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/calzado/running",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-running-ropa": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/ropa/running",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-running-accesorios": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/accesorios/running",
+                "mapField": "categoria,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: OUTDOOR */
+    "search-result-layout.customQuery#deporte-outdoor": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "senderismo/walking",
+                "mapField": "deporte,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-outdoor-calzado": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "calzado/senderismo/walking",
+                "mapField": "categoria,deporte,deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-outdoor-senderismo": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/senderismo",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#deporte-outdoor-walking": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/walking",
+                "mapField": "deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

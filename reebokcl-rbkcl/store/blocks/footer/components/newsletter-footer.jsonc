@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#container-footer-row-newsletter": {
+        "children": [
+          "flex-layout.col#col-footer-NewsletterRed"
+        ],
+        "props": {
+          "blockClass": "footer-layout-red"
+        }
+      },
+    
+      "flex-layout.col#col-footer-NewsletterRed": {
+        "children": [
+          "rich-text#message-newsletter-footer-1",
+          "modal-trigger#newsletter"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "top",
+          "width": "100%",
+          "marginLeft": 8,
+          "marginRight": 8,
+          "blockClass": "newsletter-footer-container"
+        }
+      },
+        // NewsLetter Footer
+      "rich-text#message-newsletter-footer-1": {
+      "props": {
+        "text": "ÚNETE Y RECIBE 20% DE DESCUENTO EN TU PRÓXIMA COMPRA",
+        "blockClass": "newsletter-title-footer-1"
+      }
+    }
+}

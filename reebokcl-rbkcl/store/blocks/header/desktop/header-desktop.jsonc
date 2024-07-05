@@ -1,0 +1,314 @@
+{
+  "header-layout.desktop": {
+    "children": [
+
+      "modal-trigger#modal-subs",
+      "trigger-modal",
+      "image#whatsapp-business",
+      "back-to-top-button",
+      // "flex-layout.row#header-guincha",
+      "flex-layout.row#topbar-desktop",
+      "flex-layout.row#desktop-header-guincha",
+      "sticky-layout#desktop",
+      "flex-layout.row#home-promotion-bar",
+      "flex-layout.row#header-contador-Desk"
+    ]
+  },
+  "flex-layout.row#topbar-desktop": {
+    "title": "Topbar editable [Desktop]",
+    "children": [
+      "notificacions-bar"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "topbar-anuncios"
+    }
+  },
+
+  "notificacions-bar": {
+    "props": {
+      "notifications": [
+        {
+          "text": "¡ÚNETE Y RECIBE 20% OFF EN TU PRIMERA COMPRA! <a href='https://www.reebok.co/newsletter' style='color: #FFFFFF'> HAZ CLICK AQUÍ </a>",
+          "color": "#244486",
+          "colorText": "#ffffff",
+          "autoplay": true,
+          "autoplayTimeout": 5000
+        },
+        {
+          "text": "COMPRA ANTES DEL 13 DE JUNIO A LAS 2PM Y RECIBE TU PEDIDO PARA EL DÍA DEL PADRE – VÁLIDO PARA REGIÓN METROPOLITANA",
+          "color": "#244486",
+          "colorText": "#ffffff",
+          "autoplay": true,
+          "autoplayTimeout": 5000
+        }
+      ]
+    }
+  },
+
+  // "list-context.topbar#topbar-anuncios-list": {
+  //   "title": "Topbar editable [Component]",
+  //   "children": [
+  //     "slider-layout#topbar-anuncios-slider"
+  //   ],
+  //   "props": {
+  //     "backgroundColorFondo": "#F0CFD7",
+  //     "items": [
+  //       {
+  //         "contentText": "Revisa tus promociones",
+  //         "contentTextComplement": "",
+  //         "contentTextColor": "#ffffff",
+  //         "contentTextLink": "",
+  //         "isBoldContentTextCompleted": false,
+  //         "isBoldContentTextComplement": false
+  //       }
+  //     ]
+  //   }
+  // },
+  "slider-layout#topbar-anuncios-slider": {
+    "title": "[slider] Topbar editable",
+    "props": {
+      "blockClass": "topbar-anuncios-slider",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+    // "children": [
+    //   "notificacions-bar"
+    // ]
+  },
+
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#main-menu-desktop",
+      "flex-layout.row#search-desktop",
+      "flex-layout.row#header-right-icons"
+    ]
+  },
+
+  "flex-layout.row#header-right-icons": {
+    "props": {
+      "blockClass": "header-right-icons",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["login#sticky", "image#whis-icon", "minicart.v2"]
+  },
+  "flex-layout.row#search-desktop": {
+    "children": [
+      // "flex-layout.col#icon-search-desktop",
+      // "flex-layout.col#desktop-search"
+      "flex-layout.col#icon-search-desktop-new"
+    ],
+    "props": {
+      "blockClass": "search-desktop",
+       "width": "grow"
+    }
+  },
+
+  "flex-layout.col#icon-search-desktop": {
+    "children": [/*"trigger-layout#desktop-search-bar"*/ "search-bar#trigger-desktop"],
+    "props": {
+      "width": "90%",
+      "blockClass": "icon-search-desktop"
+    }
+  },
+
+  "trigger#desktop-search-icon": {
+    "children": ["menu-item#desktop-search-icon"],
+    "props": {
+      "blockClass": "desktop-search-icon",
+      "width": "100%"
+    }
+  },
+
+  "menu-item#desktop-search-icon": {
+    "props": {
+      "blockClass": "desktop-search-icon"
+    }
+  },
+
+  "trigger-layout#desktop-search-bar": {
+    "props": {
+      "blockClass": "desktop-search-bar",
+      "width": "30%"
+    },
+    "children": ["search-bar#trigger-desktop"]
+  },
+
+  //Modificar search
+  "search-bar#trigger-desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "inputType": "search",
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "¿Qué estás buscando?",
+      "blockClass": "trigger-desktop",
+      "attemptPageTypeSearch": false
+    }
+  },
+
+  "flex-layout.col#desktop-search": {
+    "children": ["trigger#desktop-search-icon"],
+    "props": {
+      "preventVerticalStretch": "true",
+      "blockClass": "desktop-header-search"
+    }
+  },
+
+    //Search fijo
+
+    "flex-layout.col#icon-search-desktop-new": {
+      "children": ["search-bar#new"],
+      "props": {
+        "blockClass": "content-search-mobile"
+      }
+    },
+    "search-bar#new": {
+      "blocks": ["autocomplete-result-list.v2"],
+      "props": {
+        "openAutocompleteOnFocus": true,
+        "inputType": "search",
+        "placeholder": "¿Qué estás buscando?",
+        "displayMode": "search-and-clear-buttons",
+        "blockClass": "trigger-mobile",
+        "attemptPageTypeSearch": false //true
+      }
+    },
+
+  /* PRUEBA */
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["image#logo-header"]
+  },
+  // MAIN MENU
+  // ----------------------------------
+  "flex-layout.col#main-menu-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      // "horizontalAlign": "left",
+      // "width": "grow",
+      "blockClass": "main-menu-desktop"
+    },
+    "children": ["vtex.menu@2.x:menu#main-menu-v2-a"]
+  },
+  "image#whis-icon": {
+    "props": {
+      "blockClass": "whis-icon",
+      "src": "assets/header/wishlist.svg",
+      "link": {
+        "url": "/account/#/wishlist"
+      }
+    }
+  },
+
+  "image#header-comprar-cardib": {
+    "props": {
+      "blockClass": "header-comprar-cardib",
+      "src": "https://reebokcl.vteximg.com.br/arquivos/cardib2-taxonomia-falic-600x360.jpg",
+      "link": {
+        "url": "/coleccion-cardi-b"
+      }
+    }
+  },
+
+  "image#header-comprar-nano": {
+    "props": {
+      "blockClass": "header-comprar-cardib",
+      "src": "https://reebokcl.vteximg.com.br/arquivos/nanoX2adv-taxonomia-falic-600x360.jpg",
+      "link": {
+        "url": "/coleccion-nano-xi"
+      }
+    }
+  },
+
+  "image#header-size-finder": {
+    "props": {
+      "blockClass": "header-comprar-cardib",
+      "src": "https://reebokcl.vteximg.com.br/arquivos/clubc85-taxonomia-falic-600x360.jpg",
+      "link": {
+        "url": "/conoce-tu-talla"
+      }
+    }
+  },
+
+  "rich-text#header-comprar-cardib": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Comprar Reebok x Cardi B",
+      "blockClass": "header-comprar-cardib"
+    }
+  },
+
+  "rich-text#header-comprar-nano": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Comprar Nano X2",
+      "blockClass": "header-comprar-cardib"
+    }
+  },
+
+  "rich-text#header-size-finder": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Size finder",
+      "blockClass": "header-comprar-cardib"
+    }
+  },
+
+  "link#header-comprar-nano": {
+    "props": {
+      "href": "/coleccion-nano-xi",
+      "blockClass": ["header-comprar-cardib"],
+      "label": "Comprar Nano X2"
+    }
+  },
+
+  "link#header-size-finder": {
+    "props": {
+      "href": "/conoce-tu-talla",
+      "blockClass": ["header-comprar-cardib"],
+      "label": "Size Finder"
+    }
+  },
+
+  "link#compra-cardib": {
+    "props": {
+      "href": "/coleccion-cardi-b",
+      "blockClass": ["header-comprar-cardib"],
+      "label": "Comprar Reebok x Cardi B"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "custom-banner#acumula-descuentos": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "/arquivos/Hero-Banner-UPT-Descuento-AcumuladoDesktop-CL.jpg",
+      "phoneBgImageUrl": "/arquivos/Hero-Banner-UPT-Descuento-Acumulado-Mobile-CL.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "APROVECHA LAS OFERTAS",
+          "sx": {
+            "desktop": "banner-headline-bottom mr3 cWhite",
+            "tablet": "banner-headline-bottom mr3 cWhite",
+            "phone": "banner-headline-bottom cWhite"
+          }
+        },
+
+        {
+          "type": "copy",
+          "text": "Hasta 30% OFF y recibe EXTRA un descuento de hasta $32.000",
+          "sx": {
+            "desktop": "banner-copy mr3 cWhite",
+            "tablet": "banner-copy mr3 cWhite",
+            "phone": "banner-copy cWhite dNone"
+          }
+        },
+        {
+          "type": "copy",
+          "text": " por la compra de 2 productos o $57.000",
+          "sx": {
+            "desktop": "banner-copy mr3 cWhite",
+            "tablet": "banner-copy mr3 cWhite",
+            "phone": "banner-copy cWhite dNone"
+          }
+        },
+        {
+            "type": "copy",
+            "text": "por la compra de 3 productos o más.",
+            "sx": {
+              "desktop": "banner-copy mr3 cWhite",
+              "tablet": "banner-copy mr3 cWhite",
+              "phone": "banner-copy cWhite dNone"
+            }
+          }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/ofertas",
+            "sx": {
+              "desktop": "mt2 fs80 mr2",
+              "tablet": "mt5 fs70",
+              "phone": "mt5 mr17 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t30 tar",
+        "tablet": "relative t25 tar",
+        "phone": "relative t71 tac"
+      }
+    }
+  },
+
+  /* mobile */
+
+  "custom-banner#acumula-descuentos-mob": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "/arquivos/Hero-Banner-UPT-Descuento-AcumuladoDesktop-CL.jpg",
+      "phoneBgImageUrl": "/arquivos/Hero-Banner-UPT-Descuento-Acumulado-Mobile-CL.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "ACUMULA DESCUENTOS",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cWhite",
+            "tablet": "banner-headline-bottom mr2 cWhite",
+            "phone": "banner-headline-bottom cWhite tac mb2"
+          }
+        },
+
+        {
+          "type": "copy",
+          "text": "Hasta 30% OFF y recibe EXTRA un ",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "descuento de hasta $32.000 ",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "por la compra de 2 productos o $57.000",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "por la compra de 3 productos o más",
+          "sx": {
+            "desktop": "banner-copy mr2 cWhite",
+            "tablet": "banner-copy mr2 cWhite",
+            "phone": "banner-copy cWhite tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/ofertas",
+            "sx": {
+              "desktop": "mt2 fs80 mr1",
+              "tablet": "mt5 fs70",
+              "phone": "mt5 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t30 tar",
+        "tablet": "relative t25 tar",
+        "phone": "relative t60 tac"
+      }
+    }
+  }
+}

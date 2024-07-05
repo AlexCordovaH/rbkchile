@@ -1,0 +1,395 @@
+{
+    "flex-layout.row#doorway-floatzig-title": {
+        "children": ["flex-layout.col#doorway-floatzig-title"],
+        "props": {
+            "blockClass": ["destacados-title", "home-principal-row", "doorway-floatzig-title"]
+            }
+        },
+        
+    "flex-layout.col#doorway-floatzig-title": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": ["destacados-title"]
+        },
+        "children": ["rich-text#doorway-floatzig-title"]
+    },
+    
+    "rich-text#doorway-floatzig-title": {
+        "props": {
+            "textAlignment": "center",
+            "textPosition": "center",
+            "text": "## TECNOLOGÍA",
+            "blockClass": ["rich-text-shelf-productos-destacados", "rt-doorway-floatzig-title"],
+            "font": "t-heading-3"
+        }
+    },
+
+    "flex-layout.row#doorway-floatzig-content": {
+        "props": {
+        "blockClass": ["home-destacados", "home-principal-row", "doorway-floatzig-content"]
+        },
+        "children": [
+        "flex-layout.col#doorway-floatzig-col1",
+        "flex-layout.col#home-destacados-colspace",
+        "flex-layout.col#doorway-floatzig-col2",
+        "flex-layout.col#home-destacados-colspace",
+        "flex-layout.col#doorway-floatzig-col3",
+        "flex-layout.col#home-destacados-colspace",
+        "flex-layout.col#doorway-floatzig-col4"/* ,
+        "flex-layout.col#home-destacados-colspace"  */
+        ]
+    },
+
+    /* Columna 1 floatzig */
+
+    "flex-layout.col#doorway-floatzig-col1": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-floatzig-col1-image",
+        "flex-layout.row#doorway-floatzig-body-1"/* ,
+        "flex-layout.row#doorway-floatzig-piepagina" */
+        ]
+    },
+
+    "flex-layout.row#doorway-floatzig-col1-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-1"]
+    },
+
+    "image#doorway-floatzig-1": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOOR-AY-GRID-DESK_DURABILIDAD.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-col1-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-1-MB"]
+    },
+
+    "image#doorway-floatzig-1-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOOR-AY-GRID-DESK_DURABILIDAD.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-body-1": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body"]
+        },
+        "children": ["rich-text#doorway-floatzig-1"]
+    },
+
+    "rich-text#doorway-floatzig-1": {
+        "props": {
+        "text": "### Nuestra espuma TPE es más resistente que la espuma EVA y funciona mejor en cualquier temperatura. Mantén tus pies cómodos sin importar el clima. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-floatzig-body"]
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-piepagina": {
+        "props": {
+        "blockClass": ["home-destacados1-piepagina"]
+        },
+        "children": ["link#doorway-floatzig-piepagina"]
+    },
+
+    "link#doorway-floatzig-piepagina": {
+        "props": {
+        "href": "/floatzig",
+        "blockClass": ["home-destacados-piepagina","link-doorway-floatzig-piepagina"],
+        "label": "COMPRAR AHORA"
+        }
+    },
+
+    /* Columna 2 floatzig */
+    "flex-layout.col#doorway-floatzig-col2": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-floatzig-col3-image",
+        "flex-layout.row#doorway-floatzig-body-2"/* ,
+        "flex-layout.row#doorway-floatzig-piepagina" */
+        ]
+    },
+
+    "flex-layout.row#doorway-floatzig-col2-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-2"]
+    },
+
+    "image#doorway-floatzig-2": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOOR-AY-GRID-DESK_RESPIRABLE.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-col2-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-2-MB"]
+    },
+
+    "image#doorway-floatzig-2-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOOR-AY-GRID-DESK_RESPIRABLE.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-body-2": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body"]
+        },
+        "children": ["rich-text#doorway-floatzig-2"]
+    },
+
+    "rich-text#doorway-floatzig-2": {
+        "props": {
+        "text": "### Un diseño más amplio en el antepié y una caída menor ayudan a mejorar la estabilidad mientras recorres tu ruta. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-floatzig-body"]
+        }
+    },
+    
+    /* Columna 3 floatzig */
+    "flex-layout.col#doorway-floatzig-col3": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-floatzig-col2-image",
+        "flex-layout.row#doorway-floatzig-body-3"/* ,
+        "flex-layout.row#doorway-floatzig-piepagina" */
+        ]
+    },
+
+    "flex-layout.row#doorway-floatzig-col3-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-3"]
+    },
+
+    "image#doorway-floatzig-3": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOO-WAY-GRID-DESK_ESTABILIDAD.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-col3-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-3-MB"]
+    },
+
+    "image#doorway-floatzig-3-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOO-WAY-GRID-DESK_ESTABILIDAD.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-body-3": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body"]
+        },
+        "children": ["rich-text#doorway-floatzig-3"]
+    },
+
+    "rich-text#doorway-floatzig-3": {
+        "props": {
+        "text": "### La parte superior está hecha de una malla ligera y transpirable que mantiene tu pie fresco a medida que tú te calientas. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-floatzig-body"]
+        }
+    },
+    
+    /* Columna 4 floatzig */
+    "flex-layout.col#doorway-floatzig-col4": {
+        "props": {
+        "blockClass": "home-destacados-col"
+        },
+        "children": [
+        "flex-layout.row#doorway-floatzig-col4-image",
+        "flex-layout.row#doorway-floatzig-body-4"/* ,
+        "flex-layout.row#doorway-floatzig-piepagina" */
+        ]
+    },
+
+    "flex-layout.row#doorway-floatzig-col4-image": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-4"]
+    },
+
+    "image#doorway-floatzig-4": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOOR-AY-GRID-DESK_SENSIBILIDAD.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-col4-image-MB": {
+        "props": {
+        "blockClass": ["home-destacados-col1-image"]
+        },
+        "children": ["image#doorway-floatzig-4-MB"]
+    },
+
+    "image#doorway-floatzig-4-MB": {
+        "props": {
+        "src": "https://reebokcol.vteximg.com.br/arquivos/FLOATZIG_DOOR-AY-GRID-DESK_SENSIBILIDAD.jpg",
+        "blockClass": "home-destacados",
+        "alt": "home-destacados",
+        "link": {
+            "url": "/floatzig"
+        }
+        }
+    },
+    
+    "flex-layout.row#doorway-floatzig-body-4": {
+        "props": {
+        "blockClass": ["home-destacados-body", "home-destacados1-body"]
+        },
+        "children": ["rich-text#doorway-floatzig-4"]
+    },
+
+    "rich-text#doorway-floatzig-4": {
+        "props": {
+        "text": "### La espuma Floatride junto con la tecnología Zig te proporciona un retorno máximo de energía que te impulsa hacia adelante. <br/><br/>",
+        "blockClass": ["home-destacados-body","text-doorway-floatzig-body"]
+        }
+    },
+    
+    /* slider mobile */
+
+    "slider-layout#slider-doorway-floatzig-mobile": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": ["carousel", "nano-slider-landing"]
+        },
+        "children": [
+            "flex-layout.row#doorway-floatzig-col1-mobile",
+            "flex-layout.row#doorway-floatzig-col2-mobile",
+            "flex-layout.row#doorway-floatzig-col3-mobile",
+            "flex-layout.row#doorway-floatzig-col4-mobile" 
+        ]
+    },
+
+    "flex-layout.row#doorway-floatzig-col1-mobile":{
+        "children":[
+            "link#doorway-floatzig-col1-mobile"
+        ]
+      },
+
+    "link#doorway-floatzig-col1-mobile": {
+        "children":[
+            "flex-layout.row#doorway-floatzig-col1-image-MB",
+            "flex-layout.row#doorway-floatzig-body-1"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/floatzig"
+        }
+    },
+
+      "flex-layout.row#doorway-floatzig-col2-mobile":{
+        "children":[
+            "link#doorway-floatzig-col2-mobile"
+        ]
+      },
+
+      "link#doorway-floatzig-col2-mobile": {
+        "children":[
+            "flex-layout.row#doorway-floatzig-col3-image-MB",
+            "flex-layout.row#doorway-floatzig-body-2"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/floatzig"
+        }
+    },
+
+      "flex-layout.row#doorway-floatzig-col3-mobile":{
+        "children":[
+            "link#doorway-floatzig-col3-mobile"
+        ]
+      },
+
+      "link#doorway-floatzig-col3-mobile": {
+        "children":[
+            "flex-layout.row#doorway-floatzig-col2-image-MB",
+            "flex-layout.row#doorway-floatzig-body-3"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/floatzig"
+        }
+    },
+
+      "flex-layout.row#doorway-floatzig-col4-mobile":{
+        "children":[
+            "link#doorway-floatzig-col4-mobile"
+        ]
+      },
+
+      "link#doorway-floatzig-col4-mobile": {
+        "children":[
+            "flex-layout.row#doorway-floatzig-col4-image-MB",
+            "flex-layout.row#doorway-floatzig-body-4"
+        ],
+        "props": {
+            "blockClass": "cat-link-harry-potter",
+            "href": "/floatzig"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    
+  "custom-banner#banner-hallowen": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/Hero-Banner-Reebok-Halloween-Desktop-new-peso.gif",
+      "phoneBgImageUrl": "/arquivos/Hero-Banner-Reebok-Halloween-Mobile-new-peso.gif",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "¡NO LE TEMAS A",
+          "sx": {
+            "desktop": "banner-headline mb1 cWhite",
+            "tablet": "banner-headline mb2 cWhite",
+            "phone": "banner-headline mb2 cWhite"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "ESTAS OFERTAS!",
+          "sx": {
+            "desktop": "banner-headline mb1 cWhite",
+            "tablet": "banner-headline mb2 cWhite",
+            "phone": "banner-headline mb2 cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Tiembla de emoción. Disfruta de hasta 50% de",
+          "sx": {
+            "desktop": "banner-copy cWhite",
+            "tablet": "banner-copy cWhite",
+            "phone": "banner-copy cWhite mW90"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "descuento en catálogo seleccionado",
+          "sx": {
+            "desktop": "banner-copy cWhite mb1",
+            "tablet": "banner-copy cWhite",
+            "phone": "banner-copy cWhite mW90"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/ofertas",
+            "color": "white",
+            "sx": {
+              "desktop": "mt1",
+              "tablet": "mt2",
+              "phone": "mt5"
+            }
+          }
+        ]
+      },
+      "sx": {
+        "desktop": "relative l5 t30",
+        "tablet": "relative l5 t30",
+        "phone": "relative l5 t63"
+      }
+    }
+  }
+}

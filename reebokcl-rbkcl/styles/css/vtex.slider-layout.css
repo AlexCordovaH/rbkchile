@@ -1,0 +1,149 @@
+/*------------PLP-----------------*/
+:global(
+    .vtex-slider-layout-0-x-sliderTrackContainer--PLP--subcategoria-carousel
+  ) {
+  max-width: 600px;
+}
+:global(
+    .vtex-slider-layout-0-x-sliderTrackContainer--PLP--subcategoria-carousel-ropa
+  ) {
+  max-width: 810px;
+}
+:global(.vtex-slider-layout-0-x-sliderTrack--PLP--subcategoria-carousel) {
+  margin-bottom: 0.5rem;
+}
+/**-----Buttons arrows sliders-----**/
+:global(.vtex-slider-layout-0-x-sliderArrows) {
+    color: #121212;
+    width: 56px;
+    height: 44px;
+   
+    transition: all 0.3s ease 0s;
+}
+/**-----Buttons arrows sliders - Icons arrows-----**/
+:global(.vtex-slider-layout-0-x-caretIcon) {
+    height: 16px !important;
+    width: 16px !important;
+}
+/**-----Buttons arrows sliders - Icons arrows hover effect-----**/
+:global(.vtex-slider-layout-0-x-sliderArrows):hover {
+    color: #fff !important;
+}
+
+/**-----HEADER - Promise bar - Buttons arrows sliders-----**/
+:global(.vtex-slider-layout-0-x-sliderArrows--header-gincha-slider) {
+    color: #fff !important;
+}
+/**-----MY ACCOUNT - Carousel wishlist - buttons arrow disabled-----**/
+:global(.vtex-slider-layout-0-x-sliderArrows--wishlist_shelf):hover:disabled {
+    background-color: #f7f7f7 !important;
+}
+:global(.vtex-slider-layout-0-x-sliderArrows--wishlist_shelf):disabled {
+    color: #a0a0a0 !important;
+    cursor: default !important;
+    background-color: #f7f7f7 !important;
+}
+:global(.vtex-slider-layout-0-x-sliderArrows--wishlist_shelf) {
+    width: 56px;
+    height: 44px;
+    background-color: #fff !important;
+    transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows--wishlist_shelf):hover {
+    background-color: #000 !important;
+}
+
+@media (max-width: 40rem) {
+  :global(.vtex-slider-layout-0-x-sliderRightArrow),
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow):hover,
+  :global(.vtex-slider-layout-0-x-sliderRightArrow):hover {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  :global(.vtex-slider-layout-0-x-sliderTrack--PLP--subcategoria-carousel) {
+    display: flex;
+    gap: 0.2rem;
+  }
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--PLP--subcategoria-carousel) {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 4rem;
+    width: 46px;
+    height: 34px;
+  }
+
+  :global(
+      .vtex-slider-layout-0-x-sliderRightArrow--PLP--subcategoria-carousel
+    ) {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 4rem;
+    width: 46px;
+    height: 34px;
+  }
+  /*-----plp-----*/
+  :global(
+      .vtex-slider-layout-0-x-sliderArrows--PLP--subcategoria-carousel
+    ):hover {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  /*----------*/
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows--PLP--subcategoria-carousel){
+  background: #fff !important;
+}
+
+/* PENDIENTE DE RE UBICAR WOMENSECRET */
+/*
+.sliderRightArrow--shelf-products,
+.sliderLeftArrow--shelf-products {
+  bottom: 103.5%;
+  background-color: #F7F7F7 !important;
+  border-radius: 100%;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow):hover{
+  content: url("assets/header/chevron-white-right.svg") !important;
+  background-color:#244486 !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow):hover{
+  content: url("assets/header/chevron-white-left.svg") !important;
+  background-color:#244486 !important;
+  transition: all 0.3s ease 0s;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){
+  content: url("assets/header/chevron-black-left.svg");
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow){
+  content: url("assets/header/chevron-black-right.svg");
+}
+
+
+.sliderLeftArrow--shelf-products {
+  margin-left: 94%;
+}
+
+.caretIcon--shelf-products,
+.caretIcon--desktop-irDirectamentea-col2 {
+  width: 1.25rem;
+}
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf-products){
+  display: flex;
+  align-items: flex-start;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--home-lo-mas-nuevoCol2)
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  margin-left: 94% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--home-lo-mas-vendidoCol2)
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  margin-left: 94% !important;
+}*/

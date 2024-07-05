@@ -1,0 +1,45 @@
+{
+    // Servicio al Cliente - Pregunats Frecuentes
+    "vtex.menu@2.x:menu#desktop-to-servicio-al-cliente": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#desktop-title-row-servicio-al-cliente",
+        "menu-item#component-contacto-reebok",
+        "menu-item#component-preguntas-frecuentes",
+        // "menu-item#component-devoluciones",
+        // "menu-item#component-informacion-de-envio",
+        // "menu-item#component-metodos-de-pago",
+        "menu-item#component-seguimiento-de-pedido",
+        // "menu-item#component-facturacion",
+        "menu-item#component-terminos-condiciones",
+        "menu-item#component-politicas-de-privacidad",
+        "menu-item#component-legales-promociones",
+        "menu-item#component-tiendas-oficiales-is-active",
+        "menu-item#component-programa-fidelidad"
+      ]
+    },
+  
+    "menu-item#component-tiendas-oficiales-is-active": {
+      "props": {
+        "id": "menu-item-productos-tiendas-oficiales",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/sitiosoficiales",
+          "noFollow": false,
+          "tagTitle": "Puntos de Ventas oficiales Reebok en Latinoamérica",
+          "text": "Puntos de Ventas oficiales Reebok en Latinoamérica"
+        },
+        "blockClass": [
+          "menu-item-footer-desktop",
+          "menu-item-tienda-oficiales",
+          "menu-item-landing-desktop-isActive"
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,154 @@
+{
+
+  "custom-banner#navidad-2": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "/arquivos/HeroBannerHolidays2DESK.jpg",
+      "phoneBgImageUrl": "/arquivos/HeroBannerHolidaysMobile%20CO.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "MÁS REGALOS",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cBlack",
+            "tablet": "banner-headline-bottom mr2",
+            "phone": "banner-headline-bottom tac"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "POR MENOS",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2",
+            "tablet": "banner-headline-bottom mr2",
+            "phone": "banner-headline-bottom tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Hasta 50% de descuento",
+          "sx": {
+            "desktop": "banner-copy mr2",
+            "tablet": "banner-copy mr2",
+            "phone": "banner-copy tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "+ 30% por compras mínimas de $60.000 o",
+          "sx": {
+            "desktop": "banner-copy mr2",
+            "tablet": "banner-copy mr2",
+            "phone": "banner-copy tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "+ 40% por compras de $75.000 o más",
+          "sx": {
+            "desktop": "banner-copy mr2",
+            "tablet": "banner-copy mr2",
+            "phone": "banner-copy tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR",
+            "link": "/OFERTAS",
+            "sx": {
+                "desktop": "mt2 fs80",
+                "tablet": "mt5 fs70",
+                "phone": "mt5 fs70"
+              }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t33 r8 tar",
+        "tablet": "relative t5 r2 tar",
+        "phone": "relative t57"
+      }
+    }
+},
+
+/*---*/
+
+"custom-banner#navidad-2-mobile": {
+  "title": "main-banner",
+  "props": {
+    "desktopBgImageUrl": "/arquivos/HeroBannerHolidays2DESK.jpg",
+    "phoneBgImageUrl": "/arquivos/HeroBannerHolidaysMobile%20CO.jpg",
+    "headlines": [
+      {
+        "type": "headline",
+        "text": "MÁS REGALOS",
+        "sx": {
+          "desktop": "banner-headline-bottom mr2",
+          "tablet": "banner-headline-bottom mr2",
+          "phone": "banner-headline-bottom tac mt0 cWhite"
+        }
+      },
+      {
+        "type": "headline",
+        "text": "POR MENOS",
+        "sx": {
+          "desktop": "banner-headline-bottom mr2",
+          "tablet": "banner-headline-bottom mr2",
+          "phone": "banner-headline-bottom tac cWhite"
+        }
+      },
+      {
+        "type": "copy",
+        "text": "Hasta 50% de descuento",
+        "sx": {
+          "desktop": "banner-copy mr2",
+          "tablet": "banner-copy mr2",
+          "phone": "banner-copy tac cWhite"
+        }
+      },
+      {
+        "type": "copy",
+        "text": "+ 30% por compras mínimas de $60.000 o",
+        "sx": {
+          "desktop": "banner-copy mr2",
+          "tablet": "banner-copy mr2",
+          "phone": "banner-copy tac cWhite"
+        }
+      },
+      {
+        "type": "copy",
+        "text": "+ 40% por compras de $75.000 o más",
+        "sx": {
+          "desktop": "banner-copy mr2",
+          "tablet": "banner-copy mr2",
+          "phone": "banner-copy tac cWhite"
+        }
+      }
+    ],
+    "buttons": {
+      "CTAs": [
+        {
+          "label": "COMPRAR",
+          "link": "/OFERTAS",
+          "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5  fs70",
+              "phone": "mt5 ml7 fs70"
+            }
+        }
+      ],
+      "layout": "horizontal",
+      "alignment": "center"
+    },
+    "sx": {
+      "desktop": "relative t33 r8 tar",
+      "tablet": "relative t5 r2 tar",
+      "phone": "relative t54"
+    }
+  }
+}
+}

@@ -1,0 +1,427 @@
+{
+  // Submenu Productos
+  "menu-item#component-calzado": {
+    "props": {
+      "id": "menu-item-productos-calzado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado",
+        "noFollow": false,
+        "tagTitle": "Calzado",
+        "text": "Calzado"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-ropa": {
+    "props": {
+      "id": "menu-item-productos-ropa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-accesorios": {
+    "props": {
+      "id": "menu-item-productos-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-novedades": {
+    "props": {
+      "id": "menu-item-productos-novedades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/novedades",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-outlet": {
+    "props": {
+      "id": "menu-item-productos-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  /*Stock cyber 2023*/
+  "rich-text#tclp-cyber23": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Stock Cyber](/arquivos/inventario-Chile_29_9_23.pdf?target=_blank)",
+      "blockClass": [
+        "landing_inst_content_text",
+        "landing_inst_content_text_underline",
+        "stock-cyber-23","item-cyber-footer"
+      ]
+    }
+  },
+  // Submenu Servicio al Cliente
+  "menu-item#component-contacto-reebok": {
+    "props": {
+      "id": "menu-item-productos-contacto-reebok",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": " https://reebokcl-support.freshdesk.com/support/home",
+        "noFollow": false,
+        "tagTitle": "Mesa de ayuda",
+        "text": "Mesa de ayuda"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-productos-preguntas-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-pago": {
+    "props": {
+      "id": "menu-item-productos-pago",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Pago",
+        "text": "Pago"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-envio": {
+    "props": {
+      "id": "menu-item-productos-envio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Envío",
+        "text": "Envío"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-devoluciones": {
+    "props": {
+      "id": "menu-item-productos-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Devoluciones",
+        "text": "Devoluciones"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-seguimiento-de-pedido": {
+    "props": {
+      "id": "menu-item-productos-seguimiento-de-pedido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.blue.cl/seguimiento/?gclid=CjwKCAjwm8WZBhBUEiwA178UnMjjn3jnv_pqin4w_Lu6kJlz62Cvi7Wgqasm5SJPFyzxBafQ85YljxoCIY4QAvD_BwE",
+        "noFollow": false,
+        "tagTitle": "Seguimiento de pedido",
+        "text": "Seguimiento de pedido"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+
+  "menu-item#stock-BF-2023": {
+    "props": {
+      "id": "menu-item-productos-seguimiento-de-pedido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/arquivos/StockBlackFriday.pdf",
+        "noFollow": false,
+        "tagTitle": "Stock Black Friday",
+        "text": "Stock Black Friday"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  // Submenu Acerca de Reebok
+  "menu-item#component-sobre-nosotros": {
+    "props": {
+      "id": "menu-item-productos-sobre-nosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nosotros",
+        "noFollow": false,
+        "tagTitle": "Sobre Nosotros",
+        "text": "Sobre Nosotros"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  // Submenu Trabaja con nosotros Reebok
+  "menu-item#component-trabaja-con-nosotros": {
+    "props": {
+      "id": "menu-item-productos-sobre-nosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://reebokchile.buk.cl/trabaja-con-nosotros",
+        "noFollow": false,
+        "tagTitle": "Trabaja con Nosotros",
+        "text": "Trabaja con Nosotros"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  "menu-item#component-buscador-de-tiendas": {
+    "props": {
+      "id": "menu-item-productos-buscador-de-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-tiendas",
+        "noFollow": false,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      },
+      "blockClass": "menu-item-footer-desktop"
+    }
+  },
+  // // Submenu Nuestros Sitios
+  // "menu-item#component-reebok-chile": {
+  //   "props": {
+  //     "id": "menu-item-productos-reebok-chile",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "https://www.reebok.cl/",
+  //       "noFollow": false,
+  //       "tagTitle": "Reebok Chile",
+  //       "text": "Reebok Chile"
+  //     },
+  //     "blockClass": "menu-item-footer-desktop"
+  //   }
+  // },
+  // "menu-item#component-reebok-colombia": {
+  //   "props": {
+  //     "id": "menu-item-productos-reebok-colombia",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "external",
+  //       "href": "https://www.reebok.co/",
+  //       "noFollow": false,
+  //       "tagTitle": "Reebok Colombia",
+  //       "text": "Reebok Colombia"
+  //     },
+  //     "blockClass": "menu-item-footer-desktop"
+  //   }
+  // },
+  //Submenu----------------------------------------------------------------
+  "menu-item#component-cambios-devoluciones": {
+    "props": {
+      "id": "menu-item-cambios-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cambios-y-devoluciones",
+        "noFollow": false,
+        "tagTitle": "Testing",
+        "text": "Testing"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+  "menu-item#component-terminos-y-condiciones": {
+    "props": {
+      "id": "menu-item-terminos-y-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+  "menu-item#component-politica-de-privacidad": {
+    "props": {
+      "id": "menu-item-politica-de-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Política de privacidad",
+        "text": "Política de privacidad"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+  //Submenu----------------------------------------------------------------
+  "menu-item#component-email": {
+    "props": {
+      "id": "menu-item-politicas-de-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": true,
+        "tagTitle": "Email",
+        "text": "contacto@midominio.cl"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+  "menu-item#component-telefono": {
+    "props": {
+      "id": "menu-item-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "#",
+        "noFollow": true,
+        "tagTitle": "Telefono",
+        "text": "+56 2 266269735"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+  "menu-item#component-hijo-prueba": {
+    "props": {
+      "id": "menu-item-cambios-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Prueba Hijo",
+        "text": "Prueba Hijo"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  }
+  //Submenu-----------------------------------------------
+  /*"menu-item#component-mercado-pago": {
+    "props": {
+      "id": "menu-item-mercado-pago",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      },
+      "blockClass": "menu-item-footer-image"
+    },
+    "children": ["flex-layout.row#footer-mercado-pago"]
+  },*/
+  //Submenu-----------------------------------------------
+  /*"menu-item#component-redes-sociales": {
+    "props": {
+      "id": "menu-item-redes-sociales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      },
+      "blockClass": "menu-item-footer-image"
+    },
+    "children": ["flex-layout.row#footer-redes-sociales"]
+  }*/
+}

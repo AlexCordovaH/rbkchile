@@ -1,0 +1,25 @@
+{
+    "store.custom#extras": {
+        "blocks": [
+            "search-result-layout.customQuery#extras"
+        ]
+    },
+
+    "search-result-layout.customQuery#extras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "403",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    // Terminos Legales y Promociones
+
+  "vtex.menu@2.x:menu#desktop-tlp-servicio-al-cliente":{
+    "props":{
+      "orientation":"vertical"
+    },
+    "children":[
+      "menu-item#desktop-title-row-servicio-al-cliente",
+      "menu-item#component-contacto-reebok",
+      "menu-item#component-preguntas-frecuentes",
+      // "menu-item#component-devoluciones",
+      // "menu-item#component-informacion-de-envio",
+      // "menu-item#component-metodos-de-pago",
+      "menu-item#component-seguimiento-de-pedido",
+      // "menu-item#component-facturacion",
+      "menu-item#component-terminos-condiciones",
+      "menu-item#component-politicas-de-privacidad",
+      "menu-item#component-legales-promociones-is-active",
+      "menu-item#component-tiendas-oficiales",
+      "menu-item#component-programa-fidelidad"
+    ]
+  },
+  "menu-item#component-legales-promociones-is-active": {
+    "props": {
+      "id": "menu-item-productos-politicas-de-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/legales-promociones",
+        "noFollow": false,
+        "tagTitle": "legales promociones",
+        "text": "Términos Legales Promociones"
+      },
+      "blockClass":[ "menu-item-footer-desktop", "menu-item-landing-desktop-isActive"]
+    }
+  }
+}

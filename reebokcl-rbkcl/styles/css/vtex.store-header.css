@@ -1,0 +1,879 @@
+/*Style for header container in mobile and desktop*/
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-mobile)
+    :global(.vtex-sticky-layout-0-x-container--sticky-header-mobile),
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header)
+    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+    background: #ffffff;
+}
+/*Styles for desktop*/
+:global(.vtex-flex-layout-0-x-flexRow--main-header-desktop) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/*Styles for mobile*/
+@media (max-width: 1024px) {
+    :global(.vtex-store-components-3-x-logoImage) {
+        width: 100px;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+        align-items: center;
+    }
+
+    :global(.vtex-store-components-3-x-logoContainer) {
+        padding-left: 0.5rem;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--component-search-bar) {
+        width: 240px;
+    }
+
+    :global(.vtex-store-drawer-0-x-openIconContainer) {
+        color: white;
+    }
+}
+
+/*Font size in items of main menu*/
+:global(.vtex-menu-2-x-styledLinkContent--desktop-main-menu-title) {
+    font-size: 18px;
+}
+
+/*ONLY PRESENTATION, ELIMINAR*/
+:global(.vtex-menu-2-x-submenuWrapper--submenu-sale--isOpen)
+    :global(.vtex-menu-2-x-styledLinkContainer--submenu-menu-item-ver-todo) {
+    display: none;
+}
+
+/**/
+/* prueba */
+
+:global(.vtex-slider-layout-0-x-sliderTrack--header-gincha-slider) {
+    background-color: #244486 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--header-guincha) {
+    background-color: #244486 !important;
+}
+/*Style for the bottom sticky mobile*/
+:global(.vtex-flex-layout-0-x-flexRow--header-mobile-sticky-layout-bottom) {
+    background: #121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 998;
+    justify-content: space-between;
+    height: 62px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--sticky-mobile-image)
+    :global(.vtex-store-components-3-x-imageElement) {
+    width: 20px;
+    height: 20px;
+}
+
+/* MOBILE MENU */
+:global(.vtex-menu-2-x-menuContainerNav--mobile-menu) {
+    width: 100%;
+    height: 100%;
+}
+
+:global(.vtex-menu-2-x-menuItem--mobile-menu-block) {
+    border-bottom: 1px solid #121212;
+}
+
+:global(.vtex-menu-2-x-menuItem--mobile-menu-block):first-child {
+    border-top: 1px solid #121212;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--mobile-menu-block) {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0.7rem 0;
+}
+
+/*HEADER DESCUENTO*/
+:global(.vtex-flex-layout-0-x-flexRow--desktop-header-descuento) {
+    background-color: #244486;
+}
+
+:global(.vtex-rich-text-0-x-link--desktop-header-descuento) {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+}
+
+/* FIN HEADER DESCUENTO */
+
+/*HEADER GUINCHA*/
+
+:global(.vtex-store-link-0-x-label--header-guincha-texto) {
+    font-size: 0.75rem;
+    color: #121212;
+    font-weight: 400;
+    font-family: "NeuePlak-Regular";
+}
+
+:global(.vtex-store-link-0-x-link--header-guincha-texto) {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-header-guincha) {
+    padding: 10px 0px 10px 0px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-header-row1) {
+    display: flex;
+    justify-content: end;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-header-guincha)
+    :global(.vtex-flex-layout-0-x-flexRow--desktop-header-row1)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-header-guincha) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+:global(.vtex-store-link-0-x-link--header-guincha-texto) {
+    padding: 0px 0px 0px 24px;
+}
+
+/*FIN HEADER GUINCHA*/
+
+/* HEADER PRINCIPAL*/
+
+:global(.vtex-menu-2-x-styledLinkContent--header-item) {
+    font-size: 1rem;
+    color: #121212;
+    padding: 0.3rem 0.3rem 0.2rem;
+}
+
+/*
+:global(.vtex-menu-2-x-menuItem--isOpen):hover{
+ border-bottom: solid 2px #244486;
+}*/
+
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 45px;
+}
+
+:global(.vtex-menu-2-x-styledLink--header-item) {
+    font-family: "NeuePlak-Regular";
+    z-index: 1;
+}
+
+/**** START VBS ***/
+
+/*PENDIENTE REVISION*/
+:global(.vtex-menu-2-x-styledLinkContent--submenu-menu-item) {
+    display: inline;
+    border-bottom: solid 2px #ffffff;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-menu-item):hover {
+    border-bottom: solid 2px #244486;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item-header-titulo) {
+    display: inline;
+    border-bottom: solid 2px #ffffff;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item-header-titulo):hover {
+    border-bottom: solid 2px #244486;
+}
+
+/**** END VBS ***/
+
+:global(.vtex-menu-2-x-styledLinkContainer--header-item-sale) {
+    display: flex;
+}
+/**-----Comment-----**/
+:global(.vtex-flex-layout-0-x-flexRowContent--header-right-icons) {
+    margin-left: 10px;
+}
+/**-----Header - wrapper icon login & wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-login-2-x-container),
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-store-components-3-x-imageElementLink--whis-icon) {
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**-----Header - Wrapper icon login-----**/
+:global(.vtex-login-2-x-buttonLink) :global(.vtex-button) {
+    border: none !important;
+}
+:global(.vtex-login-2-x-buttonLink) :global(.vtex-button__label) {
+    color: transparent;
+    transition: all 0.3s;
+    padding: 0;
+    margin: 0;
+}
+/**-----Header - icon login hover effect-----**/
+
+:global(.vtex-login-2-x-buttonLink):hover :global(.vtex-button__label) {
+    color: #121212;
+}
+:global(.vtex-login-2-x-buttonLink) :global(.vtex-button) {
+    background: transparent;
+    background-color: transparent;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button) {
+    background: transparent;
+    background-color: transparent;
+    color: transparent !important;
+}
+:global(.vtex-login-2-x-container):hover :global(.vtex-button) {
+    background: transparent;
+    background-color: transparent;
+    color: #121212 !important;
+}
+/**-----Header - icon wishlist-----**/
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-store-components-3-x-imageElementLink--whis-icon)
+    :global(.vtex-store-components-3-x-imageElement) {
+    width: 20px;
+    height: 17.29px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-store-components-3-x-imageElementLink--whis-icon):hover {
+    background-image: url("assets/header/wishlist-hover.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/**-----Header - Wrapper btn minicart-----**/
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    width: 48px;
+}
+
+/**-----Header - btn minicart-----**/
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-minicart-2-x-minicartContainer)
+    :global(.vtex-button) {
+    width: 48px;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+:global(.vtex-minicart-2-x-minicartContainer) :global(.vtex-button):hover {
+    background-color: transparent !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--header-right-icons)
+    :global(.vtex-minicart-2-x-minicartContainer)
+    :global(.vtex-button__label) {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/**-----Header - icon minicart svg color-----**/
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+    color: transparent !important;
+    transition: all 0.3s;
+}
+/**-----Header - icon minicart hover effect-----**/
+:global(.vtex-minicart-2-x-minicartWrapperContainer):hover
+    :global(.vtex-minicart-2-x-minicartIconContainer) {
+    color: #121212 !important;
+}
+/*:global(.vtex-menu-2-x-styledLinkContainer--header-item-sale)::after {
+  content: "\00a0"url("assets/fuego-sale.svg");
+  display: flex;
+  justify-content: flex-start;
+  width: 20px;
+  margin-top: -7px;
+}*/
+
+:global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    background-color: #e41d1b;
+    border-radius: 1rem;
+}
+:global(.vtex-login-2-x-buttonLink) {
+    width: 18px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-desktop)
+    :global(.vtex-minicart-2-x-openIconContainer) {
+    padding: 0px;
+}
+
+:global(.vtex-menu-2-x-styledLiknIcon--desktop-search-icon) {
+    width: 44px !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--desktop-search-icon) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion) {
+    padding-bottom: 20px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--desktop-search-icon) {
+    margin-top: 2px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--desktop-search-icon) {
+    padding-top: 3px !important;
+    width: 20px;
+    height: 60px;
+    background-image: url(assets/header/lupa.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--desktop-search-icon):hover {
+    background-image: url(assets/header/lupa.png);
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-input-prefix__group) {
+    align-items: center;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--header-item) {
+    margin-left: 0rem;
+    margin-right: 0.6rem;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header)
+    :global(.vtex-sticky-layout-0-x-container) {
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px 0px;
+}
+
+/*:global(.vtex-flex-layout-0-x-flexRowContent--main-header-desktop)
+    :global(.vtex-flex-layout-0-x-flexColChild--component-search-bar)
+    :global(.vtex-input-prefix__group) {
+    background-color: #f7f7f7;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-desktop)
+    :global(.vtex-flex-layout-0-x-flexColChild--component-search-bar)
+    :global(.vtex-styleguide-9-x-input) {
+    background-color: #f7f7f7;
+}*/
+
+/*:global(.vtex-flex-layout-0-x-flexRowContent--main-header-desktop)
+    :global(.vtex-flex-layout-0-x-flexColChild--component-search-bar)
+    :global(.vtex-input__suffix) {
+    background-color: #f7f7f7;
+}*/
+
+:global(.vtex-flex-layout-0-x-flexColChild--header-icon-minicart)
+    :global(.vtex-button):hover {
+    background-color: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--header-icon-minicart)
+    :global(.vtex-button):focus {
+    background-color: unset;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header)
+    :global(.vtex-menu-2-x-styledLinkContainer--header-item) {
+    /* border-bottom: 2px solid hidden;*/
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header)
+    :global(.vtex-menu-2-x-styledLinkContainer--header-item):hover {
+    border-bottom: 2px solid #244486;
+}
+
+:global(.vtex-rich-text-0-x-link--drawer-submenu-texto) {
+    text-decoration: none;
+    color: #121212;
+}
+/* FIN HEADER PRINCIPAL*/
+
+/* HEADER SUBMENU */
+
+:global(.vtex-flex-layout-0-x-flexColChild--main-menu-desktop)
+    :global(.vtex-menu-2-x-submenuContainer)
+    :global(.vtex-menu-2-x-submenuWrapper--isOpen) {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--submenu-mujer) {
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--submenu-padre-row1) {
+    width: 30%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--submenu-padre-row2) {
+    width: 70%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--submenu-padre-row2) {
+    display: flex;
+    flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--submenu-padre-row2)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 45% !important;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRow--submenu-desktop) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+} */
+
+:global(.vtex-flex-layout-0-x-flexRow--submenu-padre-row1) {
+    border-right: 1.5px solid #b2b2b2;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--submenu-padre-row2) {
+    margin-left: 5rem;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item-header-titulo) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #121212;
+    font-family: "NeuePlak-Regular";
+    text-transform: uppercase;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--submenu-item-mujer-destacado) {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-menu-item-ver-todo) {
+    font-size: 0.875rem;
+    color: #121212;
+    text-decoration: underline;
+    font-family: "NeuePlak-Regular";
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-menu-item) {
+    font-size: 0.875rem;
+    color: #121212;
+    font-weight: 400;
+    font-family: "NeuePlak-Regular";
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--red-submenu-item) {
+    color: red;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--submenu-item-mujer) {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--submenu-item-general-imagenes) {
+    margin-top: 20px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--header-comprar-cardib) {
+    width: 90%;
+}
+
+:global(.vtex-store-link-0-x-link--header-comprar-cardib) {
+    margin: 0px;
+}
+
+:global(.vtex-store-link-0-x-link--header-comprar-cardib) {
+    color: #121212;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: "NeuePlak-Regular";
+    text-decoration: none !important;
+}
+
+:global(.vtex-store-link-0-x-link--header-comprar-cardib):hover {
+    cursor: pointer;
+}
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header-mobile) {
+    border-bottom: solid 1px #d1d1d1;
+}
+/*FIN HEADER MENU*/
+
+/*  HEADER MOBILE  Y DESKTOP */
+
+/* HEADER ROW PRINCIPAL */
+:global(.vtex-store-components-3-x-logoContainer) {
+    padding: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+    :global(.vtex-store-drawer-0-x-openIconContainer) {
+    color: #121212;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--mobile-white-row) {
+    height: 40px;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--header-icon) {
+    display: flex;
+    padding: 0 14px 0 0;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--isOpen) {
+    border-top: solid 1px #b2b2b2;
+}
+
+/* FIN HEADER ROW PRINCIPAL */
+
+/* DRAWER CUSTOM ROWS */
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-info-container) {
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-info-container)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin-top: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-info-container) {
+    margin-top: 40px;
+    padding-left: 0.35rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-info-row) {
+    display: flex;
+    align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-info-row)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 10% !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--drawer-submenu-texto) {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--mobile-info-row) {
+    margin-bottom: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--drawer-mi-nosotros) {
+    margin-bottom: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-subchildren) {
+    margin-top: 25px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-subchildren) {
+    width: 100%;
+}
+/* FIN DRAWER CUSTOM ROWS*/
+
+/* DRAWER SEARCH */
+
+:global(.vtex-flex-layout-0-x-flexColChild--drawer-search-icon)
+    :global(.vtex-store-drawer-0-x-openIconContainer) {
+    content: url("assets/header/lupa.png");
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-search-mobile) {
+    width: 100%;
+}
+
+/* :global(.vtex-store-components-3-x-autoCompleteOuterContainer--trigger-mobile) {
+    padding-left: 1.5rem;
+    padding-right: 2.5rem;
+} */
+
+:global(
+        .vtex-store-components-3-x-externalSearchButtonWrapper--trigger-mobile
+    ) {
+    border: 0px;
+}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer--trigger-mobile)
+    :global(.vtex-store-components-3-x-searchBarIcon) {
+    background-color: white;
+    color: #121212;
+}
+
+:global(.vtex-store-drawer-0-x-drawerContent--container-drawer-search)
+    :global(.vtex-store-drawer-0-x-childrenContainer--container-drawer-search)
+    :global(.vtex-input-prefix__group) {
+    margin: 0px;
+    border-radius: 0px;
+    width: 100%;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #121212;
+    border-bottom: 0.5px solid;
+}
+
+:global(.vtex-store-drawer-0-x-drawerContent--container-drawer-search)
+    :global(.vtex-store-drawer-0-x-childrenContainer--container-drawer-search)
+    :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input) {
+    padding: 0px !important;
+}
+/* FIN DRAWER SEARCH */
+
+/* FIN HEADER MOBILE  Y DESKTOP */
+
+:global(.vtex-flex-layout-0-x-flexRow--search-desktop){
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--main-menu-desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+    padding-top: 6px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--search-desktop) {
+    margin: 0;
+    /* width: 220px; */
+    width: auto;
+    padding: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--submenu-mujer--isOpen)
+    :global(.vtex-menu-2-x-styledLinkContainer--submenu-menu-item) {
+    padding: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--main-menu-desktop) {
+    margin-bottom: 5px;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    height: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--search-desktop) {
+    /* width: 140px; */
+    width: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header-desktop)
+    :global(.vtex-styleguide-9-x-input) {
+    font-size: 0.75rem;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-input-prefix__group) {
+    width: 100%;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid #000 !important;
+    height: 29px !important;
+    margin-top: 6px;
+}
+
+    :global(.vtex-store-components-3-x-searchBarInnerContainer--trigger-desktop) {
+        z-index: 1;
+        right: -25px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--desktop-header-search) {
+        z-index: 999;
+    }
+
+/* MEDIA QUERY Desktop */
+@media (min-width: 90em) {
+    :global(.vtex-flex-layout-0-x-flexColChild--main-menu-desktop) {
+        margin-bottom: 5px;
+    }
+
+    :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+        height: auto !important;
+    }
+
+    /*  :global(.vtex-flex-layout-0-x-flexCol--main-menu-desktop) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}*/
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--search-desktop) {
+        width: 100% !important;
+        /* width: auto; */
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--main-header-desktop)
+        :global(.vtex-styleguide-9-x-input) {
+        font-size: 0.75rem;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarContainer)
+        :global(.vtex-input-prefix__group) {
+        width: 100%;
+        border-left: transparent;
+        border-right: transparent;
+        border-top: transparent;
+    }
+}
+
+/* Browsers nuevos, pantallas de resolución superior a 1440px */
+@media only screen and (min-width: 90.063em) {
+    /*  :global(.vtex-flex-layout-0-x-flexCol--main-menu-desktop) {
+    display: flex;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }*/
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1280px) {
+    /*:global(.vtex-flex-layout-0-x-flexCol--main-menu-desktop) {
+    margin-right: 12% !important;
+  }*/
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 1026px) {
+    /*  :global(.vtex-flex-layout-0-x-flexCol--main-menu-desktop) {
+    margin-left: 22% !important;
+  }*/
+}
+
+/* MEDIA QUERY TABLET */
+@media only screen and (max-width: 64em) and (min-width: 40em) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--mobile-info-row) {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--mobile-white-row) {
+        display: none;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--drawer-search-icon) {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--header-mobile-logo) {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+        width: 97vw;
+        margin-top: 10px;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete) {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1366px) {
+    :global(.vtex-menu-2-x-styledLinkContainer--header-item) {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+/* MEDIA QUERY  MOBILE */
+@media (max-width: 40rem) {
+    :global(.vtex-flex-layout-0-x-flexRow--header-guincha),
+    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
+        overflow: hidden;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--header-mobile-logo) {
+        margin-left: 10%;
+    }
+
+    :global(.vtex-store-components-3-x-imageElement--header-comprar-cardib) {
+        width: 100%;
+    }
+
+    :global(.vtex-store-link-0-x-link--header-comprar-cardib) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+        width: 95vw;
+        margin-top: 10px;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete) {
+        width: 70vw !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex)
+        :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+        :global(.vtex-store-link-0-x-link--buttons-desktopHome) {
+        padding: 10px 25px;
+    }
+    :global(.vtex-store-link-0-x-link--buttons-desktopHome) {
+        padding: 16px 85px 16px 85px;
+    }
+
+    /* :global(.vtex-flex-layout-0-x-flexColChild--buttons-desktopHome) {
+    width: 170px;
+    height: 50px !important;
+  } */
+
+    :global(.vtex-store-link-0-x-label--buttons-desktopHome) {
+        font-size: 14px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--buttons-desktopHome-flex) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Promotion bar*/
+:global(.vtex-flex-layout-0-x-flexRow--row-promotion-bar)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--red-item) {
+    background-color: red;
+    color: #ffffff;
+}
+    

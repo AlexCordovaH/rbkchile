@@ -1,0 +1,131 @@
+{
+    "vtex.menu@2.x:submenu#v2-hombre": {
+        "props": {
+            "width": "100%",
+            "orientation": "vertical",
+            "blockClass": "submenu-mujer"
+        },
+        "children": [
+            "flex-layout.row#submenu-desktop-v2-hombre"
+        ]
+    },
+    "flex-layout.row#submenu-desktop-v2-hombre": {
+        "props": {
+            "blockClass": "submenu-desktop"
+        },
+        "children": [
+            "flex-layout.row#submenu-v2hombre-padre-row2"
+        ]
+    },
+    "flex-layout.row#submenu-v2hombre-padre-row2": {
+        "props": {
+            "blockClass": "submenu-padre-row2"
+        },
+        "children": [
+            "flex-layout.row#submenu-item-general-v2-hombre-titulos"
+        ]
+    },
+    "flex-layout.row#submenu-item-general-v2-hombre-titulos": {
+        "props": {
+            "blockClass": "submenu-item-general-titulos"
+        },
+        "children": [
+            "flex-layout.col#submenu-item-v2-hombre-calzado",
+            "flex-layout.col#submenu-item-v2-hombre-ropa",
+            "flex-layout.col#submenu-item-v2-hombre-accesorios",
+            // "flex-layout.col#submenu-item-v2-hombre-colaboraciones",
+            "flex-layout.col#submenu-item-v2-hombre-novedades"
+        ]
+    },
+
+    "flex-layout.col#submenu-item-v2-hombre-calzado": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-hombre-calzado",
+            "menu-item#submenu-hombre-link-calzado-zapatillas",
+            "menu-item#submenu-hombre-link-calzado-sandalias",
+            "menu-item#submenu-hombre-link-calzado-basquet",
+            "menu-item#submenu-hombre-link-calzado-entrenamientofuncional",
+            //"menu-item#submenu-hombre-link-calzado-fitnetsandtraining",
+            "menu-item#submenu-hombre-link-calzado-lifestyle",
+            "menu-item#submenu-hombre-link-calzado-running",
+            // "menu-item#submenu-hombre-link-calzado-senderismo",
+            //"menu-item#submenu-hombre-link-calzado-walking",
+            "menu-item#submenu-hombre-link-calzado-ver-todo"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-hombre-ropa": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-hombre-ropa",
+            // "menu-item#submenu-hombre-link-ropa-conjuntodeportivo",
+            "menu-item#submenu-hombre-link-ropa-chaquetas",
+            //"menu-item#submenu-hombre-link-ropa-pantalonesycalzas",
+            "menu-item#submenu-hombre-link-ropa-polerones",
+            "menu-item#submenu-hombre-link-ropa-poleras",
+            "menu-item#submenu-hombre-link-ropa-shorts",
+            "menu-item#submenu-hombre-link-ropa-ver-todo"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-hombre-accesorios": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-hombre-accesorios",
+            "menu-item#submenu-hombre-link-ropa-bolsosymochilas",
+            // "menu-item#submenu-hombre-link-ropa-botellasdeagua",
+            "menu-item#submenu-hombre-link-ropa-gorras",
+            // "menu-item#submenu-hombre-link-ropa-guantes",
+            // "menu-item#submenu-hombre-link-ropa-matdeyoga",
+            "menu-item#submenu-hombre-link-ropa-calcetines",
+            "menu-item#submenu-hombre-link-accesorios-ver-todo"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-hombre-colaboraciones": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-hombre-colaboraciones",
+            "menu-item#submenu-hombre-link-colaboraciones-jurassicworld",
+            //"menu-item#submenu-hombre-link-colaboraciones-looneytunes",
+            "menu-item#submenu-hombre-link-colaboraciones-naoserati",
+            "menu-item#submenu-hombre-link-colaboraciones-nationalgeographic",
+            //"menu-item#submenu-hombre-link-colaboraciones-powerrangers",
+            "menu-item#submenu-hombre-link-colaboraciones-streetfighter"/* ,
+            "menu-item#submenu-hombre-link-colaboraciones-warnerbros" */
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-hombre-novedades": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-hombre-novedades",
+            "menu-item#submenu-hombre-link-novedades-nano",
+            //"menu-item#submenu-hombre-link-novedades-losmasvendidos",
+            "menu-item#submenu-hombre-link-novedades-unitedbyfitness",
+            //"menu-item#submenu-hombre-link-novedades-reecycled",
+            "menu-item#submenu-hombre-link-novedades-workoutready",
+            "menu-item#submenu-hombre-link-novedades-royalcomplete",
+            //"menu-item#submenu-hombre-link-novedades-classics",
+            "menu-item#submenu-hombre-link-novedades-classicsleather",
+            "menu-item#submenu-hombre-link-novedades-zig"
+        ]
+    }
+}

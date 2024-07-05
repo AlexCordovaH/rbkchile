@@ -1,0 +1,49 @@
+{
+    
+  "custom-banner#banner-sale": {
+    "props": {
+      "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-25sep.jpg",
+      "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-25sep.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "¡ENTRENA CON DESCUENTOS!",
+          "sx": {
+            "desktop": "banner-headline mb1 cWhite",
+            "tablet": "banner-headline mb2 cWhite",
+            "phone": "banner-headline mb2 cWhite"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "HASTA 40% DE DESCUENTO EN ARTICULOS DE RUNNING Y TRAINING",
+          "sx": {
+            "desktop": "banner-copy cWhite",
+            "tablet": "banner-copy cWhite",
+            "phone": "banner-copy cWhite mW90"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/ofertas",
+            "color": "white",
+            "sx": {
+              "desktop": "mt1",
+              "tablet": "mt2",
+              "phone": "mt5"
+            }
+          }
+        ]
+      },
+      "sx": {
+        "desktop": "relative l5 t30",
+        "tablet": "relative l5 t30",
+        "phone": "relative l5 t63"
+      }
+    }
+  }
+
+}

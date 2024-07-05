@@ -1,0 +1,474 @@
+{
+    /*SECCION CALZADO*/
+    "menu-item#submenu-title-ninos-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-zapatillas04anos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/zapatillas-0-4-Anos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Zapatillas 0-4 Años",
+                "text": "Zapatillas 0-4 Años "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-zapatillas58anos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/zapatillas-5-8-Anos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Zapatillas 5-8 Años",
+                "text": "Zapatillas 5-8 Años "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-zapatillas914anos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/zapatillas-9-14-Anos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Zapatillas 9-14 Años",
+                "text": "Zapatillas 9-14 Años "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-basquet": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/basquet?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Básquet",
+                "text": "Básquet "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-entrenamientofuncional": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/entrenamiento-funional?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-fitnetsandtraining": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/fitness-y-training?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Fitness & Training",
+                "text": "Fitness & Training "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-lifestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/classics?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Classics",
+                "text": "Classics "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-running": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/running?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Running",
+                "text": "Running "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-senderismo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/senderismo?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Senderismo",
+                "text": "Senderismo "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-walking": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado/walking?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Walking",
+                "text": "Walking "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-calzado-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/calzado?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver todo Calzado",
+                "text": "Ver todo Calzado "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    
+    /* SECCION COLABORACIONES*/
+    "menu-item#submenu-title-ninos-colaboraciones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos-colaboraciones",
+                "noFollow": false,
+                "tagTitle": "Colaboraciones",
+                "text": "Colaboraciones"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-cardib": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cardi-b-ninos",
+                "noFollow": false,
+                "tagTitle": "Cardi B",
+                "text": "Cardi B"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-jurassicworld": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jurassic-world-ninos",
+                "noFollow": false,
+                "tagTitle": "Jurassic World",
+                "text": "Jurassic World"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-looneytunes": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/looney-tunes-ninos",
+                "noFollow": false,
+                "tagTitle": "Looney Tunes",
+                "text": "Looney Tunes"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-nationalgeographic": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/national-geographic-ninos",
+                "noFollow": false,
+                "tagTitle": "National Geographic",
+                "text": "National Geographic"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-peppapig": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/peppa-pig-ninos",
+                "noFollow": false,
+                "tagTitle": "Peppa Pig",
+                "text": "Peppa Pig"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-pjmask": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/pj-mask-ninos",
+                "noFollow": false,
+                "tagTitle": "PJ Mask",
+                "text": "PJ Mask"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-colaboraciones-powerrangers": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/power-rangers-ninos",
+                "noFollow": false,
+                "tagTitle": "Power Rangers",
+                "text": "Power Rangers "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    
+    /* SECCION NOVEDADES*/
+    "menu-item#submenu-title-ninos-novedades": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Novedades",
+                "text": "Novedades"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-ninos-link-novedades-losmasvendidos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Los Más Vendidos",
+                "text": "Los Más Vendidos"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-novedades-weebok": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/weebok-ninos",
+                "noFollow": false,
+                "tagTitle": "Weebok",
+                "text": "Weebok"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-novedades-clubc": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/club-c-ninos",
+                "noFollow": false,
+                "tagTitle": "Club C",
+                "text": "Club C"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-novedades-reebokroyal": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/reebok-royal-ninos",
+                "noFollow": false,
+                "tagTitle": "Reebok Royal",
+                "text": "Reebok Royal"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+
+    "menu-item#submenu-ninos-link-novedades-nano": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/nano-ninos",
+                "noFollow": false,
+                "tagTitle": "Nano",
+                "text": "Nano"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    
+    "menu-item#submenu-ninos-link-novedades-classics": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/classic",
+                "noFollow": false,
+                "tagTitle": "Classics",
+                "text": "Classics"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-ninos-link-novedades-classicsleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classics Leather",
+                "text": "Classics Leather"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    
+    "menu-item#submenu-ninos-link-novedades-zig": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ninos/zig",
+                "noFollow": false,
+                "tagTitle": "Zig",
+                "text": "Zig"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    }
+}

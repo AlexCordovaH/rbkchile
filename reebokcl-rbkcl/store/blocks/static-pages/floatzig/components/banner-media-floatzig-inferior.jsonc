@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#banner-media-floatzig-inferior": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["container-third-row-images-text","container-floatzig-third-row-images-text"]
+        },
+        "children": ["image#banner-floatzig-inferior","video#media-floatzig-inferior"/* "list-context.media-list#banner-media-floatzig-inferior" */]
+    },
+
+    "image#banner-floatzig-inferior": {
+        "props": {
+            "blockClass": ["banner-floatzig-inferior"],
+            "src": "https://reebokcol.myvtex.com/arquivos/MINI-BANNER_FLOATZIG-QUOTE_1906X446.jpg",
+            "link": {
+                "url": "/floatzig"
+            }
+        }
+    },
+
+    "flex-layout.row#banner-media-floatzig-inferior-mobile": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["container-third-row-images-text","container-floatzig-third-row-images-text"]
+        },
+        "children": ["image#banner-floatzig-inferior-mobile","video#media-floatzig-inferior"/* "list-context.media-list#banner-media-floatzig-inferior" */]
+    },
+
+    "image#banner-floatzig-inferior-mobile": {
+        "props": {
+            "blockClass": ["banner-floatzig-inferior"],
+            "src": "https://reebokcol.myvtex.com/arquivos/FLOATZIG_TECH-BANNER-QUOTE-767x480.jpg", 
+            "link": {
+                "url": "/floatzig"
+            }
+        }
+    },
+
+    "video#media-floatzig-inferior": {
+        "props":{
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/embed/eaZx_rgzW-Y?si=EmvO96GnAyylexS-",
+            "blockClass": ["banner-media-floatzig"]
+        }
+    },
+
+    "list-context.media-list#banner-media-floatzig-inferior": {
+        "children": ["slider-layout#banner-media-floatzig"],
+        "props": {
+            "height": 720,
+            "mediaList": [
+                    {
+                "video": "https://www.youtube.com/embed/eaZx_rgzW-Y?si=EmvO96GnAyylexS-"
+            }
+            ],
+            "blockClass": ["banner-media-floatzig"]
+        }
+    }
+}

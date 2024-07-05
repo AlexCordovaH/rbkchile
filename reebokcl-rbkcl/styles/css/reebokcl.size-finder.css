@@ -1,0 +1,11 @@
+:global(.vtex-flex-layout-0-x-flexColChild--desktop-col-two)
+.suggestLabel {
+    margin: 0 16px 0 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-Main-Col)
+.suggestLabel {
+    margin: 0 16px;
+}
+.buttonNext, .buttonBack{
+    border-radius: 0;
+}

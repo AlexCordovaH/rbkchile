@@ -1,0 +1,99 @@
+{
+    "custom-banner#nano-banner-inferior-landing": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Banner-inferiro-desk-nano.jpg",
+            "phoneBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Banner-inferior-mob-nano.png",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "DESCUBRE NANO X4",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite mt5 mb1 tal",
+                "tablet": "banner-headline-bottom ml2 cWhite tal mt7",
+                "phone": "banner-headline-bottom cWhite tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Ideales para todos tus entrenamientos",
+              "sx": {
+                "desktop": "banner-copy  cWhite mb1 tal",
+                "tablet": "banner-copy ml2 cWhite tal",
+                "phone": "banner-copy cWhite tac"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR YA",
+                  "link": "/nanox4",
+                  "color": "white",
+                "sx": {
+                    "desktop": "mt2 fs80",
+                    "tablet": "mt3 fs70 ml2",
+                    "phone": "mt5 fs70 ml23"
+                  }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-start"
+          },
+          "sx": {
+            "desktop": "relative t20 tal ml3",
+            "tablet": "relative t5 tal ml2",
+            "phone": "relative t25 tac"
+          }
+        }
+    },
+
+    "custom-banner#nano-banner-inferior-landing-mobile": {
+      "title": "main-banner",
+      "props": {
+          "desktopBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Banner-inferiro-desk-nano.jpg",
+          "phoneBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Banner-inferior-mob-nano.png",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "DESCUBRE NANO X4",
+            "sx": {
+              "desktop": "banner-headline-bottom cWhite mt5 mb1 tal",
+              "tablet": "banner-headline-bottom ml2 cWhite tal mt7",
+              "phone": "banner-headline-bottom cWhite tac"
+            }
+          },
+          {
+            "type": "copy",
+            "text": "Ideales para todos tus entrenamientos",
+            "sx": {
+              "desktop": "banner-copy  cWhite mb1 tal",
+              "tablet": "banner-copy ml2 cWhite tal",
+              "phone": "banner-copy cWhite tac"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            {
+                "label": "COMPRAR YA",
+                "link": "/nanox4",
+                "color": "white",
+              "sx": {
+                  "desktop": "mt2 fs80 ml2",
+                  "tablet": "mt3 fs70 ml2",
+                  "phone": "mt5 fs70 ml23"
+                }
+            }
+          ],
+          "layout": "horizontal",
+          "alignment": "flex-start"
+        },
+        "sx": {
+          "desktop": "relative t20 tal ml3",
+          "tablet": "relative t5 tal ml2",
+          "phone": "relative t25 tac"
+        }
+      }
+  }
+}

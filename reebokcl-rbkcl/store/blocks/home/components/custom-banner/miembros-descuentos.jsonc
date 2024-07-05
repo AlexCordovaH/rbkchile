@@ -1,0 +1,181 @@
+{
+    "custom-banner#members-hero-banner": {
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER17-05D.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNERMOBILE_MEMBER.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "30% OFF EXTRA",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mb0 cBlack",
+                        "tablet": "banner-headline-bottom mb0 cBlack",
+                        "phone": "banner-headline-bottom cBlack tac"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "SOLO PARA MIEMBROS",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mb1 cBlack",
+                        "tablet": "banner-headline-bottom cBlack",
+                        "phone": "banner-headline-bottom cBlack tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "¿Qué esperas para formar parte de la comunidad?",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cBlack",
+                        "tablet": "banner-copy mr2 cBlack",
+                        "phone": "banner-copy cBlack tac  dNone"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Aprovecha el 30% de descuento extra en todo Reebok",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cBlack",
+                        "tablet": "banner-copy mr2 cBlack",
+                        "phone": "banner-copy cBlack tac  dNone"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "y vístete de pies a cabeza.",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cBlack",
+                        "tablet": "banner-copy mr2 cBlack",
+                        "phone": "banner-copy cBlack tac  dNone"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "COMPRAR YA",
+                        "link": "/todo-reebok",
+                        "color": "white",
+                        "sx": {
+                            "desktop": "mt2 font-family-NR",
+                            "tablet": "mt5  font-family-NR",
+                            "phone": "mt5 "
+                        }
+                    },
+                    {
+                        "label": "REGÍSTRATE",
+                        "link": "/newsletter",
+                        "color": "white",
+                        "sx": {
+                            "desktop": "mt2 font-family-NR",
+                            "tablet": "mt5  font-family-NR",
+                            "phone": "mt5  button-vertical-mobile"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t30 r2 tar",
+                "tablet": "relative t5 r2 tar",
+                "phone": "relative t70 l3 tac"
+            }
+        }
+    },
+
+    "flex-layout.row#members-hero-banner-mobile": {
+        "children": [
+            "custom-banner#members-hero-banner-mobile"
+        ],
+        "props": {
+            "blockClass": "custom-banner-members",
+            "marginBottom": 4
+        }
+    },
+
+    "custom-banner#members-hero-banner-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER17-05D.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNERMOBILE_MEMBER.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "30% OFF EXTRA",
+                    "sx": {
+                        "desktop": "banner-headline-bottom cWhite",
+                        "tablet": "banner-headline-bottom cWhite",
+                        "phone": "banner-headline-bottom cWhite tac"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "SOLO PARA MIEMBROS",
+                    "sx": {
+                        "desktop": "banner-headline-bottom cWhite",
+                        "tablet": "banner-headline-bottom cWhite",
+                        "phone": "banner-headline-bottom cWhite tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "¿Qué esperas para formar parte de la comunidad?",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Aprovecha el 30% de descuento extra en todo Reebok ",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "y vístete de pies a cabeza.",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cWhite",
+                        "tablet": "banner-copy mr2 cWhite",
+                        "phone": "banner-copy cWhite tac"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "COMPRAR YA",
+                        "link": "/todo-reebok",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr1",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70 ml7"
+                        }
+                    },
+                    {
+                        "label": "REGÍSTRATE",
+                        "link": "/newsletter",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70"
+                        }
+                    }
+                 
+                ],
+                "layout": "horizontal",
+                "alignment": "center"
+            },
+            "sx": {
+                "desktop": "relative t30 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t60 tac"
+            }
+        }
+    }
+}

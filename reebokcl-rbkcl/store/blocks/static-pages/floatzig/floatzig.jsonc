@@ -1,0 +1,10 @@
+{
+    "store.custom#landing-floatzig": {
+      "blocks": [
+        "responsive-layout.desktop#floatzig",
+        "responsive-layout.phone#floatzig",
+        "responsive-layout.tablet#floatzig"
+      ]
+    }
+}
+  

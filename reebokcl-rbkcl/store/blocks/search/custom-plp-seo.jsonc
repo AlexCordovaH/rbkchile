@@ -1,0 +1,22 @@
+{
+    "store.custom#plp-custom-seo": {
+        "blocks": [
+            "search-result-layout.customQuery#plp-custom-seo"
+        ]
+    },
+    "search-result-layout.customQuery#plp-custom-seo": {
+        "props": {
+            "querySchema": {
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "142",
+                "mapField": "productClusterIds"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

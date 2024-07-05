@@ -1,0 +1,211 @@
+{
+    "store.custom#programa-fidelidad": {
+        "blocks": ["flex-layout.row#landing-programa-fidelidad"]
+    },
+    //*---- Layout ----*//
+
+    "flex-layout.row#landing-programa-fidelidad": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "landing_institucional_wrapper"
+        },
+        "children": [
+            "flex-layout.col#landing-programaFidelidad-menu",
+            "flex-layout.col#landing-programaFidelidad-content"
+        ]
+    },
+
+    "flex-layout.col#landing-programaFidelidad-menu": {
+        "children": [
+            "vtex.menu@2.x:menu#desktop-programaFidelidad-servicio-al-cliente"
+        ],
+        "props": {
+            "blockClass": "landing_inst_wrapper_menu",
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#landing-programaFidelidad-content": {
+        "children": [
+            "rich-text#tprogramaFidelidad-title",
+            "rich-text#ppf-1",
+            "rich-text#pff-p2-new",
+            "rich-text#pff-p3",
+            "rich-text#pff-p4-new-00-2",
+            "rich-text#ppf-5",
+            "rich-text#ppf-6",
+            "rich-text#ppf-7",
+            "rich-text#ppf-8-new",
+            "rich-text#ppf-9",
+            "rich-text#ppf-10",
+            "rich-text#ppf-00-11"
+        ],
+        "props": {
+            "blockClass": "landing_inst_content"
+        }
+    },
+
+    "rich-text#tprogramaFidelidad-title": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "# Programas de Fidelidad",
+            "blockClass": "landing_inst_content_text"
+        }
+    },
+
+    "rich-text#ppf-1": {
+        "props": {
+            "text": "Le damos la bienvenida a los programas de fidelidad de Reebok (en adelante, el “Programa”). Operado por FASHION FITNESS CHILE SPA, (en adelante “FFC”), licenciatario de la marca Reebok (en adelante también “Reebok”) sociedad legalmente constituida bajo las leyes de la República de Chile, RUT N° 77.542.549-0, domiciliada en Los Abedules 3085, Piso 6, Vitacura, Santiago, Chile (en adelante, “el Organizador”, “nosotros” o “nos”). En este documento, los términos “usted” o “su/sus” se refieren a usted, la persona que accede a estos términos y condiciones (en adelante, los “Términos”). Estos Términos rigen su participación en el Programa y al participar en el Programa usted comprende y acepta estar sujeto a los Términos aquí descritos. Al unirse al Programa, también acepta estar sujeto a los términos y condiciones de nuestro sitio web https://www.reebok.cl/terminos-condiciones (en adelante, los “Términos y condiciones del sitio web”). \n \n Le agradecemos leer con atención los Términos a continuación. ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    // "rich-text#pff-p2": {
+    //     "props": {
+    //         "textAlignment": "LEFT",
+    //         "textPosition": "LEFT",
+    //         "text": "### 1. ELIGIBILIDAD.\n\n Podrán participar del Programa todas las personas naturales mayores de edad, con residencia en la República de Chile, territorio continental. \n\nLas personas naturales menores de 18 años y mayores de 14 años sólo podrán participar luego de obtener el consentimiento de su padre, madre, tutor o representante legal. El personal de FFC podrá solicitar una prueba por escrito de dicho consentimiento. En ningún caso podrán participar menores de 14 años.\n\nAl inscribirse y participar en el Programa, usted confirma que cumple con los requisitos de participación. ",
+    //         "blockClass": [
+    //             "landing_inst_content_text",
+    //             "landing_inst_content_list_normal",
+    //             "landing_inst_content_list_roman"
+    //         ]
+    //     }
+    // },
+    
+    "rich-text#pff-p2-new": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 1. ELIGIBILIDAD. \n \n Podrán participar del Programa todas las personas naturales mayores de edad, con residencia en la República de Chile, territorio continental. \n \n Las personas naturales menores de 18 años y mayores de 14 años sólo podrán participar luego de obtener el consentimiento de su padre, madre, tutor o representante legal. El personal de FFC podrá solicitar una prueba por escrito de dicho consentimiento. En ningún caso podrán participar menores de 14 años. \n \n Al inscribirse y participar en el Programa, usted confirma que cumple con los requisitos de participación.",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#pff-p3": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 2. UNIRSE AL PROGRAMA. \n \n Si usted cumple con los criterios y requisitos descritos anteriormente, puede unirse al Programa llenando un formulario de inscripción en www.reebok.cl/login. No se requiere realizar compra alguna para inscribirse en el Programa. Sólo se permitirá el registro de una cuenta por persona. Si usted se une a los Programas, se compromete a proporcionar información veraz, exacta, actualizada y completa sobre usted mismo, tal como se lo indica el formulario de inscripción.",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#pff-p4-new-00-2": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 3.RECOMPENSAS.  \n \n Al inscribirse en el Programa, se desbloqueará un conjunto de recompensas para todos los miembros. \n \nLas Recompensas específicas (ya sean productos o experiencias) estarán disponibles mientras se encuentren en existencia y podrán estar sujetas a cambios, disponibilidad, inventario, limitaciones y/o sustituciones por parte del Organizador, a su discreción y en cualquier momento sin previo aviso. \n \n Ciertas recompensas y/o beneficios estarán condicionados a que usted acepte términos y condiciones por separado aplicables a esa recompensa en específico, que se pondrán a su disposición al momento de canjear dicha recompensa. Además, los siguientes términos y condiciones se aplican a las siguientes recompensas específicas: \n \n - Cupón único de descuento de bienvenida:  Este cupón de descuento del 20% (veinte por ciento) será de un solo uso cuando se entra en el Programa por primera vez. Tendrá una validez de 15 días a partir de que se generó. Algunos detalles adicionales podrán ser comunicados al recibir tal cupón. Pueden aplicarse ciertas exclusiones de productos, las que le serán previamente notificadas. Este cupón de descuento no podrá combinarse con otras promociones o descuentos. \n - Descuento de cumpleaños: Este cupón de descuento del 30% (treinta por ciento) se dará cada año en la fecha que Usted indique en el registro al Programa, tendrá una validez de 15 días a partir de que se generó. Algunos detalles adicionales podrán ser comunicados al recibir tal cupón. Pueden aplicarse ciertas exclusiones de productos las que le serán previamente notificadas. Este cupón de descuento no podrá combinarse con otras promociones o descuentos. \n \n - Descuento de 'Te extrañamos': Este cupón de descuento del 15% (Quince por ciento) en tu compra se dará una única vez, a los clientes que no han tenido interacción o realizado compras en un período de setenta (70) días. Este cupón tendrá una validez de quince (15) días calendarios a partir de que se generó y es de un uso único por cliente. Términos especiales adicionales relacionados a este cupón serán comunicados al recibir tal cupón por correo electrónico, incluyendo restricciones o exclusiones de productos. Este cupón de descuento no podrá combinarse con otras promociones o descuentos. \n \n - Descuento de 'carrito abandonado': Este cupón de descuento del 5% (Cinco por ciento) será de un solo uso, cada 3 meses, y se enviará en el segundo email de recordatorio de Carrito Abandonado, 24 horas después de que el usuario dejó sus productos en el carrito y no procede a la compra. Tendrá una validez de 15 días a partir de que se generó. Algunos detalles adicionales podrán ser comunicados al recibir tal cupón. Pueden aplicarse ciertas exclusiones de productos, las que le serán previamente notificadas. Este cupón de descuento no podrá combinarse con otras promociones o descuentos. \n \n Los cupones por pertenecer al Programa sólo podrán ser canjeados una vez.  Los beneficios o recompensas no pueden combinarse entre sí con otras promociones y deben ser canjeadas de una en una.\n \n ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-5": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 4. USO DE LA CUENTA. \n Usted es responsable de mantener la confidencialidad de su contraseña y su cuenta, y entera y exclusivamente responsable por todas y cada una de las actividades que tengan lugar desde su cuenta o con su contraseña. El Programa es únicamente para su uso personal, por lo que los beneficios otorgados por este programa son intransferibles. No debe compartir su identificación de miembro o contraseña ni ponerlos a disposición de terceros de ninguna manera. Deberá notificar inmediatamente al Servicio de Atención al Cliente del Organizador de cualquier uso no autorizado de su contraseña o cuenta o cualquier otra violación de la seguridad. Usted se obliga a: \n \n -No acceder, utilizar, reproducir, modificar, descargar, transferir, publicar ni poner a disposición de forma alguna su cuenta/contraseña del Programa con propósitos comerciales; \n - No cometer ningún acto que pueda perjudicar, interrumpir o interferir con el funcionamiento del Programa, \n - No abusar de su cuenta/contraseña del Programa para utilizarla con fines ilegales o no autorizados (lo que incluye transmitir virus informáticos a través de su cuenta o utilizar su cuenta de cualquier forma que pueda ser catalogada como discriminatoria, ofensiva, abusiva, malintencionada, difamatoria o que pueda constituir una violación o transgresión de los derechos de terceros); \n - No transferir, vender ni negociar (ni intentar transferir, vender o negociar) sus beneficios u ofertas promocionales exclusivas para miembros. \n \n ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-6": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 5. AVISO DE PRIVACIDAD Y CONSENTIMIENTO PARA ENVÍO DE INFORMACIÓN. \n \n La información que usted proporcione al inscribirse como miembro del Programa será gestionada por el Organizador tal y como se describe en el Política de Privacidad del mismo, que Usted aceptó para formar parte del Programa y está disponible en todo momento en https://www.reebok.cl/politicas-de-privacidad. \n \n Tal como se encuentra en el Apartado de nuestro Aviso de Privacidad denominado “CÓMO UTILIZAMOS SU INFORMACIÓN PERSONAL”, al convertirse en miembro del Programa, usted da su consentimiento para recibir por el correo electrónico que Usted registre, promociones, eventos especiales y otras comunicaciones del Organizador, sus filiales y marcas. Usted podrá darse de baja de estas comunicaciones en cualquier momento. Para obtener información sobre cómo hacerlo, por favor visite https://www.reebok.cl/politicas-de-privacidad; reconociendo, autorizando y aceptando que por este mecanismo no existe vulneración de la utilización de los datos personales de acuerdo a la ley 19.628 y a lo dispuesto en el número 4° de la Constitución de la República de Chile. \n \n ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-7": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 6. CANCELACIÓN; EXPIRACIÓN; CAMBIOS AL PROGRAMA  \n \n Usted puede cancelar su registro al Programa en cualquier momento ingresando a su cuenta en https://www.reebok.cl/login. \n \n Podemos cancelar su membresía del Programa en cualquier momento si consideramos que (a) usted no cumple con los requisitos para ser miembro según lo definido en el punto 1, (b) usted ha incumplido cualquiera de las disposiciones de estos Términos y condiciones o los Términos y condiciones del Sitio web, o cualquier término y condición de venta aplicable a los Productos, o (c) usted ha cometido cualquier engaño, falsificación o fraude o cualquier otro abuso contra el Club. \n \n Podemos cancelar su participación en el Programa en cualquier momento si consideramos que usted (a) no es elegible por no cumplir con los requisitos para participar del Programa según lo definido en el punto 1, (b) no ha utilizado su cuenta durante un año, (c) usted ha incumplido cualquiera de las disposiciones de estos Términos y condiciones o los Términos y condiciones del Sitio web, o cualquier término y condición aplicable a los Productos, (d) ha participado en cualquier engaño, falsificación, fraude o ha cometido cualquier otro abuso del Programa. Nos reservamos el derecho de modificar sus recompensas o beneficios si creemos que los ha recibido por error o mediante fraude o engaño, o de cualquier manera no autorizada. \n \n Si usted cancela su inscripción en el Programa, puede volver a unirse registrándose nuevamente en https://www.reebok.cl/login. Al reiniciar su membresía, perderá todos los beneficios acumulados y ya no estarán disponibles como parte de su nueva cuenta. \n \n En todos los asuntos relacionados con la administración del Programa, las decisiones del Organizador tendrán carácter de definitivas. Nos reservamos el derecho de hacer cambios menores a estos Términos cuando se requiera (por ejemplo, en el caso de un cambio en la ley que nos obligue a enmendarlos). Por favor, revise estos Términos regularmente para asegurarse de que entiende las disposiciones más actuales de estos Términos que rigen su registro en el Programa. Al continuar participando en el Programa, usted está aceptando los Términos revisados. \n \n En caso de que se produzcan cambios significativos en estos Términos que pudieran afectarlo negativamente, o si decidimos cerrar el Programa, le daremos un aviso por escrito con seis meses de antelación. ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-8-new": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 7. LIMITACIÓN DE RESPONSABILIDAD \n \n En el caso de que no cumplamos con estos Términos, nos hacemos responsables de cualquier pérdida o daño previsible sufrido por usted como resultado de nuestro incumplimiento de estos Términos o de nuestra negligencia, pero no nos hacemos responsables de ninguna pérdida o daño que no sea previsible, como los casos de caso fortuito y fuerza mayor definidos en el Código Civil. La pérdida o el daño es previsible si es una consecuencia obvia de nuestro incumplimiento o si fue contemplado por nosotros y por usted en el momento en que aceptó estos Términos. En la máxima medida permitida por la ley aplicable, el Organizador no será responsable de ningún daño indirecto, especial, incidental, punitivo o consecuente (incluido la pérdida de beneficios) que surja o esté relacionado con el Programa, independientemente de la causa. ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-9": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 8. LUGAR Y LEGISLACIÓN APLICABLE. \n \n Estos Términos se regirán por la legislación de la República de Chile. Ante cualquier diferencia contractual que pueda surgir en virtud de estos Términos, las Partes podrán recurrir a los Tribunales competentes en la Ciudad de Santiago de Chile. \n \n  ",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-10": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 9. MISCELÁNEOS. \n \n Cada una de las cláusulas de las presentes condiciones generales se aplica por separado. En el caso de que un tribunal o una autoridad competente declare que alguna de las cláusulas del presente documento es ilegal o inaplicable, las demás cláusulas seguirán teniendo plena vigencia. \n \n El hecho de que no hagamos cumplir alguna de las obligaciones a las que usted está sujeto en virtud de estos Términos, o de que no hagamos valer nuestros derechos o nos demoremos en hacerlo, no implica una renuncia a nuestros derechos y no significará que usted esté exento de cumplir con estas obligaciones. Si renunciamos a tomar acciones por su incumplimiento, ello no constituirá un derecho adquirido, sino el legítimo ejercicio de un derecho facultativo y privativo de la compañía y lo haremos únicamente por escrito y no significará que renunciemos automáticamente a tomar acciones por cualquier incumplimiento posterior cometido por usted.",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    },
+
+    "rich-text#ppf-00-11": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### 10. CONTACTO. \n \n Si tiene cualquier duda sobre estos Términos o sobre el Programa o si tiene alguna queja, póngase en contacto con nuestro Servicio al Cliente al teléfono +56 22 6178801 o email contacto.cl@fashionfitnessgroup.com \n \n POR FAVOR, VISITE EL SITIO WEB WWW.REEBOK.CL CON FRECUENCIA PARA REVISAR CUALQUIER CAMBIO EN ESTOS TÉRMINOS. \n Última actualización: Abril, 2024.",
+            "blockClass": [
+                "landing_inst_content_text",
+                "landing_inst_content_list_normal",
+                "landing_inst_content_list_roman"
+            ]
+        }
+    }
+}

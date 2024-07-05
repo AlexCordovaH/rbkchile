@@ -1,0 +1,133 @@
+{
+  "custom-banner#nano-x4": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-NanoX4-Desktop.jpg",
+      "phoneBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-NanoX4-Mobile.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "LLEGÓ NANO X4",
+          "sx": {
+            "desktop": "banner-headline-bottom cblack mt5 mb1",
+            "tablet": "banner-headline-bottom mr2 cblack tar  mt7",
+            "phone": "banner-headline-bottom Cblack tac"
+          }
+        },
+        {
+          "type": "copy",
+          "text": "Más ligeras, más flexibles y más estables.",
+          "sx": {
+            "desktop": "  cblack",
+            "tablet": " mr2 cblack tar",
+            "phone": " cblack tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "DESCUBRE MÁS",
+            "link": "/reeboknanox4",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2 mr1 fs80",
+              "tablet": "mt3 fs70",
+              "phone": "mt5 fs70"
+            }
+          },
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/nanox4",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt3 fs70",
+              "phone": "mt5 fs70"
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "flex-end"
+      },
+      "sx": {
+        "desktop": "relative t20 r2 tar",
+        "tablet": "relative t5 r2 tar",
+        "phone": "relative t65 tac"
+      }
+    }
+  },
+
+  "flex-layout.row#nano-x4-mobile": {
+    "children": ["flex-layout.col#nano-x4-mobile"],
+    "props": {
+      "blockClass": "nano-x4-mobile"
+    }
+  },
+  "flex-layout.col#nano-x4-mobile": {
+    "children": ["custom-banner#nano-x4-mobile"],
+    "props": {
+      "blockClass": "nano-x4-mobile"
+    }
+  },
+
+  "custom-banner#nano-x4-mobile": {
+    "title": "main-banner",
+    "props": {
+      "desktopBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-NanoX4-Desktop.jpg",
+      "phoneBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-NanoX4-Mobile.jpg",
+      "headlines": [
+        {
+          "type": "headline",
+          "text": "LLEGÓ NANO X4",
+          "sx": {
+            "desktop": "banner-headline-bottom mr2 cblack",
+            "tablet": "banner-headline-bottom mr2 cblack tar",
+            "phone": "banner-headline-bottom tac mb1 cblack"
+          }
+        },
+
+        {
+          "type": "copy",
+          "text": "Más ligeras, más flexibles y más estables.",
+          "sx": {
+            "desktop": "  cblack",
+            "tablet": " mr2 cblack tar",
+            "phone": " cblack tac"
+          }
+        }
+      ],
+      "buttons": {
+        "CTAs": [
+          {
+            "label": "DESCUBRE MÁS",
+            "link": "/reeboknanox4",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt1 fs60 ml7"
+            }
+          },
+          {
+            "label": "COMPRAR AHORA",
+            "link": "/nanox4",
+            "color": "black",
+            "sx": {
+              "desktop": "mt2 fs80",
+              "tablet": "mt5 fs70",
+              "phone": "mt1 fs60 "
+            }
+          }
+        ],
+        "layout": "horizontal",
+        "alignment": "center"
+      },
+      "sx": {
+        "desktop": "relative t44 r8 tar",
+        "tablet": "relative t5 r2 tar",
+        "phone": "relative t65 tac"
+      }
+    }
+  }
+}

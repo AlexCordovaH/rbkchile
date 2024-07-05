@@ -1,0 +1,257 @@
+{
+  /*MOBILE*/
+  /*--------------------------------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------------------------------*/
+  /*Menu MOBILE*/
+  "vtex.menu@2.x:menu#mobile-accordion": {
+    "children": [
+      // "menu-item#ayuda-mobile",
+      // "vtex.menu@2.x:menu#metodos-de-pago",
+      // "menu-item#contactanos-mobile",
+      "menu-item#mobile-productos",
+      "menu-item#mobile-servicio-al-cliente",
+      "menu-item#mobile-acerca-de-reebok"
+      //"menu-item#mobile-nuestros-sitios"
+     // "flex-layout.col#col-5-footer-desktop"
+    ],
+    "props": {
+      "blockClass": "mobile-footer-accordion",
+      "orientation": "vertical"
+    }
+  },
+  
+  "flex-layout.row#newsletter-footer":{
+    "props":{
+      "blockClass": "newsletter-footer"
+    },
+    "children":[
+      "rich-text#message-newsletter-footer"
+    ]
+  },
+
+  /*MENU ITEM ayuda-mobile CATEGORIA*/
+  "menu-item#ayuda-mobile": {
+    "props": {
+      "id": "ayuda-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "AYUDA",
+        "text": "AYUDA"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#ayuda"
+    ]
+  },
+  /*SUBMENU OF ITEM ayuda MOBILE*/
+  "vtex.menu@2.x:submenu.accordion#ayuda": {
+    "children": [
+      "vtex.menu@2.x:menu#accordion-ayuda"
+    ]
+  },
+  /*MENU OF SUBMENU ITEM ayuda MOBILE*/
+  "vtex.menu@2.x:menu#accordion-ayuda": {
+    "children": [
+      "menu-item#component-cambios-devoluciones",
+      "menu-item#component-terminos-y-condiciones",
+      "menu-item#component-politica-de-privacidad"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  /*MENU ITEM contactanos*/
+  "menu-item#contactanos-mobile": {
+    "props": {
+      "id": "menu-item-Acerca-de-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CONTÁCTANOS",
+        "text": "CONTÁCTANOS"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#contactanos"
+    ]
+  },
+  /*SUBMENU OF MENU ITEM contactanos*/
+  "vtex.menu@2.x:submenu.accordion#contactanos": {
+    "children": [
+      "vtex.menu@2.x:menu#accordion-contactanos"
+    ]
+  },
+  /*MENU OF SUBMENU ITEM contactanos*/
+  "vtex.menu@2.x:menu#accordion-contactanos": {
+    "children": [
+      "menu-item#component-email",
+      "menu-item#component-telefono",
+      "flex-layout.row#footer-redes-sociales"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Productos
+  "menu-item#mobile-productos": {
+    "props": {
+      "id": "productos-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/todo-reebok",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-productos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-productos": {
+    "children": [
+      "vtex.menu@2.x:menu#mobile-productos"
+    ]
+  },
+  /*MENU OF SUBMENU ITEM productos MOBILE*/
+  "vtex.menu@2.x:menu#mobile-productos": {
+    "children": [
+      "menu-item#component-calzado",
+      "menu-item#component-ropa",
+      "menu-item#component-accesorios",
+      "menu-item#component-novedades"
+      
+      // "menu-item#component-outlet"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-items-mobile"
+    }
+  },
+  // Servicio al Cliente
+  "menu-item#mobile-servicio-al-cliente": {
+    "props": {
+      "id": "servicio-al-cliente-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Servicio al Cliente",
+        "text": "Servicio al Cliente"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-servicio-al-cliente"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-servicio-al-cliente": {
+    "children": [
+      "vtex.menu@2.x:menu#mobile-servicio-al-cliente"
+    ]
+  },
+  /*MENU OF SUBMENU ITEM servicio al cliente MOBILE*/
+  "vtex.menu@2.x:menu#mobile-servicio-al-cliente": {
+    "children": [
+        "menu-item#component-contacto-reebok",
+        "menu-item#component-preguntas-frecuentes",
+        "menu-item#component-terminos-condiciones",
+        "menu-item#component-seguimiento-de-pedido",
+        // "menu-item#desktop-cyber",
+        //"menu-item#stock-BF-2023",
+        /* "rich-text#tclp-cyber23", */
+        "menu-item#desktop-title-alguna-duda",
+        "menu-item#component-reebok-telefono-new",
+        "menu-item#component-reebok-formulario",
+        "menu-item#component-correo"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Acerca de Reebok
+  "menu-item#mobile-acerca-de-reebok": {
+    "props": {
+      "id": "acerca-de-reebok-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de Reebok",
+        "text": "Acerca de Reebok"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-acerca-de-reebok"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-acerca-de-reebok": {
+    "children": [
+      "vtex.menu@2.x:menu#mobile-acerca-de-reebok"
+    ]
+  },
+  /*MENU OF SUBMENU ITEM acerca de reebok MOBILE*/
+  "vtex.menu@2.x:menu#mobile-acerca-de-reebok": {
+    "children": [
+      "menu-item#component-sobre-nosotros",
+      "menu-item#component-buscador-de-tiendas",
+      "menu-item#component-trabaja-con-nosotros"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+  // Nuestros Sitios
+  // "menu-item#mobile-nuestros-sitios": {
+  //   "props": {
+  //     "id": "nuestros-sitios-mobile-item",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "Nuestros Sitios",
+  //       "text": "Nuestros Sitios"
+  //     },
+  //     "blockClass": "title-menu-footer"
+  //   },
+  //   "blocks": [
+  //     "vtex.menu@2.x:submenu.accordion#mobile-nuestros-sitios"
+  //   ]
+  // },
+  // "vtex.menu@2.x:submenu.accordion#mobile-nuestros-sitios": {
+  //   "children": [
+  //     "vtex.menu@2.x:menu#mobile-nuestros-sitios"
+  //   ]
+  // },
+  /*MENU OF SUBMENU ITEM nuestros sitios MOBILE*/
+  // "vtex.menu@2.x:menu#mobile-nuestros-sitios": {
+  //   "children": [
+  //     "menu-item#component-reebok-chile",
+  //     "menu-item#component-reebok-colombia"
+  //   ],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // }
+}

@@ -1,0 +1,711 @@
+{
+    /*SECCION CALZADO*/
+    "menu-item#submenu-title-mujer-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-zapatillas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/zapatillas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Zapatillas",
+                "text": "Zapatillas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-sandalias": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/sandalias?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Sandalias",
+                "text": "Sandalias "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-basquet": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/basquet?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Básquet",
+                "text": "Básquet "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-entrenamientofuncional": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/entrenamiento-funcional?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-fitnessandtraining": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/fitness-y-training?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Fitness & Training",
+                "text": "Fitness & Training "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-lifestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/classics?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Classics",
+                "text": "Classics "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-running": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/running?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Running",
+                "text": "Running "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-senderismo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/senderismo?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Senderismo",
+                "text": "Senderismo "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-walking": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado/walking?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Walking",
+                "text": "Walking "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-calzado-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/calzado?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver todo Calzado",
+                "text": "Ver todo Calzado "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    /* SECCION ROPA */
+    "menu-item#submenu-title-mujer-ropa": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-conjuntodeportivo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/conjuntos-deportivos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Conjunto Deportivo",
+                "text": "Conjunto Deportivo"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-chaquetas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/chaquetas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-faldasyvestidos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/faldas-y-vestidos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Faldas y Vestidos",
+                "text": "Faldas y Vestidos"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-pantalonesycalzas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/pantalones-y-calzas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Calzas",
+                "text": "Pantalones y Calzas"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-polerones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/polerones?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Polerones",
+                "text": "Polerones"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-poleras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/poleras?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Poleras",
+                "text": "Poleras"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-shorts": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/shorts?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-petosdeportivos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa/petos-deportivos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Petos Deportivos",
+                "text": "Petos Deportivos"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/ropa?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver toda la Ropa",
+                "text": "Ver toda la Ropa "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    /* SECCION ACCESORIOS */
+    "menu-item#submenu-title-mujer-accesorios": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-bolsosymochilas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/bolsos-y-mochilas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Bolsos y Mochilas",
+                "text": "Bolsos y Mochilas"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-botellasdeagua": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/botellas-de-agua?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Botellas de Agua",
+                "text": "Botellas de Agua"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-gorras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/gorras?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Gorras",
+                "text": "Gorras"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-guantes": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/guantes?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Guantes",
+                "text": "Guantes"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-matdeyoga": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/mat-de-yoga?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Mat de Yoga",
+                "text": "Mat de Yoga"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-ropa-calcetines": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/calcetines?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Calcetines",
+                "text": "Calcetines"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-accesorios-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver todos los Accesorios",
+                "text": "Ver Todos los Accesorios "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    /* SECCION COLABORACIONES*/
+    "menu-item#submenu-title-mujer-colaboraciones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer-colaboraciones",
+                "noFollow": false,
+                "tagTitle": "Colaboraciones",
+                "text": "Colaboraciones"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-mujer-link-colaboraciones-cardib": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/cardib",
+                "noFollow": false,
+                "tagTitle": "Cardi B",
+                "text": "Cardi B"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-colaboraciones-nationalgeographic": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/national-geographic",
+                "noFollow": false,
+                "tagTitle": "National Geographic",
+                "text": "National Geographic"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-colaboraciones-powerrangers": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/power-rangers",
+                "noFollow": false,
+                "tagTitle": "Power Rangers",
+                "text": "Power Rangers "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /* SECCION NOVEDADES*/
+    "menu-item#submenu-title-mujer-novedades": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Novedades",
+                "text": "Novedades"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-losmasvendidos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Los Más Vendidos",
+                "text": "Los Más Vendidos"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-lux": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/lux-mujer",
+                "noFollow": false,
+                "tagTitle": "Lux",
+                "text": "Lux"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-reecycled": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ree-cycled-mujer",
+                "noFollow": false,
+                "tagTitle": "[REE]CYCLED",
+                "text": "[REE]CYCLED"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-workoutready": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/workout-ready-mujer",
+                "noFollow": false,
+                "tagTitle": "Workout Ready",
+                "text": "Workout Ready"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-princess": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/princess-mujer",
+                "noFollow": false,
+                "tagTitle": "Princess",
+                "text": "Princess"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-maternidad": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Maternidad",
+                "text": "Maternidad"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-classics": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/classic",
+                "noFollow": false,
+                "tagTitle": "Classics",
+                "text": "Classics"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-classicsleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classics Leather",
+                "text": "Classics Leather"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-nano": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/nano-mujer",
+                "noFollow": false,
+                "tagTitle": "Nano",
+                "text": "NANO"
+            },
+            "blockClass": ["submenu-menu-item", "red-submenu-item"]
+        }
+    },
+    "menu-item#submenu-mujer-link-novedades-zig": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/zig",
+                "noFollow": false,
+                "tagTitle": "Zig",
+                "text": "Zig"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    }
+}

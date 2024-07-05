@@ -1,0 +1,133 @@
+.showLessButton,
+.showMoreButton {
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  top: -27px;
+  position: relative;
+  z-index: 2;
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.showLessButton::after {
+  content: url("https://reebokcl.vteximg.com.br/arquivos/icons8-clasificar-arriba-24.png");
+}
+.showMoreButton::after {
+  content: url("https://reebokcl.vteximg.com.br/arquivos/icons8-clasificar-abajo-24.png");
+}
+
+.imageContainerSecondImage {
+  padding-top: 4px !important;
+}
+.imageContainerthirdImage {
+  padding-top: 5px !important;
+}
+.imageContainerDesktop,
+.imageContainerSecondImage,
+.imageContainerthirdImage {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  padding-top: 1px;
+  margin-bottom: -4px;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.imageContentQuarterImage,
+.imageContentThirdImage,
+.imageContentSecondImage,
+.imageContentfirstImage,
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.imageFirst {
+  zoom: 0.7;
+  transition: transform 0.6s;
+}
+.firstImage,
+.secondImage,
+.thirdImage,
+.quarterImage,
+.imageFirst {
+  transition: transform 0.6s;
+}
+
+.imageFirst:hover {
+  transform: scale(2);
+  z-index: 1;
+  cursor: url(https://reebokcl.vteximg.com.br/arquivos/icon-adidas-cursor-zoom.svg)
+      24 24,
+    auto;
+}
+.firstImage:hover,
+.secondImage:hover,
+.thirdImage:hover,
+.quarterImage:hover {
+  transform: scale(1.5);
+  z-index: 1;
+  cursor: url(https://reebokcl.vteximg.com.br/arquivos/icon-adidas-cursor-zoom.svg)
+      24 24,
+    auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.imageContentQuarterImage:hover .overlay,
+.imageContentThirdImage:hover .overlay,
+.imageContentSecondImage:hover .overlay,
+.imageContentfirstImage:hover .overlay,
+.imageContainer:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 40rem) {
+  .imageContainerSecondImage {
+    padding-top: 1px !important;
+  }
+  .imageContainerSecondImage,
+  .imageContainerthirdImage {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1292px) {
+  .firstImage:hover,
+  .secondImage:hover,
+  .thirdImage:hover,
+  .quarterImage:hover,
+  .imageFirst:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    cursor: url(https://reebokcl.vteximg.com.br/arquivos/icon-adidas-cursor-zoom.svg)
+        24 24,
+      auto;
+  }
+}
+@media all and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+  .imageContainerDesktop {
+    flex-direction: column;
+  }
+}
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  .imageContainerDesktop {
+    flex-direction: column;
+  }
+}
+@media all and (width: 1024px) and (height: 600px) and (orientation: landscape) {
+  .imageContainerDesktop {
+    flex-direction: column;
+  }
+}

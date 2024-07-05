@@ -1,0 +1,360 @@
+{
+    /*Store custom: MUJER - CALZADO */
+    "store.custom#mujer-calzado-sandalias": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-calzado-sandalias"
+        ]
+    },
+    /*Store custom: MUJER - COLABORACIONES */
+    "store.custom#mujer-colaboraciones": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-colaboraciones"
+        ]
+    },
+    "store.custom#mujer-colaboraciones-cardib": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-colaboraciones-cardib"
+        ]
+    },
+    "store.custom#mujer-colaboraciones-nationalgeographic": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-colaboraciones-nationalgeographic"
+        ]
+    },
+    "store.custom#mujer-colaboraciones-powerrangers": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-colaboraciones-powerrangers"
+        ]
+    },
+    /*Store custom: MUJER - NOVEDADES */
+    "store.custom#mujer-novedades": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades"
+        ]
+    },
+    "store.custom#mujer-novedades-losmasvendidos": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-losmasvendidos"
+        ]
+    },
+    "store.custom#mujer-novedades-lux": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-lux"
+        ]
+    },
+    "store.custom#mujer-novedades-reecycled": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-reecycled"
+        ]
+    },
+    "store.custom#mujer-novedades-workoutready": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-workoutready"
+        ]
+    },
+    "store.custom#mujer-novedades-princess": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-princess"
+        ]
+    },
+    "store.custom#mujer-novedades-maternidad": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-maternidad"
+        ]
+    },
+    "store.custom#mujer-novedades-classics": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-classics"
+        ]
+    },
+    "store.custom#mujer-novedades-classicleather": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-classicleather"
+        ]
+    },
+    "store.custom#mujer-novedades-nano": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-nano"
+        ]
+    },
+    "store.custom#mujer-novedades-zig": {
+        "blocks": [
+            "search-result-layout.customQuery#mujer-novedades-zig"
+        ]
+    },
+    /*Search result layout: MUJER - CALZADO */
+    "search-result-layout.customQuery#mujer-calzado-sandalias": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/calzado/Sandalias"/* ,
+                "mapField": "productClusterIds" */
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: MUJER - COLABORACIONES */
+    "search-result-layout.customQuery#mujer-colaboraciones": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "320",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-colaboraciones-cardib": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/cardi-b",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-colaboraciones-nationalgeographic": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/national-geographic",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-colaboraciones-powerrangers": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/power-rangers",
+                "mapField": "colaboracion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    /*Search result layout: MUJER - NOVEDADES */
+    "search-result-layout.customQuery#mujer-novedades": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "184",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-losmasvendidos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "#",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-lux": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/lux",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-reecycled": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/ree-cycled",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-workoutready": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/workout-ready",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-princess": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/princess",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-maternidad": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "#",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-classics": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/classic",
+                "mapField": "categoria-deporte"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-classicleather": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/classic-leather",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-nano": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/nano",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.customQuery#mujer-novedades-zig": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "/mujer/zig",
+                "mapField": "coleccion"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

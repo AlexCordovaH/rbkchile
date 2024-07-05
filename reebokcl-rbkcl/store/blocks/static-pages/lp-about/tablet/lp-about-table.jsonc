@@ -1,0 +1,12 @@
+{
+    "responsive-layout.tablet#lp-about":{
+        "children": [
+            "flex-layout.row#about-banner",
+            "flex-layout.row#que-hacemos",
+            //"image#por-que-lo-hacemos",
+            //"flex-layout.row#por-que-lo-hacemos-texts",
+            "flex-layout.row#por-que-lo-hacemos-tablet",
+            "flex-layout.row#about-last-section"
+        ]
+    }
+}

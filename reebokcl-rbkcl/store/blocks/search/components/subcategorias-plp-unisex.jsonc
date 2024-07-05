@@ -1,0 +1,300 @@
+// ****************fila de subcategorias PLP UNISEX***********
+{
+  "flex-layout.row#slider-subcategorias-unisex": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-unisex"]
+  },
+  "slider-layout#plp-subcategoria-carousel-unisex": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "PLP--subcategoria-carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-unisex",
+      "info-card#plp-second-subcategory-unisex",
+      "info-card#plp-third-subcategory-unisex"
+    ]
+  },
+  "info-card#plp-first-subcategory-unisex": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Calzado",
+      "callToActionUrl": "/unisex/calzado",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Calzado-unisex.jpg",
+      "imageActionUrl": "/unisex/calzado",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-unisex": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Ropa",
+      "callToActionUrl": "/unisex/ropa",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/23SS_BrandCollaborations_L_WF_Interactive-Wallpaper-Tile_PLP_DT-Apparel.jpg",
+      "imageActionUrl": "/unisex/ropa",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-unisex": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Accesorios",
+      "callToActionUrl": "/unisex/accesorios",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Accesorios-unisex.jpg",
+      "imageActionUrl": "/unisex/accesorios",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#slider-subcategorias-unisex-calzado": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-unisex-calzado"]
+  },
+  "slider-layout#plp-subcategoria-carousel-unisex-calzado": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "PLP--subcategoria-carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-unisex-calzado",
+      "info-card#plp-second-subcategory-unisex-calzado",
+      "info-card#plp-third-subcategory-unisex-calzado"
+    ]
+  },
+  "info-card#plp-first-subcategory-unisex-calzado": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Classics",
+      "callToActionUrl": "/unisex/calzado/classics",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Classics.jpg",
+      "imageActionUrl": "/unisex/calzado/classics",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-unisex-calzado": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Entrenamiento funcional",
+      "callToActionUrl": "/unisex/calzado/entrenamiento-funcional",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/EntrenamientoFuncional.jpg",
+      "imageActionUrl": "/unisex/calzado/entrenamiento-funcional",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-unisex-calzado": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Running",
+      "callToActionUrl": "/unisex/calzado/running",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Running.jpg",
+      "imageActionUrl": "/unisex/calzado/running",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#slider-subcategorias-unisex-ropa": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-unisex-ropa"]
+  },
+  "slider-layout#plp-subcategoria-carousel-unisex-ropa": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": ["PLP--subcategoria-carousel","PLP--subcategoria-carousel-ropa"],
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-unisex-ropa",
+      "info-card#plp-second-subcategory-unisex-ropa",
+      "info-card#plp-third-subcategory-unisex-ropa",
+      "info-card#plp-fourth-subcategory-unisex-ropa",
+      "info-card#plp-fifth-subcategory-unisex-ropa"
+    ]
+  },
+  "info-card#plp-first-subcategory-unisex-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Poleras",
+      "callToActionUrl": "/unisex/ropa/poleras",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Camisetas-hombre-unisex.jpg",
+      "imageActionUrl": "/unisex/ropa/poleras",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-unisex-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Shorts",
+      "callToActionUrl": "/unisex/ropa/shorts",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Shorts-hombre-unisex.jpg",
+      "imageActionUrl": "/unisex/ropa/shorts",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-unisex-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Conjuntos Deportivos",
+      "callToActionUrl": "/unisex/ropa/conjuntos-deportivos",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Pantalones-hombre-unisex.jpg",
+      "imageActionUrl": "/unisex/ropa/conjuntos-deportivos",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-fourth-subcategory-unisex-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Chaquetas",
+      "callToActionUrl": "/unisex/ropa/chaquetas",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Chaquetas-hombre-unisex.jpg",
+      "imageActionUrl": "/unisex/ropa/chaquetas",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-fifth-subcategory-unisex-ropa": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Polerones",
+      "callToActionUrl": "/unisex/ropa/polerones",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Sudaderas-hombre-unisex.jpg",
+      "imageActionUrl": "/unisex/ropa/polerones",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#slider-subcategorias-unisex-accesorios": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "plp-menu-subcategoria"
+    },
+    "children": ["slider-layout#plp-subcategoria-carousel-unisex-accesorios"]
+  },
+  "slider-layout#plp-subcategoria-carousel-unisex-accesorios": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 600000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "PLP--subcategoria-carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#plp-first-subcategory-unisex-accesorios",
+      "info-card#plp-second-subcategory-unisex-accesorios",
+      "info-card#plp-third-subcategory-unisex-accesorios"
+    ]
+  },
+  "info-card#plp-first-subcategory-unisex-accesorios": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Calcetines",
+      "callToActionUrl": "/unisex/accesorios/calcetines",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Medias.jpg",
+      "imageActionUrl": "/unisex/accesorios/calcetines",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-second-subcategory-unisex-accesorios": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Bolsos y mochilas",
+      "callToActionUrl": "/unisex/accesorios/bolsos-y-mochilas",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Bolsos.jpg",
+      "imageActionUrl": "/unisex/accesorios/bolsos-y-mochilas",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#plp-third-subcategory-unisex-accesorios": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Gorras",
+      "callToActionUrl": "/unisex/accesorios/gorras",
+      "imageUrl": "https://reebokcol.vtexassets.com/arquivos/Gorras.jpg",
+      "imageActionUrl": "/unisex/accesorios/gorras",
+      "blockClass": ["info-card-plp-subcategory"],
+      "textAlignment": "left"
+    }
+  }
+}

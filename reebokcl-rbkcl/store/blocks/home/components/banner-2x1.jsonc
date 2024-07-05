@@ -1,0 +1,105 @@
+{
+    "flex-layout.col#banner-2x1": {
+        "props": {
+            "blockClass": "main-desktopHome-carousel3"
+        },
+        "children": [
+            "flex-layout.row#image-desktop-2x1",
+            "flex-layout.col#info-banner-2x1"
+        ]
+    },
+    "flex-layout.row#image-desktop-2x1": {
+        "props": {
+            "blockClass": "image-desktopHome-c3"
+        },
+        "children": [
+            "image#image-banner-2x1"
+        ]
+    },
+    "flex-layout.col#info-banner-2x1": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "main-desktopHome-info-carousel3",
+                "main-desktopHome-promo2x1"
+            ]
+        },
+        "children": [
+            "flex-layout.row#titulo-banner-2x1",
+            "flex-layout.row#body-banner-2x1",
+            "flex-layout.row#button-banner-2x1"
+        ]
+    },
+    "flex-layout.row#titulo-banner-2x1": {
+        "props": {
+            "blockClass": "titulo-desktopHome"
+        },
+        "children": [
+            "rich-text#titulo-banner-2x1"
+        ]
+    },
+    "flex-layout.row#body-banner-2x1": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-2x1"
+        ]
+    },
+    "flex-layout.row#body-banner-2x1-mobile": {
+        "props": {
+            "blockClass": "body-desktopHome"
+        },
+        "children": [
+            "rich-text#body-banner-2x1"
+        ]
+    },
+    "flex-layout.row#button-banner-2x1": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome",
+                "buttons-desktopHome-flex"
+            ]
+        },
+        "children": [
+            "flex-layout.col#button-2x1"
+        ]
+    },
+    "flex-layout.col#button-2x1": {
+        "props": {
+            "blockClass": [
+                "buttons-desktopHome-2"
+            ]
+        },
+        "children": [
+            "link#button-2x1"
+        ]
+    },
+    "link#button-2x1": {
+        "props": {
+            "href": "/ofertas",
+            "label": "COMPRAR AHORA",
+            "blockClass": "buttons-desktopHome-2"
+        }
+    },
+    "rich-text#titulo-banner-2x1": {
+        "props": {
+            "blockClass": [
+                "titulo-2x1"
+            ],
+            "text": "# ¡Aprovecha!",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "rich-text#body-banner-2x1": {
+        "props": {
+            "blockClass": [
+                "body-rebook-tunes",
+                "body-rebook-dia-del-padre"
+            ],
+            "textAlignment": "RIGHT",
+            "text": "Por la compra de un artículo a precio regular llévate el segundo, \n de igual o menor precio, GRATIS.\n"
+        }
+    }
+
+}

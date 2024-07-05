@@ -1,0 +1,55 @@
+{
+  //?----Landing Preguntas frecuentes(PF)----?//
+  "store.custom#footer-preguntas-frecuentes": {
+    "blocks": [
+      "flex-layout.row#landing-pf-wrapper"
+    ]
+  },
+
+  //*---- Layout ----*//
+
+  "flex-layout.row#landing-pf-wrapper": {
+      "title":"General wrapper | Preguntas Frecuentes",
+      "props": {
+        "fullWidth":true,
+        "blockClass": "landing_institucional_wrapper"
+      },
+      "children": [ 
+        "flex-layout.col#landing-pf-menu",
+        "flex-layout.col#landing-pf-content"
+      ]
+  },
+  "flex-layout.col#landing-pf-menu": {
+    "title":"Column Menu | Preguntas Frecuentes",
+    "props": {
+      "blockClass": "landing_inst_wrapper_menu",
+      "preventVerticalStretch":true,
+      "preserveLayoutOnMobile":true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-pf-servicio-al-cliente"
+    ]
+  },
+
+  "flex-layout.col#landing-pf-content": {
+    "title":"Column Questions | Preguntas Frecuentes",
+      "props": {
+          "blockClass": "landing_inst_content"
+      },
+      "children": [
+        "rich-text#pf-title",
+        "disclosure-layout-group#landing-pf-questions"
+
+      ]
+  },
+  "rich-text#pf-title": {
+    "title":"Primary Title | Preguntas Frecuentes",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# Preguntas Frecuentes",
+      "blockClass": "landing_inst_content_text"
+    }
+  }
+}
+  

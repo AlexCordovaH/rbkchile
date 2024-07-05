@@ -1,0 +1,145 @@
+{
+    
+    "custom-banner#Harry-potter": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HxR-Desktop.jpg",
+            "phoneBgImageUrl": "/arquivos/HxR-Mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "ENTRA AL MUNDO MÁGICO",
+              "sx": {
+                "desktop": "banner-headline-bottom  cWhite mt5 mb1",
+                "tablet": "banner-headline-bottom mr2 cWhite tar  mt7",
+                "phone": "banner-headline-bottom Cblack tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Transpórtate al mundo de Harry Potter y",
+              "sx": {
+                "desktop": "banner-copy  cWhite",
+                "tablet": "banner-copy mr2 cWhite tar",
+                "phone": "banner-copy cWhite tac"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "déjate encantar con esta colección mágica.",
+              "sx": {
+                "desktop": "banner-copy  cWhite mb1",
+                "tablet": "banner-copy mr2 cWhite tar",
+                "phone": "banner-copy cWhite tac"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "DESCUBRE MÁS",
+                  "link": "/REEBOKXHARRYPOTTER",
+                "sx": {
+                    "desktop": "mt2 mr1 fs80",
+                    "tablet": "mt3 fs70",
+                    "phone": "mt5 fs70"
+                  }
+              },
+              {
+                  "label": "COMPRAR AHORA",
+                  "link": "/HARRYPOTTER",
+                  "sx": {
+                      "desktop": "mt2 fs80",
+                      "tablet": "mt3 fs70",
+                      "phone": "mt5 fs70"
+                    }
+                }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t20 r4 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t65 tac"
+          }
+        }
+    },
+  
+  
+    "flex-layout.row#Harry-potter-mobile":{
+      "children":[
+          "custom-banner#Harry-potter-mobile"
+      ],
+      "props":{
+          "blockClass": "banner-mobile-miembros"
+      }
+  },
+  
+  
+    "custom-banner#Harry-potter-mobile": {
+      "title": "main-banner",
+      "props": {
+        "desktopBgImageUrl": "/arquivos/HxR-Desktop.jpg",
+        "phoneBgImageUrl": "/arquivos/HxR-Mobile.jpg",
+        "headlines": [
+          {
+            "type": "headline",
+            "text": "ENTRA AL MUNDO",
+            "sx": {
+              "desktop": "banner-headline-bottom mr2 cWhite",
+              "tablet": "banner-headline-bottom mr2 cWhite tar",
+              "phone": "banner-headline-bottom tac mb0 cWhite"
+            }
+          },
+          {
+            "type": "headline",
+            "text": "MÁGICO DE HARRY",
+            "sx": {
+              "desktop": "banner-headline-bottom mr2 cWhite",
+              "tablet": "banner-headline-bottom mr2 cWhite tar",
+              "phone": "banner-headline-bottom tac mb0 cWhite"
+            }
+          },
+          {
+            "type": "headline",
+            "text": "POTTER",
+            "sx": {
+              "desktop": "banner-headline-bottom mr2 cWhite",
+              "tablet": "banner-headline-bottom mr2 cWhite tar",
+              "phone": "banner-headline-bottom tac mb0 cWhite"
+            }
+          }
+        ],
+        "buttons": {
+          "CTAs": [
+            {
+              "label": "DESCUBRE MÁS",
+              "link": "/REEBOKXHARRYPOTTER",
+              "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt6 fs70 ml8"
+                }
+            },
+            {
+              "label": "COMPRAR AHORA",
+              "link": "/HARRYPOTTER",
+              "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt6 fs70 "
+                }
+            }
+          ],
+          "layout": "horizontal",
+          "alignment": "center"
+        },
+        "sx": {
+          "desktop": "relative t44 r8 tar",
+          "tablet": "relative t5 r2 tar",
+          "phone": "relative t60 tac"
+        }
+      }
+    }
+}

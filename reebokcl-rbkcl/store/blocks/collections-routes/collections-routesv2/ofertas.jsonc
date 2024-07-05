@@ -1,0 +1,109 @@
+{
+  "store.custom#ofertas": {
+    "blocks": [
+      // "flex-layout.row#banner-ofertas-02-00",
+      //"flex-layout.row#banner-ofertas-02",
+      "search-result-layout.customQuery#ofertas"
+    ]
+  },
+
+  //Banner PLP fondo rojo letras blancas
+  "flex-layout.row#container-banner-ofertas": {
+    "children": [
+      "rich-text#plp-ofertas-text-1",
+      "rich-text#plp-ofertas-text-2",
+      "rich-text#plp-ofertas-text-3"
+    ],
+    "props": {
+      "blockClass": ["text-promocion"]
+    }
+  },
+  "rich-text#plp-ofertas-text-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡APROVECHA!",
+      "blockClass": "text-promocion"
+    }
+  },
+  "rich-text#plp-ofertas-text-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### Por la compra de un artículo a precio regular llévate el segundo, de igual o menor precio, GRATIS",
+      "blockClass": "subtitle-text-promocion"
+    }
+  },
+  "rich-text#plp-ofertas-text-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*Exclusivo para catálogo seleccionado",
+      "blockClass": "subtitle-text-promocion"
+    }
+  },
+
+  //Banner PLP fondo rojo letras blancas
+  "flex-layout.row#banner-ofertas-02": {
+    "children": [
+      "rich-text#ofertas-msg-1"
+      //  "rich-text#ofertas-text-1-1"
+      //   "rich-text#ofertas-text-2",
+      //    "rich-text#ofertas-text-3"
+    ],
+    "props": {
+      "blockClass": ["text-promocion-plp-ofertas"]
+    }
+  },
+  "rich-text#ofertas-msg-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## HASTA 40% + 20% OFF",
+      "blockClass": "subtitle-text-promocion"
+    }
+  },
+
+  "rich-text#ofertas-text-1-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Por la compra de un par de zapatillas, lleva el segundo par de menor precio con 99% de descuento. Aplica a catálogo seleccionado",
+      "blockClass": "text-promocion-plp-ofertas"
+    }
+  },
+  "rich-text#ofertas-text-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### Por la compra de un par de zapatillas, lleva el segundo par de menor precio con 99% de descuento. Aplica a catálogo seleccionado",
+      "blockClass": "subtitle-text-promocion"
+    }
+  },
+  "rich-text#ofertas-text-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*Exclusivo para catálogo seleccionado",
+      "blockClass": "subtitle-text-promocion"
+    }
+  },
+
+  "search-result-layout.customQuery#ofertas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 18,
+        "queryField": "408",
+        "mapField": "productClusterIds"
+      },
+      "blockClass": "wrapper-custom-search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

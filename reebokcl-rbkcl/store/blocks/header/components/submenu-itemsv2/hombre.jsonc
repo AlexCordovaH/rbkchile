@@ -1,0 +1,727 @@
+{
+    /*SECCION CALZADO*/
+    "menu-item#submenu-title-hombre-calzado": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-zapatillas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/zapatillas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Zapatillas",
+                "text": "Zapatillas "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-sandalias": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/sandalias?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Sandalias",
+                "text": "Sandalias "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-basquet": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/basquet?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Básquet",
+                "text": "Básquet "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-entrenamientofuncional": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/entrenamiento-funcional?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-fitnetsandtraining": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/fitness-y-training?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Fitness & Training",
+                "text": "Fitness & Training "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-lifestyle": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/classics?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Classics",
+                "text": "Classics "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-running": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/running?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Running",
+                "text": "Running "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-senderismo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/senderismo?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Senderismo",
+                "text": "Senderismo "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-walking": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado/walking?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Walking",
+                "text": "Walking "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-calzado-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/calzado?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver todo Calzado",
+                "text": "Ver todo Calzado "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    /* SECCION ROPA */
+    "menu-item#submenu-title-hombre-ropa": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-conjuntodeportivo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/conjuntos-deportivos?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Conjunto Deportivo",
+                "text": "Conjunto Deportivo"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-chaquetas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/chaquetas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-pantalonesycalzas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/pantalones-y-leggings?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Calzas",
+                "text": "Pantalones y Calzas"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-polerones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/polerones?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Polerones",
+                "text": "Polerones"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-poleras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/poleras?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Poleras",
+                "text": "Poleras"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-shorts": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/shorts?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver toda la Ropa",
+                "text": "Ver toda la Ropa "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    /* SECCION ACCESORIOS */
+    "menu-item#submenu-title-hombre-accesorios": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-bolsosymochilas": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/bolsos-y-mochilas?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Bolsos y Mochilas",
+                "text": "Bolsos y Mochilas"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-botellasdeagua": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/botellas-de-agua?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Botellas de Agua",
+                "text": "Botellas de Agua"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-gorras": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/gorras?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Gorras",
+                "text": "Gorras"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-guantes": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/guantes?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Guantes",
+                "text": "Guantes"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-matdeyoga": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/mat-de-yoga?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Mat de Yoga",
+                "text": "Mat de Yoga"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-ropa-calcetines": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/calcetines?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Calcetines",
+                "text": "Calcetines"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-accesorios-ver-todo": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios?order=OrderByPriceDESC",
+                "noFollow": false,
+                "tagTitle": "Ver todos los Accesorios",
+                "text": "Ver Todos los Accesorios "
+            },
+            "blockClass": "submenu-menu-item-ver-todo"
+        }
+    },
+    /* SECCION COLABORACIONES*/
+    "menu-item#submenu-title-hombre-colaboraciones": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre-colaboraciones",
+                "noFollow": false,
+                "tagTitle": "Colaboraciones",
+                "text": "Colaboraciones"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-jurassicworld": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jurassic-world-hombre",
+                "noFollow": false,
+                "tagTitle": "Jurassic World",
+                "text": "Jurassic World"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-looneytunes": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/looney-tunes-hombre",
+                "noFollow": false,
+                "tagTitle": "Looney Tunes",
+                "text": "Looney Tunes"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-naoserati": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/nao-serati-hombre",
+                "noFollow": false,
+                "tagTitle": "Nao Serati",
+                "text": "Nao Serati"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-nationalgeographic": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/national-geographic-hombre",
+                "noFollow": false,
+                "tagTitle": "National Geographic",
+                "text": "National Geographic"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-powerrangers": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/power-rangers-hombre",
+                "noFollow": false,
+                "tagTitle": "Power Rangers",
+                "text": "Power Rangers "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-streetfighter": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/street-fighter-hombre",
+                "noFollow": false,
+                "tagTitle": "Street Fighter",
+                "text": "Street Fighter "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-colaboraciones-warnerbros": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/warner-bros-hombre",
+                "noFollow": false,
+                "tagTitle": "Warner Bros",
+                "text": "Warner Bros "
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    /* SECCION NOVEDADES*/
+    "menu-item#submenu-title-hombre-novedades": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre-novedades",
+                "noFollow": false,
+                "tagTitle": "Novedades",
+                "text": "Novedades"
+            },
+            "blockClass": "submenu-item-header-titulo"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-losmasvendidos": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Los Más Vendidos",
+                "text": "Los Más Vendidos"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-unitedbyfitness": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/united-by-fitness",
+                "noFollow": false,
+                "tagTitle": "United by Fitness",
+                "text": "United by Fitness"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-reecycled": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ree-cycled-hombre",
+                "noFollow": false,
+                "tagTitle": "[REE]CYCLED",
+                "text": "[REE]CYCLED"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-workoutready": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/workout-ready",
+                "noFollow": false,
+                "tagTitle": "Workout Ready",
+                "text": "Workout Ready"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-royalcomplete": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/royal-complete",
+                "noFollow": false,
+                "tagTitle": "Royal Complete",
+                "text": "Royal Complete"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-classics": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/classic",
+                "noFollow": false,
+                "tagTitle": "Classics",
+                "text": "Classics"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-classicsleather": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/classic-leather",
+                "noFollow": false,
+                "tagTitle": "Classics Leather",
+                "text": "Classics Leather"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-nano": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/nano",
+                "noFollow": false,
+                "tagTitle": "Nano",
+                "text": "NANO"
+            },
+            "blockClass": ["submenu-menu-item", "red-submenu-item"]
+        }
+    },
+    "menu-item#submenu-hombre-link-novedades-zig": {
+        "props": {
+            "id": "menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/zig",
+                "noFollow": false,
+                "tagTitle": "Zig",
+                "text": "Zig"
+            },
+            "blockClass": "submenu-menu-item"
+        }
+    }
+}

@@ -1,0 +1,277 @@
+{
+    "store.search": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "maxItemsPerPage": 20,
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#brand": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 20,
+                "skusFilter": "ALL",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#department": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "maxItemsPerPage": 20,
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#category": {
+        "blocks": ["search-result-layout#category"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "maxItemsPerPage": 20,
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#subcategory": {
+        "blocks": ["search-result-layout#category"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "maxItemsPerPage": 20,
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "search-result-layout": {
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout#category": {
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "image#huincha-free-shipping-new": {
+        "props": {
+            "src": "/arquivos/LV_FS_Huincha_DESK-new.jpg",
+            "blockClass": "huincha-free-shipping"
+        }
+    },
+
+    "flex-layout.row#orderByAndSwitcher": {
+        "children": ["order-by.v2", "gallery-layout-switcher"],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true,
+            "blockClass": "orderByAndSwitcher",
+            "colGap": 3
+        }
+    },
+
+    "search-fetch-previous": {
+        "props": {
+            "htmlElementForButton": "a"
+        }
+    },
+    "search-fetch-more": {
+        "props": {
+            "htmlElementForButton": "a"
+        }
+    },
+    /* "flex-layout.row#products": {
+    "children": ["search-content"]
+  }, */
+    "search-content": {
+        "blocks": ["gallery", "not-found"]
+    },
+
+    "search-not-found-layout": {
+        "children": [
+            "flex-layout.row#notfound"
+            // "flex-layout.row#retail-rocket-not-found"
+        ]
+    },
+    "flex-layout.row#notfound": {
+        "children": ["flex-layout.col#not-found"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#not-found": {
+        "props": {
+            "blockClass": "content_not_found",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#searchbread",
+            "image#not-found",
+            "rich-text#not-found-title",
+            "rich-text#not-found-text",
+            "flex-layout.row#component-destacados-not-found",
+            "flex-layout.row#mas-vendido-title",
+            "flex-layout.row#component-shelf-productos-destacados-not-found"
+        ]
+    },
+    "image#not-found": {
+        "props": {
+            "title": "image-not-found",
+            "src": "assets/404/illustration-404.svg",
+            "alt": "Image not found",
+            "maxHeight": 88,
+            "maxWidth": 88
+        }
+    },
+    "rich-text#not-found-title": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Lo sentimos, no encontramos ningún resultado",
+            "blockClass": "not_found_title"
+        }
+    },
+
+    "flex-layout.row#component-destacados-not-found": {
+        "props": {
+            "blockClass": ["content-botones-menu","buttons-not-found"],
+            "fullWidth": true
+        },
+        "children": [
+            "link#buttons-desktopHome-calzado-not-found",
+            "link#buttons-desktopHome-ropa-not-found",
+            "link#buttons-desktopHome-accesorios-not-found"
+        ]
+    },
+    "link#buttons-desktopHome-calzado-not-found": {
+        "props": {
+            "href": "/calzado?order=OrderByPriceDESC",
+            "label": "Zapatillas",
+            "blockClass": ["buttons-desktopHome-menu", "buttons-not-found"]
+        }
+    },
+
+    "link#buttons-desktopHome-ropa-not-found": {
+        "props": {
+            "href": "/ropa?order=OrderByReleaseDateDESC",
+            "label": "Ropa",
+            "blockClass": ["buttons-desktopHome-menu", "buttons-not-found"]
+        }
+    },
+
+    "link#buttons-desktopHome-accesorios-not-found": {
+        "props": {
+            "href": "/accesorios?order=OrderByReleaseDateDESC",
+            "label": "Accesorios",
+            "blockClass": ["buttons-desktopHome-menu", "buttons-not-found"]
+        }
+    },
+
+    "flex-layout.row#component-shelf-productos-destacados-not-found": {
+        "children": [
+            "list-context.product-list#component-shelf-productos-destacados-not-found"
+        ],
+        "props": {
+            "marginBottom": 7,
+            "blockClass": [
+                "component-shelf-productos-destacados",
+                "home-principal-row"
+            ]
+        }
+    },
+
+    "list-context.product-list#component-shelf-productos-destacados-not-found": {
+        "blocks": ["product-summary.shelf#wishlist"],
+        "children": ["slider-layout#component-shelf-productos-destacados"],
+        "props": {
+        "collection": "357",
+        "orderBy": "OrderByPriceDESC",
+        "maxItems": 10,
+        "blockClass": "list-contenxt-home"
+        }
+    },
+
+    "rich-text#not-found-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Por favor realiza tu búsqueda nuevamente o revisa las siguientes sugerencias: \n \n ● Revisa la ortografía.\n \n ● Simplifica la búsqueda con palabras similares.",
+            "blockClass": "not_found_txt"
+        }
+    },
+    "link#not-found-go-to-back": {
+        "props": {
+            "href": "/",
+            "displayMode": "button",
+            "blockClass": "btn_not_found_go_to_back",
+            "buttonProps": {
+                "variant": "secondary"
+            },
+            "label": "Volver al Inicio"
+        }
+    },
+    "breadcrumb": {
+        "props": {
+            "showOnMobile": true
+        }
+    },
+    "gallery-layout-switcher": {
+        "children": [
+            /*
+             * For accessbility to work properly,
+             * It's important to define the options in the same order as the layouts
+             */
+            "gallery-layout-option#grid",
+            "gallery-layout-option#list"
+        ]
+    },
+    "gallery-layout-option#grid": {
+        "props": {
+            "name": "grid"
+        },
+        "children": ["icon-grid", "responsive-layout.desktop#textOptionGrid"]
+    },
+    "gallery-layout-option#list": {
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "icon-inline-grid",
+            "responsive-layout.desktop#textOptionList"
+        ]
+    },
+    "responsive-layout.desktop#textOptionGrid": {
+        "children": ["rich-text#option-grid"]
+    },
+    "responsive-layout.desktop#textOptionList": {
+        "children": ["rich-text#option-list"]
+    },
+    "rich-text#option-grid": {
+        "props": {
+            "text": "Grid",
+            "textColor": "c-auto",
+            "blockClass": "layout-option"
+        }
+    },
+    "rich-text#option-list": {
+        "props": {
+            "text": "List",
+            "textColor": "c-auto",
+            "blockClass": "layout-option"
+        }
+    }
+}
+

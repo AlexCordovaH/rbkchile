@@ -1,0 +1,134 @@
+{
+    "vtex.menu@2.x:submenu#v2-unisex": {
+        "props": {
+            "width": "100%",
+            "orientation": "vertical",
+            "blockClass": "submenu-mujer"
+        },
+        "children": [
+            "flex-layout.row#submenu-desktop-v2-unisex"
+        ]
+    },
+    "flex-layout.row#submenu-desktop-v2-unisex": {
+        "props": {
+            "blockClass": "submenu-desktop"
+        },
+        "children": [
+            "flex-layout.row#submenu-v2unisex-padre-row2"
+        ]
+    },
+    "flex-layout.row#submenu-v2unisex-padre-row2": {
+        "props": {
+            "blockClass": "submenu-padre-row2"
+        },
+        "children": [
+            "flex-layout.row#submenu-item-general-v2-unisex-titulos"
+        ]
+    },
+    "flex-layout.row#submenu-item-general-v2-unisex-titulos": {
+        "props": {
+            "blockClass": "submenu-item-general-titulos"
+        },
+        "children": [
+            "flex-layout.col#submenu-item-v2-unisex-calzado",
+            "flex-layout.col#submenu-item-v2-unisex-ropa",
+            "flex-layout.col#submenu-item-v2-unisex-accesorios",
+            "flex-layout.col#submenu-item-v2-unisex-colaboraciones",
+            "flex-layout.col#submenu-item-v2-unisex-novedades"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-unisex-calzado": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-unisex-calzado",
+            "menu-item#submenu-unisex-link-calzado-zapatillas",
+            //"menu-item#submenu-unisex-link-calzado-sandalias",
+            "menu-item#submenu-unisex-link-calzado-basquet",
+            "menu-item#submenu-unisex-link-calzado-entrenamientofuncional",
+            //"menu-item#submenu-unisex-link-calzado-fitnetsandtraining",
+            "menu-item#submenu-unisex-link-calzado-lifestyle",
+            "menu-item#submenu-unisex-link-calzado-running",
+            //"menu-item#submenu-unisex-link-calzado-senderismo",
+            "menu-item#submenu-unisex-link-calzado-walking",
+            "menu-item#submenu-unisex-link-calzado-ver-todo"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-unisex-ropa": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-unisex-ropa",
+            "menu-item#submenu-unisex-link-ropa-chaquetas",
+            "menu-item#submenu-unisex-link-ropa-pantalonesycalzas",
+            "menu-item#submenu-unisex-link-ropa-polerones",
+            "menu-item#submenu-unisex-link-ropa-poleras",
+            "menu-item#submenu-unisex-link-ropa-shorts",
+            "menu-item#submenu-unisex-link-ropa-ver-todo"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-unisex-accesorios": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-unisex-accesorios",
+            "menu-item#submenu-unisex-link-ropa-bolsosymochilas",
+            "menu-item#submenu-unisex-link-ropa-botellasdeagua",
+            "menu-item#submenu-unisex-link-ropa-gorras",
+            "menu-item#submenu-unisex-link-ropa-guantes",
+            "menu-item#submenu-unisex-link-ropa-matdeyoga",
+            "menu-item#submenu-unisex-link-ropa-calcetines",
+            "menu-item#submenu-unisex-link-accesorios-ver-todo"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-unisex-colaboraciones": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-unisex-colaboraciones",
+            "menu-item#submenu-unisex-link-colaboraciones-jurassicworld",
+            "menu-item#submenu-unisex-link-colaboraciones-lacasadepapel",
+            "menu-item#submenu-unisex-link-colaboraciones-looneytunes",
+            "menu-item#submenu-unisex-link-colaboraciones-maharishi",
+            "menu-item#submenu-unisex-link-colaboraciones-maisonmargiela",
+            "menu-item#submenu-unisex-link-colaboraciones-naoserati",
+            "menu-item#submenu-unisex-link-colaboraciones-panini",
+            //"menu-item#submenu-unisex-link-colaboraciones-powerrangers",
+            "menu-item#submenu-unisex-link-colaboraciones-streetfighter"
+            //"menu-item#submenu-unisex-link-colaboraciones-victoriabeckham",
+            //"menu-item#submenu-unisex-link-colaboraciones-warnerbros"
+        ]
+    },
+    "flex-layout.col#submenu-item-v2-unisex-novedades": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "submenu-item-mujer"
+        },
+        "children": [
+            "menu-item#submenu-title-unisex-novedades",
+            // "menu-item#submenu-unisex-link-novedades-nano",
+            //"menu-item#submenu-unisex-link-novedades-losmasvendidos",
+            "menu-item#submenu-unisex-link-novedades-reebokpride",
+            //"menu-item#submenu-unisex-link-novedades-reecycled",
+            //"menu-item#submenu-unisex-link-novedades-workoutready",
+            "menu-item#submenu-unisex-link-novedades-furylite",
+            "menu-item#submenu-unisex-link-novedades-meetyouthere",
+            "menu-item#submenu-unisex-link-novedades-classics",
+            "menu-item#submenu-unisex-link-novedades-classicsleather",
+            "menu-item#submenu-unisex-link-novedades-zig"
+        ]
+    }
+}

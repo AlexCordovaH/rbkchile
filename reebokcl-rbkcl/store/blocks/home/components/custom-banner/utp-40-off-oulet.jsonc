@@ -1,0 +1,84 @@
+{
+    "custom-banner#UTP-40-off-outlet": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/HERO-BANNER-DESKTOP-UTP-40-Off-outlet.png",
+          "phoneBgImageUrl": "/arquivos/HERO-BANNER-MOBILE-UTP-40-Off-outlet.png",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "¡TÚ ELIGES",
+              "sx": {
+                "desktop": "banner-headline mb1",
+                "tablet": "banner-headline mb2 tar",
+                "phone": "banner-headline mb2"
+              }
+            },
+            {
+              "type": "headline",
+              "text": "EL DESCUENTO!",
+              "sx": {
+                "desktop": "banner-headline mb1",
+                "tablet": "banner-headline mb2 tar",
+                "phone": "banner-headline mb2"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Disfruta de hasta 40% OFF.",
+              "sx": {
+                "desktop": "banner-copy",
+                "tablet": "banner-copy tar",
+                "phone": "banner-copy mW90"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Además, por la compra de 2 artículos, recibe 20% adicional. ",
+              "sx": {
+                "desktop": "banner-copy",
+                "tablet": "banner-copy tar",
+                "phone": "banner-copy mW90"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Por la compra de 3 artículos, recibe 30% adicional.",
+              "sx": {
+                "desktop": "banner-copy",
+                "tablet": "banner-copy tar",
+                "phone": "banner-copy mW90"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Aplica sobre catálogo de Outlet.",
+              "sx": {
+                "desktop": "banner-copy",
+                "tablet": "banner-copy tar",
+                "phone": "banner-copy mW90"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR YA",
+                "link": "/outlet",
+                "color": "black",
+                "sx": {
+                  "desktop": "mt2",
+                  "tablet": "mt5",
+                  "phone": "mt5"
+                }
+              }
+            ],
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t30 tar mr5",
+            "tablet": "relative t10 ml56 mW40",
+            "phone": "relative l7 t49"
+          }
+        }
+      }
+}

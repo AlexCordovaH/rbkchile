@@ -1,0 +1,160 @@
+{
+    "custom-banner#mothers-day": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER_DESK-2-Promo-Dia-de-la-Madre-Abril-CL.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER_MOBILE-2-Promo-Dia-de-la-Madre-Abril-CL.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "DESCUENTOS",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr3 cBlack mb0",
+                        "tablet": "banner-headline-bottom mr3 cBlack",
+                        "phone": "banner-headline-bottom cBlack"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": " PARA LA MEJOR",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr3 cBlack mb0",
+                        "tablet": "banner-headline-bottom mr3 cBlack",
+                        "phone": "banner-headline-bottom cBlack"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": "DEL MUNDO",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr3 cBlack",
+                        "tablet": "banner-headline-bottom mr3 cBlack",
+                        "phone": "banner-headline-bottom cBlack"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Hasta 40% OFF y adicional:",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cBlack",
+                        "tablet": "banner-copy mr3 cBlack",
+                        "phone": "banner-copy cBlack dNone"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "20% extra por la compra de 2 productos",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cBlack",
+                        "tablet": "banner-copy mr3 cBlack",
+                        "phone": "banner-copy cBlack dNone"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "10% extra por la compra de 3 productos o más.",
+                    "sx": {
+                        "desktop": "banner-copy mr3 cBlack",
+                        "tablet": "banner-copy mr3 cBlack",
+                        "phone": "banner-copy cBlack dNone"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "COMPRAR",
+                        "link": "/ofertas-regalo-dia-madre",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr2",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 mr17 fs70"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "flex-end"
+            },
+            "sx": {
+                "desktop": "relative t25 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t71 tac"
+            }
+        }
+    },
+    /* mobile */
+    "custom-banner#mothers-day-mob": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "/arquivos/HERO-BANNER_DESK-2-Promo-Dia-de-la-Madre-Abril-CL.jpg",
+            "phoneBgImageUrl": "/arquivos/HERO-BANNER_MOBILE-2-Promo-Dia-de-la-Madre-Abril-CL.jpg",
+            "headlines": [
+                {
+                    "type": "headline",
+                    "text": "DESCUENTOS PARA",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cBlack",
+                        "tablet": "banner-headline-bottom mr2 cBlack",
+                        "phone": "banner-headline-bottom cBlack tac mb1"
+                    }
+                },
+                {
+                    "type": "headline",
+                    "text": " LA MEJOR DEL MUNDO",
+                    "sx": {
+                        "desktop": "banner-headline-bottom mr2 cBlack",
+                        "tablet": "banner-headline-bottom mr2 cBlack",
+                        "phone": "banner-headline-bottom cBlack tac mb2"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "Hasta 40% OFF y adicional:",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cBlack",
+                        "tablet": "banner-copy mr2 cBlack",
+                        "phone": "banner-copy cBlack tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "20% extra por la compra de 2 productos",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cBlack",
+                        "tablet": "banner-copy mr2 cBlack",
+                        "phone": "banner-copy cBlack tac"
+                    }
+                },
+                {
+                    "type": "copy",
+                    "text": "10% extra por la compra de 3 productos o más.",
+                    "sx": {
+                        "desktop": "banner-copy mr2 cBlack",
+                        "tablet": "banner-copy mr2 cBlack",
+                        "phone": "banner-copy cBlack tac"
+                    }
+                }
+            ],
+            "buttons": {
+                "CTAs": [
+                    {
+                        "label": "COMPRAR",
+                        "link": "/ofertas-regalo-dia-madre",
+                        "sx": {
+                            "desktop": "mt2 fs80 mr1",
+                            "tablet": "mt5 fs70",
+                            "phone": "mt5 fs70"
+                        }
+                    }
+                ],
+                "layout": "horizontal",
+                "alignment": "center"
+            },
+            "sx": {
+                "desktop": "relative t30 tar",
+                "tablet": "relative t25 tar",
+                "phone": "relative t60 tac"
+            }
+        }
+    }
+}

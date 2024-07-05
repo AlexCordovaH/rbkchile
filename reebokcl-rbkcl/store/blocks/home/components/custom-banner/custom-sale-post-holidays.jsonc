@@ -1,0 +1,115 @@
+{
+    "custom-banner#custom-sale-post-holidays-act": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/Hero-Banner-SALE-RBK-Desktop.jpg",
+          "phoneBgImageUrl": "/arquivos/Hero-Banner-SALE-RBK-Mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "OFERTAS INCREÍBLES",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2 cWhite",
+                "tablet": "banner-headline-bottom mr2 cWhite",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Aprovecha hasta 50% de descuento",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite",
+                "phone": "banner-copy cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "en catálogo seleccionado",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite",
+                "phone": "banner-copy cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR",
+                "link": "/OFERTAS",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt5 fs70"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-end"
+          },
+          "sx": {
+            "desktop": "relative t25 r2 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t60 tac"
+          }
+        }
+      },
+
+      "custom-banner#custom-sale-post-holidays-mobile-act": {
+        "props": {
+          "desktopBgImageUrl": "/arquivos/Hero-Banner-SALE-RBK-Desktop.jpg",
+          "phoneBgImageUrl": "/arquivos/Hero-Banner-SALE-RBK-Mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "OFERTAS INCREÍBLES",
+              "sx": {
+                "desktop": "banner-headline-bottom mr2 cWhite",
+                "tablet": "banner-headline-bottom mr2 cWhite",
+                "phone": "banner-headline-bottom cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Aprovecha hasta 50% de descuento",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite",
+                "phone": "banner-copy cWhite"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "en catálogo seleccionado",
+              "sx": {
+                "desktop": "banner-copy mr2 cWhite",
+                "tablet": "banner-copy mr2 cWhite",
+                "phone": "banner-copy cWhite"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                "label": "COMPRAR",
+                "link": "/OFERTAS",
+                "color": "white",
+                "sx": {
+                  "desktop": "mt2 fs80",
+                  "tablet": "mt5 fs70",
+                  "phone": "mt5 fs70"
+                }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "center"
+          },
+          "sx": {
+            "desktop": "relative t25 r2 tar",
+            "tablet": "relative t5 r2 tar",
+            "phone": "relative t60 tac"
+          }
+        }
+      }
+}

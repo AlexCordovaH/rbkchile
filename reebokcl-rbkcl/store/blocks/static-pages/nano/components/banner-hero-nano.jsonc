@@ -1,0 +1,99 @@
+{
+    "custom-banner#nano-landing": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-landing-Nano-X4-Desktop.jpg",
+            "phoneBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-landing-Nano-X4-Mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "LLEGÓ NANO X4",
+              "sx": {
+                "desktop": "banner-headline-bottom cWhite mt5 mb1 tal",
+                "tablet": "banner-headline-bottom ml2 cWhite tal mt7",
+                "phone": "banner-headline-bottom cWhite tac fs80"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Las zapatillas oficiales del fitness",
+              "sx": {
+                "desktop": "banner-copy  cWhite mb1 tal",
+                "tablet": "banner-copy ml2 cWhite tal",
+                "phone": "banner-copy cWhite tac fs70"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR",
+                  "link": "/nanox4",
+                  "color": "black",
+                "sx": {
+                    "desktop": "mt2 fs80",
+                    "tablet": "mt3 fs80 ml2",
+                    "phone": "mt5 fs80 ml23"
+                  }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "flex-start"
+          },
+          "sx": {
+            "desktop": "relative t35 tal ml2",
+            "tablet": "relative t25 tal ml2",
+            "phone": "relative t65 tac"
+          }
+        }
+    },
+
+    "custom-banner#nano-landing-mobile": {
+        "title": "main-banner",
+        "props": {
+            "desktopBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-landing-Nano-X4-Desktop.jpg",
+            "phoneBgImageUrl": "https://reebokcol.vteximg.com.br/arquivos/Hero-Banner-landing-Nano-X4-Mobile.jpg",
+          "headlines": [
+            {
+              "type": "headline",
+              "text": "LLEGÓ NANO X4",
+              "sx": {
+                "desktop": "banner-headline-bottom cBlack mt5 mb1 tal",
+                "tablet": "banner-headline-bottom ml2 cBlack tal mt7",
+                "phone": "banner-headline-bottom cBlack tac mb2"
+              }
+            },
+            {
+              "type": "copy",
+              "text": "Las zapatillas oficiales del fitness",
+              "sx": {
+                "desktop": "banner-copy  cBlack mb1 tal",
+                "tablet": "banner-copy ml2 cBlack tal",
+                "phone": "banner-copy cBlack tac"
+              }
+            }
+          ],
+          "buttons": {
+            "CTAs": [
+              {
+                  "label": "COMPRAR",
+                  "link": "/nanox4",
+                  "color": "black",
+                "sx": {
+                    "desktop": "mt2 fs80",
+                    "tablet": "mt3 fs80 ml2",
+                    "phone": "mt5 fs80 ml2"
+                  }
+              }
+            ],
+            "layout": "horizontal",
+            "alignment": "center"
+          },
+          "sx": {
+            "desktop": "relative t35 tal ml2",
+            "tablet": "relative t25 tal ml2",
+            "phone": "relative t65 tac"
+          }
+        }
+    }
+}

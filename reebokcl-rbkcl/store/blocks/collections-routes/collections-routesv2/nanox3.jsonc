@@ -1,0 +1,44 @@
+{
+    "store.custom#nanox3": {
+        "blocks": [
+            "responsive-layout.desktop#banner-desktop-nano3",
+            "responsive-layout.tablet#banner-tablet-nano3",
+            "responsive-layout.phone#banner-phone-nano3",
+            "search-result-layout.customQuery#nanox3"
+        ]
+    },
+
+    "responsive-layout.desktop#banner-desktop-nano3": {
+        "children": [
+            "flex-layout.row#image-desktop-plp-nano-3"
+        ]
+      },
+      "responsive-layout.tablet#banner-tablet-nano3": {
+        "children": [
+            "flex-layout.row#image-desktop-plp-nano-3"
+        ]
+      },
+      "responsive-layout.phone#banner-phone-nano3": {
+        "children": [
+            "flex-layout.row#image-mobile-banner-plp-nano-3"
+        ]
+      },
+
+    "search-result-layout.customQuery#nanox3": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 20,
+                "queryField": "397",
+                "mapField": "productClusterIds"
+            },
+            "blockClass": "wrapper-custom-search"
+        },
+        "blocks": [
+            "search-result-layout.desktop#category",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

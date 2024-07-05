@@ -1,0 +1,93 @@
+{
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "Mis Favoritos"
+    }
+  },
+  "my-account-page.wishlist-page": {
+    "props": {
+      "blockClass":"wishlist_title",
+      "title": "Mis Favoritos"
+    },
+    "children": ["list-context.wishlist"]
+  },
+  "store.wishlist": {
+    "blocks": ["flex-layout.row#top", "list-context.wishlist"]
+  },
+  "flex-layout.row#top": {
+    "children": ["flex-layout.col#title"]
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title"],
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "### Mis Favoritos"
+    }
+  },
+  "list-context.wishlist": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#wishlist"]
+  },
+  "product-summary.shelf#wishlist": {
+    "props": {
+      "blockClass":"pr_summary_wishlist"
+    },
+    "children": [
+      // "vtex.product-highlights@2.x:product-highlights#2x1",
+      "vtex.product-highlights@2.x:product-highlights#cyber-2024",
+      //"vtex.product-highlights@2.x:product-highlights#flag-new",
+      //"vtex.product-highlights@2.x:product-highlights#ultimastallas",
+      "flex-layout.row#pr-summary-img-and-wishlist",
+      "flex-layout.row#pr-summary-info"
+    ]
+  },
+  "flex-layout.row#pr-summary-img-and-wishlist": {
+    "props": {
+      "blockClass": "pr_summary_img_and_wishlist"
+    },
+    "children": [
+      "product-summary-image",
+      "add-to-list-btn"
+    ]
+  },
+  "flex-layout.row#pr-summary-info": {
+    "props": {
+      "blockClass": "pr_summary_info"
+    },
+    "children": [
+      "flex-layout.col#pr-summary-info-content"
+    ]
+  },
+  "flex-layout.col#pr-summary-info-content": {
+      "props": {
+        "blockClass": "pr_summary_info_content"
+      },
+      "children": [
+        "flex-layout.row#product-summary-similar-variants",
+        "product-summary-name",
+        "show-atribute",
+        "product-summary-price",
+        "price-color-switch",
+        "modal-trigger#product-summary-modal-preview"
+      ]
+    },
+  "slider-layout#wishlist": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "wishlist_shelf"
+    }
+  }
+}
